@@ -35,7 +35,8 @@ def fetch_papers() -> list[dict]:
     keywords = CONFIG.get("keyword_filters", [])
     per_cat = CONFIG.get("papers_per_category", 5)
     categories = CONFIG.get("arxiv_categories", [])
-    cutoff = datetime.now(timezone.utc) - timedelta(days=2)
+    lookback_days = CONFIG.get("initial_lookback_days", 2)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
 
     client = arxiv.Client()
     collected = {}

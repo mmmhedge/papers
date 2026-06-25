@@ -35,6 +35,10 @@ keyword_filters:
 # How many papers to fetch per category per day (max)
 papers_per_category: 5
 
+# For the first run, fetch papers from this many days back
+# After the first run, reduce this to 2 to stay current
+initial_lookback_days: 30
+
 # Claude model for summarization
 # claude-haiku-4-5-20251001 = fast & cheap, good for daily volume
 # claude-sonnet-4-6 = higher quality, slower, more expensive
