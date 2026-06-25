@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paper Tracker</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f13; color: #e0e0e0; min-height: 100vh; }
+  header { padding: 1.5rem 2rem; border-bottom: 1px solid #222; display: flex; align-items: center; gap: 1rem; }
+  header h1 { font-size: 1.25rem; font-weight: 600; color: #fff; }
+  header span { color: #666; font-size: 0.85rem; }
+  .layout { display: grid; grid-template-columns: 260px 1fr; height: calc(100vh - 60px); }
+  .sidebar { border-right: 1px solid #1e1e1e; padding: 1rem; overflow-y: auto; background: #0d0d10; }
+  .sidebar h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-bottom: 0.75rem; }
+  .search { width: 100%; background: #1a1a20; border: 1px solid #2a2a35; border-radius: 6px; padding: 0.5rem 0.75rem; color: #e0e0e0; font-size: 0.85rem; outline: none; margin-bottom: 1.25rem; }
+  .search:focus { border-color: #5865f2; }
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+  .tag { padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.72rem; cursor: pointer; background: #1e1e28; border: 1px solid #2e2e3e; color: #aaa; transition: all 0.15s; user-select: none; }
+  .tag:hover, .tag.active { background: #5865f2; border-color: #5865f2; color: #fff; }
+  .tag .count { opacity: 0.6; margin-left: 3px; }
+  .main { overflow-y: auto; padding: 1.5rem 2rem; }
+  .controls { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; }
+  .sort-btn { background: #1a1a20; border: 1px solid #2a2a35; border-radius: 6px; padding: 0.4rem 0.9rem; color: #aaa; font-size: 0.8rem; cursor: pointer; transition: all 0.15s; }
+  .sort-btn.active, .sort-btn:hover { background: #2a2a35; color: #fff; }
+  .result-count { color: #555; font-size: 0.8rem; margin-left: auto; }
+  .papers { display: flex; flex-direction: column; gap: 0.75rem; }
+  .paper-card { background: #14141a; border: 1px solid #1e1e28; border-radius: 10px; padding: 1.1rem 1.25rem; cursor: pointer; transition: border-color 0.15s; }
+  .paper-card:hover { border-color: #3a3a50; }
+  .paper-card.expanded { border-color: #5865f2; }
+  .card-header { display: flex; align-items: flex-start; gap: 0.75rem; }
+  .card-date { font-size: 0.72rem; color: #555; white-space: nowrap; margin-top: 2px; }
+  .card-title { font-size: 0.95rem; font-weight: 500; color: #e8e8e8; line-height: 1.4; }
+  .card-authors { font-size: 0.78rem; color: #666; margin-top: 0.3rem; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.65rem; }
+  .card-tag { padding: 0.15rem 0.5rem; border-radius: 99px; font-size: 0.68rem; background: #1e1e28; color: #888; border: 1px solid #2a2a38; }
+  .card-body { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #1e1e28; display: none; }
+  .card-body.show { display: block; }
+  .card-body p { font-size: 0.85rem; color: #bbb; line-height: 1.65; }
+  .card-links { display: flex; gap: 0.75rem; margin-top: 0.85rem; }
+  .card-links a { font-size: 0.78rem; color: #5865f2; text-decoration: none; }
+  .card-links a:hover { text-decoration: underline; }
+  .empty { text-align: center; padding: 4rem 2rem; color: #555; }
+  .empty h2 { font-size: 1rem; margin-bottom: 0.5rem; color: #666; }
+  .graph-toggle { background: #5865f2; border: none; border-radius: 6px; padding: 0.4rem 0.9rem; color: #fff; font-size: 0.8rem; cursor: pointer; }
+  #graph-container { display: none; position: fixed; inset: 0; background: #0a0a0f; z-index: 100; }
+  #graph-container.show { display: block; }
+  #graph-close { position: absolute; top: 1rem; right: 1rem; background: #1e1e28; border: 1px solid #333; color: #fff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; z-index: 101; }
+  #graph-svg { width: 100%; height: 100%; }
+  .node circle { cursor: pointer; }
+  .node text { font-size: 11px; fill: #aaa; pointer-events: none; }
+  .link { stroke: #2a2a40; stroke-width: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Paper Tracker</h1>
+  <span id="paper-count-header"></span>
+  <button class="graph-toggle" onclick="openGraph()">Tag Graph</button>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <input class="search" id="search" placeholder="Search titles, authors..." oninput="filterPapers()">
+    <h3>Tags</h3>
+    <div class="tag-cloud" id="tag-cloud"></div>
+  </aside>
+  <main class="main">
+    <div class="controls">
+      <button class="sort-btn active" onclick="setSort('date', this)">Newest</button>
+      <button class="sort-btn" onclick="setSort('title', this)">A–Z</button>
+      <span class="result-count" id="result-count"></span>
+    </div>
+    <div class="papers" id="papers"></div>
+  </main>
+</div>
+
+<div id="graph-container">
+  <button id="graph-close" onclick="closeGraph()">✕ Close</button>
+  <svg id="graph-svg"></svg>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+let allPapers = [];
+let activeTags = new Set();
+let sortMode = 'date';
+
+async function loadPapers() {
+  try {
+    const resp = await fetch('papers.json');
+    allPapers = await resp.json();
+    renderTagCloud();
+    filterPapers();
+    document.getElementById('paper-count-header').textContent = `${allPapers.length} papers`;
+  } catch(e) {
+    document.getElementById('papers').innerHTML = '<div class="empty"><h2>No papers loaded yet</h2><p>Run the daily workflow to fetch papers.</p></div>';
+  }
+}
+
+function renderTagCloud() {
+  const tagCount = {};
+  allPapers.forEach(p => (p.tags || []).forEach(t => { tagCount[t] = (tagCount[t]||0) + 1; }));
+  const sorted = Object.entries(tagCount).sort((a,b) => b[1]-a[1]);
+  const cloud = document.getElementById('tag-cloud');
+  cloud.innerHTML = sorted.map(([tag, count]) =>
+    `<span class="tag" data-tag="${tag}" onclick="toggleTag('${tag}')">${tag}<span class="count">${count}</span></span>`
+  ).join('');
+}
+
+function toggleTag(tag) {
+  if (activeTags.has(tag)) activeTags.delete(tag);
+  else activeTags.add(tag);
+  document.querySelectorAll('.tag').forEach(el => {
+    el.classList.toggle('active', activeTags.has(el.dataset.tag));
+  });
+  filterPapers();
+}
+
+function setSort(mode, btn) {
+  sortMode = mode;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterPapers();
+}
+
+function filterPapers() {
+  const query = document.getElementById('search').value.toLowerCase();
+  let filtered = allPapers.filter(p => {
+    const matchQuery = !query ||
+      p.title.toLowerCase().includes(query) ||
+      (p.authors||'').toLowerCase().includes(query) ||
+      (p.tags||[]).some(t => t.includes(query));
+    const matchTags = activeTags.size === 0 ||
+      [...activeTags].every(t => (p.tags||[]).includes(t));
+    return matchQuery && matchTags;
+  });
+
+  if (sortMode === 'date') filtered.sort((a,b) => b.published.localeCompare(a.published));
+  else filtered.sort((a,b) => a.title.localeCompare(b.title));
+
+  document.getElementById('result-count').textContent = `${filtered.length} paper${filtered.length !== 1 ? 's' : ''}`;
+  renderPapers(filtered);
+}
+
+function renderPapers(papers) {
+  const container = document.getElementById('papers');
+  if (!papers.length) {
+    container.innerHTML = '<div class="empty"><h2>No papers match</h2><p>Try different filters.</p></div>';
+    return;
+  }
+  container.innerHTML = papers.map((p, i) => `
+    <div class="paper-card" onclick="toggleCard(${i})">
+      <div class="card-header">
+        <div class="card-date">${p.published ? p.published.slice(0,10) : ''}</div>
+        <div>
+          <div class="card-title">${escHtml(p.title)}</div>
+          <div class="card-authors">${escHtml(p.authors||'')}</div>
+          <div class="card-tags">${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}</div>
+        </div>
+      </div>
+      <div class="card-body" id="body-${i}">
+        <p>${escHtml(p.summary||'')}</p>
+        <div class="card-links">
+          ${p.url ? `<a href="${p.url}" target="_blank">arXiv</a>` : ''}
+          ${p.pdf ? `<a href="${p.pdf}" target="_blank">PDF</a>` : ''}
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleCard(i) {
+  const body = document.getElementById(`body-${i}`);
+  if (body) body.classList.toggle('show');
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Tag graph using D3
+function openGraph() {
+  const container = document.getElementById('graph-container');
+  container.classList.add('show');
+  drawGraph();
+}
+function closeGraph() {
+  document.getElementById('graph-container').classList.remove('show');
+}
+
+function drawGraph() {
+  const svg = d3.select('#graph-svg');
+  svg.selectAll('*').remove();
+  const w = window.innerWidth, h = window.innerHeight;
+
+  const tagCount = {};
+  const coOccur = {};
+  allPapers.forEach(p => {
+    const tags = p.tags || [];
+    tags.forEach(t => { tagCount[t] = (tagCount[t]||0) + 1; });
+    for (let i = 0; i < tags.length; i++) for (let j = i+1; j < tags.length; j++) {
+      const key = [tags[i],tags[j]].sort().join('||');
+      coOccur[key] = (coOccur[key]||0) + 1;
+    }
+  });
+
+  const topTags = Object.entries(tagCount).sort((a,b)=>b[1]-a[1]).slice(0,60).map(([t])=>t);
+  const nodes = topTags.map(id => ({ id, count: tagCount[id] }));
+  const links = Object.entries(coOccur)
+    .filter(([k, v]) => {
+      const [a,b] = k.split('||');
+      return topTags.includes(a) && topTags.includes(b) && v > 0;
+    })
+    .map(([k, value]) => { const [source,target]=k.split('||'); return {source,target,value}; });
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d=>d.id).distance(80))
+    .force('charge', d3.forceManyBody().strength(-120))
+    .force('center', d3.forceCenter(w/2, h/2))
+    .force('collision', d3.forceCollide(30));
+
+  const g = svg.append('g');
+  svg.call(d3.zoom().on('zoom', e => g.attr('transform', e.transform)));
+
+  g.append('g').selectAll('line').data(links).join('line').attr('class','link')
+    .attr('stroke-width', d => Math.sqrt(d.value));
+
+  const node = g.append('g').selectAll('.node').data(nodes).join('g').attr('class','node')
+    .call(d3.drag().on('start', (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (e,d) => { d.fx=e.x; d.fy=e.y; })
+      .on('end', (e,d) => { if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  const color = d3.scaleSequential(d3.interpolateCool).domain([1, Math.max(...Object.values(tagCount))]);
+  node.append('circle').attr('r', d => Math.max(5, Math.min(20, 4 + d.count * 1.5)))
+    .attr('fill', d => color(d.count)).attr('fill-opacity', 0.85);
+  node.append('text').attr('x', 0).attr('y', d => Math.max(5, Math.min(20, 4+d.count*1.5))+12)
+    .attr('text-anchor','middle').text(d=>d.id);
+
+  sim.on('tick', () => {
+    g.selectAll('line').attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+    node.attr('transform', d=>`translate(${d.x},${d.y})`);
+  });
+}
+
+loadPapers();
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+name: Weekly Tag Clustering
+
+on:
+  schedule:
+    - cron: '0 8 * * 0'  # 8am UTC every Sunday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cluster-tags:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cluster and clean up tags
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/cluster_tags.py
+
+      - name: Commit tag updates
+        run: |
+          git config user.name "paper-tracker[bot]"
+          git config user.email "paper-tracker@users.noreply.github.com"
+          git add tags.json papers/
+          git diff --cached --quiet || git commit -m "chore: weekly tag clustering $(date -u +%Y-%m-%d)"
+          git push

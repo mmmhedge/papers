@@ -1,0 +1,48 @@
+# Paper Tracker Configuration
+
+# arXiv categories to fetch from (these are just API filters, not your topic taxonomy)
+arxiv_categories:
+  - cs.AI      # Artificial Intelligence
+  - cs.LG      # Machine Learning
+  - cs.CL      # Computation and Language (NLP/LLMs)
+  - cs.MA      # Multiagent Systems
+  - cs.NE      # Neural and Evolutionary Computing
+  - q-fin.PM   # Portfolio Management
+  - q-fin.TR   # Trading and Market Microstructure
+  - q-fin.CP   # Computational Finance
+  - q-fin.RM   # Risk Management
+  - stat.ML    # Statistics - Machine Learning
+
+# Extra keyword filters applied on top of category results
+# Papers must match at least one keyword (case-insensitive) to be included
+# Leave empty to include all papers from the categories above
+keyword_filters:
+  - mechanistic interpretability
+  - multi-agent
+  - multiagent
+  - reinforcement learning
+  - large language model
+  - transformer
+  - quantitative finance
+  - trading strategy
+  - neural network
+  - foundation model
+  - multimodal
+  - interpretability
+  - alignment
+  - agent
+
+# How many papers to fetch per category per day (max)
+papers_per_category: 5
+
+# Claude model for summarization
+# claude-haiku-4-5-20251001 = fast & cheap, good for daily volume
+# claude-sonnet-4-6 = higher quality, slower, more expensive
+summarization_model: claude-haiku-4-5-20251001
+
+# Weekly tag clustering model (runs once a week, less volume)
+clustering_model: claude-sonnet-4-6
+
+# Telegram settings
+telegram_daily_hour_utc: 8   # Hour to send daily digest (24h UTC)
+spaced_repetition_days: [3, 7, 14, 30]  # Days after which to resurface papers

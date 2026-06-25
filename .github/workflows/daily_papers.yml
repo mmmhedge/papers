@@ -1,0 +1,47 @@
+name: Daily Paper Tracker
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # 7am UTC daily
+  workflow_dispatch:      # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch papers from arXiv
+        run: python scripts/fetch_papers.py /tmp/papers.json
+
+      - name: Summarize papers with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/summarize.py /tmp/papers.json
+
+      - name: Send Telegram digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_digest.py
+
+      - name: Commit new papers and updated tags
+        run: |
+          git config user.name "paper-tracker[bot]"
+          git config user.email "paper-tracker@users.noreply.github.com"
+          git add papers/ tags.json data/
+          git diff --cached --quiet || git commit -m "chore: add papers $(date -u +%Y-%m-%d)"
+          git push
