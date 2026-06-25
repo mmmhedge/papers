@@ -47,7 +47,20 @@ def parse_frontmatter(filepath: Path) -> dict:
     return result
 
 
-def get_papers_added_today() -> list[dict]:
+def get_papers_added_today(processed_file: Path = None) -> list[dict]:
+    # If a processed.json file is passed (from the summarize step), use it directly
+    if processed_file and processed_file.exists():
+        data = json.loads(processed_file.read_text())
+        return [
+            {
+                "title": item["paper"]["title"],
+                "url": item["paper"]["url"],
+                "tags": item.get("tags", []),
+                "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            }
+            for item in data
+        ]
+    # Fallback: scan markdown files
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     papers = []
     for f in PAPERS_DIR.glob("*.md"):
@@ -115,7 +128,9 @@ def main():
         print("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set — skipping Telegram")
         return
 
-    new_papers = get_papers_added_today()
+    import sys
+    processed_file = Path(sys.argv[1]) if len(sys.argv) > 1 else None
+    new_papers = get_papers_added_today(processed_file)
     sr_papers = get_spaced_repetition_papers()
 
     if not new_papers and not sr_papers:
