@@ -4,6 +4,7 @@ import anthropic
 import yaml
 import json
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -11,6 +12,7 @@ ROOT = Path(__file__).parent.parent
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
 PAPERS_DIR = ROOT / "papers"
 TAGS_FILE = ROOT / "tags.json"
+SEEN_FILE = ROOT / "data" / "seen_papers.json"
 
 SYSTEM_PROMPT = """You are a research assistant creating structured knowledge notes in Obsidian markdown format.
 
@@ -115,6 +117,17 @@ tags:
 """
 
 
+def load_seen() -> set:
+    if SEEN_FILE.exists():
+        return set(json.loads(SEEN_FILE.read_text()))
+    return set()
+
+
+def save_seen(seen: set):
+    SEEN_FILE.parent.mkdir(exist_ok=True)
+    SEEN_FILE.write_text(json.dumps(sorted(seen), indent=2))
+
+
 def summarize_paper(client: anthropic.Anthropic, paper: dict, tags_data: dict, model: str) -> str:
     existing_tags = sorted(tags_data["tags"].keys())
     tag_vocab_str = json.dumps(existing_tags, indent=2) if existing_tags else "[]"
@@ -133,13 +146,22 @@ Current tag vocabulary (reuse these when appropriate):
 
 Please create the structured note now."""
 
-    message = client.messages.create(
-        model=model,
-        max_tokens=2000,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
-    return message.content[0].text
+    last_err = None
+    for attempt in range(4):
+        try:
+            message = client.messages.create(
+                model=model,
+                max_tokens=2000,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": user_message}],
+            )
+            return message.content[0].text
+        except (anthropic.APIConnectionError, anthropic.APIStatusError) as e:
+            last_err = e
+            wait = 2 ** attempt
+            print(f"  -> API error (attempt {attempt+1}/4): {type(e).__name__}: {e}. Retrying in {wait}s...")
+            time.sleep(wait)
+    raise last_err
 
 
 def process_papers(papers_file: Path):
@@ -153,6 +175,7 @@ def process_papers(papers_file: Path):
     client = anthropic.Anthropic()
     PAPERS_DIR.mkdir(exist_ok=True)
 
+    seen = load_seen()
     processed = []
     for paper in papers:
         arxiv_id = paper["arxiv_id"]
@@ -162,6 +185,8 @@ def process_papers(papers_file: Path):
 
         if filepath.exists():
             print(f"Skipping (already exists): {filename}")
+            seen.add(paper["id"])
+            save_seen(seen)
             continue
 
         print(f"Summarizing: {paper['title'][:60]}...")
@@ -171,10 +196,12 @@ def process_papers(papers_file: Path):
             update_tag_vocab(tags_data, tags)
             note = paper_to_note(paper, body, tags)
             filepath.write_text(note)
+            seen.add(paper["id"])
+            save_seen(seen)
             print(f"  -> Saved: {filename}")
             processed.append({"paper": paper, "tags": tags, "filename": filename})
         except Exception as e:
-            print(f"  -> Error: {e}")
+            print(f"  -> Error ({type(e).__name__}): {e}")
 
     save_tags(tags_data)
     print(f"\nProcessed {len(processed)} papers. Tag vocab size: {len(tags_data['tags'])}")

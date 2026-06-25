@@ -77,7 +77,7 @@ def fetch_papers() -> list[dict]:
                 if count >= per_cat:
                     break
 
-    save_seen(seen)
+    # Don't save seen here — summarize.py saves seen only after successful write
     papers = list(collected.values())
     print(f"Fetched {len(papers)} new papers")
     return papers
