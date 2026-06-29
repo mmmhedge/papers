@@ -2,465 +2,69 @@
   "aliases": {},
   "last_clustered": null,
   "tags": {
-    "actor-critic": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:45:26.607764+00:00"
-    },
-    "adaptive-control": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:41:57.873019+00:00"
-    },
-    "adversarial-examples": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:50.284209+00:00"
-    },
-    "agent-based-modeling": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:46:42.297032+00:00"
-    },
-    "agentic-ai": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:50:15.571296+00:00"
-    },
-    "analog-hardware": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:39:33.039932+00:00"
-    },
-    "autoencoder": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:39:14.072740+00:00"
-    },
-    "autoregressive-models": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:37:18.893742+00:00"
-    },
-    "bayesian-inference": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:33.606745+00:00"
-    },
-    "blockchain-defi": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:46:42.297558+00:00"
-    },
-    "boltzmann-generators": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:18.893740+00:00"
-    },
-    "calibration": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:50:57.750598+00:00"
-    },
-    "co-evolution": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:44:10.118089+00:00"
-    },
-    "code-generation": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:38:39.760684+00:00"
-    },
-    "cognitive-assessment": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:50.953926+00:00"
-    },
-    "combinatorial-optimization": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:43:13.985329+00:00"
-    },
-    "complex-adaptive-systems": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:43:50.913522+00:00"
-    },
-    "computational-finance": {
+    "agents": {
       "count": 6,
-      "first_seen": "2026-06-28T18:48:04.332630+00:00"
+      "first_seen": ""
     },
-    "computational-social-science": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:40:13.736081+00:00"
+    "algorithmic-trading": {
+      "count": 2,
+      "first_seen": ""
     },
-    "control-theory": {
-      "count": 5,
-      "first_seen": "2026-06-28T18:41:57.873012+00:00"
+    "alignment": {
+      "count": 6,
+      "first_seen": ""
     },
-    "cyber-security": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:41:57.873017+00:00"
-    },
-    "data-assimilation": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:33.606869+00:00"
-    },
-    "data-integration": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:34.075976+00:00"
-    },
-    "decision-theory": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:50:57.750611+00:00"
-    },
-    "decoding-methods": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:38:57.306493+00:00"
+    "computer-vision": {
+      "count": 2,
+      "first_seen": ""
     },
     "deep-learning": {
-      "count": 10,
-      "first_seen": "2026-06-28T18:39:14.072732+00:00"
+      "count": 9,
+      "first_seen": ""
     },
     "derivatives-pricing": {
       "count": 3,
-      "first_seen": "2026-06-28T18:48:04.332618+00:00"
+      "first_seen": ""
     },
-    "differential-privacy": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:15.709597+00:00"
-    },
-    "digital-twins": {
+    "generative-models": {
       "count": 2,
-      "first_seen": "2026-06-28T18:37:50.953934+00:00"
-    },
-    "distributed-systems": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:41:57.873022+00:00"
-    },
-    "distribution-alignment": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:34.076077+00:00"
-    },
-    "domain-adaptation": {
-      "count": 9,
-      "first_seen": "2026-06-28T18:37:34.076049+00:00"
-    },
-    "dynamic-pricing": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:46:42.297570+00:00"
-    },
-    "dynamical-systems": {
-      "count": 6,
-      "first_seen": "2026-06-28T18:39:33.040078+00:00"
-    },
-    "efficient-transformers": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:43:31.084342+00:00"
-    },
-    "elderly-care": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:50.953948+00:00"
-    },
-    "emergent-behavior": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:43:50.913531+00:00"
-    },
-    "energy-efficient-ai": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:39:33.040084+00:00"
-    },
-    "ensemble-methods": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:33.606862+00:00"
-    },
-    "entity-matching": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:34.074327+00:00"
-    },
-    "entity-relation-extraction": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:40:13.736058+00:00"
-    },
-    "financial-modeling": {
-      "count": 10,
-      "first_seen": "2026-06-28T18:45:05.463882+00:00"
-    },
-    "fine-tuning": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:15.709723+00:00"
-    },
-    "game-theory": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:49:14.749745+00:00"
-    },
-    "generative-modeling": {
-      "count": 5,
-      "first_seen": "2026-06-28T18:37:18.893576+00:00"
-    },
-    "genetic-algorithm": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:44:27.382642+00:00"
-    },
-    "gpu-computing": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:47:06.683854+00:00"
-    },
-    "gui-agents": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:07.674514+00:00"
-    },
-    "healthcare-ai": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:50.953833+00:00"
-    },
-    "high-dimensional-geometry": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:50.284339+00:00"
-    },
-    "hypernetwork": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:15.709717+00:00"
-    },
-    "importance-sampling": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:18.893751+00:00"
-    },
-    "incentive-compatibility": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:50:40.856183+00:00"
-    },
-    "information-extraction": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:40:13.736086+00:00"
-    },
-    "insurance-risk": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:49:14.749748+00:00"
-    },
-    "interpretability": {
-      "count": 7,
-      "first_seen": "2026-06-28T18:38:24.025324+00:00"
-    },
-    "inverse-design": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:44:27.382530+00:00"
-    },
-    "knowledge-graphs": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:40:13.736069+00:00"
-    },
-    "language-modeling": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:43:31.084354+00:00"
+      "first_seen": ""
     },
     "large-language-models": {
-      "count": 18,
-      "first_seen": "2026-06-28T18:37:50.953941+00:00"
-    },
-    "linear-attention": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:43:31.084326+00:00"
-    },
-    "low-power-computing": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:39:33.040071+00:00"
-    },
-    "low-resource-learning": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:37:34.076069+00:00"
-    },
-    "machine-learning": {
-      "count": 18,
-      "first_seen": "2026-06-28T18:37:34.076083+00:00"
-    },
-    "market-microstructure": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:46:42.297202+00:00"
-    },
-    "mathematical-finance": {
-      "count": 7,
-      "first_seen": "2026-06-28T18:46:07.908767+00:00"
-    },
-    "mean-field-games": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:47:26.028084+00:00"
-    },
-    "mechanism-design": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:50:40.856048+00:00"
+      "count": 16,
+      "first_seen": ""
     },
     "mechanistic-interpretability": {
       "count": 3,
-      "first_seen": "2026-06-28T18:38:24.025434+00:00"
-    },
-    "memory-mechanisms": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:43:31.084360+00:00"
-    },
-    "memory-safety": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:42:17.481480+00:00"
-    },
-    "meta-optimization": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:43:13.985156+00:00"
-    },
-    "model-validation": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:50:15.571303+00:00"
-    },
-    "molecular-simulation": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:18.893735+00:00"
-    },
-    "monte-carlo-methods": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:48:04.332459+00:00"
+      "first_seen": ""
     },
     "multi-agent-systems": {
-      "count": 14,
-      "first_seen": "2026-06-28T18:41:57.872799+00:00"
+      "count": 13,
+      "first_seen": ""
     },
-    "multilingual-nlp": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:40:13.736075+00:00"
+    "nlp": {
+      "count": 7,
+      "first_seen": ""
     },
-    "multimodal-learning": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:07.674371+00:00"
+    "optimization": {
+      "count": 15,
+      "first_seen": ""
     },
-    "natural-language-processing": {
-      "count": 5,
-      "first_seen": "2026-06-28T18:40:13.735896+00:00"
-    },
-    "neural-networks": {
-      "count": 5,
-      "first_seen": "2026-06-28T18:44:47.212352+00:00"
-    },
-    "normalizing-flows": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:18.893744+00:00"
-    },
-    "optimal-stopping": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:48:20.168272+00:00"
-    },
-    "parallel-computing": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:47:06.683996+00:00"
-    },
-    "pareto-optimality": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:49:14.749662+00:00"
-    },
-    "physics-informed-ml": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:39:33.040059+00:00"
-    },
-    "pomdp": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:50:15.571206+00:00"
-    },
-    "portfolio-optimization": {
-      "count": 3,
-      "first_seen": "2026-06-28T18:46:07.908698+00:00"
-    },
-    "program-synthesis": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:42:17.481314+00:00"
-    },
-    "programming-languages": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:42:17.481488+00:00"
-    },
-    "proper-scoring-rules": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:50:57.750620+00:00"
-    },
-    "protein-folding": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:37:18.893748+00:00"
-    },
-    "recurrent-neural-networks": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:43:31.084162+00:00"
+    "quantitative-finance": {
+      "count": 12,
+      "first_seen": ""
     },
     "reinforcement-learning": {
-      "count": 12,
-      "first_seen": "2026-06-28T18:38:39.760434+00:00"
+      "count": 8,
+      "first_seen": ""
     },
-    "representation-learning": {
+    "risk-management": {
       "count": 6,
-      "first_seen": "2026-06-28T18:38:24.025439+00:00"
+      "first_seen": ""
     },
-    "reproducibility": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:47:47.477746+00:00"
-    },
-    "resilience": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:41:57.873024+00:00"
-    },
-    "reward-shaping": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:38:39.760669+00:00"
-    },
-    "risk-sensitive-optimization": {
-      "count": 7,
-      "first_seen": "2026-06-28T18:45:26.607773+00:00"
-    },
-    "rlhf-alternatives": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:38:39.760695+00:00"
-    },
-    "robustness": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:51:50.284346+00:00"
-    },
-    "scientific-discovery": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:45:47.626278+00:00"
-    },
-    "self-improvement": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:44:10.118035+00:00"
-    },
-    "self-organization": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:43:50.913393+00:00"
-    },
-    "sequence-probability": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:57.306596+00:00"
-    },
-    "simulation": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:44:27.382651+00:00"
-    },
-    "sparse-autoencoders": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:24.025427+00:00"
-    },
-    "statistical-physics": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:37:18.893746+00:00"
-    },
-    "stochastic-control": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:45:26.607624+00:00"
-    },
-    "structural-health-monitoring": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:39:14.072721+00:00"
-    },
-    "symbolic-regression": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:45:47.626148+00:00"
-    },
-    "task-planning": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:07.674521+00:00"
-    },
-    "time-series-forecasting": {
-      "count": 5,
-      "first_seen": "2026-06-28T18:45:05.463767+00:00"
-    },
-    "transfer-learning": {
-      "count": 4,
-      "first_seen": "2026-06-28T18:39:14.072552+00:00"
-    },
-    "uncertainty-quantification": {
-      "count": 2,
-      "first_seen": "2026-06-28T18:50:57.750433+00:00"
-    },
-    "vision-models": {
-      "count": 1,
-      "first_seen": "2026-06-28T18:38:24.025431+00:00"
+    "transformers": {
+      "count": 3,
+      "first_seen": ""
     }
   },
   "version": 1

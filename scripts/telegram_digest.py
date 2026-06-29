@@ -4,6 +4,7 @@ import os
 import json
 import yaml
 import random
+import html
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import urllib.request
@@ -119,12 +120,12 @@ def get_spaced_repetition_papers() -> list[dict]:
 
 
 def format_paper_line(fm: dict) -> str:
-    title = fm.get("title", "Unknown")
+    title = html.escape(fm.get("title", "Unknown"))
     url = fm.get("url", "")
 
     key_takeaway = fm.get("key_takeaway", "").strip()
     summary = fm.get("summary", "").strip()
-    blurb = key_takeaway or summary
+    blurb = html.escape(key_takeaway or summary)
     if len(blurb) > 180:
         blurb = blurb[:177] + "…"
 
@@ -161,7 +162,7 @@ def generate_overview(papers: list[dict]) -> str:
                 )
             }]
         )
-        return msg.content[0].text.strip()
+        return html.escape(msg.content[0].text.strip())
     except Exception as e:
         print(f"Overview generation failed: {e}")
         return ""
