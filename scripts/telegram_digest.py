@@ -126,8 +126,6 @@ def format_paper_line(fm: dict) -> str:
     key_takeaway = fm.get("key_takeaway", "").strip()
     summary = fm.get("summary", "").strip()
     blurb = html.escape(key_takeaway or summary)
-    if len(blurb) > 180:
-        blurb = blurb[:177] + "…"
 
     lines = [f'• <a href="{url}"><b>{title}</b></a>']
     if blurb:
