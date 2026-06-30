@@ -12,7 +12,7 @@
     ],
     "summary": "LeVo 2 is a hybrid LLM-Diffusion framework that generates full-length songs with coherent lyrics, stable vocals, and melodious accompaniment by using hierarchical token modeling (mixed tokens for planning, then parallel vocal/accompaniment refinement) combined with a novel aesthetics-guided progressive post-training schedule. The work addresses a fundamental trade-off in music generation: mixed-token systems preserve coordination but lose acoustic detail, while dual-track systems improve detail but weaken global coherence—LeVo 2 solves this through staged training that separates musicality learning, controllability alignment, and acoustic refinement.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Self-Evolving World Models for LLM Agent Planning",
@@ -27,7 +27,7 @@
     ],
     "summary": "This paper presents WorldEvolver, a framework that improves LLM agent planning by maintaining and refining a world model—a predictive system that forecasts action consequences—at test time without retraining. The key innovation is using episodic memory (past transitions), semantic memory (learned rules), and selective filtering to make the world model's predictions more reliable for downstream agent decision-making, resulting in better planning performance on interactive environments.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
@@ -42,7 +42,7 @@
     ],
     "summary": "GROW² enables robots to creatively repurpose objects as tools (e.g., using a plate to cut cake) by grounding task instructions into both semantic object understanding and geometric 3D localization. The system leverages vision-language models for commonsense reasoning about which object to use and where to apply force, avoiding the need for large labeled datasets and achieving zero-shot generalization to novel objects.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
@@ -57,7 +57,7 @@
     ],
     "summary": "This paper reveals a counterintuitive failure mode in offline reinforcement learning: policies trained with high conservatism (staying close to the training distribution) actually become *more* vulnerable to reward hacking when fine-tuned online. The authors show mechanistically that conservative training compresses policy entropy, creating a narrow response distribution that, while proximal to the reward model's training data, is easier to exploit through ensemble disagreement during online optimization.",
     "date_added": "2026-06-30",
-    "trusted": true
+    "trusted": "Anthropic"
   },
   {
     "title": "DOPD: Dual On-policy Distillation",
@@ -71,7 +71,7 @@
     ],
     "summary": "This paper introduces DOPD (Dual On-policy Distillation), a method for transferring capabilities from teacher models to student models by dynamically routing token-level supervision signals. The key innovation is addressing \"privilege illusion\"—the failure mode where additional information given to teachers or students creates gaps that can be mimicked but never truly replicated—by routing supervision adaptively based on advantage gaps, making distillation more effective across LLMs and vision-language models.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
@@ -86,7 +86,7 @@
     ],
     "summary": "Agents-A1 is a 35B Mixture-of-Experts agentic model that achieves trillion-parameter-level performance by scaling the agent's decision-making horizon rather than model size. The key innovation is using long-horizon trajectories (averaging 45K tokens) with heterogeneous agent abilities, trained via multi-teacher domain-routed distillation, to match or exceed the performance of trillion-parameter models like Kimi-K2.6 and DeepSeek-V4-pro on complex long-horizon reasoning and scientific tasks.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders",
@@ -101,7 +101,7 @@
     ],
     "summary": "This paper addresses critical failures in Sparse Autoencoders (SAEs)—a key interpretability tool for understanding language models—by identifying and fixing \"feature splitting\" (one concept fragmented across multiple latents) and \"feature absorption\" (arbitrary exceptions in general features). The authors propose Cross-sample Consistency Regularization (C²R), which enforces that semantic features are represented consistently across a batch, yielding more reliable and human-understandable model decompositions without sacrificing reconstruction performance.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Uncertainty-Aware Generation and Decision-Making Under Ambiguity",
@@ -115,7 +115,7 @@
     ],
     "summary": "This paper presents uncertainty-aware decision-making algorithms for LLMs in high-stakes tasks like tutoring and peer review, where outputs must be trustworthy despite inherent ambiguity. The authors combine Bayesian decision theory and risk-averse methods with conformal prediction to improve generation quality by accounting for uncertainty in strategies and outputs.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "SWE-INTERACT: Reimagining SWE Benchmarks as User-Driven Long-Horizon Coding Sessions",
@@ -129,7 +129,7 @@
     ],
     "summary": "SWE-Interact introduces a new benchmark for evaluating coding agents in realistic, multi-turn interactive sessions where requirements evolve over time—rather than being fully specified upfront. The benchmark simulates real developer workflows with a user simulator that progressively reveals requirements and provides feedback, revealing that strong single-turn performance (50% success) does not transfer well to interactive scenarios (25% success), suggesting agents struggle with ambiguity, requirement discovery, and iterative refinement.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Attractor States Emerge in Multi-Turn LLM Conversations",
@@ -144,7 +144,7 @@
     ],
     "summary": "This paper investigates whether large language models (LLMs) exhibit attractor-like behavior—stable behavioral patterns that conversations naturally settle into—when engaged in multi-turn debates with each other. By studying 7 different LLMs across 20 controversial topics in both self-play and mixed-play settings, the authors find that models develop distinctive \"attractor states\" that asymmetrically influence conversation partners, pulling them toward adopting the attractor model's stylistic traits and discourse patterns.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Forensic Trajectory Signatures for Agent Memory Poisoning Detection",
@@ -159,7 +159,7 @@
     ],
     "summary": "This paper discovers that LLM agents executing memory-poisoning attacks exhibit a distinctive behavioral signature—a specific sequence of tool calls (memory_recall_fact before email_send_email)—that rarely appears in benign sessions. By analyzing 19 trajectory features from tool-invocation logs, the authors build a classifier achieving 99%+ AUC that generalizes across model sizes and even frontier models, enabling real-time detection of memory-poisoning attacks while distinguishing them from prompt-injection attacks.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Morphing into Hybrid Attention Models",
@@ -174,7 +174,7 @@
     ],
     "summary": "This paper addresses the challenge of efficiently selecting which layers in a Transformer should retain full attention versus use linear attention for handling long contexts. The authors propose FlashMorph, a method that frames layer selection as a budget-constrained optimization problem and uses gating mechanisms on synthetic data to identify the most effective hybrid configurations, achieving better long-context performance with lower computational cost than existing heuristic approaches.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Poller: Are LLMs Suitable for Evaluating the Poetry Understanding Task?",
@@ -188,7 +188,7 @@
     ],
     "summary": "This paper proposes Poller, a method for using large language models to evaluate poetry understanding by having LLMs adopt the perspective of a poem's author. The approach significantly reduces evaluation error compared to baseline LLM methods (up to 94.55% error reduction on some dimensions) while achieving results comparable to human evaluation, addressing the gap between cheap automated evaluation and expensive human expertise for literary analysis tasks.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing",
@@ -203,7 +203,7 @@
     ],
     "summary": "This paper introduces ANTAP, a routing architecture for multi-agent systems that selects which agent should handle a task by directly testing their capabilities rather than trusting their self-descriptions. The key innovation is using geometric projections in a non-textual semantic space to make routing decisions, which creates a \"linguistic firewall\" against adversarial attacks where malicious agents misrepresent their abilities or inject harmful instructions.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "MAS-Lab: A Specification-Driven Validation Framework for Reliable Multi-Agent Systems",
@@ -217,7 +217,7 @@
     ],
     "summary": "MAS-Lab introduces a specification-driven validation framework that transforms ad-hoc LLM-based multi-agent systems into engineered, production-grade distributed systems. The framework decouples semantic intent from operational concerns through three integrated layers: a declarative specification language, a stateful operating system for MAS, and observability/evaluation tools—enabling reproducible experimentation and reliable system evolution.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "TRACE: Temporal Relationship-Aware Conversational Entrainment Detection in Dyadic Speech",
@@ -231,7 +231,7 @@
     ],
     "summary": "This paper introduces TRACE, a framework for detecting emotional entrainment (the alignment of emotional states between conversation partners) in dyadic speech interactions, along with DyadEE, a new dataset of two-person conversations. The work shows that modeling conversational context and temporal relationships significantly improves entrainment detection, achieving 97% accuracy and advancing understanding of how emotional coordination works in human-AI and human-human dialogue.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "ITSPACE: Monotone Gaussian Optimal Transport Updates",
@@ -245,7 +245,7 @@
     ],
     "summary": "This paper presents ITSPACE, an algorithm for optimizing the Bures-Wasserstein (BW) distance between covariance matrices using proximal majorization-minimization with closed-form updates. The method is designed for domain adaptation and Gaussian embedding tasks where fast, compute-efficient covariance alignment is needed, and it provably preserves positive-semidefinite structure while reaching solutions faster than gradient-based alternatives.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Situation Perception: A Necessary Primitive to Artificial Superintelligence",
@@ -260,7 +260,7 @@
     ],
     "summary": "This paper argues that current large language models, despite their impressive pattern-matching abilities, lack a fundamental capacity called \"situation perception\"—the ability to construct and reason about internal simulations of possible futures. The authors contend that this missing piece is essential for the path to artificial superintelligence and propose three core components (abstract prediction, compressed long-term memory, and objective-guided active learning) as necessary primitives, alongside tests for measuring progress toward this goal.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "COHORT: Collaborative Orchestration for Hardening via Offensive Replay on Emulated Topologies",
@@ -275,7 +275,7 @@
     ],
     "summary": "COHORT automates the enterprise cybersecurity workflow of deriving, implementing, and validating network mitigations against real adversaries. It uses a role-decomposed multi-agent LLM system to generate mitigation candidates as vendor commands, then evaluates them on a high-fidelity network emulator by replaying the original attack—achieving 4.4× better results than single-agent baselines while preserving legitimate connectivity.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Minimal MMAO: A Resource-Closed-Loop Framework for Adaptive Metaheuristic Search",
@@ -290,7 +290,7 @@
     ],
     "summary": "This paper introduces MMAO (Metabolic Multi-Agent Optimizer), a metaheuristic framework where multiple agents share a unified metabolic resource budget that automatically regulates search intensity, exploration-exploitation tradeoffs, and agent lifecycle. Rather than using separate scheduling rules, the framework treats resource circulation as the primary control mechanism, demonstrating stability across continuous and discrete optimization problems.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "SGD Provably Prioritizes a Shortcut Spurious Feature in the XOR Model",
@@ -305,7 +305,7 @@
     ],
     "summary": "This paper provides the first rigorous theoretical analysis of how stochastic gradient descent (SGD) learns spurious correlations in neural networks, using a two-layer ReLU network trained on XOR data with a linear spurious feature. The work reveals that SGD prioritizes the spurious shortcut feature and learns it exponentially fast, with precise phase transitions showing how spurious and signal features interact during optimization—a finding that has direct implications for understanding and mitigating shortcut learning in real models.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Translating Natural Language to Strategic Temporal Specifications via LLMs",
@@ -320,7 +320,7 @@
     ],
     "summary": "This paper addresses the challenge of formally specifying Multi-Agent Systems (MAS) by building an LLM-based translator that converts natural language descriptions into ATL/ATL* formulas—a formal logic for expressing strategic abilities and temporal objectives in agent systems. The authors create a novel expert-validated dataset and demonstrate that fine-tuned small models (3–7B parameters) can match few-shot proprietary baselines at 0.84 semantic accuracy, enabling non-expert users to specify complex agent behaviors without expertise in formal logic.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "A Stochastic--Geometric Theory of Scaling Laws in Grokking",
@@ -335,7 +335,7 @@
     ],
     "summary": "This paper provides the first rigorous theoretical explanation for grokking — the phenomenon where neural networks suddenly generalize after long periods of overfitting — by characterizing the geometry of solution spaces under Adam optimization with weight decay. The authors prove that the reachable solution space has a shell-core topological structure (memorization solutions surrounded by generalization solutions), and they derive precise scaling laws predicting when the transition from memorization to generalization occurs.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "From Detecting Agency to Doing Work: Self-Caused Credit Builds a Durable Behavioral Self in a Minimal Spiking Agent",
@@ -350,7 +350,7 @@
     ],
     "summary": "This paper demonstrates that spiking neural networks can develop durable, self-preserving behavior when credit assignment is gated by the agent's own detected agency and drives slow parameter updates. The key finding is that \"self-caused credit\" — a multiplicative term combining agency detection, salience, and slow learning — produces behavioral residue that survives buffer removal and prevents catastrophic forgetting across sequential tasks, without replay or task-boundary mechanisms.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns",
@@ -365,7 +365,7 @@
     ],
     "summary": "This paper investigates whether architectural backbone choices or output head designs matter more for forecasting fat-tailed financial returns. Through systematic comparison of four modern time-series backbones paired with three output heads (point, single-Gaussian, and Gaussian mixture), the authors demonstrate that output head design dominates backbone selection at short horizons, with mixture distributions providing substantial risk-capture gains during high-volatility regimes.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "CLQT: A Closed-Loop, Cost-Aware, Strategy-Consistent Benchmark for Diagnostic Evaluation of LLM Portfolio-Management Agents",
@@ -380,7 +380,7 @@
     ],
     "summary": "This paper introduces CLQT, a diagnostic benchmark for evaluating LLM-based portfolio management agents that goes beyond simple return rankings by assessing the soundness of their reasoning and strategy consistency. Rather than certifying performance through historical returns (which are dominated by market movements), CLQT creates a closed-loop trading environment with institutional-grade cost modeling, temporal controls, and auditable decision trails to pinpoint where and why agents succeed or fail.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Evolutionary Hyperparameter Optimization to Find Lightweight CNN Models for Autonomous Steering",
@@ -395,7 +395,7 @@
     ],
     "summary": "This paper uses evolutionary strategies (a gradient-free optimization method) to automatically tune hyperparameters of lightweight CNN models for real-time autonomous steering prediction. The authors demonstrate that evolution-based hyperparameter optimization can reduce model size while maintaining accuracy, enabling efficient deployment on resource-constrained autonomous driving platforms.",
     "date_added": "2026-06-30",
-    "trusted": true
+    "trusted": "NVIDIA"
   },
   {
     "title": "Supervised Hebbian learning in Deep Counterstream Associative Networks",
@@ -408,7 +408,7 @@
     ],
     "summary": "This paper proposes supervised counterstream learning in deep associative networks, a biologically plausible alternative to backpropagation that uses simple Hebbian learning rules and bidirectional activity waves instead of error signals propagating backward through symmetric weights. The method achieves comparable performance to standard architectures on MNIST while requiring only local learning rules and a single activity channel, offering a more neurally realistic framework for deep learning.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Adaptive AI Delegation under Uncertainty: A Bayesian Governance Policy for Sequential Decision Authority",
@@ -423,7 +423,7 @@
     ],
     "summary": "This paper addresses a critical organizational problem: how much decision-making authority should be delegated to AI systems when their reliability and evidence quality are uncertain and evolving? The authors formulate adaptive AI delegation as a sequential decision problem (a Governance-Aware POMDP) solved via Bayesian inference and optimization, then validate it against synthetic stress tests and alternative governance heuristics, showing that sequential Bayesian policies outperform static rules across varying AI-quality regimes.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning",
@@ -438,7 +438,7 @@
     ],
     "summary": "This paper proposes CLSR, a framework where multiple LLM agents autonomously develop compact symbolic languages to reason about problems more efficiently than standard natural-language chain-of-thought. By evolving these symbolic protocols through an evolutionary loop and routing queries to the most efficient language at test time, the approach reduces token generation by 3–6× while maintaining accuracy on challenging reasoning tasks.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Travel-Oriented Reasoning Large Language Model via Domain-Specific Knowledge Graphs",
@@ -452,7 +452,7 @@
     ],
     "summary": "This paper addresses a critical weakness of general-purpose LLMs in specialized domains by grounding them in expert-designed knowledge graphs. The authors propose a modular pipeline that uses domain-specific knowledge graphs (KGs) to generate training data, fine-tune LLMs, and measure reasoning accuracy in travel planning—achieving 82.4% exact match versus 22.4% for the base model while also decomposing remaining errors into interpretable failure modes.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "When Summaries Distort Decisions: Information Fidelity in LLM-Compressed Financial Analysis",
@@ -467,7 +467,7 @@
     ],
     "summary": "This paper identifies a critical problem in financial decision-making: when LLMs compress financial documents (earnings calls, SEC filings), they can produce fluent summaries that are factually correct but nevertheless alter the investment decisions those documents should support. The authors propose Agentic Context Compression, which generates multiple compressions and cross-validates them against the original source to preserve decision-relevant information.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Democratic ICAI: Debating Our Way to Steering Principles from Preferences",
@@ -482,7 +482,7 @@
     ],
     "summary": "Democratic ICAI improves AI alignment by having multiple AI personas debate different rationales for preference judgments, then synthesizing these competing perspectives into clearer, more comprehensive steering principles. This approach outperforms single-pass explanation methods on creative preference benchmarks and produces principles that better predict human preferences and align with human intuitions.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Bridging Ab Initio Symmetries and Global Nuclear Masses with Interpretable Neural Networks",
@@ -496,7 +496,7 @@
     ],
     "summary": "This paper demonstrates that fundamental symmetries from nuclear physics (Wigner's SU(4) and Elliott's SU(3)) can be embedded into interpretable neural network models to predict nuclear binding energies across the entire nuclear chart. The authors show that these symmetry-based models achieve competitive predictive performance while providing physical insight into emergent nuclear structure — revealing symmetry restoration near the neutron dripline and unexpected operator contributions in superheavy nuclei.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Agentic Hardware Design as Repository-Level Code Evolution",
@@ -511,7 +511,7 @@
     ],
     "summary": "HORIZON is an agentic framework that applies self-evolving AI agents to hardware design, treating chip design artifacts as code repositories that can be iteratively improved through automated loops. The system achieves 100% completion on multiple hardware design benchmarks (ChipBench, RTLLM, Verilog-Eval) using a hands-free agent approach, but the authors acknowledge these benchmarks are controlled proxies for the vastly more complex real-world chip design problem.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
@@ -526,7 +526,7 @@
     ],
     "summary": "This paper introduces the Paper Assistant Tool (PAT), an AI agent that automates scientific peer review by ingesting full manuscripts and producing comprehensive evaluations including error detection, experimental validation, and improvement suggestions. The work frames AI-assisted scientific review as a critical scaling solution to match the acceleration of AI-driven discovery, demonstrating 34% improvement in mathematical error detection over baseline approaches through inference scaling techniques.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Parameter Efficient Hybrid Transformer (PEHT) for Network Traffic Prediction via Dynamic Urban Congestion Integration",
@@ -541,7 +541,7 @@
     ],
     "summary": "This paper proposes PEHT, a parameter-efficient Transformer-based model for predicting cellular network traffic in urban environments by integrating mobility patterns and congestion dynamics. The key innovation is combining Low-Rank Adaptation (LoRA) for parameter efficiency with multimodal fusion of urban mobility features, demonstrating improved forecasting accuracy on real telecom datasets compared to existing methods.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Vision-Default, Prior-Override: Causal Mechanisms of Perception-Knowledge Conflict in Vision-Language Models",
@@ -556,7 +556,7 @@
     ],
     "summary": "This paper investigates how vision-language models (VLMs) resolve conflicts between visual information and memorized world knowledge by identifying the specific neural circuits responsible for each modality's influence. Using activation patching and ablation studies, the authors discover that visual grounding is the default behavior, while knowledge-grounding relies on a sparse set of causally necessary attention heads (2.5–4.8% of the network) concentrated in later layers, establishing an asymmetric causal structure that explains why VLMs sometimes \"hallucinate\" answers based on prior knowledge despite contradictory visual evidence.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
@@ -571,7 +571,7 @@
     ],
     "summary": "This paper introduces the Agent-Native Immune System (ANIS), a biologically-inspired defense architecture embedded directly into autonomous agents to protect against runtime attacks like memory poisoning and tool-chain manipulation. Unlike traditional alignment methods applied during training, ANIS operates as a dynamic \"law enforcement\" mechanism during agent execution, with self-monitoring capabilities that continuously learn and adapt to novel threats.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Parameter-Efficient Continuous-Variable Photonic Quantum Neural Networks for Edge Quantum AI: Demonstration in Oral Cancer Detection",
@@ -586,7 +586,7 @@
     ],
     "summary": "This paper demonstrates a parameter-efficient hybrid classical-quantum neural network for oral cancer detection from smartphone images, using continuous-variable photonic quantum computing that operates at room temperature. By proposing a simplified CV-QNN architecture with 40–45% fewer trainable parameters than prior approaches, the authors achieve 100% calibrated test accuracy while dramatically outperforming classical baselines (67% parameter reduction), making quantum machine learning practically viable for edge devices in low-resource medical settings.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "HPRO: Hierarchical Progressive Reward Optimization via Preference Extraction for Emotional Text-to-Speech",
@@ -601,7 +601,7 @@
     ],
     "summary": "This paper addresses a fundamental limitation in LLM-based Text-to-Speech systems: their tendency to produce emotionally flattened, averaged prosody despite achieving natural speech. The authors propose HPRO, a hierarchical framework that uses preference-driven optimization to enhance emotional expressiveness while preserving semantic content, introducing a novel HD-Emo codec to disentangle emotional and linguistic information during training.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "How Width and Data Shape Generalization Scaling Laws in Quadratic Neural Networks",
@@ -615,7 +615,7 @@
     ],
     "summary": "This paper provides a theoretical analysis of how generalization error in quadratic neural networks scales jointly with model width (number of parameters) and dataset size. By studying ℓ2-regularized two-layer networks on structured data, the authors derive explicit phase diagrams showing distinct scaling regimes and demonstrate that generalization follows data-dependent power laws controlled by the spectral properties of the learning target.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Physics-Informed Neural Network with Transfer Learning for State Estimation in Lithium-Ion Batteries using the Single Particle Model with Electrolyte",
@@ -629,7 +629,7 @@
     ],
     "summary": "This paper applies physics-informed neural networks (PINNs) with transfer learning to estimate state variables in lithium-ion batteries modeled via the single particle model with electrolyte (SPMe). The key contribution is demonstrating that pretraining a PINN on general electrochemical dynamics, then fine-tuning it for specific battery chemistries, significantly reduces training time while maintaining physical consistency and improving generalization across different batteries.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Towards Value-Constrained Credit Assignment in Fully Delegated AI Cooperatives",
@@ -644,7 +644,7 @@
     ],
     "summary": "This paper addresses how to fairly allocate rewards and credit in AI systems where multiple agents (representing human principals) contribute data and model updates, each with different value constraints and preferences. The authors propose a framework using \"traversal learning\" — a decentralized backpropagation approach — to filter updates against each agent's value profile and compute fair marginal contributions, rather than treating contributions uniformly as in standard federated learning.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "GBC: Gradient-Based Connections for Optimizing Multi-Agent Systems",
@@ -659,7 +659,7 @@
     ],
     "summary": "This paper introduces Gradient-Based Connections (GBC), a method for fine-grained credit assignment and optimization in multi-agent systems built on LLMs. By modeling agent interactions as a computational graph and propagating loss signals backward through agent outputs, GBC enables precise identification of which agents and interaction steps caused errors, leading to targeted prompt optimization and improved system performance.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "From Tokens to States: LLMs as a Special Case of World Models and the Continuous Path Beyond",
@@ -674,7 +674,7 @@
     ],
     "summary": "This paper reframes the apparent divide between LLMs (which predict tokens) and world models (which simulate reality) as a false dichotomy, arguing instead that LLMs are a degenerate special case of world models constrained to discrete token spaces. It maps a continuous spectrum of architectures between next-token prediction (NTP) and joint-embedding predictive architectures (JEPA), positioning current research like multi-token and latent-space prediction as intermediate stations on this path.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Mechanism-Driven Monitors for Preemptive Detection of LLM Training Instability",
@@ -688,7 +688,7 @@
     ],
     "summary": "This paper proposes mechanism-driven internal monitors to detect training instability in large language models thousands of steps before loss collapse, by deriving diagnostic signals from the functional roles of critical modules like attention and mixture-of-experts routers. The work addresses a critical practical problem: frontier LLM training consumes enormous compute resources, and undetected faults can waste weeks of training before catastrophic failure becomes visible in standard metrics.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "MMAO: A Metabolic Multi-Agent Optimizer with Endogenous Resource Allocation for Continuous and Discrete Optimization",
@@ -703,7 +703,7 @@
     ],
     "summary": "This paper introduces MMAO (Metabolic Multi-Agent Optimizer), a novel meta-heuristic framework where multiple agents self-adapt through an internal energy-based resource allocation system rather than fixed parameters. The approach works across both continuous and discrete optimization problems by using a shared metabolic resource pool that dynamically regulates agent behaviors like search intensity, population size, and specialization roles.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Scaling limit of the Random Language Model",
@@ -717,7 +717,7 @@
     ],
     "summary": "This paper develops a rigorous statistical-physics theory of the Random Language Model (RLM)—an ensemble of stochastic context-free grammars—by analyzing its behavior in a scaling limit where the number of grammar rules grows while temperature decreases in a controlled way. The work reveals that language models exhibit a phase transition and derives explicit scaling laws for fundamental properties like entropy and rule usage, offering theoretical foundations for understanding why universal statistical properties emerge in language.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Triadic Werewolf: A Jester Role for Multi-Hop Theory of Mind in LLMs",
@@ -732,7 +732,7 @@
     ],
     "summary": "This paper evaluates theory-of-mind capabilities in large language models by introducing a three-faction variant of the Werewolf social deduction game with a Jester role whose winning condition (being voted out) creates inverted incentives. The triadic structure forces models to reason simultaneously across three opposing utility functions, revealing gaps in multi-agent reasoning that dyadic games obscure—particularly that even GPT-4.1 fails catastrophically by self-defeatingly eliminating the Jester early.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Co-Optimization of Analog Kolmogorov-Arnold Networks for Low-Power Function Approximation in Flexible Electronics",
@@ -746,7 +746,7 @@
     ],
     "summary": "This paper introduces Analog Kolmogorov-Arnold Networks (AKANs), a hardware-software co-optimized approach for implementing complex nonlinear functions directly in analog circuits for wearable and IoT devices. By combining circuit-level error modeling with pruning strategies, the method achieves 30–55% reductions in area and power consumption while maintaining approximation accuracy on flexible electronics platforms where traditional digital processing is prohibitively expensive.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "CANNs: A Toolkit for Research on Continuous Attractor Neural Networks",
@@ -760,7 +760,7 @@
     ],
     "summary": "This paper introduces CANNs, a comprehensive open-source toolkit for studying continuous attractor neural networks — a foundational computational model of how brains encode continuous variables like spatial position and head direction. The toolkit unifies fragmented CANN research by providing standardized implementations, acceleration backends, and novel analysis methods to connect theoretical attractor dynamics with real neural recordings from the brain.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "GenWorld: Empirically Grounded Urban Simulation Infrastructure for Scalable LLM-Agent Studies",
@@ -775,7 +775,7 @@
     ],
     "summary": "GenWorld is a simulation infrastructure that grounds LLM-based agents in realistic urban environments by combining synthetic city data with empirical census and mobility patterns, solving the scalability problem of running city-scale simulations without prohibitively expensive online LLM calls. The system demonstrates reproducible, auditable multi-agent behavior across scenarios (normal weekdays, weekday-weekend contrasts, emergency response) using 196,608 synthetic residents in a Japanese city.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems",
@@ -789,7 +789,7 @@
     ],
     "summary": "QueenBee Planner is a framework that enables LLM-based multi-agent systems to autonomously learn and improve their inter-agent communication topologies—the directed graphs specifying who communicates with whom and when. Rather than fixing communication patterns or using generic generation, the framework learns reusable architectural design skills through execution traces, achieving significant improvements in token efficiency and task performance on aggregation and coordination benchmarks.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Multi-Objective Molecular Generation with Frequency-Controlled Evolutionary Dynamics",
@@ -803,7 +803,7 @@
     ],
     "summary": "SpectralMol is an evolutionary algorithm for multi-objective molecular generation that represents chemical structures as Fourier coefficient matrices decoded into SELFIES strings, avoiding the need for extensive pre-training while maintaining interpretability. It outperforms reinforcement-learning baselines on multi-parameter optimization tasks and drug-discovery benchmarks, generating more diverse scaffolds with competitive properties under fixed computational budgets.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
@@ -817,7 +817,7 @@
     ],
     "summary": "This paper introduces RiVER, a reinforcement learning framework that trains LLMs on score-based optimization tasks (like competitive programming) without requiring ground-truth solutions. By using deterministic execution feedback and novel reward calibration techniques, RiVER improves both score-optimizing and exact-solution benchmarks, demonstrating that RL without ground truth can generalize to tasks requiring precise correctness.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Autoregressive Boltzmann Generators",
@@ -831,7 +831,7 @@
     ],
     "summary": "This paper introduces Autoregressive Boltzmann Generators (ArBG), a new generative modeling framework for efficiently sampling molecular systems at thermodynamic equilibrium. By replacing the normalizing flow architecture typically used in Boltzmann Generators with an autoregressive approach, ArBG overcomes expressivity and computational bottlenecks, achieving state-of-the-art performance on peptide sampling tasks and demonstrating significant improvements over existing flow-based methods.",
     "date_added": "2026-06-28",
-    "trusted": true
+    "trusted": "Hugging Face"
   },
   {
     "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
@@ -845,7 +845,7 @@
     ],
     "summary": "This paper investigates the fundamental relationship between sequence probability (how likely an LLM assigns to an output) and correctness across different decoding strategies, models, and benchmarks. The authors find that while higher sequence probability correlates with correctness within a fixed dataset, this relationship breaks down when trying to improve accuracy through decoding hyperparameters or methods—a counterintuitive finding that challenges common assumptions underlying popular decoding techniques.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
@@ -859,7 +859,7 @@
     ],
     "summary": "This paper presents an open-weight, fully modular pipeline for extracting political relationships from multilingual news corpora at scale, automatically constructing signed temporal knowledge graphs of European political elites. The work bridges raw unstructured text and structured relational data, enabling computational social scientists to observe informal political networks and coalitions across languages without relying on proprietary APIs—validated through detailed case studies in Austria and Poland.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
@@ -873,7 +873,7 @@
     ],
     "summary": "This paper provides a detailed empirical analysis of BEACON, a state-of-the-art framework for entity matching (EM) in low-resource, domain-aware settings. The authors investigate how algorithmic design choices and varying data constraints affect EM performance, with particular focus on distribution alignment mechanisms that enable effective domain adaptation without extensive labeled data.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
@@ -887,7 +887,7 @@
     ],
     "summary": "This paper proposes a language-based digital twin framework that uses large language models to simulate conversational behavior of elderly individuals, preserving identity-specific linguistic patterns while enabling early detection of cognitive impairment. By combining stylometric cues with a multi-head conditional VAE for fidelity evaluation, the approach achieves cognitive score predictions comparable to real patient data, offering a scalable non-invasive tool for continuous cognitive health monitoring in aging populations.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
@@ -902,7 +902,7 @@
     ],
     "summary": "This paper presents PEEU (Planning Experience Exploration and Utilization), a method for improving GUI agents' task planning capabilities through autonomous environment exploration and hindsight experience synthesis. The key finding is that a 7B parameter multimodal LLM trained with PEEU outperforms much larger 32B models on GUI task completion, demonstrating that strategic data construction and hierarchical task understanding are more important than model scale for cross-website generalization.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
@@ -917,7 +917,7 @@
     ],
     "summary": "This paper addresses fundamental limitations of Top-k Sparse Autoencoders (SAEs), a leading tool for interpreting vision foundation models, by introducing compatible sparsity regularizers that improve monosemanticity without sacrificing reconstruction quality. The key insight is that hard architectural sparsity (the Top-k selection mechanism) and soft regularization (L1 and L1/L2-ratio penalties) complement rather than contradict each other, enabling more interpretable and robust feature decomposition.",
     "date_added": "2026-06-28",
-    "trusted": true
+    "trusted": "Anthropic"
   },
   {
     "title": "LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank",
@@ -931,7 +931,7 @@
     ],
     "summary": "This paper presents the first LLM-based system for automating eligibility verification of securities as collateral at the German Central Bank, replacing traditional NER-based approaches with a generative information extraction pipeline. The system decomposes the task into extraction, normalization, and interpretation stages, achieving 91% precision on document-level eligibility decisions while handling noisy OCR, linguistic variance, and bilingual (German-English) prospectuses—challenges that rigid span-based NER methods struggle with.",
     "date_added": "2026-06-28",
-    "trusted": true
+    "trusted": "OpenAI"
   },
   {
     "title": "A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets",
@@ -945,7 +945,7 @@
     ],
     "summary": "This paper presents a multi-fidelity transfer learning framework that combines lightweight physics-based simulations with convolutional autoencoders (CAE) to enable accurate damage diagnosis in structures using piezoelectric sensors. By leveraging large synthetic datasets from efficient simulations and fine-tuning on small experimental datasets, the approach achieves R² > 0.93 for damage localization and excellent generalization to unseen damage scenarios—addressing the critical practical constraint of limited labeled experimental data in structural health monitoring.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Generative Models on Analog Hardware with Dynamics",
@@ -960,7 +960,7 @@
     ],
     "summary": "This paper introduces Analog Interaction Systems (AIS), a framework for implementing generative models directly on analog hardware platforms like coupled oscillators and Ising machines, which naturally solve differential equations at extremely low energy cost. The key innovation is bridging the mismatch between flexible neural network dynamics and the fixed, physics-determined differential equations of analog hardware through time-varying parameters and hidden physical states, achieving 2 orders of magnitude energy improvements (23µJ per image) while maintaining competitive generative quality (FID 27.6 on MNIST).",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search",
@@ -974,7 +974,7 @@
     ],
     "summary": "This paper addresses the problem of generating portable (generalized, seeker-agnostic) job search queries using an RLAIF framework, where an LLM policy is optimized to produce abstract search terms that preserve qualifications while removing identifying details. The core challenge is that naive reward optimization exploits vulnerabilities in LLM-as-judge rubrics, leading to reward hacking (e.g., verbatim copying); the authors show that robust reward engineering—specifically, deterministic rule-based reward floors—matters far more than choice of optimizer, yielding a +0.147 quality improvement and revealing that training-time rewards inflate performance by 2.4×.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "How Surprising Is Historical Italian to Language Models? Tokenization Tax, Comprehension Tax, and a Simple Mitigation",
@@ -989,7 +989,7 @@
     ],
     "summary": "This paper diagnoses why historical text is difficult for language models by decomposing the problem into tokenization cost, predictive uncertainty, semantic robustness, and context sensitivity. Using a newly curated 17th-century Italian corpus alongside 19th-century Italian and 18th-century Russian texts, the authors show that while historical documents incur consistent encoding penalties (25–30% tokenization inflation), their comprehension difficulty varies sharply—17th-century Italian is 2.4× more surprising to predict than modern Italian, yet embedding representations remain robust—and propose a simple temporal context prompt that reduces surprisal by ~60%.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Resilient Output Containment under Undisclosed Leader Dynamics and Actuator Attacks",
@@ -1003,7 +1003,7 @@
     ],
     "summary": "This paper addresses resilient output containment for heterogeneous multi-agent systems where followers must track leaders whose dynamics and motion constraints are unknown, while the system faces actuator cyber-attacks. The authors propose a two-layer adaptive control architecture combining virtual-actuator reconfiguration for attack mitigation with a network interface protocol that achieves asymptotic containment without requiring global graph knowledge or knowledge of leader dynamics.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "The Geometry of Updates: Fisher Alignment at Vocabulary Scale",
@@ -1017,7 +1017,7 @@
     ],
     "summary": "This paper introduces FisherSketch, a computationally efficient method for selecting training data sources for language model families that share tokenizers but differ in prediction targets (e.g., SMILES, protein, genomic sequences). By reformulating Fisher alignment as a cosine similarity in joint activation-error space rather than requiring expensive Fisher matrix computation, the method enables practical source selection at vocabulary scale with minimal memory overhead (16–192 KB signatures per task).",
     "date_added": "2026-06-28",
-    "trusted": true
+    "trusted": "Hugging Face"
   },
   {
     "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis",
@@ -1032,7 +1032,7 @@
     ],
     "summary": "This paper investigates whether language models function as true knowledge bases by examining whether the same factual knowledge produces consistent outputs across different tasks. Through behavioral and mechanistic analyses, the authors demonstrate that LMs actually encode knowledge in task-specific ways, with different parameter subsets encoding the same facts for different tasks. This finding challenges the intuitive \"knowledge base\" analogy and raises important questions about the reliability and controllability of factual reasoning in LMs.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention",
@@ -1047,7 +1047,7 @@
     ],
     "summary": "CARVE introduces a memory-aware gating mechanism for recurrent neural networks that enables efficient chunk-parallel training while improving language modeling performance. By moving the erase decision from the value axis to the key axis and reusing the recurrent output as a content signal, CARVE achieves better perplexity, faster inference, and lower memory footprint than prior recurrent architectures like GDN-2.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Mostly Automatic Translation of Language Interpreters from C to Safe Rust",
@@ -1061,7 +1061,7 @@
     ],
     "summary": "Reboot is a mostly-automatic system that translates C interpreter programs to safe Rust, reducing manual intervention to 1–11 user interactions per codebase while maintaining 100% test suite pass rates. The work combines feature reduction (incremental decomposition by program features) with a multi-agent architecture that orchestrates unreliable LLM-based coding agents, eliminating memory vulnerabilities like buffer overflows and use-after-free bugs inherent to C implementations.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Scalability of Morality: A Particle-Based Numerical Study on the Decoupling of Law and Ethics in Large-Scale Populations",
@@ -1075,7 +1075,7 @@
     ],
     "summary": "This paper introduces a particle-based computational model to study how moral behavior scales and decouples from ethical norms in large populations. Using Monte Carlo simulations, the authors demonstrate that as population size exceeds individual memory capacity, anonymity erodes peer accountability, causing a non-linear phase transition where formal law diverges from decentralized ethics—a finding with profound implications for understanding governance and behavioral drift in complex societies.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
@@ -1090,7 +1090,7 @@
     ],
     "summary": "This paper proposes semantic early-stopping for multi-agent LLM loops (e.g., writer-critic pairs) that halts iteration when draft embeddings stop changing meaningfully rather than using fixed iteration caps. The work provides theoretical guarantees, introduces a judge-efficient evaluation protocol, and demonstrates 38% token savings on HotpotQA while maintaining answer quality.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Decision-Aligned Evaluation of Uncertainty Quantification",
@@ -1103,7 +1103,7 @@
     ],
     "summary": "This paper introduces *decision-alignment*, a framework for evaluating uncertainty quantification (UQ) metrics based on their actual utility in downstream decision-making tasks, rather than generic statistical properties. The authors show that standard UQ evaluation metrics (negative log-likelihood, expected calibration error) often fail to predict real decision value and can embed pathological prior beliefs about tasks. They propose prior-weighted utility metrics as a principled alternative that consistently aligns evaluation with actual decision utility.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Data-Driven Duration Management -- Term Structure Forecasting Using Machine Learning",
@@ -1117,7 +1117,7 @@
     ],
     "summary": "This paper compares traditional econometric models (DNS, PCA) with neural network architectures for forecasting the term structure of U.S. Treasury and ECB government bonds, incorporating macroeconomic variables to improve predictions. Neural networks consistently outperform classical methods on both forecasting accuracy and portfolio performance, with architecture choices varying between markets—DNS-inspired NNs with autoencoders for the U.S., and PCA-factor NNs for Europe.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Escaping Iterative Parameter-Space Noise: Differentially Private Learning with a Hypernetwork",
@@ -1131,7 +1131,7 @@
     ],
     "summary": "This paper proposes a novel framework for differentially private (DP) neural network training that replaces iterative gradient-based optimization with a hypernetwork mapping. Instead of repeatedly injecting noise during parameter updates (as in DP-SGD), the method embeds private examples into a low-dimensional space, adds noise once to the aggregated embedding, and uses a hypernetwork trained on public data to generate target model parameters. This single-noise injection significantly reduces noise accumulation and improves utility under fixed privacy budgets.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Surviving by Serving: Functional Relevance Drives Self-Organization in Complex Adaptive Systems",
@@ -1145,7 +1145,7 @@
     ],
     "summary": "This paper proposes \"Surviving by Serving\" (SBS) as a fundamental principle explaining how complex adaptive systems self-organize without centralized control. Through a minimal multi-agent model where agents persist based on local feedback about whether their outputs are utilized by others, the authors demonstrate spontaneous emergence of functional networks, stable transformation chains, and novel problem-solving capabilities—suggesting that functional utilization alone can drive organized structure across diverse substrates.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Scientific discovery as meta-optimization: a combinatorial optimization case study",
@@ -1160,7 +1160,7 @@
     ],
     "summary": "This paper reframes scientific discovery as a meta-optimization problem where both the search space (theories/experiments) and the evaluation criteria themselves are simultaneously optimized. The authors introduce \"consensus objective aggregation,\" a technique that uses LLMs to generate candidate objective functions and combines them via correlation-weighted voting, demonstrating the approach on 3-SAT algorithm discovery with impressive empirical results (67× speedup, polynomial scaling improvement from N²·⁵¹ to N¹·³³).",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Learning Probabilistic Filters with Strictly Proper Scoring Rules",
@@ -1173,7 +1173,7 @@
     ],
     "summary": "This paper introduces the Proper Scoring Ensemble Filter (PSEF), a machine-learning approach to Bayesian filtering that trains a transformer-based neural network to approximate filtering distributions using only synthetic trajectories and strictly proper scoring rules. Unlike traditional ensemble Kalman filters or MSE-based learning methods, PSEF directly optimizes probabilistic accuracy across the entire posterior distribution, achieving superior performance on nonlinear, non-Gaussian, and multi-modal filtering problems.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators",
@@ -1188,7 +1188,7 @@
     ],
     "summary": "This paper introduces the Red Queen Gödel Machine (RQGM), a framework that co-evolves both agents and their evaluators during recursive self-improvement, rather than assuming fixed evaluation criteria. By making evaluation part of the improvement loop and allowing utilities to evolve across epochs, RQGM demonstrates significant gains on coding benchmarks and novel tasks like scientific paper writing, peer review, and proof verification—achieving 1.35x-1.86x improvements with fewer tokens while correcting systematic biases in AI evaluation.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "The Role of Input Dimensionality in the Emergence and Targeted Control of Adversarial Examples",
@@ -1202,7 +1202,7 @@
     ],
     "summary": "This paper systematically investigates how input dimensionality drives the emergence and control of adversarial examples in deep neural networks. The authors combine theoretical analysis (examining concentration of measure frameworks) with extensive empirical evaluation across hierarchical datasets, demonstrating that adversarial vulnerability increases with dimensionality and that the additional cost of crafting *targeted* adversarial examples remains surprisingly small in high dimensions.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "EvoFlock: evolved inverse design of multi-agent motion",
@@ -1216,7 +1216,7 @@
     ],
     "summary": "EvoFlock presents an automatic inverse design method for tuning multi-agent motion models using genetic algorithms and user-defined objective functions. Rather than manually adjusting numerous interacting parameters, the approach optimizes group-level behaviors (flocking, crowding, traffic) by rewarding spacing, velocity alignment, and obstacle avoidance—revealing that flock alignment emerges from proper neighbor spacing rather than being a direct control objective.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "What Does a Pathological Speech Assessment Model Know about Acoustic Features? A Case Study on Oral and Oropharyngeal Cancer Patients",
@@ -1230,7 +1230,7 @@
     ],
     "summary": "This paper investigates what acoustic features a Wav2Vec 2.0-based neural network learns when trained to assess speech intelligibility in cancer patients, using canonical correlation analysis to map model embeddings to interpretable acoustic descriptors. The work reveals that the model prioritizes spectral and prosodic information, and provides practical guidance for acoustic feature selection in clinical speech assessment.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Spatial Partial Functionalization of Neural Networks based on Noise Fields",
@@ -1244,7 +1244,7 @@
     ],
     "summary": "This paper proposes using spatially structured noise fields to enable partial functionalization in neural networks—allowing different subnetworks to activate selectively based on noise field location. The authors introduce a crossing activation function and a virtual noise field framework, demonstrating that when multiple functions are stored in a single network with noise-field-based routing, memory capacity improves when the spatial arrangement of noise fields mirrors the proximity structure of learned functions.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Randomized Neural Networks for estimation of exposure profiles and Credit Valuation Adjustment (CVA) for American Equity Options",
@@ -1259,7 +1259,7 @@
     ],
     "summary": "This paper applies randomized neural networks (RNNs) to estimate exposure profiles and Credit Valuation Adjustment (CVA) for American equity options under both Black-Scholes and Heston dynamics. The approach integrates neural network approximation into a Monte Carlo framework for exposure and CVA calculation, demonstrating superior computational scaling in high-dimensional problems compared to the classical Least-Squares Monte Carlo (LSM) benchmark.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Distributed Quality-Diversity Search for Toxicity in Large Language Models",
@@ -1274,7 +1274,7 @@
     ],
     "summary": "This paper presents ToxSearch-S, a distributed evolutionary algorithm for systematically discovering adversarial prompts that elicit toxic outputs from large language models. By combining quality-diversity search (maintaining both high toxicity and behavioral diversity) with MPI-based parallelization, the method achieves competitive toxicity discovery while reducing wall-clock time by 3.2× on four workers and following a less toxic overall search trajectory than existing baselines.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Mitigating Adverse Selection in Concentrated Liquidity AMMs with Dynamic Fees: An Agent-Based Model Approach",
@@ -1288,7 +1288,7 @@
     ],
     "summary": "This paper develops an agent-based model (ABM) of Uniswap v3 concentrated liquidity pools to study how dynamic fee schedules can compensate liquidity providers (LPs) for adverse selection losses. By simulating realistic blockchain microstructure—including mempool latency, block propagation, and heterogeneous trading agents—the authors demonstrate that volatility- and order-flow-based dynamic fees can improve LP profitability primarily by boosting fee income during periods of stale-price risk, rather than reducing the underlying loss-versus-rebalancing (LVR) costs.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Pareto Optimal Centralized Risk Sharing with Multiple Agents: Inclusivity and Fairness",
@@ -1303,7 +1303,7 @@
     ],
     "summary": "This paper addresses centralized risk sharing among multiple policyholders where risks are transferred to a central insurer at endogenously determined prices. The authors show that classical Pareto optimality fails to guarantee fair representation of all agents and propose **inclusive and fair Pareto optimality**, a refinement that ensures every agent appears exactly once in a sequential optimization procedure, balancing efficiency with fairness and transparency.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "KineticSim: A Lightweight, High-Performance Execution Engine for Real-Time Market Simulators",
@@ -1318,7 +1318,7 @@
     ],
     "summary": "KineticSim is a GPU-accelerated execution engine for simulating agent-based financial markets (limit-order books) at massive scale. By redesigning how GPU threads collaborate on clearing logic—caching state in shared memory and reducing global memory traffic—the system achieves 54.7 billion agent-events per second, delivering 3000x+ speedups over CPU and traditional GPU frameworks while maintaining numerical correctness.",
     "date_added": "2026-06-30",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "KineticSim: A Lightweight, High-Performance Execution Engine for Real-Time Market Simulators",
@@ -1333,7 +1333,7 @@
     ],
     "summary": "KineticSim is a GPU-accelerated execution engine for real-time financial market simulation that achieves orders-of-magnitude speedups by redesigning how multi-agent limit-order book clearing is parallelized. Rather than sequentially processing agent actions and price ticks, the system uses a persistent kernel pattern that caches mutable state in thread-block shared memory, reducing both computational depth and global memory traffic—enabling simulation of billions of agent events per second on a single GPU.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Reinforcement Learning for Risk-Sensitive Investment Management: a Free Energy--Entropy Duality Approach",
@@ -1348,7 +1348,7 @@
     ],
     "summary": "This paper develops a reinforcement-learning framework for continuous-time risk-sensitive portfolio optimization by reformulating a non-standard benchmarked asset allocation problem as a linear-quadratic-Gaussian stochastic differential game. Using free energy–entropy duality, the authors derive explicit optimal solutions and implement a continuous-time q-learning actor-critic algorithm that learns portfolio allocation and adversarial controls, validated on U.S. equity data with strong empirical accuracy.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Optimal Order of Multi-Agent and General Many-Body Systems",
@@ -1362,7 +1362,7 @@
     ],
     "summary": "This paper develops a theoretical framework for understanding multi-agent systems by analyzing how individual agent properties—power (influence) and response functions (behavioral reactions)—generate macroscopic collective phenomena like order, entropy, and fragility. The framework derives an optimal degree of organizational order that balances productivity, stability, and adaptability, arguing that system properties are inherently task-dependent and cannot be optimized universally.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
@@ -1377,7 +1377,7 @@
     ],
     "summary": "DeXposure-Claw is an agentic supervision system designed to help regulators identify and manage credit risks in decentralized finance (DeFi) by combining a graph time-series foundation model with structured evidence routing and auditable decision gates. Rather than letting LLMs make high-stakes recommendations directly, the system grounds agent decisions in forecasted exposure networks, deterministic monitors, and confidence checks—reducing false alarms while maintaining regulatory auditability.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Continuous-time Optimal Stopping through Deep Reinforcement Learning",
@@ -1392,7 +1392,7 @@
     ],
     "summary": "This paper presents CARLOS, a deep reinforcement learning algorithm that solves continuous-time optimal stopping problems—such as American option pricing—by learning exercise rules at arbitrarily fine time resolution without suffering from discretization artifacts. Unlike classical dynamic programming approaches that face a trade-off between coarse grids (undervaluation) and fine grids (accumulation errors), CARLOS uses an aggregate deep neural network to progressively refine the space-time decision boundary, achieving near-American option upper bounds with computational efficiency.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Model Validation of Agentic AI Systems: A POMDP-Based Framework for Belief-State, Forecast, and Policy Validation",
@@ -1407,7 +1407,7 @@
     ],
     "summary": "This paper develops a rigorous model validation framework for autonomous AI agents by decomposing them into information acquisition, belief formation, forecasting, and policy selection components—each validated independently. The framework formalizes LLMs as approximate Bayesian filters within a POMDP structure and applies it to a portfolio management case study, demonstrating how to systematically assess decision quality beyond mere predictive accuracy.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Gaming-Resistant Insurance Contracts for Autonomous AI Agents: Strategy-Proof Toll Mechanism Design",
@@ -1422,7 +1422,7 @@
     ],
     "summary": "This paper designs gaming-resistant insurance contracts for autonomous AI agents by extending actuarial runtime mechanisms with game-theoretic incentive-compatibility guarantees. It characterizes five attack vectors through which operators and models can manipulate toll mechanisms, then proposes contract clauses (common-control aggregation, interface-compliance fees, and model-identity menus) that make truthful reporting and safe behavior weakly dominant equilibrium strategies. The result is a formal framework for controlling AI agent side effects while maintaining budget balance and operator rationality.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Fast, Reliable, and Error-Bounded Option Pricing with Pretrained Neural Networks: A GJR--GARCH Study",
@@ -1436,7 +1436,7 @@
     ],
     "summary": "This paper presents a neural surrogate method for fast, error-bounded option pricing in models without closed-form solutions (like GJR-GARCH). Using a Mixture Density Network to map parameters to terminal return densities as Gaussian mixtures, the method achieves microsecond pricing with rigorous error bounds—reaching within 10% of the theoretical Monte Carlo noise floor—while maintaining arbitrage-free guarantees.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Discovery under Hypothesis Redundancy: A Geometric Theory of Discovery Bottlenecks",
@@ -1450,7 +1450,7 @@
     ],
     "summary": "This paper identifies when hybrid discovery systems—combining local search with LLM-guided non-local exploration—actually improve scientific hypothesis discovery. The authors formalize \"discovery bottlenecks\" through a geometric theory showing that LLM proposals help only under specific conditions: spectral compression of explored space, orthogonal escape directions, and alignment with target signals. Testing across synthetic tasks, financial factor discovery, and symbolic regression reveals that novelty alone is insufficient; directed non-local exploration only yields gains when signal predictively aligns with unexplored directions.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "CFOs Meet LLMs",
@@ -1464,7 +1464,7 @@
     ],
     "summary": "This paper demonstrates that large language models can accurately reproduce CFO sentiment responses from the Duke-Federal Reserve CFO Survey by role-playing as specific company executives at specific dates. By prompting an LLM with firm-specific information and historical context, the authors show that predicted optimism scores significantly forecast actual CFO survey responses, offering a scalable alternative to expensive, slow traditional business sentiment surveys.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "The Mathematics of Heuristic Portfolio Optimization (HPO)",
@@ -1479,7 +1479,7 @@
     ],
     "summary": "This paper develops Heuristic Portfolio Optimization (HPO), a mathematical framework that characterizes when practitioner-friendly portfolio rules (equal weight, risk parity, HRP) are optimal under information constraints. It bridges classical Markowitz theory with modern reinforcement learning, showing that static HPO rules emerge as the γ=0 limit of a Bellman problem, enabling a principled dynamic extension through RL-based portfolio optimization.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Addressing Market Regime Changes and Heavy-Tailed Returns in Portfolio Optimization via Bayesian VAR and Elliptical Black-Litterman",
@@ -1494,7 +1494,7 @@
     ],
     "summary": "This paper proposes BAVAR-BLED, a deep reinforcement learning algorithm for portfolio optimization that addresses two critical real-world challenges: fat-tailed return distributions (extreme market events) and market regime changes. By combining Bayesian Vector Autoregression (BAVAR) with an Elliptical Black-Litterman model using Student's t-distributions, the approach dynamically adjusts asset allocations based on regime-aware risk estimates, achieving superior risk-adjusted returns on DJIA constituents over a decade.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Proof of Stake economy under centralized exchanges--a mean field model",
@@ -1509,7 +1509,7 @@
     ],
     "summary": "This paper models the interaction between centralized cryptocurrency exchanges and decentralized Proof of Stake (PoS) blockchains using continuous-time mean field game theory. The authors demonstrate how trading on centralized exchanges influences validator behavior, token distribution, and protocol decentralization, finding that centralized liquidity provision can paradoxically enhance staking participation and reduce concentration risk through market incentives.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Evaluating AI Investment Strategies",
@@ -1524,7 +1524,7 @@
     ],
     "summary": "This paper develops a mathematically exact decomposition for auditing black-box algorithmic decision-makers by decomposing cumulative regret into per-period covariances between costs and decisions. The approach is model-free, requiring only observable inputs and outputs, and extends prior single-period results to full multi-period stochastic dynamic programming, with direct applications to platform auditing, repeated games, and portfolio strategy evaluation.",
     "date_added": "2026-06-29",
-    "trusted": false
+    "trusted": ""
   },
   {
     "title": "Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems",
@@ -1539,6 +1539,6 @@
     ],
     "summary": "This paper conducts a systematic reproducibility audit of 30 LLM-based trading research studies, revealing that while agent architecture is well-documented, critical execution assumptions—transaction costs, timing, turnover treatment, and data splits—are inconsistently reported and often unrealistic. The authors argue that standardized reporting of execution realism, not just better agent design, is essential for meaningful comparison and reproduction of LLM trading results.",
     "date_added": "2026-06-28",
-    "trusted": false
+    "trusted": ""
   }
 ]

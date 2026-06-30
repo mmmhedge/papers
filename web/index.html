@@ -225,7 +225,7 @@ function filterPapers() {
     const matchTags = activeTags.size === 0 || [...activeTags].every(t => allTags.includes(t));
     const matchPrio = !activeFilters.has('prio') || prio.has(key);
     const matchUnread = !activeFilters.has('unread') || !read.has(key);
-    const matchTrusted = !activeFilters.has('trusted') || p.trusted;
+    const matchTrusted = !activeFilters.has('trusted') || !!p.trusted;
     return matchQuery && matchTags && matchPrio && matchUnread && matchTrusted;
   });
 
@@ -259,7 +259,7 @@ function renderPapers(papers, read, prio, ct) {
       <div class="card-header">
         <div class="card-date">${p.published ? p.published.slice(0,10) : ''}</div>
         <div class="card-main" onclick="toggleCard(${i})">
-          <div class="card-title">${escHtml(p.title)}${p.trusted ? '<span class="trusted-badge">🔬 trusted</span>' : ''}</div>
+          <div class="card-title">${escHtml(p.title)}${p.trusted ? `<span class="trusted-badge">🔬 ${escHtml(p.trusted)}</span>` : ''}</div>
           <div class="card-authors">${escHtml(p.authors||'')}</div>
           <div class="card-tags">
             ${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}

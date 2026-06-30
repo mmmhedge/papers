@@ -40,9 +40,12 @@ def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
     return result, body
 
 
-def is_trusted(body: str, authors: str) -> bool:
+def get_trusted_source(body: str, authors: str) -> str:
     text = (body + " " + authors).lower()
-    return any(re.search(r'\b' + re.escape(src.lower()) + r'\b', text) for src in TRUSTED_SOURCES)
+    for src in TRUSTED_SOURCES:
+        if re.search(r'\b' + re.escape(src.lower()) + r'\b', text):
+            return src
+    return ""
 
 
 def extract_summary(body: str) -> str:
@@ -67,7 +70,7 @@ def build_web():
             "tags": fm.get("tags", []),
             "summary": extract_summary(body),
             "date_added": fm.get("date_added", ""),
-            "trusted": is_trusted(body, fm.get("authors", "")),
+            "trusted": get_trusted_source(body, fm.get("authors", "")),
         })
 
     WEB_DIR.mkdir(exist_ok=True)
