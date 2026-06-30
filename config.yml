@@ -39,6 +39,47 @@ papers_per_category: 5
 # After the first run, reduce this to 2 to stay current
 initial_lookback_days: 30
 
+# Trusted sources — papers mentioning these in their abstract get a "trusted" badge
+trusted_sources:
+  # Big AI labs
+  - OpenAI
+  - DeepMind
+  - Google DeepMind
+  - Google Brain
+  - Google Research
+  - Anthropic
+  - Meta AI
+  - Meta FAIR
+  - Microsoft Research
+  - Apple
+  - NVIDIA
+  - Hugging Face
+  - EleutherAI
+  - Cohere
+  - Mistral
+  # Top universities
+  - MIT
+  - Stanford
+  - Carnegie Mellon
+  - CMU
+  - UC Berkeley
+  - Berkeley
+  - Oxford
+  - Cambridge
+  - ETH Zurich
+  - Harvard
+  - Princeton
+  - Caltech
+  - Yale
+  - University of Toronto
+  - Mila
+  - NYU
+  - Columbia
+  - University of Washington
+  - Imperial College
+  - Tsinghua
+  - Peking University
+
 # Claude model for summarization
 # claude-haiku-4-5-20251001 = fast & cheap, good for daily volume
 # claude-sonnet-4-6 = higher quality, slower, more expensive

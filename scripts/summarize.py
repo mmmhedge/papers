@@ -34,7 +34,7 @@ FORMAT your response EXACTLY as follows (use these exact section headers):
 TAGS_JSON: ["tag1", "tag2", ...]
 
 ## Summary
-2-3 sentence plain-English summary of what this paper does and why it matters.
+2-3 sentences. What does this paper do and why does it matter? Write for a smart reader who is new to the field — no jargon without explanation, short sentences, plain English.
 
 ## Theoretical Background
 What prior work, mathematical frameworks, or conceptual foundations does this paper build on? Write for a smart reader who may not know this subfield. Keep sentences short. Keep technical terms but briefly explain them inline the first time they appear (e.g. "transformers — neural networks that process sequences using attention mechanisms"). Don't assume the reader knows every concept; don't over-explain things that are genuinely common knowledge.
@@ -108,6 +108,7 @@ url: "{paper['url']}"
 pdf: "{paper['pdf_url']}"
 arxiv_categories: "{categories_str}"
 date_added: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
+trusted: {str(paper.get('trusted', False)).lower()}
 tags:
 {tag_lines}
 ---

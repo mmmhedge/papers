@@ -2,11 +2,14 @@
 
 import json
 import re
+import yaml
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 PAPERS_DIR = ROOT / "papers"
 WEB_DIR = ROOT / "web"
+CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
+TRUSTED_SOURCES = CONFIG.get("trusted_sources", [])
 
 
 def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
@@ -37,10 +40,15 @@ def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
     return result, body
 
 
+def is_trusted(body: str, authors: str) -> bool:
+    text = (body + " " + authors).lower()
+    return any(re.search(r'\b' + re.escape(src.lower()) + r'\b', text) for src in TRUSTED_SOURCES)
+
+
 def extract_summary(body: str) -> str:
     match = re.search(r'## Summary\n+(.*?)(?=\n## |\Z)', body, re.DOTALL)
     if match:
-        return match.group(1).strip()[:400]
+        return match.group(1).strip()
     return ""
 
 
@@ -59,6 +67,7 @@ def build_web():
             "tags": fm.get("tags", []),
             "summary": extract_summary(body),
             "date_added": fm.get("date_added", ""),
+            "trusted": is_trusted(body, fm.get("authors", "")),
         })
 
     WEB_DIR.mkdir(exist_ok=True)

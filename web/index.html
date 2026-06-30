@@ -21,6 +21,7 @@
   .filter-btn.active { border-color: #5865f2; color: #fff; }
   .filter-btn.prio-btn.active { background: #b8860b; border-color: #daa520; }
   .filter-btn.unread-btn.active { background: #1a3a1a; border-color: #3a7a3a; }
+  .trusted-badge { font-size: 0.65rem; background: #1a2535; border: 1px solid #2a4060; color: #6a9fd8; border-radius: 4px; padding: 0.1rem 0.4rem; margin-left: 0.4rem; vertical-align: middle; }
   .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
   .tag { padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.72rem; cursor: pointer; background: #1e1e28; border: 1px solid #2e2e3e; color: #aaa; transition: all 0.15s; user-select: none; }
   .tag:hover, .tag.active { background: #5865f2; border-color: #5865f2; color: #fff; }
@@ -89,6 +90,7 @@
     <div class="filter-group" style="margin-bottom:1.5rem">
       <span class="filter-btn prio-btn" onclick="toggleFilter('prio', this)">⭐ Priority</span>
       <span class="filter-btn unread-btn" onclick="toggleFilter('unread', this)">Unread</span>
+      <span class="filter-btn" onclick="toggleFilter('trusted', this)">🔬 Trusted</span>
     </div>
     <h3>Tags</h3>
     <div class="tag-cloud" id="tag-cloud"></div>
@@ -223,7 +225,8 @@ function filterPapers() {
     const matchTags = activeTags.size === 0 || [...activeTags].every(t => allTags.includes(t));
     const matchPrio = !activeFilters.has('prio') || prio.has(key);
     const matchUnread = !activeFilters.has('unread') || !read.has(key);
-    return matchQuery && matchTags && matchPrio && matchUnread;
+    const matchTrusted = !activeFilters.has('trusted') || p.trusted;
+    return matchQuery && matchTags && matchPrio && matchUnread && matchTrusted;
   });
 
   if (sortMode === 'date') filtered.sort((a,b) => b.published.localeCompare(a.published));
@@ -256,7 +259,7 @@ function renderPapers(papers, read, prio, ct) {
       <div class="card-header">
         <div class="card-date">${p.published ? p.published.slice(0,10) : ''}</div>
         <div class="card-main" onclick="toggleCard(${i})">
-          <div class="card-title">${escHtml(p.title)}</div>
+          <div class="card-title">${escHtml(p.title)}${p.trusted ? '<span class="trusted-badge">🔬 trusted</span>' : ''}</div>
           <div class="card-authors">${escHtml(p.authors||'')}</div>
           <div class="card-tags">
             ${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}
