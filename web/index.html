@@ -15,6 +15,12 @@
   .sidebar h3 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-bottom: 0.75rem; }
   .search { width: 100%; background: #1a1a20; border: 1px solid #2a2a35; border-radius: 6px; padding: 0.5rem 0.75rem; color: #e0e0e0; font-size: 0.85rem; outline: none; margin-bottom: 1.25rem; }
   .search:focus { border-color: #5865f2; }
+  .filter-group { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
+  .filter-btn { padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.72rem; cursor: pointer; background: #1e1e28; border: 1px solid #2e2e3e; color: #aaa; transition: all 0.15s; user-select: none; }
+  .filter-btn:hover { background: #2a2a38; color: #fff; }
+  .filter-btn.active { border-color: #5865f2; color: #fff; }
+  .filter-btn.prio-btn.active { background: #b8860b; border-color: #daa520; }
+  .filter-btn.unread-btn.active { background: #1a3a1a; border-color: #3a7a3a; }
   .tag-cloud { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.5rem; }
   .tag { padding: 0.2rem 0.6rem; border-radius: 99px; font-size: 0.72rem; cursor: pointer; background: #1e1e28; border: 1px solid #2e2e3e; color: #aaa; transition: all 0.15s; user-select: none; }
   .tag:hover, .tag.active { background: #5865f2; border-color: #5865f2; color: #fff; }
@@ -25,21 +31,37 @@
   .sort-btn.active, .sort-btn:hover { background: #2a2a35; color: #fff; }
   .result-count { color: #555; font-size: 0.8rem; margin-left: auto; }
   .papers { display: flex; flex-direction: column; gap: 0.75rem; }
-  .paper-card { background: #14141a; border: 1px solid #1e1e28; border-radius: 10px; padding: 1.1rem 1.25rem; cursor: pointer; transition: border-color 0.15s; }
+  .paper-card { background: #14141a; border: 1px solid #1e1e28; border-radius: 10px; padding: 1.1rem 1.25rem; transition: border-color 0.15s; }
   .paper-card:hover { border-color: #3a3a50; }
   .paper-card.expanded { border-color: #5865f2; }
+  .paper-card.is-read { opacity: 0.5; }
+  .paper-card.is-prio { border-left: 3px solid #daa520; }
   .card-header { display: flex; align-items: flex-start; gap: 0.75rem; }
+  .card-main { flex: 1; cursor: pointer; }
   .card-date { font-size: 0.72rem; color: #555; white-space: nowrap; margin-top: 2px; }
   .card-title { font-size: 0.95rem; font-weight: 500; color: #e8e8e8; line-height: 1.4; }
   .card-authors { font-size: 0.78rem; color: #666; margin-top: 0.3rem; }
   .card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.65rem; }
   .card-tag { padding: 0.15rem 0.5rem; border-radius: 99px; font-size: 0.68rem; background: #1e1e28; color: #888; border: 1px solid #2a2a38; }
+  .card-tag.custom { background: #1a2a1a; border-color: #2a4a2a; color: #7a9a7a; }
+  .card-actions { display: flex; flex-direction: column; gap: 0.4rem; align-items: flex-end; flex-shrink: 0; }
+  .action-btn { background: none; border: 1px solid #2a2a38; border-radius: 6px; padding: 0.25rem 0.5rem; font-size: 0.75rem; cursor: pointer; color: #666; transition: all 0.15s; white-space: nowrap; }
+  .action-btn:hover { border-color: #444; color: #aaa; }
+  .action-btn.prio-active { border-color: #daa520; color: #daa520; }
+  .action-btn.read-active { border-color: #3a7a3a; color: #5a9a5a; }
   .card-body { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #1e1e28; display: none; }
   .card-body.show { display: block; }
   .card-body p { font-size: 0.85rem; color: #bbb; line-height: 1.65; }
   .card-links { display: flex; gap: 0.75rem; margin-top: 0.85rem; }
   .card-links a { font-size: 0.78rem; color: #5865f2; text-decoration: none; }
   .card-links a:hover { text-decoration: underline; }
+  .custom-tag-row { display: flex; gap: 0.4rem; margin-top: 0.75rem; }
+  .custom-tag-input { flex: 1; background: #1a1a20; border: 1px solid #2a2a35; border-radius: 6px; padding: 0.3rem 0.6rem; color: #e0e0e0; font-size: 0.78rem; outline: none; }
+  .custom-tag-input:focus { border-color: #5865f2; }
+  .custom-tag-add { background: #1e1e28; border: 1px solid #2a2a38; border-radius: 6px; padding: 0.3rem 0.6rem; color: #aaa; font-size: 0.78rem; cursor: pointer; }
+  .custom-tag-add:hover { background: #2a2a38; }
+  .custom-tag-remove { cursor: pointer; margin-left: 3px; opacity: 0.6; }
+  .custom-tag-remove:hover { opacity: 1; }
   .empty { text-align: center; padding: 4rem 2rem; color: #555; }
   .empty h2 { font-size: 1rem; margin-bottom: 0.5rem; color: #666; }
   .graph-toggle { background: #5865f2; border: none; border-radius: 6px; padding: 0.4rem 0.9rem; color: #fff; font-size: 0.8rem; cursor: pointer; }
@@ -63,6 +85,11 @@
 <div class="layout">
   <aside class="sidebar">
     <input class="search" id="search" placeholder="Search titles, authors..." oninput="filterPapers()">
+    <h3>Filter</h3>
+    <div class="filter-group" style="margin-bottom:1.5rem">
+      <span class="filter-btn prio-btn" onclick="toggleFilter('prio', this)">⭐ Priority</span>
+      <span class="filter-btn unread-btn" onclick="toggleFilter('unread', this)">Unread</span>
+    </div>
     <h3>Tags</h3>
     <div class="tag-cloud" id="tag-cloud"></div>
   </aside>
@@ -70,6 +97,7 @@
     <div class="controls">
       <button class="sort-btn active" onclick="setSort('date', this)">Newest</button>
       <button class="sort-btn" onclick="setSort('title', this)">A–Z</button>
+      <button class="sort-btn" onclick="setSort('prio', this)">Priority first</button>
       <span class="result-count" id="result-count"></span>
     </div>
     <div class="papers" id="papers"></div>
@@ -85,7 +113,61 @@
 <script>
 let allPapers = [];
 let activeTags = new Set();
+let activeFilters = new Set();
 let sortMode = 'date';
+
+// localStorage helpers
+function getRead() { return new Set(JSON.parse(localStorage.getItem('papers_read') || '[]')); }
+function getPrio() { return new Set(JSON.parse(localStorage.getItem('papers_prio') || '[]')); }
+function getCustomTags() { return JSON.parse(localStorage.getItem('papers_custom_tags') || '{}'); }
+function saveRead(s) { localStorage.setItem('papers_read', JSON.stringify([...s])); }
+function savePrio(s) { localStorage.setItem('papers_prio', JSON.stringify([...s])); }
+function saveCustomTags(o) { localStorage.setItem('papers_custom_tags', JSON.stringify(o)); }
+
+function paperKey(p) { return p.url || p.title; }
+
+function toggleRead(key, event) {
+  event.stopPropagation();
+  const read = getRead();
+  read.has(key) ? read.delete(key) : read.add(key);
+  saveRead(read);
+  filterPapers();
+}
+
+function togglePrio(key, event) {
+  event.stopPropagation();
+  const prio = getPrio();
+  prio.has(key) ? prio.delete(key) : prio.add(key);
+  savePrio(prio);
+  filterPapers();
+}
+
+function addCustomTag(key, event) {
+  event.stopPropagation();
+  const input = document.getElementById('tag-input-' + CSS.escape(key));
+  const val = input.value.trim().toLowerCase().replace(/\s+/g, '-');
+  if (!val) return;
+  const ct = getCustomTags();
+  if (!ct[key]) ct[key] = [];
+  if (!ct[key].includes(val)) ct[key].push(val);
+  saveCustomTags(ct);
+  input.value = '';
+  filterPapers();
+}
+
+function removeCustomTag(key, tag, event) {
+  event.stopPropagation();
+  const ct = getCustomTags();
+  if (ct[key]) ct[key] = ct[key].filter(t => t !== tag);
+  saveCustomTags(ct);
+  filterPapers();
+}
+
+function toggleFilter(name, btn) {
+  if (activeFilters.has(name)) { activeFilters.delete(name); btn.classList.remove('active'); }
+  else { activeFilters.add(name); btn.classList.add('active'); }
+  filterPapers();
+}
 
 async function loadPapers() {
   try {
@@ -127,37 +209,63 @@ function setSort(mode, btn) {
 
 function filterPapers() {
   const query = document.getElementById('search').value.toLowerCase();
+  const read = getRead();
+  const prio = getPrio();
+  const ct = getCustomTags();
+
   let filtered = allPapers.filter(p => {
+    const key = paperKey(p);
+    const allTags = [...(p.tags||[]), ...(ct[key]||[])];
     const matchQuery = !query ||
       p.title.toLowerCase().includes(query) ||
       (p.authors||'').toLowerCase().includes(query) ||
-      (p.tags||[]).some(t => t.includes(query));
-    const matchTags = activeTags.size === 0 ||
-      [...activeTags].every(t => (p.tags||[]).includes(t));
-    return matchQuery && matchTags;
+      allTags.some(t => t.includes(query));
+    const matchTags = activeTags.size === 0 || [...activeTags].every(t => allTags.includes(t));
+    const matchPrio = !activeFilters.has('prio') || prio.has(key);
+    const matchUnread = !activeFilters.has('unread') || !read.has(key);
+    return matchQuery && matchTags && matchPrio && matchUnread;
   });
 
   if (sortMode === 'date') filtered.sort((a,b) => b.published.localeCompare(a.published));
-  else filtered.sort((a,b) => a.title.localeCompare(b.title));
+  else if (sortMode === 'title') filtered.sort((a,b) => a.title.localeCompare(b.title));
+  else if (sortMode === 'prio') filtered.sort((a,b) => {
+    const ap = prio.has(paperKey(a)) ? 0 : 1;
+    const bp = prio.has(paperKey(b)) ? 0 : 1;
+    return ap - bp || b.published.localeCompare(a.published);
+  });
 
   document.getElementById('result-count').textContent = `${filtered.length} paper${filtered.length !== 1 ? 's' : ''}`;
-  renderPapers(filtered);
+  renderPapers(filtered, read, prio, ct);
 }
 
-function renderPapers(papers) {
+function renderPapers(papers, read, prio, ct) {
   const container = document.getElementById('papers');
   if (!papers.length) {
     container.innerHTML = '<div class="empty"><h2>No papers match</h2><p>Try different filters.</p></div>';
     return;
   }
-  container.innerHTML = papers.map((p, i) => `
-    <div class="paper-card" onclick="toggleCard(${i})">
+  container.innerHTML = papers.map((p, i) => {
+    const key = paperKey(p);
+    const isRead = read.has(key);
+    const isPrio = prio.has(key);
+    const customTags = ct[key] || [];
+    const keyEsc = escAttr(key);
+    const cardClasses = ['paper-card', isRead ? 'is-read' : '', isPrio ? 'is-prio' : ''].filter(Boolean).join(' ');
+    return `
+    <div class="${cardClasses}" id="card-${i}">
       <div class="card-header">
         <div class="card-date">${p.published ? p.published.slice(0,10) : ''}</div>
-        <div>
+        <div class="card-main" onclick="toggleCard(${i})">
           <div class="card-title">${escHtml(p.title)}</div>
           <div class="card-authors">${escHtml(p.authors||'')}</div>
-          <div class="card-tags">${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}</div>
+          <div class="card-tags">
+            ${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}
+            ${customTags.map(t => `<span class="card-tag custom">${escHtml(t)}<span class="custom-tag-remove" onclick="removeCustomTag('${keyEsc}','${escAttr(t)}',event)"> ✕</span></span>`).join('')}
+          </div>
+        </div>
+        <div class="card-actions">
+          <button class="action-btn ${isPrio ? 'prio-active' : ''}" onclick="togglePrio('${keyEsc}',event)">⭐ ${isPrio ? 'Prio' : 'Prio'}</button>
+          <button class="action-btn ${isRead ? 'read-active' : ''}" onclick="toggleRead('${keyEsc}',event)">${isRead ? '✓ Read' : 'Mark read'}</button>
         </div>
       </div>
       <div class="card-body" id="body-${i}">
@@ -166,24 +274,31 @@ function renderPapers(papers) {
           ${p.url ? `<a href="${p.url}" target="_blank">arXiv</a>` : ''}
           ${p.pdf ? `<a href="${p.pdf}" target="_blank">PDF</a>` : ''}
         </div>
+        <div class="custom-tag-row">
+          <input class="custom-tag-input" id="tag-input-${keyEsc}" placeholder="Add tag..." onkeydown="if(event.key==='Enter')addCustomTag('${keyEsc}',event)" onclick="event.stopPropagation()">
+          <button class="custom-tag-add" onclick="addCustomTag('${keyEsc}',event)">+ Tag</button>
+        </div>
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
 }
 
 function toggleCard(i) {
   const body = document.getElementById(`body-${i}`);
-  if (body) body.classList.toggle('show');
+  const card = document.getElementById(`card-${i}`);
+  if (body) { body.classList.toggle('show'); card.classList.toggle('expanded'); }
 }
 
 function escHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
+function escAttr(s) {
+  return String(s).replace(/'/g,"\\'").replace(/"/g,'&quot;');
+}
 
 // Tag graph using D3
 function openGraph() {
-  const container = document.getElementById('graph-container');
-  container.classList.add('show');
+  document.getElementById('graph-container').classList.add('show');
   drawGraph();
 }
 function closeGraph() {
@@ -209,10 +324,7 @@ function drawGraph() {
   const topTags = Object.entries(tagCount).sort((a,b)=>b[1]-a[1]).slice(0,60).map(([t])=>t);
   const nodes = topTags.map(id => ({ id, count: tagCount[id] }));
   const links = Object.entries(coOccur)
-    .filter(([k, v]) => {
-      const [a,b] = k.split('||');
-      return topTags.includes(a) && topTags.includes(b) && v > 0;
-    })
+    .filter(([k, v]) => { const [a,b] = k.split('||'); return topTags.includes(a) && topTags.includes(b) && v > 0; })
     .map(([k, value]) => { const [source,target]=k.split('||'); return {source,target,value}; });
 
   const sim = d3.forceSimulation(nodes)
@@ -228,7 +340,8 @@ function drawGraph() {
     .attr('stroke-width', d => Math.sqrt(d.value));
 
   const node = g.append('g').selectAll('.node').data(nodes).join('g').attr('class','node')
-    .call(d3.drag().on('start', (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+    .call(d3.drag()
+      .on('start', (e,d) => { if(!e.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
       .on('drag', (e,d) => { d.fx=e.x; d.fy=e.y; })
       .on('end', (e,d) => { if(!e.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
 
