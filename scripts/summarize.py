@@ -108,6 +108,7 @@ url: "{paper['url']}"
 pdf: "{paper['pdf_url']}"
 arxiv_categories: "{categories_str}"
 date_added: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
+status: unread
 trusted: {str(paper.get('trusted', False)).lower()}
 tags:
 {tag_lines}
