@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   fetch-and-summarize:
@@ -38,14 +40,25 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/telegram_digest.py /tmp/processed.json
 
+      - name: Build web UI
+        run: pip install pyyaml && python scripts/build_web.py
+
       - name: Commit new papers and updated tags
         run: |
           git config user.name "paper-tracker[bot]"
           git config user.email "paper-tracker@users.noreply.github.com"
-          git add papers/ tags.json data/
+          git add papers/ tags.json data/ web/papers.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: add papers $(date -u +%Y-%m-%d)"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
           fi
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/
+
+      - uses: actions/deploy-pages@v4
