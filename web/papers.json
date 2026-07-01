@@ -1,5 +1,421 @@
 [
   {
+    "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+    "authors": "Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina, Joschka Strüber, Ameya Prabhu et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32034v1",
+    "pdf": "https://arxiv.org/pdf/2606.32034v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces QVal, a training-free evaluation framework for assessing the quality of dense supervision signals used to train long-horizon LLM agents. Instead of measuring supervision quality indirectly by running expensive training pipelines, QVal directly measures whether a method's scores align with Q-values (action quality estimates) from a reference policy. The work benchmarks 21 dense supervision methods across diverse environments, revealing that simple prompting baselines often outperform recent published methods — findings that would be hidden by traditional training-dependent evaluation.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+    "authors": "Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona, Idan Szpektor, Arman Cohan",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32032v1",
+    "pdf": "https://arxiv.org/pdf/2606.32032v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces reinforcement learning with metacognitive feedback (RLMF), a method that trains large language models to accurately assess and express their own uncertainty. The core insight is that models which can reliably judge their own performance can then improve it—addressing a critical failure mode where LLMs hallucinate confidently and misrepresent what they actually know. The work demonstrates that metacognitive self-assessment can serve as a powerful training signal, outperforming standard reinforcement learning approaches by up to 63% and producing models whose expressed uncertainty genuinely reflects their internal knowledge.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+    "authors": "Yuqing Yang, Qi Zhu, Zhen Han, Boran Han, Zhengyuan Shen et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32029v1",
+    "pdf": "https://arxiv.org/pdf/2606.32029v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "Large language models often make data referencing errors (DREs)—incorrectly citing or omitting values from tables—even when they understand the table structure. This paper systematically measures these errors across different models and proposes using a lightweight \"critic\" model to detect and filter out bad outputs, improving final answer accuracy by up to 12%. The work addresses a gap in reliability for LLM-based table reasoning, which matters because incorrect intermediate steps undermine trustworthiness even if final answers sometimes happen to be right.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Generative Skill Composition for LLM Agents",
+    "authors": "Xinyu Zhao, Zhen Tan, Vaishnav Tadiparthi, Nakul Agarwal, Kwonjoon Lee et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32025v1",
+    "pdf": "https://arxiv.org/pdf/2606.32025v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles a central problem for LLM-based agents: how to select and order a sequence of reusable skills (modular procedural knowledge packages) to solve complex tasks. The authors propose SkillComposer, a constrained decoder that jointly predicts which skills to use, how many times, and in what order—treating this as a structured sequence prediction problem rather than independent skill retrieval. On real coding tasks, the method outperforms simpler retrieval baselines and nearly matches the performance ceiling of oracle skill selection.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Automated Background Swapping for Robustness against Spurious Backgrounds",
+    "authors": "Cesar Roder, Kajetan Schweighofer",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32018v1",
+    "pdf": "https://arxiv.org/pdf/2606.32018v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper addresses a critical failure mode in deep learning: when image classifiers rely on spurious correlations (like specific backgrounds) rather than the actual object of interest. The authors propose AutoBackSwap, a method that automatically swaps backgrounds in training images to force the classifier to focus on foregrounds. The approach works by using a secondary network to separate foreground from background, filling in new backgrounds, and creating augmented training data—all with minimal manual labeling.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+    "authors": "Yuanda Xu, Zhengze Zhou, Hejian Sang, Xiaomin Li, Jiaxin Zhang et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32017v1",
+    "pdf": "https://arxiv.org/pdf/2606.32017v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical problem in agentic reinforcement learning: standard reward signals from task outcomes are too coarse-grained and mislabel useful actions. TRIAGE proposes a finer-grained credit assignment system that classifies each action segment by its semantic role (e.g., decisive progress vs. useful exploration vs. regression) and assigns process rewards accordingly. The result is better policy learning with fewer environment interactions across web-based tasks.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "FedLAB: Traceable Semantic Codebooks for Federated Multimodal Graph Foundation Learning",
+    "authors": "Zekai Chen, Kairui Yang, Xuaner Chen, Xunkai Li, Xun Wu et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32016v1",
+    "pdf": "https://arxiv.org/pdf/2606.32016v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper introduces FedLAB, a framework for training multimodal graph foundation models across decentralized clients while keeping data private. Unlike standard federated learning approaches that share parameters or embeddings, FedLAB organizes knowledge into semantic codebooks that explicitly track *why* predictions are made—linking evidence from text, images, node identity, and network structure. The key innovation is maintaining interpretability (what the authors call \"semantic traceability\") even in federated settings where raw data never leaves individual devices.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Scalable Behaviour Cloning on Browser Using via Skill Distillation",
+    "authors": "Kaisen Yang, Zheng Jiang, Yuzhao Peng, Houde Qian, Boshi Zhang et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32014v1",
+    "pdf": "https://arxiv.org/pdf/2606.32014v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes a method for training browser automation agents by distilling human web interactions into reusable natural-language skills. Rather than training agents from scratch on individual tasks, the researchers extract high-level behavioral patterns from real user browsing data, compress them into skills an agent can understand and reuse, and organize these skills into a structured graph. The key insight is that internet users already demonstrate vast amounts of skilled behavior online—the challenge is not collecting training data but teaching agents to reason abstractly about incomplete information.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+    "authors": "Sanghyuk Chun, William Yang, Amaya Dharmasiri, Olga Russakovsky",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32012v1",
+    "pdf": "https://arxiv.org/pdf/2606.32012v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces CoMet, a method for estimating uncertainty in multimodal large language models (MLLMs) by decomposing it into two sources: context-induced ambiguity and answer multiplicity. Instead of generating multiple answers or sampling repeatedly, CoMet trains a lightweight post-hoc module that predicts these two uncertainty components, enabling efficient confidence estimation for open-ended tasks like visual question answering and hallucination detection.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Surrogate Fidelity: When Can Open LLMs Explain Closed Ones?",
+    "authors": "Philippe Chlenski, Zachariah Carmichael, Ayush Warikoo, Chia-Tse Shao, Yingxiao Ye et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32008v1",
+    "pdf": "https://arxiv.org/pdf/2606.32008v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper asks a practical but underexplored question: when you can inspect an open-source language model's internals, can you use those insights to understand how closed proprietary models (like GPT or Gemini) work? The authors find a surprising answer — models often agree on *what* they output but disagree on *why*, meaning prediction-level similarity does not guarantee mechanistic similarity. This matters because mechanistic interpretability research has focused on open models while deployed systems remain opaque.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "AxDafny: Agentic Verified Code Generation in Dafny",
+    "authors": "Benjamin Breen, Austin Letson, Borja Requena Pozo, Leopoldo Sarra",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32007v1",
+    "pdf": "https://arxiv.org/pdf/2606.32007v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "This paper presents AxDafny, a system where AI agents generate not just code but also the formal proofs needed to verify that code is correct. The key innovation is a repair loop: when verification fails, the agent automatically suggests fixes (new invariants, assertions, termination arguments) and tries again. The authors also release a benchmark of 250 programming problems in Dafny with formal specs, and show that their approach achieves 92.7% verification success—a significant improvement over prior work.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+    "authors": "Sameer Malik, Ayush Singh, Amar Prakash Azad",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.32004v1",
+    "pdf": "https://arxiv.org/pdf/2606.32004v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "PolicyGuard is a framework that converts organizational policies into executable compliance review engines by combining neural networks (LLMs) with symbolic logic rules. Instead of asking an LLM to make a yes/no compliance decision directly, it decomposes the problem: the LLM answers specific factual questions about a document, and formal logic rules then determine if those facts satisfy the policy. This matters because it makes compliance decisions transparent, auditable, and easier to update when policies change.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching",
+    "authors": "Meng Chen, Anya Ji, Tsung-Han Wu, Tobias Maringgele, David M. Chan et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31980v1",
+    "pdf": "https://arxiv.org/pdf/2606.31980v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "nlp"
+    ],
+    "summary": "DigitalCoach introduces a dataset of 72 real coaching sessions where human experts teach novices to use software, captured with screen recordings and dialogue transcripts. The paper shows that current AI models struggle to coach effectively—they give direct instructions but fail to explain *why*, diagnose errors, or ground their advice in what's actually visible on screen. This matters because as AI agents automate more software tasks, they need to bridge the gap between what they can do and what they can teach humans to do.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+    "authors": "Shiyi Chen, Nicholas Saban, Collin Hargreaves, Huiqi Wang",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31976v1",
+    "pdf": "https://arxiv.org/pdf/2606.31976v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents TreeAgent, a multi-agent system that combines expert decision trees with vision-language models (VLMs) to automatically label tree bias in forestry remote sensing images. Instead of relying on slow, inconsistent human experts, the system uses VLMs to make semantic judgments at each decision node, with multiple agents voting to reduce errors — achieving better accuracy than traditional supervised learning while cutting annotation costs significantly.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+    "authors": "Qingyun Liu, Jiwen Zhang, Jingyi Hu, Siyuan Wang, Zhongyu Wei",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31966v1",
+    "pdf": "https://arxiv.org/pdf/2606.31966v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces MECoBench, a benchmark for evaluating how multimodal large language models (MLLMs—AI systems that process images and text) work together as embodied agents (robots or simulated entities in visual environments) to complete real-world tasks. The key finding is that collaboration between agents improves task success, but only when communication is effective and coordination overhead is manageable; the optimal collaboration strategy depends on team size and individual model capability.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Signed-Permutation Coordinate Transport for RMSNorm Transformers",
+    "authors": "John Sweeney",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31963v1",
+    "pdf": "https://arxiv.org/pdf/2606.31963v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper solves a critical technical problem in modern LLM workflows: how to correctly move interpretability tools (like steering vectors and sparse autoencoders) between different model checkpoints. The authors show that the mathematical symmetry group governing this transport depends on the model's normalization layer — RMSNorm models have a larger symmetry group than LayerNorm models — and permutation-only alignment misses half the structure, leading to broken steering effects and interpretability tools. By tracking both permutations *and* per-channel sign flips, they recover 91% of coordinates across fine-tuning runs versus 60% with existing methods, and restore the functionality of tools that currently fail under standard alignment.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Analytic Cut in Epistemic Logics with Distributed Knowledge",
+    "authors": "Ryo Murai, Sizhuo Liu, Katsuhiko Sano",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31886v1",
+    "pdf": "https://arxiv.org/pdf/2606.31886v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper develops proof-theoretic foundations for reasoning about distributed knowledge in multi-agent systems — a formal notion of what groups of agents collectively know, defined as the intersection of their individual knowledge. The authors prove that analytic cut (a weaker but still powerful proof principle) holds for epistemic logics based on K45, KD45, and S5 modal systems, enabling sound and complete sequent calculi where reasoning stays within relevant formulas.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Inquisitive Action Logic",
+    "authors": "Ivano Ciardelli",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31866v1",
+    "pdf": "https://arxiv.org/pdf/2606.31866v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces inquisitive action logic (InqAL), a formal system for reasoning about what agents can do in multi-agent settings. Unlike traditional approaches that ask \"what outcomes can an agent force?\", InqAL also captures \"what aspects of outcomes does an agent determine through their choices?\" — treating these questions as modal logic statements. The work provides a complete mathematical framework (axiomatization, decidability proofs) for reasoning about agent capabilities and determination in concurrent settings.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "The Logic of Data Access and Data Exchanges",
+    "authors": "Alexandru Baltag, Sonja Smets",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31858v1",
+    "pdf": "https://arxiv.org/pdf/2606.31858v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper develops a new logical framework that extends Dynamic Epistemic Logic (DEL) — a formal system for reasoning about what multiple agents know and how knowledge changes — to handle data access and exchange scenarios. The key innovation is adding operators that express not just *whether* an agent knows something, but also how much they can narrow down unknowns (e.g., \"I can restrict this variable to 5 possible values\") and what happens when data sources become accessible. The work matters because it provides a rigorous mathematical foundation for reasoning about privacy, data sharing, and information leakage in multi-agent systems.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Resolving Asynchronous Distributed Knowledge",
+    "authors": "Philippe Balbiani, Hans van Ditmarsch, Clara Lerouvillois",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31855v1",
+    "pdf": "https://arxiv.org/pdf/2606.31855v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper develops a new modal logic for reasoning about knowledge in distributed systems where agents communicate asynchronously — that is, without a shared global clock or common awareness of when information is being shared. The key innovation is adding \"resolution modalities\" that track which agents know about knowledge-sharing events, even when some agents are unaware of updates involving other agents. This matters because real distributed systems (computers, networks, organizations) operate asynchronously, so this logic better models how knowledge actually spreads in practice.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Relational and Sequential Conformal Inference for Energy Time Series over Graphs via Foundation Models",
+    "authors": "Keivan Faghih Niresi, Alice Cicirello, Olga Fink",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31804v1",
+    "pdf": "https://arxiv.org/pdf/2606.31804v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes STOIC, a framework that combines spatial-temporal graph neural networks with tabular foundation models to generate reliable uncertainty estimates for energy demand forecasting. Rather than just predicting single values, STOIC produces prediction intervals (ranges) with statistical guarantees, which is critical for operators managing power grids and heating networks under uncertainty.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Diffusing Blame: Task-Dependent Credit Assignment in Biologically Plausible Dual-Stream Networks",
+    "authors": "Yutaro Yamada, Luca Grillotti, Rujikorn Charakorn, Sebastian Risi, David Ha et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31700v1",
+    "pdf": "https://arxiv.org/pdf/2606.31700v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a biologically plausible learning rule called Error Diffusion (ED) that works in neural networks constrained by Dale's principle — a biological constraint requiring each neuron to be either exclusively excitatory or inhibitory. The key innovation is \"modulo error routing,\" which allows error signals to be distributed through a dual-stream network architecture without backpropagation or weight transport. The authors show this approach scales from MNIST (96.7%) to CIFAR-10 (61.7%) and works in reinforcement learning tasks, bridging the gap between biological realism and practical performance.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "On Optimal Data Splitting for Split Conformal Prediction",
+    "authors": "Sayan Das, Bahram Yaghooti, Todd A. Kuffner, Soumendra N. Lahiri",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31600v1",
+    "pdf": "https://arxiv.org/pdf/2606.31600v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper solves a fundamental but overlooked problem: how to optimally split data into training and calibration sets for split conformal prediction (a method that creates prediction intervals with guaranteed coverage). The key insight is that the optimal split ratio depends on the underlying model structure, and the authors derive closed-form formulas showing exactly what split minimizes interval width while maintaining coverage guarantees—then demonstrate these formulas across linear regression, nonparametric methods, and neural networks.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "A Large-Scale Empirical Evaluation of MMAO Under Fair-Budget Continuous and Discrete Benchmarks",
+    "authors": "Jinliang Xu, Liping Ma",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31584v1",
+    "pdf": "https://arxiv.org/pdf/2606.31584v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper rigorously evaluates the Metabolic Multi-Agent Optimizer (MMAO)—a multi-agent framework for resource allocation—on standard continuous optimization benchmarks (CEC2017 functions) and discrete problems (traveling salesman, knapsack). The key finding is that MMAO's ability to dynamically redistribute computational resources among agents consistently outperforms traditional methods like particle swarm optimization and evolution strategies, suggesting multi-agent coordination is genuinely useful for hard optimization problems.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Robustness of neural networks to random noise perturbations of their inputs",
+    "authors": "Mark Levene, Martyn Harris",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31581v1",
+    "pdf": "https://arxiv.org/pdf/2606.31581v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper studies how well neural networks maintain their performance when their inputs are corrupted by random noise. The authors propose a simple, computationally efficient metric that predicts how much a network's error will increase under input perturbations, treating the network as a black box. They validate their approach on real datasets and introduce \"robustness curves\" to visualize and compare robustness across different conditions.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "On the Convergence of Self-Improving Online LLM Alignment",
+    "authors": "Xudong Wu, Pangpang Liu, Vaneet Aggarwal, Jiayu Chen",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31524v1",
+    "pdf": "https://arxiv.org/pdf/2606.31524v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proves convergence guarantees for SAIL (Self-Improving Alignment), an algorithm that helps large language models stay aligned with human values even as the distribution of user queries shifts over time. The authors identify that the standard SAIL objective lacks favorable mathematical properties for optimization, so they propose SAIL-RevKL—a regularized version that adds a reverse-KL penalty—and prove it converges efficiently with near-linear sample complexity. The work bridges the gap between SAIL's empirical success and formal theoretical understanding.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+    "authors": "Davy Guan, Lu Zhang, Asiri Wijesinghe, Allen Zhu, He Zhao et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.31126v1",
+    "pdf": "https://arxiv.org/pdf/2606.31126v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tests whether tabular foundation models—neural networks trained on synthetic tables to learn in-context learning—can predict biomolecular properties (protein fitness, molecular toxicity) with limited labeled data. The surprising answer is yes: models like TabPFN3 work competitively despite being trained on causal graphs with no obvious connection to biology. However, performance heavily depends on the choice of molecular representation (e.g., protein sequence encoder, molecular descriptors), not the tabular model itself.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Multistage Defer Trees for Hybrid Interpretability: If at First You Can't Succeed, Tree Again",
+    "authors": "Zakk Heile, Hayden McTavish, Margo Seltzer, Cynthia Rudin",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2606.30995v1",
+    "pdf": "https://arxiv.org/pdf/2606.30995v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper proposes Multistage Defer Trees, a method that chains together simple decision trees to achieve high accuracy while keeping most predictions interpretable. Rather than forcing a choice between a single interpretable tree (low accuracy) or a complex black-box ensemble (high accuracy but opaque), the approach routes most data through one or a few simple trees and only defers harder cases to subsequent trees or a black box, maintaining transparency for the majority of decisions.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
+    "title": "Partition-Guided Distance Saliency: Bridging Decision and Objective Spaces in Many-Objective Optimization",
+    "authors": "Cláudio Lúcio do Val Lopes, Flávio Vinícius Cruzeiro Martins, Elizabeth Fialho Wanner",
+    "published": "2026-06-29",
+    "url": "http://arxiv.org/abs/2606.30836v1",
+    "pdf": "https://arxiv.org/pdf/2606.30836v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper introduces a framework called Partition-Guided Distance Saliency (PGDS) that helps explain which decision variables matter most in many-objective optimization problems — situations where you're trying to optimize many competing goals simultaneously. The core challenge: as the number of objectives grows, the relationship between input decisions and outcomes becomes nearly impossible to visualize or understand. PGDS uses a three-step approach to automatically identify which variables \"drive\" progress toward better solutions and which ones \"block\" it, making high-dimensional optimization interpretable.",
+    "date_added": "2026-07-01",
+    "trusted": ""
+  },
+  {
     "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
     "authors": "Shun Lei, Huaicheng Zhang, Dapeng Wu, Yaoxun Xu, Lishi Zuo et al.",
     "published": "2026-06-29",
@@ -467,6 +883,20 @@
     ],
     "summary": "This paper identifies a critical problem in financial decision-making: when LLMs compress financial documents (earnings calls, SEC filings), they can produce fluent summaries that are factually correct but nevertheless alter the investment decisions those documents should support. The authors propose Agentic Context Compression, which generates multiple compressions and cross-validates them against the original source to preserve decision-relevant information.",
     "date_added": "2026-06-30",
+    "trusted": ""
+  },
+  {
+    "title": "Unified Complex-valued Neural Network: A Magnitude-Phase Computational Model for Event-Driven Neuromorphic Learning",
+    "authors": "Reza Ahmadvand, Sarah Safura Sharif, Yaser Mike Banad",
+    "published": "2026-06-27",
+    "url": "http://arxiv.org/abs/2606.29099v1",
+    "pdf": "https://arxiv.org/pdf/2606.29099v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a new type of artificial neuron called the Unified Complex-valued Neuron (UCN) that combines two complementary neural computing approaches: the accuracy of traditional neural networks and the efficiency of event-driven spiking neural networks. The key innovation is using complex numbers (with magnitude and phase components) to simultaneously encode signal strength and timing information, then train both pathways together. This matters because current systems must choose between accuracy or energy efficiency—this work aims to get both.",
+    "date_added": "2026-07-01",
     "trusted": ""
   },
   {
