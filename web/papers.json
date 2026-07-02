@@ -1,5 +1,453 @@
 [
   {
+    "title": "Reading Dashboard",
+    "authors": "",
+    "published": "",
+    "url": "",
+    "pdf": "",
+    "tags": [],
+    "summary": "",
+    "date_added": "",
+    "trusted": ""
+  },
+  {
+    "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+    "authors": "Zijian Zhang, Rizhen Hu, Athanasios Glentis, Dawei Li, Chung-Yiu Yau et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01232v1",
+    "pdf": "https://arxiv.org/pdf/2607.01232v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether all layers in a transformer model contribute equally to improvements during reinforcement learning post-training of large language models. The surprising finding: a single transformer layer can recover most or all of the performance gains achieved by updating the entire model, with these high-impact layers consistently concentrated in the middle of the network rather than at input or output positions. This challenges the standard assumption that RL adaptation is uniformly distributed and suggests a more efficient path to RL fine-tuning.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Language-Critique Imitation Learning from Suboptimal Demonstrations",
+    "authors": "Chih-Han Yang, Dai-Jie Wu, Yun-Ping Huang, Ping-Chun Hsieh, Kenneth Marino et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01225v1",
+    "pdf": "https://arxiv.org/pdf/2607.01225v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes using natural language feedback as structured supervision for training policies from suboptimal (imperfect) demonstrations. Instead of compressing feedback into single scores or weights, the method generates language descriptions of what went wrong and how to fix it, then trains policies to follow these critiques. It works on both standard behavior cloning and diffusion-based policies, and shows improvements over existing imitation learning approaches on navigation, manipulation, and game tasks.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+    "authors": "Shengguang Wu, Hao Zhu, Yuhui Zhang, Xiaohan Wang, Serena Yeung-Levy",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01224v1",
+    "pdf": "https://arxiv.org/pdf/2607.01224v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper treats memory management as a learnable cognitive skill for language models, not a fixed architectural feature. By letting models decide what to encode, when to retrieve, and how to organize information in memory files, and then automatically optimizing both the memory structure and the model's memory decisions through iterative learning loops, the authors show that memory skill alone can improve long-horizon task performance 2–4x, making a 32B open-weight model competitive with frontier systems on complex games.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "The State-Prediction Separation Hypothesis",
+    "authors": "Giovanni Monea, Nathan Godey, Kianté Brantley, Yoav Artzi",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01218v1",
+    "pdf": "https://arxiv.org/pdf/2607.01218v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper proposes that Transformers could perform better if they split their computation into two separate streams: one for predicting the next token and one for maintaining state (internal representations) for future predictions. The authors build a Transformer variant implementing this \"state-prediction separation\" and show it achieves 2–3% better performance on downstream tasks while using data and compute more efficiently than standard Transformers.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
+    "authors": "Zhi Chen, Zhensu Sun, Yuling Shi, David Lo, Lingxiao Jiang",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01211v1",
+    "pdf": "https://arxiv.org/pdf/2607.01211v1",
+    "tags": [
+      "agents"
+    ],
+    "summary": "This paper audits three major benchmarks used to evaluate coding agents (GSO, SWE-Perf, SWE-fficiency) and finds that their leaderboard rankings are unreliable due to runtime instability across machines, problematic scoring rules, and saturation from public submissions. The work matters because these benchmarks are widely cited as evidence of progress in AI-driven code optimization, but the measurements are noisier and less discriminative than assumed.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "TiRex-2: Generalizing TiRex to Multivariate Data and Streaming",
+    "authors": "Patrick Podest, Marco Pichler, Elias Bürger, Levente Zólyomi, Bernhard Voggenberger et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01204v1",
+    "pdf": "https://arxiv.org/pdf/2607.01204v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "TiRex-2 is a recurrent neural network foundation model designed for multivariate time series forecasting that can handle both past observations and future-known covariates (like announced holidays or policy changes) while processing data in streaming mode. Unlike Transformer-based alternatives, it avoids expensive quadratic complexity and can maintain constant computation per new data point, making it practical for real-world systems where data arrives continuously and historical recomputation is infeasible.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
+    "authors": "Jeffrey Fang, Keyi Shen, Anutam Srinivasan, Glen Chou",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01203v1",
+    "pdf": "https://arxiv.org/pdf/2607.01203v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper solves a critical problem in real-time control: when you use simplified linear approximations of complex nonlinear systems to make control problems tractable, how do you guarantee the actual system still respects safety constraints? The authors develop fast, mathematically verified bounds on linearization errors and embed them into a GPU-accelerated control solver, enabling robust feedback policies for neural network dynamics at real-time speeds (67 Hz on systems with 168 states).",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Quantum vs. Classical Machine Learning: A Unified Empirical Comparison",
+    "authors": "Chuanming Yu, Jiaming Liu, Zihao Ge, Xiongfei Wu, Lulu Zhu et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01197v1",
+    "pdf": "https://arxiv.org/pdf/2607.01197v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper provides the first large-scale empirical comparison between quantum machine learning (QML) models and their classical equivalents across supervised learning and reinforcement learning tasks. The key finding is sobering: current quantum models do not yet outperform classical baselines in prediction accuracy, training speed, or policy stability, though they show promise for noise filtering. This matters because it grounds the hype around quantum ML in experimental reality and identifies where future research should focus.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Neural Certificate Pricing for Combinatorial Optimization Problems",
+    "authors": "Jingyi Chen, Xinyuan Zhang, Xinwu Qian",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01185v1",
+    "pdf": "https://arxiv.org/pdf/2607.01185v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents Neural Certificate Pricing (NCP), a method that uses neural networks to solve hard combinatorial optimization problems by learning \"certificate prices\" — dual values that guide recovery of near-optimal solutions. Unlike traditional optimization that exhaustively searches, NCP exploits the fact that checking a solution's feasibility is fast even though finding the best solution is hard. The approach trains unsupervised and shows it can match or beat specialized neural methods while generalizing better to new problem instances.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "QuasiMoTTo: Quasi-Monte Carlo Test-Time Scaling",
+    "authors": "Michael Y. Li, Anthony Zhan, Kanishk Gandhi, Noah D. Goodman, Emily B. Fox",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01179v1",
+    "pdf": "https://arxiv.org/pdf/2607.01179v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces QuasiMoTTo, a method that makes inference compute more efficient by generating correlated samples instead of independent ones when scaling language model outputs. Rather than drawing samples randomly and independently (wasting compute on redundant solutions), QuasiMoTTo uses quasi-Monte Carlo sampling to spread samples more evenly across the solution space, achieving the same accuracy with 25–47% fewer samples while maintaining mathematical correctness for policy-gradient training.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+    "authors": "Brett Reynolds",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01153v1",
+    "pdf": "https://arxiv.org/pdf/2607.01153v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces a benchmark and annotation protocol called \"adversarial pragmatics\" to evaluate how language models handle ambiguous, conflicting, or manipulative instructions—situations where natural language is genuinely unclear or contains hidden commands. Rather than simple pass/fail grades, the framework distinguishes between different failure modes: capability gaps, policy confusion, instruction conflicts, or evaluator disagreement. This matters because current safety evaluations often hide what actually went wrong, making it harder to build more reliable and trustworthy AI systems.",
+    "date_added": "2026-07-02",
+    "trusted": "Anthropic"
+  },
+  {
+    "title": "AGC-Bench: Measuring Artificial General Creativity",
+    "authors": "Roger Beaty, Vijeta Deshpande, Clin K. Y. Lai, Anna Attuch, Namrata Shivagunde et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01152v1",
+    "pdf": "https://arxiv.org/pdf/2607.01152v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces AGC-Bench, a large-scale benchmark for measuring creativity in large language models across six domains (brainstorming, problem-solving, STEM, narrative, figurative language, and humor). The work combines a systematic literature review of 3,101 AI creativity papers with psychometric methods to address judge bias, ultimately discovering that LLMs exhibit a single underlying creativity factor analogous to general intelligence—but one that remains inferior to human creativity on matched tasks.",
+    "date_added": "2026-07-02",
+    "trusted": "Mistral"
+  },
+  {
+    "title": "Towards Developing a Multimodal Chat Assistant for University Stakeholders: RAG-based Approach",
+    "authors": "Md Abu Hanif Shaikh, Abdullah Al Shafi",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01115v1",
+    "pdf": "https://arxiv.org/pdf/2607.01115v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper describes a multimodal chatbot system designed to help university stakeholders (students, staff, faculty) find answers to institutional questions using retrieval-augmented generation (RAG). The system combines large language models with semantic search over university documents, accepts both text and image queries, and runs efficiently on limited hardware. The key result: RAG reduces hallucinations (false confident statements) from 31.7% to 6.6%, making the system far more reliable for real institutional use.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+    "authors": "Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01104v1",
+    "pdf": "https://arxiv.org/pdf/2607.01104v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents CausalMix, a method for optimizing how different types of training data are mixed when training large language models (LLMs). Instead of using fixed rules or proxy models that break when data sources change, the authors frame data mixing as a causal inference problem — treating data characteristics as factors that influence model performance. They train a causal model on small experiments, then use it to predict optimal data mixtures for much larger models, demonstrating that this approach generalizes better across different model sizes and data distributions.",
+    "date_added": "2026-07-02",
+    "trusted": "Mistral"
+  },
+  {
+    "title": "Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking",
+    "authors": "William Philipp, Finn Fassbender, Thorsten Langer, Martje Pauly, Rebecca Herzog et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01103v1",
+    "pdf": "https://arxiv.org/pdf/2607.01103v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper exposes a critical gap in using LLMs to automatically score medical exam answers: while top LLM evaluators achieve statistical agreement with physicians, they lack clinical judgment—they confidently score every answer instead of abstaining on difficult cases like clinicians do. The researchers created MedQADE, a German medical benchmark with 3,800 questions scored by real doctors and nine LLM judges, revealing that high alignment scores mask dangerous overconfidence in AI-driven medical evaluation.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Deep Multitask Learning for Mixed-Type Outcomes with Shared Sparsity",
+    "authors": "Huichao Li, Tong Wang, Sanguo Zhang, Shuangge Ma",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00995v1",
+    "pdf": "https://arxiv.org/pdf/2607.00995v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper addresses a major challenge in multitask learning: when different tasks have different outcome types (e.g., one task predicts continuous values, another predicts binary labels), standard loss functions aren't directly comparable, making it hard to share information across tasks. The authors propose a framework that handles mixed-type outcomes through unknown monotone transformations and uses shared sparsity (the idea that a common set of important features works across tasks) to improve both prediction and feature selection. They implement this via deep neural networks and prove theoretical guarantees on prediction error and variable selection accuracy.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "From Personas to Plot: Character-Grounded Multi-Agent Story Generation for Long-Form Narratives",
+    "authors": "Aayush Aluru, Chloe Ho, Muhammad Hammouri, Kerry Luo, Myra Malik et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00918v1",
+    "pdf": "https://arxiv.org/pdf/2607.00918v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper presents MAGNET, a system that generates long-form stories (100+ pages) by simulating multiple character agents with distinct personas who propose actions based on a shared world state and evolving story goals. The work addresses a key weakness of large language models: they tend to lose plot coherence and introduce contradictions when generating extended narratives. The authors also introduce ATLAS, a verification tool that detects hallucinations by comparing world representations across scenes, and show their approach reduces hallucinations by 50% compared to baseline LLM generation.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Calibrating the Instrument: Controllability of an LLM-Driven Synthetic Population",
+    "authors": "Mirko Degli Esposti",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00910v1",
+    "pdf": "https://arxiv.org/pdf/2607.00910v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper validates whether LLM-driven synthetic populations—computational agents representing real people—respond predictably and consistently to controlled stimuli. Rather than asking whether synthetic agents match real humans, the authors ask a more fundamental question: do synthetic agents respond reproducibly to the same input, and does their internal structure remain stable? They test this using 120 fictional personas in a simulated municipality responding to seven different messages about water policy, finding that the synthetic population behaves like a well-calibrated instrument, with one bonus finding—the LLM correctly identified a poorly-written \"positive\" message as actually negative.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Shapley in Context: Explaining Financial Language with Domain Expertise",
+    "authors": "Dangxing Chen, Pengzhan Guo",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00856v1",
+    "pdf": "https://arxiv.org/pdf/2607.00856v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "quantitative-finance"
+    ],
+    "summary": "This paper investigates whether Shapley values—a game-theoretic method for attributing model predictions to input features—can explain financial LLM decisions in ways that align with real financial reasoning. The authors show that Shapley-based explanations for financial text tasks are consistent with established domain knowledge, addressing a critical gap: most explainability methods are generic and don't account for finance's regulatory demands and high-stakes decision-making.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "MMAO-Dyn: A Metabolic Multi-Agent Optimizer for Dynamic Optimization",
+    "authors": "Jinliang Xu, Liping Ma",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00846v1",
+    "pdf": "https://arxiv.org/pdf/2607.00846v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper extends the Metabolic Multi-Agent Optimizer (MMAO)—a swarm-like algorithm where agents manage energy and roles—to handle dynamic optimization problems where the landscape shifts over time. The key claim is that MMAO's internal metabolic control mechanism can naturally adapt to non-stationary environments without bolting on external adaptation modules. The work shows modest improvements over generic variants and dynamic particle swarm optimization on standard benchmarks, though the gains are most clear in post-change recovery rather than consistent dominance.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "M2Note: Continual Evolution of Vision Language Models via Mistake Notebook Learning",
+    "authors": "Haiwen Li, Jing Tang, Rui Chen, Lei Sun, Xiangxiang Chu",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00685v1",
+    "pdf": "https://arxiv.org/pdf/2607.00685v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces M2Note, a training-free framework that improves Vision Language Models (VLMs) by learning from their mistakes without requiring expensive retraining. Instead of fine-tuning model weights, M2Note builds an editable \"mistake notebook\" — a memory of past failures and how to avoid them — that gets consulted during inference to steer the model away from recurring errors like hallucinations or skipped visual checks.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Active-GRPO: Adaptive Imitation and Self-Improving Reasoning for Molecular Optimization",
+    "authors": "Xuefeng Liu, Mingxuan Cao, Qinan Huang, Thomas Brettin, Rick Stevens et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00531v1",
+    "pdf": "https://arxiv.org/pdf/2607.00531v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses how to train language models to reason effectively about molecular design. The authors propose Active-GRPO, a method that lets a model decide when to learn from examples (imitation) versus when to explore its own ideas (reinforcement learning), while dynamically upgrading the examples it learns from. On molecular optimization benchmarks, their approach outperforms existing methods by allowing the model to move beyond the constraints of fixed reference solutions.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Ghost in the Kernel: In-Context Learning with Efficient Transformers via Domain Generalization",
+    "authors": "Peilin Liu, Ding-Xuan Zhou",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00479v1",
+    "pdf": "https://arxiv.org/pdf/2607.00479v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "transformers"
+    ],
+    "summary": "This paper analyzes how linear transformers—a computationally cheaper variant of standard transformers—can perform in-context learning (adapting to new tasks using only examples in the input, without updating weights). The authors provide theoretical guarantees showing that linear transformers can learn as effectively as standard transformers while reducing computational cost from quadratic to linear in context length. They also propose practical ways to convert existing large language models to use linear attention without retraining from scratch.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing: When Do AI Models Beat Simple Rules?",
+    "authors": "Austin Pollok, Kevin Robik",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00475v1",
+    "pdf": "https://arxiv.org/pdf/2607.00475v1",
+    "tags": [
+      "algorithmic-trading",
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper asks whether machine learning models can beat simple rule-based strategies for timing cross-asset futures portfolios. The researchers train neural networks (LSTMs and transformers) to map market conditions directly to portfolio weights using a differentiable Sharpe ratio loss, then compare them against equal weighting, risk parity, and momentum rules on CME futures data. They find that learned policies can outperform rules on average, but the advantage shrinks significantly once trading costs are factored in—and transformers win out by trading far less than LSTMs.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Neural Network-Based Estimation of Time-Dependent Parameters in AR(p) Processes",
+    "authors": "Agnieszka Kopeć, Paweł Przybyłowicz, Martyna Wiącek",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00470v1",
+    "pdf": "https://arxiv.org/pdf/2607.00470v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a neural network approach to estimate time-varying coefficients in autoregressive (AR) time-series models, allowing simple parametric forecasting models to capture complex, nonstationary dynamics. The key innovation is using deep learning to recover the time-dependent parameters while preserving model interpretability—you can still see what the coefficients are at each time step, unlike black-box neural networks. The authors analyze both Gaussian and heavy-tailed (Laplace) noise distributions and derive prediction intervals, making the method practical for uncertainty quantification.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation",
+    "authors": "Vedant Balasubramaniam, Geetha Charan, Manojkumar Patil, Rohit P Suresh, V Priyanka et al.",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00454v1",
+    "pdf": "https://arxiv.org/pdf/2607.00454v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "Agri-SAGE is a framework that combines large language models (LLMs) with crop simulation software to generate better farming advice. It solves two problems: static agricultural guidelines ignore seasonal variations, while LLM-only systems can sound plausible but be agronomically wrong. The system uses multiple AI agents that reason through farming decisions and validate recommendations against biophysical simulations, achieving higher crop yields than traditional approaches.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Self-Organized Learning in Oscillatory Neural Networks with Memristive Signed Couplings",
+    "authors": "Riley Acker, Aman Desai, Garrett Kenyon, Frank Barrows",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.00286v1",
+    "pdf": "https://arxiv.org/pdf/2607.00286v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper demonstrates how oscillatory neural networks (ONNs)—brain-inspired computing systems where neurons communicate through synchronized timing patterns—can learn and store memories autonomously using memristive devices with both positive and negative (signed) connections. The key innovation is showing that negative weights are essential for creating stable anti-phase memory patterns, and the authors provide circuit simulations proving this neuromorphic approach can denoise corrupted inputs without external training signals.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "authors": "Runyu Lu, Yubo Wu, Ethan Kou, Letian Fu, Wenli Xiao et al.",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2607.00272v1",
+    "pdf": "https://arxiv.org/pdf/2607.00272v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "ASPIRE is a system that automatically discovers, writes, and refines robot control programs through continuous learning and exploration. Instead of manually programming each robot behavior, ASPIRE autonomously diagnoses failures, generates fixes, and builds a reusable library of skills that work across different tasks, simulated and real robots, and robot types—achieving dramatic improvements (up to 77%) over prior methods on complex manipulation tasks.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
+    "title": "Sample Complexities of Estimating Gumbel--Max Watermark Proportions with and without Reduction to Pivotal Statistics",
+    "authors": "Shuwen Chai, Qiaosen Wang",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2607.00224v1",
+    "pdf": "https://arxiv.org/pdf/2607.00224v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper solves a statistical problem: given a document that may be partially human-written and partially machine-generated, how can you estimate what fraction was produced by a specific watermarked language model? The authors analyze two methods under the Gumbel-max watermarking scheme—one using full information and one using a simplified \"pivot\" statistic—and prove how many document tokens you need to see to reliably estimate the watermark proportion. They show that the simpler method requires substantially more samples, suggesting it trades off computational elegance for statistical efficiency.",
+    "date_added": "2026-07-02",
+    "trusted": "OpenAI"
+  },
+  {
+    "title": "EVOTS: Evolutionary Transformer Search for Time Series Forecasting",
+    "authors": "AbdElRahman ElSaid, Damir Pulatov",
+    "published": "2026-06-30",
+    "url": "http://arxiv.org/abs/2607.00154v1",
+    "pdf": "https://arxiv.org/pdf/2607.00154v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper presents EVOTS, a framework that automatically designs Transformer-like neural networks optimized for time-series forecasting tasks using evolutionary algorithms. Instead of using a single fixed Transformer architecture, the method evolves custom architectures tailored to specific forecasting problems, demonstrating competitive or better performance on standard benchmarks while keeping computational costs reasonable.",
+    "date_added": "2026-07-02",
+    "trusted": ""
+  },
+  {
     "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
     "authors": "Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina, Joschka Strüber, Ameya Prabhu et al.",
     "published": "2026-06-30",
