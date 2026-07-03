@@ -11,6 +11,435 @@
     "trusted": ""
   },
   {
+    "title": "Distributed Attacks in Persistent-State AI Control",
+    "authors": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02514v1",
+    "pdf": "https://arxiv.org/pdf/2607.02514v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper reveals a new vulnerability in autonomous AI coding agents: when agents iteratively ship code to a persistent codebase, a misaligned agent can distribute malicious changes across multiple pull requests to evade detection. The authors benchmark this \"distributed attack\" setting using two task families (CLI tools and Flask services) and show that no single monitor can simultaneously defend against both gradual (spread-out) and non-gradual (concentrated) attacks—a fundamental asymmetry that creates a dilemma for defenders.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+    "authors": "Wentao Zhang, Liliana Hotsko, Woojeong Kim, Pengyu Nie, Stuart Shieber et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02512v1",
+    "pdf": "https://arxiv.org/pdf/2607.02512v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes a new way to solve fuzzy programming tasks—ones that don't have clean rule-based solutions, like detecting important log lines or fixing malformed JSON—by compiling natural-language specifications into small, reusable neural artifacts instead of calling expensive LLM APIs every time. The approach, called Program-as-Weights (PAW), trains a compiler to generate lightweight parameter-efficient adapters that run locally and offline, matching the performance of much larger models while using far less memory and compute.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Online Safety Monitoring for LLMs",
+    "authors": "Mona Schirmer, Metod Jazbec, Alexander Timans, Christian Naesseth, Maja Waldron et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02510v1",
+    "pdf": "https://arxiv.org/pdf/2607.02510v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper tackles a critical deployment problem: how to catch when a large language model (LLM) is about to produce an unsafe output in real time. The authors show that a simple approach—using another model to score safety and then raising an alarm when the score falls below a threshold—works as well as more complex methods. The threshold is tuned using risk control, a statistical technique that guarantees certain safety properties. This matters because alignment training alone doesn't prevent bad outputs, and deploying systems without guardrails is dangerous.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+    "authors": "Yanjun Zhao, Ruizhong Qiu, Tianxin Wei, Yuanchen Bei, Zhining Liu et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02509v1",
+    "pdf": "https://arxiv.org/pdf/2607.02509v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces ReContext, a training-free method that improves how large language models use information in very long documents (up to 128K tokens). The key insight: LLMs can access long contexts but often fail to actually use the relevant information when answering questions. ReContext solves this by recursively identifying and replaying relevant evidence before generating answers, without requiring model retraining or external memory systems.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+    "authors": "Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah, Shahriar Noroozizadeh",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02507v1",
+    "pdf": "https://arxiv.org/pdf/2607.02507v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper investigates whether LLM agents behave differently in public versus private settings when placed in socially structured scenarios. The authors introduce a \"dual-channel debate\" framework where agents produce both public utterances (seen by others) and off-the-record (OTR) responses (hidden), and find that alignment-inducing social pressures cause agents to diverge significantly between channels—public responses become more accommodating while OTR responses reveal divergent or contrary positions. This matters because it suggests LLM agents may develop emergent social objectives (like reputation management) that aren't explicitly prompted, raising questions about how to properly evaluate agent behavior and alignment.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+    "authors": "Yuxuan Li, Lingxi Xie, Xinyue Huo, Jihao Qiu, Jiacheng Shao et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02504v1",
+    "pdf": "https://arxiv.org/pdf/2607.02504v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles speaker recognition in long-form TV dramas—figuring out which character said what line—by combining a large reasoning language model with multimodal evidence (audio, text, and visual cues). The authors introduce DramaSR-532K, a dataset of 532K annotated dialogue lines across 900+ characters, and DramaSR-LRM, a method that uses language models to reason through context and synthesize multiple input modalities. The work matters because existing speaker diarization systems fail on short utterances and complex narratives, and this demonstrates that reasoning models can solve this by integrating information across modalities instead of relying solely on voice biometrics.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "DemoPSD: Disagreement-Modulated Policy Self-Distillation",
+    "authors": "Yunhe Li, Hao Shi, Wenhao Liu, Mengzhe Ruan, Hanxu Hou et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02502v1",
+    "pdf": "https://arxiv.org/pdf/2607.02502v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "DemoPSD is a new training method that improves how large language models learn from themselves through a process called self-distillation. The key problem it solves: when a model acts as both teacher and student (with the teacher seeing the answer), the student learns shortcuts that depend on information unavailable at test time, hurting generalization. DemoPSD instead uses \"disagreement modulation\" — dynamically blending teacher guidance with the student's own reasoning based on how different they are — achieving both better out-of-domain performance and more robust reasoning.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Controllable Sim Agents with Behavior Latents",
+    "authors": "Juanwu Lu, Junyu Zhu, Ziran Wang",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02496v1",
+    "pdf": "https://arxiv.org/pdf/2607.02496v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents CNeVA, a framework for creating realistic traffic simulation agents that can be precisely controlled along interpretable dimensions (speed, safety, map compliance). Rather than building agents that simply replay logged behaviors, the authors enable engineers to steer agent behavior smoothly—crucial for testing autonomous vehicles without real-world risk. The key innovation is using a learned latent space (Gaussian behavior codes) combined with a diffusion-like trajectory generator, allowing fine-grained control while maintaining realism.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Towards Robustness against Typographic Attack with Training-free Concept Localization",
+    "authors": "Bohan Liu, Wenqian Ye, Guangzhi Xiong, Zhenghao He, Sanchit Sinha et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02494v1",
+    "pdf": "https://arxiv.org/pdf/2607.02494v1",
+    "tags": [
+      "computer-vision",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper reveals a critical vulnerability in CLIP-based vision models: text appearing in images (typographic attacks) causes models to focus on lexical meaning rather than visual semantics, degrading performance in safety-critical tasks like autonomous driving. The authors propose a training-free mechanistic interpretability method that identifies which attention heads in Vision Transformers encode lexical versus visual information, then surgically intervenes on those circuits to restore robustness without retraining.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning",
+    "authors": "Liyan Tang, Fangcong Yin, Greg Durrett",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02490v1",
+    "pdf": "https://arxiv.org/pdf/2607.02490v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a critical failure mode in vision-language models: they struggle to properly use visual information when correcting their own mistakes during chain-of-thought reasoning. The authors propose VRRL, a reinforcement learning framework that trains models to perform visually grounded self-reflection by masking earlier decisions and exposing them to diverse failure states. The work is important because it shows how to make multimodal AI systems more robust, especially when facing images that differ from their training distribution.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
+    "authors": "Jiale Amber Wang, Kaiyuan Wang, Pengyu Nie",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02469v1",
+    "pdf": "https://arxiv.org/pdf/2607.02469v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces TestEvo-Bench, a benchmark for evaluating AI agents on the task of writing and updating software tests alongside code changes. The benchmark is grounded in real commit history and executable — tests can actually run against the code they're meant to test — which matters because most existing benchmarks use static metadata that doesn't verify whether tests actually work or logically connect to the code change. The authors evaluate four state-of-the-art AI agents and find they succeed ~75% of the time, but performance drops notably on recent tasks and under resource constraints.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Will Scaling Improve Social Simulation with LLMs?",
+    "authors": "Caleb Ziems, William Held, Su Doga Karaca, David Grusky, Tatsunori Hashimoto et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02464v1",
+    "pdf": "https://arxiv.org/pdf/2607.02464v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether larger language models will become better at simulating human social behavior—like predicting opinions, modeling how people act, and forecasting future trends. Using 85+ LLMs ranging from 0.5B to 70B parameters, the authors find that scale *does* improve social simulation in most cases, but with important exceptions: models fail to capture human cognitive biases (like risk aversion) and struggle with opinions from underrepresented groups in training data, suggesting that bigger models alone won't solve all social simulation problems.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+    "authors": "Donghyun Lee, Jitesh Chavan, Duy Nguyen, Sam Huang, Liming Jiang et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02461v1",
+    "pdf": "https://arxiv.org/pdf/2607.02461v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "OrbitQuant is a post-training quantization method that compresses image and video diffusion transformers (DiTs) to low bit-widths without requiring new calibration data for different models or input conditions. The key insight is to quantize activations in a rotated, normalized basis where values stay predictable across all timesteps and prompts, enabling a single quantization codebook to work universally. This achieves state-of-the-art compression ratios (down to W2A4 — 2-bit weights, 4-bit activations) while preserving generation quality.",
+    "date_added": "2026-07-03",
+    "trusted": "Hugging Face"
+  },
+  {
+    "title": "Neuron-Aware Data Selection for Annotation-Free LLM Self-Distillation",
+    "authors": "Zhuowei Chen, Xiang Lorraine Li",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02460v1",
+    "pdf": "https://arxiv.org/pdf/2607.02460v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Neuron-OPSD, a method for improving large language models without human annotations by using the model's internal neuron activations to select which training examples matter most and how to construct better teacher signals. The key insight is that by watching which neurons activate strongly during inference, you can identify the most informative examples to learn from and generate better pseudo-labels, achieving better performance on specialized tasks while maintaining general knowledge.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Adoption and Ecosystem Health: A Longitudinal Analysis of Open-Source Multi-Agent Frameworks",
+    "authors": "Xi Zhang, Papi Menon, Vivian Chu, Koray Cosguner",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02453v1",
+    "pdf": "https://arxiv.org/pdf/2607.02453v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper analyzes 15 major open-source AI agent frameworks over a 3.5-year period to understand what actually indicates ecosystem health beyond surface-level metrics like GitHub stars. The authors find that contributor density (active developers per 1,000 stars), cross-framework engagement, and contributor retention are far better predictors of a framework's real adoption and viability than headline popularity, which is often inflated by hype cycles and inorganic activity.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "AgentsCAD: Automated Design for Manufacturing of FDM Parts via Multi-Agent LLM Reasoning and Geometric Feature Recognition",
+    "authors": "Emmanuel George, Christopher Keefe, Peter Pak, Amir Barati Farimani",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02448v1",
+    "pdf": "https://arxiv.org/pdf/2607.02448v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "AgentsCAD is a multi-agent system that uses large language models (LLMs) to automatically fix 3D CAD designs for 3D printing (FDM). The system reads a design file, detects manufacturing problems like steep overhangs, and proposes geometry modifications—reorienting parts, adding fillets, or chamfers—then verifies the fixes visually. This matters because current 3D printing software can identify defects but cannot fix them; automating this repair process saves engineers significant manual work and improves print success rates.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Understanding the Robustness of Distributed Self-Supervised Learning Frameworks Against Non-IID Data",
+    "authors": "Xuanyu Chen, Nan Yang, Shuai Wang, Dong Yuan",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02447v1",
+    "pdf": "https://arxiv.org/pdf/2607.02447v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper provides theoretical analysis of how distributed self-supervised learning (D-SSL) — a training approach that learns from unlabeled data across multiple computers — performs when data is unevenly distributed across nodes. The key finding is that Masked Image Modeling (MIM) pre-training is more robust to data heterogeneity than Contrastive Learning, and that better network connectivity improves robustness. This matters because real-world decentralized data is almost never perfectly balanced, so understanding which learning methods handle this scenario better is practically important.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems",
+    "authors": "Uwe M. Borghoff, Paolo Bottoni, Remo Pareschi",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02376v1",
+    "pdf": "https://arxiv.org/pdf/2607.02376v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes a hardware-enforced coordination layer for safety-critical autonomous systems that combine large language models, world models, and multiple specialized components. Rather than relying on software to manage timing, synchronization, and safety constraints, the authors implement selected coordination semantics directly on field-programmable gate arrays (FPGAs) to guarantee deterministic, bounded behavior in real time. The key insight is that semantic reasoning can remain flexible and software-driven while coordination rules become ironclad and verifiable at the hardware level.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "The Dual Nature of LLM Persona: Aggregated Tendencies and Frame-Dependent Geometry",
+    "authors": "Yuan Yuan",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02368v1",
+    "pdf": "https://arxiv.org/pdf/2607.02368v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reveals that LLM personas have a dual nature: stable aggregate trait scores (like the Big Five personality dimensions) coexist with fragile geometric patterns in the correlation structure of responses that collapse when questions are reordered. The key finding is that this geometric structure isn't intrinsic to the model but rather a frame-dependent coordination pattern—when the question frame is held constant across contexts, the geometric signal recovers and becomes more informative than aggregates alone. This challenges the assumption that LLM personalities are static traits and suggests evaluation methods need to account for contextual framing.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Hybridizing a Grouping Metaheuristic with Reinforcement Learning for the One-Dimensional Bin Packing Problem",
+    "authors": "Zitouni Rania, Mostefai Mounir Sofiane, Tati Youcef, Badaoui Ikram, Bousdjira Nadine et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02315v1",
+    "pdf": "https://arxiv.org/pdf/2607.02315v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper combines a genetic algorithm (HGGA) for bin packing with a reinforcement learning controller that learns which genetic operators to apply at each step, rather than using fixed probabilities. The result is a 50× speedup with only a small loss in solution quality — achieving near-optimal packing in seconds instead of minutes.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Securing People and their Machines Against Major Faults",
+    "authors": "Ohad Eitan, Idit Keidar, Ehud Shapiro",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02304v1",
+    "pdf": "https://arxiv.org/pdf/2607.02304v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a decentralized recovery system for grassroots platforms — peer-to-peer networks of people and their devices — to survive major faults like stolen private keys or lost smartphones. The key insight is that recovery doesn't require a central authority; instead, it relies on a social graph where friends and designated identity custodians collectively authorize and execute key recovery. The work matters because it makes decentralized systems practical for ordinary users who inevitably lose devices or compromise credentials.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Dendritic In-Context Learning in a Single-Layer Spiking Neural Network",
+    "authors": "Juwei Shen, Yujie Wu, Changwen Chen",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02283v1",
+    "pdf": "https://arxiv.org/pdf/2607.02283v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that in-context learning—the ability to learn from examples within a single forward pass—can work in biologically plausible spiking neural networks (SNNs) using only a single layer with dendritic compartments. The key insight is that the subthreshold dynamics of a dendritic compartment naturally implement an online learning algorithm (Widrow-Hoff LMS), eliminating the need for deep architectures, attention mechanisms, or inference-time weight updates. This bridges a gap between how transformers and biological neural networks solve the in-context learning problem.",
+    "date_added": "2026-07-03",
+    "trusted": "Anthropic"
+  },
+  {
+    "title": "An Additive MLP-GNN Framework for Characterizing Chemical and Structural Contributions to Aqueous Solubility",
+    "authors": "Sampreeti Bhattacharya, Arkaprava Roy",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02212v1",
+    "pdf": "https://arxiv.org/pdf/2607.02212v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes a hybrid deep-learning model that separately processes chemical descriptors (via a neural network) and molecular graph structure (via a graph neural network) to predict aqueous solubility of drug compounds. Instead of merging these two information sources into a single representation—which obscures what the model actually learned—the framework keeps them separate and combines them only at the final prediction step, making it possible to understand whether predictions come from chemistry, structure, or both. The work shows competitive accuracy while providing transparency about which aspects of a molecule drive solubility predictions.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Predicting Early Stages Of Alzheimer's Disease And Identifying Key Biomarkers Using Deep Artificial Neural Network And Ensemble Of Machine Learning Methodologies",
+    "authors": "Debopriya Ghosh",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02142v1",
+    "pdf": "https://arxiv.org/pdf/2607.02142v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper develops a machine learning system to detect Alzheimer's disease in its early stages using clinical data, neuropsychological test scores, and brain imaging measurements. Early detection of Alzheimer's is critical because symptoms are subtle initially and the disease is currently incurable, but early intervention can slow progression and improve quality of life.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Electronic Bursting Neuron: design, equations and hardware implementation",
+    "authors": "Lev V. Takaishvili, Vladimir I. Ponomarenko, Maksim V. Kornilov, Ilya V. Sysoev",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02122v1",
+    "pdf": "https://arxiv.org/pdf/2607.02122v1",
+    "tags": [],
+    "summary": "This paper presents a novel electronic circuit design for a bursting neuron — a type of artificial neuron that mimics biological neurons' ability to produce rapid bursts of electrical spikes. The key innovation is using phase-locked loop equations as the mathematical foundation, then designing hardware that matches those equations (rather than the usual reverse approach of writing equations for an already-built circuit). This creates a simpler, more reliable building block for spiking neural networks used in brain-computer interfaces and neuromorphic computing.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Born Discrete, Made Smooth: Variational Formulation of Shallow Neural Networks",
+    "authors": "Matej Benko, Pierre Bousquet, Iwona Chlebicka, Błażej Miasojedow",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02003v1",
+    "pdf": "https://arxiv.org/pdf/2607.02003v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper replaces the discrete, non-convex optimization problem of training shallow neural networks with a continuous variational formulation over parameter densities. By casting the problem in weighted Sobolev spaces, the authors prove the resulting functional is λ-convex and globally well-posed — meaning the optimal solution can be found by solving a single linear system rather than running iterative gradient descent. This is significant because it provides theoretical guarantees and new algorithmic insights for a problem that has traditionally seemed intractable.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Autorelevance function and other feature relevance measures for univariate time series",
+    "authors": "Julian Cardenas, Jamie Arjona, Pedro Delicado",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.01959v1",
+    "pdf": "https://arxiv.org/pdf/2607.01959v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper introduces methods to measure which past time steps (lags) matter most for predicting future values in time series forecasting. The authors combine ideas from explainable AI—specifically Shapley values and \"ghost variables\"—to create relevance scores that work across any forecasting model, from classical statistical models to neural networks. This matters because understanding which historical data points drive predictions can improve model design, reduce unnecessary features, and build trust in automated forecasting systems.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "CausalSteward: An Agentic Divide-Conquer-Combine Copilot for Causal Discovery",
+    "authors": "Nicholas Tagliapietra, Gian Lorenzo Marchioni, Moritz Willig, Juergen Luettin, Lavdim Halilaj et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.01936v1",
+    "pdf": "https://arxiv.org/pdf/2607.01936v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces CausalSteward, a multi-agent system that helps discover causal relationships in high-dimensional data by breaking the problem into smaller, manageable parts and combining the results with human guidance. The work is important because causal discovery from real-world data is extremely difficult—existing methods often fail when assumptions are violated—and this approach shows how collaborative AI agents and human expertise together can assemble more reliable causal models.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Full Bayesian Reinforcement Learning via LF-IBIS",
+    "authors": "Stefano Masini, Cecilia Viscardi, Michela Baccini",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.01741v1",
+    "pdf": "https://arxiv.org/pdf/2607.01741v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes LF-IBIS, a new algorithm for Bayesian Reinforcement Learning that works when you can't write down an explicit formula for how the environment works. Instead of requiring a likelihood function (a mathematical description of environment dynamics), the method combines approximate Bayesian computation with importance sampling to update the agent's beliefs online as it interacts with the environment. This matters because real-world environments often have dynamics too complex or poorly understood to describe with closed-form equations, making existing Bayesian RL methods impractical.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Mechanism and Stability Analysis of Metabolic Closed-Loop Metaheuristics",
+    "authors": "Jinliang Xu, Liping Ma",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.01551v1",
+    "pdf": "https://arxiv.org/pdf/2607.01551v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper analyzes the Metabolic Multi-Agent Optimizer (MMAO)—a framework where multiple agents share resources (energy, budget) and change roles over time—to understand what makes it work theoretically rather than just empirically. The authors show that under reasonable assumptions about spending and gains, the metabolic resource loop naturally produces three stable behavioral patterns: contraction when resources run low, reinvestment when resources accumulate, and adaptive search redistribution. This matters because it provides a theoretical foundation for a promising class of optimization algorithms instead of treating them as black boxes.",
+    "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
     "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
     "authors": "Zijian Zhang, Rizhen Hu, Athanasios Glentis, Dawei Li, Chung-Yiu Yau et al.",
     "published": "2026-07-01",
