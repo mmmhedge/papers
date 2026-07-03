@@ -1,5 +1,7 @@
 ---
 title: Reading Dashboard
+
+status: unread
 ---
 
 # 📚 Reading Dashboard
