@@ -1,20 +1,23 @@
 """Fetch recent papers from arXiv based on config."""
 
+from __future__ import annotations
+
 import arxiv
 import yaml
 import json
-import hashlib
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from paper_ids import canonical_arxiv_id, canonical_paper_id, existing_paper_ids
 
 ROOT = Path(__file__).parent.parent
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
 SEEN_FILE = ROOT / "data" / "seen_papers.json"
+PAPERS_DIR = ROOT / "papers"
 
 
 def load_seen() -> set:
     if SEEN_FILE.exists():
-        return set(json.loads(SEEN_FILE.read_text()))
+        return {canonical_paper_id(item) for item in json.loads(SEEN_FILE.read_text())}
     return set()
 
 
@@ -36,7 +39,7 @@ def paper_is_trusted(paper: arxiv.Result, trusted_sources: list[str]) -> bool:
 
 
 def fetch_papers() -> list[dict]:
-    seen = load_seen()
+    seen = load_seen() | existing_paper_ids(PAPERS_DIR)
     keywords = CONFIG.get("keyword_filters", [])
     trusted_sources = CONFIG.get("trusted_sources", [])
     per_cat = CONFIG.get("papers_per_category", 5)
@@ -58,18 +61,19 @@ def fetch_papers() -> list[dict]:
 
         count = 0
         for result in client.results(search):
+            paper_id = canonical_paper_id(result.entry_id)
             if result.published < cutoff:
                 break
-            if result.entry_id in seen:
+            if paper_id in seen:
                 continue
             if not paper_matches_keywords(result, keywords):
                 continue
 
-            paper_id = result.entry_id
             if paper_id not in collected:
                 collected[paper_id] = {
                     "id": paper_id,
                     "arxiv_id": result.entry_id.split("/")[-1],
+                    "canonical_arxiv_id": canonical_arxiv_id(result.entry_id),
                     "title": result.title,
                     "authors": [a.name for a in result.authors],
                     "abstract": result.summary.replace("\n", " ").strip(),

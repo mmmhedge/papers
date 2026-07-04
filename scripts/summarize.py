@@ -1,5 +1,7 @@
 """Summarize papers using Claude and write Obsidian-style markdown notes."""
 
+from __future__ import annotations
+
 import anthropic
 import yaml
 import json
@@ -7,6 +9,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from paper_ids import canonical_paper_id, existing_paper_ids
 
 ROOT = Path(__file__).parent.parent
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
@@ -125,7 +128,7 @@ tags:
 
 def load_seen() -> set:
     if SEEN_FILE.exists():
-        return set(json.loads(SEEN_FILE.read_text()))
+        return {canonical_paper_id(item) for item in json.loads(SEEN_FILE.read_text())}
     return set()
 
 
@@ -181,17 +184,18 @@ def process_papers(papers_file: Path):
     client = anthropic.Anthropic()
     PAPERS_DIR.mkdir(exist_ok=True)
 
-    seen = load_seen()
+    seen = load_seen() | existing_paper_ids(PAPERS_DIR)
     processed = []
     for paper in papers:
         arxiv_id = paper["arxiv_id"]
+        paper_id = canonical_paper_id(paper.get("id") or arxiv_id)
         safe_title = re.sub(r'[^\w\s-]', '', paper['title'])[:80].strip().replace(' ', '-')
         filename = f"{paper['published'][:10]}-{arxiv_id}-{safe_title}.md"
         filepath = PAPERS_DIR / filename
 
-        if filepath.exists():
-            print(f"Skipping (already exists): {filename}")
-            seen.add(paper["id"])
+        if filepath.exists() or paper_id in seen:
+            print(f"Skipping (already seen): {filename}")
+            seen.add(paper_id)
             save_seen(seen)
             continue
 
@@ -202,7 +206,7 @@ def process_papers(papers_file: Path):
             update_tag_vocab(tags_data, tags)
             note = paper_to_note(paper, body, tags)
             filepath.write_text(note)
-            seen.add(paper["id"])
+            seen.add(paper_id)
             save_seen(seen)
             print(f"  -> Saved: {filename}")
             processed.append({"paper": paper, "tags": tags, "filename": filename})

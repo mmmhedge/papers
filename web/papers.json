@@ -2892,21 +2892,6 @@
     "trusted": ""
   },
   {
-    "title": "KineticSim: A Lightweight, High-Performance Execution Engine for Real-Time Market Simulators",
-    "authors": "Shakya Jayakody, Prarthinie Jayakody",
-    "published": "2026-06-19",
-    "url": "http://arxiv.org/abs/2606.21784v1",
-    "pdf": "https://arxiv.org/pdf/2606.21784v1",
-    "tags": [
-      "algorithmic-trading",
-      "optimization",
-      "quantitative-finance"
-    ],
-    "summary": "KineticSim is a GPU-accelerated execution engine for real-time financial market simulation that achieves orders-of-magnitude speedups by redesigning how multi-agent limit-order book clearing is parallelized. Rather than sequentially processing agent actions and price ticks, the system uses a persistent kernel pattern that caches mutable state in thread-block shared memory, reducing both computational depth and global memory traffic—enabling simulation of billions of agent events per second on a single GPU.",
-    "date_added": "2026-06-28",
-    "trusted": ""
-  },
-  {
     "title": "Reinforcement Learning for Risk-Sensitive Investment Management: a Free Energy--Entropy Duality Approach",
     "authors": "Sebastien Lleo, Wolfgang Runggaldier",
     "published": "2026-06-18",
