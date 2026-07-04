@@ -39,7 +39,9 @@
   .paper-card.is-prio { border-left: 3px solid #daa520; }
   .card-header { display: flex; align-items: flex-start; gap: 0.75rem; }
   .card-main { flex: 1; cursor: pointer; }
-  .card-date { font-size: 0.72rem; color: #555; white-space: nowrap; margin-top: 2px; }
+  .card-date { font-size: 0.72rem; color: #555; white-space: nowrap; margin-top: 2px; min-width: 5.8rem; line-height: 1.35; }
+  .date-primary { color: #8b8b98; }
+  .date-secondary { color: #555; }
   .card-title { font-size: 0.95rem; font-weight: 500; color: #e8e8e8; line-height: 1.4; }
   .card-authors { font-size: 0.78rem; color: #666; margin-top: 0.3rem; }
   .card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.65rem; }
@@ -97,7 +99,7 @@
   </aside>
   <main class="main">
     <div class="controls">
-      <button class="sort-btn active" onclick="setSort('date', this)">Newest</button>
+      <button class="sort-btn active" onclick="setSort('date', this)">Recently added</button>
       <button class="sort-btn" onclick="setSort('title', this)">A–Z</button>
       <button class="sort-btn" onclick="setSort('prio', this)">Priority first</button>
       <span class="result-count" id="result-count"></span>
@@ -229,12 +231,12 @@ function filterPapers() {
     return matchQuery && matchTags && matchPrio && matchUnread && matchTrusted;
   });
 
-  if (sortMode === 'date') filtered.sort((a,b) => b.published.localeCompare(a.published));
+  if (sortMode === 'date') filtered.sort((a,b) => sortDate(b).localeCompare(sortDate(a)) || (b.published || '').localeCompare(a.published || ''));
   else if (sortMode === 'title') filtered.sort((a,b) => a.title.localeCompare(b.title));
   else if (sortMode === 'prio') filtered.sort((a,b) => {
     const ap = prio.has(paperKey(a)) ? 0 : 1;
     const bp = prio.has(paperKey(b)) ? 0 : 1;
-    return ap - bp || b.published.localeCompare(a.published);
+    return ap - bp || sortDate(b).localeCompare(sortDate(a)) || (b.published || '').localeCompare(a.published || '');
   });
 
   document.getElementById('result-count').textContent = `${filtered.length} paper${filtered.length !== 1 ? 's' : ''}`;
@@ -254,10 +256,15 @@ function renderPapers(papers, read, prio, ct) {
     const customTags = ct[key] || [];
     const keyEsc = escAttr(key);
     const cardClasses = ['paper-card', isRead ? 'is-read' : '', isPrio ? 'is-prio' : ''].filter(Boolean).join(' ');
+    const added = p.date_added ? p.date_added.slice(0,10) : '';
+    const published = p.published ? p.published.slice(0,10) : '';
+    const dateHtml = added
+      ? `<div class="date-primary">Added ${escHtml(added)}</div>${published && published !== added ? `<div class="date-secondary">arXiv ${escHtml(published)}</div>` : ''}`
+      : escHtml(published);
     return `
     <div class="${cardClasses}" id="card-${i}">
       <div class="card-header">
-        <div class="card-date">${p.published ? p.published.slice(0,10) : ''}</div>
+        <div class="card-date">${dateHtml}</div>
         <div class="card-main" onclick="toggleCard(${i})">
           <div class="card-title">${escHtml(p.title)}${p.trusted ? `<span class="trusted-badge">🔬 ${escHtml(p.trusted)}</span>` : ''}</div>
           <div class="card-authors">${escHtml(p.authors||'')}</div>
@@ -290,6 +297,10 @@ function toggleCard(i) {
   const body = document.getElementById(`body-${i}`);
   const card = document.getElementById(`card-${i}`);
   if (body) { body.classList.toggle('show'); card.classList.toggle('expanded'); }
+}
+
+function sortDate(p) {
+  return p.date_added || p.published || '';
 }
 
 function escHtml(s) {

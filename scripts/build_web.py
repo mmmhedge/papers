@@ -1,5 +1,7 @@
 """Build papers.json for the web UI from markdown files."""
 
+from __future__ import annotations
+
 import json
 import re
 import yaml
@@ -60,6 +62,8 @@ def build_web():
     for filepath in sorted(PAPERS_DIR.glob("*.md"), reverse=True):
         fm, body = parse_frontmatter(filepath)
         if not fm:
+            continue
+        if not fm.get("url") or not fm.get("published"):
             continue
         papers.append({
             "title": fm.get("title", filepath.stem),
