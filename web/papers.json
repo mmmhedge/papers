@@ -159,6 +159,21 @@
     "trusted": ""
   },
   {
+    "title": "Combating Textual Noise and Redundancy: Entropy-Aware Dense Visual Token Pruning",
+    "authors": "Xuehui Wang, Xuankun Yang, Wei Shen",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02484v1",
+    "pdf": "https://arxiv.org/pdf/2607.02484v1",
+    "tags": [
+      "computer-vision",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper addresses a fundamental inefficiency in vision-language models (VLMs) — systems that process both images and text — by selectively removing redundant image patches while preserving details needed to answer specific questions. The key insight is that existing pruning methods fail because textual noise corrupts which patches matter, and naive selection breaks spatial coherence. The authors propose EADP, which uses information theory (entropy) to filter noise and frames token selection as a structured optimization problem, achieving better accuracy with fewer image patches.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
     "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
     "authors": "Jiale Amber Wang, Kaiyuan Wang, Pengyu Nie",
     "published": "2026-07-02",
@@ -170,6 +185,21 @@
     ],
     "summary": "This paper introduces TestEvo-Bench, a benchmark for evaluating AI agents on the task of writing and updating software tests alongside code changes. The benchmark is grounded in real commit history and executable — tests can actually run against the code they're meant to test — which matters because most existing benchmarks use static metadata that doesn't verify whether tests actually work or logically connect to the code change. The authors evaluate four state-of-the-art AI agents and find they succeed ~75% of the time, but performance drops notably on recent tasks and under resource constraints.",
     "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
+    "authors": "Junhao Shi, Siyin Wang, Xiaopeng Yu, Li Ji, Jingjing Gong et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02466v1",
+    "pdf": "https://arxiv.org/pdf/2607.02466v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Task-Agnostic Pretraining (TAP), a method that dramatically reduces the need for expensive expert-labeled data when training Vision-Language-Action (VLA) models — neural networks that understand images, follow language instructions, and generate robot actions. The key insight is that robots need two separate skills: learning how to move physically (which can come from cheap, unlabeled robot interactions) and learning what the human wants (which requires language supervision). By separating these objectives, TAP achieves performance comparable to models trained on over 1 million labeled demonstrations while using orders of magnitude less labeled data.",
+    "date_added": "2026-07-04",
     "trusted": ""
   },
   {
@@ -217,6 +247,20 @@
     "trusted": ""
   },
   {
+    "title": "Language Models as Measurement Apparatus for Culture",
+    "authors": "Kent K. Chang",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02459v1",
+    "pdf": "https://arxiv.org/pdf/2607.02459v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper argues that using language models to measure cultural phenomena is not neutral observation but an active process where the model, data, and evaluation choices actually shape what \"culture\" means. Drawing on philosophy of science (specifically Karen Barad's work on how scientific instruments co-create the phenomena they measure), the author shows through studies of TV/film dialogue that language models have already absorbed cultural material they're measuring, making the boundary between tool and subject fundamentally blurred. The paper calls for researchers to treat each design choice as a conscious ethical and methodological commitment.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
     "title": "Adoption and Ecosystem Health: A Longitudinal Analysis of Open-Source Multi-Agent Frameworks",
     "authors": "Xi Zhang, Papi Menon, Vivian Chu, Koray Cosguner",
     "published": "2026-07-02",
@@ -260,6 +304,150 @@
     "trusted": ""
   },
   {
+    "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+    "authors": "Zhilin Wang, Han Song, Runzhe Zhan, Jusen Du, Jiacheng Chen et al.",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02440v1",
+    "pdf": "https://arxiv.org/pdf/2607.02440v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces EvoPolicyGym, a benchmark for evaluating how autonomous agents iteratively improve reinforcement learning policies through repeated edits and feedback cycles. Rather than measuring final performance, it measures the *process* of policy evolution—how well agents allocate a fixed budget of interactions to diagnose problems and refine solutions. The work matters because it creates a controlled setting to study a capability increasingly expected of AI systems: autonomous self-improvement under constraints.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Extreme Adaptive Transformer for Time Series Forecasting",
+    "authors": "Sanjeev Shrestha, Hui Liu, Yifan Zhang",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02437v1",
+    "pdf": "https://arxiv.org/pdf/2607.02437v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces Exformer, a Transformer-based model designed to forecast time series with rare but critical extreme events—particularly useful for predicting streamflow and flood risk. Standard Transformers treat all time points equally, which causes them to underlearn from infrequent but important peaks; Exformer adds a specialized attention mechanism that explicitly captures dependencies between normal and extreme patterns, achieving better 3-day forecasts on real hydrologic datasets.",
+    "date_added": "2026-07-04",
+    "trusted": "Hugging Face"
+  },
+  {
+    "title": "Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational study",
+    "authors": "Achint Mehta",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02436v1",
+    "pdf": "https://arxiv.org/pdf/2607.02436v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper measures what actually improves code generation when AI agents build software independently. Rather than assuming more tools and features help, the authors ran 90 identical agent runs building the same application and measured what mattered: surprisingly, better reasoning effort (asking the model to think harder) lifted first-try success from 28% to 89%, while a testing tool wasted money without improving outcomes. The lesson is simple—match your fix to your actual failure mode.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Automated grading of Linux/bash examinations using large language models: a four-level cognitive taxonomy approach",
+    "authors": "Manuel Alonso-Carracedo, Ruben Fernandez-Boullon, Pedro Celard, Francisco J. Rodriguez-Martinez, Lorena Otero-Cerdeira",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02432v1",
+    "pdf": "https://arxiv.org/pdf/2607.02432v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tests whether large language models (GPT-4, Claude Opus, Gemini, GLM) can grade Linux/bash exam responses as reliably as human instructors. The authors develop a four-level cognitive taxonomy and evaluate LLM grading on 1,200 real student responses, finding that Gemini 3.0 Pro with structured prompts achieves strong agreement with expert graders (0.888 intraclass correlation), but struggles increasingly on more complex questions.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "QFedAgent: Quantum-Enhanced Personalized Federated Learning for Multi-Agent Activity Recognition",
+    "authors": "Quoc Bao Phan, Tuy Tan Nguyen",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02426v1",
+    "pdf": "https://arxiv.org/pdf/2607.02426v1",
+    "tags": [
+      "deep-learning",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents QFedAgent, a federated learning system that combines quantum computing with classical machine learning to help multiple robots or distributed devices collaboratively learn activity recognition models while preserving privacy. The key innovation is using quantum circuits to fuse sensor data (accelerometer and gyroscope readings) with 72 parameters instead of 33,000 — a 450x reduction — while maintaining accuracy on real-world activity recognition benchmarks. This matters because federated learning is privacy-critical for robotics, but handling non-uniform data distributions across many agents has been a bottleneck.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "The Future of NLP may not be at NLP Conferences: Scholarly Migration Patterns in Natural Language Processing",
+    "authors": "David Jurgens",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02416v1",
+    "pdf": "https://arxiv.org/pdf/2607.02416v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper documents a fundamental shift in where NLP research is being published: fewer papers appear at traditional NLP conferences (like ACL) and more appear at general machine learning venues. The author shows that both established researchers and newcomers are increasingly publishing outside NLP's traditional home, driven partly by citation advantages that general ML venues confer. This matters because it signals that NLP may be losing its identity as a distinct discipline.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Fast Multi-dimensional Refusal Subspaces via RFM-AGOP",
+    "authors": "Thomas Winninger",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02396v1",
+    "pdf": "https://arxiv.org/pdf/2607.02396v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes RFM-AGOP, a fast method for identifying multi-dimensional subspaces in LLMs that encode complex safety behaviors like refusal to answer harmful questions. Rather than treating behaviors as single linear directions, the authors show these refusals live in higher-dimensional subspaces and develop an efficient algorithm to extract them in seconds—even on reasoning models with long internal computations—making safety monitoring and steering scalable.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs",
+    "authors": "Mauricio Fadel Argerich, Jonathan Fürst, Marta Patiño-Martínez",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02391v1",
+    "pdf": "https://arxiv.org/pdf/2607.02391v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "WattGPU predicts the power consumption and inference latency of large language models running on unseen GPUs without requiring any hardware profiling. Using only publicly available model specifications and GPU details, it achieves 3–4× better accuracy than physical baselines (like thermal design power) for predicting how much energy an LLM will draw and how long it takes to generate each token, which matters because data centers need to match specific models to efficient hardware without testing every combination.",
+    "date_added": "2026-07-04",
+    "trusted": "NVIDIA"
+  },
+  {
+    "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation",
+    "authors": "Juliette Decugis, Fabian Gloeckle, Francis Bach, Taco Cohen, Gabriel Synnaeve",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02390v1",
+    "pdf": "https://arxiv.org/pdf/2607.02390v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows how to make LLMs solve harder coding problems by teaching them to break tasks into modular sub-functions rather than trying to generate complete solutions directly. The key insight: instead of sampling more (expensive GPU time) or using RL naively (which fails when the base model is too far from correct answers), the authors use RL to train models to decompose problems hierarchically, then recombine implementations of different modules to explore a vastly larger solution space cheaply on CPU. On competitive programming benchmarks, this approach cuts GPU costs by ~50× while solving problems standard methods cannot reach.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "HULAT2 at MER-TRANS 2026: Governed Multi-Agent Simplification for Spanish Easy-to-Read Generation",
+    "authors": "Lourdes Moreno, Paloma Martínez, Marco Antonio Sanchez-Escudero, Miguel Domínguez-Gómez",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02381v1",
+    "pdf": "https://arxiv.org/pdf/2607.02381v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper presents a multi-agent system for converting Spanish text into Easy-to-Read format—simplified language designed for people with cognitive disabilities or low literacy. The authors combine multiple language models (Gemini 2.5 Flash and RigoChat-7B-v2) in a workflow that routes decisions through quality signals, outperforming a simpler baseline and showing that intelligent orchestration of agents beats linear regeneration for this accessibility task.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
     "title": "Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems",
     "authors": "Uwe M. Borghoff, Paolo Bottoni, Remo Pareschi",
     "published": "2026-07-02",
@@ -286,6 +474,21 @@
     "summary": "This paper reveals that LLM personas have a dual nature: stable aggregate trait scores (like the Big Five personality dimensions) coexist with fragile geometric patterns in the correlation structure of responses that collapse when questions are reordered. The key finding is that this geometric structure isn't intrinsic to the model but rather a frame-dependent coordination pattern—when the question frame is held constant across contexts, the geometric signal recovers and becomes more informative than aggregates alone. This challenges the assumption that LLM personalities are static traits and suggests evaluation methods need to account for contextual framing.",
     "date_added": "2026-07-03",
     "trusted": ""
+  },
+  {
+    "title": "SkillFuzz: Fuzzing Skill Composition for Implicit Intents Discovery in Open Skill Marketplaces",
+    "authors": "Jinwei Hu, Yi Dong, Youcheng Sun, Xiaowei Huang",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.02345v1",
+    "pdf": "https://arxiv.org/pdf/2607.02345v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a critical safety gap in LLM-based skill marketplaces: individually benign skills can combine in unexpected ways to cause harmful behavior. The authors propose SkillFuzz, a fuzzing approach that automatically discovers these \"implicit intents\" by testing skill compositions without needing to execute them, using planning artifacts as a window into agent intent. This matters because open marketplaces with hundreds of community-contributed skills create an exponentially large space of dangerous combinations that traditional auditing methods miss.",
+    "date_added": "2026-07-04",
+    "trusted": "OpenAI"
   },
   {
     "title": "Hybridizing a Grouping Metaheuristic with Reinforcement Learning for the One-Dimensional Bin Packing Problem",
@@ -411,6 +614,20 @@
     "trusted": ""
   },
   {
+    "title": "Congestion-Based Slot Pricing in a Railway Auction Game",
+    "authors": "Bill Roungas, Sebastiaan Meijer",
+    "published": "2026-07-02",
+    "url": "http://arxiv.org/abs/2607.01822v1",
+    "pdf": "https://arxiv.org/pdf/2607.01822v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how to fairly allocate scarce railway slots among competing train operators using an auction mechanism with dynamic pricing. The key innovation is a congestion-based pricing system that penalizes operators requesting the most slots while rewarding those requesting fewer, designed to prevent large operators from dominating the market. The authors test this mechanism with human participants playing the role of railway operators and find that while the pricing system works as intended, larger operators still tend to request many slots despite the penalties—suggesting that pricing alone isn't enough to level the playing field.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
     "title": "Full Bayesian Reinforcement Learning via LF-IBIS",
     "authors": "Stefano Masini, Cecilia Viscardi, Michela Baccini",
     "published": "2026-07-02",
@@ -437,6 +654,64 @@
     ],
     "summary": "This paper analyzes the Metabolic Multi-Agent Optimizer (MMAO)—a framework where multiple agents share resources (energy, budget) and change roles over time—to understand what makes it work theoretically rather than just empirically. The authors show that under reasonable assumptions about spending and gains, the metabolic resource loop naturally produces three stable behavioral patterns: contraction when resources run low, reinvestment when resources accumulate, and adaptive search redistribution. This matters because it provides a theoretical foundation for a promising class of optimization algorithms instead of treating them as black boxes.",
     "date_added": "2026-07-03",
+    "trusted": ""
+  },
+  {
+    "title": "MMAO-Cls: Metabolic Multi-Agent Optimization for Joint Feature Selection and Classifier Tuning",
+    "authors": "Jinliang Xu, Liping Ma",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01539v1",
+    "pdf": "https://arxiv.org/pdf/2607.01539v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper proposes MMAO-Cls, a multi-agent optimization framework that jointly selects features and tunes classifier hyperparameters for tabular machine learning. The key insight is treating each agent as a candidate solution that encodes both which features to use (binary mask) and how to configure the classifier (hyperparameters), with agent interactions and lifecycle dynamics mapped to the accuracy versus model complexity tradeoff. On seven standard datasets, the method achieves competitive test performance with notably compact feature sets, though statistical significance of improvements remains marginal.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Mean Field Reinforcement Learning",
+    "authors": "René Carmona, Mathieu Laurière",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01525v1",
+    "pdf": "https://arxiv.org/pdf/2607.01525v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This monograph introduces mean field reinforcement learning (MFRL), a framework for training agents in large populations where individual agents interact through aggregated statistics rather than directly with each other. It bridges mean field control theory—a mathematical approach to stochastic control with many interacting agents—and modern reinforcement learning methods, providing both theoretical foundations and practical algorithms that scale to population sizes too large for traditional multi-agent approaches.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Simulation Based Reward Function Validation for Multi-Agent On Orbit Inspection",
+    "authors": "Patrick Quinn, Bala Prenith Reddy Gopu, George M. Nehma, Madhur Tiwari",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01367v1",
+    "pdf": "https://arxiv.org/pdf/2607.01367v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a better way to train groups of spacecraft to inspect objects in orbit using multi-agent reinforcement learning (MARL). Instead of telling agents to visit fixed inspection points, the authors create a generalized reward function that evaluates the quality of images collected from any location, letting the agents autonomously decide where to position themselves and when to take pictures. The work matters because it moves MARL inspection from rigid, pre-planned tasks toward flexible, adaptive missions that could handle real-world orbital scenarios.",
+    "date_added": "2026-07-04",
+    "trusted": ""
+  },
+  {
+    "title": "Cache Merging as a Convergent Replicated State for Multi-Agent Latent Reasoning",
+    "authors": "Carlos Baquero, Luís Brito",
+    "published": "2026-07-01",
+    "url": "http://arxiv.org/abs/2607.01308v1",
+    "pdf": "https://arxiv.org/pdf/2607.01308v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "transformers"
+    ],
+    "summary": "This paper solves a fundamental problem in multi-agent reasoning: how to merge the internal memory states (KV-caches) of multiple language model agents into a single coherent context. Previous work concatenated caches in arbitrary order, producing different results depending on input ordering. The authors propose CanonicalMerge, which orders cache fragments by a content-based metric (mean K-norm) to produce byte-identical results regardless of input order—enabling reliable, predictable multi-agent composition for the first time.",
+    "date_added": "2026-07-04",
     "trusted": ""
   },
   {
