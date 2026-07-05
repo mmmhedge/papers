@@ -13,6 +13,23 @@ arxiv_categories:
   - q-fin.RM   # Risk Management
   - stat.ML    # Statistics - Machine Learning
 
+# AI lab blogs and newsletters to fetch via RSS
+blog_feeds:
+  - name: "Anthropic"
+    url: "https://www.anthropic.com/rss.xml"
+  - name: "OpenAI"
+    url: "https://openai.com/news/rss.xml"
+  - name: "Google DeepMind"
+    url: "https://deepmind.google/blog/rss.xml"
+  - name: "Meta AI"
+    url: "https://ai.meta.com/blog/feed/"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/blog/feed.xml"
+  - name: "Interconnects (Nathan Lambert)"
+    url: "https://www.interconnects.ai/feed"
+  - name: "Ahead of AI (Sebastian Raschka)"
+    url: "https://magazine.sebastianraschka.com/feed"
+
 # Extra keyword filters applied on top of category results
 # Papers must match at least one keyword (case-insensitive) to be included
 # Leave empty to include all papers from the categories above

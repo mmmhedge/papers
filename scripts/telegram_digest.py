@@ -1,5 +1,7 @@
 """Send daily Telegram digest with new papers and spaced repetition reminders."""
 
+from __future__ import annotations
+
 import os
 import json
 import yaml
@@ -80,16 +82,23 @@ def enrich_from_file(paper: dict) -> dict:
     return paper
 
 
-def get_papers_added_today(processed_file: Path = None) -> list[dict]:
-    if processed_file and processed_file.exists():
-        data = json.loads(processed_file.read_text())
-        return [enrich_from_file({
-            "title": item["paper"]["title"],
-            "url": item["paper"]["url"],
-            "tags": item.get("tags", []),
-            "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "filename": item.get("filename"),
-        }) for item in data]
+def get_papers_added_today(processed_files: list[Path] = None) -> list[dict]:
+    if processed_files:
+        papers = []
+        for processed_file in processed_files:
+            if not processed_file.exists():
+                continue
+            data = json.loads(processed_file.read_text())
+            papers.extend(enrich_from_file({
+                "title": item["paper"]["title"],
+                "url": item["paper"]["url"],
+                "tags": item.get("tags", []),
+                "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                "source": item["paper"].get("source_type", "arxiv"),
+                "source_name": item["paper"].get("source_name", ""),
+                "filename": item.get("filename"),
+            }) for item in data)
+        return papers
     # Fallback: scan markdown files
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     papers = []
@@ -122,12 +131,15 @@ def get_spaced_repetition_papers() -> list[dict]:
 def format_paper_line(fm: dict) -> str:
     title = html.escape(fm.get("title", "Unknown"))
     url = fm.get("url", "")
+    source = fm.get("source", "arxiv")
+    source_name = html.escape(fm.get("source_name", ""))
 
     key_takeaway = fm.get("key_takeaway", "").strip()
     summary = fm.get("summary", "").strip()
     blurb = html.escape(key_takeaway or summary)
 
-    lines = [f'• <a href="{url}"><b>{title}</b></a>']
+    label = f" [{source_name or 'blog'}]" if source == "blog" else ""
+    lines = [f'• <a href="{url}"><b>{title}</b></a>{label}']
     if blurb:
         lines.append(f'  {blurb}')
     return "\n".join(lines)
@@ -217,8 +229,8 @@ def main():
         return
 
     import sys
-    processed_file = Path(sys.argv[1]) if len(sys.argv) > 1 else None
-    new_papers = get_papers_added_today(processed_file)
+    processed_files = [Path(arg) for arg in sys.argv[1:]] if len(sys.argv) > 1 else None
+    new_papers = get_papers_added_today(processed_files)
     sr_papers = get_spaced_repetition_papers()
 
     if not new_papers and not sr_papers:

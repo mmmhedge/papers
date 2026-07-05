@@ -65,7 +65,11 @@ def build_web():
             continue
         if not fm.get("url") or not fm.get("published"):
             continue
+        source = fm.get("source", "arxiv")
+        source_name = fm.get("source_name", "arXiv" if source == "arxiv" else fm.get("authors", ""))
         papers.append({
+            "source": source,
+            "source_name": source_name,
             "title": fm.get("title", filepath.stem),
             "authors": fm.get("authors", ""),
             "published": fm.get("published", ""),
@@ -74,7 +78,7 @@ def build_web():
             "tags": fm.get("tags", []),
             "summary": extract_summary(body),
             "date_added": fm.get("date_added", ""),
-            "trusted": get_trusted_source(body, fm.get("authors", "")),
+            "trusted": source_name if fm.get("trusted") == "true" and source == "blog" else get_trusted_source(body, fm.get("authors", "")),
         })
 
     WEB_DIR.mkdir(exist_ok=True)

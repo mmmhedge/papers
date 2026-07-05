@@ -7,7 +7,11 @@ import yaml
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from paper_ids import canonical_arxiv_id, canonical_paper_id, existing_paper_ids
+
+try:
+    from paper_ids import canonical_arxiv_id, canonical_paper_id, existing_paper_ids
+except ModuleNotFoundError:
+    from scripts.paper_ids import canonical_arxiv_id, canonical_paper_id, existing_paper_ids
 
 ROOT = Path(__file__).parent.parent
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
@@ -74,6 +78,8 @@ def fetch_papers() -> list[dict]:
                     "id": paper_id,
                     "arxiv_id": result.entry_id.split("/")[-1],
                     "canonical_arxiv_id": canonical_arxiv_id(result.entry_id),
+                    "source_type": "arxiv",
+                    "source_name": "arXiv",
                     "title": result.title,
                     "authors": [a.name for a in result.authors],
                     "abstract": result.summary.replace("\n", " ").strip(),

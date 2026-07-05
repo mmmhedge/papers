@@ -29,16 +29,24 @@ jobs:
       - name: Fetch papers from arXiv
         run: python scripts/fetch_papers.py /tmp/papers.json
 
+      - name: Fetch blog posts
+        run: python scripts/fetch_blogs.py /tmp/blogs.json
+
       - name: Summarize papers with Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/summarize.py /tmp/papers.json
 
+      - name: Summarize blog posts with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/summarize.py /tmp/blogs.json
+
       - name: Send Telegram digest
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/telegram_digest.py /tmp/processed.json
+        run: python scripts/telegram_digest.py /tmp/processed_papers.json /tmp/processed_blogs.json
 
       - name: Build web UI
         run: pip install pyyaml && python scripts/build_web.py
