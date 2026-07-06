@@ -11,6 +11,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import urllib.request
 import urllib.parse
+import urllib.error
 
 ROOT = Path(__file__).parent.parent
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
@@ -26,8 +27,12 @@ def telegram_send(token: str, chat_id: str, text: str, parse_mode: str = "HTML")
         "disable_web_page_preview": "true",
     }).encode()
     req = urllib.request.Request(url, data=data, method="POST")
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Telegram HTTP {e.code}: {body}") from e
 
 
 def parse_frontmatter(filepath: Path) -> dict:
@@ -139,7 +144,8 @@ def format_paper_line(fm: dict) -> str:
     blurb = html.escape(key_takeaway or summary)
 
     label = f" [{source_name or 'blog'}]" if source == "blog" else ""
-    lines = [f'• <a href="{url}"><b>{title}</b></a>{label}']
+    safe_url = html.escape(url, quote=True)
+    lines = [f'• <a href="{safe_url}"><b>{title}</b></a>{label}']
     if blurb:
         lines.append(f'  {blurb}')
     return "\n".join(lines)
@@ -225,7 +231,10 @@ def main():
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
 
     if not token or not chat_id:
-        print("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set — skipping Telegram")
+        message = "TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set"
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            raise RuntimeError(message)
+        print(f"{message} — skipping Telegram")
         return
 
     import sys
@@ -243,10 +252,10 @@ def main():
     for i, part in enumerate(parts, 1):
         result = telegram_send(token, chat_id, part)
         if result.get("ok"):
-            print(f"Part {i}/{len(parts)} sent")
+            message_id = result.get("result", {}).get("message_id", "unknown")
+            print(f"Part {i}/{len(parts)} sent (message_id={message_id})")
         else:
-            print(f"Telegram error on part {i}: {result}")
-            break
+            raise RuntimeError(f"Telegram error on part {i}: {result}")
 
 
 if __name__ == "__main__":
