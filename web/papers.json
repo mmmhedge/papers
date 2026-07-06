@@ -1,5 +1,297 @@
 [
   {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+    "authors": "Hugging Face",
+    "published": "2026-06-30",
+    "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "ScarfBench is a benchmark designed to evaluate AI agents' ability to perform enterprise Java framework migration tasks. This addresses a critical gap in agent evaluation by testing real-world, complex software engineering challenges that require multi-step reasoning, code understanding, and refactoring capabilities.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "authors": "Hugging Face",
+    "published": "2026-06-29",
+    "url": "https://huggingface.co/blog/allenai/discoformer",
+    "pdf": "",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "DiScoFormer is a unified transformer architecture that handles both density estimation and score-based modeling across different distributions. This work addresses the challenge of building flexible generative models that can seamlessly work with multiple probabilistic frameworks without requiring separate specialized architectures.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Ahead of AI (Sebastian Raschka)",
+    "title": "Using Local Coding Agents",
+    "authors": "Ahead of AI (Sebastian Raschka)",
+    "published": "2026-06-27",
+    "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "This post explores using open-weight language models deployed locally as coding agents, positioning them as a cost-effective alternative to subscription-based services like Claude Code and Codex. The focus is on practical implementation of self-hosted models within local development environments rather than relying on proprietary cloud APIs.",
+    "date_added": "2026-07-06",
+    "trusted": "Ahead of AI (Sebastian Raschka)"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
+    "title": "How agents are transforming work",
+    "authors": "OpenAI",
+    "published": "2026-06-25",
+    "url": "https://openai.com/index/how-agents-are-transforming-work",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI's research demonstrates that AI agents are becoming practical tools for executing extended, multi-step workflows and complex tasks across diverse professional domains. This shift from single-turn interactions to autonomous task execution represents a meaningful expansion of AI's role in workplace productivity.",
+    "date_added": "2026-07-06",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "authors": "Hugging Face",
+    "published": "2026-06-24",
+    "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "pdf": "",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This post describes NVIDIA NeMo AutoModel, a tool designed to accelerate the fine-tuning process for transformer-based language models. The announcement highlights performance improvements and simplified workflows for practitioners looking to adapt pre-trained models to downstream tasks more efficiently.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+    "authors": "Hugging Face",
+    "published": "2026-06-23",
+    "url": "https://huggingface.co/blog/cross-origin-storage",
+    "pdf": "",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "Hugging Face is experimenting with a proposed Cross-Origin Storage API feature in Transformers.js, their JavaScript library for running transformer models in the browser. This work focuses on improving how browser-based transformer models can persist and access data across origins, enabling more efficient model deployment and inference in web environments.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Interconnects (Nathan Lambert)",
+    "title": "GLM-5.2 is the step change for open agents",
+    "authors": "Interconnects (Nathan Lambert)",
+    "published": "2026-06-22",
+    "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "GLM-5.2 represents a significant capability breakthrough for autonomous agents, crossing a critical performance threshold that enables more reliable and capable independent operation. The post highlights that this model marks a qualitative shift in what open-source agent systems can accomplish.",
+    "date_added": "2026-07-06",
+    "trusted": "Interconnects (Nathan Lambert)"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "authors": "Hugging Face",
+    "published": "2026-06-18",
+    "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "MosaicLeaks examines security vulnerabilities in research agents—specifically whether autonomous agents can be trusted to handle sensitive information without leaking it. The post highlights risks in current agent architectures that may inadvertently expose confidential data through logs, memory systems, or inter-agent communication.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+    "authors": "Hugging Face",
+    "published": "2026-06-18",
+    "url": "https://huggingface.co/blog/is-it-agentic-enough",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This post addresses the challenge of evaluating whether open-source language models have sufficient agentic capabilities for real-world applications. Rather than relying on generic benchmarks, it proposes assessing models against your own tooling and workflows to determine if they can handle autonomous task execution in your specific context.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "authors": "Hugging Face",
+    "published": "2026-06-17",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "Hugging Face has integrated Strands Agents and LeRobot to enable seamless deployment of AI models from the Hugging Face Hub directly onto robot hardware. This bridges the gap between model development and physical robotics applications, making it easier for researchers and practitioners to move trained models into real-world robotic systems.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Agentic Resource Discovery: Let agents search",
+    "authors": "Hugging Face",
+    "published": "2026-06-17",
+    "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+    "pdf": "",
+    "tags": [],
+    "summary": "",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Google DeepMind",
+    "title": "Securing the future of AI agents",
+    "authors": "Google DeepMind",
+    "published": "2026-06-16",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "Google DeepMind outlines a systematic approach to securing AI agent systems through an \"AI Control Roadmap\" that integrates traditional safety mechanisms with continuous real-time monitoring. The work addresses the critical challenge of ensuring AI agents remain controllable and safe as they operate autonomously in complex environments.",
+    "date_added": "2026-07-06",
+    "trusted": "Google DeepMind"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
+    "title": "New OpenAI Academy courses for the next era of work",
+    "authors": "OpenAI",
+    "published": "2026-06-12",
+    "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI has launched three new Academy courses designed to teach practical skills for working with AI systems, including building workflows and deploying agents. These courses address the growing need for hands-on training as AI tools become embedded in everyday professional work.",
+    "date_added": "2026-07-06",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
+    "title": "OpenAI to acquire Ona",
+    "authors": "OpenAI",
+    "published": "2026-06-11",
+    "url": "https://openai.com/index/openai-to-acquire-ona",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI is acquiring Ona to integrate secure, persistent cloud environments into Codex, its code generation model. This acquisition enables long-running AI agents to operate reliably within enterprise workflows, extending beyond single-session code execution.",
+    "date_added": "2026-07-06",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Google DeepMind",
+    "title": "Investing in multi-agent AI safety research",
+    "authors": "Google DeepMind",
+    "published": "2026-06-10",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "Google DeepMind is launching a $10M funding initiative dedicated to multi-agent AI safety research. This represents a significant institutional commitment to understanding and mitigating risks that emerge when multiple AI agents interact in shared environments.",
+    "date_added": "2026-07-06",
+    "trusted": "Google DeepMind"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "authors": "Hugging Face",
+    "published": "2026-06-09",
+    "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models"
+    ],
+    "summary": "A Hugging Face agent successfully chained together two separate Spaces (hosted ML applications) to autonomously generate and render a 3D virtual gallery of Paris. This demonstrates practical agentic behavior—breaking down a complex creative task into subtasks and orchestrating multiple specialized models in sequence.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Google DeepMind",
+    "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+    "authors": "Google DeepMind",
+    "published": "2026-06-09",
+    "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+    "pdf": "",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "Google DeepMind has released Gemma 4 12B, a unified multimodal model that processes both text and images without a separate encoder. This represents a shift toward simpler, more efficient architectures that handle multiple modalities in a single unified framework.",
+    "date_added": "2026-07-06",
+    "trusted": "Google DeepMind"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+    "authors": "Hugging Face",
+    "published": "2026-06-08",
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
+    "date_added": "2026-07-06",
+    "trusted": "Hugging Face"
+  },
+  {
     "source": "arxiv",
     "source_name": "arXiv",
     "title": "Distributed Attacks in Persistent-State AI Control",
