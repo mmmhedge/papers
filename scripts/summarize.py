@@ -267,8 +267,16 @@ Please create the structured note now."""
                 messages=[{"role": "user", "content": user_message}],
             )
             return message.content[0].text
-        except (anthropic.APIConnectionError, anthropic.APIStatusError) as e:
+        except anthropic.APIConnectionError as e:
             last_err = e
+            wait = 2 ** attempt
+            print(f"  -> API error (attempt {attempt+1}/4): {type(e).__name__}: {e}. Retrying in {wait}s...")
+            time.sleep(wait)
+        except anthropic.APIStatusError as e:
+            last_err = e
+            status_code = getattr(e, "status_code", None)
+            if status_code is not None and 400 <= status_code < 500:
+                raise
             wait = 2 ** attempt
             print(f"  -> API error (attempt {attempt+1}/4): {type(e).__name__}: {e}. Retrying in {wait}s...")
             time.sleep(wait)
@@ -291,6 +299,7 @@ def process_papers(papers_file: Path):
     seen = load_seen(seen_file, source_type)
     seen |= existing_blog_ids(PAPERS_DIR) if source_type == "blog" else existing_paper_ids(PAPERS_DIR)
     processed = []
+    failures = []
     for paper in papers:
         paper_source = paper.get("source_type", source_type)
         arxiv_id = paper.get("arxiv_id", "")
@@ -322,9 +331,13 @@ def process_papers(papers_file: Path):
             processed.append({"paper": paper, "tags": tags, "filename": filename})
         except Exception as e:
             print(f"  -> Error ({type(e).__name__}): {e}")
+            failures.append({"title": paper.get("title", "Unknown"), "error": f"{type(e).__name__}: {e}"})
 
     save_tags(tags_data)
-    print(f"\nProcessed {len(processed)} papers. Tag vocab size: {len(tags_data['tags'])}")
+    print(f"\nProcessed {len(processed)} papers. Failed {len(failures)}. Tag vocab size: {len(tags_data['tags'])}")
+    if failures:
+        examples = "; ".join(f"{item['title']}: {item['error']}" for item in failures[:3])
+        raise RuntimeError(f"Failed to summarize {len(failures)} item(s). Examples: {examples}")
     return processed
 
 
