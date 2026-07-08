@@ -294,6 +294,489 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "authors": "Tianjiao Yu, Xinzhuo Li, Yifan Shen, Onkar Susladkar, Yuanzhe Liu et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06565v1",
+    "pdf": "https://arxiv.org/pdf/2607.06565v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "ELSA3D is a unified 3D foundation model that bridges language and 3D geometry through a novel architecture called elastic semantic anchoring. Unlike existing methods that flatten text and 3D data into a single sequence, ELSA3D intelligently routes semantic information across different geometric scales, achieving better performance on image-to-3D, text-to-3D generation, and 3D captioning while cutting computational cost roughly in half.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+    "authors": "Shervin Khalafi, Igor Krawczuk, Sergio Rozada, Charilaos Kanatsoulis, Antonio G Marques et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06546v1",
+    "pdf": "https://arxiv.org/pdf/2607.06546v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper explains why standard attention mechanisms underperform for denoising graphs and proposes Graph Convolutional Attention (GCA) as a fix. The key insight is that linear attention learns only a single denoising filter averaged across the training distribution, but real graphs vary spectrally (their frequency components differ), requiring adaptive filters. GCA outperforms linear attention by using the input graph's spectrum directly, with provable guarantees. The work matters because graph denoising is core to generative models like diffusion-based graph generation, and better understanding attention mechanisms helps build more principled architectures.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+    "authors": "Aparna Madva, Sharath Srivatsa, Srinath Srinivasa, Tulika Saha",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06544v1",
+    "pdf": "https://arxiv.org/pdf/2607.06544v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper examines how AI development in India risks homogenizing linguistic and cultural diversity while offering potential for inclusion and access. The authors survey the evolution of Natural Language Processing (NLP) for Indian languages, analyze the structural challenges these languages pose (morphological complexity, multiple scripts, dialects), and propose \"Culture Sensing\"—a new research direction using hermeneutic reasoning to build AI that is both equitable across low-resource languages and culturally meaningful.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+    "authors": "Zhenyu Liu, Yunxin Li, Xuanyu Zhang, Qixun Teng, Shenyuan Jiang et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06540v1",
+    "pdf": "https://arxiv.org/pdf/2607.06540v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper tackles a fundamental problem in full-duplex spoken language models (SLMs) — systems that must listen and respond simultaneously — by diagnosing why acoustic (speech) and semantic (meaning) processing interfere with each other during training. The authors show that this interference stems from conflicting gradients when both modalities share the same neural network layers, and propose Lychee-FD, a framework that separates these modalities while keeping them coordinated through a dedicated alignment channel. The result is more natural, intelligent conversational speech systems that outperform prior work by substantial margins.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+    "authors": "Ghassen Marrakchi, Basarab Matei",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06531v1",
+    "pdf": "https://arxiv.org/pdf/2607.06531v1",
+    "tags": [
+      "agents",
+      "deep-learning"
+    ],
+    "summary": "This paper introduces the Large Cancer Assistant (LCA), a framework that orchestrates multiple AI models for clinical oncology decision support without being tightly coupled to any specific model. The key innovation is architectural: by decoupling data intake, routing logic, and AI inference, the system can swap out models, handle incomplete data gracefully, and integrate with hospital IT systems more flexibly than traditional monolithic approaches.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
+    "authors": "Sambaran Bandyopadhyay, Ananth Muppidi",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06527v1",
+    "pdf": "https://arxiv.org/pdf/2607.06527v1",
+    "tags": [
+      "graph-neural-networks",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles multi-hop question answering over knowledge graphs—finding answers by reasoning across multiple connected facts rather than single lookup. The core problem: traditional pipelines that retrieve facts then read answers break the ability for the retriever to learn, especially when intermediate facts don't share words with the question. RSF-GLLM solves this by decoupling learnable graph reasoning (via soft continuous scores) from answer generation (via fine-tuned LLM), achieving competitive accuracy with lower computational cost.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Data Analysis in the Wild: Benchmarking Large Language Models Against Real-World Data Complexities",
+    "authors": "So Hasegawa, Shailaja Keyur Sampat, Lei Liu, Wei-Peng Chen",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06482v1",
+    "pdf": "https://arxiv.org/pdf/2607.06482v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces DataGovBench, a benchmark that tests how well large language models (LLMs) perform on real-world data analysis tasks using government open datasets. The benchmark covers two challenges: answering complex questions about multi-table datasets and discovering expert-level insights through exploratory analysis. The work matters because existing benchmarks focus on simple fact retrieval from small tables and miss the messy reality of data analytics — the paper shows that state-of-the-art LLMs still fall short on these practical tasks.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "WordVoice: Explicit and Decoupled Multi-Dimensional Word-Level Control for LLM-Based TTS",
+    "authors": "Sihang Nie, Jinxin Ji, Xiaofen Xing, Deyi Tuo, Chengbin Jin et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06461v1",
+    "pdf": "https://arxiv.org/pdf/2607.06461v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "WordVoice is a framework that gives precise, word-level control over speech synthesis using large language models. The key innovation is transforming implicit (black-box) LLM-based text-to-speech into explicit, controllable generation by introducing acoustic planning at the token level and fine-grained modulation at the waveform level. This matters because existing systems lack the granular control needed for professional applications like audiobook narration and video dubbing, where you need to precisely control when words start/end, their energy, pitch, and tone.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Hardware-Aware Open-Source Framework for Design Space Exploration of Mixed-Signal Spiking Neural Networks",
+    "authors": "Sayma Nowshin Chowdhury, Vineeta Nair, Taseen Forhad, Aishwarya Natarajan, Corey Hart et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06456v1",
+    "pdf": "https://arxiv.org/pdf/2607.06456v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents an open-source simulation framework for designing energy-efficient neuromorphic chips — computers inspired by biological brains that use spiking neural networks (SNNs). The framework helps engineers explore trade-offs between accuracy, power consumption, and physical chip size by modeling how real hardware components behave, not just idealized software versions. This matters because neuromorphic chips promise dramatic energy savings for edge AI (on-device computing), but designing them requires tools that accurately predict real-world performance.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Voting to Agent Collaboration: Answer-Type-Aware LLM Pipelines for BioASQ 14b",
+    "authors": "Taeyun Roh, Eunha Lee, Wonjune Jang, Sohyun Chung, Junha Jung et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06452v1",
+    "pdf": "https://arxiv.org/pdf/2607.06452v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a question-type-aware LLM framework for biomedical question answering in the BioASQ challenge, where different answer formats (yes/no, factoid, list) receive tailored inference strategies rather than a one-size-fits-all approach. The work demonstrates that routing questions to specialized pipelines—including multi-agent collaboration for list questions—improves both answer accuracy and evidence grounding, achieving first place in the factoid subtask of BioASQ 14b Batch 4.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+    "authors": "Jihao Liu, Guoxiong Gao, Zeming Sun, Bin Wu, Shurui Liu et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06447v1",
+    "pdf": "https://arxiv.org/pdf/2607.06447v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents Danus, a system that orchestrates multiple AI agents to collaboratively solve research-level mathematics problems by sharing a unified \"fact graph\" — a structured memory of verified mathematical claims and their dependencies. Rather than having a single agent solve problems linearly, Danus coordinates parallel proof search across multiple worker agents while maintaining correctness through verification and organization. The work demonstrates that this approach can tackle genuine open problems in algebraic geometry and combinatorics, showing a practical path toward AI systems that can contribute to mathematical research.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TILDE: TILt-based Distributional Erasure for Concept Unlearning",
+    "authors": "Naveen George, Naoki Murata, Yuhta Takida, Konda Reddy Mopuri, Yuki Mitsufuji",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06432v1",
+    "pdf": "https://arxiv.org/pdf/2607.06432v1",
+    "tags": [
+      "alignment",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper addresses concept unlearning in text-to-image diffusion models—the ability to remove unwanted concepts (copyrighted styles, trademarked characters, etc.) after training while maintaining the model's quality on other tasks. The key insight is framing unlearning as a distributional alignment problem rather than just erasing a concept: the goal is to match the distribution of a reference model trained from scratch without the unwanted data, not just suppress target images. The paper proposes TILDE, which uses energy-tilted distributions and gradient flow learning to achieve both strong forgetting and strong retention.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "What Images Cannot Say: Language-Guided Olfactory Representation Learning",
+    "authors": "Eleftherios Tsonis, Xi Wang, Vicky Kalogeiton",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06402v1",
+    "pdf": "https://arxiv.org/pdf/2607.06402v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper introduces SCENT, a framework that learns to represent odors (from electronic-nose sensors) by using language as a bridge between visual images and smell signals. The key insight is that many smells come from contextual environmental factors invisible in pixels — so the researchers use Vision-Language Models to describe what a scene looks like and what it might *smell* like, then train an olfactory encoder to align smell data with these multimodal descriptions. The work matters because it tackles a genuinely hard problem: making sensory systems (smell) learnable from visual data, which requires semantic reasoning beyond raw pixel values.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning to Throw Objects Safely in Multi-Obstacle Environments",
+    "authors": "Mohammadreza Kasaei, Klemen Voncina, Hamidreza Kasaei",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06388v1",
+    "pdf": "https://arxiv.org/pdf/2607.06388v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses robotic throwing in cluttered environments—a challenging task that requires a robot to toss objects into a target basket while navigating around randomly placed obstacles. The authors introduce a potential field representation that encodes both target attraction and obstacle repulsion on a compact grid, enabling reinforcement learning policies to generalize across different obstacle configurations. Real-robot experiments achieve up to 90% success in cluttered scenes, demonstrating practical sim-to-real transfer.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Function-Space Dichotomy for Compositional Learning: Exponential Sub-Optimality of the Neural Tangent Kernel",
+    "authors": "Arkaprabha Ganguli, Emil Constantinescu",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06382v1",
+    "pdf": "https://arxiv.org/pdf/2607.06382v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper explains a long-observed mystery: why trained neural networks generalize better than their neural tangent kernel (NTK) limit on compositional tasks. Using functions on the unit circle, the authors prove that NTK regression can require exponentially more samples than necessary—the gap is a fundamental mismatch between the kernel's smoothness assumptions and compositional structure in the target function, not a quirk of training dynamics.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
+    "authors": "Ryuji Oi, Hikari Otsuka, Kosuke Matsushima, Yuki Ichikawa, Masato Motomura et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06370v1",
+    "pdf": "https://arxiv.org/pdf/2607.06370v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper addresses a critical bottleneck in Vision-Language-Action (VLA) models — the slow iterative denoising process needed to generate robot actions. The authors propose ActionCache, a plug-and-play cache that reuses past intermediate action computations to speed up inference by up to 34×, while maintaining task success rates. This matters because real-time robotic control requires fast inference, and existing VLA models (particularly flow-matching variants) are too slow for deployment.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Quantitative Gaussian-Process limits of Tensor Programs",
+    "authors": "Andrea Agazzi, Eloy Mosig García, Dario Trevisan",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06290v1",
+    "pdf": "https://arxiv.org/pdf/2607.06290v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proves quantitative bounds on how closely finite neural networks approximate their infinite-width Gaussian-process limits using tensor programs. The authors show the approximation error shrinks at a rate of roughly 1/√width—meaning doubling network width cuts the error by ~30%—and their framework applies to feed-forward, recurrent, and transformer architectures without requiring architecture-specific proofs.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Arbitrage-Free Multi-Maturity Risk-Neutral Marginals",
+    "authors": "Hao Qin, Ruozhong Yang, Charlie Che, Liming Feng",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06204v1",
+    "pdf": "https://arxiv.org/pdf/2607.06204v1",
+    "tags": [
+      "derivatives-pricing",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper solves a practical problem in quantitative finance: converting market option prices into risk-neutral probability distributions that are mathematically consistent (arbitrage-free) and computationally tractable. The authors propose an explicit construction method that works directly from discrete option prices, guarantees no arbitrage opportunities, and produces distributions with closed-form solutions for density, quantiles, and sampling — enabling downstream applications like scenario analysis and tail-risk measurement without compromise.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can Reinforcement Learning Efficiently Discover Price Manipulation?",
+    "authors": "Ioanna-Yvonni Tsaknaki, Andrea Macrì, Fabrizio Lillo",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06121v1",
+    "pdf": "https://arxiv.org/pdf/2607.06121v1",
+    "tags": [
+      "algorithmic-trading",
+      "market-microstructure",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether a reinforcement learning (RL) agent can discover price manipulation strategies more effectively than traditional model-based approaches in financial markets. The researchers compare a model-free RL method (Deep Deterministic Policy Gradient) against a model-based optimizer in a controlled market microstructure model, finding that RL can discover profitable manipulative strategies even with limited data and despite the model-based approach having correct specification—but also revealing serious risks of deploying such algorithms without safeguards.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Information Limits and Attractor Dynamics in Economies of Frontier LLM Agents: A Pre-Registered Test",
+    "authors": "Cheng Qian",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06001v1",
+    "pdf": "https://arxiv.org/pdf/2607.06001v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper tests whether frontier LLM agents (Claude Opus 4.8) in simulated economies behave according to information-theoretic predictions about wealth growth and population coordination. Using pre-registered experiments with frozen predictions and cached model outputs, the authors confirm that relative wealth growth tracks relative information in parimutuel-coupled markets, but find that LLM populations fail to exhibit the smooth noise-stabilized diversity that mean-field theory predicts — instead showing sharp phase transitions and bistability near control boundaries.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MCP-Enabled Agentic AI for Autonomous IPoDWDM Network Lifecycle Automation",
+    "authors": "Chunmin Xia, Jakub Harbaczewski, Nikhil Dsilva, Julie Raulin, Dominic Schneider et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.05975v1",
+    "pdf": "https://arxiv.org/pdf/2607.05975v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper demonstrates an agentic AI architecture that automates the complete lifecycle management of IPoDWDM networks (IP over Dense Wavelength Division Multiplexing — technology that carries data across fiber optic cables). The system uses Model Context Protocol (MCP) to enable AI agents to control network operations in a vendor-independent way, with live validation on real hardware showing closed-loop automation from planning through execution.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Delay-Aware Active Triangulation with Uncertainty-Driven Multi-Agent Reinforcement Learning for Counter-UAS",
+    "authors": "Seungwook Lee, David Hyunchul Shim",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.05957v1",
+    "pdf": "https://arxiv.org/pdf/2607.05957v1",
+    "tags": [
+      "computer-vision",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles 3D localization of aerial targets (drones) using multiple coordinated camera-equipped agents that must communicate and act despite communication delays. The key innovation is a reinforcement learning framework that explicitly accounts for latency (using Age-of-Information tracking) and uncertainty sources, achieving 0.547 m localization accuracy in simulation. This matters because real-world Counter-UAS systems must operate in noisy, delayed environments—ignoring these factors degrades performance dramatically.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "No Subspace to Track: Non-Identifiability and Optimizer State in Low-Rank Training",
+    "authors": "Noel Thomas",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.05872v1",
+    "pdf": "https://arxiv.org/pdf/2607.05872v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper reveals that low-rank subspace tracking—the core assumption behind memory-efficient optimizers like GaLore—is fundamentally unreliable due to estimator noise. The authors show that subspace estimates from different minibatches disagree as much as estimates separated by many training steps, meaning there is no stable \"object\" to track. Instead, they propose treating subspace refreshes as coordinate changes for optimizer state, leading to LDAdam, which outperforms patched GaLore while clarifying why and when low-rank training actually works.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems",
+    "authors": "Sergey Volkov, Yang Li, Ye Luo",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.05844v1",
+    "pdf": "https://arxiv.org/pdf/2607.05844v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "StateFuse is a memory system for multi-agent applications that preserves conflicting information instead of hiding it behind overwrite rules. Rather than collapsing disagreements, StateFuse explicitly tracks contradictions and provides tools to surface, audit, and correct them — making multi-agent systems safer and more transparent when agents disagree.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Width-Robust Learnability in Mean-Field Bayesian Neural Networks",
+    "authors": "Dmitry Vaintrob, Kaarel Hänni",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.05735v1",
+    "pdf": "https://arxiv.org/pdf/2607.05735v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proves that Bayesian neural networks at infinite width have the same learning complexity as large finite networks—they don't gain spurious power from their infinite capacity. The key insight is that at the \"mean-field\" scaling regime (where neural networks learn features rather than just adjusting output weights), learning a target function requires polynomial reduced entropy (a measure of prior cost) if and only if it's learnable from polynomial samples. This matters because it explains why infinite-width limits are theoretically justified: they capture the actual inductive bias of practical networks.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Reinforcement Learning for Dynamic Battery Management of Autonomous Order Pickers",
+    "authors": "Taniya Shaji, Abhay Sobhanan, Christof Defryn",
+    "published": "2026-07-06",
+    "url": "http://arxiv.org/abs/2607.05683v1",
+    "pdf": "https://arxiv.org/pdf/2607.05683v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies deep reinforcement learning to optimize battery charging decisions for autonomous mobile robots (AMRs) in warehouse operations. The problem is inherently dynamic—robots must decide when and where to charge as orders arrive unpredictably—and involves coordination among multiple agents, making traditional fixed scheduling rules suboptimal. The proposed PPO-based approach learns both charging station selection and duration, achieving 6% higher order-completion rates and reduced total charging time compared to existing methods.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "To Retain or to Adapt? Generalizing Continual Learning",
+    "authors": "Giulia Lanzillotta, Mandana Samiei, Doina Precup, Razvan Pascanu, Claire Vernade",
+    "published": "2026-07-06",
+    "url": "http://arxiv.org/abs/2607.05609v1",
+    "pdf": "https://arxiv.org/pdf/2607.05609v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper challenges a foundational assumption in continual learning: that lifelong learners should retain all previous knowledge to match a Joint-Task Learning (JTL) solution. Instead, the authors argue that in changing environments, prioritizing retention can actually hurt real-time performance. They formalize this tradeoff through a new metric (Average Lifelong Error) and prove that historical knowledge becomes a liability once task duration exceeds a critical threshold. The work matters because it reframes a 20-year-old problem—most continual learning papers optimize for preventing forgetting—and shows this goal may be misaligned with practical performance.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Neural Variation Spaces: A Unifying Perspective on Depth and Complexity",
+    "authors": "Julia Nakhleh, Robert D. Nowak",
+    "published": "2026-07-06",
+    "url": "http://arxiv.org/abs/2607.05546v1",
+    "pdf": "https://arxiv.org/pdf/2607.05546v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops a unified mathematical framework for understanding deep neural networks by studying them as function spaces with controlled complexity. Rather than analyzing networks through parameter counts or specific activation types, the authors define recursive ℓ¹-bounded function spaces that work across many activation functions and depths, then prove that this notion of complexity actually limits what networks can represent—counterintuitively showing that depth may offer less advantage than commonly believed when complexity is properly controlled.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SHARC: SHAP-Based Interpretability in Machine Learning Risk Models for Regulatory Capital under ICAAP and CCAR",
+    "authors": "Ujjwala Vadrevu",
+    "published": "2026-07-06",
+    "url": "http://arxiv.org/abs/2607.05484v1",
+    "pdf": "https://arxiv.org/pdf/2607.05484v1",
+    "tags": [
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper solves a critical regulatory problem: machine learning models like Gaussian Process Regression predict financial risk better than traditional methods, but regulators can't audit them because they're \"black boxes.\" The authors apply SHAP (a game-theory-based explanation technique) to make these models transparent, decomposing stress-test capital requirements into interpretable components that regulators can trace and validate.",
+    "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
     "authors": "Shiyuan Feng, Huan-ang Gao, Haohan Chi, Hanlin Wu, Zhilong Zhang et al.",
     "published": "2026-07-06",
