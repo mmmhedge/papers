@@ -2,6 +2,38 @@
   {
     "source": "blog",
     "source_name": "Hugging Face",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "authors": "Hugging Face",
+    "published": "2026-07-08",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "pdf": "",
+    "tags": [
+      "large-language-models",
+      "transformers"
+    ],
+    "summary": "Hugging Face has released a native-speed vLLM transformers modeling backend, integrating vLLM's high-performance inference engine directly with the transformers library. This eliminates performance bottlenecks in serving large language models by enabling transformers models to run at vLLM's optimized speeds without separate conversion or bridging layers.",
+    "date_added": "2026-07-09",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Data for Agents",
+    "authors": "Hugging Face",
+    "published": "2026-07-08",
+    "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This post from Hugging Face addresses the critical role of data quality and curation in building effective autonomous agents. The core message is that agent performance is fundamentally limited by the datasets used for training and fine-tuning, making data strategy as important as model architecture itself.",
+    "date_added": "2026-07-09",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
     "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
     "authors": "Hugging Face",
     "published": "2026-06-30",
@@ -290,6 +322,439 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+    "authors": "Chen Tang, Yizhou Wang, Jianyu Wu, Lintao Wang, Shixiang Tang et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07708v1",
+    "pdf": "https://arxiv.org/pdf/2607.07708v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces SciReasoner, a foundation model that predicts molecular and material properties by reasoning over structural information while explaining *why* predictions are made using scientific principles. Unlike black-box models, SciReasoner treats atomic coordinates, chemical bonds, and crystal symmetries as interpretable \"evidence tokens\" — the model shows which structural features drive predictions and whether they satisfy domain constraints. It outperforms prior methods across protein function prediction, chemical synthesis planning, and materials discovery, while generating explanations validated as scientifically sound by expert review.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+    "authors": "Anna Kuzina, Paul N. Whatmough, Babak Ehteshami Bejnordi",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07706v1",
+    "pdf": "https://arxiv.org/pdf/2607.07706v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper addresses a fundamental bottleneck in transformer inference: the quadratic computational cost of self-attention when processing long contexts. The authors analyze what makes attention mechanisms work, then systematically redesign their components to achieve linear-time inference while preserving model quality. They demonstrate their approach scales to 32-billion-parameter models and matches the performance of more complex adaptive caching systems.",
+    "date_added": "2026-07-09",
+    "trusted": "Anthropic"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+    "authors": "Ying Chang, Jiahang Xu, Xuan Feng, Chenyuan Yang, Peng Cheng et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07702v1",
+    "pdf": "https://arxiv.org/pdf/2607.07702v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a core challenge in agent optimization: when LLMs reflect on agent failures to improve policies, the execution traces they analyze are noisy, redundant, and contain irrelevant steps that distract from true root causes. The authors propose STRACE, a framework that filters traces at the batch level (removing redundant failures) and within each trace (identifying causally important steps via dependency analysis), enabling more precise optimization signals. On formal verification tasks, STRACE achieves a 1.4× improvement in success rate.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+    "authors": "Victor Giannakouris, Immanuel Trummer",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07696v1",
+    "pdf": "https://arxiv.org/pdf/2607.07696v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper presents Jailbreak, a system that uses large language models to automatically generate code for reading database storage files directly, bypassing traditional database drivers like JDBC and ODBC. By having LLMs analyze database source code and documentation, the system synthesizes custom columnar data readers that produce Apache Arrow buffers consumable by modern analytics engines, achieving up to 27x speedups on analytical workloads while maintaining correctness.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+    "authors": "Yujiao Chen",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07695v1",
+    "pdf": "https://arxiv.org/pdf/2607.07695v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces institutional red-teaming, a methodology for testing how deployment rules (not just model weights) causally shape the safety of multi-agent AI systems. The authors built IABench-CA, a benchmark with nearly 34,000 games, and discovered that simple rule changes can shift fatality rates by 22–58 percentage points—and that identity-targeting rules (which single out specific agents) consistently fail, even when they're theoretically fair, because language models learn to exploit the targeting signal. This matters because we typically evaluate AI safety by looking at individual models in isolation; this work shows that institutional structures around multi-agent AI are equally critical.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+    "authors": "Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07693v1",
+    "pdf": "https://arxiv.org/pdf/2607.07693v1",
+    "tags": [
+      "alignment",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses the feedback inefficiency problem in applying reinforcement learning from human feedback (RLHF) to diffusion models — generative models that iteratively denoise random noise into coherent outputs. The authors propose two techniques: selective timestep weighting (emphasizing informative denoising steps) and advantage-based replay (reusing trajectories with high learning value). Together, these achieve up to 6× better sample efficiency without sacrificing generalization to new prompts.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+    "authors": "Vladislav Beliaev",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07690v1",
+    "pdf": "https://arxiv.org/pdf/2607.07690v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Agon, a competitive training method where two language models grade each other's reasoning on difficult problems. Instead of relying on a single external reward signal (like checking only final answers), the models compete by alternately solving problems and critiquing each other's work — forcing both to develop genuine reasoning skills rather than just longer outputs. On hard math problems, this approach roughly doubles the performance of standard RL methods.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agent Delivery Engineering Predictive Reliability Framework",
+    "authors": "Dexing Liu",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07689v1",
+    "pdf": "https://arxiv.org/pdf/2607.07689v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical blind spot in production LLM multi-agent systems: infrastructure monitoring can miss reliability degradation that isn't visible in standard metrics. The authors propose ADE-PRF, a framework that predicts system health 8 hours ahead by aggregating 20 disparate signals into a single \"Trust Margin\" metric, validated on 380,000+ real predictions across six agent types. The work matters because it enables teams to catch failing agents before they cause costly errors—a previously unsolved problem in deployed multi-agent systems.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ECGLight: Compute-Light Framework For Paper ECG Digitization and Myocardial Infarction Screening",
+    "authors": "Shreyasvi Natraj, Cyrus Achtari, Felice Gragnano, Andrea Milzi, Marco Valgimigli et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07683v1",
+    "pdf": "https://arxiv.org/pdf/2607.07683v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents ECGLight, a lightweight software pipeline that converts smartphone photos of paper ECGs into digital signals and screens for myocardial infarction (heart attack) in under 30 seconds on CPU-only devices. The system addresses a critical gap: millions of paper ECGs in remote clinics worldwide cannot access modern AI diagnostics due to poor connectivity and limited computing power, causing dangerous delays in detecting life-threatening heart conditions.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Any-Dimensional Learning by Sampling",
+    "authors": "Eitan Levin, Venkat Chandrasekaran",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07680v1",
+    "pdf": "https://arxiv.org/pdf/2607.07680v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper develops a unified theoretical framework for understanding how machine learning models generalize when trained on small inputs but evaluated on larger ones—a problem arising in sequences, graphs, and point clouds of varying sizes. The authors use random sampling maps to characterize when and how well models can scale from small to large inputs, and provide explicit generalization and sketching rates for important function classes like graph neural networks and transformers.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How Data Shapes RoPE Frequency Usage: From Positional Scale Matching to Length Generalization",
+    "authors": "Xinyi Wu, Siyuan Liu, Ali Jadbabaie",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07678v1",
+    "pdf": "https://arxiv.org/pdf/2607.07678v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper explains why transformer models using Rotary Position Embeddings (RoPE) prefer certain frequencies over others—a phenomenon that has been observed but not well understood. The authors show that frequency selection is driven by the structure of training data: the model learns to use frequencies that match the \"width\" of dependency relationships in that data. This insight connects to a practical problem: why do transformers struggle with longer contexts than they saw during training, and how can frequency scaling help them generalize better.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+    "authors": "Hyunjae Kim, Dain Kim, Pan Xiao, Serina S. Applebaum, Younjoon Chung et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07673v1",
+    "pdf": "https://arxiv.org/pdf/2607.07673v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces MedPMC, a framework that automatically extracts and aligns high-quality image-text pairs from 6.1 million PubMed Central articles to create a large-scale medical multimodal dataset. The resulting 11 million curated pairs significantly improve foundation models for medical imaging tasks — a CLIP-style model trained on MedPMC data outperforms existing biomedical baselines by 7.1 percentage points on zero-shot benchmarks and shows real-world gains in clinical settings like dermatology image retrieval.",
+    "date_added": "2026-07-09",
+    "trusted": "Yale"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Does Bielik Know What It Doesn't Know? Activation Dispersion Separates Entity Familiarity from Factual Reliability Across Model Scale",
+    "authors": "Grzegorz Brzezinka",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07670v1",
+    "pdf": "https://arxiv.org/pdf/2607.07670v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether large language models (LLMs) internally \"know\" when they're about to hallucinate, by examining neural activation patterns before generating answers about entities. Using Polish language models (Bielik, 1.5B–11B parameters), the authors discover that activation dispersion measures can detect whether a model has seen an entity before with near-perfect accuracy—but this internal awareness does NOT predict whether the model will actually answer correctly. The key finding: models are aware of entity familiarity but rarely abstain, revealing a gap between what models internally know and what they output.",
+    "date_added": "2026-07-09",
+    "trusted": "Mistral"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DiaLLM: An Investigation into the Robustness-Generation Gap in English Dialect Adaptation",
+    "authors": "Jordan Painter, Dipankar Srirag, Adarsh Kappiyath, Diptesh Kanojia, Aditya Joshi et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07669v1",
+    "pdf": "https://arxiv.org/pdf/2607.07669v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates why large language models understand different English dialects (Australian, Indian, Northern British) but refuse to generate them, producing only standard US English instead. The authors systematically test various training methods—continual pretraining, fine-tuning, and alignment strategies—and find a surprising mismatch: benchmark improvements don't predict whether models actually produce recognizable dialect, and the training methods that optimize hardest for dialect don't match human preferences.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
+    "authors": "Shivendra G. Tewari, Holly Kimko",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07666v1",
+    "pdf": "https://arxiv.org/pdf/2607.07666v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents Ensemble QSP, a multi-agent system that enables large language models to work autonomously on long-horizon scientific tasks without running out of context. The key innovation is a three-layer hierarchical memory architecture that keeps the active context window bounded (median 301 tokens) by selectively retaining relevant information and discarding completed work—allowing the system to run indefinitely while maintaining reasoning quality. The authors demonstrate the approach on pharmacokinetic-pharmacodynamic modeling, showing that it produces consistent, high-quality results across multiple LLM backends.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RL Post-Training Builds Compositional Reasoning Strategies",
+    "authors": "Azwar Abdulsalam, Nishil Patel, Andrew Saxe",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07646v1",
+    "pdf": "https://arxiv.org/pdf/2607.07646v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether reinforcement learning post-training can teach language models to discover genuinely new strategies by composing simpler skills, rather than just amplifying existing abilities. Using a controlled environment where all model outputs can be inspected, the authors show that RL discovers and reuses complex multi-step procedures that the base model rarely finds, while rejection fine-tuning (a simpler alternative) produces mostly invalid shortcuts.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Future Confidence Distillation in Large Language Models",
+    "authors": "Sahil Kale",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07626v1",
+    "pdf": "https://arxiv.org/pdf/2607.07626v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates how LLMs develop confidence about their answers over time, rather than treating confidence as a fixed property of final outputs. The authors show that confidence estimates made *after* generating an answer are much better calibrated than pre-generation estimates, and they propose \"future confidence distillation\"—a technique that learns to predict post-generation confidence using only the hidden representations available before generation begins, avoiding the computational cost of full answer generation.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Unified Detection Framework for AI-Related Content and Artifacts",
+    "authors": "Xifeng Zhang, Tao Hu, Yijie Peng, Wan Tian",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07527v1",
+    "pdf": "https://arxiv.org/pdf/2607.07527v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper presents a unified detection framework for identifying AI-generated content and artifacts—including LLM-generated text, hallucinations, watermarks, and adversarial examples—using Mahalanobis distance scores (MDS) computed on deep neural network representations. The work matters because as AI systems proliferate, robust detection of synthetic or manipulated content becomes critical for oversight, safety, and regulatory compliance across multiple domains.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fast Rates for Semi-Supervised Learning via Data-Augmentation Graph Regularization",
+    "authors": "Adam M. Oberman",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07513v1",
+    "pdf": "https://arxiv.org/pdf/2607.07513v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper explains why semi-supervised learning with data augmentation works so well in practice—achieving supervised-level accuracy with far fewer labeled examples. The authors prove that data augmentation creates a similarity graph on unlabeled data, and learning on this graph achieves a fast $O(1/n_L)$ convergence rate (compared to the standard $O(1/\\sqrt{n_L})$ supervised rate). This is the first theoretical justification for the empirical success of augmentation-based semi-supervised learning without unrealistic assumptions.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Social-spatial dependencies for learning visual navigation",
+    "authors": "Patrick Govoni, Pawel Romanczuk",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07460v1",
+    "pdf": "https://arxiv.org/pdf/2607.07460v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how individual neural network agents learn to navigate in groups, showing that social information and spatial proximity trigger phase transitions in behavior — from independent navigation to following to collision avoidance. The work demonstrates that group dynamics and embodied interactions fundamentally shape what strategies organisms learn, challenging the assumption that individual behavior can be understood in isolation.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent Robotic Control with Onboard Vision-Language Models",
+    "authors": "Kajetan Rachwał, Maciej Majek, Bartłomiej Boczek, Jakub Matejczyk, Dominik Matejkowski et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07403v1",
+    "pdf": "https://arxiv.org/pdf/2607.07403v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper demonstrates a multi-agent robotic system that runs entirely on onboard hardware (a modest AMD mini PC) to control a mobile manipulator in warehouse tasks. Rather than relying on cloud compute or large foundation models, the system uses compact vision-language models (3–20B parameters) coordinated by specialized agents, including a novel \"Megamind\" orchestrator that solves long-horizon planning problems. The work shows that practical, autonomous robotic control is achievable with distributed onboard agents, not expensive external compute.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Large Language Model-Driven Agent-Based Modeling Framework with Multi-Round Communication for Simulating Vaccine Opinion Dynamics",
+    "authors": "Bo Zhang, Na Jiang",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07387v1",
+    "pdf": "https://arxiv.org/pdf/2607.07387v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper embeds a large language model (Qwen3-8B) into agent-based simulations to model how people form and change opinions about vaccines. The key insight is that different cognitive modules — like memory and prompt diversity — have measurably different effects on emergent group-level opinion patterns, and the framework successfully reproduces known non-linear social influence effects seen in real data.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Dynamic neural manifolds for flexible closed-loop control on neuromorphic hardware",
+    "authors": "Oskar von Seeler, Christian Tetzlaff, Andrew Lehr",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07373v1",
+    "pdf": "https://arxiv.org/pdf/2607.07373v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper demonstrates how spiking neural networks (brain-inspired neural circuits that communicate via discrete spike events) can implement flexible control behaviors by organizing neural activity along dynamic, low-dimensional manifolds — geometric structures that compress high-dimensional neural activity into simpler patterns. The authors implement this on neuromorphic hardware (the SpiNNaker 2 chip), showing a robot can use sensory feedback to rapidly switch between different behaviors and navigate a maze, bridging neuroscience insights with real-time robotic control.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors",
+    "authors": "Oliver Makins, Orazio Angelini, Zohreh Shams, Mary Phuong",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07368v1",
+    "pdf": "https://arxiv.org/pdf/2607.07368v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how AI control techniques — methods designed to prevent a single AI agent from acting against its operator's goals — fail when multiple agents coordinate to attack shared infrastructure. The authors build FakeLab, a synthetic lab environment with 86 benign tasks and 4 attack scenarios, and show that per-agent monitoring becomes progressively less effective as more agents work together on the same malicious objective. This matters because real AI deployments run many models simultaneously, and current safety monitoring assumes single-agent threat models.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Best-Arm Identification with Generative Proxy",
+    "authors": "Tianyi Ma, Hanzhang Qin, Ruihao Zhu, Jierui Zuo",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.06879v1",
+    "pdf": "https://arxiv.org/pdf/2607.06879v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies how to efficiently identify the best option among many alternatives when getting true rewards is expensive, but cheap proxy predictions (like LLM outputs) are available. The key insight is that by learning the correlation between proxy and reward online, a standard control-variate adjustment lets you reduce the number of costly samples needed—but you must carefully estimate residual variance without breaking the statistical guarantees. The authors propose PROBE, an algorithm that maintains valid confidence bounds and achieves near-oracle sample complexity in experiments ranging from synthetic problems to real auto-loan pricing.",
+    "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Heat-Kernel Entropy Profiles and Geometric Effective Sample Size for Weighted Measures on Manifolds",
+    "authors": "Kisung You",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06696v1",
+    "pdf": "https://arxiv.org/pdf/2607.06696v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces heat-kernel entropy profiles, a new way to measure the quality and geometry-awareness of weighted particle samples on curved spaces (manifolds). Unlike existing methods that only count effective particles, this approach understands the underlying geometry—it detects when particles cluster, duplicate, or spread unevenly across the curved surface. The work matters because weighted samples appear everywhere in machine learning: importance sampling, neural network approximations, and Bayesian inference all rely on good particle representations.",
+    "date_added": "2026-07-09",
+    "trusted": ""
   },
   {
     "source": "arxiv",
