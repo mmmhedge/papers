@@ -1,6 +1,22 @@
 [
   {
     "source": "blog",
+    "source_name": "OpenAI",
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "authors": "OpenAI",
+    "published": "2026-07-09",
+    "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI has released ChatGPT Work, an agentic version of ChatGPT capable of taking autonomous actions across applications and files to complete complex, multi-step projects over extended periods. This represents a shift from conversational AI to task-oriented agents that can persist on goals and execute workflows independently.",
+    "date_added": "2026-07-10",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
     "source_name": "Hugging Face",
     "title": "Native-speed vLLM transformers modeling backend",
     "authors": "Hugging Face",
@@ -322,6 +338,419 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+    "authors": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08768v1",
+    "pdf": "https://arxiv.org/pdf/2607.08768v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "UniClawBench is the first benchmark designed to evaluate proactive AI agents (systems that use large language models to autonomously accomplish real-world tasks) in realistic, dynamic environments rather than static sandboxed ones. The benchmark measures five core agent capabilities—skill usage, exploration, reasoning with long documents, understanding images/multimodal content, and coordinating across multiple platforms—using 400 real-world tasks evaluated in live Docker containers with step-by-step progress tracking. This matters because existing benchmarks poorly capture whether agents can actually help users in messy, real-world settings where tasks span multiple steps, require tool use, and involve human feedback loops.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+    "authors": "David González-Martínez, Shiwei Liu",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08754v1",
+    "pdf": "https://arxiv.org/pdf/2607.08754v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces SLORR, a method to make neural networks easier to compress without sacrificing accuracy. The key innovation is a regularization technique applied *during training* that encourages weight matrices to have low-rank structure — meaning they can be factorized into smaller, simpler matrices. Unlike prior approaches, SLORR is simple to implement, doesn't modify the network architecture, and adds minimal computational overhead (under 1-8%), making it practical for both vision models and large language models.",
+    "date_added": "2026-07-10",
+    "trusted": "Mistral"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+    "authors": "Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08745v1",
+    "pdf": "https://arxiv.org/pdf/2607.08745v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces AUTOPILOT-VQA, a benchmark dataset that tests how well vision-language models (neural networks that process both images and text) can understand and reason about driving incidents from dashcam video. The work addresses a critical gap: while these models excel at simple object recognition, they struggle with safety-critical reasoning needed for autonomous driving—judging whether an accident was avoidable, identifying what caused it, or assessing road conditions. The benchmark matters because autonomous vehicles need to be evaluated on real-world safety scenarios, not just generic image understanding tasks.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+    "authors": "Kaifeng Zhao, Mathis Petrovich, Haotian Zhang, Tingwu Wang, Siyu Tang et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08741v1",
+    "pdf": "https://arxiv.org/pdf/2607.08741v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "ARDY is a real-time motion generation system that creates realistic 3D human animations from text prompts and kinematic constraints. It solves a practical problem: existing methods are either slow but precise (offline) or fast but inflexible (online). ARDY achieves both by using a hybrid neural representation and a streaming autoregressive architecture, making it suitable for interactive applications like video games, VR, and robotics.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+    "authors": "Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08740v1",
+    "pdf": "https://arxiv.org/pdf/2607.08740v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes a conceptual framework for representing LLM-mediated workflows as persistent, inspectable knowledge objects rather than ephemeral execution traces. The key insight is treating workflow definitions, instances, inference records, and dependencies as first-class entities in a shared knowledge substrate—enabling workflows to be resumed, reviewed, and reasoned about as structured data. This matters because current workflow systems treat LLM calls as black boxes; making workflows themselves transparent and persistent enables better debugging, auditability, and human oversight of LLM applications.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+    "authors": "Baha Rababah, Cuneyt Gurcan Akcora, Carson K. Leung",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08734v1",
+    "pdf": "https://arxiv.org/pdf/2607.08734v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper challenges the conventional wisdom that quantization (compressing model weights to fewer bits) preserves model behavior when standard metrics like accuracy stay high. The authors show that quantized LLMs actually make different predictions than their full-precision counterparts on individual examples, even when overall performance appears identical—what they call an \"illusion of equivalence.\" They propose new evaluation methods and analyze where in the model structure quantization causes the most damage.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pose-to-Biomechanics: Bridging 3D Human Pose Estimation and Biomechanical Attribute Prediction",
+    "authors": "Ayda Eghbalian, Kevin Desai",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08725v1",
+    "pdf": "https://arxiv.org/pdf/2607.08725v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces BioModule, a lightweight neural network module that translates 3D skeleton poses (from video-based pose estimators) into biomechanical measurements like joint forces, muscle activations, and movement efficiency. The work bridges computer vision and biomechanics by creating a large aligned dataset and showing that existing pose estimators can be retrofitted to provide clinically and scientifically meaningful motion analysis without modification.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
+    "authors": "Chuning Zhu, Eva Xu, Jose Barreiros, Krishnan Srinivasan, Paarth Shah et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08724v1",
+    "pdf": "https://arxiv.org/pdf/2607.08724v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Latent Memory Palace (LMP), a method that enables control policies (robots, agents) to \"reason\" by organizing information in a learned latent space, similar to how language models solve hard problems through step-by-step thinking. Unlike prior work that reasons in language space, LMP reasons in a continuous latent space tailored for spatial and motor tasks, using variational inference to balance deliberation depth with immediate action. The method works in both simulation and real robots, and also produces a better tokenizer for downstream policies.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "authors": "Yifan Wu, Lizhu Zhang, Yuhang Zhou, Mingyi Wang, Bo Peng et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08716v1",
+    "pdf": "https://arxiv.org/pdf/2607.08716v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical failure mode in long-horizon AI agents: as task trajectories grow, decision-relevant information gets buried or forgotten, causing performance to decay. The authors propose a \"memory agent\" — a separate module that runs alongside the main action agent, actively deciding when to remind it of important past context rather than passively storing information. The approach is plug-and-play and shows consistent improvements (+6–8 percentage points) across multiple benchmarks.",
+    "date_added": "2026-07-10",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LTM: Large-scale Terrain Model for Wildfire-prone Landscapes",
+    "authors": "Xiao Fu, Yue Hu, Meida Chen, Peter Anthony Beerel, Barath Raghavan",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08711v1",
+    "pdf": "https://arxiv.org/pdf/2607.08711v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a method to quickly and cheaply reconstruct high-resolution 3D terrain maps from aerial images in wildfire-prone regions by using outdated terrain data (Digital Elevation Models) as geometric priors. Rather than expensively matching features between images, the method aligns pixels directly to the existing terrain map using physics-based constraints, achieving real-time performance while improving accuracy over existing approaches.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MPFlow: Learning Budgeted Max-Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning",
+    "authors": "Harrison Rush, Vincent Davis, Simone Antonelli, Vikash Singh, Jesse Shrader et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08703v1",
+    "pdf": "https://arxiv.org/pdf/2607.08703v1",
+    "tags": [
+      "graph-neural-networks",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves a real optimization problem in Bitcoin's Lightning Network: given a fixed budget, which payment channels should a node open to maximize its routing capacity? The authors use deep reinforcement learning with graph neural networks to learn where to place liquidity, and their system is already deployed in production managing millions of dollars in cryptocurrency. The key insight is using max-flow as a principled objective and training the AI to avoid simply connecting to network hubs—which would be the obvious but suboptimal strategy.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
+    "authors": "Ethan Leung, Elias Lumer, Corey Feld, Austin Huber, Vamse Kumar Subbiah et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08700v1",
+    "pdf": "https://arxiv.org/pdf/2607.08700v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether expensive frontier LLMs are necessary to judge citation quality in AI research systems—or whether cheaper models work just as well. The authors benchmark 8 LLMs as \"judges\" that evaluate whether citations support claims, finding that smaller models like GPT-4o-mini perform competitively, but all models show hidden biases (false positive/negative rates) that scalar metrics like F1 scores hide. This matters because these judges are used as reward signals in reinforcement learning training, so their hidden biases get baked into the AI system itself.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models",
+    "authors": "Teng-Ruei Chen",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08665v1",
+    "pdf": "https://arxiv.org/pdf/2607.08665v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a practical problem in deploying multiple large language models (LLMs): how to best spend a limited per-query budget on either resampling the same model or rerouting to a different one. The authors propose an online policy that dynamically allocates budget between these two strategies using an imperfect verifier, and show it achieves better cost-quality tradeoffs than existing approaches across multiple benchmarks.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+    "authors": "Xiaoshuai Song, Liancheng Zhang, Kangzhi Zhao, Yutao Zhu, Zhongyuan Wang et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08662v1",
+    "pdf": "https://arxiv.org/pdf/2607.08662v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "WebSwarm is a framework that orchestrates multiple LLM-based agents working together recursively to perform complex web search tasks that require both depth (following chains of reasoning) and breadth (exploring multiple angles). Instead of using a single agent that gets stuck in long trajectories or multiple agents that only run in parallel, WebSwarm dynamically creates a tree of specialized search agents that delegate subtasks to each other and build on shared evidence, enabling more thorough and nuanced information gathering.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+    "authors": "Xinlong Zhao, Dongsheng Liu, Hengyu Zhao, Zixuan Fu, Zheng Wang et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08646v1",
+    "pdf": "https://arxiv.org/pdf/2607.08646v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "UltraX is a system for automatically improving the quality of training data used to build large language models, at the scale of billions of text examples. Rather than just deleting bad data or rewriting it with another LLM, UltraX uses programmatic editing — converting original-refined text pairs into structured \"programs\" (sequences of insertion, deletion, modification operations) — to refine data reliably and efficiently. This matters because as we run out of new text to train on, the quality of existing data has become the main lever for improving LLMs.",
+    "date_added": "2026-07-10",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Early to Share, Late to Save: Synchronisation-Driven Communication Gating in Bandwidth-Constrained Cooperative VLN",
+    "authors": "Arav Gupta, Nivedan Yakolli, Avinash Gautam",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08504v1",
+    "pdf": "https://arxiv.org/pdf/2607.08504v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles Vision-Language Navigation (VLN) — where embodied agents must follow natural language instructions to navigate physical environments — in settings with limited communication bandwidth. The authors propose \"hindsight gating,\" a method that learns *when* agents should share information by analyzing which communication moments would have prevented navigation failures. They discover that agents should communicate early and confidently, not when uncertain, because early shared representations help both agents navigate the rest of the task more coherently.",
+    "date_added": "2026-07-10",
+    "trusted": "Apple"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Statistical Efficiency and Inference of Quantile Distributional Reinforcement Learning",
+    "authors": "Zijie Cheng, Yang Peng, Zhihua Zhang",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08444v1",
+    "pdf": "https://arxiv.org/pdf/2607.08444v1",
+    "tags": [
+      "reinforcement-learning"
+    ],
+    "summary": "This paper analyzes the statistical efficiency of quantile-based distributional reinforcement learning, focusing on policy evaluation—estimating the full distribution of cumulative rewards rather than just expected values. The authors prove that their quantile estimator achieves optimal sample complexity (√n convergence rate) and remains statistically efficient even as the number of quantiles grows, providing both finite-sample guarantees and asymptotic inference tools for principled decision-making in RL.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Backpropagation: Monte Carlo Method Can Train Deep Neural Networks",
+    "authors": "Hong Zhao",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08406v1",
+    "pdf": "https://arxiv.org/pdf/2607.08406v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper demonstrates that a simple Monte Carlo method—randomly mutating parameters and keeping changes that reduce loss—can train deep neural networks without backpropagation or gradients. The work challenges the assumption that gradient-based optimization is necessary for deep learning, showing the method works on networks with 20+ layers, wide networks, and even Transformers, without requiring batch normalization or residual connections.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
+    "authors": "Hugo García Cuesta, Pablo Mateo Torrejón, Alfonso Sánchez-Macián",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08282v1",
+    "pdf": "https://arxiv.org/pdf/2607.08282v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a privacy-protecting firewall system that sits between users and language models, intercepting and analyzing all interactions to prevent sensitive data leakage. The system combines rule-based detection with AI-driven semantic analysis across browser and programmatic interfaces, achieving 94.93% accuracy at blocking risky data sharing—solving a critical gap where LLM integration into workflows creates uncontrolled data exposure risks.",
+    "date_added": "2026-07-10",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ASMR: Agentic Schema Generation for Ship Maintenance Report Writing",
+    "authors": "Sohrab Namazi Nia, Amogh Dalal, Ning Sa, Peter Ly, Marti Zentmaier et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08177v1",
+    "pdf": "https://arxiv.org/pdf/2607.08177v1",
+    "tags": [
+      "agents",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents ASMR, a system that automatically discovers data schemas (structured templates) from historical ship maintenance reports using two specialized AI agents working together. Rather than manually defining what information should go in each report type, the system learns from past reports to generate compact, consistent schemas that help future report writers be more complete and clear — addressing a real problem in maritime operations where reports are critical but often inconsistent.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcing the Generation Order of Multimodal Masked Diffusion Models",
+    "authors": "Yidong Ouyang, Zhe Wang, Sourav Bhabesh, Dmitriy Bespalov",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08056v1",
+    "pdf": "https://arxiv.org/pdf/2607.08056v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper improves diffusion models for multimodal tasks (text-to-image and image understanding) by learning the optimal order in which to generate tokens, rather than using a fixed sequence. The key insight is that a learnable control module trained with reinforcement learning can determine better generation orderings than model confidence alone, achieving ~4% improvements on text-to-image alignment and multimodal reasoning benchmarks.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems",
+    "authors": "Yufei Xia, Anjun Gao, Yueyang Quan, Zhuqing Liu, Minghong Fang",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07989v1",
+    "pdf": "https://arxiv.org/pdf/2607.07989v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical debugging challenge in LLM-based multi-agent systems: when a coordinated task fails, determining which agent caused the failure and at which step the trajectory became irreversibly misdirected. The authors propose AgentLocate, a framework that combines LLM-based judgment with multi-perspective verification to pinpoint failures with high accuracy, then uses this feedback to improve the diagnosis system itself. This matters because as LLM agents tackle complex problems through distributed coordination, effective failure diagnosis becomes essential for reliability and debugging.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Expressivity and Statistical Trade-offs in Diffusion Policy Learning",
+    "authors": "Viet Vu, Renyuan Xu, Jiacheng Zhang, Yufei Zhang",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07967v1",
+    "pdf": "https://arxiv.org/pdf/2607.07967v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper analyzes diffusion-based policies—a method for learning action distributions in reinforcement learning by modeling them as solutions to diffusion processes. The key finding is that a single parameter (the drift Lipschitz constant K) governs a fundamental trade-off: larger K makes the policy more expressive (better approximation of optimal actions), but requires more data to learn reliably. The paper provides theoretical bounds and practical guidance on balancing this trade-off for finite-sample learning.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Triggers to Emotions: A CPM-Grounded Appraisal Multi-Agent for Dynamic Emotional Evolution in Persona-Based Dialogue",
+    "authors": "Jingyao Cai, Shuaijun Liu, Abdul Rehman, Yutong Guo, Qin Tian et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07824v1",
+    "pdf": "https://arxiv.org/pdf/2607.07824v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper proposes CPM-MultiAgent, a framework that models how dialogue agents' emotions evolve dynamically during conversations, rather than treating emotions as fixed personality traits. It applies the Component Process Model (CPM)—a psychology theory where emotions emerge from appraising events—to create persona-based dialogue agents that respond emotionally to conversational triggers in healthcare, counseling, and storytelling applications.",
+    "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A law of robustness for two-layer neural networks with arbitrary weights",
+    "authors": "Yitzchak Shmalo",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07778v1",
+    "pdf": "https://arxiv.org/pdf/2607.07778v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proves a fundamental law about neural network robustness: any two-layer neural network that memorizes noisy data must have a large Lipschitz constant (a measure of how sensitive the network is to input changes). The result holds for networks with arbitrary weight magnitudes, closing a gap left by prior work that required bounded weights. This matters because it reveals a deep trade-off between fitting data and maintaining stability — you cannot do both simultaneously without penalty.",
+    "date_added": "2026-07-10",
+    "trusted": ""
   },
   {
     "source": "arxiv",
