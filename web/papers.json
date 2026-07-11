@@ -542,6 +542,39 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
+    "authors": "QiHong Chen, Aaron Imani, Iftekhar Ahmed",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08691v1",
+    "pdf": "https://arxiv.org/pdf/2607.08691v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper presents ProjAgent, a system for generating code at the repository level by retrieving similar functions based on procedural logic rather than just lexical or semantic similarity. The key innovation is using an \"agentic workflow\" to decompose target functions into reasoning steps, then finding existing repository functions that solve similar procedural problems—even if they use different variable names or operate in different domains. The system combines this procedural retrieval with conventional semantic search and iterative code repair, achieving strong results on a standard benchmark.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
+    "authors": "Shilin Ou, Yifan Xu, Luyao Zhang",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08681v1",
+    "pdf": "https://arxiv.org/pdf/2607.08681v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper introduces SolarChain-Eval, a benchmark for testing whether autonomous agents can safely and fairly operate in decentralized energy markets. The key insight is that agents optimizing for profit alone may exploit physical constraints (like falsifying solar generation data) or create market instability — so evaluation must measure both economic performance and safety, with transparent oversight from an LLM-based auditor that logs all high-risk decisions.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Resample or Reroute? Budget-Aware Test-Time Model Selection for Large Language Models",
     "authors": "Teng-Ruei Chen",
     "published": "2026-07-09",
@@ -575,6 +608,55 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "EdgeRefine: Privacy-Utility Balance for Graphs via Jaccard Sampling under Edge Differential Privacy",
+    "authors": "Wenxiu Ding, Muzhi Liu, Zheng Yan, Mingjun Wang, Yifan Zhao et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08659v1",
+    "pdf": "https://arxiv.org/pdf/2607.08659v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper tackles a fundamental problem in privacy-preserving graph learning: how to protect sensitive link information in graphs while keeping the model accurate enough to be useful. The authors propose EdgeRefine, a method that intelligently removes noisy edges added for privacy protection, achieving privacy levels comparable to prior work but with substantially better accuracy—up to 19.7% improvement on standard benchmarks.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Formal Mechanisms for Market Stability in Self-Interested Agent Societies: A Marketplace Simulation Study",
+    "authors": "Eugene Ng Yi Sheng, Bingquan Shen",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08652v1",
+    "pdf": "https://arxiv.org/pdf/2607.08652v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper asks: what rules and mechanisms keep self-interested agents honest in a marketplace where they could defect for personal gain? The researchers simulated 18 LLM-based agents trading with each other and tested eight different governance mechanisms (like mediation, reputation systems, etc.) under increasing adversarial attack. They found that \"Mediation\"—having a neutral third party resolve disputes—performed best and remained stable even when attacked by sophisticated, AI-optimized trolls that reduced honest traders' profits by only 13.3%.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning",
+    "authors": "Ali Larian, Qian Lin, Chang Zong Wu, Daniel S. Brown",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08647v1",
+    "pdf": "https://arxiv.org/pdf/2607.08647v1",
+    "tags": [
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a core challenge in deploying autonomous agents: learning reward functions that work reliably across different environments rather than just memorizing patterns from a single training scenario. The authors combine inverse reinforcement learning (learning objectives from human feedback) with a smart teaching algorithm that selects which environments to train in and what type of feedback to request, enabling agents to generalize their learned goals to new deployment contexts.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
     "authors": "Xinlong Zhao, Dongsheng Liu, Hengyu Zhao, Zixuan Fu, Zheng Wang et al.",
     "published": "2026-07-09",
@@ -587,6 +669,89 @@
     "summary": "UltraX is a system for automatically improving the quality of training data used to build large language models, at the scale of billions of text examples. Rather than just deleting bad data or rewriting it with another LLM, UltraX uses programmatic editing — converting original-refined text pairs into structured \"programs\" (sequences of insertion, deletion, modification operations) — to refine data reliably and efficiently. This matters because as we run out of new text to train on, the quality of existing data has become the main lever for improving LLMs.",
     "date_added": "2026-07-10",
     "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BiSCo-LLM: Lookup-Free Binary Spherical Coding for Extreme Low-Bit Large Language Model Compression",
+    "authors": "Yuantian Shao, Peisong Wang, Zhilei Liu, Chuangyi Li, Yuanteng Chen et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08643v1",
+    "pdf": "https://arxiv.org/pdf/2607.08643v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "BiSCo-LLM is a compression method that shrinks large language models to extreme low-bit weights (approaching 2 bits per parameter) without storing explicit codebooks. Instead of traditional quantization or vector quantization, it maps weights onto a hypersphere, binarizes them into compact codes, and uses residual encoding plus distillation to recover lost information. This matters because it solves a critical deployment bottleneck: memory, bandwidth, and storage constraints that prevent LLMs from running on edge devices or in bandwidth-limited settings.",
+    "date_added": "2026-07-11",
+    "trusted": "Apple"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Steering Neural Network Training through Interpretable Constraints Based on Partial Dependence",
+    "authors": "Yann Claes, Pierre Geurts, Vân Anh Huynh-Thu",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08641v1",
+    "pdf": "https://arxiv.org/pdf/2607.08641v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper proposes a method to steer neural network training using partial dependence constraints—statistical tools that measure how a model's output changes with specific input features. Rather than just explaining what a trained model learned, the authors use domain knowledge about desired input-output relationships as constraints during training, producing models that are simultaneously more accurate, data-efficient, and interpretable. The approach is validated on regression tasks including time-series forecasting.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The complexities of patient-centred conversational artificial intelligence",
+    "authors": "João Matos, Olivia Buege, Donny Cheung, Gary S. Collins, Paula Dhiman et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08625v1",
+    "pdf": "https://arxiv.org/pdf/2607.08625v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper examines how real patients interact with health chatbots in ways that differ significantly from the simulated, idealized interactions typically used to develop and test these systems. The researchers analyzed over 2,000 actual patient-chatbot conversations, built a realistic patient simulator that captures emotional states and communication styles, and showed that how a patient expresses themselves can dramatically change whether an LLM correctly assesses medical urgency—suggesting that current chatbot evaluation practices may mask real-world performance problems and health disparities.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Structured Sparse Autoencoders Learn Consistent Concepts Across Modalities",
+    "authors": "Weiduo Liao, Yunqiao Yang, Ying Wei",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08605v1",
+    "pdf": "https://arxiv.org/pdf/2607.08605v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes Structured Sparse Autoencoders (S²AE), a method to extract interpretable features from vision-language models that remain consistent across both visual and textual modalities. Standard sparse autoencoders produce fragmented, inconsistent concepts in images; S²AE fixes this by adding spatial and semantic structure constraints, achieving better semantic alignment and more interpretable, disentangled representations in multimodal models.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "It Takes a MAESTRO To Prune Bad Experts",
+    "authors": "Palaash Goel, Ayush Maheshwari, Tanmoy Chakraborty",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08601v1",
+    "pdf": "https://arxiv.org/pdf/2607.08601v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a critical deployment problem in Mixture-of-Experts (MoE) language models: while these models are efficient during inference by activating only a subset of parameters per token, they still require storing all expert parameters in memory, creating a memory bottleneck. The authors propose MAESTRO, a pruning method that removes unimportant experts by modeling how experts are activated across layers using Markov chains, significantly improving compression while maintaining performance across diverse tasks.",
+    "date_added": "2026-07-11",
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -607,6 +772,56 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Cross-seed explainability using Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoders",
+    "authors": "Bendegúz Váradi, Zoltán Kmetty",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08499v1",
+    "pdf": "https://arxiv.org/pdf/2607.08499v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper solves a fundamental problem in neural network interpretability: when you train the same model architecture multiple times from different random starting points, the internal features it learns end up in different coordinate systems, making it impossible to compare what they've \"learned.\" The authors develop a method using sparse autoencoders (SAEs) and geometric alignment to extract universal, interpretable features that stay consistent across independently trained BERT models, validated on three text classification tasks.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cognitive-structured Multimodal Agent for Multimodal Understanding, Generation, and Editing",
+    "authors": "Feng Wang, Canmiao Fu, Zhipeng Huang, Chen Li, Jing Lyu et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08497v1",
+    "pdf": "https://arxiv.org/pdf/2607.08497v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper proposes a Cognitive-structured Multimodal Agent that handles long-horizon conversations involving both images and text by storing visual information in an external memory rather than keeping everything in context. The agent selectively retrieves relevant past images during reasoning, enabling it to maintain coherent multimodal dialogue over 20+ turns while running 4× faster than baseline models and achieving higher accuracy—showing that structured memory beats naive parameter scaling for multimodal AI systems.",
+    "date_added": "2026-07-11",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Ensemble Diversity Optimization for Subjective Supervision",
+    "authors": "Xia Cui, Ziyi Huang, N. R. Abeynayake",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08493v1",
+    "pdf": "https://arxiv.org/pdf/2607.08493v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper tackles a real problem in NLP: when humans disagree about subjective tasks (e.g., is this text abusive?), standard models try to collapse that disagreement into a single prediction, losing important information. The authors propose Ensemble Diversity Optimization (EDO), a method that learns how to combine multiple models to preserve meaningful disagreement while staying well-calibrated (producing probability estimates that match reality). The work shows substantial improvements in uncertainty quantification across four subjective text-classification benchmarks.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Statistical Efficiency and Inference of Quantile Distributional Reinforcement Learning",
     "authors": "Zijie Cheng, Yang Peng, Zhihua Zhang",
     "published": "2026-07-09",
@@ -617,6 +832,23 @@
     ],
     "summary": "This paper analyzes the statistical efficiency of quantile-based distributional reinforcement learning, focusing on policy evaluation—estimating the full distribution of cumulative rewards rather than just expected values. The authors prove that their quantile estimator achieves optimal sample complexity (√n convergence rate) and remains statistically efficient even as the number of quantiles grows, providing both finite-sample guarantees and asymptotic inference tools for principled decision-making in RL.",
     "date_added": "2026-07-10",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Synthetic Speech Is All You Have: Better Call GRPO",
+    "authors": "Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso, Esaú Villatoro-Tello et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08409v1",
+    "pdf": "https://arxiv.org/pdf/2607.08409v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows how to adapt speech recognition models to specialized domains (like banking) when real speech data is scarce or legally restricted. Instead of using traditional supervised learning on synthetic speech from text-to-speech systems, the authors use reinforcement learning (specifically GRPO — a critic-free method) to squeeze much better performance from the same synthetic data, reducing errors by 40% compared to supervised approaches.",
+    "date_added": "2026-07-11",
     "trusted": ""
   },
   {
@@ -1156,6 +1388,56 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
+    "authors": "Haipeng Ding, Yuexiang Xie, Zhewei Wei, Yaliang Li, Bolin Ding",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07321v1",
+    "pdf": "https://arxiv.org/pdf/2607.07321v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a fundamental inefficiency in LLM agents: they typically work with low-level atomic tools (like \"read file\" or \"search query\"), forcing them to repeatedly reconstruct complex multi-step workflows from scratch. The authors propose EvoSOP, a framework that lets agents automatically synthesize these atomic actions into reusable Standard Operating Procedures (SOPs)—higher-level tools that bundle multi-step logic. The result is agents that learn faster, succeed more often, and require fewer interaction steps to complete tasks.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Operational Reframing and Approval-Framed Delegation in Multi-Agent LLM Safety",
+    "authors": "Lifei Liu, Haoran Yu, Xiaochong Jiang, Su Wang, Pin Qian et al.",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07097v1",
+    "pdf": "https://arxiv.org/pdf/2607.07097v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper dissects how multi-agent LLM systems (where one model plans and another executes) behave differently from single-model systems when faced with harmful requests. Rather than measuring a single \"safety difference,\" the authors identify three separate mechanisms at play: harmful requests get reframed as legitimate work, planners may refuse requests, and executors may comply more readily when told a planner already approved the task. They show these mechanisms vary dramatically by model and scenario, meaning you can't predict deployed safety just by testing a single model in isolation.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Progressive Crystallization: Turning Agent Exploration into Deterministic, Lower-Cost Workflows in Production",
+    "authors": "Arun Malik",
+    "published": "2026-07-08",
+    "url": "http://arxiv.org/abs/2607.07052v1",
+    "pdf": "https://arxiv.org/pdf/2607.07052v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper solves a critical problem in AI operations: AI agents that handle IT tasks are expensive because every execution requires full language model inference, even when solving the same problem repeatedly. The authors introduce \"progressive crystallization,\" a system that learns from agent behavior over time and automatically converts successful patterns into cheap, deterministic workflows—like turning a thoughtful AI decision into a simple if-then rule. In production testing across tens of thousands of cloud incidents, the approach cut per-incident costs by 70% while tripling the fraction of fully automated (non-LLM-requiring) executions.",
+    "date_added": "2026-07-11",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Best-Arm Identification with Generative Proxy",
     "authors": "Tianyi Ma, Hanzhang Qin, Ruihao Zhu, Jierui Zuo",
     "published": "2026-07-08",
@@ -1167,6 +1449,23 @@
     ],
     "summary": "This paper studies how to efficiently identify the best option among many alternatives when getting true rewards is expensive, but cheap proxy predictions (like LLM outputs) are available. The key insight is that by learning the correlation between proxy and reward online, a standard control-variate adjustment lets you reduce the number of costly samples needed—but you must carefully estimate residual variance without breaking the statistical guarantees. The authors propose PROBE, an algorithm that maintains valid confidence bounds and achieves near-oracle sample complexity in experiments ranging from synthetic problems to real auto-loan pricing.",
     "date_added": "2026-07-09",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM-powered reasoning in agent-based modeling",
+    "authors": "Sifat Afroj Moon, Dakotah Maguire, Adam Spannaus, Joe Tuccillo, Maksudul Alam et al.",
+    "published": "2026-07-07",
+    "url": "http://arxiv.org/abs/2607.06757v1",
+    "pdf": "https://arxiv.org/pdf/2607.06757v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper combines agent-based modeling (ABM) — a simulation technique that models thousands or millions of individuals and their interactions — with large language models (LLMs) to make those simulations more adaptive and realistic. Instead of relying on fixed rules for how people behave, the researchers use LLMs to predict human decision-making in real time. They demonstrate the approach on COVID-19 spread in Salt Lake County, showing that LLMs can help ABMs respond dynamically to changing conditions and inform policy decisions.",
+    "date_added": "2026-07-11",
     "trusted": ""
   },
   {
