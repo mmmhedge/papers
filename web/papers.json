@@ -870,6 +870,56 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Prompt Compression via Activation Aggregation",
+    "authors": "Thibaud Ardoin, Semira Einsele, Evis Bregu, Gerhard Wunder",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08399v1",
+    "pdf": "https://arxiv.org/pdf/2607.08399v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that task-relevant information in instruction prompts can be compressed into a single activation vector—a learned weighted sum of hidden representations from a middle layer—and re-injected at an early layer with minimal accuracy loss (under 2%). The technique reduces computational cost for fixed instruction prompts and reveals how information flows across layers in large language models, suggesting that mid-layer representations are compatible with early-layer processing.",
+    "date_added": "2026-07-12",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Token-Flow Firewall: Semantic Runtime Auditing for Persistent AI Agents",
+    "authors": "Puji Wang, Yingchen Zhang, Ruqing Zhang, Jiafeng Guo, Xueqi Cheng",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08395v1",
+    "pdf": "https://arxiv.org/pdf/2607.08395v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses security risks in persistent AI agents—long-lived systems that maintain memory and interact with tools over time—by proposing TokenWall, a runtime defense framework that monitors natural-language token flows (memory updates, tool arguments, inter-component communications) to intercept unsafe behavior before execution. The work matters because traditional LLM safety approaches assume single-turn interactions, but persistent agents create larger attack surfaces where unsafe content can propagate through reusable skills and stateful components.",
+    "date_added": "2026-07-12",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+    "authors": "Lu Dai, Ziyang Rao, Yili Wang, Hanqing Wang, Hao Liu et al.",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08393v1",
+    "pdf": "https://arxiv.org/pdf/2607.08393v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper identifies and mechanistically explains why large language models can memorize new facts during fine-tuning but fail to use those facts for reasoning — a problem called the \"Knowing–Using Gap.\" The authors introduce a diagnostic technique called self-patching to trace where memorized knowledge gets stuck inside the model, then propose a simple fix that recovers most of the lost generalization performance.",
+    "date_added": "2026-07-12",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
     "authors": "Hugo García Cuesta, Pablo Mateo Torrejón, Alfonso Sánchez-Macián",
     "published": "2026-07-09",
