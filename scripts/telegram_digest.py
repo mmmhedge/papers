@@ -7,6 +7,7 @@ import json
 import yaml
 import random
 import html
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import urllib.request
@@ -141,7 +142,7 @@ def format_paper_line(fm: dict) -> str:
 
     key_takeaway = fm.get("key_takeaway", "").strip()
     summary = fm.get("summary", "").strip()
-    blurb = html.escape(key_takeaway or summary)
+    blurb = html.escape(simplify_blurb(key_takeaway or summary))
 
     label = f" [{source_name or 'blog'}]" if source == "blog" else ""
     safe_url = html.escape(url, quote=True)
@@ -149,6 +150,27 @@ def format_paper_line(fm: dict) -> str:
     if blurb:
         lines.append(f'  {blurb}')
     return "\n".join(lines)
+
+
+def simplify_blurb(text: str, max_words: int = 22, max_chars: int = 180) -> str:
+    """Make digest blurbs lighter without changing the underlying note."""
+    text = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"[*_`>#]+", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    if not text:
+        return ""
+
+    sentence_match = re.match(r"(.+?[.!?])(?:\s|$)", text)
+    if sentence_match:
+        text = sentence_match.group(1).strip()
+
+    words = text.split()
+    if len(words) > max_words:
+        text = " ".join(words[:max_words]).rstrip(".,;:") + "..."
+    elif len(text) > max_chars:
+        text = text[:max_chars].rsplit(" ", 1)[0].rstrip(".,;:") + "..."
+    return text
 
 
 def generate_overview(papers: list[dict]) -> str:

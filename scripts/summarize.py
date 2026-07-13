@@ -66,7 +66,7 @@ What does this paper NOT solve? What assumptions might break in practice? What a
 What would a follow-up paper need to address? What experiments would you want to see?
 
 ## Key Takeaway
-One sentence. The single most important thing to remember about this paper."""
+One short, plain-English sentence for a Telegram digest. Keep it under 22 words. Avoid dense academic phrasing and jargon unless it is essential."""
 
 BLOG_SYSTEM_PROMPT = """You are a research assistant creating structured knowledge notes in Obsidian markdown format.
 
@@ -88,7 +88,7 @@ FORMAT your response EXACTLY as follows (use these exact section headers):
 TAGS_JSON: ["tag1", "tag2", ...]
 
 ## Summary
-2-3 sentences. What is this post saying and why does it matter? Use plain English.
+2-3 sentences. What is this post saying and why does it matter? Use plain English and avoid marketing language.
 
 ## Key Points
 The main claims, announcements, or ideas. Be specific.
@@ -100,7 +100,7 @@ Explain the practical or strategic significance for AI research, products, polic
 How does this relate to other approaches, paradigms, labs, or open problems? Use [[wikilink]] style for concepts that might exist as notes.
 
 ## Key Takeaway
-One sentence. The single most important thing to remember about this post."""
+One short, plain-English sentence for a Telegram digest. Keep it under 22 words. Avoid dense phrasing and jargon unless it is essential."""
 
 def load_tags() -> dict:
     if TAGS_FILE.exists():
