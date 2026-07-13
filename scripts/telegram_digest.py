@@ -152,28 +152,36 @@ def format_paper_line(fm: dict) -> str:
 
 
 def generate_overview(papers: list[dict]) -> str:
-    """Ask Claude for a news-style overview of today's papers, split into short paragraphs."""
+    """Ask Claude for a news-style run overview with trends and context."""
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         return ""
     try:
         import anthropic
         titles_and_takeaways = "\n".join(
-            f"- {p.get('title', '')}: {p.get('key_takeaway') or p.get('summary', '')[:120]}"
+            (
+                f"- [{p.get('source', 'arxiv')}] {p.get('title', '')} "
+                f"(tags: {', '.join(p.get('tags', [])) or 'none'}): "
+                f"{p.get('key_takeaway') or p.get('summary', '')[:180]}"
+            )
             for p in papers[:30]
         )
         client = anthropic.Anthropic(api_key=api_key)
         msg = client.messages.create(
             model=CONFIG.get("summarization_model", "claude-haiku-4-5-20251001"),
-            max_tokens=500,
+            max_tokens=700,
             messages=[{
                 "role": "user",
                 "content": (
-                    "Write a news-style overview of today's research papers for a researcher's daily digest. "
-                    "Split into 2-3 short paragraphs by theme. Each paragraph: 2-3 sentences. "
-                    "For technical topics (e.g. mechanistic interpretability, DeFi, POMDP), briefly say what it is before the finding. "
-                    "Be specific and concrete — name actual findings, not just 'researchers explored X'. "
-                    "IMPORTANT: plain text only. No markdown, no asterisks, no bullet points, no headers.\n\n"
+                    "Write the opening overview for a researcher's daily AI/ML digest. "
+                    "Start with one concise sentence summarizing the run: how many items arrived and the dominant themes. "
+                    "Then write 2 short paragraphs grouped by theme. Highlight overall trends across the items, "
+                    "not just individual papers. Briefly explain background concepts a smart reader might not know "
+                    "(for example, agentic RL, mechanistic interpretability, RoPE, DeFi, POMDP, or market microstructure) "
+                    "when they are central to the trend. Be specific and concrete: name representative findings or posts. "
+                    "Mention blog posts when they help explain the broader ecosystem signal. "
+                    "IMPORTANT: plain text only. No markdown, no asterisks, no bullet points, no headers. "
+                    f"Today's digest contains {len(papers)} new item(s).\n\n"
                     f"{titles_and_takeaways}"
                 )
             }]

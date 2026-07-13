@@ -44,6 +44,7 @@ jobs:
 
       - name: Send Telegram digest
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/telegram_digest.py /tmp/processed_papers.json /tmp/processed_blogs.json
