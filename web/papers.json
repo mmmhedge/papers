@@ -342,6 +342,469 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
+    "authors": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09662v1",
+    "pdf": "https://arxiv.org/pdf/2607.09662v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces PHINN-EEG, a novel approach to detecting dream states from EEG recordings using topological data analysis instead of traditional power spectral features. Rather than measuring just the energy of brain signals, the method extracts \"Dynamic Betti Curves\"—mathematical descriptors of the geometric shape of neural activity in high-dimensional space—and combines them with a generative model to both classify dreams and synthesize realistic EEG data. The work claims to improve classification accuracy from ~70% to 82–90% on a large open-access dataset.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scalable Visual Pretraining for Language Intelligence",
+    "authors": "Yiming Zhang, Zhonghan Zhao, Wenwei Zhang, Haiteng Zhao, Tianyang Lin et al.",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09657v1",
+    "pdf": "https://arxiv.org/pdf/2607.09657v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper challenges the standard practice of converting visually rich documents (PDFs, web pages, scientific papers) into plain text before training language models. Instead, the authors show that training directly on visual representations—preserving figures, equations, and layouts—produces better language models more efficiently. This matters because documents contain information that text extraction inevitably loses, and the paper demonstrates this isn't just theoretically interesting but practically beneficial at scale.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
+    "authors": "Shravan Murlidaran, Miguel P. Eckstein",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09654v1",
+    "pdf": "https://arxiv.org/pdf/2607.09654v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper tracks how vision-language models (VLMs)—AI systems that understand both images and text—have improved over a decade (2017–2025) by evaluating them on complex social scenes rather than simple benchmark datasets. The authors introduce a new dataset of 100 images showing complex human interactions and categorize the types of errors these models make, finding that modern multimodal large language models (MLLMs) now match human-level performance on scene description except for differences in which image regions they attend to.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+    "authors": "Katherine Swinea, Kshitiz Aryal, Lopamudra Praharaj, Maanak Gupta",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09653v1",
+    "pdf": "https://arxiv.org/pdf/2607.09653v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "VEXAIoT is an autonomous framework that uses AI agents powered by large language models to discover and exploit vulnerabilities in IoT devices. The system combines a detection agent and an attack execution agent to perform reconnaissance, plan exploits, and execute attacks against vulnerable IoT services, achieving a 95% success rate across 260 test scenarios in controlled environments.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
+    "authors": "Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen, Theodoros Damoulas",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09645v1",
+    "pdf": "https://arxiv.org/pdf/2607.09645v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper develops Deep Gaussian Processes (DGPs) — probabilistic models that stack multiple layers of uncertainty — specifically designed to work on directed acyclic graphs (DAGs) where functions compose along edges and observations are scattered throughout the structure. The work matters because many real systems (causal mechanisms, multi-fidelity simulations, gene networks) have this DAG structure, and existing methods struggle with uncertainty propagation through such compositional systems while handling noisy, irregularly-sampled data.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
+    "authors": "Cláudio Lúcio do Val Lopes, Lucca Machado da Silva",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09641v1",
+    "pdf": "https://arxiv.org/pdf/2607.09641v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper tackles financial fraud detection by combining reinforcement learning with LLM-generated semantic representations to handle the \"fraud collapse\" problem—where imbalanced datasets cause systems to ignore rare fraud cases. The key insight is treating fraud detection as a multi-objective optimization problem where an RL agent navigates trade-offs between catching fraud, minimizing false alarms, and discovering new anomaly patterns without needing artificial data resampling.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
+    "authors": "Nirjhar Das, Md. Al-Mamun Provath",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09623v1",
+    "pdf": "https://arxiv.org/pdf/2607.09623v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a two-agent system for multimodal question answering in the QANTA 2026 competition, where systems must answer trivia questions from incrementally revealed text and images under efficiency constraints. The key innovation is using task-specific reasoning strategies and confidence calibration rather than retrieval pipelines or ensembles — one lightweight agent for deciding *when* to answer (Tossup), another for selecting *correct* answers (Bonus) — achieving top leaderboard performance. The work shows that simple, well-designed reasoning policies can outperform more complex approaches on resource-constrained multimodal tasks.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM for EDA in Front-End Design: Challenges and Opportunities",
+    "authors": "Kangwei Xu, Bing Li, Ulf Schlichtmann",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09616v1",
+    "pdf": "https://arxiv.org/pdf/2607.09616v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper surveys how Large Language Models (LLMs) can transform electronic design automation (EDA) — the software tools that help engineers design semiconductor chips. The authors argue that LLMs have moved beyond simple assistance to enable fully autonomous agents that can generate hardware code, create test cases, and explore design alternatives end-to-end, potentially solving a major bottleneck in chip design cycles.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Dynamic Frechet Regression with Feature Selection for Distributional Data",
+    "authors": "Kiran Adhikari, Amrutha Dinesh, Mathew Kuttolamadom, Ying Lin",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09613v1",
+    "pdf": "https://arxiv.org/pdf/2607.09613v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper introduces Dynamic Fréchet Regression (DFR), a method for predicting probability distributions that change over time or along some ordered dimension (like depth in a material). Instead of predicting single numbers, DFR predicts entire distributions while identifying which input variables matter most — a capability important for scientific fields like manufacturing where uncertainty itself is the outcome of interest.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mosaic: Runtime-Efficient Multi-Agent Embodied Planning",
+    "authors": "Kunjal Panchal, Saayan Mitra, Sunav Choudhary, Victor Bursztyn, Somdeb Sarkhel et al.",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09603v1",
+    "pdf": "https://arxiv.org/pdf/2607.09603v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper tackles a critical bottleneck in LLM-based multi-agent planning: the high latency caused by failed actions and poor coordination. Mosaic proposes a framework combining lightweight semantic memory (storing objects in relative coordinates) with Integer Linear Programming for constraint-based coordination, achieving 27-32% faster execution and higher success rates on embodied AI tasks. This matters because it makes multi-agent LLM planning practical for real-time applications.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+    "authors": "Kaiji Zhou, Ales Leonardis, Yue Feng",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09600v1",
+    "pdf": "https://arxiv.org/pdf/2607.09600v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents Agora, a framework that uses auction mechanisms to dynamically route reasoning tasks to the most suitable expert models and tools within an LLM agent system. Rather than matching tasks to experts based solely on functional similarity, Agora allocates work based on each expert's actual competence and cost efficiency, improving reasoning quality and controllable cost-benefit trade-offs across multiple benchmarks.",
+    "date_added": "2026-07-13",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A censoring-aware target interface for tabular foundation models in survival prediction",
+    "authors": "Yue Lyu, Steven H. Lin, Xuelin Huang, Ziyi Li",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09577v1",
+    "pdf": "https://arxiv.org/pdf/2607.09577v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper solves a fundamental problem in medical AI: how to use tabular foundation models (reusable neural networks trained on diverse datasets) for survival prediction when patient follow-up data is incomplete. The key innovation is converting censored survival outcomes into pseudo-observations based on restricted mean survival time (RMST), allowing standard regression models to handle incomplete data without survival-specific training. The approach is tested on 36 real medical datasets and shows competitive performance with traditional survival methods.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs",
+    "authors": "Ahmed Oumar El-Shangiti, Abzal Nurgazy, Hilal AlQuabeh, Nikolai Rozanov, Kentaro Inui",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09544v1",
+    "pdf": "https://arxiv.org/pdf/2607.09544v1",
+    "tags": [
+      "computer-vision",
+      "mechanistic-interpretability"
+    ],
+    "summary": "Vision-language models (VLMs) struggle with basic object counting despite strong performance on other tasks. This paper discovers that VLMs often internally represent the correct count but output wrong answers — a misalignment between internal knowledge and external behavior. The authors propose a simple fix: an error detector that identifies when the model is likely to fail, then triggers a re-prompt, improving counting accuracy by up to 15.6 percentage points with no retraining.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CoCoT-EEG: Contrastive-Pretrained Multiscale Convolutional Transformer for EEG Decoding",
+    "authors": "Gabriel Mahuas, Victoria Shevchenko, Ugo Tanielian, Yassir Bendou, Richard Gao",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09543v1",
+    "pdf": "https://arxiv.org/pdf/2607.09543v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper presents CoCoT, a self-supervised foundation model for decoding brain activity from EEG (electroencephalogram) signals. Rather than using the standard approach of masking and reconstructing raw EEG data, the authors use contrastive learning — a technique that learns by comparing similar and dissimilar examples — combined with multiscale convolutional layers and Transformer blocks. The model outperforms previous EEG decoders on multiple benchmark tasks and works well even without pretraining, suggesting that the architecture itself is particularly suited to noisy, information-sparse neurophysiological signals.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+    "authors": "Andrej Bogdanov, Alon Rosen, Neekon Vafa",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09532v1",
+    "pdf": "https://arxiv.org/pdf/2607.09532v1",
+    "tags": [
+      "alignment",
+      "deep-learning"
+    ],
+    "summary": "This paper demonstrates that adversaries can plant hidden \"backdoors\" in deep neural networks that are mathematically indistinguishable from honestly trained models, even when inspecting all the weights. These backdoors enable attackers to manipulate the model's behavior on specific inputs while remaining invisible to standard detection methods. The work reveals a fundamental asymmetry: the attacker who plants the backdoor can easily exploit it, but defenders cannot detect or prevent it under realistic assumptions.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FreyaTTS Technical Report",
+    "authors": "Ahmet Erdem Pamuk, Ömer Yentür, Ahmet Tunga Bayrak, Yavuz Alp Sencer Öztürk, Mustafa Yavuz",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09530v1",
+    "pdf": "https://arxiv.org/pdf/2607.09530v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "Freya-TTS is a compact 183M-parameter text-to-speech model optimized for Turkish, using a diffusion-based approach that works directly from text without requiring phoneme conversion or discrete speech tokenizers. It achieves high-quality 48 kHz audio synthesis while running faster than real-time on consumer CPUs, making it practical for edge deployment.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+    "authors": "Sanjana Pedada, Aditya Dhavala, Neelraj Patil",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09493v1",
+    "pdf": "https://arxiv.org/pdf/2607.09493v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper tackles a practical problem in LLM-based agent systems: when agents perform multi-turn tasks (like generating code or dashboards), they traditionally lose all learned context between sessions, forcing them to re-specify the same configurations, schemas, and constraints repeatedly. The authors propose \"shared selective persistent memory\"—a system that intelligently saves only reusable context (task specs, data schemas, tool configs, output rules) while discarding session-specific reasoning, and crucially, allows this memory to be shared across users with access controls. In a deployed platform, this achieves 96% task completion versus 79% without memory, while cutting token costs by 97x and task time by 14x through a \"zero-token refresh\" mechanism that decouples data from generated code.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Foveation-Guided Dynamic Token Selection for Robust and Efficient Vision Transformers",
+    "authors": "Ibrahim Batuhan Akkaya, Kishaan Jeeveswaran, Bahram Zonooz, Elahe Arani",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09480v1",
+    "pdf": "https://arxiv.org/pdf/2607.09480v1",
+    "tags": [
+      "computer-vision",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper introduces Foveated Dynamic Transformer (FDT), a vision transformer that mimics how the human eye focuses attention on important image regions while ignoring irrelevant details. The key innovation is a \"foveation-guided\" token selection mechanism that reduces computational cost by 34% while improving accuracy and robustness against noise and adversarial attacks—without any explicit adversarial training.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Learning for Dynamic Programming with Recursive Utility Using First-order Conditions",
+    "authors": "Xianhua Peng, Wu Guo, Songyan Wang, Jianfei Zhu",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09461v1",
+    "pdf": "https://arxiv.org/pdf/2607.09461v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper introduces CEFOL (Certainty-Equivalent First-Order Learning), a deep learning algorithm for solving dynamic programming problems where agents have recursive preferences (preferences that depend on both immediate and future consumption in a nonlinear way). The key innovation is using neural networks to represent the certainty equivalent — a mathematical object that appears in the optimality conditions but is expensive to compute — allowing the algorithm to directly enforce first-order optimality conditions rather than just approximating value functions. The method achieves high precision on realistic economic problems like consumption-saving decisions and macroeconomic models.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Test-Time Scaling for Small VLMs on Multilingual Visual MCQ",
+    "authors": "Spiros Baxevanakis, Peng-Jian Yang",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09438v1",
+    "pdf": "https://arxiv.org/pdf/2607.09438v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether test-time scaling (TTS) — using extra compute at inference time to improve reasoning — works for small vision-language models on multilingual visual multiple-choice questions. The authors find that success depends far less on sophisticated search algorithms than on basic factors: whether the model can actually finish its reasoning and commit to an answer. Their best approach reaches 84.1% accuracy on a leaderboard by focusing on parseability and decoding budget rather than elaborate verification machinery.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Sovereign, Open-Source Foundation Model for German and English",
+    "authors": "The Soofi-Team,  :, Benedikt Droste, David Fitzek, Ruben Härle et al.",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09424v1",
+    "pdf": "https://arxiv.org/pdf/2607.09424v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "Soofi S is an open-source foundation model (a pre-trained neural network serving as a base for downstream AI tasks) optimized for German and English, built using a hybrid Mixture-of-Experts Mamba-Transformer architecture. The key innovation is efficiency: it only activates 3 billion of its 30 billion parameters per input token and maintains constant memory usage as context length grows, making it significantly faster and cheaper to deploy than conventional dense models while matching or exceeding the performance of much larger competitors on standardized benchmarks.",
+    "date_added": "2026-07-13",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Similarity search generalisation in contrastive learning with InfoNCE loss",
+    "authors": "Nick Whiteley",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09405v1",
+    "pdf": "https://arxiv.org/pdf/2607.09405v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper provides theoretical guarantees for contrastive learning with InfoNCE loss, showing how similarity search performance generalizes from training to unseen data. The key insight is that as you increase the number of negative samples (k), the learned embeddings approximate an idealized similarity search up to an error of O(1/k), and the authors introduce a new continuity bound that explains why using more negatives stabilizes learning.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Communication-Efficient Digital-Twin Coordination for Heterogeneous LLM Embodied Agents over Computing Power Networks",
+    "authors": "Nuocheng Yang, Sihua Wang, Zihan Chen, Tony Q. S. Quek, Changchuan Yin",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09330v1",
+    "pdf": "https://arxiv.org/pdf/2607.09330v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes LDT-Coord, a framework for coordinating teams of robots or autonomous agents powered by different large language models (LLMs) while minimizing communication overhead. Instead of having agents negotiate through natural-language dialogue, the framework uses a lightweight \"digital twin\" server that collects structured action reports and conflict constraints from each agent, then uses a rule-based algorithm to resolve conflicts and issue coordination instructions. The approach reduces communication by over 70x while maintaining task success rates comparable to traditional methods, even when agents have heterogeneous (unequal) LLM capabilities.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When is Routing Meaningful? Diversity and Robustness in Language Model Societies",
+    "authors": "Fantine Huot, Michael Kaisers, Mirella Lapata",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09197v1",
+    "pdf": "https://arxiv.org/pdf/2607.09197v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper argues that routing policies in multi-model LLM systems are typically evaluated only on accuracy and cost, missing two critical properties: whether the models actually behave differently (behavioral differentiation) and whether the routing is stable under input variations (robustness). The authors show that high accuracy can mask meaningless routing—where either all models respond identically or the same query gets routed inconsistently—and propose metrics to diagnose these failure modes.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems",
+    "authors": "Ripon C. Sarker, Abhishek Halder",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09139v1",
+    "pdf": "https://arxiv.org/pdf/2607.09139v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper extends optimal transport theory — the mathematical framework for efficiently moving probability mass from one distribution to another — to systems where agents move under control constraints (like robots or vehicles with limited acceleration). The key insight is that when transportation costs reflect the optimal control cost of agent motion, the solution has a clean geometric structure called a Laguerre tessellation (a partition of space based on distances to target points). The paper demonstrates this for linear systems with energy and time objectives, bridging control theory and optimal transport.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Augmenting Fundamental Analysis with Large Language Models: A RAG-Based System for Generating Investor Briefs",
+    "authors": "Bartosz Ziółko, Kacper Dobrzeniewski",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.09121v1",
+    "pdf": "https://arxiv.org/pdf/2607.09121v1",
+    "tags": [
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper demonstrates how to use large language models (LLMs) combined with retrieval-augmented generation (RAG) to automatically generate investment briefs from company reports, macroeconomic data, and SEC filings. The authors built a working system using GPT-4o, tracked 9 companies over 4 weeks, and validated the approach with real individual investors—showing that LLMs can meaningfully assist fundamental analysis, which traditionally relies on manual document review and interpretation.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Stochastic Linear Bandits with Partially Observed Actions",
+    "authors": "Gautam Dasarathy, Vineet Gattani, Lalit Jain",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08971v1",
+    "pdf": "https://arxiv.org/pdf/2607.08971v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies stochastic linear bandits — a fundamental sequential decision-making problem where an agent must learn which actions yield the best rewards — under a realistic constraint: the agent only observes partial information about each action. The key innovation is showing that when actions live in a low-dimensional subspace (intrinsic dimension), an algorithm called TOFU-POV can achieve near-optimal learning rates despite this missing information, solving a problem that was previously thought impossible in the general case.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Herding and Liquidity in Order-Book Markets. I. A Robust Liquidity-Stress Crossover and its Reflexive Mechanism",
+    "authors": "Jan Novotny",
+    "published": "2026-07-09",
+    "url": "http://arxiv.org/abs/2607.08907v1",
+    "pdf": "https://arxiv.org/pdf/2607.08907v1",
+    "tags": [
+      "agents",
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "This paper uses agent-based modeling to study when order-book markets transition from liquid to stressed—specifically, when one side of the market dries up. The authors combine zero-intelligence traders (who follow fundamentals) with chartist herders (who follow price momentum), and carefully map out the conditions under which instability emerges. The key finding is a robust, smooth \"liquidity-stress crossover\" driven by herding feedback, where buying momentum begets more buying, creating self-reinforcing imbalances.",
+    "date_added": "2026-07-13",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
     "authors": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang et al.",
     "published": "2026-07-09",
@@ -1949,6 +2412,22 @@
     ],
     "summary": "This paper proves that Bayesian neural networks at infinite width have the same learning complexity as large finite networks—they don't gain spurious power from their infinite capacity. The key insight is that at the \"mean-field\" scaling regime (where neural networks learn features rather than just adjusting output weights), learning a target function requires polynomial reduced entropy (a measure of prior cost) if and only if it's learnable from polynomial samples. This matters because it explains why infinite-width limits are theoretically justified: they capture the actual inductive bias of practical networks.",
     "date_added": "2026-07-08",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM-Driven Evolutionary Generation of Multi-Objective Bayesian Optimization Algorithms",
+    "authors": "Georgios Laskaris, Reuben Brasher, Niki van Stein, Elena Raponi, Thomas Bäck et al.",
+    "published": "2026-07-06",
+    "url": "http://arxiv.org/abs/2607.08791v1",
+    "pdf": "https://arxiv.org/pdf/2607.08791v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper uses large language models as creative operators within evolutionary algorithms to automatically design new multi-objective Bayesian optimization (MOBO) algorithms. Rather than manually engineering algorithm components, the authors let an LLM generate and mutate algorithm code across hundreds of evolutionary iterations, then benchmark the results on standard optimization problems. The best generated algorithms match or beat state-of-the-art baselines while running 60× faster on synthetic problems and 3.4× faster on real engineering tasks.",
+    "date_added": "2026-07-13",
     "trusted": ""
   },
   {
