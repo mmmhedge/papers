@@ -342,6 +342,514 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
+    "authors": "Shikai Qiu, Marc Finzi, Yujia Zheng, Kun Zhang, Andrew Gordon Wilson",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11883v1",
+    "pdf": "https://arxiv.org/pdf/2607.11883v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces \"requential coding,\" a new compression method that measures how well a student neural network can reproduce samples selected by a teacher model trained on the same data. Unlike prior compression techniques that struggle with model size or data entropy, requential coding produces code lengths that depend only on disagreement between teacher and student—enabling dramatically shorter codes and tighter generalization bounds for billion-parameter language models.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
+    "authors": "Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet, Thomas Hofmann",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11875v1",
+    "pdf": "https://arxiv.org/pdf/2607.11875v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper develops a theoretical framework explaining how Transformer language models learn to perform inductive reasoning tasks by discovering that their training dynamics evolve on a low-dimensional \"invariant manifold\" — a constrained mathematical surface where complex learning can be captured by just a handful of interpretable coordinates instead of millions of parameters. This is important because it moves us toward predictive theories of *how* Transformers learn, bridging the gap between empirical observation and rigorous mathematical explanation.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+    "authors": "Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11874v1",
+    "pdf": "https://arxiv.org/pdf/2607.11874v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents REGRIND, a method for teaching robots dexterous manipulation (like using scissors or screwdrivers) by learning from human demonstrations combined with reinforcement learning. The approach retargets human hand motions to robot references, trains a policy in simulation to track object-centric landmarks, and transfers it directly to real hardware—achieving fluid, human-like behavior without extensive real-world retraining.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Durability and Cross-Language Transfer Benchmark for a Validated Teaching-Feedback Classification Protocol",
+    "authors": "Esteban U. Vega Barajas",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11873v1",
+    "pdf": "https://arxiv.org/pdf/2607.11873v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper validates that an older protocol for classifying teaching feedback (sorting comments by theme and sentiment) remains effective even as AI models have advanced dramatically from 2019 to 2026. The key finding: you don't need the latest frontier models—cheaper models work just as well for this task, and the protocol transfers reasonably to English, making it a durable and practical tool for institutions analyzing feedback at scale.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
+    "authors": "Zixiang Xu, Sixian Li, Huaxing Liu, Xiang Wang, Shuai Li et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11871v1",
+    "pdf": "https://arxiv.org/pdf/2607.11871v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper explains *why* language models produce biased judgments by examining their internal neural representations rather than just their outputs. The authors show that bias manifests as a consistent geometric pattern in the model's hidden layers—a low-dimensional \"bias direction\"—and demonstrate they can both steer the model along this direction to induce or remove bias and predict bias failures on unseen tasks by detecting this geometry.",
+    "date_added": "2026-07-14",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evidence-Backed Video Question Answering",
+    "authors": "Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11862v1",
+    "pdf": "https://arxiv.org/pdf/2607.11862v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces Evidence-Backed Video Question Answering (E-VQA), a task that requires video AI models to answer questions while also providing visual proof — temporal segments and pixel-level masks showing what they \"looked at\" to answer. The authors find that current video language models can answer questions accurately without truly understanding the visual content, and propose a new dataset and training approach to fix this gap.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?",
+    "authors": "Nishant Aggarwal, Ayushi Dubal, Sreeraj Kannakarankodi, Ian McDougall, Adarsh Mittal et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11859v1",
+    "pdf": "https://arxiv.org/pdf/2607.11859v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper evaluates whether large language models can perform rigorous technical analysis of computer architecture research papers—going beyond summarization to produce structured critique that identifies core mechanisms, hidden assumptions, and broader implications. The authors built Gauntlet, a multi-agent pipeline with five expert-persona reviewers and an adversarial synthesis stage, and found that on 20 top-tier papers, human reviewers preferred Gauntlet's analysis in 15 cases, with significant advantages in critical rigor.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification",
+    "authors": "Lingkai Kong, Zijian Wu, Yuzhe Gu, Haiteng Zhao, Wenyong Huang et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11849v1",
+    "pdf": "https://arxiv.org/pdf/2607.11849v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces AdvancedMathBench, a benchmark for evaluating how well large language models can generate and verify advanced mathematical proofs at the undergraduate and doctoral level. Current models struggle significantly on this task — even the best achieves only 66% on doctoral-level problems — and the paper also shows that models are poor at detecting errors in proofs, suggesting that reasoning verification remains a critical unsolved problem.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
+    "authors": "Junrui Zhang, Zemin Chen, Lusi Li, Mohammad Ghasemigol, Daniel Takabi et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11843v1",
+    "pdf": "https://arxiv.org/pdf/2607.11843v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper presents Q-DIBA, the first input-aware dynamic backdoor attack against Quantum Neural Networks (QNNs) — machine learning models that run on quantum computers. Unlike previous quantum backdoor attacks that use fixed triggers, Q-DIBA adapts the attack trigger to each input, making it harder to detect while maintaining the QNN's normal performance on clean data. This matters because QNNs are emerging as practical quantum machine learning tools, and understanding their security vulnerabilities is critical before they're deployed in sensitive applications.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
+    "authors": "Divya Mereddy, Jeevan Beedareddy",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11839v1",
+    "pdf": "https://arxiv.org/pdf/2607.11839v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper proposes a parameter-efficient method for recognizing actions and activities in medical training videos by fusing multiple data streams (video, skeleton pose, RGB frames, etc.) using Low-Rank Adaptation (LoRA). Instead of retraining an entire model when adding new modalities, the framework adapts modalities in stages, starting with closely related ones and progressively adding others. Testing on nursing training datasets shows the approach works well and scales efficiently across different combinations of input data.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Transformer-Guided Swarm Intelligence for Frugal Neural Architecture Search",
+    "authors": "Romain Amigon",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11826v1",
+    "pdf": "https://arxiv.org/pdf/2607.11826v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents a hybrid Neural Architecture Search (NAS) method that combines Transformers and swarm intelligence to design efficient deep learning models on consumer-grade hardware instead of requiring thousands of GPU-days. The approach discovers compact, high-performing architectures by pairing a Transformer-based RL controller for broad exploration with an Artificial Bee Colony algorithm for local refinement, achieving competitive accuracy on CIFAR-10 with drastically fewer parameters and in just 3 hours of search time.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Forgetting Our Way to Shared Meaning: Effects of Forgetting on Conceptual Alignment in a Non-Partnership Coordination Game",
+    "authors": "Landon Liu, Mary Kelly, Alan Tsang",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11787v1",
+    "pdf": "https://arxiv.org/pdf/2607.11787v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper investigates how memory and forgetting affect whether multiple agents can reach shared understanding of concepts through coordination. The authors model conceptual alignment as a non-partnership game (where agents don't have identical goals) and show that adaptive agents converge faster to agreement, while memory degradation—counterintuitively—can stabilize agreed-upon meanings. This matters because it reveals that perfect memory isn't necessary for language coordination, and that perceived convergence can diverge from actual agreement.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?",
+    "authors": "Elmira Salari, Hazem Amamou, José Victor de Souza, Shruti Kshirsagar, Maria Nunes Delfino et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11783v1",
+    "pdf": "https://arxiv.org/pdf/2607.11783v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates how ideological biases in retrieved documents affect the outputs of retrieval-augmented generation (RAG) systems — a technique where LLMs are grounded by external documents to reduce hallucinations. The authors find that RAG systems can transmit and amplify ideological positions from source materials, and that this effect varies significantly with sampling temperature, a parameter controlling randomness in text generation.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Expressivity to Sample Complexity: Narrow Teachers for Transformers via C-RASP",
+    "authors": "Michael Rizvi-Martel, Satwik Bhattamishra, Guillaume Rabusseau, Michael Hahn",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11760v1",
+    "pdf": "https://arxiv.org/pdf/2607.11760v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper bridges a gap in transformer theory: while prior work showed *what* tasks transformers can express, this work tackles *how efficiently* they learn those tasks. The authors propose sample complexity bounds for learning C-RASP constructions (a formal language for describing transformer computations), moving from expressivity questions toward practical learnability guarantees.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Paradoxes of Game Theoretic Equilibria and Price of Anarchy",
+    "authors": "Georgios Piliouras, Ian Gemp, Siqi Liu, Luke Marris",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11752v1",
+    "pdf": "https://arxiv.org/pdf/2607.11752v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper exposes fundamental flaws in how game theorists evaluate multi-agent learning and efficiency. The authors show that standard solution concepts (Nash equilibria, Price of Anarchy) rest on mathematically unstable foundations—agents converging to these \"equilibria\" may exhibit chaotic behavior, and worst-case efficiency guarantees collapse when costs vary even slightly. The work challenges decades of algorithmic game theory orthodoxy by proving that dynamic learning trajectories diverge sharply from static equilibrium predictions.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+    "authors": "Yibo Hu, Ren Wang",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11751v1",
+    "pdf": "https://arxiv.org/pdf/2607.11751v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper reveals a critical vulnerability in runtime safety monitors for multi-agent LLM systems: attackers can split harmful payloads across multiple agents so each individual message passes safety checks, but the combined result is malicious. The authors prove that once attack fragments appear benign to a monitor's view, no detector using that view can catch them — no matter how strong — unless the monitor can see the assembled payload in its final representation.",
+    "date_added": "2026-07-14",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent Reinforcement Learning for C-V2X RAT Selection",
+    "authors": "Moritz Schaffenroth, Uwe Kölbel, Heike Lepke, Alexander Prinz, Alfred Höß",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11744v1",
+    "pdf": "https://arxiv.org/pdf/2607.11744v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies multi-agent reinforcement learning (specifically MAPPO, a distributed variant) to the problem of choosing which communication technology vehicles should use in real-time: cellular networks, direct V2X sidelinks, or both. The work matters because connected vehicles need to balance conflicting demands (latency, reliability, bandwidth) across multiple applications, and the paper shows that learning-based channel selection outperforms static rules and single-agent deep RL approaches by 2–3% in delivery reliability while halving training time.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "STEP: Career-Path Recommendation via Temporal and Educational Trajectory Modeling",
+    "authors": "Iman Johary, Guillaume Bied, Alexandru C. Mara, Tijl De Bie",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11722v1",
+    "pdf": "https://arxiv.org/pdf/2607.11722v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents STEP, a system that predicts a person's next job by analyzing their career trajectory from resume data. It combines language models to extract structured career information from unstructured resumes with neural sequence models that learn temporal and educational patterns. The work enables large-scale career recommendation and labor market analysis, which matters for workforce planning, policy-making, and job-matching platforms.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "JobHop v2: A Large-Scale Career Trajectory Dataset from Unstructured Resumes",
+    "authors": "Iman Johary, Guillaume Bied, Alexandru C. Mara, Tijl De Bie",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11715v1",
+    "pdf": "https://arxiv.org/pdf/2607.11715v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "JobHop v2 is a large-scale dataset of 355,000+ career trajectories extracted from real resumes using language models. The dataset fills a critical gap in workforce analytics by providing authentic, richly annotated career data at scale — something previously unavailable to independent researchers — enabling better job recommendation systems, labor market analysis, and career planning tools.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+    "authors": "Ahmed Omar Salim Adnan, Yogananda Manjunath, Shivanjali Khare",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11707v1",
+    "pdf": "https://arxiv.org/pdf/2607.11707v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents an AI system that detects sophisticated scams conducted over many messages (like romance scams) by analyzing entire conversations rather than isolated texts. Unlike existing systems that flag individual phishing messages, this approach tracks how scammers gradually build trust and manipulate victims over weeks or months—and it explains its decisions to users, reaching 97.8% accuracy while helping people become more confident in identifying real scams.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Markov Chain Monte Carlo with Diffusion Paths",
+    "authors": "Han Chen, Sifan Liu, Jun Yang",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11631v1",
+    "pdf": "https://arxiv.org/pdf/2607.11631v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes MAD-Path, a new sampling method for drawing from complex multimodal distributions (distributions with multiple peaks). Instead of the classical tempering approach used in Markov chain Monte Carlo, the authors use diffusion paths—smooth mathematical trajectories from a simple Gaussian distribution to the target—and combine them with a correction mechanism to eliminate sampling bias. The method is important because it better preserves the relative importance of different modes and mixes faster, which matters for Bayesian inference and other applications where you need reliable samples from complicated posterior distributions.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Auditing the Risk Claims of Distributional Reinforcement Learning",
+    "authors": "Hari Prasad",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11607v1",
+    "pdf": "https://arxiv.org/pdf/2607.11607v1",
+    "tags": [
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper audits whether distributional reinforcement learning agents—which learn to predict full return distributions rather than just expected values—actually produce reliable risk estimates. Using rigorous statistical testing on trained agents (QR-DQN, C51, IQN), the authors find that 40–95% of claimed risk trade-offs are false; the learned distributions reflect training artifacts, not real environment uncertainty. This matters because practitioners increasingly trust these agents for safety-critical decisions.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DAG-FM: A Foundation Model for Causal Discovery under Heterogeneous Causal Mechanisms",
+    "authors": "Yikang Chen, Zhengkang Guan, Haoyuan Qian, Peng Cui, Yi Yang et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11510v1",
+    "pdf": "https://arxiv.org/pdf/2607.11510v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper introduces DAG-FM, a foundation model that discovers causal relationships in tabular data by learning to infer the structure of Directed Acyclic Graphs (DAGs — networks showing which variables cause which). The key innovation is handling *heterogeneous causal mechanisms* — real-world datasets where different variables follow different causal rules — using a mixture-of-experts approach that lets the model adapt to unknown assumptions about how causes produce effects.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CDFM: Towards a General-Purpose Causal Discovery Foundation Model",
+    "authors": "Jie Qiao, Ruichu Cai, Zijian Li, Weilin Chen, Pengfei Hua et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11508v1",
+    "pdf": "https://arxiv.org/pdf/2607.11508v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes CDFM, a foundation model that learns to infer causal structures from data in a general-purpose way, rather than using specialized algorithms for each dataset type. The key insight is that by pretraining on diverse synthetic causal models, the model can discover causal relationships in new domains without task-specific tuning—a major shift from traditional causal discovery methods.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Event-based Neural Decoding for Neuroprosthetic Motor Control",
+    "authors": "Khaleelulla Khan Nazeer, Sirine Arfa, Matthias Jobst, Richard George, Christian Mayr",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11445v1",
+    "pdf": "https://arxiv.org/pdf/2607.11445v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents a neural decoding system for prosthetic limb control that uses event-based spiking neural networks to reduce power consumption and communication latency. The key innovation is an event-based gated recurrent unit that generates sparse, graded spikes—enabling better task performance than traditional spiking networks while maintaining efficiency suitable for on-device processing in prosthetics.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Long-Memory Reservoir Computing for Data-Scarce Dengue Forecasting",
+    "authors": "Rahul Goswami, Shinjini Paul, Palash Ghosh, Tanujit Chakraborty",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11272v1",
+    "pdf": "https://arxiv.org/pdf/2607.11272v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tackles dengue forecasting in settings where data is scarce and messy—short, noisy, non-stationary time series with long-range memory. The authors combine reservoir computing (a lightweight neural network approach) with techniques from statistical time-series modeling to create forecasts that work well even with little training data. They propose two variants that explicitly capture long-term dependencies and provide uncertainty estimates, outperforming standard statistical and deep-learning methods on real dengue datasets.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient and Robust Spiking Neural Networks for sEMG-Based Muscle Fatigue Detection",
+    "authors": "Kaiwen Tang, Jiaqi Dong, Zhanglu Yan, Weng-Fai Wong",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.11065v1",
+    "pdf": "https://arxiv.org/pdf/2607.11065v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops Spiking Neural Networks (SNNs)—a brain-inspired neural architecture that processes information as sparse electrical spikes—to detect muscle fatigue from surface electromyography (sEMG) signals in wearable devices. The key innovation is a quantization-compatible training scheme that makes these networks robust to real-world noise while consuming 200x less energy than standard deep learning models, making them practical for always-on health monitoring.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcement Learning for Execution under Dynamic Fees in a Closed-Loop DEX Simulator",
+    "authors": "Wen-Ting Wang",
+    "published": "2026-07-12",
+    "url": "http://arxiv.org/abs/2607.10960v1",
+    "pdf": "https://arxiv.org/pdf/2607.10960v1",
+    "tags": [
+      "algorithmic-trading",
+      "market-microstructure",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies how traders should execute orders in automated market makers (AMMs) when the platform charges dynamic fees that vary with market conditions. Because real historical data can't show how traders would respond to fee changes that don't actually exist in the past, the authors built a realistic simulator with dynamic fees, multiple liquidity pools, and arbitrage logic, then trained a deep reinforcement learning agent (DQN) to find optimal execution strategies. The DQN agent outperforms hand-tuned baseline strategies by reducing execution costs, especially when fees are dynamic.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LayerNorm as Implicit Gain Control in Looped Transformers",
+    "authors": "Matthias M. M. Buehlmaier",
+    "published": "2026-07-12",
+    "url": "http://arxiv.org/abs/2607.10681v1",
+    "pdf": "https://arxiv.org/pdf/2607.10681v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper explains how LayerNorm functions as a stability mechanism in recurrent transformers by implicitly controlling gain — the strength of signal amplification through layers. The key finding is that LayerNorm decouples the stability constraint from the operator norm, allowing recurrent blocks to remain stable even when their largest singular value exceeds 1, provided the spectral margin (a tighter measure) stays within bounds. This work bridges architectural design and dynamical systems theory.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Emergent Generalization by Representation Learning in Artificial Neural Networks",
+    "authors": "Hardik Rajpal, Dan Goodman",
+    "published": "2026-07-11",
+    "url": "http://arxiv.org/abs/2607.10430v1",
+    "pdf": "https://arxiv.org/pdf/2607.10430v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that artificial neural networks learn to generalize better when forced to compress information into low-dimensional representations — a discovery backed by information theory and validated against real brain recordings from mice. The work bridges neuroscience and machine learning by demonstrating that compact learned representations aren't just a byproduct of neural activity, but actively enable networks to make accurate predictions on unseen data.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Symbolic Neural CPU for Quantization-Simulated Writeback and Interpretable Program Execution",
+    "authors": "Jose Luis Lima de Jesus Silva",
+    "published": "2026-07-10",
+    "url": "http://arxiv.org/abs/2607.10021v1",
+    "pdf": "https://arxiv.org/pdf/2607.10021v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents a neural network architecture that can execute algorithmic programs while exposing its internal decision-making process at every step. The key innovation is making neural execution \"traceable\" — you can see which operation was selected, which registers were read and written, and how memory changed — while maintaining correctness even under 8-bit quantization. This matters because neural networks that execute algorithms are usually black boxes; this work opens them up to inspection.",
+    "date_added": "2026-07-14",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
     "authors": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
     "published": "2026-07-10",
