@@ -2,6 +2,22 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "How to manage AI investments in the agentic era",
+    "authors": "OpenAI",
+    "published": "2026-07-14",
+    "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "OpenAI outlines a framework for enterprises to evaluate and manage AI investments in systems built around autonomous agents. The post emphasizes measuring return on investment through \"useful work per dollar\" rather than traditional compute metrics, and proposes strategies for improving efficiency and scaling workflows that deliver business value.",
+    "date_added": "2026-07-15",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "ChatGPT is now a partner for your most ambitious work",
     "authors": "OpenAI",
     "published": "2026-07-09",
@@ -338,6 +354,412 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+    "authors": "Junjie Yin, Xinyu Feng",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13034v1",
+    "pdf": "https://arxiv.org/pdf/2607.13034v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper identifies a critical inefficiency in LLM-based agents: they often over-read context and re-examine already-seen information, turning simple tasks into expensive operations. The authors propose E3, a three-step framework (Estimate, Execute, Expand) that teaches agents to first judge task complexity, execute minimally, and only expand scope when needed—achieving 85% cost reduction and 91% fewer tokens while maintaining 100% success on code-editing benchmarks.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+    "authors": "Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Zachary Lee et al.",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13028v1",
+    "pdf": "https://arxiv.org/pdf/2607.13028v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "TerraZero is a fast procedural driving simulator that trains autonomous driving agents using reinforcement learning and self-play, without any human demonstrations. The system runs 1.3M simulation steps per second on a single GPU while maintaining realistic traffic rules, multiple agent types, and diverse scenarios — and achieves state-of-the-art performance on autonomous driving benchmarks, including zero-shot generalization to unseen cities.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+    "authors": "Hongru Cai, Yongqi Li, Ran Wei, Wenjie Li",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13027v1",
+    "pdf": "https://arxiv.org/pdf/2607.13027v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "PalmClaw is a framework that runs AI agents directly on mobile phones, letting them control device features and complete multi-step tasks without sending data to servers. Unlike existing mobile agents that click buttons and swipe screens, PalmClaw exposes device capabilities (like contacts, calendar, sensors) as explicit tools with clear inputs and outputs, achieving 11.5% better task success and 95% faster execution.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Privacy Attacks on Stable Marriage",
+    "authors": "Stephan A. Fahrenkrog-Petersen, Aleksander Figiel, Darya Melnyk, Tijana Milentijević, Stefan Schmid",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13015v1",
+    "pdf": "https://arxiv.org/pdf/2607.13015v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper reveals that the Gale-Shapley stable marriage algorithm — widely used in real-world matching systems like medical residency placement — leaks private preference information when one side can repeatedly query the algorithm. The authors show attackers can fully reconstruct honest participants' preferences through strategic interactions, highlighting a critical privacy vulnerability in a foundational algorithm used in sensitive domains.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Spectrum Is Not Enough: When Context Helps Time-Series Forecasting",
+    "authors": "Mert Onur Cakiroglu, Mehmet Dalkilic, Hasan Kurban",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13006v1",
+    "pdf": "https://arxiv.org/pdf/2607.13006v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper challenges the common assumption that spectral indices (mathematical measures of a time series' predictability based on frequency content) can tell us whether adding context—like longer lookback windows or retrieval systems—will improve forecasting. The authors prove this is mathematically impossible and introduce a new diagnostic called \"coverage deficit\" to determine when context actually helps. Their work matters because practitioners often misuse spectral indices to make deployment decisions, potentially wasting resources on methods that won't work for their data.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Watermark Forensics for Generative Models: An Information-Theoretic Perspective",
+    "authors": "Xiaoyu Li, Zheng Gao, Xiaoyan Feng, Jiaojiao Jiang, Yulei Sui et al.",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.13003v1",
+    "pdf": "https://arxiv.org/pdf/2607.13003v1",
+    "tags": [
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "This paper analyzes watermarks in generative model outputs through an information-theoretic lens, asking what it costs (in tokens) to detect whether text is machine-made, attribute it to a specific user, extract hidden payloads, or localize edited portions. The key finding is a tight asymptotic law: attributing text to one of N users requires Θ(log N / h) tokens on average, where h is the source entropy rate — a fundamental limit that applies universally to stationary sources and holds for major language models like GPT-2 and Qwen2.5.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FormalAnalyticGeo: A Neural-Symbolic Based Framework for Multimodal Analytic Geometry Problem Generation",
+    "authors": "Ruoran Xu, Wending Gao, Qiufeng Wang",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12982v1",
+    "pdf": "https://arxiv.org/pdf/2607.12982v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "This paper presents FormalAnalyticGeo, a framework that automatically generates thousands of multimodal analytic geometry problems (problems combining text, diagrams, and equations). The system uses large language models coordinated through a formal intermediate language to generate problems and render precise diagrams, then verifies correctness automatically—solving the bottleneck of human annotation that has limited progress in training math-reasoning AI systems on geometry.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Ensemble Controlled-Flow Filtering for Implicit Data Assimilation",
+    "authors": "Zhuoyuan Li, Yue Zhao, Ming Li",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12975v1",
+    "pdf": "https://arxiv.org/pdf/2607.12975v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces a new method for data assimilation — the problem of combining noisy observations with dynamical system models to estimate true system state. The key innovation is handling \"implicit\" observations (those defined only through simulation, non-smooth, or many-to-one mappings) that existing methods cannot easily process. The authors propose Ensemble Controlled-flow Filter (EnCF), which frames state estimation as tilting probability distributions guided by observation energy, and prove it produces exact updates under ideal conditions.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context",
+    "authors": "Yanzhe Zhang, Sanmi Koyejo, Diyi Yang",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12963v1",
+    "pdf": "https://arxiv.org/pdf/2607.12963v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper reveals a hidden vulnerability in large language models: while they appear robust to irrelevant context at the aggregate level (overall accuracy stays stable), individual examples show dramatic prediction flips. Even nonsensical text can flip model predictions on specific examples, creating \"tail risks\" masked by standard benchmarking. This matters because deployed LLMs operate in context-rich settings where such hidden instabilities could cause real failures.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Knowledge- and Gradient-Guided Reinforcement Learning for Parametrized Action Markov Decision Processes",
+    "authors": "Jonas Ehrhardt, René Heesch, Oliver Niggemann",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12924v1",
+    "pdf": "https://arxiv.org/pdf/2607.12924v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles reinforcement learning in environments where actions have two parts: a symbolic choice (which action to take) and numerical parameters (how to configure it). The key innovation is combining domain knowledge — rules, constraints, expert heuristics — with gradient-based optimization to make agents learn faster and make better decisions. By integrating symbolic knowledge with neural learning, the method achieves better sample efficiency and higher rewards than existing approaches.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Contrastive-Collapsed Loss for Flexible and Geometrically Optimal Embeddings and Faster Convergence",
+    "authors": "Blanca Cano-Camarero, Ángela Fernández-Pascual, José R. Dorronsoro",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12916v1",
+    "pdf": "https://arxiv.org/pdf/2607.12916v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces CoCo, a new loss function for training neural networks to learn better representations—compact clusters of similar examples with clear separation between different classes. The key innovation is balancing two competing goals: pulling same-class examples together while pushing different classes apart, while still allowing the network flexibility to find geometrically optimal solutions. The authors show theoretically and empirically that CoCo converges faster and produces tighter class clustering than standard approaches like cross-entropy.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A 32-channel event-based bio-signal analog front-end with adaptive delta and pulse frequency encoding",
+    "authors": "Narayanan Shyam, Saptarshi Ghosh, Giacomo Indiveri",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12901v1",
+    "pdf": "https://arxiv.org/pdf/2607.12901v1",
+    "tags": [],
+    "summary": "This paper describes a specialized computer chip (ASIC) that reads biological signals from 32 sensors and converts them into sparse, event-based data streams using two encoding methods. The innovation is an adaptive encoder that automatically adjusts compression based on signal properties, enabling ultra-low-power wireless transmission of brain signals for brain-computer interfaces and neuromorphic computing systems.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+    "authors": "Xixuan Hao, Zeyu Zhang, Zehao Lin, Yihang Sun, Ziliang Guo et al.",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12893v1",
+    "pdf": "https://arxiv.org/pdf/2607.12893v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces MemOps, a benchmark for evaluating how well LLM-based agents manage memory across long, multi-turn conversations. Instead of just checking if a final answer is correct, MemOps breaks down memory failures into specific operation types — remembering, forgetting, updating, reflecting — and traces exactly where and why systems fail to maintain consistent memory states during extended interactions.",
+    "date_added": "2026-07-15",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations",
+    "authors": "Monica Munnangi, Saiph Savage",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12884v1",
+    "pdf": "https://arxiv.org/pdf/2607.12884v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper evaluates whether large language models can reliably detect and correct medical misconceptions during multi-turn conversations with patients. The authors introduce ThReadMed-QA, a dataset of 2,437 real patient-physician conversation threads, and find that even frontier models (like GPT-4 and Claude) drop from ~85% accuracy in correcting misconceptions on the first question to ~50% by the second or third follow-up, revealing a critical safety gap in patient-facing medical AI.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox",
+    "authors": "Zhenwen Miao, Honglin Wang, Mingheng Mi",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12875v1",
+    "pdf": "https://arxiv.org/pdf/2607.12875v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "MetaInfer is a system that uses LLMs and multi-agent collaboration to automatically generate customized inference engines for running large language models. Instead of building general-purpose frameworks that support every possible hardware, quantization scheme, and optimization strategy (which becomes increasingly complex), users specify only their runtime constraints, and the system generates a minimal, specialized inference engine that meets those needs. This matters because LLM inference is becoming a critical production bottleneck—the explosion of hardware variants and optimization techniques makes maintaining general frameworks unsustainably expensive.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep4ge: DNN Training Trajectories for Fault Detection and Diagnosis",
+    "authors": "Sigma Jahan",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12868v1",
+    "pdf": "https://arxiv.org/pdf/2607.12868v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper introduces Deep4ge, a public dataset of 14,227 deep learning training runs with documented faults, designed to enable automated detection and diagnosis of bugs in neural network code. The dataset captures per-epoch training metrics and behavioral features, addressing a gap in software engineering tools for debugging deep learning systems by providing researchers with real faults injected into TensorFlow/Keras programs.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+    "authors": "Hanhua Hong, Yizhi Li, Jiaoyan Chen, Luu Gia Huy, Sophia Ananiadou et al.",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12835v1",
+    "pdf": "https://arxiv.org/pdf/2607.12835v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether large language models (LLMs) can automatically generate reliable evaluation rubrics for assessing research paper reproduction tasks. The authors conduct the first systematic evaluation of LLM-generated rubrics, showing that while these rubrics can approach human-quality performance in scoring alignment, they have significant limitations including over-specificity and scoring bias. This matters because manual rubric creation is a bottleneck preventing scalable benchmarking of LLM research agents.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ANGLE: Angular Neural Generative Learning via Engression",
+    "authors": "Rajdeep Pathak, Archi Roy, Tanujit Chakraborty",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12833v1",
+    "pdf": "https://arxiv.org/pdf/2607.12833v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces ANGLE, a deep generative framework for predicting circular data (angles, directions) and their full probability distributions rather than just point estimates. Traditional regression fails on circular data because the geometric mean of angles is often meaningless; ANGLE learns the complete conditional distribution using a novel loss function and proves it has desirable mathematical properties like rotational invariance, with applications to pose estimation and wind prediction.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+    "authors": "Daehoon Gwak, Minhyung Lee, Junwoo Park, Jaegul Choo",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12829v1",
+    "pdf": "https://arxiv.org/pdf/2607.12829v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper surveys efficient inference techniques for diffusion language models (dLLMs)—a newer class of language models that generate text in parallel rather than one token at a time. While parallel generation offers theoretical speed advantages over standard autoregressive models, the paper shows that realizing these gains requires careful optimization across algorithms, hardware, and system design. The authors provide a framework to measure and compare these techniques rigorously.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
+    "authors": "Xing Zhang, Guanghui Wang, Yanwei Cui, Ziyuan Li, Wei Qiu et al.",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12790v1",
+    "pdf": "https://arxiv.org/pdf/2607.12790v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper solves a bootstrapping problem: how do self-improving AI agents evaluate their own progress when no reliable evaluation metric exists? The authors propose **Double Ratchet**, a system that co-evolves evaluation metrics alongside agent skills, using evolutionary search to build transparent metrics from simple components rather than relying on opaque judges. They show this approach recovers 88–110% of the performance gain that would come from having perfect ground-truth evaluation, across code generation, SQL query synthesis, and report generation tasks.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Internet of Agentic Things: Networked AI Agents for Closed-Loop IoT Orchestration",
+    "authors": "Quanyan Zhu",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12662v1",
+    "pdf": "https://arxiv.org/pdf/2607.12662v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper proposes the Internet of Agentic Things (IoAT), a framework that deploys autonomous AI agents across distributed IoT devices, edge computers, and cloud systems to coordinate physical infrastructure in real time. Rather than treating IoT as passive sensors and actuators, IoAT gives agents the ability to perceive environments, reason about goals, and execute control decisions across cyber-physical systems — creating a closed-loop orchestration system. The work matters because it addresses how to scale intelligent coordination to complex, distributed physical systems like smart buildings while handling safety, security, and trustworthiness constraints.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fisher Rank Inflation: A Spectral Signature of Memorization under Label Noise",
+    "authors": "Satwik Bathula, Anand A. Joshi",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12438v1",
+    "pdf": "https://arxiv.org/pdf/2607.12438v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper identifies \"Fisher Rank Inflation\" — a spectral pattern in neural network gradients that reveals when models transition from learning clean structure to memorizing mislabeled data. By analyzing the effective rank of per-example gradients in the last layer, the authors show that noisy labels temporarily inflate this rank, creating a detectable signature that tracks memorization and correlates with corruption severity.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PolarBM: Complex-valued Boltzmann Machine for Modeling Audio Signals in Polar and Log-polar Coordinates",
+    "authors": "Toru Nakashika, Kohei Yatabe",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12417v1",
+    "pdf": "https://arxiv.org/pdf/2607.12417v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces PolarBM, a Boltzmann machine designed to naturally handle complex-valued data (numbers with both magnitude and phase) using polar coordinates instead of converting to real numbers. The key insight is that amplitude and phase are physically linked in signals like audio spectrograms, and modeling this relationship directly improves performance on tasks like audio modeling compared to standard neural networks that treat them independently.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "XScientist: A Git-Like Research Protocol for Long-Running Autonomous Scientific Discovery",
+    "authors": "Jixiang Luo",
+    "published": "2026-07-14",
+    "url": "http://arxiv.org/abs/2607.12301v1",
+    "pdf": "https://arxiv.org/pdf/2607.12301v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "XScientist is a version-control system (like Git) designed to manage autonomous AI systems that conduct scientific research over long periods. Instead of treating research as a one-shot output (a PDF paper), it records the entire exploration process—failed experiments, repairs, revisions, and claims—as an auditable artifact that humans and AI can inspect, verify, and build upon.",
+    "date_added": "2026-07-15",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning the Graphical Nature of Symmetries",
+    "authors": "Rashid Barket, Enrico Grimaldi, Yacoub Hendi, Edward Hirst, Adam Onus et al.",
+    "published": "2026-07-13",
+    "url": "http://arxiv.org/abs/2607.12026v1",
+    "pdf": "https://arxiv.org/pdf/2607.12026v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper creates a large dataset of Cayley graphs (network representations of finite groups) and uses machine learning to predict algebraic group properties from graph structure alone. The work demonstrates that graph neural networks can learn hidden mathematical patterns in these symmetry structures, bridging abstract algebra and modern deep learning.",
+    "date_added": "2026-07-15",
+    "trusted": ""
   },
   {
     "source": "arxiv",
