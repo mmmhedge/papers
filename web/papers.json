@@ -2,6 +2,36 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+    "authors": "OpenAI",
+    "published": "2026-07-15",
+    "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+    "pdf": "",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "OpenAI introduced GPT-Red, an automated red teaming system that uses self-play to identify and patch vulnerabilities in language models. The system improves AI robustness against adversarial inputs and prompt injection attacks by having models compete to find and exploit weaknesses.",
+    "date_added": "2026-07-16",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "What building Shippy taught us about building agents",
+    "authors": "Hugging Face",
+    "published": "2026-07-15",
+    "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+    "pdf": "",
+    "tags": [],
+    "summary": "",
+    "date_added": "2026-07-16",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "How to manage AI investments in the agentic era",
     "authors": "OpenAI",
     "published": "2026-07-14",
@@ -354,6 +384,527 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Leveraging unlabelled data for generalizable neural population decoding",
+    "authors": "Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo, Matthew G. Perich, Guillaume Lajoie",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14086v1",
+    "pdf": "https://arxiv.org/pdf/2607.14086v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces MOJO, a training framework that combines self-supervised learning (learning from unlabeled data) and supervised learning to decode neural activity from brain recordings. The key innovation is using masked autoencoding — a technique where parts of neural spike patterns are hidden and the model learns to predict them — alongside traditional labeled behavioral tasks. This approach works better than supervised-only methods, especially when labeled data is scarce, and generalizes across different brain regions, animal species, and even different types of neural recordings (spikes vs. continuous signals).",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
+    "authors": "Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14072v1",
+    "pdf": "https://arxiv.org/pdf/2607.14072v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "MetaPerch is a foundation model for bioacoustics that learns to identify bird and animal species from audio recordings by leveraging metadata (location, time, seasonal patterns) alongside acoustic signals. The paper shows that enriching audio-only models with readily available contextual information from citizen science platforms significantly improves species detection accuracy and robustness across different geographic regions and recording conditions — critical for real-world deployment in wildlife monitoring systems.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+    "authors": "Jeremy Guntoro, Alexander Dack, Dylan Danno, Michaela Jančovičová, Križan Jurinović et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14070v1",
+    "pdf": "https://arxiv.org/pdf/2607.14070v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates whether genomic foundation models (Evo 2) learn biosecurity-relevant patterns that can be detected with simple linear probes, without retraining the model itself. The researchers show that these frozen representations encode strong signals for antimicrobial resistance detection (ROC-AUC 0.977 with attention probes) and weaker signals for bacterial virulence, suggesting foundation model embeddings could serve as a fast, cheap screening layer for pathogenic sequences in metagenomic data.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression",
+    "authors": "Soham Jana",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14064v1",
+    "pdf": "https://arxiv.org/pdf/2607.14064v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper studies the theoretical statistical limits of deep neural networks for removing speckle noise — a type of multiplicative noise common in radar and medical imaging. The authors prove that likelihood-based deep learning methods can achieve optimal estimation rates, and surprisingly, the difficulty of this problem is essentially the same as standard regression with only additive noise, despite multiplicative noise being fundamentally harder to work with.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+    "authors": "Hefeng Zhou, Jinxuan Zhang, Jiong Lou, Yuxin Liu, Chaochao Lu et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14049v1",
+    "pdf": "https://arxiv.org/pdf/2607.14049v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents Deep Interaction, a method that lets users directly edit and correct reasoning errors in chain-of-thought (CoT) outputs from large language models, rather than asking the model to regenerate from scratch. The corrected reasoning is then distilled into a prompt that guides the model along the fixed path, achieving 25% better correction rates and 40% fewer tokens on STEM reasoning tasks.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
+    "authors": "Tam Nguyen, Hung Nguyen, Robert Ogburn",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14044v1",
+    "pdf": "https://arxiv.org/pdf/2607.14044v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper presents an end-to-end framework that uses AI to accelerate professional upskilling across five stages: knowledge acquisition, content development, review, teaching, and assessment. The work is motivated by a critical skills gap — workers need reskilling faster than current methods allow — and demonstrates real-world validation through certified professional training programs and regulatory approval.",
+    "date_added": "2026-07-16",
+    "trusted": "NVIDIA"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
+    "authors": "Maliha Noushin Raida, Daqing Hou",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14037v1",
+    "pdf": "https://arxiv.org/pdf/2607.14037v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper analyzes how real-world open-source projects are adopting AI-powered coding agents that can generate and submit pull requests. The researchers examined over 25,000 agent-generated PRs across 2,361 GitHub repositories to understand adoption patterns, productivity levels, and how humans oversee these AI contributions—finding that adoption is still concentrated in a small subset of projects and that most rely on single-developer review models.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SPECS: Speciated Evolutionary Circuit Synthesis",
+    "authors": "Yağız Gençer, Stefan Uhlich, Andrea Bonetti, Arun Venkitaraman, Chia-Yu Hsieh et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14027v1",
+    "pdf": "https://arxiv.org/pdf/2607.14027v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "SPECS is an evolutionary algorithm that automatically designs analog circuits by optimizing both their topology (structure) and component values simultaneously. It adapts NEAT — a genetic algorithm originally built for neural networks — to the circuit domain, adding circuit-specific constraints and diversity-preservation mechanisms. The method outperforms existing benchmarks on function-synthesis tasks like square root and cube root approximations.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth",
+    "authors": "Katie Everett",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14018v1",
+    "pdf": "https://arxiv.org/pdf/2607.14018v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper explains why Transformers work well at scale by analyzing how architectural components preserve information (technically, matrix rank) as networks get deeper. The authors show that skip connections, normalization placement, and width expansion are fundamentally mechanisms for preventing gradient information collapse—not just stabilizing training magnitude—and this unified view predicts which architectural choices enable deep networks to learn effectively.",
+    "date_added": "2026-07-16",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points",
+    "authors": "Mustafa Emre Gürsoy, Stefan Uhlich, Ryoga Matsuo, Yağız Gençer, Arun Venkitaraman et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14008v1",
+    "pdf": "https://arxiv.org/pdf/2607.14008v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents Lighthouse RL, a reinforcement learning method that dramatically reduces the number of simulations needed to optimize analog circuits. Instead of exploring randomly, the algorithm remembers high-performing configurations found during training (called \"lighthouses\") and uses them as restart points for future episodes, guiding the search toward promising regions much faster than traditional RL or optimization methods.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Penetration Testing for AI-Enabled Systems: From Resource Compromise to Behavioral Objective Violation",
+    "authors": "Mohammad Allahbakhsh, Mohammad Hassan Bahari, Moslem Attar-Raouf",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14006v1",
+    "pdf": "https://arxiv.org/pdf/2607.14006v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper redefines penetration testing for AI systems to focus on behavioral objective violation rather than infrastructure compromise. Traditional security testing looks for exploitable software bugs; this work argues that AI systems can be compromised through manipulation of prompts, training data, sensors, and human-AI interactions without touching the underlying infrastructure, and proposes a testing framework to systematically evaluate these behavioral attack surfaces.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+    "authors": "Wenxiao Wang, Priyatham Kattakinda, Soheil Feizi",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14004v1",
+    "pdf": "https://arxiv.org/pdf/2607.14004v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper asks whether improvements from agent optimization methods persist and compound when applied repeatedly over time—a critical real-world scenario ignored by standard benchmarking. The authors evaluate three optimization approaches on a continual-learning benchmark and find that only methods with built-in regression control (preventing performance collapse on old tasks) achieve lasting gains; most methods either catastrophically fail to transfer to new tasks or plateau after a single optimization round.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL) Model and the Net Human-Agent Score (NHAS) in Autonomous Commerce",
+    "authors": "Sai Srikanth Madugula, Peplluis Esteva de la Rosa, Daya Shankar",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13998v1",
+    "pdf": "https://arxiv.org/pdf/2607.13998v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces the Dynamic Verifiable Multi-Agent Human Agentic Loyalty Loop (DVM-HALL), a new framework for understanding customer loyalty in an era where AI agents autonomously make purchasing decisions. Traditional loyalty models assume human consumers act alone; this work shows they fail when autonomous agents execute transactions on behalf of humans or in competition with them. The paper formalizes how trust, delegation, and execution risk jointly shape agent-brand relationships, and proposes the Net Human-Agent Score (NHAS) to measure human-agent alignment in commerce.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multimodal Empirical Bayes Variational Autoencoders for Joint Longitudinal and Time-to-Event Modeling",
+    "authors": "Anders Sjöberg, Nils Olsson, Marcus Baaz, Mats Jirstrand",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13984v1",
+    "pdf": "https://arxiv.org/pdf/2607.13984v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper extends empirical Bayes variational autoencoders (EB-VAE) to jointly model tumor growth trajectories and patient dropout timing using longitudinal measurements, genetic data, and event times. It matters because clinical data comes in multiple forms—repeated measurements, dropouts, genetic information—and integrating them in a single probabilistic framework can improve treatment response prediction and identify genetic biomarkers.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pezego-HITL: A policy-grounded large language model architecture for agricultural extension in Ghana",
+    "authors": "Shunbao Li, Zhipeng Yuan, Amoako Ofori, Benedicta Y. Fosu-Mensah, Yang Li et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13934v1",
+    "pdf": "https://arxiv.org/pdf/2607.13934v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper presents Pezego-HITL, an LLM architecture for agricultural advisory in Ghana that prioritizes safety and policy compliance alongside helpfulness. The key innovation is P-EVAL, a validation framework that treats LLM deployment in high-stakes farming decisions as an adaptive compute allocation problem — balancing safety compliance, usefulness, response speed, and expert workload — rather than just measuring answer quality alone.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VAIOM: Continuous-Input, Discrete-Output Decoder-Only Financial Sequence Modeling",
+    "authors": "Yiming Ma, Xinyu Chen",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13929v1",
+    "pdf": "https://arxiv.org/pdf/2607.13929v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "transformers"
+    ],
+    "summary": "This paper presents VAIOM, a decoder-only Transformer designed to predict next-period returns in foreign-exchange markets by accepting continuous financial data (prices, volumes, events) as input while outputting discrete return predictions. The key innovation is separating input representation—which preserves numerical structure—from output modeling, which uses categorical distributions over return buckets, outperforming traditional machine learning baselines on real FX data across multiple test periods.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DeepStress: Stress-Testing Deep Search Agents",
+    "authors": "Ismael Rousseau, Geraldine Damnati, Frederic Bechet",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13920v1",
+    "pdf": "https://arxiv.org/pdf/2607.13920v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces DeepStress, a framework for testing how well AI search agents handle unreliable information in multi-step question answering tasks. Rather than waiting for rare failures in real applications, the researchers systematically inject poor-quality evidence (untrustworthy, irrelevant, or factually wrong documents) into the retrieval process to measure agent robustness. The work reveals that different search agents vary dramatically in their ability to cope with unreliable information, a crucial gap for deploying these systems in the wild.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How to Guide LLM Generation: Dual-Surrogate Guided Search for Automated Heuristic Design",
+    "authors": "Yuhan Wang, Chaoda Peng, Xingyu Wu, Sheng-Hao Wu, Zhi-Hui Zhan",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13911v1",
+    "pdf": "https://arxiv.org/pdf/2607.13911v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents a method to make LLM-based heuristic design more efficient by intelligently selecting which archived solutions to reuse and how to modify them before querying the LLM. Rather than using fixed rules, the system learns to predict which combinations of parent heuristics and transformation operators will likely produce good child solutions, dramatically reducing wasted queries under tight evaluation budgets.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "High-Order Question Generation in a Multilingual Educational Context",
+    "authors": "Suna-Şeyma Uçar, Itziar Aldabe, Nora Aranberri, Orphée De Clercq",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13901v1",
+    "pdf": "https://arxiv.org/pdf/2607.13901v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper explores how large language models can generate high-order questions—the kind that develop critical thinking rather than mere recall—across three languages (Basque, Spanish, English) using alternative frameworks to Bloom's Taxonomy. The work matters because educators struggle to create such questions in practice, and most prior work has focused narrowly on English and a single pedagogical framework.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SPyCE: Skill-Policy Co-evolution for Multimodal Agents",
+    "authors": "Ru Zhang, Weijie Qiu",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13854v1",
+    "pdf": "https://arxiv.org/pdf/2607.13854v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents SPyCE, a framework that trains multimodal agents (systems that reason about images and use tools) by evolving a reusable skill library alongside the policy during learning. Rather than treating trajectories as scalar rewards or static memory, SPyCE distills them into hierarchical skills that improve over time, creating a feedback loop where better policies generate better skills, which in turn guide better policies. The approach substantially outperforms existing reinforcement learning and memory-based methods across eight benchmarks.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "S-CARD-CMSA: A Score-Aware Candidate Archive with Density-Filtered Reporting for Multimodal Optimization",
+    "authors": "Dikshit Chauhan",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13764v1",
+    "pdf": "https://arxiv.org/pdf/2607.13764v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper presents S-CARD-CMSA, a method for multimodal optimization — finding multiple high-quality solutions in a single run rather than just one optimum. The approach builds on an existing evolution strategy (RS-CMSA-ESII) by adding a secondary archive to track good candidates and a smart reporting rule that balances finding many peaks with reporting them accurately, developed for the IEEE CEC 2026 competition on niching methods.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Post-Training Shifts Confidence: A Three-Stage Analysis of How SFT, RL, and OPD Shape Pre-, Intra-, and Post-CoT Calibration",
+    "authors": "Shuhao Li, Guodong Du, Anhao Zhao, Wanyu Lin, Tianyu Yuan et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13753v1",
+    "pdf": "https://arxiv.org/pdf/2607.13753v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies how different post-training methods (supervised fine-tuning, reinforcement learning, and on-policy distillation) affect how confident language models are during chain-of-thought reasoning—not just whether they get the right answer, but whether they *know* they're right at each stage. The authors show that confidence reliability depends on *when* and *where* in the reasoning you measure it, and propose a position-aware strategy that uses each method's confidence signals only when they're actually trustworthy, improving both answer selection and early stopping decisions.",
+    "date_added": "2026-07-16",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Algebraic Representability as the Limiting Regime of Grokking: An Exactly Solvable Model with Holomorphic Activations",
+    "authors": "Chon-Fai Kam, Xavier Cadet, Miloud Bessafi, Frederic Cadet",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13749v1",
+    "pdf": "https://arxiv.org/pdf/2607.13749v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper studies grokking—the puzzling phenomenon where neural networks suddenly jump from memorizing training data to generalizing—by examining an extreme case where network expressivity is mathematically constrained. Using two-layer networks with special \"holomorphic\" (complex-analytic) activations trained on modular arithmetic, the authors prove that whether a task can be learned is determined entirely by algebraic geometry: a target is learnable if and only if its Fourier structure aligns with the network's built-in representational constraints. The key insight is that in this bottlenecked regime, grokking disappears—networks either succeed instantly or fail completely—revealing grokking as a capacity-dependent phenomenon.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DAGR: State-Conditioned Goal Representations via Difference-Aware Goal Cross-Attention",
+    "authors": "Xing Lei, Wenyan Yang, Xuetao Zhang, Donglin Wang",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13731v1",
+    "pdf": "https://arxiv.org/pdf/2607.13731v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes DAGR, a method to improve goal-conditioned reinforcement learning by making goal representations aware of the current state. Traditional goal encoders ignore what state the agent is in, forcing the policy to figure out the gap itself; DAGR uses cross-attention to refine goal embeddings based on state-goal differences, showing consistent gains on navigation tasks but mixed results on manipulation and puzzles.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cluster with Auctions for Vector Search",
+    "authors": "Swann Bessa, Pierre Fernandez, Gergely Szilvasy, Matthijs Douze, Hervé Jégou",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13728v1",
+    "pdf": "https://arxiv.org/pdf/2607.13728v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents CwA (Cluster with Auctions), a method for fast approximate nearest neighbor search that learns *different* assignment rules for database vectors versus query vectors. Most existing systems use the same clustering rule for both, which is inefficient when query and database distributions differ. CwA jointly optimizes a neural probing function and a balanced partition using alternating optimization and auction algorithms, achieving up to 4.7× speedup over competing methods.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-supervised Speech Comparison for L2 Phone, Rhythm, and Intonation Scoring",
+    "authors": "Stephen McIntosh, Reuben Smit, Daisuke Saito, Nobuaki Minematsu, Herman Kamper",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13721v1",
+    "pdf": "https://arxiv.org/pdf/2607.13721v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper shows that self-supervised audio representations (WavLM) combined with dynamic time warping (DTW) can automatically score non-native English and Japanese speakers on pronunciation accuracy, rhythm, and intonation—without requiring labeled training data or transcripts. The approach matches or exceeds human raters on some tasks and works in low-resource languages where labeled speech data is scarce.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Social Simulations: from Agent-Based Modeling to Digital Twins",
+    "authors": "Erica Cau, Andrea Failla, Valentina Pansanella, Giulio Rossetti",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13693v1",
+    "pdf": "https://arxiv.org/pdf/2607.13693v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This chapter traces how social simulation has evolved from hand-coded agent models to AI-powered digital twins—computational replicas of real social systems. It shows a progression from abstract models (used to understand general social patterns) to realistic, data-driven simulations (used to represent specific communities or institutions). The work matters because it bridges classical computational social science with modern generative AI, offering a roadmap for building trustworthy simulations of human systems.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evaluating Encoding Strategies for Closed-Loop Classification in Biological Neural Networks",
+    "authors": "Martin Schottlender, Veronika Volkova, Pengjie Zhou, Ruifeng Zheng, Frank H. P. Fitzek et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13644v1",
+    "pdf": "https://arxiv.org/pdf/2607.13644v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper investigates how to encode visual information into electrical stimulation patterns that cultured biological neural networks can process and learn from. The researchers tested four encoding strategies (rate-based, phase-based, burst-based, and temporal spike-timing) in a closed-loop classification task and found that burst-based temporal encoding significantly outperforms others, achieving 95.6% accuracy—suggesting that both *when* and *where* you stimulate neurons matters critically for brain-computer interfaces.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Extending Liquid Rank Toward Multi-Source Reputation Aggregation",
+    "authors": "Nejc Znidar, Anton Kolonin",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13615v1",
+    "pdf": "https://arxiv.org/pdf/2607.13615v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper extends liquid rank—a reputation system that allows influence to flow dynamically through networks—to handle multiple reputation sources at once. Instead of relying on a single reputation signal, the framework lets different types of reputation (from different platforms, communities, or contexts) be combined into one unified score, with adjustable weights for each source. This matters because real governance systems (DAOs, online communities, delegated authority structures) often need to balance reputation from many channels, and this work provides the technical machinery to do so fairly and flexibly.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Visual Place Recognition Using Rate-Encoded Spiking Neural Networks with Discrete STDP Learning",
+    "authors": "Altzi Tsanko, Oikonomou Katerina Maria, Antonios Gasteratos",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13584v1",
+    "pdf": "https://arxiv.org/pdf/2607.13584v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper improves visual place recognition (identifying revisited locations in images) using spiking neural networks trained with unsupervised learning rules inspired by neuroscience. The key innovation is a discrete, efficient implementation that achieves near-perfect precision-recall tradeoffs needed for autonomous robot navigation, through careful engineering of neuron assignment, state management, and temporal aggregation during inference.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DevicesWorld: Benchmarking Cross-Device Agents in Heterogeneous Environments",
+    "authors": "Huatao Li, Xinwei Geng, Yuheng Wang, Yutong Li, Runde Yang et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13465v1",
+    "pdf": "https://arxiv.org/pdf/2607.13465v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces DevicesWorld, a benchmark for evaluating LLM-based agents that must coordinate actions across multiple heterogeneous devices (phones, desktops, IoT systems) to complete real-world tasks. Current agents struggle dramatically on this challenge—even the best system achieves only 12.5% success—revealing that today's agents cannot reliably acquire information from one device, process it on another, and deliver results to a third, highlighting a critical gap between single-device and real-world multi-device operation.",
+    "date_added": "2026-07-16",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Is Deep Hedging Reinforcement Learning?",
+    "authors": "Frédéric Godin",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.13353v1",
+    "pdf": "https://arxiv.org/pdf/2607.13353v1",
+    "tags": [
+      "quantitative-finance",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper defends the characterization of deep hedging—a neural network approach to minimizing trading losses through Monte Carlo simulation—as a form of reinforcement learning. The author argues that critics have adopted an overly narrow, temporal-difference-centric view of RL and that deep hedging actually fits squarely within the broader RL umbrella when Monte Carlo policy-gradient methods are properly recognized as legitimate RL techniques.",
+    "date_added": "2026-07-16",
+    "trusted": ""
   },
   {
     "source": "arxiv",
