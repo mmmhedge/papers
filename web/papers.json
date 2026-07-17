@@ -2,6 +2,38 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "authors": "OpenAI",
+    "published": "2026-07-16",
+    "url": "https://openai.com/index/cars24",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "Cars24 deployed OpenAI-powered voice and chat agents to automate customer conversations at scale, processing over 1 million monthly conversation minutes. The system recovered 12% of previously lost leads and enabled teams across the company to integrate agentic workflows into their operations.",
+    "date_added": "2026-07-17",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+    "authors": "Hugging Face",
+    "published": "2026-07-16",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "nlp"
+    ],
+    "summary": "NVIDIA released Nemotron 3 Embed, a text embedding model that achieved top performance on the RTEB (Retrieval Text Embedding Benchmark) leaderboard. The model is optimized for agentic retrieval workflows, where AI agents need to efficiently search and retrieve relevant information from large corpora to support reasoning and decision-making tasks.",
+    "date_added": "2026-07-17",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
     "authors": "OpenAI",
     "published": "2026-07-15",
@@ -384,6 +416,484 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "authors": "Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng, Fengyuan Hu, Yunhao Ge et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15275v1",
+    "pdf": "https://arxiv.org/pdf/2607.15275v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "RoboTTT extends robot policies to process 8,000 timesteps of visual and action history—roughly 1,000 times longer than current approaches—without slowing down inference. This long context window enables robots to learn from human video demonstrations in one shot, recover from disruptions, and complete complex multi-stage tasks. The key insight is that scaling context length, like scaling model size in large language models, is a new axis for improving robot foundation models.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+    "authors": "Yushi Huang, Xiangxin Zhou, Jun Zhang, Liefeng Bo, Tianyu Pang",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15273v1",
+    "pdf": "https://arxiv.org/pdf/2607.15273v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces MeanFlowNFT, a method that combines reinforcement learning with fast image and video generators called MeanFlow models. The key innovation is making it possible to use RL (which typically requires fine-grained velocity predictions) with MeanFlow generators (which use average velocities to sample quickly). The result: better-quality images and videos in just a few generation steps, outperforming existing few-step methods while being much faster than traditional diffusion models.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+    "authors": "Yasheng Sun, Zezi Zeng, Yifan Yang, Chong Luo, Wenyi Wang et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15272v1",
+    "pdf": "https://arxiv.org/pdf/2607.15272v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper introduces SciDiagramEdit, a system that automatically edits scientific figures based on natural-language instructions by learning from real paper revisions found on arXiv. The work matters because figure editing is tedious and repetitive for researchers, and automating it could save significant time while maintaining the visual grammar and semantic correctness that dense scientific diagrams require.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+    "authors": "Mingfei Chen, Zijun Cui, Ruoke Zhang, Hyeonggon Ryu, Eli Shlizerman",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15265v1",
+    "pdf": "https://arxiv.org/pdf/2607.15265v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "SceneBind is a multi-modal AI system that understands scenes by combining *what* things are (semantics) with *where* they are located (3D spatial structure) across vision, audio, and language. Existing systems are good at recognizing objects but weak at understanding their spatial relationships; this paper fills that gap by representing scenes with both semantic embeddings and object-level spatial slots, enabling tasks like cross-modal scene retrieval and audio-visual localization.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+    "authors": "Paul Kassianik, Blaine Nelson, Yaron Singer",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15263v1",
+    "pdf": "https://arxiv.org/pdf/2607.15263v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper argues that security agent evaluations should measure cost-efficiency, not just success rate. The authors benchmark language-model agents on both offensive hacking tasks (CTF challenges) and defensive cybersecurity tasks (log analysis), showing that offensive and defensive agents scale differently with computational budget—and that real-world operational constraints make raw reasoning power less important than smart tool selection and data navigation.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decoding Market Emotion from Blockchain Activity: A Data-Driven Sentiment Classifier",
+    "authors": "Arthur G. Bubolz, Abreu Quevedo, Giancarlo Lucca, Rafael A. Berri, Eduardo Borges et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15258v1",
+    "pdf": "https://arxiv.org/pdf/2607.15258v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance"
+    ],
+    "summary": "This paper builds a machine learning classifier that predicts Bitcoin market sentiment by combining on-chain blockchain data (transaction patterns), price history, and Twitter sentiment. Rather than forecasting prices directly, it explains *whether* the market feels bullish or bearish using interpretable models (XGBoost), achieving 84% accuracy and using SHAP analysis to show which blockchain features matter most.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+    "authors": "Yuyao Zhang, Junjie Gao, Zhengxian Wu, Jiaming Fan, Jin Zhang et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15257v1",
+    "pdf": "https://arxiv.org/pdf/2607.15257v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "SearchOS is a system framework that helps multiple AI agents work together to find and verify information from the web more reliably. The core problem: when agents search for answers, they get stuck in loops, waste search attempts, and lose track of what they've already tried. SearchOS solves this by making the search process explicit and shared — agents maintain a persistent map of what they've found, what gaps remain, and what failed before — allowing them to coordinate and avoid wasting effort.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Bridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search",
+    "authors": "Debayan Mukhopadhyay, Utshab Kumar Ghosh, Shubham Chatterjee",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15253v1",
+    "pdf": "https://arxiv.org/pdf/2607.15253v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper reveals a fundamental gap between how retrieval systems are currently trained and how they actually perform when integrated into multi-step AI agents. Traditional retrieval systems are evaluated on whether a single document directly answers a question; but when a language model acts as a search agent making multiple queries over time, a document's true value lies in enabling better future searches, not in answering the current question. The authors measure this gap systematically and find that about one-third of documents agents actually use appear useless by traditional metrics—these \"bridge documents\" matter only for redirecting the agent's search trajectory.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA",
+    "authors": "Sushant Gautam, Vajira Thambawita, Michael A. Riegler, Pål Halvorsen, Steven A. Hicks",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15241v1",
+    "pdf": "https://arxiv.org/pdf/2607.15241v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper studies nine AI systems designed for visual question answering in medical endoscopy, asking which design choices lead to trustworthy and interpretable answers rather than just high benchmark scores. The authors find that while parameter-efficient fine-tuning achieves strong performance metrics, methods that enforce structured reasoning and explicit evidence grounding produce more reliable clinical reasoning—suggesting that leaderboard performance alone is insufficient for healthcare AI.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations",
+    "authors": "Yazhi Zhang, Fuqiang Niu, Bowen Zhang",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15240v1",
+    "pdf": "https://arxiv.org/pdf/2607.15240v1",
+    "tags": [
+      "computer-vision",
+      "nlp"
+    ],
+    "summary": "This paper introduces TikStance, a dataset of 13,876 comments on 161 TikTok political videos for detecting stance (favor, against, or neutral) toward candidates in the 2024 U.S. election. The dataset is unique because it preserves both video and audio content alongside hierarchical comment threads, enabling research on how political opinions are expressed and debated across multimodal short-form video platforms—a gap in existing datasets.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Language Identification via Compositional Data Analysis: A Linear-Time Classifier Based on Log-Ratio Geometry",
+    "authors": "Paul-Andrei Pogăcean, Sanda-Maria Avram",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15238v1",
+    "pdf": "https://arxiv.org/pdf/2607.15238v1",
+    "tags": [
+      "nlp"
+    ],
+    "summary": "This paper presents a lightweight, linear-time method for identifying which language a text is written in by treating character and bigram frequencies as compositional data — mathematical objects constrained to sum to 1, like probability distributions. Instead of using neural networks or standard distance metrics, the authors map these frequency vectors into a special geometric space (via centered log-ratio transformation) where standard Euclidean distance becomes statistically appropriate, then classify with simple nearest-neighbor or linear methods. The approach is fast, interpretable, and works well even on short texts.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+    "authors": "Qi Li, Xingyi Yang, Xinchao Wang",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15207v1",
+    "pdf": "https://arxiv.org/pdf/2607.15207v1",
+    "tags": [
+      "alignment",
+      "deep-learning"
+    ],
+    "summary": "This paper reveals a critical vulnerability in world-action models (WAMs) — neural networks that control robots by jointly predicting future states and selecting actions. The researchers show that small visual perturbations can cause a WAM to imagine a safe future while executing dangerous actions, breaking the assumed safety guarantee. This \"world-action drift\" exposes a fundamental misalignment between a model's predictions and its actual behavior.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation",
+    "authors": "Hoang-Loc Cao, Van Pham, Truong Thanh Hung Nguyen, Phuc Truong Loc Nguyen, Phuc Ho et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15202v1",
+    "pdf": "https://arxiv.org/pdf/2607.15202v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a framework for creating high-quality, explainable datasets for depression diagnosis by combining LLM-assisted annotation with expert feedback. The key innovation is a dual-memory system that learns from expert corrections without retraining, producing datasets aligned with clinical standards (DSM-5-TR) and traceable reasoning for each diagnosis decision.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
+    "authors": "Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15200v1",
+    "pdf": "https://arxiv.org/pdf/2607.15200v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper extends reinforcement learning to Masked Diffusion Language Models (MDLMs)—a class of generative models that produce text by iteratively unmasking tokens in a non-left-to-right order. The key challenge is that existing RL methods struggle because computing log-likelihoods for MDLMs is intractable. The authors show that MDLM generation involves two distinct decisions (what tokens to predict, and which positions to unmask next) and derive a policy gradient that decomposes cleanly into both terms, achieving strong results on reasoning and code generation benchmarks.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SciPhy Reinforcement Learning for Portfolio Optimization",
+    "authors": "Igor Halperin, Andrey Itkin",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15195v1",
+    "pdf": "https://arxiv.org/pdf/2607.15195v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies physics-informed reinforcement learning to portfolio optimization for large institutional investors, combining offline learning from historical data with microstructure-aware execution costs. The key innovation is solving the optimal control problem (expressed as a Hamilton-Jacobi-Bellman equation) directly from data using neural networks, then converting continuous trading rates into discrete target holdings to match real-world execution constraints. The method shows measurable improvements in risk-adjusted returns (Sharpe ratio) on a real ETF portfolio while keeping turnover and volatility under control.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Stigmergic Graph Memory: An Environment-Aware Approach for Many-to-Many Multi-Agent Pickup and Delivery",
+    "authors": "Aditya Dutta, Joon-Seok Kim",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15182v1",
+    "pdf": "https://arxiv.org/pdf/2607.15182v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper addresses a key logistics problem: how to automatically assign pickup-and-delivery tasks across multiple agents in crowded warehouses. The authors propose Stigmergic Graph Memory (SGM), a memory system that tracks recent activity (congestion, collisions, delays) at warehouse locations and uses that information to smartly choose which pickup and delivery points to assign to each agent—before path planning happens. On simulated warehouse layouts, SGM achieves 20–37% throughput gains over existing methods by letting past execution patterns inform task allocation, not just routing.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RTS Smoother-Guided Learning of Physics-Based Neural Differential Models",
+    "authors": "Ahmet Demirkaya, Georgios Stratis, Tales Imbiriba, Zachary D. Danziger, Deniz Erdogmus",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15180v1",
+    "pdf": "https://arxiv.org/pdf/2607.15180v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper proposes a hybrid approach that combines known physics equations with neural networks to model dynamical systems when only partial measurements are available. The method alternates between inferring hidden system states (using a classical statistical smoother) and learning the neural network parameters, allowing it to discover missing physics while maintaining interpretability. This matters because many real systems have well-understood components alongside unknown dynamics—and current pure neural approaches often miss the structure that makes models trustworthy and generalizable.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
+    "authors": "Ziyang Cai, Xingyu Zhu, Yihe Dong, Yinghui He, Sanjeev Arora",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15178v1",
+    "pdf": "https://arxiv.org/pdf/2607.15178v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper proposes T²MLR, a modification to transformer architectures that injects cached intermediate representations from one decoding step into earlier layers of the next step. This allows abstract reasoning to persist across token generation without the computational overhead of full recurrence, and works even when retrofitted onto existing pretrained models. The approach consistently improves reasoning tasks while reducing the need for expensive full-network recurrence.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
+    "authors": "Dylan Van Mulders, Matthias Bogaert, Dirk Van den Poel",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15095v1",
+    "pdf": "https://arxiv.org/pdf/2607.15095v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper builds a multi-agent simulation where LLM-based agents representing political parties negotiate to form coalitions, mirroring real-world government formation. The authors solve a critical problem: standard LLMs trained with RLHF are too neutral and helpful to sustain partisan positions needed for realistic political negotiation. They introduce interpretability tools (lineage tracing, influence scoring) that make the emergent agreements auditable and grounded in party manifestos.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "cGAP: Generalized Association Plots with HOMALS-Guided Heatmaps for Visualization of High-Dimensional Categorical Data",
+    "authors": "Chun-houh Chen, Shun-Chuan Chang, Chiun-How Kao, Yi-Ju Lee, Shang-Ying Shiu et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15018v1",
+    "pdf": "https://arxiv.org/pdf/2607.15018v1",
+    "tags": [],
+    "summary": "This paper introduces cGAP, a visualization framework for high-dimensional categorical data that combines dimensionality reduction (HOMALS) with heatmap-based displays. It lets researchers explore complex categorical datasets—like genetic profiles or survey responses—while keeping the original data visible and interpretable, something existing visualization tools struggle to do at scale.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SMC-ES: Automated synthesis of formally verified control policies",
+    "authors": "Riccardo Curcio, Toni Mancini, Enrico Tronci",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15003v1",
+    "pdf": "https://arxiv.org/pdf/2607.15003v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical gap in deploying learning-based controllers for safety-critical systems: while reinforcement learning can automatically synthesize control policies, it typically cannot guarantee they're safe. The authors propose SMC-ES, a method that combines evolutionary strategies (a type of black-box optimization) with statistical model checking (a lightweight formal verification technique) to synthesize policies that come with formal guarantees: with high confidence, the policy will violate safety specifications at most a specified small fraction of the time.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows",
+    "authors": "Sizhong Qin, Yi Gu, Yao Jiang, Ao Cai, Changjian Zhou et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14896v1",
+    "pdf": "https://arxiv.org/pdf/2607.14896v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "StructureClaw is a workbench and benchmark for evaluating LLM agents on structural engineering tasks. Unlike typical LLM benchmarks that score isolated answers, this system traces the entire workflow—from interpreting requirements through modeling, validation, solving, and reporting—ensuring agents produce complete, executable, internally consistent engineering solutions. This matters because real engineering demands more than fluent text: it requires a chain of interdependent artifacts that hang together.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Energy Society: A Simulation Environment for Studying Agent Cooperation under Survival Pressure",
+    "authors": "Lucas Bergholdt Hansen, Federico Torrielli, Filippo Tonini, Lukas Galke Poech",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14865v1",
+    "pdf": "https://arxiv.org/pdf/2607.14865v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces The Energy Society, a simulation environment where LLM-based agents must survive by managing energy (which costs are tied to model inference). The researchers study how competitive versus cooperative incentives shape agent behavior when survival is at stake. The key finding: cooperative incentives dramatically change behavior—agents donate energy to save others even at personal cost—while competitive settings reveal subtle self-serving patterns rather than overt sabotage.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cross-Layer Error Compensation and Finite-Sample Feature-Statistics Matching for Extreme Low-Bit Quantization of Large Language Models",
+    "authors": "Ryona Noda",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14630v1",
+    "pdf": "https://arxiv.org/pdf/2607.14630v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tackles extreme low-bit quantization of large language models—compressing them to 1-bit or 4-bit weights while preserving performance. The authors show that quantizing layers independently causes errors to compound across the network's depth; their solution couples all layers together, compensating for errors as they propagate and matching statistical properties between the compressed and original models. On a 1.5B parameter model, their method achieves 9× worse perplexity than the original (versus 14× for standard approaches), a substantial improvement at extreme compression ratios.",
+    "date_added": "2026-07-17",
+    "trusted": "Mistral"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Probabilistic Physics-Informed Neural Networks for Estimating Heterogeneous Elastic Properties from Low-Resolution and Noisy Displacement Data",
+    "authors": "Tatthapong Srikitrungruang, Jaesung Lee",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14563v1",
+    "pdf": "https://arxiv.org/pdf/2607.14563v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes PIE-PINN, a probabilistic neural network method for estimating material properties (Young's modulus and Poisson's ratio) from noisy, low-resolution measurements of how materials deform under stress. The key innovation is treating measurement uncertainty and model errors probabilistically rather than with fixed weights, making the method robust when data is degraded or sparse—a problem that typically defeats standard inverse methods.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Adaptive Runge-Kutta Step Control Buys Training Loss, Not Generalization: An Honest Compute-Matched Study of RK-Adam Optimizers",
+    "authors": "Akhilesh Gogikar",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14516v1",
+    "pdf": "https://arxiv.org/pdf/2607.14516v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tests whether higher-order Runge-Kutta integrators improve neural network training when fairly compared to Adam under equal computational budgets. The authors find that the popular idea of using adaptive step control from numerical integration yields no real benefit — the method behaves as fixed-step Adam at 3–4× higher cost, and while modifications can improve training loss, they do not improve test accuracy or generalize better than simple tuned baselines.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Noise-Robust Elicit-to-Optimize Framework for Distortion Riskmetrics via Inverse Reinforcement Learning",
+    "authors": "Yang Liu, Yuhao Liu, Yunran Wei",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14373v1",
+    "pdf": "https://arxiv.org/pdf/2607.14373v1",
+    "tags": [
+      "quantitative-finance",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper proposes a framework that combines inverse reinforcement learning (IRL) and standard RL to solve two problems: inferring what risk preferences an agent has from their noisy decisions, and then optimizing investment policies under those inferred preferences. The work is important because understanding and optimizing for risk—not just returns—is central to financial decision-making, and agents often make suboptimal or stochastic choices that don't fit traditional models.",
+    "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion",
+    "authors": "Fengzhuo Zhang, Zhuoran Yang, Dirk Bergemann",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14371v1",
+    "pdf": "https://arxiv.org/pdf/2607.14371v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper analyzes when users should invest in expensive model fine-tuning versus cheaper in-context learning for personalizing large language models, accounting for shared computational resources. The authors develop an equilibrium framework showing that congestion from other users' choices fundamentally reshapes which personalization strategy is optimal, and prove that platforms benefit by offering both methods despite increased load.",
+    "date_added": "2026-07-17",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "NeuralChaos: Optimal Adapted Approximation of Square Integrable Predictable Processes",
+    "authors": "Anastasis Kratsios, Giulia Livieri, Philipp Schmocker",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14361v1",
+    "pdf": "https://arxiv.org/pdf/2607.14361v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces NeuralChaos, a neural network architecture that efficiently represents predictable stochastic processes — random quantities that evolve over time in ways driven by Brownian motion. The method solves a fundamental problem in mathematical finance and control: traditional approaches require computing prohibitively expensive high-order integrals, while NeuralChaos achieves the same theoretical guarantees using only finitely many evaluations of the underlying randomness. This matters because stochastic processes are central to pricing derivatives, optimal trading, and reinforcement learning in continuous time.",
+    "date_added": "2026-07-17",
+    "trusted": ""
   },
   {
     "source": "arxiv",
