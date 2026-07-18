@@ -553,6 +553,23 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "AutoSynthesis: An agentic system for automated meta-analysis",
+    "authors": "Moein Taherinezhad, Sebastian Maier, Gerardo Vitagliano, Francesco Pierri, Stefan Feuerriegel",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15247v1",
+    "pdf": "https://arxiv.org/pdf/2607.15247v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "AutoSynthesis is an AI system that automates meta-analysis—the process of combining results from multiple scientific studies into a single quantitative conclusion. Given a research question in plain English, it retrieves papers, screens them, extracts data, and produces a standardized meta-analysis report. This matters because meta-analysis is essential for turning scattered research into reliable evidence for medicine, policy, and science, but doing it manually is slow and doesn't scale.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal VQA",
     "authors": "Sushant Gautam, Vajira Thambawita, Michael A. Riegler, Pål Halvorsen, Steven A. Hicks",
     "published": "2026-07-16",
@@ -601,6 +618,40 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "When Words Are Safe But Actions Kill: Probing Physical Danger Beyond Text Safety in Hidden-State Risk Space",
+    "authors": "Weimeng Wang, Ziqiang Wang, Zihang Zhan, Chuanpu Fu, Qi Li et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15218v1",
+    "pdf": "https://arxiv.org/pdf/2607.15218v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reveals that LLMs face two distinct safety problems: text-level harm (e.g., violent instructions) and physical-world danger (e.g., safe-sounding instructions that cause injury when a robot executes them). The authors show these dangers activate different parts of the model's internal representations, then build a lightweight detector (PRISM) that catches physical risks while avoiding false alarms on benign tasks—where standard safety filters fail.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+    "authors": "Maya Varma, Jean-Benoit Delbrouck, Sophie Ostmeier, Akshay Chaudhari, Curtis Langlotz",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15216v1",
+    "pdf": "https://arxiv.org/pdf/2607.15216v1",
+    "tags": [
+      "alignment",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a blind spot in multimodal AI: when vision-language models systematically misinterpret images in predictable ways. The authors create Symbal, a method to automatically detect these recurring errors by finding associations between specific visual features and caption mistakes, plus SymbalBench, a benchmark with 1.7 million annotated image-caption pairs to evaluate such detection. The work matters because it lets practitioners audit AI-generated captions for bias and errors without access to the model's internals.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
     "authors": "Qi Li, Xingyi Yang, Xinchao Wang",
     "published": "2026-07-16",
@@ -612,6 +663,23 @@
     ],
     "summary": "This paper reveals a critical vulnerability in world-action models (WAMs) — neural networks that control robots by jointly predicting future states and selecting actions. The researchers show that small visual perturbations can cause a WAM to imagine a safe future while executing dangerous actions, breaking the assumed safety guarantee. This \"world-action drift\" exposes a fundamental misalignment between a model's predictions and its actual behavior.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization",
+    "authors": "Shaoxiong Zhan, Shi Hu, Boyu Feng, Hai Lin, Andrew Gong et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15205v1",
+    "pdf": "https://arxiv.org/pdf/2607.15205v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces MM-IssueLoc, a benchmark for evaluating how well AI systems can locate bugs in code repositories when given both text descriptions and visual evidence like screenshots or error dialogs. Current benchmarks treat bug localization as text-only, so this work fills a gap by creating a controlled dataset with 652 real issues across 23 programming languages and measuring whether visual information actually helps systems find the right code location.",
+    "date_added": "2026-07-18",
     "trusted": ""
   },
   {
@@ -662,6 +730,23 @@
     ],
     "summary": "This paper applies physics-informed reinforcement learning to portfolio optimization for large institutional investors, combining offline learning from historical data with microstructure-aware execution costs. The key innovation is solving the optimal control problem (expressed as a Hamilton-Jacobi-Bellman equation) directly from data using neural networks, then converting continuous trading rates into discrete target holdings to match real-world execution constraints. The method shows measurable improvements in risk-adjusted returns (Sharpe ratio) on a real ETF portfolio while keeping turnover and volatility under control.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+    "authors": "Madhumitha Venkatesan, Shicheng Wen, Jiajing Guo, Jorge Piazentin Ono, Liu Ren et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15193v1",
+    "pdf": "https://arxiv.org/pdf/2607.15193v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "Plover is a GUI automation system that makes AI agent behavior transparent and correctable by externalizing task plans as editable artifacts. Instead of having agents act as black boxes, Plover lets users see, inspect, and modify the agent's plan at each step, enabling human-in-the-loop correction when things go wrong. This matters because real-world GUI automation is fragile—unexpected dialogs and layout changes cause agents to fail—and human visibility into agent reasoning is critical for practical deployment.",
+    "date_added": "2026-07-18",
     "trusted": ""
   },
   {
@@ -718,6 +803,71 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+    "authors": "Patrick Phuoc Do, Chau M. Ta, Chaoli Wang",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15176v1",
+    "pdf": "https://arxiv.org/pdf/2607.15176v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper evaluates how well six multimodal large language models (MLLMs)—AI systems that process both text and images—can understand scientific visualizations like charts, diagrams, and illustrations. The researchers created a standardized test based on 49 real scientific visualizations and compared model performance against 485 human participants, finding that current models struggle significantly with quantitative reasoning and complex visualization types, even though they excel at simpler tasks.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On-Policy Delta Distillation",
+    "authors": "Byeongho Heo, Jaehui Hwang, Sangdoo Yun, Dongyoon Han",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15161v1",
+    "pdf": "https://arxiv.org/pdf/2607.15161v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes On-Policy Delta Distillation (OPD²), a method for training reasoning-capable language models more efficiently by having a student model learn from the *differences* between a reasoning-tuned teacher and its base version, rather than imitating the teacher directly. The approach works within reinforcement learning post-training and is shown to improve performance on math, science, and code tasks while requiring shorter training periods than standard distillation.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Concept-Guided Spatial Regularization for World Models in Atari Pong",
+    "authors": "Yukuan Lu, Zaishuo Xia, Weyl Lu, Yubei Chen",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15142v1",
+    "pdf": "https://arxiv.org/pdf/2607.15142v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates why visual world models—neural networks that predict future video frames in reinforcement learning—fail to capture task-critical details, even when the agents they're trained with perform well. The authors test five state-of-the-art models on Atari Pong and find systemic failures like disappearing balls and incorrect physics, then propose Concept-Guided Spatial Regularization (CGSReg) to improve performance by adding a reconstruction loss focused on semantically meaningful regions like the ball.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning in Infinitesimal Non-Compositional Sketches",
+    "authors": "Sridhar Mahadevan",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15107v1",
+    "pdf": "https://arxiv.org/pdf/2607.15107v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes LINCS (Learning in Infinitesimal Non-Compositional Sketches), a categorical framework for understanding when machine learning models fail to satisfy their design constraints. Instead of viewing failures as numerical prediction errors, the paper formalizes them as obstructions to categorical factorization problems — and introduces a method using infinitesimal perturbations (tangent space analysis) to detect and repair compositional breakdowns before they happen.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
     "authors": "Dylan Van Mulders, Matthias Bogaert, Dirk Van den Poel",
     "published": "2026-07-16",
@@ -730,6 +880,53 @@
     ],
     "summary": "This paper builds a multi-agent simulation where LLM-based agents representing political parties negotiate to form coalitions, mirroring real-world government formation. The authors solve a critical problem: standard LLMs trained with RLHF are too neutral and helpful to sustain partisan positions needed for realistic political negotiation. They introduce interpretability tools (lineage tracing, influence scoring) that make the emergent agreements auditable and grounded in party manifestos.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
+    "authors": "Sarthak Jain, Qiran Hu, Zhen Zhu, Yaoyao Liu",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15094v1",
+    "pdf": "https://arxiv.org/pdf/2607.15094v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper addresses a fundamental problem in continual learning for multimodal models like CLIP: how to adapt to new data without forgetting earlier cross-modal alignments. AlphaWiSE solves this by interpolating between two frozen model checkpoints using learned scalar weights, achieving better stability-plasticity trade-offs than existing methods while keeping the same model size and inference cost.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence",
+    "authors": "Haocheng Yang, Licheng Pan, Xiaoxi Li, Zhichao Chen, Zhiheng Zhang et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15092v1",
+    "pdf": "https://arxiv.org/pdf/2607.15092v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Rubrics on Trial, a method for automatically generating evaluation rubrics (scoring criteria) for large language models using only a query as input. Instead of relying on human-written rubrics or preference data, the approach creates and validates rubric candidates by testing them against synthetic model-generated response pairs, filtering out those that don't meaningfully distinguish answer quality. The work matters because automatic rubric generation could make it faster and cheaper to train and evaluate LLMs on new tasks.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evaluating covariate balance for long time horizon Markov decision processes",
+    "authors": "Joshua Spear, Rebecca Pope, Neil J Sebire",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15080v1",
+    "pdf": "https://arxiv.org/pdf/2607.15080v1",
+    "tags": [
+      "reinforcement-learning"
+    ],
+    "summary": "This paper examines whether standard covariate balance diagnostics — statistical tools used to check if treatment groups are comparable — can reliably detect hidden confounding and model errors in offline reinforcement learning (RL) studies that recommend medical treatments. The authors find that existing covariate balance metrics appear insufficient for this task, suggesting that current offline RL treatment recommendation studies may be statistically unreliable.",
+    "date_added": "2026-07-18",
     "trusted": ""
   },
   {
@@ -759,6 +956,23 @@
     ],
     "summary": "This paper addresses a critical gap in deploying learning-based controllers for safety-critical systems: while reinforcement learning can automatically synthesize control policies, it typically cannot guarantee they're safe. The authors propose SMC-ES, a method that combines evolutionary strategies (a type of black-box optimization) with statistical model checking (a lightweight formal verification technique) to synthesize policies that come with formal guarantees: with high confidence, the policy will violate safety specifications at most a specified small fraction of the time.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios",
+    "authors": "Chengyu Shen, Yujie Fu, Gangtao Xin, Yanheng Hou, Wenlong Fei et al.",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14989v1",
+    "pdf": "https://arxiv.org/pdf/2607.14989v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "OmniaBench is a comprehensive benchmark for evaluating AI agents — systems that combine language understanding with tool use and interactive reasoning — across 354 real-world application domains. The work reveals that even state-of-the-art models like Claude and GPT-5 struggle with complex, multi-step tasks, succeeding less than 60% of the time, and identifies specific weaknesses in planning and error recovery.",
+    "date_added": "2026-07-18",
     "trusted": ""
   },
   {
@@ -798,6 +1012,38 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Dialogue Summarization with Emotion Dynamics Using Topic- and Participant-Centric Decomposition",
+    "authors": "Linyun Xiang, Mark Neerincx, Stephanie Tan",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14769v1",
+    "pdf": "https://arxiv.org/pdf/2607.14769v1",
+    "tags": [
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper proposes a new framework for summarizing dialogues (conversations between multiple people) that captures not just *what* was said, but *how people felt* throughout the exchange. Unlike existing summarization methods built for single-author documents like news articles, this approach decomposes conversations by topic and by individual speaker, then combines these perspectives to generate summaries that preserve both semantic content and emotional trajectories—a first step toward making dialogue summaries emotionally faithful to the original conversation.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Does Multi-Agent Debate Improve AI Feedback on Research Papers?",
+    "authors": "Tomas Havranek, Zuzana Irsova",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14713v1",
+    "pdf": "https://arxiv.org/pdf/2607.14713v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper tests whether multi-agent debate—where multiple AI systems discuss a problem to improve output quality—actually helps provide better feedback on research papers. The authors ran a pre-registered experiment with 44 economics meta-analysis authors who compared feedback from a single AI model pass against two debate-based systems. Surprisingly, authors consistently preferred the simpler single-pass approach, even though the debate systems used vastly more computational resources, suggesting that multi-agent debate may not improve AI feedback quality in this domain.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Cross-Layer Error Compensation and Finite-Sample Feature-Statistics Matching for Extreme Low-Bit Quantization of Large Language Models",
     "authors": "Ryona Noda",
     "published": "2026-07-16",
@@ -811,6 +1057,23 @@
     "summary": "This paper tackles extreme low-bit quantization of large language models—compressing them to 1-bit or 4-bit weights while preserving performance. The authors show that quantizing layers independently causes errors to compound across the network's depth; their solution couples all layers together, compensating for errors as they propagate and matching statistical properties between the compressed and original models. On a 1.5B parameter model, their method achieves 9× worse perplexity than the original (versus 14× for standard approaches), a substantial improvement at extreme compression ratios.",
     "date_added": "2026-07-17",
     "trusted": "Mistral"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+    "authors": "Soham Gadgil, David Alexander, Sai Sunku, Franziska Roesner",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14611v1",
+    "pdf": "https://arxiv.org/pdf/2607.14611v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates how agentic systems that store persistent memory across sessions become vulnerable to prompt injection attacks — a type of adversarial manipulation where malicious instructions are hidden in files that the agent will read later. The researchers tested two commercial systems (Claude and GPT-based agents) and found that while it's hard to trick agents into corrupting their own memory, pre-planted malicious payloads in memory files can successfully manipulate agent behavior across multiple sessions. This reveals a new security risk as AI agents become more autonomous and adaptive.",
+    "date_added": "2026-07-18",
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -831,6 +1094,23 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Towards an Intention Abstraction Layer for Autonomous Industrial Systems",
+    "authors": "Artan Markaj, Raphael Höfer, Felix Gehlhoff",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14553v1",
+    "pdf": "https://arxiv.org/pdf/2607.14553v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes an Intention Abstraction Layer (IAL) — a middleware system that lets multiple autonomous industrial systems (like schedulers, energy managers, vehicle fleets) register their high-level goals in natural language, then automatically detects conflicts before they cause failures. The key insight: instead of discovering conflicts after a crash or missed target, catch them at registration time by treating human intentions as explicit, persistent runtime objects that can be checked for consistency.",
+    "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Adaptive Runge-Kutta Step Control Buys Training Loss, Not Generalization: An Honest Compute-Matched Study of RK-Adam Optimizers",
     "authors": "Akhilesh Gogikar",
     "published": "2026-07-16",
@@ -842,6 +1122,22 @@
     ],
     "summary": "This paper tests whether higher-order Runge-Kutta integrators improve neural network training when fairly compared to Adam under equal computational budgets. The authors find that the popular idea of using adaptive step control from numerical integration yields no real benefit — the method behaves as fixed-step Adam at 3–4× higher cost, and while modifications can improve training loss, they do not improve test accuracy or generalize better than simple tuned baselines.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mixed-Agent Museum Tour Guide Design Improves Gendered Learning Outcomes and Visitor Preferences",
+    "authors": "Annette M. Masterson, Wonse Jo, Helena C. Sieh, Lionel P. Robert,, Dawn Tilbury",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.14468v1",
+    "pdf": "https://arxiv.org/pdf/2607.14468v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a mixed-agent museum tour guide system that combines a physical robot with a projected virtual agent to guide visitors. Through a study of 30 participants, the researchers found that the dual-agent setup improved learning for female visitors and was preferred by all visitors, suggesting that multi-agent interaction designs can enhance both engagement and educational outcomes in public spaces.",
+    "date_added": "2026-07-18",
     "trusted": ""
   },
   {
