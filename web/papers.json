@@ -752,6 +752,22 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Can We Trust Item Response Theory for AI Evaluation?",
+    "authors": "Han Jiang, Sunbeom Kwon, Jinwen Luo, Ziang Xiao, Susu Zhang",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15190v1",
+    "pdf": "https://arxiv.org/pdf/2607.15190v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper examines whether item response theory (IRT)—a statistical method borrowed from educational testing—reliably evaluates AI models on benchmarks. The authors show that standard IRT estimation breaks down when applied to typical AI benchmark conditions: few models, many test items, and skewed capability distributions. They simulate 18,000 scenarios to identify when IRT rankings and predictions become untrustworthy, revealing critical gaps between human testing (where IRT was designed) and AI evaluation practice.",
+    "date_added": "2026-07-19",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Stigmergic Graph Memory: An Environment-Aware Approach for Many-to-Many Multi-Agent Pickup and Delivery",
     "authors": "Aditya Dutta, Joon-Seok Kim",
     "published": "2026-07-16",
@@ -927,6 +943,22 @@
     ],
     "summary": "This paper examines whether standard covariate balance diagnostics — statistical tools used to check if treatment groups are comparable — can reliably detect hidden confounding and model errors in offline reinforcement learning (RL) studies that recommend medical treatments. The authors find that existing covariate balance metrics appear insufficient for this task, suggesting that current offline RL treatment recommendation studies may be statistically unreliable.",
     "date_added": "2026-07-18",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "An Introduction to Sparse Identification of Nonlinear Dynamics for Engineering Applications",
+    "authors": "Yao Cheng Li, Ana Larrañaga, Steven L. Brunton, Urban Fasel",
+    "published": "2026-07-16",
+    "url": "http://arxiv.org/abs/2607.15077v1",
+    "pdf": "https://arxiv.org/pdf/2607.15077v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This tutorial paper presents SINDy (Sparse Identification of Nonlinear Dynamics), a method that recovers interpretable mathematical equations governing complex systems from small datasets by performing sparse regression over candidate nonlinear terms. Unlike black-box neural networks, SINDy produces human-readable equations while requiring far less training data, making it practical for real engineering problems where data is scarce and understanding the physics matters.",
+    "date_added": "2026-07-19",
     "trusted": ""
   },
   {
@@ -1189,6 +1221,57 @@
     ],
     "summary": "This paper introduces NeuralChaos, a neural network architecture that efficiently represents predictable stochastic processes — random quantities that evolve over time in ways driven by Brownian motion. The method solves a fundamental problem in mathematical finance and control: traditional approaches require computing prohibitively expensive high-order integrals, while NeuralChaos achieves the same theoretical guarantees using only finitely many evaluations of the underlying randomness. This matters because stochastic processes are central to pricing derivatives, optimal trading, and reinforcement learning in continuous time.",
     "date_added": "2026-07-17",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation",
+    "authors": "Taksch Dube",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14357v1",
+    "pdf": "https://arxiv.org/pdf/2607.14357v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper asks a simple but overlooked question: when should someone tell the truth to an automated agent (like an autobidder or language-model proxy) acting on their behalf? The authors show that honesty is optimal only when the proxy is already playing the best action it can reach — a concept they call \"loyalty\" — and prove that no safety constraint can simultaneously be binding, truthful, and capability-preserving. The work bridges mechanism design theory with practical alignment problems in LLMs and automated bidding.",
+    "date_added": "2026-07-19",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI Agents Do Not Fail Alone:The Context Fails First",
+    "authors": "Fouad Bousetouane",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14275v1",
+    "pdf": "https://arxiv.org/pdf/2607.14275v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper argues that AI agent failures stem primarily from poor context engineering — the instructions, tools, memory, and guardrails surrounding an agent — rather than the agent's underlying model. The authors build ProofAgent-Harness, an evaluation framework that measures context quality across seven dimensions (role clarity, guardrails, instruction consistency, tool schemas, grounding, injection hardening, token efficiency) and validate that context scores predict specific failure modes like hallucination and tool misuse.",
+    "date_added": "2026-07-19",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Automatic Hard Example Synthesis with Multi-Level Agentic Data Curation",
+    "authors": "Genglin Liu, Muye Zhang, Krishnamurthy Viswanathan, Nichole J. Hansen, Blaž Bratanič et al.",
+    "published": "2026-07-15",
+    "url": "http://arxiv.org/abs/2607.14256v1",
+    "pdf": "https://arxiv.org/pdf/2607.14256v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents an automated system that uses multiple AI agents working together to create challenging test cases for multimodal AI models (systems that process both images and text). The goal is to make these models more robust against adversarial attacks and edge cases — tricky scenarios they might fail on. By synthesizing hard examples without human effort, the system improves safety model performance significantly (reducing errors from 41% to 24%).",
+    "date_added": "2026-07-19",
     "trusted": ""
   },
   {
