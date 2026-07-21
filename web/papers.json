@@ -2,6 +2,23 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "Safety and alignment in an era of long-horizon models",
+    "authors": "OpenAI",
+    "published": "2026-07-20",
+    "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "OpenAI describes safety and alignment challenges that emerge when deploying AI models capable of long-horizon reasoning and planning. The post documents real failures encountered in production, new risk categories specific to extended autonomy, and practical safeguards developed through iterative deployment cycles.",
+    "date_added": "2026-07-21",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "How Cars24 scales conversations and builds faster with OpenAI",
     "authors": "OpenAI",
     "published": "2026-07-16",
@@ -416,6 +433,499 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+    "authors": "Gaoyue Zhou, Zichen Jeff Cui, Ada Langford, Bowen Tan, Yann LeCun et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18236v1",
+    "pdf": "https://arxiv.org/pdf/2607.18236v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper proposes Patch Policy, a method that lets robot control policies use dense visual patch features from pretrained Vision Transformers instead of compressing images into single tokens. The approach achieves 40% better performance than global pooling methods and beats larger vision-language models while using 99.3% fewer parameters, making it practical for real-time robotic control.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+    "authors": "Kevin Du, Clara Kümpel, Michelle Wastl, Alex Warstadt",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18232v1",
+    "pdf": "https://arxiv.org/pdf/2607.18232v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper systematically studies how linguistic variation in user statements affects whether LLMs follow the user's stated beliefs or rely on their training knowledge. The authors create a controlled benchmark that pairs different linguistic expressions of belief (using presuppositions, certainty markers, tone) with factual queries, then test 16 models to identify which phrasings are most persuasive—finding that larger and instruction-tuned models are less susceptible to contextual framing than smaller base models.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+    "authors": "Masahiro Kato, Taka Kato",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18225v1",
+    "pdf": "https://arxiv.org/pdf/2607.18225v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies retrieval-augmented generation (RAG) — a technique where a model retrieves relevant examples before generating outputs — to the problem of learning optimal decision-making policies in causal inference. The key insight is that vector search (finding similar cases in an embedding space) can be understood as a form of nearest-neighbor matching, a classical causal inference method. The authors show how to decompose the error of such policies and provide theoretical guarantees, bridging modern machine learning with traditional causal reasoning.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+    "authors": "Naoto Usuyama, Jeya Maria Jose Valanarasu, Sicong Yao, Hanwen Xu, Jaspreet Bagga et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18218v1",
+    "pdf": "https://arxiv.org/pdf/2607.18218v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces GigaPath-Flash and GigaTIME-Flash, efficient foundation models for analyzing whole-slide pathology images and tumor immune microenvironments. By distilling larger models into compact versions with 22–21M parameters, these models retain 97% of performance while requiring 50× less compute, making clinical-scale pathology AI practical and widely accessible.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+    "authors": "Yuhang Wang, Yuling Shi, Shaoqiu Zhang, Jialiang Liang, Shilin He et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18213v1",
+    "pdf": "https://arxiv.org/pdf/2607.18213v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes SWE-Pruner Pro, a method that helps coding agents efficiently manage long contexts by pruning irrelevant tool outputs. Rather than using a separate classifier, the approach leverages internal representations the agent already computes while reading code, reducing token usage by up to 39% while maintaining or improving task performance on software engineering benchmarks.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS",
+    "authors": "Yihong Gu, Katherine Liao, Tianxi Cai",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18209v1",
+    "pdf": "https://arxiv.org/pdf/2607.18209v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper proposes ATLAS, a method for learning stable, transferable representations from high-dimensional data collected across multiple environments with different distributions. The key insight is that latent structure can be decomposed into *invariant factors* (shared across all environments) and *heterogeneous factors* (environment-specific), and that this decomposition enables robust prediction in new environments and strong out-of-sample generalization.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+    "authors": "Hang Zhang, Warren J. Gross",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18199v1",
+    "pdf": "https://arxiv.org/pdf/2607.18199v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper introduces PPL-Factory, a data selection method that identifies the most valuable training samples for fine-tuning language models while using only a fraction of the full dataset. The key insight is that different tasks (like math reasoning vs. general language modeling) benefit from different sample-scoring strategies, and the method combines task-specific perplexity scores with budget constraints to achieve better performance with far fewer samples — reaching full-data accuracy using just 1-10% of training data.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+    "authors": "Krish Agarwal, Zhuoming Chen, Yanyuan Qin, Zhenyu Gu, Atri Rudra et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18171v1",
+    "pdf": "https://arxiv.org/pdf/2607.18171v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "FlashRT is a system that uses AI coding agents to automatically optimize real-time multimodal applications (like voice agents and video generation) across multiple GPUs. Instead of requiring engineers to hand-tune deployments, FlashRT guides an agent through a series of code transformations—converting simple reference implementations into highly efficient, hardware-aware deployments that achieve up to 70× latency reduction and 3.6× throughput improvement.",
+    "date_added": "2026-07-21",
+    "trusted": "NVIDIA"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+    "authors": "Chinmay Rane, Kanishka Tyagi, Michael Manry",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18163v1",
+    "pdf": "https://arxiv.org/pdf/2607.18163v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Output Reset (OR), a smooth alternative to clipped policy objectives in reinforcement learning algorithms for language model post-training. Instead of the abrupt gradient changes in PPO and GRPO (which use hard clipping), OR applies a smooth one-sided saturation rule that changes how policy updates are computed. The authors test PPO-OR and GRPO-OR on a 1B parameter language model and find mixed results: PPO-OR gains reward under some settings but GRPO-OR shows stability improvements without consistent reward gains.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
+    "authors": "Alex Mathai, Shobini Iyer, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18161v1",
+    "pdf": "https://arxiv.org/pdf/2607.18161v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper identifies and addresses \"CodeSlop\"—the bloated, redundant code that AI agents generate as they explore solution paths during iterative problem-solving. The authors propose TRIM, an algorithm that minimizes the *trajectory* (search process) of coding agents rather than directly pruning the final code, reducing unnecessary verbosity by 18–33% while maintaining functional correctness and requiring less computational cost than existing approaches.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+    "authors": "Shyamal Y. Dharia, Stephen D. Smith, Camilo E. Valderrama",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18149v1",
+    "pdf": "https://arxiv.org/pdf/2607.18149v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes Differentiable Logic Gate Networks (Diff-Logic), a neural architecture that compiles into pure Boolean circuits executable via bitwise operations, enabling real-time EEG classification on power-constrained edge devices. The approach outperforms floating-point neural networks on dementia detection and achieves 2.9× speedup over standard MLPs while maintaining nearly constant inference time across 10× increases in model size—solving a critical bottleneck in portable brain-computer interfaces.",
+    "date_added": "2026-07-21",
+    "trusted": "NVIDIA"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+    "authors": "Daniela Rojas, Abdulwahab Albassam, Aidan G. Leung, Jett Ngo, Ryan Luo et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18147v1",
+    "pdf": "https://arxiv.org/pdf/2607.18147v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper shows how to safely deploy large language models (LLMs) and agentic AI systems in power grid management by grounding their outputs in trusted numerical solvers rather than relying on LLM reasoning alone. The key insight is that LLMs excel at planning, orchestration, and explanation, but should hand off actual computation to verified tools—a principle demonstrated across wind forecasting, EV charging, and grid diagnostics with significant improvements in correctness and safety.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
+    "authors": "Mei Yuan, Qi Long, Qifeng Wu, Zhenyang Li, Yizhou Zhao et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18142v1",
+    "pdf": "https://arxiv.org/pdf/2607.18142v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper presents O-VAD, a framework for detecting anomalies in industrial video footage that tracks how objects change over time and reasons about whether those changes are normal or abnormal. Unlike existing vision-language models that work on general videos, O-VAD is designed specifically for manufacturing environments where objects undergo complex transformations following strict physical and procedural rules—and it achieves this without needing retraining or domain-specific knowledge injected by humans.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
+    "authors": "Lopez Jhon, Hinojosa Carlos, Ghanem Bernard",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18116v1",
+    "pdf": "https://arxiv.org/pdf/2607.18116v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a real problem in AI-generated educational videos: when LLMs write code to create animated math lessons (using Manim), the resulting animations often have objects overlapping or blocking each other, making them hard to understand. The authors propose SGA, a \"plug-and-play\" quality-control module that catches these geometric mistakes before rendering and fixes them automatically. They also introduce MVQS, a fast way to score animation quality without actually rendering the video.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+    "authors": "Prakhar Gupta, Terry Jingchen Zhang, Florent Draye, Bernhard Schölkopf, Zhijing Jin",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18114v1",
+    "pdf": "https://arxiv.org/pdf/2607.18114v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates how alignment tuning (the process of fine-tuning language models to be helpful and harmless) inadvertently creates internal representations that make models vulnerable to simple prompt manipulations — like biased few-shot examples or leading questions — that flip correct answers. By analyzing hidden states across multiple model families, the authors show that these susceptibilities are distinct, causally active directions in the model that can be identified, decoded, and even steered to reduce bias, offering both a mechanistic explanation and a potential debiasing method.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
+    "authors": "Tianzhu Ye, Li Dong, Guanheng Chen, He Zhu, Xun Wu et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18110v1",
+    "pdf": "https://arxiv.org/pdf/2607.18110v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Experiential Learning (EL), a new training method for language models on open-ended tasks where correct answers cannot be automatically verified. Instead of converting detailed feedback into a single numerical score (the standard approach), the method treats an evaluator LLM as a \"coach\" that passes rich textual insights directly to the policy model. The key insight: preserving fine-grained feedback improves learning and prevents the model from gaming the reward system.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+    "authors": "Jijun Chi, Zhenghan Tai, Hanwei Wu, Tung Sum Thomas Kwok, Hailin He et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18102v1",
+    "pdf": "https://arxiv.org/pdf/2607.18102v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper presents FinSAgent, a multi-agent framework that answers questions about SEC financial filings by better aligning retrieval and reasoning with the actual structure and terminology of the filings themselves. The key insight is that existing systems fail because they rely on generic semantic similarity matching, which misses domain-specific evidence and retrieves irrelevant chunks — FinSAgent fixes this by conditioning each agent's searches on the filing's known structure (10-K items) and using a learned reranker that distinguishes evidential validity from topical similarity.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Shared Discovery Paradox: How a One-Answer Rule Turns Better Information into Worse Search",
+    "authors": "Yohei Nakajima",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18045v1",
+    "pdf": "https://arxiv.org/pdf/2607.18045v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper reveals a paradox in how organizations share pooled information: better aggregated beliefs can paradoxically reduce discovery when everyone acts on the same single recommendation. The authors develop an exact mathematical benchmark with searchers hunting for a target and show that a one-answer protocol compresses a rich portfolio of potential actions into repetitive choices, destroying coverage despite improved accuracy.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models",
+    "authors": "Martino M. L. Pulici, Cuong Xuan Chu, Evgeny Kharlamov, Zifeng Ding, Volker Tresp et al.",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18006v1",
+    "pdf": "https://arxiv.org/pdf/2607.18006v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces MADA-RL, a training method that turns small language models (1.5B parameters) into better reasoners by having them debate with each other in specialized roles. The key innovation is a \"counterfactual critic advantage\" — a smarter way to train one model (the critic) to spot and fix mistakes made by another (the generator), using only a tiny fraction of the parameters that full fine-tuning requires. On math problems, it improves a small model's accuracy by 2 percentage points while being 16× more parameter-efficient than standard approaches.",
+    "date_added": "2026-07-21",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AlphaZeroBeta: Deep Reinforcement Learning for Market-Neutral Portfolios",
+    "authors": "Boris Belyakov",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18001v1",
+    "pdf": "https://arxiv.org/pdf/2607.18001v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies deep reinforcement learning to build market-neutral investment portfolios that generate excess returns (alpha) while staying uncorrelated with the broader market (near-zero beta). Traditional portfolio optimization breaks down during market shifts; AlphaZeroBeta learns adaptive strategies using neural networks trained on 10 years of stock data, achieving better risk-adjusted returns than conventional methods while maintaining the desired market-neutral properties.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-State Attacks on Self-Hosted AI Agents: How Far Can OS Defenses Go?",
+    "authors": "Yimeng Chen, Nathanaël Denis, Roberto Di Pietro, Jürgen Schmidhuber",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.17986v1",
+    "pdf": "https://arxiv.org/pdf/2607.17986v1",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This paper identifies and systematically studies \"self-state attacks\" — a new class of security threats where compromised AI agents corrupt their own memory and configuration files through legitimate OS system calls. The authors build a formal framework to characterize the attack space, evaluate defense mechanisms, and show that current OS-level defenses leave a residual attack surface that cannot be eliminated at the operating system level alone.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Topological Signatures of Context-Level Reliability in TabPFN",
+    "authors": "James Hu, Mahdi Ghelichi",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.17962v1",
+    "pdf": "https://arxiv.org/pdf/2607.17962v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper studies how TabPFN, a transformer-based model for tabular data prediction, behaves internally when faced with structurally difficult data geometries. Using topological analysis tools (persistent homology), the authors show that the *shape* of the model's internal representations reliably predicts when the model will make mistakes or become overconfident—offering a novel window into why foundation models succeed or fail on specific tabular tasks.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "An Adjoint-Sensitivity Framework for Lost-in-the-Middle Phenomena in Causal Residual Transformers",
+    "authors": "Cheng Huan, Hongwei Yuan",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.17696v1",
+    "pdf": "https://arxiv.org/pdf/2607.17696v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper develops a mathematical framework to understand why transformer models sometimes ignore information in the middle of long input sequences — a phenomenon called \"Lost-in-the-Middle.\" The authors use adjoint sensitivity analysis (a technique for tracing how gradients flow backward through neural networks) to precisely characterize how different positions in a sequence influence model predictions, and propose diagnostics and regularization methods to mitigate the problem.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Program Synthesis for Simulation-Based Inference: Joint Model Selection and Parameter Estimation",
+    "authors": "Siddharth Mishra-Sharma",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.17540v1",
+    "pdf": "https://arxiv.org/pdf/2607.17540v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper combines large language models with neural simulation-based inference to automatically discover which model structure best fits data, not just estimate parameters within a fixed model. Instead of requiring users to hand-code a simulator, an LLM writes candidate simulator programs that are iteratively refined and evaluated against observations. The work matters because real-world inference often requires choosing between competing model families (like different epidemic models or physics theories), and automating this choice could accelerate scientific discovery.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Abliteration Is Not a Scalpel: Off-Target Effects of Refusal Removal on Decision Disposition Across Model Families",
+    "authors": "Aleksander Fafuła",
+    "published": "2026-07-19",
+    "url": "http://arxiv.org/abs/2607.17427v1",
+    "pdf": "https://arxiv.org/pdf/2607.17427v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates \"abliteration\"—a technique that removes refusal mechanisms from language model weights to create \"uncensored\" models—by testing whether the surgery has unintended side effects. Using 21,600 financial decision tasks (stock calls on Warsaw Stock Exchange equities), the authors show that abliterated models systematically differ from their base versions in ways unrelated to refusals: they become more optimistic, justify decisions at greater length, and express uncertainty differently, but these changes vary unpredictably across model families. The core finding is that removing refusals is not a clean surgical procedure; it reshapes how models make decisions in unexpected ways.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient Sequential Evaluation of Large Language Models",
+    "authors": "Chia-Yu Hsu, Shubhanshu Shekhar",
+    "published": "2026-07-19",
+    "url": "http://arxiv.org/abs/2607.17409v1",
+    "pdf": "https://arxiv.org/pdf/2607.17409v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tackles the problem of efficiently evaluating a new large language model (LLM) on a fixed set of questions by reusing historical performance data from previous LLMs. The authors develop statistical methods to build tight confidence intervals around the model's true capability and design smart querying strategies that select which questions to ask next, minimizing the number of evaluations needed. This matters because LLM evaluation is expensive, and more efficient methods could accelerate model development cycles.",
+    "date_added": "2026-07-21",
+    "trusted": "EleutherAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CoEvoP&R: Co-Evolving Placement Objectives with Routing Feedback via Large Language Models",
+    "authors": "Ruogu Chen, Weihua Xiao, Ramesh Karri, Jie Han",
+    "published": "2026-07-19",
+    "url": "http://arxiv.org/abs/2607.17398v1",
+    "pdf": "https://arxiv.org/pdf/2607.17398v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper uses large language models to automatically design better objective functions for chip placement — a critical step in circuit design where components must be positioned on a silicon die. Instead of manually tuning placement objectives (which is time-consuming and requires expert knowledge), the authors let an LLM iteratively propose new objective functions, test them against real routing outcomes, and use that feedback to propose better ones. The result: significantly smaller, less congested chip layouts that route more successfully.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Non-Asymptotic Best Policy Identification Guarantees in Online Reinforcement Learning",
+    "authors": "Joseph Lazzaro, Alessio Russo, Aldo Pacchiano",
+    "published": "2026-07-19",
+    "url": "http://arxiv.org/abs/2607.17201v1",
+    "pdf": "https://arxiv.org/pdf/2607.17201v1",
+    "tags": [
+      "reinforcement-learning"
+    ],
+    "summary": "This paper provides the first non-asymptotic sample complexity bounds for the Best Policy Identification problem in online tabular reinforcement learning — a setting where an agent must identify an optimal policy while minimizing exploration cost. Previous work showed these bounds were asymptotically optimal but only in the limit of infinite samples; this work makes those guarantees concrete and finite, revealing how MDP structure (connectivity, curvature) affects the actual cost of learning.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Expressivity of Shallow Neural Networks Over Finite Fields",
+    "authors": "Maksym Zubkov, Carol Wu, Shiwei Yang, Param Mody, Yifei Chen",
+    "published": "2026-07-19",
+    "url": "http://arxiv.org/abs/2607.17090v1",
+    "pdf": "https://arxiv.org/pdf/2607.17090v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper studies how expressive shallow neural networks with polynomial activations can be when operating over finite fields (number systems with limited elements) rather than real numbers. The authors measure expressivity by counting how many different functions a network can compute, connecting this problem to classical algebraic geometry and number theory—specifically, the famous Weil conjectures about counting solutions to polynomial equations. They show that the choice between finite and infinite fields dramatically changes what functions a network can learn.",
+    "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Optimal Policies to Individual Differences: Rethinking Reinforcement Learning for Biology",
+    "authors": "Patrick Govoni, Palina Bartashevich, Clémence Bergerot, Valerii Chirkov, Valentin Lecheval et al.",
+    "published": "2026-07-17",
+    "url": "http://arxiv.org/abs/2607.16542v1",
+    "pdf": "https://arxiv.org/pdf/2607.16542v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies a critical gap in how reinforcement learning is used to model biological behavior: RL typically produces single optimal policies or population averages, but real organisms show persistent individual differences in behavior. The authors argue that to make RL truly useful for biology, we need methods that generate behavioral diversity using mechanisms grounded in biology rather than just computational optimization.",
+    "date_added": "2026-07-21",
+    "trusted": ""
   },
   {
     "source": "arxiv",
