@@ -131,6 +131,7 @@ let sortMode = 'date';
 const GITHUB_OWNER = 'mmmhedge';
 const GITHUB_REPO = 'papers';
 const DEEP_SUMMARY_ENDPOINT = '/api/deep-summary';
+const HAS_DEEP_SUMMARY_API = location.hostname !== 'mmmhedge.github.io';
 
 // localStorage helpers
 function getRead() { return new Set(JSON.parse(localStorage.getItem('papers_read') || '[]')); }
@@ -341,6 +342,11 @@ async function sendDeepSummary(i, event) {
   event.stopPropagation();
   const paper = visiblePapers[i];
   if (!paper) return;
+
+  if (!HAS_DEEP_SUMMARY_API) {
+    showToast('Deep summaries need the Vercel version of this site. The GitHub Pages copy cannot run server actions.', true);
+    return;
+  }
 
   const button = event.currentTarget;
   const originalText = button.textContent;
