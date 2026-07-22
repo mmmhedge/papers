@@ -1,0 +1,77 @@
+name: Deep Paper Summary
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "arXiv ID, arXiv URL, PDF URL, or local workflow path"
+        required: true
+        type: string
+      title:
+        description: "Paper title"
+        required: false
+        type: string
+      math_depth:
+        description: "Math depth"
+        required: true
+        default: heavy
+        type: choice
+        options:
+          - heavy
+          - standard
+          - light
+      include_tables:
+        description: "Include exact tables"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  summarize-and-send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate and send summary
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SOURCE: ${{ inputs.source }}
+          TITLE: ${{ inputs.title }}
+          MATH_DEPTH: ${{ inputs.math_depth }}
+          INCLUDE_TABLES: ${{ inputs.include_tables }}
+        run: |
+          args=(scripts/deep_paper_summary.py "$SOURCE" --math-depth "$MATH_DEPTH")
+          if [ -n "$TITLE" ]; then
+            args+=(--title "$TITLE")
+          fi
+          if [ "$INCLUDE_TABLES" != "true" ]; then
+            args+=(--no-tables)
+          fi
+          python "${args[@]}"
+
+      - name: Commit saved summary
+        run: |
+          git config user.name "paper-tracker[bot]"
+          git config user.email "paper-tracker@users.noreply.github.com"
+          git add deep_summaries/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: add deep summary $(date -u +%Y-%m-%d)"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
