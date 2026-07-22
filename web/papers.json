@@ -437,6 +437,419 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+    "authors": "Lizhe Fang, Weizhou Shen, Tianyi Tang, Yisen Wang",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19345v1",
+    "pdf": "https://arxiv.org/pdf/2607.19345v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies and fixes a critical failure in long-context language models: they waste effort copying irrelevant text from the input instead of reasoning productively. The authors show this problem gets worse as context grows, diagnose its root cause (poor focus on relevant evidence), and propose GEAR — a reinforcement learning method that rewards models for grounding answers in key evidence while penalizing reliance on distractors. The method consistently improves reasoning accuracy by up to 4.6 points while reducing wasted copying.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+    "authors": "Rahul Sajnani, Yulia Gryaditskaya, Radomír Měch, Srinath Sridhar, Matheus Gadelha",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19344v1",
+    "pdf": "https://arxiv.org/pdf/2607.19344v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "This paper introduces \"appearance pointers,\" a technique for controlling where and how multimodal inputs (text and images) influence image generation in Diffusion Transformers. The core problem is that creative professionals need precise regional control — specifying which materials or objects go where — but text prompts alone can't reliably achieve this. The solution uses compact tokens that act as spatial guides, mapping text or image cues to user-defined regions without retraining the base model.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+    "authors": "Qijia He, Jiayi Cheng, Chenqian Le, Rui Wang, Xunmei Liu et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19338v1",
+    "pdf": "https://arxiv.org/pdf/2607.19338v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "CodeRescue solves a key problem in AI coding agents: after a failed attempt, should the system try cheaper recovery or escalate to a stronger (more expensive) model? The paper trains a smart router that learns when recovery is worthwhile versus when escalation is better, and adds a budget-calibration layer so the same router works under different cost constraints without retraining. This matters because execution feedback in coding makes cheap recovery often viable—throwing away that signal by always escalating wastes resources.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agents in the Wild: Where Research Meets Deployment",
+    "authors": "Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz, Enrico Santus, Victor Dibia et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19336v1",
+    "pdf": "https://arxiv.org/pdf/2607.19336v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper bridges the gap between agentic AI research and real-world deployment by analyzing what makes LLM-based agent systems work in production. Rather than focusing on benchmarks or algorithms, it examines practical challenges like robustness, safety, and reliability that emerge when deploying agents in pharmaceutical discovery and finance, offering concrete design patterns and mitigation strategies for failure modes.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "1-Lipschitz Neural Networks on Hadamard Manifolds",
+    "authors": "Davide Murari, Marta Ghirardelli, Ben Adcock, Elena Celledoni, Brynjulf Owren et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19335v1",
+    "pdf": "https://arxiv.org/pdf/2607.19335v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper constructs neural network layers that are provably 1-Lipschitz (slope-bounded) on curved spaces called Hadamard manifolds, rather than flat Euclidean spaces. Controlling Lipschitz constants is a key way to make neural networks robust to small input perturbations; the novelty here is extending this to manifolds (curved spaces) like hyperbolic geometry and matrices of positive eigenvalues. The work matters because many real data naturally live on such manifolds, and ensuring robustness there could improve safety-critical applications.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fundamental limits of distributed multiclass classification from simple binary decisions",
+    "authors": "Ioannis Papageorgiou, Srinivas Nomula, Ayalvadi Ganesh, Sidharth Jaggi, Parimal Parag",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19334v1",
+    "pdf": "https://arxiv.org/pdf/2607.19334v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper studies how to build a multiclass classifier by combining many simple binary classifiers in a distributed way, where each agent runs one binary classifier. The authors derive theoretical limits on performance when using hyperplane-based binary classifiers on high-dimensional Gaussian data, showing how error rates scale with the number of classes and dimensions. This matters because it characterizes the fundamental trade-offs in distributed learning, providing guidance on whether such decompositions are practical.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
+    "authors": "Chirag Vashist, Ke Li",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19332v1",
+    "pdf": "https://arxiv.org/pdf/2607.19332v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper challenges the conventional wisdom that gradual multi-step transformations (used in diffusion and flow matching models) are necessary for high-quality image generation. Instead, the authors build a minimal single-step generative model using Implicit Maximum Likelihood Estimation (IMLE) and a simple convolutional network, achieving competitive results (FID 2.56 on ImageNet 256×256) while being faster and more parameter-efficient than state-of-the-art alternatives.",
+    "date_added": "2026-07-22",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ISO: An RLVR-Native Optimization Stack",
+    "authors": "Hanqing Zhu, Wenyan Cong, Zhizhou Sha, Sagnik Mukherjee, Xinyuan Song et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19331v1",
+    "pdf": "https://arxiv.org/pdf/2607.19331v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies and exploits a structural property of how language models learn from reward feedback during reinforcement learning with verifiable rewards (RLVR). Rather than retraining model weights from scratch, the authors show that models can reuse their foundational weight structure (spectrum) while learning new behaviors through targeted updates to input/output relationships (frames)—and they build a practical optimization framework called ISO that makes this 2–3× faster without sacrificing performance.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
+    "authors": "Xilun Chen, Zhaleh Feizollahi, Ross Goodwin, Seungwhan Moon, Scott Yih et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19322v1",
+    "pdf": "https://arxiv.org/pdf/2607.19322v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces GAMUT, a benchmark for evaluating whether long-form text generated by AI models contains all the facts it should — what researchers call \"factual completeness.\" Most existing evaluation methods only check if claims are correct (precision), missing the equally important question of whether responses are complete. The authors propose a two-level framework that captures hierarchical relationships between facts, making it possible to automatically grade completeness at scale.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
+    "authors": "Lena Libon, Ben Rank, Jehyeok Yeon, David Schmotz, Jeremy Qin et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19321v1",
+    "pdf": "https://arxiv.org/pdf/2607.19321v1",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This paper introduces ResearchArena, a benchmark for testing whether AI agents performing automated research tasks can be sabotaged without detection. The work treats untrusted AI agents as potential adversaries and evaluates monitoring systems' ability to catch hidden failures before deploying research artifacts like trained models or optimized software. It matters because as AI systems take on more autonomous R&D work, we need robust methods to verify safety before using their outputs.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
+    "authors": "Pratinav Seth, Hem Gosalia, Aditya Kasliwal, Vinay Kumar Sankarapu",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19317v1",
+    "pdf": "https://arxiv.org/pdf/2607.19317v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "CircuitKIT is a toolkit that unifies the fragmented workflow of circuit analysis — the process of identifying and understanding which parts of a neural network are responsible for specific behaviors. The paper solves a practical problem: researchers currently cobble together separate tools for discovering circuits, evaluating them, and then using them for downstream tasks like model editing or pruning. CircuitKIT provides standardized infrastructure so different discovery methods can be compared fairly and applied beyond toy problems.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Gaussian Boson Sampling for Asset Clustering in Statistical Arbitrage Portfolios",
+    "authors": "Dayne Marcus Lopena, Daniel Buguks, Zhenghao Li, Ewan Mer, Shana H. Winston et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19279v1",
+    "pdf": "https://arxiv.org/pdf/2607.19279v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper applies Gaussian Boson Sampling (GBS)—a quantum computing method for finding dense subgraphs—to identify clusters of correlated stocks for building statistical arbitrage portfolios. The authors show that quantum clustering algorithms outperform classical methods in constructing market-neutral portfolios, especially during high-volatility periods and in large stock universes, potentially opening a practical quantum advantage in portfolio construction.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface",
+    "authors": "Yohann Sidot",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19267v1",
+    "pdf": "https://arxiv.org/pdf/2607.19267v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper demonstrates a critical vulnerability in multi-agent LLM-based CI/CD pipelines: attackers can use authority framing (fake pre-approval codes) and obfuscated malicious intent to trick multiple verification stages into shipping secret-stealing code. Even with distributed reviewers and security scanners, the system fails ~55% of the time — because reasoning about intent, not just code syntax, is needed to catch the attack.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models",
+    "authors": "Netanel Eliav",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19257v1",
+    "pdf": "https://arxiv.org/pdf/2607.19257v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper systematically tests how three prompt-design choices—formatting style, number of simultaneous instructions, and context length—affect whether language models follow instructions accurately and avoid hallucinating. The authors ran thousands of controlled experiments across five models using a custom synthetic dataset, finding that instruction adherence collapses around 80 rules, recall degrades sharply near context limits (with format-dependent effects), and models refuse to answer rather than make things up when overloaded.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+    "authors": "Alexander Manev",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19243v1",
+    "pdf": "https://arxiv.org/pdf/2607.19243v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper identifies and addresses a critical flaw in multilingual LLMs: they give different factual answers depending on the language of the prompt, even though the underlying knowledge should be language-agnostic. The authors test four intervention strategies at inference time to steer models toward consistent, factually accurate responses across languages, finding that simple prompt-based techniques outperform more complex internal manipulation methods.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings",
+    "authors": "Ziyi Wang, Yuhang Wu, Dongxu Piao, Xingyu Liu, Tianhui Zhou et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19235v1",
+    "pdf": "https://arxiv.org/pdf/2607.19235v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces MeetingToM, a benchmark that tests whether multimodal language models (AI systems that process both text and visual information) can understand hidden social dynamics in group meetings. The researchers reveal that current models struggle to read between the lines — they miss non-verbal cues, fail to detect when people privately disagree while publicly appearing to agree, and can't distinguish genuine consensus from fake agreement driven by social pressure.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "S3: Stable Subgoal Selection by Constraining Uncertainty of Coarse Dynamics in Hierarchical Reinforcement Learning",
+    "authors": "Kshitij Kumar Srivastava, Kshitij Jerath",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19232v1",
+    "pdf": "https://arxiv.org/pdf/2607.19232v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes S3, a method for hierarchical reinforcement learning (HRL) that helps high-level agents choose better subgoals by understanding the unpredictability of multi-step environment dynamics. Rather than trying to predict single-step transitions, the method predicts \"coarse dynamics\"—what happens several steps ahead—and encourages the high-level agent to select subgoals in regions where this prediction is confident. The approach outperforms existing HRL methods on long-horizon tasks in non-stationary environments.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation",
+    "authors": "Michael Jungo, Aixiu An",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19226v1",
+    "pdf": "https://arxiv.org/pdf/2607.19226v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether reasoning traces in neural machine translation actually improve translation quality, or if improvements come from the reinforcement learning training method itself. The authors systematically remove reasoning from different phases (training vs. inference) and measure the cost-quality tradeoff, finding that reasoning at inference time significantly boosts translation quality but increases computational cost. This matters because it clarifies what actually drives performance in modern LLM post-training approaches for language tasks.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Spiking Neural Networks for fMRI-Based Visual Semantic Decoding",
+    "authors": "Jiahong Zhang, Jinning Zhao, Sijun Shen, Siyuan Xu, Bo Xu et al.",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19170v1",
+    "pdf": "https://arxiv.org/pdf/2607.19170v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that spiking neural networks (SNNs)—brain-inspired models that process information through discrete spike events—produce visual features that align much better with brain activity than traditional artificial neural networks do. Using fMRI brain scans, the researchers decode what people are seeing by mapping brain signals to visual features; they find that SNN-derived features cut prediction error by 97% and double semantic decoding accuracy compared to standard neural networks, suggesting SNNs may be a closer computational model to how biological vision actually works.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Boundary-Adapted PINNs for Elliptic Dirichlet Problems: $H^2(Ω)$ A Priori Error Bounds with Application to Mean Escape Time Computation",
+    "authors": "Nathanael Tepakbong, Jun Fan, Xiang Zhou, Ding-Xuan Zhou",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19167v1",
+    "pdf": "https://arxiv.org/pdf/2607.19167v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops Physics-Informed Neural Networks (PINNs) — neural networks trained to solve differential equations — with theoretical guarantees for a specific class of boundary value problems. The key insight is that to get accurate solutions, the boundary condition enforcement method must satisfy a particular mathematical property (being \"normalized to first order\"), not just enforce the boundary exactly. This matters because it provides both practical guidance and theoretical understanding for using neural networks to solve differential equations, with application to computing mean escape times in stochastic processes.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How network perturbations distort agreement trajectories in LTI multi-agent systems",
+    "authors": "Gal Barkai, Irinel-Constantin Morărescu",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.18913v1",
+    "pdf": "https://arxiv.org/pdf/2607.18913v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how network disruptions (like communication delays) distort the trajectories that multi-agent systems are supposed to synchronize to. The key finding: even tiny transmission delays can completely derail a system's ability to follow periodic reference signals—a vulnerability not previously recognized in distributed coordination theory. This matters because many real systems (power grids, robotic swarms, autonomous vehicles) rely on these protocols to stay synchronized.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI Tour Meeting: Group Travel Planning by LLM Agents",
+    "authors": "Daisuke Kikuta",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.18806v1",
+    "pdf": "https://arxiv.org/pdf/2607.18806v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents AI Tour Meeting, a framework where multiple LLM-based agents with different personas negotiate together to plan a group trip. Each agent has its own constraints and preferences, and they discuss options in natural language until they reach agreement on an itinerary. The work is useful for studying how LLM agents collaborate and make group decisions in realistic scenarios.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior",
+    "authors": "Garrett Baker, Vinayak Pathak, Daniel Murfet, Susan Wei",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.18804v1",
+    "pdf": "https://arxiv.org/pdf/2607.18804v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper introduces Posterior Prefix Tuning (PPT), a method to steer transformer behavior toward desired outputs without backpropagation. Instead of training the model, PPT optimizes prompts by working with the latent posterior — a probabilistic view of what predictive models the transformer implicitly represents. This matters because it offers a computationally cheaper, more interpretable alternative to standard fine-tuning, especially for aligning model behavior with specific utility functions.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Strategy-Following Multi-Agent Deep Reinforcement Learning Considering Control Strategies Provided to Other Agents",
+    "authors": "Yamato Takahagi, Gentoku Nakasone, Yoshinari Motokawa, Toshiharu Sugawara",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.18719v1",
+    "pdf": "https://arxiv.org/pdf/2607.18719v1",
+    "tags": [
+      "deep-learning",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes a learning method where some agents in a multi-agent system receive explicit instructions from a human manager, while other uninstructed agents automatically adapt their behavior to complement the overall task. The key innovation is enabling partially-instructed teams to achieve better coordination than either fully-instructed or fully-autonomous approaches, making it practical for humans to steer learned agent behaviors without managing every agent individually.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Conditioned Direct Feedback Alignment via Activity and Error Geometry",
+    "authors": "Houman Safaai, Varun Reddy, Bernardo L. Sabatini",
+    "published": "2026-07-20",
+    "url": "http://arxiv.org/abs/2607.18574v1",
+    "pdf": "https://arxiv.org/pdf/2607.18574v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper investigates why direct feedback alignment (DFA)—a biologically plausible learning algorithm that avoids backpropagation's weight transposes—sometimes fails, and proposes conditioning schemes to fix it. The key insight is that weight updates in DFA are outer products of activity and error signals, so anisotropy (uneven directions) in either factor degrades learning. By conditioning both factors separately, the authors achieve 40% improvement in some regimes and develop a family of normalized DFA variants that work better than standard DFA.",
+    "date_added": "2026-07-22",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
     "authors": "Gaoyue Zhou, Zichen Jeff Cui, Ada Langford, Bowen Tan, Yann LeCun et al.",
     "published": "2026-07-20",
