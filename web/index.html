@@ -95,6 +95,7 @@
   .modal-status { min-height: 1.2rem; color: #8d96ff; font-size: 0.78rem; line-height: 1.4; margin-top: 0.65rem; }
   .modal-status.error { color: #ff8d8d; }
   .modal-status a { color: #8d96ff; }
+  .modal-status pre { white-space: pre-wrap; color: #ddd; background: #0f0f13; border: 1px solid #242432; border-radius: 6px; padding: 0.55rem; margin: 0.45rem 0; }
 </style>
 </head>
 <body>
@@ -146,10 +147,6 @@
       <input id="deep-source" autocomplete="off">
     </div>
     <div class="form-row">
-      <label for="deep-token">GitHub token</label>
-      <input id="deep-token" type="password" autocomplete="off" placeholder="Fine-grained token with Actions write access">
-    </div>
-    <div class="form-row">
       <label for="deep-math-depth">Math depth</label>
       <select id="deep-math-depth">
         <option value="heavy">Heavy</option>
@@ -163,7 +160,7 @@
     </div>
     <div class="modal-actions">
       <button type="button" class="secondary-btn" onclick="closeDeepSummaryModal()">Cancel</button>
-      <button type="submit" class="primary-btn" id="deep-submit">Send to Telegram</button>
+      <button type="submit" class="primary-btn" id="deep-submit">Open Workflow</button>
     </div>
     <div class="modal-status" id="deep-status"></div>
   </form>
@@ -179,6 +176,7 @@ let sortMode = 'date';
 const GITHUB_OWNER = 'mmmhedge';
 const GITHUB_REPO = 'papers';
 const DEEP_SUMMARY_WORKFLOW = 'deep_summary.yml';
+const DEEP_SUMMARY_WORKFLOW_URL = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${DEEP_SUMMARY_WORKFLOW}`;
 
 // localStorage helpers
 function getRead() { return new Set(JSON.parse(localStorage.getItem('papers_read') || '[]')); }
@@ -383,7 +381,6 @@ function openDeepSummary(i, event) {
 
   document.getElementById('deep-title').value = paper.title || '';
   document.getElementById('deep-source').value = paper.pdf || paper.url || '';
-  document.getElementById('deep-token').value = localStorage.getItem('papers_github_actions_token') || '';
   document.getElementById('deep-math-depth').value = 'heavy';
   document.getElementById('deep-include-tables').checked = true;
   setDeepStatus('');
@@ -403,55 +400,30 @@ function setDeepStatus(message, isError = false) {
 
 async function dispatchDeepSummary(event) {
   event.preventDefault();
-  const token = document.getElementById('deep-token').value.trim();
   const source = document.getElementById('deep-source').value.trim();
   const title = document.getElementById('deep-title').value.trim();
   const mathDepth = document.getElementById('deep-math-depth').value;
   const includeTables = document.getElementById('deep-include-tables').checked;
-  const submit = document.getElementById('deep-submit');
 
-  if (!token) {
-    setDeepStatus('Paste a GitHub token with Actions write access.', true);
-    return;
-  }
   if (!source) {
     setDeepStatus('No source URL found for this paper.', true);
     return;
   }
 
-  submit.disabled = true;
-  setDeepStatus('Starting GitHub Actions run...');
+  const runInputs = [
+    `source: ${source}`,
+    `title: ${title}`,
+    `math_depth: ${mathDepth}`,
+    `include_tables: ${includeTables}`,
+  ].join('\n');
+
   try {
-    const response = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${DEEP_SUMMARY_WORKFLOW}/dispatches`, {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/vnd.github+json',
-        'Authorization': `Bearer ${token}`,
-        'X-GitHub-Api-Version': '2022-11-28'
-      },
-      body: JSON.stringify({
-        ref: 'main',
-        inputs: {
-          source,
-          title,
-          math_depth: mathDepth,
-          include_tables: String(includeTables)
-        }
-      })
-    });
-
-    if (!response.ok) {
-      const body = await response.text();
-      throw new Error(body || `${response.status} ${response.statusText}`);
-    }
-
-    localStorage.setItem('papers_github_actions_token', token);
-    setDeepStatus(`Started. <a href="https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${DEEP_SUMMARY_WORKFLOW}" target="_blank">Open run</a>`);
+    await navigator.clipboard.writeText(runInputs);
+    setDeepStatus(`Inputs copied. <a href="${DEEP_SUMMARY_WORKFLOW_URL}" target="_blank">Open workflow</a>`);
   } catch (error) {
-    setDeepStatus(`Could not start run: ${escHtml(error.message)}`, true);
-  } finally {
-    submit.disabled = false;
+    setDeepStatus(`Copy these into the workflow:<br><pre>${escHtml(runInputs)}</pre><a href="${DEEP_SUMMARY_WORKFLOW_URL}" target="_blank">Open workflow</a>`);
   }
+  window.open(DEEP_SUMMARY_WORKFLOW_URL, '_blank', 'noopener');
 }
 
 // Tag graph using D3
