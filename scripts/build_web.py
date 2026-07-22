@@ -11,7 +11,6 @@ ROOT = Path(__file__).parent.parent
 PAPERS_DIR = ROOT / "papers"
 WEB_DIR = ROOT / "web"
 CONFIG = yaml.safe_load((ROOT / "config.yml").read_text())
-TRUSTED_SOURCES = CONFIG.get("trusted_sources", [])
 
 
 def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
@@ -42,14 +41,6 @@ def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
     return result, body
 
 
-def get_trusted_source(body: str, authors: str) -> str:
-    text = (body + " " + authors).lower()
-    for src in TRUSTED_SOURCES:
-        if re.search(r'\b' + re.escape(src.lower()) + r'\b', text):
-            return src
-    return ""
-
-
 def extract_summary(body: str) -> str:
     match = re.search(r'## Summary\n+(.*?)(?=\n## |\Z)', body, re.DOTALL)
     if match:
@@ -78,7 +69,7 @@ def build_web():
             "tags": fm.get("tags", []),
             "summary": extract_summary(body),
             "date_added": fm.get("date_added", ""),
-            "trusted": source_name if fm.get("trusted") == "true" and source == "blog" else get_trusted_source(body, fm.get("authors", "")),
+            "trusted": source_name if fm.get("trusted") == "true" and source == "blog" else "",
         })
 
     WEB_DIR.mkdir(exist_ok=True)

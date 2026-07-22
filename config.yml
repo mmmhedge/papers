@@ -56,7 +56,8 @@ papers_per_category: 5
 # After the first run, reduce this to 2 to stay current
 initial_lookback_days: 30
 
-# Trusted sources — papers mentioning these in their abstract get a "trusted" badge
+# Trusted source labels for first-party blog feeds. arXiv papers do not get
+# trusted badges from name mentions because arXiv metadata lacks affiliations.
 trusted_sources:
   # Big AI labs
   - OpenAI

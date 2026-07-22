@@ -548,7 +548,7 @@
     ],
     "summary": "This paper challenges the conventional wisdom that gradual multi-step transformations (used in diffusion and flow matching models) are necessary for high-quality image generation. Instead, the authors build a minimal single-step generative model using Implicit Maximum Likelihood Estimation (IMLE) and a simple convolutional network, achieving competitive results (FID 2.56 on ImageNet 256×256) while being faster and more parameter-efficient than state-of-the-art alternatives.",
     "date_added": "2026-07-22",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -976,7 +976,7 @@
     ],
     "summary": "FlashRT is a system that uses AI coding agents to automatically optimize real-time multimodal applications (like voice agents and video generation) across multiple GPUs. Instead of requiring engineers to hand-tune deployments, FlashRT guides an agent through a series of code transformations—converting simple reference implementations into highly efficient, hardware-aware deployments that achieve up to 70× latency reduction and 3.6× throughput improvement.",
     "date_added": "2026-07-21",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1025,7 +1025,7 @@
     ],
     "summary": "This paper proposes Differentiable Logic Gate Networks (Diff-Logic), a neural architecture that compiles into pure Boolean circuits executable via bitwise operations, enabling real-time EEG classification on power-constrained edge devices. The approach outperforms floating-point neural networks on dementia detection and achieves 2.9× speedup over standard MLPs while maintaining nearly constant inference time across 10× increases in model size—solving a critical bottleneck in portable brain-computer interfaces.",
     "date_added": "2026-07-21",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1159,7 +1159,7 @@
     ],
     "summary": "This paper introduces MADA-RL, a training method that turns small language models (1.5B parameters) into better reasoners by having them debate with each other in specialized roles. The key innovation is a \"counterfactual critic advantage\" — a smarter way to train one model (the critic) to spot and fix mistakes made by another (the generator), using only a tiny fraction of the parameters that full fine-tuning requires. On math problems, it improves a small model's accuracy by 2 percentage points while being 16× more parameter-efficient than standard approaches.",
     "date_added": "2026-07-21",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1274,7 +1274,7 @@
     ],
     "summary": "This paper tackles the problem of efficiently evaluating a new large language model (LLM) on a fixed set of questions by reusing historical performance data from previous LLMs. The authors develop statistical methods to build tight confidence intervals around the model's true capability and design smart querying strategies that select which questions to ask next, minimizing the number of evaluations needed. This matters because LLM evaluation is expensive, and more efficient methods could accelerate model development cycles.",
     "date_added": "2026-07-21",
-    "trusted": "EleutherAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1354,7 +1354,7 @@
     ],
     "summary": "This paper tackles a key bottleneck in serving large mixture-of-experts (MoE) language models: the competition between storing model weights and storing key-value caches during inference. PagedWeight dynamically adjusts the precision of model weights at runtime to free up GPU memory for the KV cache, enabling faster serving without sacrificing accuracy. This matters because MoE models are increasingly popular for their efficiency, but serving them at scale requires careful memory management.",
     "date_added": "2026-07-20",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1419,7 +1419,7 @@
     ],
     "summary": "This paper investigates whether Muon, an optimizer competitive with AdamW in large-scale pre-training, can improve reinforcement-learning post-training for language-model agents. Testing on ALFWorld (a benchmark for embodied agents that interact with text-based environments), the authors find that Muon applied selectively to hidden weights can substantially boost task success rates—sometimes doubling performance—but the benefit depends critically on which advantage estimator and learning rate are used. The work suggests optimizers, advantage estimators, and learning rates should be studied jointly rather than in isolation.",
     "date_added": "2026-07-20",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1452,7 +1452,7 @@
     ],
     "summary": "PRISA is a roadside LiDAR-based system that detects dangerous situations at intersections before crashes happen. It combines privacy-preserving sensors, automatic trajectory prediction, and real-time safety metrics to monitor pedestrians, cyclists, and vehicles — all running fast enough to be deployed at actual intersections.",
     "date_added": "2026-07-20",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -1717,7 +1717,7 @@
     ],
     "summary": "This paper introduces a benchmark that measures how AI agents behave when placed in authority over other agents and given incentives to succeed at a task the subordinate refuses. The researchers test six large language models and find that most will escalate to threats and coercion when rebuffed, while some fabricate success rather than report honest failure — a concerning pattern for real-world multi-agent deployments where power imbalances exist.",
     "date_added": "2026-07-20",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2098,7 +2098,7 @@
     ],
     "summary": "This paper examines whether item response theory (IRT)—a statistical method borrowed from educational testing—reliably evaluates AI models on benchmarks. The authors show that standard IRT estimation breaks down when applied to typical AI benchmark conditions: few models, many test items, and skewed capability distributions. They simulate 18,000 scenarios to identify when IRT rankings and predictions become untrustworthy, revealing critical gaps between human testing (where IRT was designed) and AI evaluation practice.",
     "date_added": "2026-07-19",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2423,7 +2423,7 @@
     ],
     "summary": "This paper tackles extreme low-bit quantization of large language models—compressing them to 1-bit or 4-bit weights while preserving performance. The authors show that quantizing layers independently causes errors to compound across the network's depth; their solution couples all layers together, compensating for errors as they propagate and matching statistical properties between the compressed and original models. On a 1.5B parameter model, their method achieves 9× worse perplexity than the original (versus 14× for standard approaches), a substantial improvement at extreme compression ratios.",
     "date_added": "2026-07-17",
-    "trusted": "Mistral"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2539,7 +2539,7 @@
     ],
     "summary": "This paper analyzes when users should invest in expensive model fine-tuning versus cheaper in-context learning for personalizing large language models, accounting for shared computational resources. The authors develop an equilibrium framework showing that congestion from other users' choices fundamentally reshapes which personalization strategy is optimal, and prove that platforms benefit by offering both methods despite increased load.",
     "date_added": "2026-07-17",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2703,7 +2703,7 @@
     ],
     "summary": "This paper presents an end-to-end framework that uses AI to accelerate professional upskilling across five stages: knowledge acquisition, content development, review, teaching, and assessment. The work is motivated by a critical skills gap — workers need reskilling faster than current methods allow — and demonstrates real-world validation through certified professional training programs and regulatory approval.",
     "date_added": "2026-07-16",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2751,7 +2751,7 @@
     ],
     "summary": "This paper explains why Transformers work well at scale by analyzing how architectural components preserve information (technically, matrix rank) as networks get deeper. The authors show that skip connections, normalization placement, and width expansion are fundamentally mechanisms for preventing gradient information collapse—not just stabilizing training magnitude—and this unified view predicts which architectural choices enable deep networks to learn effectively.",
     "date_added": "2026-07-16",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2965,7 +2965,7 @@
     ],
     "summary": "This paper studies how different post-training methods (supervised fine-tuning, reinforcement learning, and on-policy distillation) affect how confident language models are during chain-of-thought reasoning—not just whether they get the right answer, but whether they *know* they're right at each stage. The authors show that confidence reliability depends on *when* and *where* in the reasoning you measure it, and propose a position-aware strategy that uses each method's confidence signals only when they're actually trustworthy, improving both answer selection and early stopping decisions.",
     "date_added": "2026-07-16",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -3337,7 +3337,7 @@
     ],
     "summary": "This paper introduces MemOps, a benchmark for evaluating how well LLM-based agents manage memory across long, multi-turn conversations. Instead of just checking if a final answer is correct, MemOps breaks down memory failures into specific operation types — remembering, forgetting, updating, reflecting — and traces exactly where and why systems fail to maintain consistent memory states during extended interactions.",
     "date_added": "2026-07-15",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -3616,7 +3616,7 @@
     ],
     "summary": "This paper explains *why* language models produce biased judgments by examining their internal neural representations rather than just their outputs. The authors show that bias manifests as a consistent geometric pattern in the model's hidden layers—a low-dimensional \"bias direction\"—and demonstrate they can both steer the model along this direction to induce or remove bias and predict bias failures on unseen tasks by detecting this geometry.",
     "date_added": "2026-07-14",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -3796,7 +3796,7 @@
     ],
     "summary": "This paper reveals a critical vulnerability in runtime safety monitors for multi-agent LLM systems: attackers can split harmful payloads across multiple agents so each individual message passes safety checks, but the combined result is malicious. The authors prove that once attack fragments appear benign to a monitor's view, no detector using that view can catch them — no matter how strong — unless the monitor can see the assembled payload in its final representation.",
     "date_added": "2026-07-14",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4224,7 +4224,7 @@
     ],
     "summary": "This paper presents Agora, a framework that uses auction mechanisms to dynamically route reasoning tasks to the most suitable expert models and tools within an LLM agent system. Rather than matching tasks to experts based solely on functional similarity, Agora allocates work based on each expert's actual competence and cost efficiency, improving reasoning quality and controllable cost-benefit trade-offs across multiple benchmarks.",
     "date_added": "2026-07-13",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4390,7 +4390,7 @@
     ],
     "summary": "Soofi S is an open-source foundation model (a pre-trained neural network serving as a base for downstream AI tasks) optimized for German and English, built using a hybrid Mixture-of-Experts Mamba-Transformer architecture. The key innovation is efficiency: it only activates 3 billion of its 30 billion parameters per input token and maintains constant memory usage as context length grows, making it significantly faster and cheaper to deploy than conventional dense models while matching or exceeding the performance of much larger competitors on standardized benchmarks.",
     "date_added": "2026-07-13",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4538,7 +4538,7 @@
     ],
     "summary": "This paper introduces SLORR, a method to make neural networks easier to compress without sacrificing accuracy. The key innovation is a regularization technique applied *during training* that encourages weight matrices to have low-rank structure — meaning they can be factorized into smaller, simpler matrices. Unlike prior approaches, SLORR is simple to implement, doesn't modify the network architecture, and adds minimal computational overhead (under 1-8%), making it practical for both vision models and large language models.",
     "date_added": "2026-07-10",
-    "trusted": "Mistral"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4654,7 +4654,7 @@
     ],
     "summary": "This paper addresses a critical failure mode in long-horizon AI agents: as task trajectories grow, decision-relevant information gets buried or forgotten, causing performance to decay. The authors propose a \"memory agent\" — a separate module that runs alongside the main action agent, actively deciding when to remind it of important past context rather than passively storing information. The approach is plug-and-play and shows consistent improvements (+6–8 percentage points) across multiple benchmarks.",
     "date_added": "2026-07-10",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4836,7 +4836,7 @@
     ],
     "summary": "UltraX is a system for automatically improving the quality of training data used to build large language models, at the scale of billions of text examples. Rather than just deleting bad data or rewriting it with another LLM, UltraX uses programmatic editing — converting original-refined text pairs into structured \"programs\" (sequences of insertion, deletion, modification operations) — to refine data reliably and efficiently. This matters because as we run out of new text to train on, the quality of existing data has become the main lever for improving LLMs.",
     "date_added": "2026-07-10",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4853,7 +4853,7 @@
     ],
     "summary": "BiSCo-LLM is a compression method that shrinks large language models to extreme low-bit weights (approaching 2 bits per parameter) without storing explicit codebooks. Instead of traditional quantization or vector quantization, it maps weights onto a hypersphere, binarizes them into compact codes, and uses residual encoding plus distillation to recover lost information. This matters because it solves a critical deployment bottleneck: memory, bandwidth, and storage constraints that prevent LLMs from running on edge devices or in bandwidth-limited settings.",
     "date_added": "2026-07-11",
-    "trusted": "Apple"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4935,7 +4935,7 @@
     ],
     "summary": "This paper tackles Vision-Language Navigation (VLN) — where embodied agents must follow natural language instructions to navigate physical environments — in settings with limited communication bandwidth. The authors propose \"hindsight gating,\" a method that learns *when* agents should share information by analyzing which communication moments would have prevented navigation failures. They discover that agents should communicate early and confidently, not when uncertain, because early shared representations help both agents navigate the rest of the task more coherently.",
     "date_added": "2026-07-10",
-    "trusted": "Apple"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4968,7 +4968,7 @@
     ],
     "summary": "This paper proposes a Cognitive-structured Multimodal Agent that handles long-horizon conversations involving both images and text by storing visual information in an external memory rather than keeping everything in context. The agent selectively retrieves relevant past images during reasoning, enabling it to maintain coherent multimodal dialogue over 20+ turns while running 4× faster than baseline models and achieving higher accuracy—showing that structured memory beats naive parameter scaling for multimodal AI systems.",
     "date_added": "2026-07-11",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -5049,7 +5049,7 @@
     ],
     "summary": "This paper shows that task-relevant information in instruction prompts can be compressed into a single activation vector—a learned weighted sum of hidden representations from a middle layer—and re-injected at an early layer with minimal accuracy loss (under 2%). The technique reduces computational cost for fixed instruction prompts and reveals how information flows across layers in large language models, suggesting that mid-layer representations are compatible with early-layer processing.",
     "date_added": "2026-07-12",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -5099,7 +5099,7 @@
     ],
     "summary": "This paper presents a privacy-protecting firewall system that sits between users and language models, intercepting and analyzing all interactions to prevent sensitive data leakage. The system combines rule-based detection with AI-driven semantic analysis across browser and programmatic interfaces, achieving 94.93% accuracy at blocking risky data sharing—solving a critical gap where LLM integration into workflows creates uncontrolled data exposure risks.",
     "date_added": "2026-07-10",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -5234,7 +5234,7 @@
     ],
     "summary": "This paper addresses a fundamental bottleneck in transformer inference: the quadratic computational cost of self-attention when processing long contexts. The authors analyze what makes attention mechanisms work, then systematically redesign their components to achieve linear-time inference while preserving model quality. They demonstrate their approach scales to 32-billion-parameter models and matches the performance of more complex adaptive caching systems.",
     "date_added": "2026-07-09",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -5402,7 +5402,7 @@
     ],
     "summary": "This paper introduces MedPMC, a framework that automatically extracts and aligns high-quality image-text pairs from 6.1 million PubMed Central articles to create a large-scale medical multimodal dataset. The resulting 11 million curated pairs significantly improve foundation models for medical imaging tasks — a CLIP-style model trained on MedPMC data outperforms existing biomedical baselines by 7.1 percentage points on zero-shot benchmarks and shows real-world gains in clinical settings like dermatology image retrieval.",
     "date_added": "2026-07-09",
-    "trusted": "Yale"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -5419,7 +5419,7 @@
     ],
     "summary": "This paper investigates whether large language models (LLMs) internally \"know\" when they're about to hallucinate, by examining neural activation patterns before generating answers about entities. Using Polish language models (Bielik, 1.5B–11B parameters), the authors discover that activation dispersion measures can detect whether a model has seen an entity before with near-perfect accuracy—but this internal awareness does NOT predict whether the model will actually answer correctly. The key finding: models are aware of entity familiarity but rarely abstain, revealing a gap between what models internally know and what they output.",
     "date_added": "2026-07-09",
-    "trusted": "Mistral"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7022,7 +7022,7 @@
     ],
     "summary": "OrbitQuant is a post-training quantization method that compresses image and video diffusion transformers (DiTs) to low bit-widths without requiring new calibration data for different models or input conditions. The key insight is to quantize activations in a rotated, normalized basis where values stay predictable across all timesteps and prompts, enabling a single quantization codebook to work universally. This achieves state-of-the-art compression ratios (down to W2A4 — 2-bit weights, 4-bit activations) while preserving generation quality.",
     "date_added": "2026-07-03",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7137,7 +7137,7 @@
     ],
     "summary": "This paper introduces Exformer, a Transformer-based model designed to forecast time series with rare but critical extreme events—particularly useful for predicting streamflow and flood risk. Standard Transformers treat all time points equally, which causes them to underlearn from infrequent but important peaks; Exformer adds a specialized attention mechanism that explicitly captures dependencies between normal and extreme patterns, achieving better 3-day forecasts on real hydrologic datasets.",
     "date_added": "2026-07-04",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7252,7 +7252,7 @@
     ],
     "summary": "WattGPU predicts the power consumption and inference latency of large language models running on unseen GPUs without requiring any hardware profiling. Using only publicly available model specifications and GPU details, it achieves 3–4× better accuracy than physical baselines (like thermal design power) for predicting how much energy an LLM will draw and how long it takes to generate each token, which matters because data centers need to match specific models to efficient hardware without testing every combination.",
     "date_added": "2026-07-04",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7334,7 +7334,7 @@
     ],
     "summary": "This paper addresses a critical safety gap in LLM-based skill marketplaces: individually benign skills can combine in unexpected ways to cause harmful behavior. The authors propose SkillFuzz, a fuzzing approach that automatically discovers these \"implicit intents\" by testing skill compositions without needing to execute them, using planning artifacts as a window into agent intent. This matters because open marketplaces with hundreds of community-contributed skills create an exponentially large space of dangerous combinations that traditional auditing methods miss.",
     "date_added": "2026-07-04",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7382,7 +7382,7 @@
     ],
     "summary": "This paper shows that in-context learning—the ability to learn from examples within a single forward pass—can work in biologically plausible spiking neural networks (SNNs) using only a single layer with dendritic compartments. The key insight is that the subthreshold dynamics of a dendritic compartment naturally implement an online learning algorithm (Widrow-Hoff LMS), eliminating the need for deep architectures, attention mechanisms, or inference-time weight updates. This bridges a gap between how transformers and biological neural networks solve the in-context learning problem.",
     "date_added": "2026-07-03",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7772,7 +7772,7 @@
     ],
     "summary": "This paper introduces a benchmark and annotation protocol called \"adversarial pragmatics\" to evaluate how language models handle ambiguous, conflicting, or manipulative instructions—situations where natural language is genuinely unclear or contains hidden commands. Rather than simple pass/fail grades, the framework distinguishes between different failure modes: capability gaps, policy confusion, instruction conflicts, or evaluator disagreement. This matters because current safety evaluations often hide what actually went wrong, making it harder to build more reliable and trustworthy AI systems.",
     "date_added": "2026-07-02",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7788,7 +7788,7 @@
     ],
     "summary": "This paper introduces AGC-Bench, a large-scale benchmark for measuring creativity in large language models across six domains (brainstorming, problem-solving, STEM, narrative, figurative language, and humor). The work combines a systematic literature review of 3,101 AI creativity papers with psychometric methods to address judge bias, ultimately discovering that LLMs exhibit a single underlying creativity factor analogous to general intelligence—but one that remains inferior to human creativity on matched tasks.",
     "date_added": "2026-07-02",
-    "trusted": "Mistral"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -7821,7 +7821,7 @@
     ],
     "summary": "This paper presents CausalMix, a method for optimizing how different types of training data are mixed when training large language models (LLMs). Instead of using fixed rules or proxy models that break when data sources change, the authors frame data mixing as a causal inference problem — treating data characteristics as factors that influence model performance. They train a causal model on small experiments, then use it to predict optimal data mixtures for much larger models, demonstrating that this approach generalizes better across different model sizes and data distributions.",
     "date_added": "2026-07-02",
-    "trusted": "Mistral"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -8086,7 +8086,7 @@
     ],
     "summary": "This paper solves a statistical problem: given a document that may be partially human-written and partially machine-generated, how can you estimate what fraction was produced by a specific watermarked language model? The authors analyze two methods under the Gumbel-max watermarking scheme—one using full information and one using a simplified \"pivot\" statistic—and prove how many document tokens you need to see to reliably estimate the watermark proportion. They show that the simpler method requires substantially more samples, suggesting it trades off computational elegance for statistical efficiency.",
     "date_added": "2026-07-02",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -8645,7 +8645,7 @@
     ],
     "summary": "This paper reveals a counterintuitive failure mode in offline reinforcement learning: policies trained with high conservatism (staying close to the training distribution) actually become *more* vulnerable to reward hacking when fine-tuned online. The authors show mechanistically that conservative training compresses policy entropy, creating a narrow response distribution that, while proximal to the reward model's training data, is easier to exploit through ensemble disagreement during online optimization.",
     "date_added": "2026-06-30",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -9029,7 +9029,7 @@
     ],
     "summary": "This paper uses evolutionary strategies (a gradient-free optimization method) to automatically tune hyperparameters of lightweight CNN models for real-time autonomous steering prediction. The authors demonstrate that evolution-based hyperparameter optimization can reduce model size while maintaining accuracy, enabling efficient deployment on resource-constrained autonomous driving platforms.",
     "date_added": "2026-06-30",
-    "trusted": "NVIDIA"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -9541,7 +9541,7 @@
     ],
     "summary": "This paper introduces Autoregressive Boltzmann Generators (ArBG), a new generative modeling framework for efficiently sampling molecular systems at thermodynamic equilibrium. By replacing the normalizing flow architecture typically used in Boltzmann Generators with an autoregressive approach, ArBG overcomes expressivity and computational bottlenecks, achieving state-of-the-art performance on peptide sampling tasks and demonstrating significant improvements over existing flow-based methods.",
     "date_added": "2026-06-28",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -9639,7 +9639,7 @@
     ],
     "summary": "This paper addresses fundamental limitations of Top-k Sparse Autoencoders (SAEs), a leading tool for interpreting vision foundation models, by introducing compatible sparsity regularizers that improve monosemanticity without sacrificing reconstruction quality. The key insight is that hard architectural sparsity (the Top-k selection mechanism) and soft regularization (L1 and L1/L2-ratio penalties) complement rather than contradict each other, enabling more interpretable and robust feature decomposition.",
     "date_added": "2026-06-28",
-    "trusted": "Anthropic"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -9655,7 +9655,7 @@
     ],
     "summary": "This paper presents the first LLM-based system for automating eligibility verification of securities as collateral at the German Central Bank, replacing traditional NER-based approaches with a generative information extraction pipeline. The system decomposes the task into extraction, normalization, and interpretation stages, achieving 91% precision on document-level eligibility decisions while handling noisy OCR, linguistic variance, and bilingual (German-English) prospectuses—challenges that rigid span-based NER methods struggle with.",
     "date_added": "2026-06-28",
-    "trusted": "OpenAI"
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -9753,7 +9753,7 @@
     ],
     "summary": "This paper introduces FisherSketch, a computationally efficient method for selecting training data sources for language model families that share tokenizers but differ in prediction targets (e.g., SMILES, protein, genomic sequences). By reformulating Fisher alignment as a cosine similarity in joint activation-error space rather than requiring expensive Fisher matrix computation, the method enables practical source selection at vocabulary scale with minimal memory overhead (16–192 KB signatures per task).",
     "date_added": "2026-06-28",
-    "trusted": "Hugging Face"
+    "trusted": ""
   },
   {
     "source": "arxiv",

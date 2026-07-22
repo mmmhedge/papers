@@ -37,15 +37,9 @@ def paper_matches_keywords(paper: arxiv.Result, keywords: list[str]) -> bool:
     return any(kw.lower() in text for kw in keywords)
 
 
-def paper_is_trusted(paper: arxiv.Result, trusted_sources: list[str]) -> bool:
-    text = (paper.title + " " + paper.summary).lower()
-    return any(src.lower() in text for src in trusted_sources)
-
-
 def fetch_papers() -> list[dict]:
     seen = load_seen() | existing_paper_ids(PAPERS_DIR)
     keywords = CONFIG.get("keyword_filters", [])
-    trusted_sources = CONFIG.get("trusted_sources", [])
     per_cat = CONFIG.get("papers_per_category", 5)
     categories = CONFIG.get("arxiv_categories", [])
     lookback_days = CONFIG.get("initial_lookback_days", 2)
@@ -87,7 +81,7 @@ def fetch_papers() -> list[dict]:
                     "published": result.published.isoformat(),
                     "url": result.entry_id,
                     "pdf_url": result.pdf_url,
-                    "trusted": paper_is_trusted(result, trusted_sources),
+                    "trusted": False,
                 }
                 seen.add(paper_id)
                 count += 1
