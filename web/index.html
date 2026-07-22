@@ -77,25 +77,9 @@
   .node circle { cursor: pointer; }
   .node text { font-size: 11px; fill: #aaa; pointer-events: none; }
   .link { stroke: #2a2a40; stroke-width: 1; }
-  .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.72); z-index: 200; align-items: center; justify-content: center; padding: 1rem; }
-  .modal-backdrop.show { display: flex; }
-  .modal { width: min(520px, 100%); background: #14141a; border: 1px solid #2a2a38; border-radius: 8px; padding: 1rem; box-shadow: 0 20px 80px rgba(0,0,0,0.5); }
-  .modal h2 { font-size: 1rem; color: #fff; margin-bottom: 0.85rem; font-weight: 600; }
-  .form-row { display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem; }
-  .form-row label { font-size: 0.72rem; color: #777; text-transform: uppercase; letter-spacing: 0.08em; }
-  .form-row input, .form-row select { background: #1a1a20; border: 1px solid #2a2a35; border-radius: 6px; color: #e0e0e0; padding: 0.5rem 0.6rem; font-size: 0.85rem; outline: none; }
-  .form-row input:focus, .form-row select:focus { border-color: #5865f2; }
-  .checkbox-row { flex-direction: row; align-items: center; gap: 0.55rem; }
-  .checkbox-row label { text-transform: none; letter-spacing: 0; color: #bbb; }
-  .modal-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem; }
-  .primary-btn, .secondary-btn { border-radius: 6px; padding: 0.5rem 0.8rem; font-size: 0.82rem; cursor: pointer; }
-  .primary-btn { border: 1px solid #5865f2; background: #5865f2; color: #fff; }
-  .primary-btn:disabled { opacity: 0.55; cursor: wait; }
-  .secondary-btn { border: 1px solid #2a2a38; background: #1e1e28; color: #aaa; }
-  .modal-status { min-height: 1.2rem; color: #8d96ff; font-size: 0.78rem; line-height: 1.4; margin-top: 0.65rem; }
-  .modal-status.error { color: #ff8d8d; }
-  .modal-status a { color: #8d96ff; }
-  .modal-status pre { white-space: pre-wrap; color: #ddd; background: #0f0f13; border: 1px solid #242432; border-radius: 6px; padding: 0.55rem; margin: 0.45rem 0; }
+  .toast { position: fixed; right: 1rem; bottom: 1rem; z-index: 200; max-width: min(380px, calc(100vw - 2rem)); background: #14141a; border: 1px solid #2a2a38; border-radius: 8px; color: #ddd; padding: 0.75rem 0.9rem; font-size: 0.82rem; line-height: 1.45; box-shadow: 0 16px 60px rgba(0,0,0,0.45); display: none; }
+  .toast.show { display: block; }
+  .toast.error { border-color: #5a2828; color: #ffb8b8; }
 </style>
 </head>
 <body>
@@ -135,36 +119,7 @@
   <svg id="graph-svg"></svg>
 </div>
 
-<div class="modal-backdrop" id="deep-summary-modal" onclick="closeDeepSummaryModal(event)">
-  <form class="modal" onsubmit="dispatchDeepSummary(event)" onclick="event.stopPropagation()">
-    <h2>Send Deep Summary</h2>
-    <div class="form-row">
-      <label for="deep-title">Title</label>
-      <input id="deep-title" autocomplete="off">
-    </div>
-    <div class="form-row">
-      <label for="deep-source">Source</label>
-      <input id="deep-source" autocomplete="off">
-    </div>
-    <div class="form-row">
-      <label for="deep-math-depth">Math depth</label>
-      <select id="deep-math-depth">
-        <option value="heavy">Heavy</option>
-        <option value="standard">Standard</option>
-        <option value="light">Light</option>
-      </select>
-    </div>
-    <div class="form-row checkbox-row">
-      <input id="deep-include-tables" type="checkbox" checked>
-      <label for="deep-include-tables">Include exact tables</label>
-    </div>
-    <div class="modal-actions">
-      <button type="button" class="secondary-btn" onclick="closeDeepSummaryModal()">Cancel</button>
-      <button type="submit" class="primary-btn" id="deep-submit">Open Workflow</button>
-    </div>
-    <div class="modal-status" id="deep-status"></div>
-  </form>
-</div>
+<div class="toast" id="toast"></div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
@@ -175,8 +130,7 @@ let activeFilters = new Set();
 let sortMode = 'date';
 const GITHUB_OWNER = 'mmmhedge';
 const GITHUB_REPO = 'papers';
-const DEEP_SUMMARY_WORKFLOW = 'deep_summary.yml';
-const DEEP_SUMMARY_WORKFLOW_URL = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${DEEP_SUMMARY_WORKFLOW}`;
+const DEEP_SUMMARY_ENDPOINT = '/api/deep-summary';
 
 // localStorage helpers
 function getRead() { return new Set(JSON.parse(localStorage.getItem('papers_read') || '[]')); }
@@ -337,7 +291,7 @@ function renderPapers(papers, read, prio, ct) {
           </div>
         </div>
         <div class="card-actions">
-          ${source === 'arxiv' && (p.pdf || p.url) ? `<button class="action-btn deep-active" onclick="openDeepSummary(${i},event)">Deep summary</button>` : ''}
+          ${source === 'arxiv' && (p.pdf || p.url) ? `<button class="action-btn deep-active" onclick="sendDeepSummary(${i},event)">Deep summary</button>` : ''}
           <button class="action-btn ${isPrio ? 'prio-active' : ''}" onclick="togglePrio('${keyEsc}',event)">⭐ ${isPrio ? 'Prio' : 'Prio'}</button>
           <button class="action-btn ${isRead ? 'read-active' : ''}" onclick="toggleRead('${keyEsc}',event)">${isRead ? '✓ Read' : 'Mark read'}</button>
         </div>
@@ -374,56 +328,46 @@ function escAttr(s) {
   return String(s).replace(/'/g,"\\'").replace(/"/g,'&quot;');
 }
 
-function openDeepSummary(i, event) {
+function showToast(message, isError = false) {
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.classList.toggle('error', isError);
+  toast.classList.add('show');
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => toast.classList.remove('show'), 5200);
+}
+
+async function sendDeepSummary(i, event) {
   event.stopPropagation();
   const paper = visiblePapers[i];
   if (!paper) return;
 
-  document.getElementById('deep-title').value = paper.title || '';
-  document.getElementById('deep-source').value = paper.pdf || paper.url || '';
-  document.getElementById('deep-math-depth').value = 'heavy';
-  document.getElementById('deep-include-tables').checked = true;
-  setDeepStatus('');
-  document.getElementById('deep-summary-modal').classList.add('show');
-}
-
-function closeDeepSummaryModal(event) {
-  if (event) event.stopPropagation();
-  document.getElementById('deep-summary-modal').classList.remove('show');
-}
-
-function setDeepStatus(message, isError = false) {
-  const el = document.getElementById('deep-status');
-  el.innerHTML = message;
-  el.classList.toggle('error', isError);
-}
-
-async function dispatchDeepSummary(event) {
-  event.preventDefault();
-  const source = document.getElementById('deep-source').value.trim();
-  const title = document.getElementById('deep-title').value.trim();
-  const mathDepth = document.getElementById('deep-math-depth').value;
-  const includeTables = document.getElementById('deep-include-tables').checked;
-
-  if (!source) {
-    setDeepStatus('No source URL found for this paper.', true);
-    return;
-  }
-
-  const runInputs = [
-    `source: ${source}`,
-    `title: ${title}`,
-    `math_depth: ${mathDepth}`,
-    `include_tables: ${includeTables}`,
-  ].join('\n');
+  const button = event.currentTarget;
+  const originalText = button.textContent;
+  button.disabled = true;
+  button.textContent = 'Sending...';
+  showToast('Starting deep summary. Telegram will get it when it is ready.');
 
   try {
-    await navigator.clipboard.writeText(runInputs);
-    setDeepStatus(`Inputs copied. <a href="${DEEP_SUMMARY_WORKFLOW_URL}" target="_blank">Open workflow</a>`);
+    const response = await fetch(DEEP_SUMMARY_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        source: paper.pdf || paper.url,
+        title: paper.title || '',
+        math_depth: 'heavy',
+        include_tables: true
+      })
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || `${response.status} ${response.statusText}`);
+    showToast('Deep summary started. Telegram will receive it shortly.');
   } catch (error) {
-    setDeepStatus(`Copy these into the workflow:<br><pre>${escHtml(runInputs)}</pre><a href="${DEEP_SUMMARY_WORKFLOW_URL}" target="_blank">Open workflow</a>`);
+    showToast(`Could not start deep summary: ${error.message}`, true);
+  } finally {
+    button.disabled = false;
+    button.textContent = originalText;
   }
-  window.open(DEEP_SUMMARY_WORKFLOW_URL, '_blank', 'noopener');
 }
 
 // Tag graph using D3

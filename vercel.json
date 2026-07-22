@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/papers.json",
+      "destination": "/web/papers.json"
+    },
+    {
+      "source": "/",
+      "destination": "/web/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/web/$1"
+    }
+  ]
+}
