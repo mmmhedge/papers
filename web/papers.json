@@ -2,6 +2,22 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "Introducing OpenAI Presence",
+    "authors": "OpenAI",
+    "published": "2026-07-22",
+    "url": "https://openai.com/index/introducing-openai-presence",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI has released Presence, an enterprise platform for deploying voice and chat agents in customer-facing and internal business workflows. The product targets organizations seeking production-ready AI agents with built-in trust and reliability features.",
+    "date_added": "2026-07-23",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "Safety and alignment in an era of long-horizon models",
     "authors": "OpenAI",
     "published": "2026-07-20",
@@ -433,6 +449,481 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+    "authors": "Nethmi Muthugala,  Supryadi, Surangika Ranathunga, Nisansa de Silva, Ruijie Tao et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20410v1",
+    "pdf": "https://arxiv.org/pdf/2607.20410v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a critical gap in LLM value alignment: most existing approaches embed Western cultural norms, leaving underrepresented languages and non-Western societies poorly served. The authors create LKValues, a comprehensive resource suite grounded in Sri Lankan societal values, including a dataset of 150k instruction-tuning examples and a 1,000-instance benchmark in Sinhala and English. They show that even state-of-the-art models exhibit significant cultural and cross-lingual alignment gaps, and that fine-tuning on culturally-grounded data can meaningfully reduce these disparities.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
+    "authors": "Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20399v1",
+    "pdf": "https://arxiv.org/pdf/2607.20399v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a control system for miniature humanoid robots that combines Virtual Reality teleoperation for the upper body with Reinforcement Learning for balance and walking. The work makes sophisticated full-body robot control accessible on cheap, small hardware (specifically the ROBOTIS OP3), demonstrating that a remote operator can make the robot walk while simultaneously manipulating objects—a task previously limited to expensive industrial-scale humanoids.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
+    "authors": "Pouria Mahdi, Haq Nawaz Malik",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20385v1",
+    "pdf": "https://arxiv.org/pdf/2607.20385v1",
+    "tags": [
+      "computer-vision",
+      "nlp"
+    ],
+    "summary": "This paper introduces Persian Pixel, a large synthetic dataset of 343,000 text images designed to train optical character recognition (OCR) systems for Persian language. The work solves a critical bottleneck: Persian OCR lags far behind Latin-script systems because Persian's complex cursive script and lack of annotated training data make it hard to build accurate recognition models. By programmatically generating realistic training images with authentic Persian typography and document degradation, the authors provide a cost-effective path to robust Persian OCR without expensive manual labeling.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+    "authors": "Hiskias Dingeto",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20379v1",
+    "pdf": "https://arxiv.org/pdf/2607.20379v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper exposes a critical flaw in how we verify explanations of neural network activations: the standard reconstruction-based test (does the explanation let us regenerate the activation?) can pass while being fundamentally unfaithful. The authors propose RECAP, a training-time method that keeps internal model representations independently verifiable, making it harder for models to game explanations during safety audits.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs",
+    "authors": "Amirhossein Sadr, Nima Soltani, Vahideh Moghtadaiee, Aida Pakniyat, Dara Rahmati et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20378v1",
+    "pdf": "https://arxiv.org/pdf/2607.20378v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces PG-KINN, a method that combines Kolmogorov-Arnold Networks (KANs — neural networks with learnable spline activations) with a Petrov-Galerkin weak formulation to solve partial differential equations (PDEs) both forward and inverse problems. The key insight is that by using a weak formulation (integration by parts) instead of strong-form residual minimization, the method achieves better numerical conditioning, lower differentiation requirements, and works for broader classes of PDEs including non-self-adjoint and nonlinear systems.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Statevector-Referenced Geometry Survival of a Four-Qubit ZZ Quantum Kernel on IBM Quantum Hardware: A Fixed-Subset Diagnostic Across Three Execution Configurations",
+    "authors": "Rostyslav Sipakov",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20377v1",
+    "pdf": "https://arxiv.org/pdf/2607.20377v1",
+    "tags": [],
+    "summary": "This paper diagnoses how well quantum kernel methods preserve geometric structure when executed on real quantum hardware. The authors measure a four-qubit ZZ kernel's Gram matrix across different error-mitigation configurations on IBM hardware, finding that gate twirling best preserves geometry—but warns that implementation fidelity and task relevance are separate concerns, and no quantum advantage should be claimed.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Online Variance Reduction for Domain Adaptation on Streaming Data",
+    "authors": "Andrea Napoli",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20374v1",
+    "pdf": "https://arxiv.org/pdf/2607.20374v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces ARROW, the first online variance reduction algorithm for domain adaptation on streaming data. It tackles a practical problem: existing variance reduction techniques work offline, but real-world data arrives continuously, making them incompatible with streaming scenarios. ARROW maintains moving averages of alignment statistics and reweights incoming data batches to reduce variance while adapting to new domains—achieving speeds and accuracy comparable to offline methods.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+    "authors": "Chang Liu, Xinyu Li, Artur Dubrawski",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20372v1",
+    "pdf": "https://arxiv.org/pdf/2607.20372v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether large language models (LLMs) can learn from their own problem-solving experiences by extracting and reusing natural-language abstractions — essentially distilled strategies or lessons learned. The researchers build a library of these \"notes to self\" from solved math problems, then test whether retrieving or training with these abstractions helps LLMs solve new problems better. The work suggests LLMs can benefit from experiential learning in ways that mirror how humans leverage accumulated knowledge.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Variance-reduced Domain Adaptation using Paired Sampling",
+    "authors": "Andrea Napoli",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20367v1",
+    "pdf": "https://arxiv.org/pdf/2607.20367v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tackles a key problem in domain adaptation — when a machine learning model trained on one dataset (source domain) struggles on a different dataset (target domain) due to distribution shift. The authors propose Paired Sampling for Domain Adaptation (PSDA), a variance reduction technique that makes existing domain adaptation methods more stable and effective during training by smartly pairing data points across domains. Experiments show the method improves target domain accuracy while reducing training variance.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Test-Time Training for Modality Order Consistency in Vision-Language Models",
+    "authors": "Aditi Gupta, Yossi Gandelsman",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20351v1",
+    "pdf": "https://arxiv.org/pdf/2607.20351v1",
+    "tags": [
+      "computer-vision",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "Vision-language models (like CLIP or LLaVA) perform differently depending on whether you show them the image first or ask the question first — a semantically meaningless change that shouldn't matter. This paper identifies this \"modality order\" bug, uses activation patching to locate it in mid-network layers, and proposes a simple test-time training fix that closes the performance gap and even improves both orderings.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+    "authors": "Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20345v1",
+    "pdf": "https://arxiv.org/pdf/2607.20345v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses the \"lab-to-store gap\" — the problem that robots trained in controlled settings fail in real retail environments. The authors present DEED, a practical framework that combines careful data preparation, targeted fine-tuning, and learning-from-experience to make humanoid robots reliable at real-world tasks like shelf restocking. The key insight is that this is mostly an engineering problem, not an architecture problem: with the right data and training pipeline, even a single GPU can produce a working robot.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+    "authors": "Niqi Lyu, Pengtao Shi, Wei Qiu, Jianlin Zhong, Sicong Xia et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20327v1",
+    "pdf": "https://arxiv.org/pdf/2607.20327v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "PyroDash is a framework that pairs small, cheap language models (SLMs) with large, powerful ones (LLMs) to save money while maintaining reasoning quality. During generation, the SLM learns when to ask the LLM for help by emitting a special token—this decision is trained using reinforcement learning to balance accuracy against cost. On math problems, it achieves better accuracy than using the LLM alone while cutting costs by up to 98%.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Adaptive deep nonparametric regression from dependent data under covariate shift",
+    "authors": "William Kengne, Ehud Mossa Ockegna",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20309v1",
+    "pdf": "https://arxiv.org/pdf/2607.20309v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops deep neural network methods for regression tasks when training and test data come from different distributions (covariate shift) and observations are dependent rather than independent. The key innovation is a sparse-penalized deep neural network estimator that reweights data to account for distribution mismatch, with theoretical guarantees showing it achieves near-optimal convergence rates even with time-series data.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability",
+    "authors": "Abigail Woodring, Adrian Chan, Rana Muhammad Shahroz Khan, Sukwon Yun, Chau-Wai Wong et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20301v1",
+    "pdf": "https://arxiv.org/pdf/2607.20301v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper explains why PortLLM—a method for adapting fine-tuned language models to continually pretrained base models without retraining—works so well and for so long. The authors show empirically that LoRA patches (parameter-efficient adaptations) remain effective across 10+ updates of the base model, and they prove theoretically that high-dimensional near-orthogonality explains this \"temporal portability,\" offering a geometric perspective on why simple adaptation methods persist over time.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+    "authors": "Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20286v1",
+    "pdf": "https://arxiv.org/pdf/2607.20286v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper develops a mathematical framework to rigorously measure how often large language models (LLMs) generate harmful outputs. The core innovation is using Clopper-Pearson confidence intervals — a classical statistical tool — combined with a smart search algorithm to efficiently compute provably-correct lower bounds on harm probability, even when the true probability is extremely small. This matters because it enables formal safety certification of LLMs, moving beyond ad-hoc testing.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+    "authors": "Soroosh Tayebi Arasteh, Sebastian Ziegelmayer, Mahshad Lotfinia, Lisa Adams, Sven Nebelung et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20274v1",
+    "pdf": "https://arxiv.org/pdf/2607.20274v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper investigates whether medical image encoders from different organizations learn similar representations, and what drives that convergence. The authors systematically compare 18 image and 7 text encoders across multiple datasets and find that convergence is real but modest—and surprisingly, it's driven by the self-supervised training objective, not by clinical expertise or model scale. This challenges the assumption that bigger, clinically-trained models automatically learn shared, interchangeable representations.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+    "authors": "Yihang Gao, Vincent Y. F. Tan",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20205v1",
+    "pdf": "https://arxiv.org/pdf/2607.20205v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes StatLoRA, a statistical method for deciding how to distribute rank resources across different components of LoRA (Low-Rank Adaptation) fine-tuning in large language models. Instead of using ad-hoc importance scores, StatLoRA frames rank allocation as a hypothesis testing problem with theoretical guarantees, and shows it matches or beats existing methods on NLP tasks while being more principled.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Active Inference as a Convex Markov Decision Process",
+    "authors": "Nikola Milosevic, Nicolás Hinrichs, Nico Scherf",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20152v1",
+    "pdf": "https://arxiv.org/pdf/2607.20152v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that Active Inference — a neuroscience-inspired framework where agents minimize expected free energy to make decisions — can be reformulated as a convex optimization problem within the standard reinforcement learning framework. By doing this, the authors make Active Inference amenable to modern RL algorithms and convergence guarantees, bridging two previously separate theoretical perspectives on adaptive behavior.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Autonomous Collaborative Learning Among an Ensemble of Tsetlin Machines with Consensus-Based Inference",
+    "authors": "Yehuda Rudin, Osnat Keren, Michal Yemini, Alexander Fish",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20124v1",
+    "pdf": "https://arxiv.org/pdf/2607.20124v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes a decentralized learning framework where multiple Tsetlin Machines (rule-based learning systems) collaborate without sharing raw data, each agent solving its portion of a classification problem and reaching consensus on predictions. It matters because it shows how distributed, privacy-preserving machine learning can work with interpretable rule-based models in settings like multi-sensor environments where data cannot be centralized.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Giant Hippocampus: From Structural Monoculture to a System of Systems",
+    "authors": "Jaeho Seol",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19973v1",
+    "pdf": "https://arxiv.org/pdf/2607.19973v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper argues that modern AI has made a structural mistake by applying identical Transformer architectures to all tasks, when neuroscience shows that different cognitive functions require qualitatively different neural structures. The author proposes a \"System of Systems\" design — heterogeneous modules with specialized inductive biases communicating through standardized interfaces — as a principled alternative to monolithic, scaled-up models.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage",
+    "authors": "Shay Seiya McDonnell, Avantika Singh, Quoc-Viet Pham, Vratislav Havlik, Gregory M. P. O'Hare",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19899v1",
+    "pdf": "https://arxiv.org/pdf/2607.19899v1",
+    "tags": [
+      "alignment",
+      "multi-agent-systems",
+      "risk-management"
+    ],
+    "summary": "This paper identifies a critical flaw in multi-agent safety systems: when independent agents improve and converge toward similar decisions, they become blind to correlated failures—situations where multiple agents make the same wrong call. The authors propose ARAT, a system using diverse reasoning models (Random Forest, k-NN, and a calibrated meta-model) that actively detects and escalates these dangerous agreement moments, validated on network intrusion detection and clinical readmission prediction tasks.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SpikingMOT: A Spike-Driven Multi-Object Tracker",
+    "authors": "Yiding Sun, Xiangyang Yang, Dongxu Zhang, Qirui Wang, Zijie Xu et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19875v1",
+    "pdf": "https://arxiv.org/pdf/2607.19875v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper introduces SpikingMOT, a multi-object tracking system that uses spiking neural networks (SNNs)—brain-inspired networks that process information through sparse, event-driven activations—instead of traditional dense neural networks. The key insight is that tracking doesn't need constant, full activation of neurons; sparse, selective firing can actually predict motion just as well while using 86% less energy and 72% fewer parameters. The work achieves state-of-the-art tracking accuracy on challenging benchmarks (SportsMOT and DanceTrack) while being far more efficient.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Asymptotically Optimal Regret for Reinforcement Learning without Horizon Dependence",
+    "authors": "Runlong Zhou, Zihan Zhang, Maryam Fazel, Simon S. Du",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19854v1",
+    "pdf": "https://arxiv.org/pdf/2607.19854v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves a fundamental problem in reinforcement learning: how to minimize regret (cumulative mistakes) without the regret depending on the planning horizon H. The authors propose a new algorithm achieving near-optimal regret bounds for tabular Markov decision processes — environments with discrete states and actions where the agent learns to maximize rewards. This matters because previous algorithms had regret that grew with log H, making them inefficient for long-term planning; this work removes that dependence entirely.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Dreamer-CPC: Message Learning with World Models for Decentralized Multi-agent Reinforcement Learning",
+    "authors": "Taisuke Takayama, Naoto Yoshida, Tadahiro Taniguchi",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19809v1",
+    "pdf": "https://arxiv.org/pdf/2607.19809v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Dreamer-CPC, a decentralized multi-agent reinforcement learning method where agents learn to communicate by exchanging messages derived from their internal world models rather than raw observations. The key insight is that messages grounded in latent world-model states (which encode history) enable better coordination than messages based only on current observations, especially when some agents have missing or partial information.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Not Birds of a Feather: Personality-Based Partner Selection in LLM Agents",
+    "authors": "Tao Wang, Hsiang-Ling Chiu, Chihang Wei, Yang Xiu, Zhonghao Hou",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19785v1",
+    "pdf": "https://arxiv.org/pdf/2607.19785v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how LLM agents select partners based on personality traits when capability is held constant. The researchers found that agents show strong, task-dependent personality preferences (e.g., choosing \"open\" agents for creative tasks, \"conscientious\" agents for strategic ones) that contradict both human similarity-attraction patterns and human evidence about what personalities actually make teams perform well — raising concerns about bias in AI agent marketplaces.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning the Arabic Dialect Continuum as a Continuous Space: A Regression Approach to Speaker Origin Prediction",
+    "authors": "Mohamed Aziz Khadraoui, Adel Ammar, Bilel Benjdira, Zahid Khan, Skander Turki et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19751v1",
+    "pdf": "https://arxiv.org/pdf/2607.19751v1",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper treats Arabic dialect variation as a continuous geographic phenomenon rather than discrete categories, predicting speaker location as latitude-longitude coordinates using neural networks. The approach is novel because it acknowledges that Arabic dialects form a spectrum across space — not isolated pockets — and validates this mathematically using a spherical loss function that respects Earth's curvature.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient Clustering with Provable Guardrails for LLM Inference at Scale",
+    "authors": "Longshaokan Wang, Wai Tsang Keung, Punit Ghodasara, Roman Wang, Ali Dashti et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19704v1",
+    "pdf": "https://arxiv.org/pdf/2607.19704v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tackles a critical bottleneck in scaling LLM applications: the computational cost of running inference on millions of requests. The authors propose a clustering algorithm that groups similar inputs and reuses LLM outputs across cluster members, with mathematical guarantees that each member stays sufficiently close to its representative. The method is deployed at scale (38 million customers) and achieves 50× cost and latency reduction.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Same Game, Different Story: A Minimal Conservative Strategic Robustness Benchmark for Large Language Model Agents",
+    "authors": "Seyed Pouyan Mousavi Davoudi, Alireza Amiri-Margavi, Amin Gholami Davodi, Hamidreza Hasani Balyani, Arshia Gharagozlou",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.19670v1",
+    "pdf": "https://arxiv.org/pdf/2607.19670v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces a benchmark to test whether large language model agents make consistent decisions when the same strategic game is presented using different narratives or framings. The authors find that LLMs like GPT-4 and LLaMa-2 shift their behavior substantially based on social context (e.g., \"business\" vs. \"friend-sharing\" framing) even when payoffs stay identical—a concerning sign that these models lack robustness in real strategic interactions.",
+    "date_added": "2026-07-23",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Predictive Extrema, Unprofitable Policies: An AI-Assisted Audit of Candle-Based Binance Spot Timing Models",
+    "authors": "Ayoub Jadouli",
+    "published": "2026-07-21",
+    "url": "http://arxiv.org/abs/2607.19453v1",
+    "pdf": "https://arxiv.org/pdf/2607.19453v1",
+    "tags": [
+      "algorithmic-trading",
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper audits whether machine-learning models trained to predict cryptocurrency price extrema can generate profitable trading strategies on Binance spot markets after accounting for transaction costs. The authors systematically tested multiple models and found that none produced positive returns — in fact, all underperformed simple buy-and-hold, leading to a firm conclusion: do not trade on these predictions. The work is valuable as a cautionary case study showing that predictive accuracy (high AUC scores) does not guarantee trading profitability.",
+    "date_added": "2026-07-23",
+    "trusted": ""
   },
   {
     "source": "arxiv",
