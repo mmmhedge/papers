@@ -453,6 +453,450 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Synthetic data generation framework for quality control automation in gravure printing",
+    "authors": "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21577v1",
+    "pdf": "https://arxiv.org/pdf/2607.21577v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper solves a real industrial problem: rotogravure printing (a high-volume printing method) currently relies on slow manual inspection to catch defects like creases and streaks. The authors built an automated synthetic data generation system that creates realistic images of printing defects with pixel-perfect labels, then used those synthetic images to train a defect-detection model that achieved 80.9% accuracy on real factory samples. This matters because manual inspection is expensive and subjective—automating it with synthetic data saves money and scales instantly to any production line.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MedGame: Storytelling Gamification Empowered by Large Language Models for Medical Education",
+    "authors": "Qian Wu, Xinrong Zhou, Zizhan Ma, Kai Chen, Zheyao Gao et al.",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21570v1",
+    "pdf": "https://arxiv.org/pdf/2607.21570v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "MedGame transforms static clinical cases into interactive storytelling games powered by large language models, creating a more engaging learning experience for medical students. The system uses two AI components—one that designs clinically-accurate narratives with decision points, and another that orchestrates these into interactive experiences—along with a benchmark of 5,000 cases to measure performance. Student studies show this gamified approach feels more useful and engaging than traditional text-based medical education.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling",
+    "authors": "Aaron Feller, Kris Deibler, Maxim Secor",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21561v1",
+    "pdf": "https://arxiv.org/pdf/2607.21561v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper introduces EnsembleEGNN, a neural network model that predicts molecular properties from cyclic peptides by processing multiple 3D conformations (shapes) of the same molecule simultaneously, rather than treating it as a single fixed structure. The key insight is that molecules in solution exist as dynamic ensembles, and capturing this conformational diversity improves property prediction accuracy compared to single-structure or sequence-only baselines.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning",
+    "authors": "Baihui Wang, Bernard Koch",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21558v1",
+    "pdf": "https://arxiv.org/pdf/2607.21558v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates how large language models (LLMs) update their moral judgments when exposed to different perspectives, showing that the process isn't simply about reducing \"sycophancy\" (telling people what they want to hear) but follows structured patterns borrowed from human social psychology. The authors demonstrate that models' resistance or compliance depends on three factors: how different a new view is from their current position, who presents it, and whether a group endorses it—enabling better design of AI systems that can learn from others without blindly accepting influence.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+    "authors": "Xiao Yu, Baolin Peng, Ruize Xu, Hao Zou, Qianhui Wu et al.",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21557v1",
+    "pdf": "https://arxiv.org/pdf/2607.21557v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "OpenForgeRL is an open-source framework that enables end-to-end training of AI agents that use complex inference harnesses (like Claude Code or Codex) in real-world environments. The key innovation is decoupling training from the harness itself—using a lightweight proxy to record harness behavior as training data, while a Kubernetes orchestrator runs distributed rollouts—making it practical to apply reinforcement learning to sophisticated multi-turn agents that were previously hard to train with standard RL tools.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+    "authors": "Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21552v1",
+    "pdf": "https://arxiv.org/pdf/2607.21552v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a key weakness in vision-language models (VLMs): they often fail at visual reasoning tasks even when they could solve the same problem presented as text. The authors show that different representations of the same problem—text-only, image-only, or combined—expose different reasoning strengths and weaknesses. They propose MIRROR, a reinforcement learning method that trains models to learn from their best-performing modality, using the strongest view as a teacher for weaker ones, improving both accuracy and cross-modal consistency on geometry reasoning tasks.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "X$^3$-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment",
+    "authors": "Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia et al.",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21550v1",
+    "pdf": "https://arxiv.org/pdf/2607.21550v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper presents X³-OPD, a method for teaching audio-language models to reason better by distilling knowledge from text-based language models. The core insight is that audio models struggle with logical reasoning because training data is scarce, so the authors transfer reasoning skills from powerful text models to audio models using on-policy learning—where the audio model generates its own reasoning steps while receiving guidance from the text teacher. This matters because audio contains information (tone, background sounds, speech patterns) that text alone misses, but current audio models can't reason about it well.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Zero-Flow Two-Sample Tests",
+    "authors": "Yakun Wang, Leyang Wang, Song Liu, Taiji Suzuki",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21542v1",
+    "pdf": "https://arxiv.org/pdf/2607.21542v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces a new statistical test to determine whether two datasets come from the same distribution. The key innovation is the \"zero-flow discrepancy\" (ZFD), which detects local misalignments between samples and uses neural networks to learn directional patterns that reveal distributional differences. The method maintains statistical validity while using flexible deep learning, making it practical for complex, real-world data.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+    "authors": "Kaiwen Zhang, Guanjun Liu",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21530v1",
+    "pdf": "https://arxiv.org/pdf/2607.21530v1",
+    "tags": [
+      "large-language-models"
+    ],
+    "summary": "This paper combines Petri nets (a formal model for concurrent systems) with large language models to automatically generate rigorous test cases for concurrent Rust APIs. The key insight is that LLMs alone produce shallow or incorrect tests for complex concurrent code, while formal methods alone require too much manual work—so the authors use Petri nets as a structured blueprint to guide LLM test generation, catching bugs that respect both API semantics and concurrency rules.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "authors": "Hongxin Zhang, Chunru Lin, Junyan Li, Zhou Xian, Tsun-Hsuan Wang et al.",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21522v1",
+    "pdf": "https://arxiv.org/pdf/2607.21522v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper presents GS-Agent, a system that converts natural language descriptions into realistic 4D physical worlds (3D scenes with dynamic motion and physics). Instead of training end-to-end neural networks, it orchestrates multiple AI agents that collaborate through code to iteratively build scenes—managing 3D assets, materials, placement, motion, and camera/lighting—while a physics engine ensures the results are physically plausible and interactive.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+    "authors": "Federico Boggia",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21498v1",
+    "pdf": "https://arxiv.org/pdf/2607.21498v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates why large language models systematically overuse epanorthosis—a classical rhetorical figure involving self-correction (e.g., \"This is not a course. It is a journey of transformation\")—and proposes methods to calibrate this behavior to match human writing patterns. The work bridges classical rhetoric with modern LLM analysis, showing that the overuse stems from training data distribution and preference tuning rather than fundamental generation constraints, and demonstrates practical techniques to reduce the figure to human-appropriate levels across different genres.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Toward Generalizable Cognitive Impairment Detection with Speech-Based Multimodal Large Language Models",
+    "authors": "Yingchao Huang, Xin Wang, Yuhan Su, Shanshan Yao",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21496v1",
+    "pdf": "https://arxiv.org/pdf/2607.21496v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes a multimodal framework using large language models to detect cognitive impairment from speech by combining acoustic and linguistic features. The approach achieves 92.4% accuracy on benchmark datasets and shows strong cross-dataset generalization, offering a non-invasive, privacy-preserving screening tool for early diagnosis of cognitive decline.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+    "authors": "Natan Levy, Harel Berger",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21495v1",
+    "pdf": "https://arxiv.org/pdf/2607.21495v1",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This paper tackles a practical problem: non-technical users in organizations are building AI agents through low-code and no-code tools, but these agents silently degrade over time as their underlying dependencies (models, APIs, data sources, permissions) change. The authors propose a \"continuous assurance\" framework—combining dependency tracking, readiness checks, and governance—to keep citizen-created agents reliable in production without requiring deep technical expertise to maintain them.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+    "authors": "Gil Lifshits, Igal Bilik, Gilad Katz",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21488v1",
+    "pdf": "https://arxiv.org/pdf/2607.21488v1",
+    "tags": [
+      "deep-learning",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents MAPS, a hierarchical deep reinforcement learning system for coordinating autonomous vehicles at unsignalized intersections without relying on traffic signals or privileged communication. A centralized \"Master\" agent learns a compact continuous embedding (proto-plan) that encodes coordination strategy, which decentralized \"Worker\" agents use alongside local observations to control individual vehicles. The approach achieves collision-free navigation with reduced travel times and generalizes remarkably well — a system trained on three agents works zero-shot on five-agent scenarios with 94% success.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+    "authors": "Mack Nixon, Liam Wright, Yevgeniya Kovalchuk, Alison Fang-Wei Wu, Martin Danka et al.",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21482v1",
+    "pdf": "https://arxiv.org/pdf/2607.21482v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper evaluates open-source large language models running locally on consumer hardware for automated data preparation — a tedious bottleneck in research involving sensitive longitudinal data. The work demonstrates that mid-size open models (31–35B parameters) can handle complex data cleaning tasks like merging survey waves and harmonizing categories with 87.9% success, offering a privacy-safe alternative to cloud-based AI coding assistants.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+    "authors": "Anna Mosolova, Djamé Seddah",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21445v1",
+    "pdf": "https://arxiv.org/pdf/2607.21445v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces TriviaRoomQA, a multilingual benchmark of 8,640 quiz-style questions across six European languages, to expose knowledge gaps in large language models that standard benchmarks miss. The authors evaluate 30 models and find that while LLMs excel at formal domains like history and mathematics, they fail surprisingly often on everyday cultural knowledge—celebrities, music, movies, news—and perform inconsistently across languages on identical questions, revealing that factual knowledge in LLMs is language-dependent rather than universal.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks",
+    "authors": "Hossein Mobahi, Peter L. Bartlett",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21366v1",
+    "pdf": "https://arxiv.org/pdf/2607.21366v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper introduces HOPE, a mathematical framework that deconstructs what neural networks learn by treating network compression as a problem in functional analysis. Instead of using ad-hoc pruning heuristics, the authors model neurons as operators in a Hilbert space (an abstract mathematical setting for continuous functions), enabling a unified way to remove or merge neurons and entire layers without architectural bias. This matters because understanding what networks learn and how to compress them efficiently is crucial for both interpretability and deployment.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FedAgentKE: Federated Semantic Knowledge Evolution for Heterogeneous Agents",
+    "authors": "Weihao Li, Jun Bai, Ziyang Song",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21361v1",
+    "pdf": "https://arxiv.org/pdf/2607.21361v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes FedAgentKE, a framework that lets multiple LLM-based agents learn from each other without sharing their raw reasoning steps. Instead of working in isolation, agents collaboratively evolve shared reasoning patterns through federated learning—a privacy-preserving approach where knowledge is distilled, aggregated, and adapted across different agent systems. The work matters because modern AI systems increasingly need to coordinate and improve together, and this method enables that without exposing sensitive internal reasoning.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development",
+    "authors": "Chen Zhu, Xiaolu Wang, Weilong Zhang",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21268v1",
+    "pdf": "https://arxiv.org/pdf/2607.21268v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents pAI-Econ-claude, a multi-agent system where AI agents collaborate with human experts to develop economic theory, using gates and checkpoints to catch errors when no automated correctness measure exists. The work shows that structured oversight and human judgment allocation outperform fully autonomous agent systems in domains like economics where ground truth is expensive or impossible to verify automatically.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Search Hardness-Aware LLM-Based Problem Formulation for Expensive Simulation-Driven Design",
+    "authors": "Yuchen Li, Handing Wang, Bing Xue, Mengjie Zhang",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21220v1",
+    "pdf": "https://arxiv.org/pdf/2607.21220v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes SHA-PF, a framework that uses large language models to automatically reformulate engineering design problems in ways that make them easier to solve. Rather than just translating requirements into objectives and constraints, the method discovers formulations that guide optimization algorithms toward efficient search by prioritizing samples with high potential for progress—dramatically reducing the number of expensive simulations needed to find good designs.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Explainable Belief Harmonization under Dynamic Epistemic Partitions",
+    "authors": "Adam Kostka, Jarosław A. Chudziak",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21210v1",
+    "pdf": "https://arxiv.org/pdf/2607.21210v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses how multiple agents can reconcile conflicting beliefs when their observational capabilities change during runtime—for example, when sensors fail or new data sources become available. The authors propose a formal framework combining logic-based reasoning with numerical methods to detect and repair inconsistencies while preserving explanations of why changes occurred. This matters because real multi-agent systems (robotics, distributed sensors, autonomous vehicles) must handle dynamic capability shifts, yet existing consensus and belief-merging methods assume static agent architectures.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Transformer-based Diffusion models for Hydrological Time Series Probabilistic Imputation and Forecasting",
+    "authors": "Ferdinand Bhavsar, Lionel Benoit, Maxime Savatier, Edith Gabriel",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21200v1",
+    "pdf": "https://arxiv.org/pdf/2607.21200v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "This paper applies transformer-based diffusion models to fill gaps and predict hydrological data (water quantity and quality measurements). The approach is valuable because traditional statistical methods struggle with the irregular, sparse measurements typical in water resource monitoring, where missing data and sensor failures are common — so a neural generative approach can learn complex temporal patterns and produce realistic reconstructions.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GLP: A Grassroots, Multiagent, Concurrent, Logic Programming Language for AI",
+    "authors": "Ehud Shapiro",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21189v1",
+    "pdf": "https://arxiv.org/pdf/2607.21189v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces Grassroots Logic Programs (GLP), a concurrent logic programming language designed to let multiple independent agents coordinate and form larger systems without requiring central control or a single global authority. The work matters because it offers a technical foundation for building truly decentralized platforms where participants can operate autonomously yet still coalesce into shared infrastructure—a rare middle ground between centralized and purely decentralized systems.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Smooth Neural Point Processes via B-Splines",
+    "authors": "Michele Bellomo, Riccardo Ramaschi, Alberto Dolara, Tomaso Aste",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21098v1",
+    "pdf": "https://arxiv.org/pdf/2607.21098v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a new way to model temporal point processes (sequences of events in continuous time) using neural networks combined with B-splines — smooth mathematical curves. The key insight is that by directly modeling the conditional intensity function (the instantaneous rate of events) as a weighted combination of B-spline basis functions, the method achieves exact likelihood calculations, faster training through parallelization, and better predictive accuracy than existing neural approaches.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Weight-norm Criticality: A Mechanism for Loss Spikes Induced by the Normalization and Weight Decay",
+    "authors": "Xiaolong Li, Zhangchen Zhou, Zhi-Qin John Xu",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.21005v1",
+    "pdf": "https://arxiv.org/pdf/2607.21005v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper identifies a previously overlooked source of training instability in deep neural networks: the interaction between weight normalization and weight decay that drives scale-invariant weight norms toward zero, causing abrupt loss spikes. The work explains why weight decay improves generalization up to a point but then destabilizes training if made too strong—a phenomenon distinct from the well-known \"edge of stability\" problem caused by learning rates alone.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Does Recurrence Become an Algorithm? Convergence Selection in Weight-Tied Looped Transformers",
+    "authors": "Tong Zhang, Junhao Hu, Yun Peng, Tao Xie",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20594v1",
+    "pdf": "https://arxiv.org/pdf/2607.20594v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper investigates when recurrent transformers (the same transformer block applied repeatedly) actually learn to solve algorithmic problems, rather than just memorizing patterns. The authors discover a \"budget law\" that predicts how fast the model solves a problem per loop based on training data size and loop count, and show that weight tying (reusing the same block) fundamentally shifts which algorithm the model learns—from parallel to serial computation. These findings are invisible to standard analysis methods, so the authors introduce new measurement techniques to detect what algorithms transformers actually implement.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SPECTRA: State-Space Exogenous Context and Temporal-Frequency Resolution Architecture for Probabilistic Energy Forecasting",
+    "authors": "Hang Ye, Xinyan Jiang, Yuedong Shi, Yangxin Zhu, Jianming Wei et al.",
+    "published": "2026-07-22",
+    "url": "http://arxiv.org/abs/2607.20587v1",
+    "pdf": "https://arxiv.org/pdf/2607.20587v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces SPECTRA, a neural architecture for predicting energy supply and demand with both point estimates and uncertainty bounds. The key insight is that predictable patterns (trends and seasons) and unpredictable noise play different roles in shaping forecast distributions—the first anchors the prediction, the second determines confidence intervals. The method outperforms existing approaches on electricity load, price, solar, and wind forecasting by 5–7%.",
+    "date_added": "2026-07-24",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
     "authors": "Nethmi Muthugala,  Supryadi, Surangika Ranathunga, Nisansa de Silva, Ruijie Tao et al.",
     "published": "2026-07-22",
