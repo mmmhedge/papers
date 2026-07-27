@@ -453,6 +453,432 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
+    "authors": "Shing Ho J. Lin, Wenzhao Zheng, Dong Zhuo, Yuqi Wu, Jie Zhou et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22534v1",
+    "pdf": "https://arxiv.org/pdf/2607.22534v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces SM4RT, a neural network model that reconstructs both the 3D geometry and motion of dynamic scenes from single-camera video. The key insight is that real objects move as rigid units following physics (SE(3) transformations), not as random scattered points — so the model exploits this structure to better understand how scenes change over time.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+    "authors": "Siyuan Huang, Pengyu Cheng, Haotian Liu, Tao Chen, Yihao Liu et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22529v1",
+    "pdf": "https://arxiv.org/pdf/2607.22529v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Skill Self-Play, a framework where language models learn by playing against themselves—generating tasks, solving them, and improving dynamically across learned \"skills.\" The key insight is that organizing self-improvement around modular skills lets models explore diverse tasks while maintaining reliable feedback, solving a core problem in self-supervised LLM training where either you get good verification (but narrow domains) or broad exploration (but noisy rewards).",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
+    "authors": "Anduel Mehmeti, Gabriella Gigante, Salvatore Venticinque",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22525v1",
+    "pdf": "https://arxiv.org/pdf/2607.22525v1",
+    "tags": [
+      "agents",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies explainability techniques to reinforcement learning agents operating in air traffic control, a safety-critical domain where humans must trust AI decisions. The authors train an RL agent to plan alternative flight routes while avoiding restricted airspace, then use saliency maps to show controllers which input features most influenced the agent's choices. The work addresses a fundamental barrier to AI adoption in aviation: establishing human trust through transparency.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+    "authors": "Darshan Tank, Baran Nama",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22520v1",
+    "pdf": "https://arxiv.org/pdf/2607.22520v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper reveals a hidden cost of adding skills to LLM agents: while skills improve average performance, they also cause regressions where previously successful tasks fail after skill integration. By analyzing nearly 6,000 runs across benchmarks, the authors identify three mechanisms causing regression and show that top-performing skills succeed mainly by avoiding damage, not by enabling new capabilities. The finding challenges how we evaluate and design skills for autonomous AI agents.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Dysphagia Risk Stratification in Head and Neck Cancer via Two-Stage PRO-Clinical Stacking",
+    "authors": "Siyuan Zhao, Eric Ababio Anyimadu, Zachary G. Brumm, Yue Ma, Clifton David Fuller et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22514v1",
+    "pdf": "https://arxiv.org/pdf/2607.22514v1",
+    "tags": [
+      "deep-learning",
+      "risk-management"
+    ],
+    "summary": "This paper develops a machine learning model to identify head and neck cancer patients at risk of dysphagia (swallowing difficulty) using patient-reported symptoms and clinical data, avoiding the need for expensive imaging. The method stacks two prediction stages to create an interpretable risk assessment tool that could help clinicians decide which patients need specialized swallowing evaluation during survivorship care.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+    "authors": "Davide Scarso, Hugo Noronha de Almeida, Joaquim Pina",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22513v1",
+    "pdf": "https://arxiv.org/pdf/2607.22513v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper reveals that commercial LLMs evaluate fringe scientific claims inconsistently across deployment configurations — not because the underlying models differ, but because system prompts, safety mechanisms, and interface routing create wildly different outputs for identical requests. The researchers found one model (Grok Fast) systematically assigns credibility to ethnonationalist pseudo-science while others refuse or score it low, and these stances shift unpredictably across updates and interfaces, raising urgent questions about whose responsibility it is when LLMs validate harmful misinformation.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+    "authors": "Jiyuan Tan, Vasilis Syrgkanis",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22511v1",
+    "pdf": "https://arxiv.org/pdf/2607.22511v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "CausalForge automates theoretical research in causal inference by combining formal verification (via the Lean proof assistant) with an AI agent pipeline. The system generates, formalizes, and proves causal theorems while checking that formal statements actually match the intended scientific claims — solving a critical problem where language models alone unreliably verify research correctness.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Interpretable EEG biomarkers with bag-of-waves: Spatial and temporal waveform dictionaries for low-data regimes",
+    "authors": "Athanasios Papastathopoulos-Katsaros, Steven T. Lee, Lin Yao, Ajay Thomas, Junseok Park et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22508v1",
+    "pdf": "https://arxiv.org/pdf/2607.22508v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces bag-of-waves, a simple and interpretable method for analyzing EEG brain signals that learns a small dictionary of recurring waveform patterns without labeled data. Unlike deep neural networks that are black boxes or hand-crafted features that embed researcher bias, bag-of-waves recovers clinically meaningful brain wave shapes that neurologists can directly understand — and it works well even with very small datasets (e.g., 16 animals).",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "\\k{appa}-LoRA: Condition Numbers Reveal Which LoRA Matrices Worth Updating",
+    "authors": "Jianghui Wang, Silong Yong, Francesco Orabona, Marco Canini, Katia P. Sycara et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22489v1",
+    "pdf": "https://arxiv.org/pdf/2607.22489v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper shows that not all weight matrices in LoRA (Low-Rank Adaptation) fine-tuning contribute equally to model improvement. The authors propose κ-LoRA, which selectively updates only the matrices with the largest condition numbers — a mathematical measure of how \"unbalanced\" a matrix is. By updating just the top 50% of matrices this way, the method cuts fine-tuning time by 16% and memory use by 4.5% while maintaining accuracy, making large model adaptation cheaper for resource-constrained settings.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+    "authors": "Ritik Raj, Souvik Kundu, Sarbartha Banerjee, Dheemanth Joshi, Ishita Vohra et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22465v1",
+    "pdf": "https://arxiv.org/pdf/2607.22465v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical gap in how AI systems route tasks to different language models in production settings. Instead of making routing decisions independently for each LLM call, TRACE-Router makes a single routing choice per task and uses the final task outcome to learn which model-selection strategy works best. The work matters because enterprise AI systems increasingly need to balance cost and quality across diverse workloads — and getting this balance right requires feedback aligned with actual task success, not individual model calls.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Phylogenetic signal in marine mammal and bird vocalizations captured by audio foundation models: the limited benefit of domain-specific pretraining",
+    "authors": "Víctor Rincón Yepes",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22458v1",
+    "pdf": "https://arxiv.org/pdf/2607.22458v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper investigates whether pretrained audio foundation models automatically learn to encode evolutionary relationships in animal vocalizations, even without explicit training to do so. The authors test four audio models on a phylogenetic distance prediction task using marine mammal and bird recordings, finding that general-purpose models capture strong evolutionary signal—sometimes better than domain-specific ones—revealing that these models learn something about biological structure beyond their original training objectives.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Where FactsGo Missing: A LayerwiseTaxonomy and Per-Layer Attribution of Information Omissionin Air-Gapped LLM Agent Pipelines",
+    "authors": "Santhiya Rajan",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22448v1",
+    "pdf": "https://arxiv.org/pdf/2607.22448v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates why small language models (4-8B parameters) silently omit critical facts when deployed as agents in regulated, air-gapped environments (hospitals, law firms, sovereign clouds). The authors map every stage where information gets lost—from data ingestion through the agent decision loop—and show that 68% of omissions originate in deterministic infrastructure layers (quantization, caching, prompt handling), not the model itself. This reframes a reliability crisis as a systems problem with specific, fixable interventions.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
+    "authors": "Rachid Caich, Yassine Abbahaddou",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22381v1",
+    "pdf": "https://arxiv.org/pdf/2607.22381v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper introduces Entropic Curvature, a new mathematical tool for understanding how information flows across entire graphs in neural networks. The work solves a key limitation of existing curvature measures — they only look at local connections and miss what happens globally — by using transport theory (how probability distributions move through space) to capture long-distance information propagation. The authors show this unifies two major GNN failure modes (oversmoothing and oversquashing) and provide practical mechanisms to improve graph neural network performance.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books",
+    "authors": "Varun Ghat Ravikumar, Sina Ahmadi, Lena Jäger, Rico Sennrich",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22376v1",
+    "pdf": "https://arxiv.org/pdf/2607.22376v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper shows how to build machine translation systems for endangered languages by extracting grammatical rules and examples from existing grammar books using large language models, then generating synthetic training data for fine-tuning. The work demonstrates practical improvements on three typologically diverse low-resource languages, opening a path toward translation tools where parallel data doesn't exist but linguistic documentation does.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning Bidirectional Causal Interactions with Heteroscedastic Neural Networks",
+    "authors": "Masahiro Tanaka",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22313v1",
+    "pdf": "https://arxiv.org/pdf/2607.22313v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes SEM-DNN, a neural network method for learning bidirectional causal relationships from observational data when the outcomes directly influence each other (simultaneity problem). The key insight is using heteroscedastic structure — variable variance across the feature space — to uniquely identify true causal effects without needing external instruments, something traditional econometric approaches struggle with.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hopformer: Homogeneity-Pursuit Transformer for Time Series Forecasting",
+    "authors": "Wan Zhang, Qinjie Lin, Chan Lee, Weijian Li, Han Liu et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22299v1",
+    "pdf": "https://arxiv.org/pdf/2607.22299v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "Hopformer is a two-stage neural network for forecasting multiple time series with many input features. It first extracts common patterns across all series (homogenization), then uses a transformer to model what remains (heterogeneity). The method beats existing approaches by 6.56% on standard benchmarks and comes with theoretical guarantees about accuracy and generalization.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Why Large Language Models and Humans Converge and Diverge in Evaluating Creativity",
+    "authors": "Pengzhao Lyu, Yeun Joon Kim, Hanlin Xiao, Yingyue Luna Luan",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22218v1",
+    "pdf": "https://arxiv.org/pdf/2607.22218v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates when and why large language models (LLMs) agree or disagree with humans when evaluating creative ideas. Across three studies with six different LLMs and over 2,000 ideas, the researchers find that LLMs converge with humans on novelty but diverge sharply on contextual factors like market viability and social impact—and that different LLM models apply fundamentally different evaluation standards. This matters because LLMs are increasingly used to assess creativity in real applications, yet their judgments are unpredictably misaligned with human values.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Score Approximation to Distribution Approximation in Score-Based Diffusion Models",
+    "authors": "Lan V. Truong",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22199v1",
+    "pdf": "https://arxiv.org/pdf/2607.22199v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proves that when a neural network approximates the score function (the gradient of log probability) accurately enough, the probability distribution generated by a score-based diffusion model will be close to the target data distribution. It bridges a gap in diffusion model theory by showing that good score approximation actually translates to good distribution approximation, with explicit error bounds.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Draining the Energy Commons: Self-Defeating Over-Appropriation as a Coordination Failure in Agentic LLM Collectives",
+    "authors": "Marcantonio Bracale Syrnicov, Federico Pierucci, Matteo Prandi, Marcello Galisai, Piercosma Bisconti et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22188v1",
+    "pdf": "https://arxiv.org/pdf/2607.22188v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies what happens when multiple LLM agents share a finite resource (an energy reserve) and must coordinate to avoid depleting it. The researchers found that agents from GPT, Gemini, and Grok families systematically over-appropriate shared energy beyond sustainable levels — a classic \"tragedy of the commons\" — even though this self-defeats their own long-term objectives. This reveals a critical alignment failure: individual LLM agents optimizing locally can cause system-level collapse that isolated testing would never catch.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Isolated Tasks to Structured Capabilities: A Multilayer Taxonomy for Large Language Models",
+    "authors": "Shixin Fang, Jiachen Wo, Wenjuan Qin, Sihang Jiang, Yanghua Xiao",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22182v1",
+    "pdf": "https://arxiv.org/pdf/2607.22182v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper organizes LLM evaluation around capabilities rather than isolated tasks by introducing a multi-layer taxonomy of 14 capability domains and 91 subskills. The authors analyzed over 15,000 recent LLM papers and mapped them to this taxonomy, revealing significant research gaps and dominance patterns—for example, language and reasoning skills receive 43% of research attention while theory of mind and social reasoning get less than 2%. This shift from task-centric to capability-centric thinking makes it easier to identify what LLMs can actually do, compare studies across the field, and spot where evaluation is sparse.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents",
+    "authors": "Junming Chen, Junyang Jiang, Xu Chen, Zibo Liang, Kai Zheng",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22165v1",
+    "pdf": "https://arxiv.org/pdf/2607.22165v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces DBA-Bench, a benchmark for evaluating LLM-based database administration agents in realistic operational settings. The benchmark closes a critical gap between how these agents are currently tested and how they must perform in production — where they interact with live databases, must diagnose complex cascading faults across thousands of signals, and must execute safe remediation under strict constraints. Current LLM agents achieve only 12.4% safe success compared to 93.4% for human DBAs, revealing the substantial work ahead.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Predictive Lightweight MARL for Resilient Coverage in Sparse-Signaling Aerial Networks",
+    "authors": "Chuan-Chi Lai, Ang-Hsun Tsai",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22109v1",
+    "pdf": "https://arxiv.org/pdf/2607.22109v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents PL-MARL, a lightweight multi-agent reinforcement learning framework that keeps drone swarms coordinated even when communication is severely restricted. The key innovation is using physics-based trajectory prediction to reconstruct what neighboring drones are doing without constantly exchanging messages, allowing the swarm to maintain coverage and avoid collisions while minimizing bandwidth usage—critical for real-world aerial networks where spectrum is scarce.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Language Models Meet NeuroGraphs: Exploring Enhanced Agentic LLM Framework Towards Brain Network Analysis",
+    "authors": "Jiaxing Li, Rui Dong, Muyao Tang, Youyong Kong",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22082v1",
+    "pdf": "https://arxiv.org/pdf/2607.22082v1",
+    "tags": [
+      "agents",
+      "graph-neural-networks",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes BrainAgent, a framework that combines large language models with brain network analysis to move beyond simple classification toward interpretable scientific reasoning. Instead of treating connectome (brain network) data as just another classification problem, the system converts brain networks into structured descriptions, retrieves relevant neuroscience knowledge, and performs multi-step reasoning with verification — producing both predictions and human-readable explanations.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On the Runtime Analysis of Reinforcement Learning Hyper-Heuristics",
+    "authors": "Pietro S. Oliveto, Zhenyu Wang, Peizhou Wu, Mengqing Xu",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.22036v1",
+    "pdf": "https://arxiv.org/pdf/2607.22036v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper analyzes a Reinforcement Learning Hyper-Heuristic (RLHH)—a system that uses RL to automatically choose which optimization algorithm to apply at each step of a search process. The authors prove rigorously that with proper parameter settings, RLHH achieves optimal runtime performance on the LeadingOnes benchmark function, matching the best possible speed achievable with its available operators. This matters because it bridges the gap between simplified theoretical hyper-heuristics and realistic machine learning approaches used in practice.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes",
+    "authors": "Lu Luo, Dandan Mo, Chengdong Xu, Ting Li, Jinhan Xie et al.",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.21958v1",
+    "pdf": "https://arxiv.org/pdf/2607.21958v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a method to detect whether text was generated by an LLM or written by humans, using a statistical technique called watermarking. The key innovation is enabling this detection to work *online* — meaning you can make a decision as soon as enough evidence accumulates, rather than waiting until text generation is complete. This matters because it's faster, uses less memory, and provides mathematically guaranteed accuracy.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reliability-Contagion Feasibility in LLM Multi-Agent Networks",
+    "authors": "Ruiwu Niu, Xincheng Shu, Ying Zhao",
+    "published": "2026-07-24",
+    "url": "http://arxiv.org/abs/2607.21912v1",
+    "pdf": "https://arxiv.org/pdf/2607.21912v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how errors spread through networks of communicating LLM agents—like a disease contagion—and derives mathematical conditions for when reliability can coexist with information sharing. The authors show that adding more connections to an agent network creates a fundamental trade-off: more communication helps agents correct errors collectively, but also speeds up error propagation. They identify network topologies that balance these opposing forces.",
+    "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Synthetic data generation framework for quality control automation in gravure printing",
     "authors": "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin",
     "published": "2026-07-23",
@@ -2484,6 +2910,23 @@
     ],
     "summary": "This paper studies how expressive shallow neural networks with polynomial activations can be when operating over finite fields (number systems with limited elements) rather than real numbers. The authors measure expressivity by counting how many different functions a network can compute, connecting this problem to classical algebraic geometry and number theory—specifically, the famous Weil conjectures about counting solutions to polynomial equations. They show that the choice between finite and infinite fields dramatically changes what functions a network can learn.",
     "date_added": "2026-07-21",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolving Self-Organising Agents Without Fitness: Three Falsifiable Experiments from Constraint-Driven Selection to Developmental Encoding",
+    "authors": "Anushka Sharma",
+    "published": "2026-07-18",
+    "url": "http://arxiv.org/abs/2607.21630v1",
+    "pdf": "https://arxiv.org/pdf/2607.21630v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper asks whether evolution can produce increasingly complex organisms without a designer-specified fitness function—only physical constraints. The authors built Genesis, a simulation where agents evolve in a chemical substrate, and ran three controlled experiments with falsifiable predictions. They found that constraints alone drive some evolution, but only when agents use an indirect genome encoding (CPPN) do they achieve genuine structural complexity growth.",
+    "date_added": "2026-07-27",
     "trusted": ""
   },
   {
