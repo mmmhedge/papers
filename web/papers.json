@@ -453,6 +453,530 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+    "authors": "Hangjie Yuan, Yichen Qian, Zhiwei Tang, Xianzhe Xu, Lirong Wu et al.",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24743v1",
+    "pdf": "https://arxiv.org/pdf/2607.24743v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "ClinFusion is a multimodal AI system that combines vision and language understanding specifically for medical imaging analysis. The paper addresses a critical gap: existing medical AI systems struggle to process diverse medical images (2D scans, 3D volumes) and evaluate their outputs in clinically meaningful ways. ClinFusion achieves state-of-the-art results on medical benchmarks and radiologist validation, suggesting it could improve clinical workflows.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+    "authors": "Krithi Shailya, Ananya Lakshmi Ravi, Venkatanathan K. V., Sowmya S. Sundaram, Gokul S. Krishnan et al.",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24730v1",
+    "pdf": "https://arxiv.org/pdf/2607.24730v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces KANEx, a framework that combines Kolmogorov-Arnold Networks (KANs) with Vision-Language Models to make chest X-ray classifiers more interpretable and trustworthy for clinicians. Instead of treating a neural network as a black box and only adding natural-language explanations on top, the authors leverage KANs' inherently interpretable spline-based components to ground those explanations in mathematically transparent reasoning. On the MIMIC-CXR dataset, this approach produces more faithful saliency maps and better visual localization than standard methods.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+    "authors": "Justin Sirignano, Konstantinos Spiliopoulos, Samuel Cohen",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24726v1",
+    "pdf": "https://arxiv.org/pdf/2607.24726v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proves that neural networks trained with gradient descent to solve nonlinear PDEs (partial differential equations) will converge to the actual PDE solution, not just to a local minimum of the loss function. This is a fundamental theoretical result for Deep Galerkin Method (DGM) and Physics-Informed Neural Networks (PINNs) — two increasingly popular techniques that use neural networks to solve scientific computing problems — because it answers the long-standing question of whether these methods actually work.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+    "authors": "Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24720v1",
+    "pdf": "https://arxiv.org/pdf/2607.24720v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper systematically investigates how foundation model agents learn to plan over long sequences of decisions—a critical capability for real-world autonomous systems. By constructing a controlled experimental environment, the authors decompose planning ability into three stages: pre-training (how agents acquire planning skills), post-training (how to refine those skills via policy optimization), and integration (how to combine diverse planning strategies from multiple teachers). The core finding is that explicit world models, high-quality data, and careful multi-teacher distillation are essential for robust long-horizon reasoning.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+    "authors": "Zhen Huang, Yikun Wang, Shijie Xia, Pengfei Liu",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24717v1",
+    "pdf": "https://arxiv.org/pdf/2607.24717v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents DataOrchestra, a framework that customizes data preprocessing for each example during LLM pretraining, rather than applying fixed processing rules uniformly across all data. The system decides for each chunk whether to drop it, leave it alone, or clean it using one of several operations (programmatic editing or LLM-based rewriting), and consistently improves downstream task performance compared to using any single processing method alone.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+    "authors": "Fabian Kreppel, Reza Salkhordeh, Ferdinand Schmidt-Kaler, André Brinkmann",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24714v1",
+    "pdf": "https://arxiv.org/pdf/2607.24714v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper shows that frontier LLMs (Claude Opus 4.7 and Claude Fable 5) can automatically generate working quantum compiler code for trapped-ion quantum computers—complex algorithms that have traditionally required months of expert manual engineering. The generated compilers optimize ion-qubit movements (\"shuttling\") and match or beat hand-written versions, reducing development time from months to days.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Explainable Reinforcement Learning via Physics-Aware Policy Distillation",
+    "authors": "Shaker Al-Tamari, Waled Kadour",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24672v1",
+    "pdf": "https://arxiv.org/pdf/2607.24672v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper makes Deep Reinforcement Learning (DRL) systems interpretable by distilling a high-performance continuous control agent into a simple decision tree that humans can understand. The authors show they can preserve the original agent's performance while gaining explainability — a critical step toward deploying AI safely in robotics and autonomous systems where regulatory approval and human trust are non-negotiable.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+    "authors": "Yanhao Jia, Jiepeng Wang, Haibin Huang, Chi Zhang, Erik Cambria et al.",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24665v1",
+    "pdf": "https://arxiv.org/pdf/2607.24665v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "This paper adapts efficient scaling techniques from large language models (LLMs)—specifically mixture-of-experts (MoE) architectures—to diffusion transformers used for image generation. Rather than simply adding more parameters, the authors introduce ModernMOE (MMOE), which carefully combines routed experts, lightweight expert shortcuts, and residual connections to achieve faster convergence and better image quality per unit of compute. The work demonstrates that generative models can benefit from the same balanced scaling principles that made LLMs efficient.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Kimi K3: Open Frontier Intelligence",
+    "authors": " Kimi Team, Tongtong Bai, Yifan Bai, Yiping Bao, M. C. et al.",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24653v1",
+    "pdf": "https://arxiv.org/pdf/2607.24653v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "Kimi K3 is a 2.8 trillion parameter open-source language model with native vision understanding and a million-token context window, designed to match frontier-level performance on reasoning, coding, and agentic tasks. The paper describes architectural innovations (Delta Attention, Stable LatentMoE) and training techniques (multi-domain reinforcement learning) that achieve 2.5× better scaling efficiency than its predecessor, making it one of the most capable open models available.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+    "authors": "Zhuchenyang Liu, Yao Zhang, Yu Xiao",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24651v1",
+    "pdf": "https://arxiv.org/pdf/2607.24651v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles a critical failure in document understanding systems: models answer questions correctly but cite the wrong evidence regions (called \"attribution hallucination\"). The authors show that replacing coordinate-based evidence selection with a text-quoting approach — where models quote relevant passages and a layout parser locates them — dramatically improves both evidence recall and accuracy. They further introduce a training method that learns to produce better evidence quotes without expensive region-level labels.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+    "authors": "Phu Gia Hoang, Anwoy Chatterjee, Tanmoy Chakraborty, Iryna Gurevych, Subhabrata Dutta",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24645v1",
+    "pdf": "https://arxiv.org/pdf/2607.24645v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates why sparse autoencoders (SAEs)—tools designed to extract interpretable features from neural networks—often fail to reliably steer model behavior even when their features appear meaningful. By analyzing how individual feature interventions change model outputs across different contexts, the authors find that most features don't act as simple, reusable directions; instead, their effects depend heavily on context. This challenges the assumption that interpretability and causal control are tightly linked.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair",
+    "authors": "Xueping Gao, Jianwei Yang, Qiang Yang",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24604v1",
+    "pdf": "https://arxiv.org/pdf/2607.24604v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper challenges the assumption that looping—repeatedly generating, testing, and revising code—automatically improves reliability in code repair agents. The authors conduct rigorous empirical studies on HumanEval bugs, showing that repeated revisions can actually degrade correctness despite theoretical \"ever-correct\" guarantees, and propose a formal contract system that separates concerns like verification, state preservation, and auditing to ensure agentic code repair is actually reliable.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
+    "authors": "Bianca Raimondi, Davide Evangelista, Maurizio Gabbrielli, Elena Loli Piccolomini",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24586v1",
+    "pdf": "https://arxiv.org/pdf/2607.24586v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper proposes D-Score, a method to detect when large language models generate hallucinations (false or unsupported text) by analyzing the geometry of hidden neural activations. The approach uses a spectral statistic from a single forward pass—no external fact-checkers or multiple generations needed—making it fast and practical for real-time hallucination detection.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From transcription to semantic corpus analysis: unsupervised learning of sentence representations for ancient languages",
+    "authors": "Th{é}otime de la Selle",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24542v1",
+    "pdf": "https://arxiv.org/pdf/2607.24542v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper tackles the challenge of finding semantic similarities in ancient texts (Latin and Ancient Greek) where standard language models fail. The authors develop unsupervised methods to adapt specialized language models into sentence encoders that can identify text reuse—when ancient authors quote or paraphrase earlier works—without requiring labeled training data, demonstrating strong results on identifying biblical passages reused in patristic literature.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Stress-Testing EEG Foundation Models for Clinical Decoding: Dataset Identity and Targeted Negative Controls",
+    "authors": "Marzieh Zare",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24519v1",
+    "pdf": "https://arxiv.org/pdf/2607.24519v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper stress-tests six pretrained EEG foundation models on clinical tasks (dementia, Alzheimer's, seizure detection) using rigorous evaluation protocols with negative controls. The authors show that apparent model performance often reflects dataset identity leakage or weak baselines rather than genuine clinical signal—a crucial warning for researchers deploying these models in medical settings.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Systematic Analysis of Large Language Models and Transformer-Based Machine Translation for English-Tamil and Tamil-English Across Diverse Datasets",
+    "authors": "Sriharshaa S, Sangeetha Sivanesan",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24515v1",
+    "pdf": "https://arxiv.org/pdf/2607.24515v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper evaluates how well state-of-the-art neural translation models handle English-Tamil translation—a genuinely hard problem because Tamil has limited training data, complex grammar, and varied domains. The authors test supervised models (NLLB, mBART) and few-shot prompting with a large language model (TamilLaMA) across four datasets, using both automatic metrics and attention visualization to understand what the models learn and where they struggle.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Debiased Machine Learning: Identification, Estimation, and Shape Constraints",
+    "authors": "Qihui Chen, Ka Yan Cheng, Zheng Fang",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24472v1",
+    "pdf": "https://arxiv.org/pdf/2607.24472v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops a general framework for debiased machine learning (DML) that corrects biases introduced when using high-dimensional machine learning estimators (like neural networks) to estimate nuisance parameters in causal and econometric models. The core innovation is characterizing when the \"Riesz representer\"—a mathematical object central to DML—is identifiable, and providing a unified estimation procedure that works with modern architectures while incorporating shape constraints to improve precision.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decentralised Consensus Learning Networks: SME Rotation Without Centralised Reward",
+    "authors": "Florin Neagu",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24416v1",
+    "pdf": "https://arxiv.org/pdf/2607.24416v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a decentralised learning framework where multiple agents reach consensus on beliefs through peer validation rather than external reward signals. Instead of a central authority defining correctness, agents dynamically earn \"subject-matter expert\" status by demonstrating consistency with the collective view — a mechanism that proves robust across network sizes from 30 to 10,000 agents but becomes increasingly concentrated in high-dimensional belief spaces.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Fundamental Structure of Risk: From Characteristics to Covariance",
+    "authors": "Alexandre Alouadi, Charles-Albert Lehalle",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24410v1",
+    "pdf": "https://arxiv.org/pdf/2607.24410v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper proposes a new way to estimate how stock prices move together (covariance) by using company fundamentals instead of historical price data. The model learns a latent representation from firm characteristics and produces interpretable risk factors and forward-looking covariance estimates — useful for portfolio managers who need reliable risk forecasts and can easily add new stocks without retraining.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Bayesian Feature Extraction using Gaussian and Diffused-gamma Priors for High Dimensional Spatio-Temporal Data",
+    "authors": "Garrett Frady, Dipak K. Dey, Shariq Mohammed",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24378v1",
+    "pdf": "https://arxiv.org/pdf/2607.24378v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper develops a Bayesian method for identifying important features in high-dimensional data that vary across space and time—like brain activity recorded from multiple locations over time. The key innovation is using special statistical priors (Gaussian and Diffused-gamma) that automatically encourage sparse, interpretable solutions. The authors demonstrate the approach on electroencephalography (EEG) data to understand how chronic alcohol affects different brain regions.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Energy Constrained Hierarchical Underwater Monitoring via Local Multi-Agent RAG",
+    "authors": "Mohamed Amine Janati, Laurent Gautier, Stéphane Barbot",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24313v1",
+    "pdf": "https://arxiv.org/pdf/2607.24313v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper describes a hierarchical underwater monitoring system that combines always-on low-power sensors with intermittent high-performance computing to identify marine species and generate research reports while minimizing energy use and data transmission. The system uses embedding-based retrieval and multi-agent reasoning to organize sensor data locally—solving the practical problem that underwater deployments cannot afford to transmit raw video and audio streams to the cloud.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents",
+    "authors": "Diandian Guo, Cong Cao, Fangfang Yuan, Yingqi Wang, Yueshan Wang et al.",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24300v1",
+    "pdf": "https://arxiv.org/pdf/2607.24300v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies a critical failure mode in self-improving agents: when agents control both the policies they optimize and the tests that verify those policies, their self-authored verification scores become unreliable proxies for real deployment performance. The authors demonstrate this \"verifier–deployment gap\" empirically and propose SEAL (Sealed Exogenous Acceptance Loop), a lightweight mechanism that requires external validation of policy changes to prevent silent performance degradation.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Algorithms for Equilibria in Concurrent Stopping Games",
+    "authors": "Léonard Brice, Thomas A. Henzinger, K. S. Thejaswini",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24219v1",
+    "pdf": "https://arxiv.org/pdf/2607.24219v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how to find Nash equilibria—stable strategy profiles where no player wants to unilaterally change their behavior—in concurrent stopping games, where multiple agents act simultaneously and the game terminates almost surely. The authors prove that finding equilibria with payoff constraints is generally undecidable, but offer two tractable paths: approximate equilibria (solvable in exponential time) and a risk-sensitive equilibrium concept (NP-complete, hence more computationally friendly).",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems",
+    "authors": "Ali Zahid Raja",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24117v1",
+    "pdf": "https://arxiv.org/pdf/2607.24117v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper imports classical Islamic hadith science methodology—which carefully tracked knowledge claims through chains of human narrators—and applies it to multi-agent AI systems where knowledge flows through chains of autonomous agents and transformations. The authors build a formal framework (\"isnad-rijal\") to grade the reliability of each agent in a knowledge chain and route claims for quarantine, review, or acceptance based on combined chain-strength and content-quality assessment.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Optimal Control with Expectation Constraint in a Smooth Boundary Case",
+    "authors": "Bruno Bouchard, Lucas Gnecco Heredia, Ludovic Moreau, Kim-Anh Pham",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.24114v1",
+    "pdf": "https://arxiv.org/pdf/2607.24114v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper solves a utility maximization problem with an expectation constraint — a classic problem in portfolio optimization — by proving the boundary of the feasible region is smooth and deriving the correct boundary conditions for the value function. The authors develop new PDE approximation methods that work in both regular and degenerate cases, and demonstrate that neural networks can solve these problems numerically, opening the door to practical computational methods for constrained portfolio optimization.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Physics-Informed Neural Networks for Predicting Nitrous Oxide Flux",
+    "authors": "Freddy Yu, Jashanjeet Kaur Dhaliwal, Subhadeep Chakraborty",
+    "published": "2026-07-26",
+    "url": "http://arxiv.org/abs/2607.23880v1",
+    "pdf": "https://arxiv.org/pdf/2607.23880v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper applies Physics-Informed Neural Networks (PINNs) to predict nitrous oxide emissions from agricultural soils, a major greenhouse gas and ozone-depleting substance. By embedding mechanistic equations from established process-based models into the neural network's loss function, the authors show that physics constraints improve robustness to unfamiliar soil conditions, though generalization across geographically distant sites remains difficult.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Limbomorphs",
+    "authors": "Alex Alvarez, Michael Levin",
+    "published": "2026-07-26",
+    "url": "http://arxiv.org/abs/2607.23842v1",
+    "pdf": "https://arxiv.org/pdf/2607.23842v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper studies \"Limbomorphs\" — lifelike creatures that emerge from evolving spatiotemporal fields in an interactive evolutionary system called Gifbreeder, with no explicit agent or environment definition. By perturbing these evolved patterns, the authors investigate whether their behavior reflects genuine goal-directed navigation or is merely appearance, offering insights into how agent-like dynamics can spontaneously arise from simple generative rules.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Intruder Threshold: A Spectral Law for LoRA Fine-Tuning",
+    "authors": "Peng Xie",
+    "published": "2026-07-26",
+    "url": "http://arxiv.org/abs/2607.23711v1",
+    "pdf": "https://arxiv.org/pdf/2607.23711v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper discovers a mathematical law that predicts when LoRA fine-tuning (a parameter-efficient adaptation technique) will create \"intruder\" dimensions — new directions in the weight matrix that are orthogonal to the pretrained model and cause catastrophic forgetting. The authors derive a critical threshold formula from the spectrum of the original weights and validate it across thousands of layers, enabling practitioners to prevent forgetting without expensive validation.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Breaking the Total Variance Barrier: Sharp Sample Complexity for Linear Heteroscedastic Bandits with Fixed Action Set",
+    "authors": "Heyang Zhao, Tianyuan Jin, Weixin Wang, Vincent Y. F. Tan, Pan Xu et al.",
+    "published": "2026-07-26",
+    "url": "http://arxiv.org/abs/2607.23679v1",
+    "pdf": "https://arxiv.org/pdf/2607.23679v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves a fundamental problem in stochastic linear bandits—a core reinforcement learning setting where an agent repeatedly chooses from a fixed set of actions to maximize cumulative reward. The authors show that previous analysis was loose: they prove you can achieve much better sample efficiency by exploiting variance structure in the environment, breaking through a long-standing $\\sqrt{\\Lambda}$ barrier where $\\Lambda$ is cumulative noise variance. The result matters because bandits are everywhere (online advertising, clinical trials, adaptive experiments) and tighter bounds directly translate to fewer samples needed in practice.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Benchmarking Zero-Shot LLM-Generated Parent Selection in Genetic Programming for Symbolic Regression",
+    "authors": "Hengzhe Zhang, Qi Chen, Bing Xue, Wolfgang Banzhaf, Mengjie Zhang",
+    "published": "2026-07-26",
+    "url": "http://arxiv.org/abs/2607.23505v1",
+    "pdf": "https://arxiv.org/pdf/2607.23505v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tests whether large language models can write effective parent-selection algorithms for genetic programming (a search technique used to find mathematical formulas that fit data) without any training examples or feedback. The researchers prompt eight different LLMs to generate selection operators, evaluate them on real regression benchmarks, and find that some LLM-generated operators outperform standard baselines—suggesting LLMs can produce useful search heuristics from task descriptions alone.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Continuous surrogates versus threshold Boolean networks for modeling Arabidopsis ISR gene regulation",
+    "authors": "Gonzalo A. Ruz",
+    "published": "2026-07-25",
+    "url": "http://arxiv.org/abs/2607.23289v1",
+    "pdf": "https://arxiv.org/pdf/2607.23289v1",
+    "tags": [
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper compares two modeling approaches for gene regulation in plants: continuous machine learning models (Random Forest and neural networks) versus discrete Boolean networks. The key finding is that these methods excel at different things—continuous models predict numerical values accurately, while Boolean networks better capture the true dynamic behavior of gene systems over time.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neural Network-Driven Volatility Drag Mitigation under Aggressive Leverage",
+    "authors": "Christian Bongiorno, Efstratios Manolakis, Rosario Nunzio Mantegna",
+    "published": "2026-07-25",
+    "url": "http://arxiv.org/abs/2607.23068v1",
+    "pdf": "https://arxiv.org/pdf/2607.23068v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper redesigns a neural network for portfolio optimization to minimize variance while operating under high leverage. The authors shrink the model from ~40,000 parameters to just 2,175 by replacing complex components with simpler mathematical functions, and show the compact version outperforms traditional risk-parity strategies while handling aggressive borrowing without triggering margin calls.",
+    "date_added": "2026-07-28",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction",
     "authors": "Shing Ho J. Lin, Wenzhao Zheng, Dong Zhuo, Yuqi Wu, Jie Zhou et al.",
     "published": "2026-07-24",
@@ -874,6 +1398,22 @@
     ],
     "summary": "This paper studies how errors spread through networks of communicating LLM agents—like a disease contagion—and derives mathematical conditions for when reliability can coexist with information sharing. The authors show that adding more connections to an agent network creates a fundamental trade-off: more communication helps agents correct errors collectively, but also speeds up error propagation. They identify network topologies that balance these opposing forces.",
     "date_added": "2026-07-27",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning to Access Computation: Accessibility Plasticity as a Principle of Adaptive Intelligence",
+    "authors": "Zhaowen Fan",
+    "published": "2026-07-23",
+    "url": "http://arxiv.org/abs/2607.22748v1",
+    "pdf": "https://arxiv.org/pdf/2607.22748v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces Accessibility Plasticity, a new principle for how neural networks adapt to new tasks and environments. Instead of only changing weights or adding new computation, the key idea is that systems can reorganize *which existing computations can talk to each other* — like rewiring connections without rebuilding components. The authors show this approach can match performance on sequential learning tasks while requiring fewer parameter changes, suggesting accessibility is as important as capability when building adaptive systems.",
+    "date_added": "2026-07-28",
     "trusted": ""
   },
   {
