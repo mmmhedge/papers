@@ -2,6 +2,38 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "Scientific computing in the age of agentic AI",
+    "authors": "OpenAI",
+    "published": "2026-07-28",
+    "url": "https://openai.com/index/scientific-computing-agentic-ai",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI reports on how AI coding agents are being deployed in scientific research to accelerate software development and discovery workflows. The field report demonstrates practical applications in genomics and other domains where agents handle code generation and iteration tasks that previously required manual engineering effort.",
+    "date_added": "2026-07-29",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "authors": "Hugging Face",
+    "published": "2026-07-27",
+    "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This post documents a technical security incident at a frontier AI lab in July 2026, providing a detailed timeline of how an agent system was compromised. The analysis helps the community understand vulnerabilities in autonomous AI systems and inform better security practices for deployed agents.",
+    "date_added": "2026-07-29",
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "Introducing OpenAI Presence",
     "authors": "OpenAI",
     "published": "2026-07-22",
@@ -449,6 +481,459 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+    "authors": "Syed Mhamudul Hasan, Anas AlSobeh, Hussein Zangoti, Abdur R. Shahid",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26042v1",
+    "pdf": "https://arxiv.org/pdf/2607.26042v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "VetClaw is an edge-cloud system that combines a camera on a veterinary device with an AI model running on a server to screen animals for diseases. The key innovation is treating disease screening not as a single prediction but as a multi-step workflow—collecting images, asking about symptoms, checking safety rules, and routing uncertain cases to a veterinarian—which improves accuracy and makes the system safer and more usable.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
+    "authors": "Abhishek Pillai, Samir Kumar Nayak, Yuan Chen",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26041v1",
+    "pdf": "https://arxiv.org/pdf/2607.26041v1",
+    "tags": [
+      "agents",
+      "computer-vision"
+    ],
+    "summary": "This paper introduces Desktop-Delta Bench, a benchmark for evaluating whether computer-use agents (AI systems that control desktop GUIs) can understand what happened after they take an action. Current benchmarks only measure whether agents complete tasks or recognize UI elements in a single frame; this paper fills a gap by testing whether agents can reconstruct causal state transitions—crucial for verifying progress, rejecting stale observations, and recovering from errors. The benchmark reveals consistent weaknesses across eight model families, showing that even the best agents struggle with temporal ordering (65% accuracy) and inferring action types.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinformed Dreamer: An Asymmetric World Model Efficiently Trained through Latent Guidance",
+    "authors": "Gaspard Lambrechts, Adrien Bolland, Daniel Ebi, Damien Ernst",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26040v1",
+    "pdf": "https://arxiv.org/pdf/2607.26040v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper improves how reinforcement learning agents learn world models—internal representations of their environment—by using additional information during training. The key innovation is \"latent guidance,\" a technique that helps the agent's internal representations learn more useful features by comparing them against privileged information (extra state details available only during training). The result is faster, more stable learning across multiple benchmark tasks.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+    "authors": "Ankang Yang, Jitao Zhao, Di Jin, Yuxiao Huang, Dongxiao He",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26023v1",
+    "pdf": "https://arxiv.org/pdf/2607.26023v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces CHARM, a multimodal graph foundation model that can transfer knowledge to new graph domains without task-specific fine-tuning. The key innovation is hierarchical context modeling — organizing multimodal information (text, images, etc.) at different levels to extract shared concepts that generalize across domains, enabling zero-shot transfer on graphs containing rich node and edge attributes.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
+    "authors": "Siyu Xia, Chenheng Zhang, Yanting Wu, Haoxuan Li, Jiajun Chai et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26017v1",
+    "pdf": "https://arxiv.org/pdf/2607.26017v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes UniMem, a memory management system for LLM agents that must continuously learn from an unbounded stream of tasks without explicit task boundaries. The core insight is to mimic the human brain by splitting memory into two complementary systems: a flexible episodic buffer for storing novel tasks, and a growing parametric memory that consolidates recurring patterns — enabling agents to be both adaptable and efficient without knowing task boundaries in advance.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator with Inverse-Designed Coherent Crossbar",
+    "authors": "Solomon Micheal Serunjogi, Rachmad Vidya Wicaksana Putra, Ayat Taha, Muhammad Shafique, Mahmoud Rasras",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26016v1",
+    "pdf": "https://arxiv.org/pdf/2607.26016v1",
+    "tags": [
+      "transformers"
+    ],
+    "summary": "This paper presents MDTransformer, a photonic hardware accelerator that performs transformer computations using light instead of electronics. The key innovation is using spatial modes of light (independent \"lanes\" in a single optical waveguide) to parallelize matrix operations, achieving significant energy savings and area reduction while maintaining compatible inference speed compared to previous photonic transformer designs.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Instruction-Tuned Models Locally Reuse Human Syntax More Than Humans Do",
+    "authors": "Zandi Eberstadt",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26015v1",
+    "pdf": "https://arxiv.org/pdf/2607.26015v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether instruction-tuned large language models exhibit syntactic convergence—the tendency to match the grammatical patterns of their conversation partner—similar to humans. Using a substitution-paradigm approach on 16 Llama and Gemma models, the authors find that instruction-tuned models actually *over-reuse* syntax from preceding human turns compared to human baselines, though they paradoxically show weaker convergence to actual context versus random primes after instruction tuning.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pictura: Perspective-View Self-Play at Scale for Driving",
+    "authors": "Yuan Yin, Elias Ramzi, Marc Lafon, Valentin Charraut, Victor Bares et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26005v1",
+    "pdf": "https://arxiv.org/pdf/2607.26005v1",
+    "tags": [
+      "computer-vision",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a fundamental gap in autonomous driving: training policies directly from camera images rather than unrealistic privileged sensor data. The authors introduce Pictura, a GPU-accelerated simulator that renders egocentric (first-person) camera views for each agent during training, and use it to train Alberti—the first large-scale driving policy trained purely from perspective images via self-play. The work matters because it bridges the gap between how agents are trained in simulation (with perfect information) and how they actually perceive the world when deployed.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Empirical Evaluation of Out-Of-Distribution Performance of Tabular Foundation Models",
+    "authors": "Malena Loza, David Chushig-Muzo, Eva Milara, Luis Bote-Curiel, Luis Estrada-Petrocelli et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26000v1",
+    "pdf": "https://arxiv.org/pdf/2607.26000v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper evaluates how well nine tabular foundation models (neural networks pre-trained on tabular data) perform when the data distribution shifts — a common real-world problem where training and deployment data differ. The authors test these models on three datasets with different types of distribution shift and find that all models degrade significantly, with performance gaps ranging from 0.3% to 6%, suggesting that foundation models for tabular data inherit the same robustness challenges as classical models.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Physics-Aware End-to-End Deep Reinforcement Learning for Quadcopter Control with Actuator Dynamics",
+    "authors": "Ya-Chia Shen, Woei-Leong Chan",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25985v1",
+    "pdf": "https://arxiv.org/pdf/2607.25985v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies deep reinforcement learning (DRL) to control quadcopters by learning directly from physics-based simulations that include realistic motor dynamics and aerodynamic effects. The key insight is that incorporating low-level physical constraints — like motor time delays and gyroscopic coupling — into the learning environment helps DRL agents discover stable, practical control policies. This matters because quadcopters are mechanically underactuated (four control inputs for six degrees of freedom), making them a hard benchmark for learning-based control.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcement Learning for Code Optimization",
+    "authors": "Pierre Chambon, Kunhao Zheng, Juliette Decugis, Benoit Sagot, Gabriel Synnaeve",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25970v1",
+    "pdf": "https://arxiv.org/pdf/2607.25970v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles code optimization using reinforcement learning — training neural networks to generate faster programs, not just correct ones. The core insight is that naive RL fails when optimizing for execution speed due to noisy timing measurements and reward sparsity; the authors solve this by carefully designing how code is tested, how speed feeds into rewards, and how the learning algorithm handles sparse noisy signals. On benchmark problems, their approach roughly doubles the percentage of solutions that achieve significant speedups while maintaining correctness.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+    "authors": "Mingqiao Ye, Zhaochong An, Zhitong Gao, Xian Liu, François Fleuret et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25948v1",
+    "pdf": "https://arxiv.org/pdf/2607.25948v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "This paper presents MODUS, a decoder-only neural network that can accept any combination of modalities (images, text, audio, etc.) as input and generate any modality as output using a single unified model. Unlike existing any-to-any systems that require separate encoders and decoders or diffusion models, MODUS leverages pre-trained decoder-only models and treats all modalities symmetrically, achieving competitive performance across multiple benchmarks without task-specific components.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+    "authors": "Frank Nie, Ethan B Liu, Yuan Zhu, Wei Fan, Jindong Han",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25947v1",
+    "pdf": "https://arxiv.org/pdf/2607.25947v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents ClinPRISM, a system that answers questions about irregular clinical time series (patient data collected at uneven intervals) using multimodal large language models. The work matters because clinical data is messy and sparse in practice, but existing time-series LLMs weren't designed to handle these real-world patterns efficiently—ClinPRISM solves this with a cost-effective approach that runs fast on modest hardware.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evaluating Multi-Turn Multimodal Diagnostic Reasoning on Challenging Real-World Clinical Cases",
+    "authors": "Rui Yang, Weihao Xuan, Yi Lin, Zhuhan Bao, Jonathan Chong Kai Liew et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25933v1",
+    "pdf": "https://arxiv.org/pdf/2607.25933v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces ClinMM-Bench, a large-scale evaluation benchmark for testing how well multimodal AI models (systems that process both text and images) can perform real-world clinical diagnosis over multiple conversation turns. The work matters because existing AI evaluations use single, isolated tasks, while actual diagnosis is iterative—doctors see images progressively, update hypotheses, and refine reasoning over time. The benchmark reveals that current models struggle with reliable diagnostic reasoning despite sometimes getting the right answer.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+    "authors": "Deepanshu Mody, Samarth Agarwal, Utkarsh Mittal, Dipesh Mahato",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25907v1",
+    "pdf": "https://arxiv.org/pdf/2607.25907v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates whether we can suppress internal \"evaluation-awareness\" latents in large language models by optimizing only the input prompt—without changing the model's weights. The authors find that while certain internal features can be driven toward zero, this internal suppression often fails to actually change the model's behavior on safety evaluations, suggesting that linear readability of a latent does not guarantee behavioral control.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Barron-Lipschitz Energy Gap and Depth Separation Phenomena in Scientific Machine Learning",
+    "authors": "Nima Rezaei, Stephan Wojtowytsch",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25905v1",
+    "pdf": "https://arxiv.org/pdf/2607.25905v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper investigates fundamental limitations of neural networks—even infinitely wide ones—when solving variational problems in scientific machine learning. The authors show that neural networks can fail to represent certain solution structures (like circular folds in elastic shells) that classical function classes can easily describe, revealing a theoretical \"energy gap\" that prevents convergence to optimal solutions in some calculus of variations problems.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards a Systems Foundation for Agentic Cloud Management",
+    "authors": "Minghao Li, Ziqian Liu, Ziyu Mao, Daqian Ding, Yu Kang et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25883v1",
+    "pdf": "https://arxiv.org/pdf/2607.25883v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces CloudWeaver, a systems foundation for managing cloud infrastructure using autonomous agents. The key problem: as organizations deploy multiple AI agents to automate cloud operations, there's no infrastructure to coordinate them safely, prevent conflicts, or maintain human oversight. CloudWeaver solves this by providing isolation (each agent gets a scoped view of resources) and coordination (managing concurrent operations on shared resources without collisions).",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OmniQEC: discovering practical quantum error-correcting codes by an AI scientist",
+    "authors": "Ge Yan, Shanchuan Li, Pengyue Ma, Qixin Zhang, Pingchuan Ma et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25865v1",
+    "pdf": "https://arxiv.org/pdf/2607.25865v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents OmniQEC, an AI system that uses large language models to automatically discover quantum error-correcting (QEC) codes—the mathematical structures needed to protect quantum computers from errors. The key innovation is treating code discovery as an iterative search problem where an LLM orchestrator coordinates code generation, screening, and evaluation, balancing fast approximate checks against slower but physically realistic circuit simulations. The discovered codes outperform hand-designed benchmarks on realistic hardware constraints.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents",
+    "authors": "Jiarun Fu, Lizhong Ding, Sida Chen, Honglei Xin, Chunhui Zhang et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25825v1",
+    "pdf": "https://arxiv.org/pdf/2607.25825v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical inefficiency in LLM-based agents: their control systems (harnesses) use fixed policies that waste computation on unnecessary reasoning steps. The authors propose CHILL-Harness, a system that learns to dynamically adapt which tools, verification steps, and reasoning paths to use based on task context and execution state — cutting token consumption and runtime while maintaining task success rates.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "KQFuzz: Knowledge-Guided Fuzzing for Quantum Libraries via Large Language Models",
+    "authors": "Fuyuan Xia, Qixin Zhang, Chenhao Ying, Haojin Zhu, Shuai Wang et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25647v1",
+    "pdf": "https://arxiv.org/pdf/2607.25647v1",
+    "tags": [
+      "large-language-models"
+    ],
+    "summary": "This paper presents KQFuzz, a fuzzing tool that uses large language models to automatically generate test cases for quantum computing libraries like Qiskit and PennyLane. By combining LLM-based code generation with knowledge of the quantum library's codebase and guided mutation strategies, KQFuzz finds bugs more effectively than existing approaches—improving code coverage by up to 18% and discovering 13 previously unknown bugs in real quantum libraries.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ARCHER: Agentic Rule and Compliance Harness for Executable Regulations",
+    "authors": "Chiraag Singh Anand, Xue Wen Tan, Lionel Teo, Eric Tan",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25566v1",
+    "pdf": "https://arxiv.org/pdf/2607.25566v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "ARCHER is a system that automatically generates auditable code for checking whether building designs comply with regulatory rules, using multiple AI agents working together. This matters because building compliance checking currently requires expensive manual work, and existing automated systems are inflexible, proprietary, and hard to adapt — ARCHER makes the process transparent, scalable, and cost-effective even with open-source models.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning from the Unseen: Offline Reinforcement Learning with Hidden Actions",
+    "authors": "Zeyu Bian, Ying Zhou, Yifan Cui",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25241v1",
+    "pdf": "https://arxiv.org/pdf/2607.25241v1",
+    "tags": [
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles offline reinforcement learning in a realistic but understudied setting: when the dataset contains only noisy proxies for true actions, not the actions themselves. The authors develop LURE, a statistically principled estimator that recovers policy values from such incomplete data and validate it on medical decision-making (sepsis treatment). This matters because real-world datasets—clinical records, logs from automated systems—often hide the actual decisions behind measurements or side effects.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Algorithmic Separation between Constant-Depth and Logarithmic-Depth Neural Networks",
+    "authors": "Yunwei Ren, Zihao Wang, Jason D. Lee",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25200v1",
+    "pdf": "https://arxiv.org/pdf/2607.25200v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proves that neural networks with logarithmic depth can efficiently learn certain Boolean functions that constant-depth networks fundamentally cannot learn well. The result matters because it's the first rigorous algorithmic separation between these two depth regimes — showing that depth isn't just theoretically useful for approximation, but actually changes what a network can learn *efficiently* during training.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RIDGE: An Autonomous Framework for Validation and Method Discovery in LLM-Generated Option Pricing",
+    "authors": "Liexin Cheng, Xue Cheng, Shuaiqiang Liu, Cornelis W. Oosterlee",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25199v1",
+    "pdf": "https://arxiv.org/pdf/2607.25199v1",
+    "tags": [
+      "derivatives-pricing",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper presents RIDGE, an automated framework that validates option pricing code generated by large language models (LLMs) and discovers new pricing methods. The framework applies rigorous financial tests — no-arbitrage checks, stress tests, benchmarks — to catch implementation bugs that standard software testing would miss, and has discovered new semi-analytic pricing approaches in the process.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Quantum Transformer BSDE Solver via Multi-Layer Fully-Connected Variational Quantum Circuits",
+    "authors": "Howard Su, Huan-Hsin Tseng, Chi-Sheng Chen, Lance Bai",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.25162v1",
+    "pdf": "https://arxiv.org/pdf/2607.25162v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes a quantum computing approach to solving high-dimensional partial differential equations (PDEs) — mathematical equations crucial for pricing financial derivatives and modeling physical systems. The method combines quantum circuits with transformer-style attention mechanisms to learn solutions to backward stochastic differential equations (BSDEs), which are reformulations of certain PDEs. On 36-dimensional benchmark problems, the quantum transformer shows promise but doesn't yet outperform classical transformer baselines at scale.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fourier Feature Physics-Informed Neural Networks for Elasto-Plastic Analysis of Geomaterials with a Non-Associative Mohr-Coulomb Model",
+    "authors": "Apisit Robjanghvad, Sompote Youwai",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.25150v1",
+    "pdf": "https://arxiv.org/pdf/2607.25150v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper addresses a fundamental limitation of Physics-Informed Neural Networks (PINNs) — a machine learning approach for solving differential equations — when applied to geotechnical problems involving plastic deformation in soil. The authors propose Fourier Feature PINNs (FF-PINNs), which use random Fourier feature mapping to better capture sharp stress gradients at failure zones. The work matters because it demonstrates a mesh-free alternative to expensive finite element simulations while maintaining physics consistency, potentially accelerating design and analysis cycles in civil and geotechnical engineering.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mitigating the Impact of Retention Loss on Inference Accuracy in 65 nm Single-Poly Floating-Gate Analog In-Memory Computing",
+    "authors": "Mirko Brazzini, Giulio Filippeschi, Alessandro Catania, Sebastiano Strangio, Giuseppe Iannaccone",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.25058v1",
+    "pdf": "https://arxiv.org/pdf/2607.25058v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper addresses a critical hardware challenge in analog in-memory computing: floating-gate memory cells gradually lose charge over time (retention loss), degrading neural network inference accuracy. The authors demonstrate that combining circuit-level compensation techniques with algorithmic recalibration (batch normalization) can recover baseline accuracy even 60 days after programming, making analog memory viable for practical AI inference at the edge.",
+    "date_added": "2026-07-29",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Transfer Learning in High-Dimensional Clustering: Minimax Thresholds and Applications in Single-Cell Data",
+    "authors": "Abhinav Chakraborty, Sagnik Nandy",
+    "published": "2026-07-27",
+    "url": "http://arxiv.org/abs/2607.25031v1",
+    "pdf": "https://arxiv.org/pdf/2607.25031v1",
+    "tags": [],
+    "summary": "This paper studies when and how clustering can be improved by borrowing information from related datasets, a problem called transfer learning for clustering. The authors develop theoretically optimal methods for a standard clustering model (Gaussian mixtures) and characterize exact conditions—involving signal strength, sample sizes, and dataset similarity—under which transfer helps; they also apply these methods to real single-cell RNA data.",
+    "date_added": "2026-07-29",
+    "trusted": ""
   },
   {
     "source": "arxiv",
