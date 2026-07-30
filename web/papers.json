@@ -2,6 +2,23 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "authors": "OpenAI",
+    "published": "2026-07-29",
+    "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "OpenAI's GPT-5.6 claims significant improvements in both model capability and computational efficiency, with gains across inference speed, training, and agentic workflows. The core promise is delivering more capable AI at lower cost per inference.",
+    "date_added": "2026-07-30",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "Scientific computing in the age of agentic AI",
     "authors": "OpenAI",
     "published": "2026-07-28",
@@ -481,6 +498,516 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
+    "authors": "Perry Dong, Ron Polonsky, Dorsa Sadigh, Chelsea Fin",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27203v1",
+    "pdf": "https://arxiv.org/pdf/2607.27203v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper challenges the assumption that Q-functions (value estimators in reinforcement learning) should be pre-trained on offline data before fine-tuning on new tasks. The authors discover that naive Q-function pre-training often doesn't help and propose Initialization via Policy Ensemble (IPE), which bootstraps Q-function learning by collecting data from multiple diverse policies. On standard benchmarks, IPE achieves 1.26x better performance than conventional pre-training approaches.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mental World Modeling",
+    "authors": "Hao Fei, Yiran Zhao",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27201v1",
+    "pdf": "https://arxiv.org/pdf/2607.27201v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Mental World Modeling (MWM), a framework that extends traditional world models to track not just physical states but also the mental states (beliefs, desires, intentions, emotions) of agents. The authors argue that predicting human behavior requires understanding what people know and want, not just what they can see, and demonstrate this with MENTIS—a training-free system that jointly simulates physical and mental state changes to predict human decisions in complex social scenarios.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+    "authors": "Peter Kirgis, Sayash Kapoor, Andrew Schwartz, Stephan Rabanser, David Africa et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27191v1",
+    "pdf": "https://arxiv.org/pdf/2607.27191v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates whether AI agents can conduct genuine open-ended research by having frontier AI systems tackle unpublished research questions from real NeurIPS papers, with the original authors grading the results. The agents successfully handled engineering tasks but failed to make meaningful progress on the core research questions, revealing critical gaps in how agents approach complex, unstructured research problems.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
+    "authors": "Lennon J. Shikhman, Michael Galarnyk, Aadi Dash, Nicholas A. Welsh",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27188v1",
+    "pdf": "https://arxiv.org/pdf/2607.27188v1",
+    "tags": [
+      "deep-learning",
+      "derivatives-pricing",
+      "quantitative-finance"
+    ],
+    "summary": "This paper tackles a fundamental problem in quantitative finance: recovering the risk-neutral probability density (the market's implied view of future asset prices) from option quotes, which is harder than just matching option prices accurately. The authors compare classical parametric models (lognormal mixtures, Merton models) with neural operators (DeepONet) and transformer architectures, revealing that no single approach wins universally—what matters depends on the specific evaluation target (matching prices vs. recovering the true density).",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+    "authors": "Peter Tisnikar, Maja Swieczkowska, Benteng Ma, Gerard Canal, Matteo Leonetti",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27177v1",
+    "pdf": "https://arxiv.org/pdf/2607.27177v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles ad-hoc teamwork—where an agent must quickly adapt to work effectively with new, unknown partners—by inferring what each partner can actually do (their \"hidden capabilities\") without knowing the task in advance. The key insight is that instead of assuming partners always act optimally, the method learns task-invariant capability vectors and accounts for human behavioral diversity, allowing agents to plan better collaborative strategies with minimal prior information.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
+    "authors": "Ji Xin, Xiao Xiao, Ishan Bhatt, Vinesh Gudla, Trace Levinson et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27172v1",
+    "pdf": "https://arxiv.org/pdf/2607.27172v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a system that improves product discoverability in e-commerce search by generating related user intents to expand what items get shown to customers. Instead of just returning exact matches to a query, the system uses large language models to infer what else a shopper might want (substitutes, complements, related items) and retrieves those too — all while keeping costs manageable by using smaller, fine-tuned models for common queries.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+    "authors": "Yihao Chen, Shi Chang, Feng Lin, Khaled Chawa, Boyuan Chen et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27167v1",
+    "pdf": "https://arxiv.org/pdf/2607.27167v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper shows that LLM-based agents struggle to write programs from scratch because they try to understand requirements and write code in one pass. The authors propose SpecFirst, a two-stage approach: first, an agent carefully explores a program's behavior and writes a formal specification; second, a different agent uses that specification to generate code. On 200 benchmark tasks, SpecFirst improves success rates by 7–21% over single-pass approaches, demonstrating that separating specification from implementation is crucial for from-scratch program synthesis.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+    "authors": "Jingbo Zhou, Yusai Zhao, Qi Bao, Jingjia Cao, Zhenghai Chen et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27155v1",
+    "pdf": "https://arxiv.org/pdf/2607.27155v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces OmegaUse-OfficeVal, a benchmark for testing whether LLM agents can complete real office tasks (like spreadsheet work, document editing, scheduling) at a reasonable cost. The key innovation is pairing each task with economic signals — human labor time and estimated task price — so you can directly compare whether using an LLM is cheaper and faster than hiring a human. Testing shows LLMs are faster and cheaper than humans but don't yet match human-level quality on complex multi-step office workflows.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+    "authors": "Roshan Kenia, Stephanie L McNamara, William Lotter",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27154v1",
+    "pdf": "https://arxiv.org/pdf/2607.27154v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper proposes Anatomy Contextualized Adaptation (ACA), a lightweight method to improve CT scan foundation models by aligning fine-grained anatomy features with medical text while preserving global context. Rather than retraining models from scratch, ACA adapts frozen pre-trained models efficiently—in under an hour—and outperforms both standard foundation models and existing fine-grained approaches on medical imaging benchmarks.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+    "authors": "Yihao Chen, Shi Chang, Khaled Chawa, Feng Lin, Boyuan Chen et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27146v1",
+    "pdf": "https://arxiv.org/pdf/2607.27146v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces MindForge, a pipeline that trains smaller language models to write complete programs from scratch—a task where even the best current models succeed less than 1% of the time. By converting open-source programs into \"source-free\" environments (exposing only compiled executables and docs, not source code), the authors create scalable training data. Fine-tuning a 27B parameter model on these trajectories boosts its performance from 38% to 50% on standard benchmarks and shows consistent gains across seven different software engineering tasks.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Linguistic Monoculture in LLM-Assisted Language Use",
+    "authors": "Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27134v1",
+    "pdf": "https://arxiv.org/pdf/2607.27134v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper studies how widespread use of LLMs for writing and editing may paradoxically reduce linguistic diversity — a phenomenon called \"linguistic monoculture.\" The authors build a mathematical model showing how different LLM assistance designs (shared fixed models, recursive updates, personalized models) lead to different equilibrium linguistic patterns, and prove that people rationally choosing to conform for clarity may converge to less diversity than is socially optimal.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Minimal Markovization via Stable Quotients in Holonomy-Cover Decision Processes",
+    "authors": "Zuyuan Zhang, Yongshan Chen, Mahdi Imani, Tian Lan",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27132v1",
+    "pdf": "https://arxiv.org/pdf/2607.27132v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves a fundamental problem in partially observable decision-making: finding the smallest memory-efficient state representation that restores the Markov property. The authors introduce \"stable quotients\" for a structured class of hidden-mode problems (holonomy-cover POMDPs) and prove that tracking just the current observation plus a discrete class label gives an exact, minimal Markov state. This matters because agents need compact internal representations to act optimally under incomplete information without growing memory exponentially.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hierarchical Spatio-Temporal Transformer for Coherent Emergency Department Forecasting",
+    "authors": "Filipa Lino, Bárbara Tavares, Carlos Santiago, Cláudia Soares, Manuel Marques",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27106v1",
+    "pdf": "https://arxiv.org/pdf/2607.27106v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper proposes HierSTT, a Transformer-based forecasting model that predicts emergency department (ED) patient demand at three hierarchical levels — hospitals, regions, and national systems — simultaneously while ensuring the predictions stay logically consistent across levels. The work addresses a real healthcare problem: most forecasting models make independent predictions at each level, leading to incoherent results where hospital forecasts don't sum to regional totals. HierSTT solves this by using a coherence-aware loss function and a spatio-temporal Transformer architecture, cutting prediction error by 32% compared to non-hierarchical baselines.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+    "authors": "Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27081v1",
+    "pdf": "https://arxiv.org/pdf/2607.27081v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a critical vulnerability in fine-tuned large language models: malicious actors can embed harmful behaviors into training data that activate only with specific prompts, while the model retains its useful skills. The authors propose Routing-based On-Policy Distillation (ROPD), a defense method that learns to distinguish between aligned and compromised model outputs rather than memorizing specific attack templates, making the defense robust even against unseen attack variations.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Herding, Momentum, and Reversal in China's A-Share Market: An Agent-Based Network Model with Information Diffusion",
+    "authors": "Jiahao Weng",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27063v1",
+    "pdf": "https://arxiv.org/pdf/2607.27063v1",
+    "tags": [
+      "market-microstructure",
+      "multi-agent-systems",
+      "quantitative-finance"
+    ],
+    "summary": "This paper builds an agent-based model of stock markets where individual investors influence each other locally (through social networks) and learn about prices at different speeds (information travels slowly). The model explains why stocks show momentum (prices keep moving in one direction) followed by reversals (sudden direction changes), and validates these patterns in China's A-share market using statistical measures of investor herding.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PIKS: Universal Physics-Informed Kernel Methods",
+    "authors": "Joachim Bona-Pellissier, Giacomo Meanti, Matteo Santacesaria, Lorenzo Rosasco",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27062v1",
+    "pdf": "https://arxiv.org/pdf/2607.27062v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops Physics-Informed Kernel methodS (PIKS), a theoretically grounded alternative to physics-informed neural networks that embeds physical constraints directly into kernel methods. Instead of training neural networks to satisfy differential equations, PIKS uses kernel methods (mathematical functions that measure similarity between data points) with closed-form solutions, making it analytically tractable. The key innovation is proving that PIKS works even when physical targets don't lie in the ideal mathematical space, and demonstrating it can match or beat both neural network and traditional numerical solvers.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
+    "authors": "Lingyang Zeng, Guangze Chen, Kaichen Yu, Zhicheng Pan, Siyang Weng et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27056v1",
+    "pdf": "https://arxiv.org/pdf/2607.27056v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Setoka, a benchmark for testing how well personalized AI agents understand users by integrating information from diverse data sources over time. Most existing tests focus on simple fact retrieval from conversation history; Setoka evaluates deeper understanding—like inferring behavior patterns and personality traits from fragmented, heterogeneous data. The work matters because personalized agents increasingly assist users across many domains, and effective assistance requires understanding not just what users explicitly said, but who they are.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Think Short, Defer Smart, Act, and Repeat: Calibrated Reasoning and Uncertainty-Aware Deferral for Edge LLM Agents",
+    "authors": "Amirmohammad Farzaneh, Osvaldo Simeone",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26865v1",
+    "pdf": "https://arxiv.org/pdf/2607.26865v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents TSDS, a framework that helps language model agents run efficiently on edge devices by deciding when to think locally versus when to ask a cloud server for help. The key insight is combining two mechanisms — stopping local reasoning once a decision stabilizes, and deferring uncertain decisions to the cloud — calibrated together to guarantee both task performance and bounded cloud usage. This matters because it enables practical deployment of reasoning-heavy AI systems on resource-constrained devices while maintaining reliability.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Crossing-Free Probabilistic K-Line Forecasts Without Retraining",
+    "authors": "Runyao Yu, Yuchen Tao, Yujie Chen, Wentao Wang, Derek W. Bunn",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26792v1",
+    "pdf": "https://arxiv.org/pdf/2607.26792v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper solves a practical problem in financial forecasting: when predicting uncertainty around stock prices (open, high, low, close), the forecasts often become internally inconsistent—either quantiles cross each other or the predicted high falls below the predicted open. The authors propose KQSP, a simple post-processing method that fixes these inconsistencies without retraining the model, preserving forecast accuracy while eliminating all crossing violations.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DREvo: Distilling Recalibrated Historical Experience for Harness Self-Evolution",
+    "authors": "Hanghui Guo, Weijie Shi, Zhangze Chen, Shengxiang Xu, Yishu Wang et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26722v1",
+    "pdf": "https://arxiv.org/pdf/2607.26722v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a practical problem in building AI agents: how to automatically improve \"harnesses\" (instruction sets or prompts that guide LLM behavior) by learning from past attempts. The authors propose DREvo, a method that intelligently filters historical experience to determine which past insights remain relevant, then distills those insights into concrete directions for improvement. On five benchmarks, DREvo improves agent performance by 14–16% compared to existing approaches while producing more stable, predictable evolution across iterations.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Universality and Approximation Rates of Graph Neural Networks with Random Features",
+    "authors": "Lukas Gonon, Thilo Meyer-Brandis, Niklas Weber",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26699v1",
+    "pdf": "https://arxiv.org/pdf/2607.26699v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper proves that graph neural networks with random node features can learn any permutation-invariant or permutation-equivariant function on graphs, and derives specific rates showing how network complexity translates to approximation accuracy. The result is important because it rigorously justifies why random features improve GNNs and provides practical guidance on network sizing for desired accuracy.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Sparsity Ceiling: Where Spiking Networks Can and Cannot Trade Activity for Energy",
+    "authors": "Zeyu Wang",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26648v1",
+    "pdf": "https://arxiv.org/pdf/2607.26648v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "Spiking neural networks (SNNs) are often promoted as energy-efficient because they use sparse, event-driven computation instead of dense matrix multiplications. This paper shows that the energy savings from sparsity depend on the task structure, not on SNNs themselves — and identifies hard limits (a \"sparsity ceiling\") where further reductions fail. The findings matter because they explain when neuromorphic hardware actually wins and when the promised efficiency gains vanish.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Living-Harness Is an Interactive-Agent Evolver",
+    "authors": "Yuetian Du, Yucheng Wang, He Xu, Jiexu Xu, Shanwen Tan et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26598v1",
+    "pdf": "https://arxiv.org/pdf/2607.26598v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Living-Harness, a system that allows LLM-based agents to evolve their operational structure (tools, memory, workflow) after each task rather than remaining static. By extracting lessons from failures and successes into episodic memory and state repair graphs, the agent improves reliability across future tasks. This matters because current LLM agents often repeat the same mistakes even when they've been corrected once—Living-Harness fixes that by treating the agent's guiding structure as continuously learnable.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "One Run Is Not an Idea: The Implementation Lottery in Automated Research",
+    "authors": "Jingjie Ning, Shanshan Zhong, Xiaochuan Li, Ji Zeng, Chenyan Xiong",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26587v1",
+    "pdf": "https://arxiv.org/pdf/2607.26587v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper identifies a critical flaw in how automated research systems (including AI agents) evaluate ideas: they confuse one implementation's test score with evidence about the underlying idea's merit. The authors show that implementation details cause massive variance in experimental outcomes—sometimes reversing which approach \"wins\"—meaning a single run cannot reliably guide research decisions. They propose the Idea Reliability Audit to measure whether conclusions hold across multiple independent implementations.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks",
+    "authors": "Peng Yin, Kai Li, Yifan Zhang, Jian Cheng",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26490v1",
+    "pdf": "https://arxiv.org/pdf/2607.26490v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper presents EvoPINN, a system where an AI agent automatically discovers improved algorithms for physics-informed neural networks (PINNs)—a technique that combines neural networks with physics equations to solve complex differential equations. Rather than having humans manually design network architectures and training procedures through trial-and-error, the system uses an LLM agent to propose and evaluate algorithmic modifications, constrained by strict mathematical validity checks. The work demonstrates that this automated discovery process invents genuinely novel and effective PINN variants that outperform hand-engineered baselines.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reconstructing Backpropagation from Forward Fluctuations in Noise-modulated Neural Networks",
+    "authors": "Shuhei Ikemoto",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26483v1",
+    "pdf": "https://arxiv.org/pdf/2607.26483v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper shows how to reconstruct backpropagation—the standard algorithm for training neural networks—in a noise-modulated neural network (NNN) using only forward-pass information, without needing the reverse data path that biological brains don't have. The key insight is that noise acts as a computational resource: weight matrices can be estimated from covariances between layer outputs, and combining this with local error estimation allows gradients to propagate forward through the network to update weights. This matters because it bridges neuromorphic plausibility (making learning rules more brain-like) with practical accuracy, and enables hardware implementation using only local polynomial operations and comparators.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neural Architecture Search for Traffic Prediction: A Survey of Methods, Challenges, and Future Directions",
+    "authors": "Truong Giang Vu, Li Yang, Richard W. Pazzi",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.26467v1",
+    "pdf": "https://arxiv.org/pdf/2607.26467v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This survey reviews Neural Architecture Search (NAS)—automated methods for designing deep learning models—applied specifically to traffic prediction. Traffic prediction is critical for transportation systems, but current models are hand-designed and don't generalize well across cities; NAS automates this design process by systematically searching over candidate architectures to find models that fit spatial-temporal traffic data without manual trial-and-error.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pramana: A Composable, Domain-Specific Backend for Empirical Networking Research",
+    "authors": "Jaber Daneshamooz, Eugene Vuong, Alagappan Ramanathan, Manni Moghimi, Haarika Manda et al.",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26352v1",
+    "pdf": "https://arxiv.org/pdf/2607.26352v1",
+    "tags": [
+      "agents"
+    ],
+    "summary": "Pramana is a composable backend system designed to speed up empirical networking research by reducing the gap between formulating research hypotheses and generating the experimental data needed to test them. The paper introduces an \"intent specification\" — a single contract that separates *what data to generate* (intent), *where to generate it* (substrate), and *how to produce it* (mechanism) — allowing researchers to reuse the same experiment specification across different execution environments. This matters because as AI systems increasingly assist in hypothesis generation, validation bottlenecks will become more severe unless data-generation infrastructure can keep pace.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning Implicit Causal World Models from Multi-Agent Demonstrations",
+    "authors": "Jasorsi Ghosh",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26336v1",
+    "pdf": "https://arxiv.org/pdf/2607.26336v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Implicit Causal World Models — neural network simulators that learn true cause-and-effect relationships in multi-agent environments from offline demonstrations, rather than just learning statistical patterns. The key innovation is recovering causal structure without requiring hand-crafted causal graphs, which matters because standard world models fail when the test environment differs from training data (distribution shift), a critical problem in robotics and multi-agent coordination.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Confounder Trap: Treatment-Encoding Representations in Causal Inference with Text",
+    "authors": "Marie Neubrander, Graham Tierney, Alexander Volfovsky",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26309v1",
+    "pdf": "https://arxiv.org/pdf/2607.26309v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper identifies a fundamental problem in causal inference with text: when treatment status is encoded in the words themselves, standard representation learning can inadvertently encode treatment directly, violating the statistical overlap assumption needed for valid causal estimation. The authors propose masking-based solutions that remove treatment-defining words before learning representations, restoring overlap and improving causal effect estimates.",
+    "date_added": "2026-07-30",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Top-$k$ Pareto Bandits: Hypervolume Regret for Multi-Objective Slate Selection",
+    "authors": "Nicolas Gutowski, Fabien Chhel, Alexandre Letard, Sylvain Lamprier",
+    "published": "2026-07-28",
+    "url": "http://arxiv.org/abs/2607.26273v1",
+    "pdf": "https://arxiv.org/pdf/2607.26273v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves the problem of selecting a small set of actions that approximate the Pareto frontier in multi-objective bandit settings — where an agent repeatedly chooses k arms and receives d-dimensional reward vectors, without knowing which arm is best in advance. The key insight is to use dominated hypervolume (a measure of how well a set covers the trade-off space) as the objective, and the authors provide an algorithm called THV-UCB with theoretical regret guarantees showing this approach works efficiently.",
+    "date_added": "2026-07-30",
+    "trusted": ""
   },
   {
     "source": "arxiv",
