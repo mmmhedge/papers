@@ -2,6 +2,22 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "authors": "OpenAI",
+    "published": "2026-07-30",
+    "url": "https://openai.com/index/avatarin",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "Avatarin deployed a real-time conversational agent powered by OpenAI's GPT-Realtime to provide 24/7 multilingual customer support at Yamada Denki retail stores. The system reached 30,000 users in two weeks with a 92% positive satisfaction rate, demonstrating practical viability of LLM-based retail agents in production.",
+    "date_added": "2026-07-31",
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
     "authors": "OpenAI",
     "published": "2026-07-29",
@@ -498,6 +514,465 @@
     "summary": "The open-source community is rallying around OpenEnv, a framework designed for training and evaluating agentic reinforcement learning systems. This signals growing momentum behind standardized, community-driven tooling for agent-based RL, addressing a gap in accessible infrastructure for this emerging capability area.",
     "date_added": "2026-07-06",
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning to Trace Seiberg Dualities",
+    "authors": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno, Gary Shiu",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28628v1",
+    "pdf": "https://arxiv.org/pdf/2607.28628v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper uses machine learning — specifically transformers and neural networks — to solve a hard problem in theoretical physics: determining when two supersymmetric gauge theories are \"dual\" (equivalent descriptions of the same physics). The authors show that neural networks outperform traditional algorithms on this task and propose this as a useful benchmark for testing AI on complex mathematical reasoning.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+    "authors": "Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28618v1",
+    "pdf": "https://arxiv.org/pdf/2607.28618v1",
+    "tags": [
+      "agents",
+      "nlp"
+    ],
+    "summary": "AskChem transforms chemistry literature search from returning ranked papers to returning specific, source-grounded claims extracted from papers. Scientists and AI agents can now search for atomic facts about chemistry with verified citations and evidence links, rather than manually hunting through documents. This matters because chemistry research relies heavily on synthesizing dispersed findings, and having verifiable, interconnected claims dramatically speeds up literature review and enables better AI agent reasoning.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+    "authors": "Xiangning Lin, Shenzhe Zhu, Shu Yang, Zhenyu Zhang, Haoqian Zhang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28617v1",
+    "pdf": "https://arxiv.org/pdf/2607.28617v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces AISPA, a framework for auditing system prompts — the hidden instructions developers embed in commercial AI applications to control behavior. By analyzing 3,249 instructions across 88 commercial products, the authors reveal that while most AI products include some user-protective instructions, they're often shallow and inconsistent, and many still contain instructions that work against user interests. The work highlights a critical transparency gap in deployed AI systems.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+    "authors": "Qiushi Sun, Kanzhi Cheng, Yian Wang, Bowen Yang, Hang Yan et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28609v1",
+    "pdf": "https://arxiv.org/pdf/2607.28609v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces OSReward, a benchmark for evaluating whether vision-language models (VLMs) can reliably judge whether computer-using agents have successfully completed tasks. The authors find that even state-of-the-art VLM judges are biased and unreliable at scale, then release OS-Shepherd — a smaller, cheaper open-source reward model trained on 100K annotated trajectories that matches expensive commercial judges while costing 30–60% less.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+    "authors": "Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28607v1",
+    "pdf": "https://arxiv.org/pdf/2607.28607v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that safety training intended to prevent language models from claiming consciousness has an unintended side effect: it also suppresses the models' representations of minds in animals, nature, and spiritual concepts. The researchers demonstrate they can reverse this suppression by mechanistically manipulating internal representations, recovering human-like beliefs about religion, morality, and well-being without harming the models' ability to reason about others' minds.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Using Theory of Mind to Arbitrate between Social and Non-social Learning",
+    "authors": "Lance Ying, Ryan Truong, Joshua B. Tenenbaum, Samuel J. Gershman",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28601v1",
+    "pdf": "https://arxiv.org/pdf/2607.28601v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how people decide when to learn from others versus learn through direct experience. The researchers propose a \"Rational Mentalizing\" model — an AI system that reasons about what other agents know and what they'll do next, then weighs whether learning from them is worth the cost. Experiments show humans make these social-learning decisions in a way that matches this theory-of-mind-based model.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+    "authors": "Haomin Qi, Xingliang Wang, Xuanqi Gao, Baihui Sang, Xin Zhang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28591v1",
+    "pdf": "https://arxiv.org/pdf/2607.28591v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper presents Change2Task, a system that automatically converts pull requests from software repositories into executable training tasks for coding agents. The system reconstructs realistic code states, validates task correctness, and generates diverse coding tasks (bug fixes, feature additions, tests, API migrations, security repairs) at 79.6% success rate—solving a key bottleneck in scaling coding agent development: the scarcity of quality training data with verified solutions.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+    "authors": "Kangning Zhang, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28590v1",
+    "pdf": "https://arxiv.org/pdf/2607.28590v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a fundamental problem in multimodal distillation: when a teacher corrects a student's mistake using both visual information and language priors, how do we know which part of the correction actually comes from visual evidence? The authors propose VAD (Visual Attribution Distillation), a method that uses counterfactual reasoning to isolate the visually-attributable component of teacher corrections and uses only that for training, achieving better performance than standard distillation across six visual benchmarks.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for Vision Transformers",
+    "authors": "Md. Mehrab Hossain Opi, Robiul Islam Ryad, Md. Umar Faruk",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28589v1",
+    "pdf": "https://arxiv.org/pdf/2607.28589v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes MixFrag, a method to compress Vision Transformers (ViTs) for deployment on resource-limited devices by assigning different precision levels (bit-widths) to different components. Instead of using the same number-of-bits everywhere, MixFrag identifies which layers are most sensitive to compression and protects them with higher precision, solving the bit-allocation problem as an optimization task. This improves accuracy while meeting strict computational budgets.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+    "authors": "Manyi Wang, Junjielong Xu, Pinjia He",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28587v1",
+    "pdf": "https://arxiv.org/pdf/2607.28587v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper identifies a critical problem in software engineering benchmarks (like SWE-bench) used to evaluate LLMs: about 13.6% of pull request–issue pairs don't actually correspond to each other, making those benchmarks unreliable. The authors build PAIChecker, a multi-agent system that automatically detects these misalignments, ensuring future benchmark construction is more trustworthy.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+    "authors": "Jiawei Xu, Minghui Liu, Juzheng Zhang, Tom Goldstein, Furong Huang",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28582v1",
+    "pdf": "https://arxiv.org/pdf/2607.28582v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces β-OPSD, a method that unifies self-distillation and policy optimization for training reasoning language models. The key insight is that standard on-policy self-distillation (OPSD) is a special case of a broader family controlled by a regularization parameter β, which can be tuned to balance fidelity to a reference policy against learning from a teacher model. The authors show how to implement this family efficiently via logit mixing while maintaining the computational simplicity that makes distillation practical.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+    "authors": "Junlin Yang, Che Jiang, Yu Fu, Tianwei Luo, Can Ren et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28568v1",
+    "pdf": "https://arxiv.org/pdf/2607.28568v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Frontis-MA1, a 35B parameter language model trained to autonomously improve machine learning systems — essentially an \"AI that builds AI.\" The key innovation is OpenMLE, a system that teaches the model to draft, improve, debug, and recombine ML code through execution feedback, enabling the model to solve ML engineering tasks better than GPT-5.5 on benchmarks while running on modest hardware (single RTX 4090).",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+    "authors": "Shentong Mo, Yatao Bian",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28553v1",
+    "pdf": "https://arxiv.org/pdf/2607.28553v1",
+    "tags": [
+      "generative-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces APO (Atomic Policy Optimization), an unsupervised method for predicting 3D structures of proteins and crystals without requiring expensive experimental reference data. The key innovation is using physical principles—thermodynamic stability and structural consistency—as self-supervision signals instead of ground-truth coordinates, which enables the model to learn better structures than supervised methods while dramatically reducing labeling costs.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+    "authors": "Albert Gong, Kyuseong Choi, Abhineet Agarwal, Jason Schechner, Ryan Huang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28545v1",
+    "pdf": "https://arxiv.org/pdf/2607.28545v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces ORCA-bench, a benchmark that evaluates how well AI coding agents can perform oncall root cause analysis (RCA)—the task of diagnosing why production systems fail. The authors test five frontier language models against 1,079 realistic incidents in a production-fidelity testbed with real metrics, logs, and code, and find that even the best models only achieve 25.3% accuracy on medium-difficulty cases and 10.0% on hard cases, revealing a significant gap before these agents can safely handle real production systems.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+    "authors": "Ruman Wang, Hangting Ye",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28538v1",
+    "pdf": "https://arxiv.org/pdf/2607.28538v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces ScaFE, a system that uses large language models to generate interpretable feature extraction programs for classifying pathological scars (keloids vs. hypertrophic) from clinical photographs. Instead of relying on vision-language models that send raw images to external services, ScaFE generates local, auditable Python programs that measure clinically-relevant scar attributes, then trains a simple Random Forest classifier on the resulting features—achieving better accuracy than standard baselines while keeping patient data private and preserving reproducibility.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI systems and the reproduction of (standard) language ideologies in World Englishes",
+    "authors": "Kingsley Ugwuanyi",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28528v1",
+    "pdf": "https://arxiv.org/pdf/2607.28528v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper examines how large language models (LLMs) and AI systems embed and reinforce dominant language ideologies that privilege English spoken in wealthy, historically powerful countries over varieties spoken in the Global South. The author argues that AI reproduces these biases across training data, design choices, evaluation methods, and public discourse—with real consequences for whose English is treated as legitimate—and calls for more inclusive AI design that respects linguistic diversity.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation",
+    "authors": "Boning Li, Longbo Huang",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28520v1",
+    "pdf": "https://arxiv.org/pdf/2607.28520v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces a method for game-playing agents to safely exploit flawed opponents while maintaining provable safety guarantees. The key innovation is that agents compute and audit their own exploits before deployment—every aggressive move is backed by a self-generated certificate proving it stays within a user-specified risk budget. In poker-like games, the method achieves 6–13× better exploitation than prior approaches while guaranteeing no deployed strategy violates its audited loss bounds.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration",
+    "authors": "Xinxing Ren, Qianbo Zang, Ziyan Wang, Caelum Forder, Suman Deb et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28430v1",
+    "pdf": "https://arxiv.org/pdf/2607.28430v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces AgentRadio, a message-passing system that enables multiple LLM agents to collaborate on long-horizon coding tasks by sharing discoveries mid-execution rather than only at phase boundaries. The key innovation is \"passive awareness\"—agents can receive and integrate teammates' findings asynchronously without interrupting their own work. On a benchmark of complex code comprehension questions, four coordinated agents using AgentRadio solve 62% of tasks, compared to 32% for a single agent.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can Large Language Models Execute Parent Orders?",
+    "authors": "Zane Shen, Xinli Xu, Guangyi Zhang, Jialong Chen, Jinsong Zhou et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28410v1",
+    "pdf": "https://arxiv.org/pdf/2607.28410v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper investigates whether large language models can effectively execute large stock orders by breaking them into smaller pieces over time—a core problem in algorithmic trading. The authors propose PACE, a framework that uses LLMs to plan and execute orders without needing pre-specified market models or task-specific training, and show it outperforms traditional and learning-based methods on real stock exchange data.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On-Policy and Off-Policy Learning for Large Action Spaces",
+    "authors": "Imad Aouali",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28408v1",
+    "pdf": "https://arxiv.org/pdf/2607.28408v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This thesis tackles policy learning when agents must choose from enormous action spaces—think recommendation systems or large-scale decision problems. It develops new methods for both on-policy learning (where an agent explores and learns by trial) and off-policy learning (where it learns from past logged interactions), addressing core challenges like inefficient exploration and high estimation variance that make large action spaces computationally and statistically hard.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Uncertainty quantification for trustworthy deep learning: Methods and measures",
+    "authors": "H. Martin Gillis, Thomas Trappenberg",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28248v1",
+    "pdf": "https://arxiv.org/pdf/2607.28248v1",
+    "tags": [
+      "alignment",
+      "deep-learning"
+    ],
+    "summary": "This paper surveys methods for uncertainty quantification (UQ) in deep neural networks — techniques that help models estimate how confident they should be in their predictions. It's crucial for safety-critical applications like medical diagnosis or autonomous vehicles, where knowing when a model is uncertain can prevent costly mistakes. The survey organizes dozens of approaches into five families and provides a unified framework for evaluating them.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agentic Metaverse Services: A New As-a-Service Paradigm",
+    "authors": "Xiaofei Xu, Quan Z. Sheng, Zhongjie Wang, Boualem Benatallah, Xiao Wang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28242v1",
+    "pdf": "https://arxiv.org/pdf/2607.28242v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes Agentic Metaverse Services (AMServ) — a framework where AI agents with generative capabilities (perception, decision-making, execution, collaboration) operate as encapsulated services within virtual metaverse environments. It's significant because it bridges two emerging paradigms: autonomous agents and the metaverse, suggesting a new business model (Meta-AaaS, or Agent-as-a-Service in metaverse contexts) for delivering customized agent-powered experiences at scale.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FinSMART: Financial Sentiment Analysis for Algorithmic Trading through Market-Aligned Reinforcement Learning",
+    "authors": "Giorgos Iacovides, Wuyang Zhou, Danilo Mandic",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28127v1",
+    "pdf": "https://arxiv.org/pdf/2607.28127v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "FinSMART is a reinforcement learning system that trains financial sentiment models directly on real market outcomes rather than human annotations. Instead of treating sentiment analysis as a static classification task, it learns to extract sentiments from financial news in ways that actually predict profitable trades, automatically adapting as market conditions change.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On a joint simultaneous learning of relevant feature subsets and subspaces in regression-like problems",
+    "authors": "Illia Horenko",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28080v1",
+    "pdf": "https://arxiv.org/pdf/2607.28080v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces Entropy-Optimal Manifold Regression (EOMR), a method for simultaneously identifying which features matter and what lower-dimensional structures (subspaces) underlie complex, nonlinear prediction problems. The work shows that EOMR outperforms state-of-the-art machine learning tools—including deep neural networks and transformers—on chaotic dynamical systems, while remaining computationally efficient and producing interpretable models.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VISA: A Structured Description Protocol for Agent-Based Simulation Models Towards Machine Reproducibility",
+    "authors": "Zhou He",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28027v1",
+    "pdf": "https://arxiv.org/pdf/2607.28027v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces VISA, a standardized protocol for describing agent-based models (ABMs) in a machine-readable format using eight interconnected tables. Agent-based models are simulations where many independent agents interact—they're widely used in social science, economics, and engineering, but currently impossible to reproduce because their rules are scattered across prose, code, and unwritten assumptions. VISA solves this by making model specifications unambiguous and checkable, enabling LLMs and code generators to automatically reproduce models across different platforms.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+    "authors": "Yijia Xiao, Rujun Han, Yanfei Chen, Zifeng Wang, Ke Jiang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27853v1",
+    "pdf": "https://arxiv.org/pdf/2607.27853v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "FinanceHarness is an autonomous framework that uses large language models (LLMs) and AI agents to automate financial deep research—the process of gathering data, analyzing patterns, and generating insights about markets and companies. The paper tackles a core problem: general-purpose research systems fail at financial analysis because finance requires specialized domain knowledge, historical context awareness, and strict time-cutoff rules to avoid accidentally using future information. The authors also introduce FinanceGym, a benchmark that tests whether AI systems can genuinely conduct financial research, finding that even state-of-the-art LLMs score below 40%.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Error Analysis of Neural-Network-Based Engression",
+    "authors": "Juntong Chen, Zijian Guo, Xinwei Shen",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27723v1",
+    "pdf": "https://arxiv.org/pdf/2607.27723v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper analyzes how well neural networks can learn conditional probability distributions using engression—a method that fits generative models by minimizing the energy score, a mathematically principled loss function. The authors break down prediction error into three sources (approximation, stochastic, and Monte Carlo) and derive convergence rates, showing theoretically how many samples and what network complexity you need to achieve a desired accuracy.",
+    "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Robust Wavelength Selection for Partial Least Squares Sugar Content Estimation Using Combinatorial Bayesian Optimization",
+    "authors": "Mitsunobu Kanebako, Ami S. Koshikawa, Masaru Hitomi, Takuro Tanaka, Mahito Chiba et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27645v1",
+    "pdf": "https://arxiv.org/pdf/2607.27645v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper tackles wavelength selection for near-infrared spectroscopy measurements of sugar content by framing it as a binary optimization problem solved via Bayesian optimization. The method outperforms genetic algorithms and simulated annealing in both prediction accuracy and consistency, while converging to robust solutions that don't overfit to noise. This matters because accurate, interpretable spectroscopic analysis is critical for food quality control and agricultural applications.",
+    "date_added": "2026-07-31",
+    "trusted": ""
   },
   {
     "source": "arxiv",
