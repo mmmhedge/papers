@@ -698,6 +698,40 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+    "authors": "Jiacheng Tao, Qingyun Sun, Haonan Yuan, Ziwei Zhang, Jianxin Li",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28580v1",
+    "pdf": "https://arxiv.org/pdf/2607.28580v1",
+    "tags": [
+      "graph-neural-networks",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a fundamental challenge in multimodal retrieval-augmented generation (MM-RAG) — systems that retrieve relevant images and text to help language models answer complex questions. The authors propose DualG-MRAG, which uses two separate graphs: one for global reasoning about document relationships, and another for precise matching of local evidence. This decoupling reduces noise while preserving critical details, leading to better performance on multi-hop reasoning tasks.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
+    "authors": "Woongkyu Lee, Jungwook Choi",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28573v1",
+    "pdf": "https://arxiv.org/pdf/2607.28573v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates how to make computer-use agents (AI systems that interact with computers like humans do) work better when running on consumer hardware with limited computing power. The authors test different strategies for using extra computation during task execution and find that while some approaches help, they often hit diminishing returns and shift problems rather than solve them—suggesting that local agents need smarter resource allocation and failure-aware designs.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
     "authors": "Junlin Yang, Che Jiang, Yu Fu, Tianwei Luo, Can Ren et al.",
     "published": "2026-07-30",
@@ -764,6 +798,23 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
+    "authors": "Ali Rayat, Yunhao Fan, Gia-Wei Chern",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28537v1",
+    "pdf": "https://arxiv.org/pdf/2607.28537v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper uses graph neural networks to learn effective \"force fields\" that predict spin torques in metallic magnets, bypassing expensive electronic calculations during simulations. Instead of repeatedly solving quantum mechanical equations during time evolution, the trained GNN model rapidly evaluates the forces governing magnetic dynamics—much like machine-learned potentials do for atoms. This makes large-scale, long-timescale simulations of magnetic materials computationally tractable.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "AI systems and the reproduction of (standard) language ideologies in World Englishes",
     "authors": "Kingsley Ugwuanyi",
     "published": "2026-07-30",
@@ -775,6 +826,38 @@
     ],
     "summary": "This paper examines how large language models (LLMs) and AI systems embed and reinforce dominant language ideologies that privilege English spoken in wealthy, historically powerful countries over varieties spoken in the Global South. The author argues that AI reproduces these biases across training data, design choices, evaluation methods, and public discourse—with real consequences for whose English is treated as legitimate—and calls for more inclusive AI design that respects linguistic diversity.",
     "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
+    "authors": "Mao-xun Huang, Jerry Wang, Yi-Cheng Lai, Zhengxin Zhang, Claire Cardie et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28527v1",
+    "pdf": "https://arxiv.org/pdf/2607.28527v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces MANTA, a framework that lets multi-agent LLM systems automatically improve their communication structure during execution rather than using a fixed topology. Instead of deciding upfront how agents should talk to each other, MANTA watches how they collaborate and adapts the organization in real time—changing which agents communicate, when they act, and how they validate results. The work shows that this adaptive approach outperforms static designs on complex reasoning and planning tasks.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Selective Credibility-Limited Belief Update",
+    "authors": "Theofanis Aravanis, Costas D. Koutras",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28523v1",
+    "pdf": "https://arxiv.org/pdf/2607.28523v1",
+    "tags": [
+      "agents"
+    ],
+    "summary": "This paper develops a formal framework for how intelligent agents should update their beliefs when they receive information from potentially unreliable sources. Standard belief update assumes all information can be incorporated fully, but real agents often receive partial or conflicting information. The authors extend existing credibility-limited approaches to let agents selectively accept parts of compound information, creating a more realistic and expressive model of belief revision.",
+    "date_added": "2026-08-01",
     "trusted": ""
   },
   {
@@ -792,6 +875,119 @@
     ],
     "summary": "This paper introduces a method for game-playing agents to safely exploit flawed opponents while maintaining provable safety guarantees. The key innovation is that agents compute and audit their own exploits before deployment—every aggressive move is backed by a self-generated certificate proving it stays within a user-specified risk budget. In poker-like games, the method achieves 6–13× better exploitation than prior approaches while guaranteeing no deployed strategy violates its audited loss bounds.",
     "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Creative Transformation in Literary Texts: Modelling Change Across Representational Levels",
+    "authors": "Ioana-Roxana Boriceanu, Liviu P. Dinu",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28513v1",
+    "pdf": "https://arxiv.org/pdf/2607.28513v1",
+    "tags": [
+      "nlp"
+    ],
+    "summary": "This paper models literary creativity as selective transformation across multiple levels of textual representation—lexical, semantic, structural, and narrative—rather than pure invention. By comparing documented literary relationships using quantitative alignment methods, the authors show that creative works typically preserve certain aspects of source texts while diverging in others, providing a computational framework for understanding how imitation and originality coexist in literature.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Role of Causality in Algorithmic Recourse",
+    "authors": "Srikanth Avasarala, Varun Gupta, Shahin Jabbari, Saber Salehkaleybar, Juba Ziani",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28497v1",
+    "pdf": "https://arxiv.org/pdf/2607.28497v1",
+    "tags": [
+      "alignment",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper addresses a critical flaw in algorithmic recourse systems: they often recommend changes that merely trick the classifier without actually improving someone's real qualifications. The authors propose a causal framework that models how recourse actions propagate through real-world relationships between features, ensuring recommendations lead to genuine improvement and stable equilibria rather than gaming behavior that degrades model performance over time.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning",
+    "authors": "Zheng Wu, Chenhao Xue, Shijie Zheng, Yijie Lu, Cheng Yang et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28478v1",
+    "pdf": "https://arxiv.org/pdf/2607.28478v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper reveals that large language models suffer from \"salience bias\"—they get distracted by prominent but irrelevant information in prompts and ignore necessary commonsense knowledge, even when they possess it. The researchers show this is not a knowledge gap but a failure of *knowledge retrieval*: simple prompt rewording recovers over 90% of correct answers without retraining the model.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cybersecurity Detection Classification with Reasoning-enabled Language Models",
+    "authors": "Amol Khanna, Manu Nandan, Cristian Viorel Popa, Joan Pujol-Roig, Diana Bolocan et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28460v1",
+    "pdf": "https://arxiv.org/pdf/2607.28460v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles alert fatigue in cybersecurity operations by training language models to classify security detections as genuine threats or false alarms. The key innovation is teaching models to *reason through* their decisions (using chain-of-thought prompting) rather than just outputting labels, combined with a separate confidence calibrator that reads the reasoning trace. The system achieves 82.6% accuracy and significantly reduces false positives in real Windows endpoint security data.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SVR: Self-Verifying Refinement via Joint Verdict-Confidence Reinforcement Learning for Adaptive Test-Time Compute",
+    "authors": "Hongyu Chen, Liang Lin, Guangrun Wang",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28457v1",
+    "pdf": "https://arxiv.org/pdf/2607.28457v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces SVR (Self-Verifying Refinement), a method that teaches language models to decide when to stop refining their answers by learning to verify themselves. Instead of wasting computation on easy problems or relying on external feedback, the model learns to generate both an answer and a confidence judgment, then decides whether to keep or refine that answer based on its own assessment—all without seeing the ground truth during inference.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Graph Neural Multilevel Preconditioners for Iterative Solvers",
+    "authors": "Zechen Zhang, Rui Peng Li, Yousef Saad",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28456v1",
+    "pdf": "https://arxiv.org/pdf/2607.28456v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper proposes Graph Neural Multilevel Preconditioners (GMP), a machine learning approach that learns how to accelerate the solution of large sparse linear systems — a fundamental problem in scientific computing. Rather than relying entirely on classical heuristics, GMP combines the proven multilevel structure of algebraic multigrid (a classical method) with learned neural operators, showing when this hybrid approach outperforms both traditional and recent neural baselines on 800+ test matrices.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond a Single Judge: Simulating Social Persona Panels for Generative UI Evaluation",
+    "authors": "Zheng Wu, Yibo Luo, Pu Zhang, Cheng Yang, Zhuosheng Zhang",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.28439v1",
+    "pdf": "https://arxiv.org/pdf/2607.28439v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles a fundamental problem in evaluating generative UI systems — how to assess whether AI-generated interfaces match what real users actually want. Instead of using a single AI judge (which has limited perspective) or expensive human evaluation, the authors create a \"persona panel\" of diverse AI agents that simulate different user types, debate their opinions, and reach consensus, achieving 92% correlation with human judgment versus 72% for a single judge.",
+    "date_added": "2026-08-01",
     "trusted": ""
   },
   {
@@ -929,6 +1125,56 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "$Σ$-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+    "authors": "Peilin Feng, Suorong Yang, Soujanya Poria",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27958v1",
+    "pdf": "https://arxiv.org/pdf/2607.27958v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces Σ-Mem, a memory system that tracks which agents in a multi-agent LLM system are reliable and trustworthy. Instead of just storing conversation history, it learns from past correct/incorrect answers to build a dynamic model of each peer agent's competence and their relationships, enabling better coordination decisions without retraining the underlying models.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Argonaut: Interactive Visual Exploration for Distributed Optimization",
+    "authors": "Srijoni Majumdar, Chuhao Qin, Evangelos Pournaras",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27946v1",
+    "pdf": "https://arxiv.org/pdf/2607.27946v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "Argonaut is an interactive visual dashboard for exploring how distributed optimization algorithms work in decentralized multi-agent systems. Instead of treating optimization as a black box that produces a final answer, it lets users watch the entire search process unfold — seeing how individual agents make decisions and how those decisions combine into a global outcome. This matters because understanding *how* distributed systems reach solutions is crucial for debugging, validating, and improving real-world applications like smart grids and ride-sharing networks.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scaling LLM-Driven Multi-Agent Systems: Design Principles and Architectural Scalability Analysis",
+    "authors": "Linus Sander, Fengjunjie Pan, Vahid Zolfaghari, Andre Schamschurko, Nenad Petrovic et al.",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27942v1",
+    "pdf": "https://arxiv.org/pdf/2607.27942v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how to design and scale systems where multiple LLM-powered agents work together to solve complex tasks. The authors identify four design principles (simplicity, elastic feedback, sequential workflows, summary-based communication), test them on a benchmark of system engineering problems, and show that scaling improves accuracy with roughly linear cost growth—but only when the underlying LLM is capable enough, and only up to a point before consistency issues dominate.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
     "authors": "Yijia Xiao, Rujun Han, Yanfei Chen, Zifeng Wang, Ke Jiang et al.",
     "published": "2026-07-30",
@@ -962,6 +1208,22 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Stop Shipping AI Agents on Faith: Capability Is Not Production Readiness",
+    "authors": "Fouad Bousetouane",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27677v1",
+    "pdf": "https://arxiv.org/pdf/2607.27677v1",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This paper argues that demonstrating AI agent capability—through tests and demos—is insufficient to determine whether an agent is safe to deploy in production. Instead, the authors introduce the ProofAgent Index (PAI), a governance readiness framework that evaluates agents across four dimensions: Evaluation (observed behavior), Context (operating environment), Compliance (regulatory alignment), and Governance (organizational control and auditability). Testing PAI in healthcare and finance shows it successfully separates high-risk from low-risk agent configurations and reveals that context engineering and governance visibility matter far more than capability alone.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Robust Wavelength Selection for Partial Least Squares Sugar Content Estimation Using Combinatorial Bayesian Optimization",
     "authors": "Mitsunobu Kanebako, Ami S. Koshikawa, Masaru Hitomi, Takuro Tanaka, Mahito Chiba et al.",
     "published": "2026-07-30",
@@ -972,6 +1234,40 @@
     ],
     "summary": "This paper tackles wavelength selection for near-infrared spectroscopy measurements of sugar content by framing it as a binary optimization problem solved via Bayesian optimization. The method outperforms genetic algorithms and simulated annealing in both prediction accuracy and consistency, while converging to robust solutions that don't overfit to noise. This matters because accurate, interpretable spectroscopic analysis is critical for food quality control and agricultural applications.",
     "date_added": "2026-07-31",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Policy Gradient Steering: Interventions from Behavioral Objectives",
+    "authors": "Yoann Poupart, Aurélie Beynier, Nicolas Maudet",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27574v1",
+    "pdf": "https://arxiv.org/pdf/2607.27574v1",
+    "tags": [
+      "agents",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Policy Gradient Steering (PGS), a method for dynamically changing how trained agents behave without retraining them. The authors show that existing steering techniques (developed for language models) fail on even simple decision-making tasks, and propose using reinforcement learning gradients to build temporary \"task vectors\" that can redirect agent behavior at test time—much like activation steering does for LLMs, but adapted for agents that learn through trial and error.",
+    "date_added": "2026-08-01",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "THGFM: Dual-Branch Temporal Heterogeneous Graph Fusion Model",
+    "authors": "Yixin Peng, Diego Collarana, Er Jin, Stefan Decker",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27303v1",
+    "pdf": "https://arxiv.org/pdf/2607.27303v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "transformers"
+    ],
+    "summary": "This paper introduces THGFM, a neural network model for learning patterns in temporal heterogeneous graphs—networks where nodes and connections have different types and change over time. The key innovation is a dual-branch architecture that balances shared learning across all node types with specialized learning for specific relation types, while also directly incorporating time into the attention mechanism (the part of neural networks that focuses on relevant information). On academic citation and collaboration networks, THGFM outperforms existing graph models by 3–12%.",
+    "date_added": "2026-08-01",
     "trusted": ""
   },
   {
