@@ -3,7 +3,7 @@
   "last_clustered": "2026-07-26T10:02:14.907339+00:00",
   "tags": {
     "agents": {
-      "count": 258,
+      "count": 263,
       "first_seen": ""
     },
     "algorithmic-trading": {
@@ -35,7 +35,7 @@
       "first_seen": "2026-07-08T09:30:13.397275+00:00"
     },
     "large-language-models": {
-      "count": 386,
+      "count": 391,
       "first_seen": ""
     },
     "market-microstructure": {
@@ -47,7 +47,7 @@
       "first_seen": ""
     },
     "multi-agent-systems": {
-      "count": 170,
+      "count": 174,
       "first_seen": ""
     },
     "nlp": {

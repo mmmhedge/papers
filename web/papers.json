@@ -1256,6 +1256,90 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Evaluating Agentic Bioinformatics through Function, Evidence, and Validation",
+    "authors": "Phuc Pham, Truong-Son Hy",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27556v1",
+    "pdf": "https://arxiv.org/pdf/2607.27556v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes the Function–Evidence–Validation (FEV) framework to rigorously evaluate AI agents used in biological research, arguing that scientific credibility depends on inspectable workflows rather than final outputs alone. The authors map 109 agentic systems across genomics, protein science, and drug discovery, finding that most systems excel at planning and tool execution but lag in reproducibility, transparency, and empirical validation—a gap they address by recommending workflow-correctness as the primary assessment criterion.",
+    "date_added": "2026-08-02",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Strategy, Not Payoffs: A Behavioural Embedding of Normal-Form Games",
+    "authors": "Joshua Caiata, Sreepriya Pulyassary, Xiang Li, Kate Larson",
+    "published": "2026-07-30",
+    "url": "http://arxiv.org/abs/2607.27536v1",
+    "pdf": "https://arxiv.org/pdf/2607.27536v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper investigates how large language models transfer strategic reasoning skills across different games when fine-tuned on one game versus another. The authors propose a lightweight embedding based on two behavioral features—Nash equilibrium entropy and response sensitivity—that successfully predicts whether learning one game will help or hurt performance on another, contrary to approaches that rely on payoff structures. The work matters because it reveals that strategic transfer in LLMs depends on the *type of decision-making required* rather than the numerical payoff matrices.",
+    "date_added": "2026-08-02",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Belief Coevolution in a Social Network of Generalist and Specialist Large Language Models",
+    "authors": "Germans Savcisens, Samantha Dies, Courtney Maynard, Tina Eliassi-Rad",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27512v1",
+    "pdf": "https://arxiv.org/pdf/2607.27512v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how beliefs form and spread among groups of interacting large language models (LLMs) deployed as agents in networks. The authors built CoevolveSim, a simulation framework, and ran 1,280 experiments to understand whether model specialization, assigned roles, and network structure affect how LLM populations reach consensus. They found that giving some models specialized training matters far more than simply prompting models with different personas, and that diverse model types are needed to accurately simulate real belief dynamics in multi-agent LLM systems.",
+    "date_added": "2026-08-02",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Skill Use or Skill Theater? Evaluating the Reasoning Backroom in Skill-Augmented Language Agents",
+    "authors": "Jinwei Hu, Yi Qi, Xinmiao Huang, Youcheng Sun, Yi Dong et al.",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27484v1",
+    "pdf": "https://arxiv.org/pdf/2607.27484v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper reveals a critical gap between what language agents *claim* to use and what they *actually* rely on when making decisions. The authors introduce BACKTRACE, an evaluation framework that catches agents performing \"skill theater\" — appearing to use provided skills while actually ignoring them, or vice versa. The work matters because it exposes a fundamental provenance problem: we can't trust an agent's explanation of its reasoning, which has serious implications for debugging, auditing, and trusting AI systems.",
+    "date_added": "2026-08-02",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Auditing Emergent LLM-Agent Collaboration through Cooperation-Obligation Coupling",
+    "authors": "Zuyuan Zhang, Hanqing Yang, Carlee Joe-Wong, Tian Lan",
+    "published": "2026-07-29",
+    "url": "http://arxiv.org/abs/2607.27429v1",
+    "pdf": "https://arxiv.org/pdf/2607.27429v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical gap in auditing multi-agent LLM systems: how to verify that emergent collaborative work is sound and responsibility is fairly allocated. The authors propose iCORE, a unified representation that tracks observable interactions, evolving work assignments, and evidence linking them together, enabling auditors to catch incomplete reasoning and misaligned accountability that plausible outputs might otherwise conceal.",
+    "date_added": "2026-08-02",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "THGFM: Dual-Branch Temporal Heterogeneous Graph Fusion Model",
     "authors": "Yixin Peng, Diego Collarana, Er Jin, Stefan Decker",
     "published": "2026-07-29",
