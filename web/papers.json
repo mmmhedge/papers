@@ -518,6 +518,405 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+    "authors": "Zhenyu Zhang, Zhichao Cao",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29678v1",
+    "pdf": "https://arxiv.org/pdf/2607.29678v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces TokTier, a stateful tokenization service that eliminates redundant re-tokenization in LLM serving systems. Most LLM backends cache key-value states for efficiency, but frontend systems still re-tokenize entire request texts on every call — a major bottleneck for coding agents that repeatedly append small tool results to long transcripts. TokTier maintains tokenization state across requests and only re-tokenizes small windows around new text, achieving 437x speedup over standard approaches and reducing time-to-first-token by 16–34% in production.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+    "authors": "Boyang Zhang, Adrian Lyjak, Eli Stewart, Zhaoqi Li, Simon Suo",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29677v1",
+    "pdf": "https://arxiv.org/pdf/2607.29677v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces ExtractBench, a benchmark for evaluating how well AI agents extract structured data from enterprise documents according to user-defined schemas. The benchmark is unique because it measures not just extraction accuracy but also whether agents can prove where they found their answers (grounding), handle long documents, and do so cost-effectively — addressing real pain points in enterprise automation.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering",
+    "authors": "Arkajyoti Bhattacharjee, Arnab Auddy",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29675v1",
+    "pdf": "https://arxiv.org/pdf/2607.29675v1",
+    "tags": [],
+    "summary": "This paper develops methods to estimate density modes — peaks in probability distributions — while protecting individual privacy through differential privacy. The authors propose DP-GRAMS, an algorithm that uses noisy gradient ascent on private score estimates to find these modes, and prove it achieves near-optimal statistical rates. This matters because density modes are useful for understanding multimodal data, but current techniques don't preserve privacy, and this work closes that gap with both theory and practical algorithms.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GQ-FSL: Green Quantized Federated Split Learning",
+    "authors": "Idan Roth, Lutz Lampe",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29659v1",
+    "pdf": "https://arxiv.org/pdf/2607.29659v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tackles the energy problem of running neural networks on mobile devices by proposing GQ-FSL, a method that combines federated split learning (distributing computation between device and server) with quantization (using fewer bits to represent numbers). The key insight is allowing different precision levels on the device versus server side, which cuts energy consumption while maintaining accuracy—enabling practical deployment of large models on battery-constrained phones and IoT devices.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics",
+    "authors": "Yimin Chen, Brian Fricke, Bo Shen, Jamie Lian, Mingkan Zhang et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29657v1",
+    "pdf": "https://arxiv.org/pdf/2607.29657v1",
+    "tags": [],
+    "summary": "This paper introduces FDD-ON, a formal ontology (structured knowledge representation system) designed to standardize how fault detection and diagnostics work in building HVAC systems, specifically variable air volume (VAV) units. The work matters because HVAC faults are poorly documented across different vendors and systems, creating \"information silos\" that prevent AI-driven maintenance tools and digital twins from working effectively across buildings—FDD-ON solves this by providing a shared vocabulary and explicit mappings between faults, symptoms, and their impacts.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+    "authors": "Tianyu Huai, Tingshuo Fan, Xinchi Chen, Yining Zheng, Yuxin Wang et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29626v1",
+    "pdf": "https://arxiv.org/pdf/2607.29626v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper introduces AgentHPOBench, a benchmark that evaluates whether large language model (LLM) agents can act as autonomous scientists by iteratively optimizing machine learning hyperparameters based on experimental feedback. The benchmark tests 12 LLM agents on 30 real ML tasks, revealing that current agents can perform basic optimization but struggle with sustained iterative improvement and interpreting complex experimental logs.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+    "authors": "Ilya Mikhelson",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29624v1",
+    "pdf": "https://arxiv.org/pdf/2607.29624v1",
+    "tags": [
+      "large-language-models"
+    ],
+    "summary": "This paper proposes the \"Socratic Test,\" an AI-driven conversational assessment system that adapts in real time to probe student understanding through dialogue. Rather than static exams or anxiety-inducing oral tests, it uses dynamic scaffolding and multimodal interaction to measure what students *can* learn with support — not just what they already know — and grades additively (rewarding growth) rather than punitively.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CENDRe: Concept Extraction with Natural Domain Representations",
+    "authors": "Antonia Holzapfel, Andres Felipe Posada Moreno, Sebastian Trimpe",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29621v1",
+    "pdf": "https://arxiv.org/pdf/2607.29621v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper presents CENDRe, a method for extracting interpretable concepts from CNNs trained on time-series data. Unlike existing approaches that work only in the time domain, CENDRe automatically discovers the right number of concepts, localizes them precisely using gradient-based methods, and reveals both temporal and frequency-domain patterns the model relies on—making neural networks more transparent and trustworthy in critical applications like machinery fault diagnosis.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+    "authors": "Luca Viano, Antoine Moulin, Audrey Huang, Volkan Cevher, Philip Amortila et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29617v1",
+    "pdf": "https://arxiv.org/pdf/2607.29617v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper asks when asking an expert for feedback during training helps an imitation learning agent learn better. The key insight is that interactive feedback relaxes what the learner needs to represent—it only needs to capture the expert's *value function* (which rewards are good), not the expert's exact *policy* (which actions to take). The authors present OVI, an algorithm that leverages this insight and show it outperforms standard approaches, especially when the learner is less capable than the expert.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+    "authors": "Senyu Fei, Xiaopeng Yu, Siyin Wang, Xianzhong Zhao, Jingjing Gong et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29613v1",
+    "pdf": "https://arxiv.org/pdf/2607.29613v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes World Critic Model (WCM), a new way to train robot controllers that combine vision, language, and action learning using reinforcement learning. The key insight is that existing critic models (which estimate value/reward) fail because they ignore temporal dynamics — they look at single frames instead of understanding how the world changes over time. WCM fixes this by adding world modeling (predicting future states) alongside value estimation, enabling robots to learn better manipulation skills with stronger generalization.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+    "authors": "Jeffrey M. Girard, Jason Z. Zheng, Jacqueline R. Vertino, Antony D'Avirro, Benjamin Peloquin",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29602v1",
+    "pdf": "https://arxiv.org/pdf/2607.29602v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces FriendBench, a benchmark that tests whether AI models and humans can tell if two people already know each other or are strangers, based on a 20-second video of them having a conversation. The researchers find that the best AI models match human accuracy, but they get there differently — humans remain balanced in their judgments, while models tend to guess \"stranger\" more often. The work reveals that richer information (video beats audio beats text) helps both humans and AI, but only humans benefit from seeing body language in addition to hearing speech.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+    "authors": "Jiajia Tang, Sizhe Yuen, Francisco Gomez Medina, Yali Du, Adam Sobey",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29601v1",
+    "pdf": "https://arxiv.org/pdf/2607.29601v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a fundamental problem in fine-tuning large language models: when you adapt a single shared adapter (LoRA) to multiple different tasks, the tasks interfere with each other, causing performance to degrade. The authors propose an automatic system that organizes tasks into compatible groups and sequences them strategically, then trains separate lightweight adapters for each group. The result is better performance within the same computational budget — suggesting that *how* you organize training matters more than just adding more parameters.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Convergence and Regret of the Policy Gradient for Multi-Armed Bandits in Diffusion Environment",
+    "authors": "Yanwei Jia, Du Ouyang",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29593v1",
+    "pdf": "https://arxiv.org/pdf/2607.29593v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper analyzes policy gradient algorithms for multi-armed bandits (decision problems with multiple choices) in continuous-time environments governed by stochastic differential equations (SDEs — equations with random noise). The authors prove that the algorithm converges to the optimal choice and achieves logarithmic regret (a measure of how much worse the algorithm performs than the ideal), improving on prior work through novel mathematical techniques.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Exponential Capacity in Multilayer Hetero-Associative Neural Networks",
+    "authors": "Elena Agliari, Adriano Barra, Andrea Ladiana, Andrea Lepre",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29554v1",
+    "pdf": "https://arxiv.org/pdf/2607.29554v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces a multilayer neural network architecture that can store and retrieve an exponentially large number of associations between paired datasets—dramatically expanding memory capacity beyond classical approaches. The key innovation is an energy function based on product overlaps across layers, enabling the network to act as a content-addressable memory that maps a cue from one layer to a target in another, scaling exponentially with network size rather than linearly.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
+    "authors": "Gaetano Perrone, Simon Pietro Romano",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29539v1",
+    "pdf": "https://arxiv.org/pdf/2607.29539v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces ARB, a benchmark dataset designed to test whether AI-text detectors actually work on the real problem they face: identifying when humans rewrite their own text using LLMs. Existing benchmarks compare pure human text to pure AI text, but the paper shows this doesn't predict performance when an LLM rewrites human content—detection drops 60–78 percentage points. The work exposes a critical gap between how detectors are evaluated and how they fail in practice.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TerraNova: A Foundation Model for the Anthropocene",
+    "authors": "Carlos Rodriguez-Pardo, Massimo Tavoni",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29527v1",
+    "pdf": "https://arxiv.org/pdf/2607.29527v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "TerraNova is a foundation model that unifies Earth-system science and socioeconomic data by representing them in their native geometries—continuous spatial fields for physical Earth measurements and discrete administrative units for societal indicators. The model demonstrates that coupling these two representational systems yields a unified representation competitive with specialized models while supporting new capabilities like uncertainty quantification and few-shot adaptation.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Transcript-Managed Transformers: Monotone Multi-Agent Collapse and Universality with Two Pop-Enabled Transcripts",
+    "authors": "Sergey Salishev",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29496v1",
+    "pdf": "https://arxiv.org/pdf/2607.29496v1",
+    "tags": [
+      "multi-agent-systems",
+      "transformers"
+    ],
+    "summary": "This paper studies how Transformers with finite precision and fixed weights can be formally analyzed as computational machines with stack-like memory channels (transcripts). The authors prove that with two pop-enabled transcripts (stack operations), a system of agents can compute anything a Turing machine can—establishing a fundamental connection between transformer architectures and classical computability theory.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Analytical and Bootstrap Confidence Intervals of Double Machine Learning: Simulation studies and an application to rural-urban difference in obesity prevalence",
+    "authors": "Haozheng Xu, Siyuan Ma, Qingyan Xiang",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29456v1",
+    "pdf": "https://arxiv.org/pdf/2607.29456v1",
+    "tags": [],
+    "summary": "This paper investigates how the choice of machine learning algorithm affects the reliability of confidence intervals in Double Machine Learning (DML), a method for estimating treatment effects. The authors compare analytical and bootstrap confidence intervals across five different learners (linear regression, LASSO, Random Forest, LightGBM, neural networks) through simulations and a real-world case study on obesity prevalence, finding that algorithm choice dramatically impacts coverage probability—and surprisingly, that coverage often *worsens* as sample size increases.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+    "authors": "Zhaoxin Feng, Jianfei Ma, Emmanuele Chersoni",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29433v1",
+    "pdf": "https://arxiv.org/pdf/2607.29433v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates why personalized LLM agents often fail to act on user preferences they can technically recall. The authors introduce a \"Know vs. Act\" evaluation framework that distinguishes between remembering information and actually using it in responses, revealing a significant gap across 16 LLM systems. This matters because personalized AI companions need to both retain and apply user information reliably, especially in high-stakes domains like health.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Component Testing: Validating Agentic AI Systems",
+    "authors": "Fabio Orazio Mirto, Luca D'Agati, Giuseppe Tricomi, Stefano Silvestri, Francesco Longo et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29405v1",
+    "pdf": "https://arxiv.org/pdf/2607.29405v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This survey examines how to validate agentic AI systems—software that operates autonomously over multiple steps, planning actions, using tools, and adapting to changing conditions. Existing validation methods focus on isolated components and single input-output pairs, but autonomous agents fail in ways that unfold over time and depend on context; the paper synthesizes 257 papers to build a taxonomy of validation challenges and maps where current approaches fall short, with a focus on safety-critical domains like healthcare and autonomous vehicles.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SeekBrain: An Autonomous Multi-Agent System for Accelerating Neuroscience Discovery",
+    "authors": "Jiamin Wu, Peishan Xiang, Jingyang Chen, Yuqing Zhu, Yuxi Li et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29347v1",
+    "pdf": "https://arxiv.org/pdf/2607.29347v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "SeekBrain is an autonomous multi-agent system that automates the analysis of complex neuroscience data by combining large language models with domain expertise extracted from scientific code and papers. It dynamically generates analysis recipes and hypotheses to help researchers discover neural principles from heterogeneous datasets—demonstrated on real experiments with zebrafish and mice, outperforming existing AI agent baselines.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Generalized-Bayes Perspective on Counterfactual Explanations: Posterior-Based Decision-Making and Evaluation",
+    "authors": "Keita Kinjo",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29077v1",
+    "pdf": "https://arxiv.org/pdf/2607.29077v1",
+    "tags": [
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reframes counterfactual explanations (the process of finding minimal input changes to flip a model's prediction) as a Bayesian inference problem rather than pure distance minimization. The authors show that standard counterfactual explanation methods are equivalent to finding the most likely value under a specific probabilistic model, which unlocks new ways to generate and evaluate explanations—including risk-aware variants and methods that handle uncertainty across multiple competing models.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Autonomous Repair for Multi-Agent Systems via Monte-Carlo Tree Search",
+    "authors": "Hanxiao Lu, Tianyi Zhang",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29055v1",
+    "pdf": "https://arxiv.org/pdf/2607.29055v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents MARS, a framework that automatically repairs failures in multi-agent systems using Monte Carlo Tree Search (MCTS) — a search algorithm that explores possible solutions by simulating outcomes. Instead of requiring humans to manually identify and fix agent mistakes, MARS diagnoses what went wrong and explores corrective actions, achieving 3–12% improvement over existing methods while using comparable computational resources.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TransMem: Transforming Hidden States into Memory for Large Language Models",
+    "authors": "Haodong Lei, Junming Liu, Yirong Chen, Pinlong Cai, Botian Shi et al.",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29032v1",
+    "pdf": "https://arxiv.org/pdf/2607.29032v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces TransMem, a lightweight module that helps large language model agents reuse information from their past interactions more effectively. Instead of re-processing old conversation history, TransMem converts sparse historical neural representations into reusable memory that the model can access during new reasoning steps. The approach shows 10–29% performance gains on multi-hop reasoning and memory-heavy tasks.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Persistent Convolution: A Topological Framework for AI Alignment Testing and Semantic Space Characterization",
+    "authors": "Tyler Ashoff, Jordan Rodu",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2607.29008v1",
+    "pdf": "https://arxiv.org/pdf/2607.29008v1",
+    "tags": [
+      "alignment",
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes a topology-based statistical framework to test whether opaque AI models (like neural networks) align with human-curated knowledge structures and semantic concepts. Rather than trusting a model's outputs alone, the authors develop formal tests on the model's internal embedding space to check whether it has learned the \"right\" concepts in the \"right\" way — addressing a critical gap between performance and interpretability in modern AI deployment.",
+    "date_added": "2026-08-03",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Learning to Trace Seiberg Dualities",
     "authors": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno, Gary Shiu",
     "published": "2026-07-30",
