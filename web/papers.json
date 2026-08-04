@@ -518,6 +518,521 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+    "authors": "Jiajun Liang, Yucheng Liao, Yukang Cao, Jiazhe Wei, Ken Li et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02602v1",
+    "pdf": "https://arxiv.org/pdf/2608.02602v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces AURORA-LM, a language model that generates text in continuous latent spaces rather than discrete tokens, using a diffusion-based approach similar to how images are generated. The key innovation is maintaining high-fidelity text representations while learning to model their distribution through diffusion, achieving competitive results on text generation and summarization tasks while scaling efficiently.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+    "authors": "Junjie Yin, Buxin She, Xinyu Feng,  Fangxing,  Li",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02599v1",
+    "pdf": "https://arxiv.org/pdf/2608.02599v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents an open-source educational framework that teaches AI concepts through hands-on power systems applications. Rather than treating AI as a generic black box, the framework grounds AI workflows in domain-specific engineering rules, with progressive modules covering neural networks for forecasting, physics-informed models, and reinforcement learning for control—all delivered as executable Jupyter notebooks and validated through an IEEE course that attracted 590+ attendees.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Condition-Number Barrier in Sparse Least Squares",
+    "authors": "Honghao Lin, Vahab Mirrokni, David P. Woodruff",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02588v1",
+    "pdf": "https://arxiv.org/pdf/2608.02588v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper proves a fundamental lower bound on the computational complexity of sparse least-squares regression — specifically, that any polynomial-time algorithm cannot substantially improve the dependence on the restricted condition number (a measure of numerical difficulty) without making strong unproven assumptions. The result matters because it identifies a barrier beyond which we cannot efficiently optimize: there exist hard problem instances where trading off sparsity and accuracy inevitably requires more computation.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+    "authors": "Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang, Song-Chun Zhu et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02585v1",
+    "pdf": "https://arxiv.org/pdf/2608.02585v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper presents GradCuit, a method that improves large language model reasoning by optimizing hidden internal states at test time rather than just regenerating or reranking outputs. The key insight is using gradient flow through the transformer to directly assign credit from final rewards to the latent states that shape reasoning, making the process more robust and interpretable than prior methods.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+    "authors": "Tingyu Song, Mingxin Li, Yanzhao Zhang, Dingkun Long, Pengjun Xie et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02583v1",
+    "pdf": "https://arxiv.org/pdf/2608.02583v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "UEmbed is a unified embedding model that generates both sparse (keyword-based) and dense (semantic) representations of text and images in a single forward pass. This matters because sparse and dense retrieval each have complementary strengths — sparse is interpretable and efficient for exact matches, while dense captures semantic meaning — and combining them in one decoder-only model simplifies building modern retrieval systems for search, recommendation, and language model augmentation.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+    "authors": "Qiushi Lin, Chaojie Zhang, Íñigo Goiri, Aditya Akella, Ricardo Bianchini et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02569v1",
+    "pdf": "https://arxiv.org/pdf/2608.02569v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents AtumAI, a framework that uses AI agents to automatically design datacenter control policies (the software that manages how resources are allocated and managed in data centers). Rather than relying on humans to manually engineer these policies over months, AtumAI takes a plain-language goal, formally specifies the problem, and then uses a combination of language models, evolutionary algorithms, and machine learning to propose and test candidate policies until one works well. The key insight is that you can structure the agent's search space formally and combine multiple AI techniques to explore more of the design space than an LLM alone could.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection",
+    "authors": "Anusha Madan Gopal, Aras Pirbadian, Kristofor D. Carlson, M Anthony Lewis, Jonathan Tapson",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02560v1",
+    "pdf": "https://arxiv.org/pdf/2608.02560v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces PRECOG, a retrieval mechanism that speeds up language models by pre-encoding document corpora as fixed neural states and injecting them directly during inference, rather than re-reading them each time. By exploiting a unique property of State-Space Models (SSMs) — their fixed-size hidden states — the authors achieve a 4500× speedup in retrieval latency on edge hardware while maintaining answer quality, making interactive language model inference practical on resource-constrained devices.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Benchmarking Sheaf Neural Networks for Inductive Tasks",
+    "authors": "Stefano Fiorini, Edoardo Coppola, Pietro Liò",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02558v1",
+    "pdf": "https://arxiv.org/pdf/2608.02558v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper systematically benchmarks Sheaf Neural Networks (SNNs) on inductive learning tasks — a major gap since prior work only evaluated them on transductive problems where the test graph is known at training time. The authors run nearly 1,900 controlled experiments across 14 datasets and find that while SNNs have sound theory, they underperform simpler baselines in inductive settings, though restriction maps (the core sheaf innovation) do matter for design choices.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Romanized Arabic Across Dialects: Views, Usage Patterns, and Linguistic Variation",
+    "authors": "Amr Keleg, Ahmed Amine Ben Abdallah, Taha Yassine, Chadi Helwe, Imane Guellil et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02555v1",
+    "pdf": "https://arxiv.org/pdf/2608.02555v1",
+    "tags": [
+      "nlp"
+    ],
+    "summary": "This paper studies Arabizi — Arabic written in Latin characters — across five dialects (Algerian, Egyptian, Lebanese, Moroccan, Tunisian), challenging the assumption that it's merely a temporary workaround. The authors collected speaker perceptions, documented transliteration patterns, and built a parallel corpus to understand how Arabizi varies by dialect and how speakers perceive these differences. This matters because Arabizi is a real, persistent linguistic phenomenon that NLP systems largely ignore, yet it's used widely in digital communication across the Arab world.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+    "authors": "Taye Akinrele, Sindhuja Penchala, Noorbakhsh Amiri Golilarz, Sudip Mittal, Shahram Rahimi",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02553v1",
+    "pdf": "https://arxiv.org/pdf/2608.02553v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper surveys the gap between current generative and agentic AI systems and what \"Cognitive AI\" would require — systems that reason over long horizons, adapt their behavior, remember context, and regulate themselves. Rather than proposing a single solution, the authors map out *where* these systems fall short across five key dimensions (memory, goal-autonomy, self-monitoring, environment interaction, learning) and sketch an architectural vision called ACIA to guide future work toward more capable, reliable AI.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MedPRESS: A Multi-turn Benchmark for Patient-Pressure-Induced Medical Sycophancy in LLMs",
+    "authors": "Saman Sarker Joy, Niloy Farhan",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02520v1",
+    "pdf": "https://arxiv.org/pdf/2608.02520v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces MedPRESS, a benchmark that tests whether large language models maintain safe medical advice when patients apply social and conversational pressure across multiple turns of dialogue. The research reveals that many LLMs shift toward unsafe agreement under pressure—even models with strong medical knowledge—highlighting a critical gap: safety in static evaluation does not guarantee safety in real patient conversations.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Analytic Planning under Uncertainty with Moment Closure",
+    "authors": "Shishir Sharma, Doina Precup",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02519v1",
+    "pdf": "https://arxiv.org/pdf/2608.02519v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a method for planning under uncertainty in reinforcement learning by analytically propagating probability distributions through the Bellman backup—rather than relying on sampling or ignoring uncertainty entirely. The key insight is a \"compatibility principle\" that lets the uncertainty (mean and covariance) be computed in closed form when using Gaussian transitions and radial-basis value functions, reducing variance and improving robustness in continuous control tasks.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+    "authors": "Zhichen Liu, Ruihan Sun, Hengjie Yang, Zipeng Wu, Zhaohan Chen et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02515v1",
+    "pdf": "https://arxiv.org/pdf/2608.02515v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a fundamental problem in long-running AI assistants: how to maintain useful information about past interactions when the context window (the amount of recent text the model can see) is full. LiveMem is a method that adds a persistent memory state to language models, allowing them to carry forward important information from the entire conversation history even after older messages are discarded. This matters because current AI assistants forget important details when conversations get long, making them unreliable for extended interactions.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+    "authors": "Yi Yang, Zhennan Chen, Yihong Zhuang, Tiehan Fan, Yinan Chen et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02508v1",
+    "pdf": "https://arxiv.org/pdf/2608.02508v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical problem in self-evolving LLM agents: as agents interact with their environment, they accumulate memories, but feedback becomes increasingly sparse across an expanding state space, and irrelevant memories get corrupted by misdirected reward signals. RoMeRL solves this by representing memory utility using a fixed-dimensional space that gets updated over time rather than growing indefinitely, concentrating feedback and preventing bad memories from persisting. The approach yields substantial practical gains—6× denser feedback, 84% smaller memory, 21% fewer LLM calls—while improving task performance.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+    "authors": "Yuqiao Tan, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02499v1",
+    "pdf": "https://arxiv.org/pdf/2608.02499v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces SWE-Touch, a benchmark for testing how well coding agents handle real-world software development where users actively modify code during task execution. The authors stress-test nine coding models by injecting \"counter-edits\"—plausible but conflicting code changes—into shared workspaces and measure whether agents can adapt. They find that strong models still struggle with this collaborative scenario, dropping 7.7 percentage points in task resolution, revealing gaps in workspace awareness and conflict resolution.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI Governance for Institutional Readiness in Finance",
+    "authors": "Irene Aldridge, Steve Krawciw",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02311v1",
+    "pdf": "https://arxiv.org/pdf/2608.02311v1",
+    "tags": [
+      "agents",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper identifies a critical gap in AI governance for finance: 88% of finance professionals deploy agentic AI without operational governance frameworks, despite universal awareness of the risks. The authors argue the problem is architectural—traditional governance assumes static validation, but continuously retrained agentic policies violate that assumption by design. They propose a four-layer governance framework with measurable tools (a regret-covariance statistic for detecting policy drift, and a crowding model showing systemic risk) and demonstrate its application to real trading strategies.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Microscopic dynamics of consensus formation in multi-agent LLM Naming Games",
+    "authors": "Cristiano De Nobili, Vijayasri Iyer, Alessandro Codello, Raffaella Burioni",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.02178v1",
+    "pdf": "https://arxiv.org/pdf/2608.02178v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how decentralized populations of LLM agents spontaneously reach agreement on shared naming conventions, despite the randomness baked into their token generation. The authors show that a single parameter—decoding temperature—controls whether consensus happens, and they derive mathematical conditions predicting when ordering emerges from microscopic agent interactions. This matters because it connects physics-style emergent phenomena to practical LLM behavior in distributed systems.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ChaosProbe: A Neurochaotic Lens on Frozen Transformer Input-Embedding Spaces",
+    "authors": "Kunal Kumar Pant, Nithin Nagaraj",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01968v1",
+    "pdf": "https://arxiv.org/pdf/2608.01968v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "transformers"
+    ],
+    "summary": "This paper introduces ChaosProbe, a method for analyzing frozen transformer input-embedding spaces using deterministic chaotic dynamics. Rather than studying what transformers do (their outputs), the authors examine how embedding spaces respond to controlled deterministic probes, creating \"fingerprints\" that distinguish models. Testing on four pretrained models (GPT-2, BERT, RoBERTa), they show that these signatures reliably recover model family relationships, suggesting chaos-based analysis can reveal structural patterns in neural representations.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Divisive Normalization Shapes Low-Rank Slow Manifolds for Continuous Working Memory",
+    "authors": "Zhaotian Gu, Jie Su, Weiwei Wang, Chang Liu, Tianyi Qian et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01947v1",
+    "pdf": "https://arxiv.org/pdf/2608.01947v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows that divisive normalization — a computation found in biological brains — helps recurrent neural networks learn stable, continuous memories that can change over time. Standard RNNs fail at this task, either becoming too fragile or collapsing into discrete states; the authors prove mathematically and empirically that divisive normalization prevents this failure and naturally keeps the network's effective complexity low.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "No One Wins in Nuclear War: A Social Simulation of Military Decision-making",
+    "authors": "Glenn Matlin, Isaac Song, Anthony Wen-Ming Zang, Mark Riedl",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01868v1",
+    "pdf": "https://arxiv.org/pdf/2608.01868v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces WOPR, a social-simulation environment for studying how organizations make high-stakes decisions under uncertainty, using the card game Nuclear War as a testbed. The system combines a verifiable rules engine (ensuring reproducibility) with large language model agents that negotiate, form coalitions, and make strategic choices—focusing on military decision-making because of its safety implications and the need to better understand how AI systems behave in conflict scenarios.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Autonomous Formulaic Alpha Discovery: An Evolutionary Computation Perspective",
+    "authors": "Xinwei Yu, Yiyang Fu, Mingcheng Fan, Enqi Li, Yilin Gao et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01789v1",
+    "pdf": "https://arxiv.org/pdf/2608.01789v1",
+    "tags": [
+      "algorithmic-trading",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper proposes a unified framework for understanding automated formulaic alpha discovery — the problem of automatically generating profitable trading signals from vast spaces of mathematical expressions. Rather than treating genetic programming, reinforcement learning, and other approaches as separate methods, the authors view them all through the lens of evolutionary computation (EC), identify common structural challenges (noisy fitness estimates, market shifts, computational cost), and introduce diagnostic frameworks to compare and improve these systems.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
+    "authors": "Xiubo Liang, Jinxing Han, Yuke Li, Haoqi Zhu, Yu Zhao et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01646v1",
+    "pdf": "https://arxiv.org/pdf/2608.01646v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper proposes Spike-HTR, a spiking neural network (SNN) system for recognizing handwritten text in images. SNNs are energy-efficient neural networks inspired by the brain that compute through discrete spikes over time; the key innovation is adapting them to static handwriting images by converting pixels into a temporal stream and selectively processing non-blank regions, achieving competitive accuracy on standard benchmarks while using only 2 timesteps.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SMM Transformer: Leveraging Spiking Neural Networks for Multimodal Tasks",
+    "authors": "Xiubo Liang, Jinxing Han, Yuke Li, Haoqi Zhu, Yu Zhao et al.",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01622v1",
+    "pdf": "https://arxiv.org/pdf/2608.01622v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper proposes SMM Transformer, a framework that builds multimodal neural networks using spiking neural networks (SNNs)—a brain-inspired computing model where neurons communicate via sparse, discrete spike events rather than continuous activations. The work tackles a hard problem: SNNs are energy-efficient but notoriously difficult to train at scale and to combine with attention mechanisms, which are core to modern transformers. The authors achieve competitive accuracy on visual and multimodal tasks while reducing estimated energy use of attention by up to 97%.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Securing Agentic AI: From Per-Action Checks to Trajectory Assurance",
+    "authors": "Alireza Lotfi, Subangkar Karmaker Shanto, Imtiaz Karim, Elisa Bertino",
+    "published": "2026-08-03",
+    "url": "http://arxiv.org/abs/2608.01558v1",
+    "pdf": "https://arxiv.org/pdf/2608.01558v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper identifies the security and safety challenges that arise when autonomous AI agents—especially those built on large language models—are deployed to execute real-world tasks under operational, regulatory, and organizational constraints. Rather than treating security as a bolt-on safeguard, the authors argue it must be built into agent architectures from the ground up, addressing vulnerabilities across the entire stack: from single-agent prompt injection to multi-agent trust and delegation, down to model provenance and behavioral containment.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Agentic Search for Repository-Level Code Question Answering: An Empirical Study",
+    "authors": "Amirkia Rafiei Oskooei, Bora Ilci, Alperen Kayim, Mehmet Egemen Uzun, Berat Can et al.",
+    "published": "2026-08-02",
+    "url": "http://arxiv.org/abs/2608.01507v1",
+    "pdf": "https://arxiv.org/pdf/2608.01507v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper empirically compares two architectural approaches for code-based question answering over repositories: semantic search (using vector indices) versus deep agentic search (delegating exploration to a specialized subagent). The key finding is counterintuitive — semantic search significantly outperforms the increasingly popular deep agentic approach (65.2% vs 46.2% accuracy) while costing less than half as much, revealing that the \"context pollution\" problem deep agentic search aims to solve may introduce new failure modes at agent handoff points.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Alternating-Time Temporal Logic with Mean-Payoff Guarantees",
+    "authors": "Muhammad Najib",
+    "published": "2026-08-02",
+    "url": "http://arxiv.org/abs/2608.01499v1",
+    "pdf": "https://arxiv.org/pdf/2608.01499v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper extends alternating-time temporal logic (ATL*) to handle both strategic objectives and long-run performance guarantees simultaneously in multi-agent settings. The key innovation is ATL*_mp, which lets coalitions of agents verify whether a single strategy can satisfy temporal properties (like \"eventually reach state X\") while maintaining mean-payoff constraints (like \"average reward ≥ threshold\") against adversarial opponents. This matters because real systems need both correctness guarantees and sustained performance—neither alone is sufficient.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Conformal Kelly: Conformal Prediction Intervals as the Scale in Fractional Kelly Position Sizing",
+    "authors": "Robert Jacob Ryan",
+    "published": "2026-08-02",
+    "url": "http://arxiv.org/abs/2608.01494v1",
+    "pdf": "https://arxiv.org/pdf/2608.01494v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper uses conformal prediction—a method for measuring forecast uncertainty—to size trading positions in a portfolio. When prediction intervals are wide (high uncertainty), positions shrink; when narrow (low uncertainty), they grow. The authors show strong returns during development (2016–2021) but find the approach does not generalize to held-out test data (2022 onward), illustrating a hard lesson about overfitting in quantitative trading.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Climate-Dyna Deep Hedging for XVAs: Model-Based Reinforcement Learning, Residual Climate HVA, and Hedge-Instrument Discovery",
+    "authors": "Xiaozhen Wang, Francois Buet-Golfouse",
+    "published": "2026-08-02",
+    "url": "http://arxiv.org/abs/2608.01208v1",
+    "pdf": "https://arxiv.org/pdf/2608.01208v1",
+    "tags": [
+      "quantitative-finance",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper solves the problem of calculating and minimizing climate-related hedging costs for trading desks by combining reinforcement learning with financial hedging theory. The key insight is that residual climate costs—the unhedged portion after standard overlays—can't be measured in isolation; instead, the authors compare paired scenarios (with and without climate shocks) and learn optimal hedge adjustments using a model-based RL algorithm called Climate-Dyna. In a real-world EU emissions trading study, their approach reduces residual hedging charges by ~45% while using 75% fewer simulations than baseline methods.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AI and Exchange Rate Predictability",
+    "authors": "Amin Izadyar",
+    "published": "2026-08-01",
+    "url": "http://arxiv.org/abs/2608.00761v1",
+    "pdf": "https://arxiv.org/pdf/2608.00761v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper uses generative AI models (ChatGPT and DeepSeek) to predict currency exchange rates by reasoning about economic fundamentals, solving a decades-old puzzle in finance called the exchange rate disconnect. The approach generates trading signals with a Sharpe ratio above 0.7 annually, suggesting that large language models can extract economically meaningful insights from macroeconomic data that traditional methods miss.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Axient: On-Chain Credit and Loss Allocation for Leveraged Event Markets: A Venue-Agnostic Protocol for Traders, Credit Providers, Market Makers, and Liquidation Backstops",
+    "authors": "Maksym Nechepurenko",
+    "published": "2026-08-01",
+    "url": "http://arxiv.org/abs/2608.00647v1",
+    "pdf": "https://arxiv.org/pdf/2608.00647v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper designs an on-chain protocol for managing credit and losses in leveraged event markets—where traders borrow capital to amplify their exposure to prediction market outcomes. The work formalizes the interactions between traders, credit providers, market makers, and liquidators, proving that the system maintains balanced accounting and loss priority through deterministic mechanisms. It matters because decentralized leverage has historically been fragile; this protocol provides formal guarantees and empirical validation that capital flows correctly even under stress scenarios like liquidation cascades.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Drawdown Risk Beyond Brownian Motion: A Monte-Carlo Framework, Non-Gaussian Extensions, and Long Memory",
+    "authors": "Francesco Landolfi",
+    "published": "2026-07-31",
+    "url": "http://arxiv.org/abs/2608.00127v1",
+    "pdf": "https://arxiv.org/pdf/2608.00127v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper develops a practical framework for predicting how deep and long drawdowns (peak-to-trough declines) will be in trading strategies, moving beyond the standard assumption that returns follow a simple bell curve. The work matters because traders and fund managers need realistic estimates of worst-case losses to set proper risk limits—and assuming Gaussian returns significantly underestimates risk when returns have fat tails, skewness, or clustering (bunching) of volatility.",
+    "date_added": "2026-08-04",
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
     "authors": "Zhenyu Zhang, Zhichao Cao",
     "published": "2026-07-31",
