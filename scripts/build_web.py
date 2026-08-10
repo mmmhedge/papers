@@ -69,6 +69,7 @@ def build_web():
             "tags": fm.get("tags", []),
             "summary": extract_summary(body),
             "date_added": fm.get("date_added", ""),
+            "starred": fm.get("starred") == "true",
             "trusted": source_name if fm.get("trusted") == "true" and source == "blog" else "",
         })
 

@@ -38,6 +38,7 @@
   .paper-card.expanded { border-color: #5865f2; }
   .paper-card.is-read { opacity: 0.5; }
   .paper-card.is-prio { border-left: 3px solid #daa520; }
+  .starred-badge { font-size: 0.65rem; background: #30270d; border: 1px solid #806817; color: #f3ca52; border-radius: 4px; padding: 0.1rem 0.4rem; margin-left: 0.4rem; vertical-align: middle; }
   .card-header { display: flex; align-items: flex-start; gap: 0.75rem; }
   .card-main { flex: 1; cursor: pointer; }
   .card-date { font-size: 0.72rem; color: #555; white-space: nowrap; margin-top: 2px; min-width: 5.8rem; line-height: 1.35; }
@@ -95,7 +96,7 @@
     <input class="search" id="search" placeholder="Search titles, authors..." oninput="filterPapers()">
     <h3>Filter</h3>
     <div class="filter-group" style="margin-bottom:1.5rem">
-      <span class="filter-btn prio-btn" onclick="toggleFilter('prio', this)">⭐ Priority</span>
+      <span class="filter-btn prio-btn" onclick="toggleFilter('prio', this)">★ Starred</span>
       <span class="filter-btn unread-btn" onclick="toggleFilter('unread', this)">Unread</span>
       <span class="filter-btn" onclick="toggleFilter('trusted', this)">🔬 Trusted</span>
       <span class="filter-btn" onclick="toggleFilter('blogs', this)">Blogs</span>
@@ -107,7 +108,7 @@
     <div class="controls">
       <button class="sort-btn active" onclick="setSort('date', this)">Recently added</button>
       <button class="sort-btn" onclick="setSort('title', this)">A–Z</button>
-      <button class="sort-btn" onclick="setSort('prio', this)">Priority first</button>
+      <button class="sort-btn" onclick="setSort('prio', this)">Starred first</button>
       <span class="result-count" id="result-count"></span>
     </div>
     <div class="papers" id="papers"></div>
@@ -238,7 +239,7 @@ function filterPapers() {
       (p.authors||'').toLowerCase().includes(query) ||
       allTags.some(t => t.includes(query));
     const matchTags = activeTags.size === 0 || [...activeTags].every(t => allTags.includes(t));
-    const matchPrio = !activeFilters.has('prio') || prio.has(key);
+    const matchPrio = !activeFilters.has('prio') || p.starred || prio.has(key);
     const matchUnread = !activeFilters.has('unread') || !read.has(key);
     const matchTrusted = !activeFilters.has('trusted') || !!p.trusted;
     const matchBlogs = !activeFilters.has('blogs') || p.source === 'blog';
@@ -248,8 +249,8 @@ function filterPapers() {
   if (sortMode === 'date') filtered.sort((a,b) => sortDate(b).localeCompare(sortDate(a)) || (b.published || '').localeCompare(a.published || ''));
   else if (sortMode === 'title') filtered.sort((a,b) => a.title.localeCompare(b.title));
   else if (sortMode === 'prio') filtered.sort((a,b) => {
-    const ap = prio.has(paperKey(a)) ? 0 : 1;
-    const bp = prio.has(paperKey(b)) ? 0 : 1;
+    const ap = (a.starred || prio.has(paperKey(a))) ? 0 : 1;
+    const bp = (b.starred || prio.has(paperKey(b))) ? 0 : 1;
     return ap - bp || sortDate(b).localeCompare(sortDate(a)) || (b.published || '').localeCompare(a.published || '');
   });
 
@@ -267,7 +268,7 @@ function renderPapers(papers, read, prio, ct) {
   container.innerHTML = papers.map((p, i) => {
     const key = paperKey(p);
     const isRead = read.has(key);
-    const isPrio = prio.has(key);
+    const isPrio = p.starred || prio.has(key);
     const customTags = ct[key] || [];
     const keyEsc = escAttr(key);
     const cardClasses = ['paper-card', isRead ? 'is-read' : '', isPrio ? 'is-prio' : ''].filter(Boolean).join(' ');
@@ -284,7 +285,7 @@ function renderPapers(papers, read, prio, ct) {
       <div class="card-header">
         <div class="card-date">${dateHtml}</div>
         <div class="card-main" onclick="toggleCard(${i})">
-          <div class="card-title">${escHtml(p.title)}${sourceBadge}${p.trusted ? `<span class="trusted-badge">🔬 ${escHtml(p.trusted)}</span>` : ''}</div>
+          <div class="card-title">${escHtml(p.title)}${p.starred ? '<span class="starred-badge">★ Starred</span>' : ''}${sourceBadge}${p.trusted ? `<span class="trusted-badge">🔬 ${escHtml(p.trusted)}</span>` : ''}</div>
           <div class="card-authors">${escHtml(p.authors||'')}</div>
           <div class="card-tags">
             ${(p.tags||[]).map(t => `<span class="card-tag">${t}</span>`).join('')}
@@ -293,7 +294,7 @@ function renderPapers(papers, read, prio, ct) {
         </div>
         <div class="card-actions">
           ${source === 'arxiv' && (p.pdf || p.url) ? `<button class="action-btn deep-active" onclick="sendDeepSummary(${i},event)">Deep summary</button>` : ''}
-          <button class="action-btn ${isPrio ? 'prio-active' : ''}" onclick="togglePrio('${keyEsc}',event)">⭐ ${isPrio ? 'Prio' : 'Prio'}</button>
+          ${p.starred ? '<span class="action-btn prio-active">★ Starred</span>' : `<button class="action-btn ${isPrio ? 'prio-active' : ''}" onclick="togglePrio('${keyEsc}',event)">☆ ${isPrio ? 'Starred' : 'Star'}</button>`}
           <button class="action-btn ${isRead ? 'read-active' : ''}" onclick="toggleRead('${keyEsc}',event)">${isRead ? '✓ Read' : 'Mark read'}</button>
         </div>
       </div>
