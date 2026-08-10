@@ -189,7 +189,7 @@ function toggleFilter(name, btn) {
 
 async function loadPapers() {
   try {
-    const resp = await fetch('papers.json');
+    const resp = await fetch('papers.json', { cache: 'no-store' });
     allPapers = await resp.json();
     renderTagCloud();
     filterPapers();
