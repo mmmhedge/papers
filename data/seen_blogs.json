@@ -2,6 +2,7 @@
   "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
   "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
   "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+  "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
   "https://huggingface.co/blog/ServiceNow/mosaicleaks",
   "https://huggingface.co/blog/agent-intrusion-technical-timeline",
   "https://huggingface.co/blog/agentic-resource-discovery-launch",
@@ -12,8 +13,10 @@
   "https://huggingface.co/blog/ibm-research/scarfbench",
   "https://huggingface.co/blog/is-it-agentic-enough",
   "https://huggingface.co/blog/mishig/spaces-agents-md",
+  "https://huggingface.co/blog/muse-glimmer",
   "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
   "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+  "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
   "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
   "https://huggingface.co/blog/nvidia/open-data-for-agents",
   "https://huggingface.co/blog/openenv-agentic-rl",
@@ -30,5 +33,6 @@
   "https://openai.com/index/safety-alignment-long-horizon-models",
   "https://openai.com/index/scientific-computing-agentic-ai",
   "https://openai.com/index/unlocking-self-improvement-gpt-red",
-  "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
+  "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+  "https://www.interconnects.ai/p/lessons-from-the-hacks"
 ]

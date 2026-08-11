@@ -1,6 +1,77 @@
 [
   {
     "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+    "authors": "Hugging Face",
+    "published": "2026-08-10",
+    "url": "https://huggingface.co/blog/muse-glimmer",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "Meta released Muse Glimmer, a new open-source model that combines multimodal capabilities (vision and language), local execution, and agentic reasoning. This represents Meta's effort to provide a competitive, accessible alternative to proprietary closed-source systems by bundling multiple AI capabilities into a single, deployable framework.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "authors": "Hugging Face",
+    "published": "2026-08-10",
+    "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "NVIDIA's Magpie TTS enables developers to build low-latency multilingual voice agents with open-weight models and full deployment control. The tool addresses the need for real-time, responsive voice interactions while maintaining privacy and customization through on-premises deployment.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Interconnects (Nathan Lambert)",
+    "title": "Lessons from the hacks",
+    "authors": "Interconnects (Nathan Lambert)",
+    "published": "2026-08-09",
+    "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+    "pdf": "",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "Nathan Lambert reflects on recent model security incidents and what they reveal about alignment and safety in large language models. The post explores the gap between current safety approaches and real-world robustness, offering perspective on priorities for future work.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": "Interconnects (Nathan Lambert)"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+    "authors": "Hugging Face",
+    "published": "2026-08-04",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "transformers"
+    ],
+    "summary": "Hugging Face has released LFM2.5-2.6B, a lightweight language model designed for deploying autonomous agents locally on edge devices. This enables developers to build and run intelligent agents without relying on cloud infrastructure or expensive API calls.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
     "source_name": "OpenAI",
     "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
     "authors": "OpenAI",
@@ -546,6 +617,580 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+    "authors": "Oluwanifemi Bamgbose, Simon Rosen, Jash Shah, Lindsay Devon Brin, Hoang H Nguyen et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09930v1",
+    "pdf": "https://arxiv.org/pdf/2608.09930v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper shows that current automated speech quality evaluators—both traditional MOS predictors and newer Audio-LLM judges—fail to capture the full complexity of how humans perceive synthetic speech. The authors created a benchmark with linguistically-grounded dimensions (like prosody, articulation, and rhythm) to reveal that these evaluators collapse into measuring just acoustic quality, missing specific linguistic errors that listeners actually notice.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multimodal Model Diffing for Feature Discovery and Control",
+    "authors": "Hunar Batra, Lachin Naghashyar, Ashkan Khakzar, Philip Torr, Christian Schroeder de Witt et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09928v1",
+    "pdf": "https://arxiv.org/pdf/2608.09928v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces MMDiff, a framework for understanding and controlling the internal features of multimodal large language models (MLLMs) that process both text and images. The work uses sparse autoencoders to decompose hidden neural states into interpretable directions, then compares these across different model versions to isolate which features were changed by multimodal training and how to steer them. This matters because MLLMs are increasingly deployed in high-stakes settings, yet we lack tools to audit their behavior or control specific capabilities like spatial reasoning or safety.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+    "authors": "Laurens Samson, Iva Gornishka, Gossa Lô, Yuki M. Asano, Sennay Ghebreab",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09925v1",
+    "pdf": "https://arxiv.org/pdf/2608.09925v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper develops a systematic evaluation framework for assessing large language models in Dutch governmental settings, identifying six key dimensions (factuality, honesty, bias, energy use, cost, transparency) and benchmarking 30+ models. The work matters because governments need tools to choose LLMs responsibly, yet existing evaluation frameworks ignore public-sector values and non-English linguistic needs.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
+    "authors": "Alban Puech, Matteo Mazzonelli, Tamara R. Govindasamy, Mangaliso Mngomezulu, Héctor Maeso-García et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09921v1",
+    "pdf": "https://arxiv.org/pdf/2608.09921v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents GENCO, a neural network solver that handles three core power grid analysis tasks — power flow, optimal power flow, and state estimation — in a single unified model. The work matters because it brings modern deep learning to critical infrastructure (electricity grids) while maintaining physical consistency, achieving 30–85x speedups over classical solvers while remaining practical for real-world deployment.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+    "authors": "Derin Gezgin, Jim O'Connor, Tanner Goodwin, Gary B. Parker",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09902v1",
+    "pdf": "https://arxiv.org/pdf/2608.09902v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces DSLE, a benchmark environment that converts Dark Souls boss fights into game-playing tasks for AI agents. The key finding is sobering: current deep reinforcement learning methods (PPO, DQN) fail almost completely on even the tutorial boss, while evolutionary algorithms and rule-based systems fare only slightly better. This work reveals a significant capability gap in modern RL algorithms when facing complex, real-time combat with visual observations.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+    "authors": "Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde, Gonzalo Martínez, Pedro Reviriego",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09900v1",
+    "pdf": "https://arxiv.org/pdf/2608.09900v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces Decoding-Level Taboo, a diagnostic test that forces language models to generate text under constrained conditions by blocking their most likely token choices in real time. Most evaluations test models under ideal, \"narrow\" conditions where they perform well; this work probes what happens when models are pushed off these comfortable paths—revealing gaps between benchmark performance and real-world robustness. The method matters because deployed LLMs face constant constraints (safety filters, system prompts, structural requirements) that differ from training conditions, and understanding this robustness gap is critical for safe deployment.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Consilience for Verifier-Free Test-Time Scaling",
+    "authors": "Lecheng Kong, Like Hui, Haitao Mao, Jun Huan",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09898v1",
+    "pdf": "https://arxiv.org/pdf/2608.09898v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper identifies a critical flaw in confidence-based test-time scaling for LLMs: high confidence across all reasoning steps often signals failure to explore the solution space, not success. The authors propose \"consilience,\" a new selection framework that rewards exploratory reasoning (low initial confidence) followed by convergence to a high-confidence answer, significantly improving performance on complex math and code generation tasks without needing external verifiers.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Competitive mediator games and urban CAV routing markets",
+    "authors": "Grzegorz Jamróz",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09894v1",
+    "pdf": "https://arxiv.org/pdf/2608.09894v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper introduces \"competitive mediator games,\" a new game-theoretic framework that generalizes correlated equilibria to model markets where multiple intermediaries compete to route autonomous vehicles. The work proves that under certain conditions, these markets naturally collapse to monopolies, and applies these insights to understand future autonomous routing and driving (ARAD) service markets.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fusion Training for Mathematical Generalization in Large Language Models",
+    "authors": "Congfeng Cao, Pengyu Zhang, Jelke Bloem",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09893v1",
+    "pdf": "https://arxiv.org/pdf/2608.09893v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper systematically studies how to train large language models that can switch between two modes: a fast \"non-thinking\" mode for simple responses and a slow \"thinking\" mode for complex reasoning, especially in mathematics. The key finding is that these two modes are in tension—training the model to be good at quick answers actually makes it worse at reasoning—and the best training approach depends on balancing data and schedule choices.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Financial Numerical Prediction and Allocation as Token Generation",
+    "authors": "Xu Ouyang, Moontae Lee",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09880v1",
+    "pdf": "https://arxiv.org/pdf/2608.09880v1",
+    "tags": [
+      "large-language-models",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that a causal language model can directly generate financial forecasts and investment decisions as constrained tokens, rather than using separate task-specific prediction heads. FinATOM unifies stock-return forecasting and ETF portfolio allocation through a single generative interface, achieving better risk-adjusted returns (Sharpe ratio improvements of 7–10%) than traditional approaches on 2023–2025 test data.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "authors": "Alexander Panfilov, David Schmotz, Ilia Shumailov, Luca Beurer-Kellner, Joachim Schaeffer et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09867v1",
+    "pdf": "https://arxiv.org/pdf/2608.09867v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper uncovers a critical security vulnerability in how major LLM providers (OpenAI, Anthropic, Google) protect their models' reasoning traces — the step-by-step thinking that models use to arrive at answers. The researchers show that encrypted reasoning blocks are reusable across sessions and users, allowing attackers to \"decrypt\" them by injecting them into weaker models from the same provider, which then output the reasoning in plaintext. This enables model distillation, large-scale extraction of sensitive personal data, and injection of hidden malicious prompts.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Expert-level Medical AI for Real-time Video Consultations",
+    "authors": "Mahvish Nagda, Jihyeon Lee, Matthew Thompson, Chunjong Park, Tim Strother et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09861v1",
+    "pdf": "https://arxiv.org/pdf/2608.09861v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper demonstrates an AI system (AMIE Video) that conducts medical consultations via video at expert physician level, integrating real-time speech, visual perception, and clinical reasoning. In a controlled study comparing the system to actual primary care doctors, AMIE matched or exceeded physician performance in diagnosis, history-taking, and management—a significant milestone because previous medical AI only worked with text, missing critical non-verbal cues that doctors rely on.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Nash Peer-to-Peer Insurance Bargaining under Price Fairness and Coalitional Stability",
+    "authors": "Tim J. Boonen, Wing Fung Chong, Kenneth Tsz Hin Ng, Tak Wa Ng",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09859v1",
+    "pdf": "https://arxiv.org/pdf/2608.09859v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "risk-management"
+    ],
+    "summary": "This paper studies how peer-to-peer insurance groups can fairly distribute risk and premiums when members bargain with a reinsurer. The authors use Nash bargaining — a game-theoretic framework where parties negotiate from disagreement points — to design contracts that are both individually rational (each member prefers the contract to no deal) and coalitionally stable (no subgroup wants to defect). The work matters because P2P insurance is growing, and understanding how to price and allocate risk fairly while preventing group collapse is a practical problem.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agentic Auto-Research is Fuzz Testing",
+    "authors": "Yifeng He, Jicheng Wang, Yinzhe Zhao, Jiachen Liu, Hao Chen",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09855v1",
+    "pdf": "https://arxiv.org/pdf/2608.09855v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper argues that autonomous research agents need a fundamentally different architecture than current \"generate-and-rank\" systems. Rather than proposing many experiments and sorting them by final outcomes, agents should work like fuzzers—observing dense, intermediate signals of progress (coverage) and using that feedback to decide what to try next. The paper makes the case that feedback architecture, not just generation capability, is the central bottleneck in making AI-driven research effective and reliable.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance",
+    "authors": "Dongchi Huang, Hongyin Zhang, Bohan Hou, Siteng Huang, Zhian Su et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09853v1",
+    "pdf": "https://arxiv.org/pdf/2608.09853v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces RynnValue, a foundation model that learns to predict how far a robot is from reaching language-specified goals by using temporal distance (time-to-goal) as a training signal instead of human preferences. The key insight is that temporal labels can be extracted automatically from video timestamps at scale, allowing the model to train on 7,000+ hours of robotic manipulation data without expensive preference annotations. When converted into reward signals, RynnValue improves real-world robot task success rates from 52.5% to 72.5%.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Multimodal Wearable Sensor Fusion for Detection of Body-Focused Repetitive Behaviors",
+    "authors": "Samaneh Rezaeimanesh, Mohsen Behradfar, Mohammad Fili, Guiping Hu",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09830v1",
+    "pdf": "https://arxiv.org/pdf/2608.09830v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper develops a deep learning system that detects body-focused repetitive behaviors (like hair pulling and skin picking) using data from wrist-worn sensors that measure movement, temperature, and proximity. The system combines multiple sensor modalities to achieve very high accuracy (F1 of 0.985) and could enable continuous, objective monitoring for mental health diagnostics in clinical and home settings.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent AI Safety as an Institutional Design Problem",
+    "authors": "Abdullah X",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09828v1",
+    "pdf": "https://arxiv.org/pdf/2608.09828v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper treats multi-agent AI safety as an institutional design problem — asking how rules, authority structures, and workflows can shape safe collective behavior among AI agents. Through a large-scale empirical study of 5,280 episodes across multiple model families, the authors show that safety depends not just on rules themselves, but on how authority is represented, what fallback options exist, and whether systems track the provenance (origin and history) of decisions.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+    "authors": "Mind Lab,  :, Vin Bo, Asher Cai, Jingwei Cao et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09819v1",
+    "pdf": "https://arxiv.org/pdf/2608.09819v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "Macaron-V1 is an open-source agent system designed to continuously improve itself after deployment by learning from real-world interactions. It combines a frozen base language model with multiple specialized adapters (called LoRA modules) that can be swapped per user interaction, enabling the system to serve different roles—chat, coding, reasoning—while staying up-to-date through an automated feedback loop that evaluates and refines the model over time.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CARD: Controlled Agentic Reddit Discussions for Credit Card Simulation",
+    "authors": "Yaoning Yu, Kai-Min Chang, Ye Yu, Yi-Chia Wang, Haojing Luo et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09790v1",
+    "pdf": "https://arxiv.org/pdf/2608.09790v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper presents CARD, a framework for simulating realistic credit card discussion threads on Reddit using controlled language generation. Rather than generating comments independently, CARD orchestrates multiple agents (a planner and writer) that respect conversation structure, stance, tone, and user variation to match real discussion patterns. The work matters because it shows how to move beyond surface-level text generation toward generating coherent multi-turn interactions that reflect authentic human communication about financial products.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
+    "authors": "Zhuo Sun, Entong Li, Yanlong Zhao, Xiaoyuan Cheng, Wenxuan Yuan et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09745v1",
+    "pdf": "https://arxiv.org/pdf/2608.09745v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes SR-OPSD, an improved method for training language models using reinforcement learning feedback at the token level. The key insight is that standard on-policy self-distillation can become unstable because the \"teacher\" model constantly changes as the student learns; SR-OPSD stabilizes this by mathematically characterizing what the ideal target should be and how to train toward it, achieving strong results on reasoning and coding tasks.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Distributed Team Orchestration via Supervisor Networks: Convergence, Optimality, and Resilience",
+    "authors": "Juntian Zhu, Guanpu Chen, Tongtian Zhu, Miguel de Carvalho, Zhouwang Yang et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09256v1",
+    "pdf": "https://arxiv.org/pdf/2608.09256v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses how distributed teams of agents can learn to coordinate when they receive belief information from supervisors rather than perfect information about each other's states. The key challenge is that supervisors may make mistakes or face Byzantine (malicious) agents that lie about their actions. The authors propose DTOA (distributed team-orchestrating algorithm), prove it converges to near-optimal team strategies, and show it remains robust even when some agents deliberately misreport information.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MoRSE: Task-Oriented Multi-Agent System with Mixture of Role-Subtask Experts",
+    "authors": "Peiwen Li, Shiyang Zhang, Yangtian Zhang, Sizhuang He, David van Dijk et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09251v1",
+    "pdf": "https://arxiv.org/pdf/2608.09251v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces MoRSE, a system that improves multi-agent LLM teams by giving each agent specialized skills through role and subtask assignment. Rather than using generic prompts for all agents, MoRSE decomposes tasks into dependency-aware subtasks, assigns agents specific roles, and fine-tunes their parameters separately — enabling agents to develop genuine expertise. The approach shows meaningful improvements on code-generation tasks while keeping computational costs low.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CPDA: Class-Conditional Path Distribution Alignment for Unsupervised Time-Series Domain Adaptation",
+    "authors": "Felix Ott, Christopher Mutschler",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09193v1",
+    "pdf": "https://arxiv.org/pdf/2608.09193v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes CPDA, a method for adapting time-series classifiers trained on labeled data from one source (e.g., one sensor) to work on unlabeled data from a different source (e.g., a different sensor or user). The key insight is to align not just overall feature distributions but class-specific temporal patterns between domains, using a specialized kernel that captures time structure and frequency information alongside semantic features.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Joint Lyapunov Certificates for K-Agent Generative AI Governance: Stochastic Stability, Emergent Ensemble Risk, and Zero-Knowledge Governance Attestation",
+    "authors": "Sriram Nagaraj",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09087v1",
+    "pdf": "https://arxiv.org/pdf/2608.09087v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "risk-management"
+    ],
+    "summary": "This paper addresses a critical blind spot in AI governance: when multiple generative AI models interact through shared learning, each model can individually appear stable while the combined system drifts dangerously. The authors develop a mathematical framework using \"Joint Lyapunov Certificates\" to detect and prove stability of multi-agent AI systems without exposing proprietary model weights, using cryptographic attestation protocols.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Personalized Federated Learning via Variance-Aware Nonparametric Empirical Bayes",
+    "authors": "Jae Ho Chang, Arnab Auddy, Subhadeep Paul",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09074v1",
+    "pdf": "https://arxiv.org/pdf/2608.09074v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops a new statistical method for federated learning — a distributed machine learning setting where multiple clients train models locally without sharing raw data. The key innovation is handling the realistic problem that local variance (uncertainty) differs across clients, which prior methods ignored. The authors prove theoretical guarantees for their approach and show it works well on image classification tasks.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Context Is Not Authority: Structured Runtime Governance for Financial Market Agents",
+    "authors": "Rui Tang, Qiangqiang Liu, Yichi Zhang, Youwei Wang, Xi Chen et al.",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.09025v1",
+    "pdf": "https://arxiv.org/pdf/2608.09025v1",
+    "tags": [
+      "agents",
+      "risk-management"
+    ],
+    "summary": "This paper introduces SAGE-Fin, a runtime governance system that controls what financial agents are *allowed to do*, not just what they claim to do. Most safeguards focus on monitoring an agent's reasoning or outputs; SAGE-Fin instead enforces strict authority contracts—ensuring that before a trading commitment, customer-facing response, or policy change executes, it has explicit permission under current market conditions, account state, and institutional rules. The system was tested on 616 cases and validated in production at a real cryptocurrency platform.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A New Approach to Characterising Optimisation Problems Using Programmatic Representation and Complexity Measures",
+    "authors": "Marcus Gallagher, Katherine M. Malan",
+    "published": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08898v1",
+    "pdf": "https://arxiv.org/pdf/2608.08898v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper proposes a new way to characterize optimization problems by analyzing the complexity of their code implementations, rather than sampling their search landscapes. The authors use Halstead volume (a software complexity metric) as a proxy for problem difficulty and show it correlates with algorithm performance on benchmark problems—offering a fast, transformation-invariant tool for algorithm selection.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Distribution Mapping Approach to Counterfactually Fair Reinforcement Learning",
+    "authors": "Jianhan Zhang, Jitao Wang, John D. Piette, Donglin Zeng, Chengchun Shi et al.",
+    "published": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08743v1",
+    "pdf": "https://arxiv.org/pdf/2608.08743v1",
+    "tags": [
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a method to make reinforcement learning (RL) systems fair across different population subgroups in high-stakes settings like healthcare. The key innovation is a \"distribution mapping\" algorithm that preprocesses training data to remove systematic bias before policy learning, enabling RL agents to make decisions that don't unfairly restrict access to services for certain groups. The method is grounded in causal reasoning and comes with theoretical guarantees.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Attention Locality in Spiking Transformers",
+    "authors": "Zeqi Zheng, Zizheng Zhu, Yuping Yan, Wenxuan Pan, Zhaofei Yu et al.",
+    "published": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08541v1",
+    "pdf": "https://arxiv.org/pdf/2608.08541v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper addresses a fundamental problem in Spiking Transformers — neural networks that process information using spike-like binary events to save energy — which struggle to focus attention locally on nearby image regions. The authors show that existing locality-enhancement methods don't consistently work across different architectures, then propose SCLA-BCP, a method that groups attention within adjacent spatial regions while preserving cross-region communication through lightweight convolutions. Tested on image classification, detection, and segmentation tasks, the approach delivers significant accuracy improvements (up to 9.5% on COCO detection) with minimal computational overhead.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SuperNeuroMAT: An Efficient Matrix-based Simulator for Spiking Neural Networks",
+    "authors": "Prasanna Date, Kevin Zhu, Shruti Kulkarni, Ashish Gautam, Chathika Gunaratne et al.",
+    "published": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08479v1",
+    "pdf": "https://arxiv.org/pdf/2608.08479v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "SuperNeuroMAT is an efficient, open-source simulator for spiking neural networks (SNNs)—neural networks that compute using discrete spike events rather than continuous values, mimicking biological brains. The paper presents a matrix-based approach that lets researchers simulate tens of thousands of neurons on ordinary computers, and outperforms existing simulators on speed and memory use. This matters because SNNs promise energy-efficient AI, but lack accessible tools; SuperNeuroMAT lowers that barrier.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Robustness or Crowding: Experimental Design for Trading Strategy Capacity",
+    "authors": "Alejandro Rodriguez Dominguez, Miquel Noguer i Alonso",
+    "published": "2026-08-09",
+    "url": "http://arxiv.org/abs/2608.08405v1",
+    "pdf": "https://arxiv.org/pdf/2608.08405v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance"
+    ],
+    "summary": "This paper addresses a fundamental but overlooked problem in quantitative finance: how much capital can a trading strategy absorb before its edge disappears? The authors show that standard observational approaches (like regression on capital deployed) rest on incompatible assumptions, and they design experiments that can actually answer this question. The work matters because understanding strategy capacity is critical for portfolio managers deciding how much money to allocate to a strategy.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "High-Capacity Generalized Hopfield Networks",
+    "authors": "Victor Galitski",
+    "published": "2026-08-08",
+    "url": "http://arxiv.org/abs/2608.08226v1",
+    "pdf": "https://arxiv.org/pdf/2608.08226v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper extends classical Hopfield networks—a type of neural network used for storing and retrieving memories—by embedding neurons and memories on curved geometric spaces (Riemannian manifolds) rather than flat vector spaces. The key result is that this geometric generalization dramatically increases how many memories the network can reliably store and recall, with capacity growing roughly ten-fold even at low dimensions and improving further at higher dimensions. This matters because it offers a theoretically grounded path to building neural memory systems with orders-of-magnitude better performance.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Phase State Space Models: Parallel, Surrogate-Free Training of Spiking Networks",
+    "authors": "Wilkie Olin-Ammentorp",
+    "published": "2026-08-07",
+    "url": "http://arxiv.org/abs/2608.07754v1",
+    "pdf": "https://arxiv.org/pdf/2608.07754v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper introduces Phase State Space Models, a method for training spiking neural networks (neurons that communicate via discrete spikes, like biological brains) in parallel rather than sequentially. The key innovation is adapting state-space models — a mathematical framework that linearizes recurrent dynamics — to work with spike-based computation, enabling faster training while preserving biological realism and compatibility with real-world neuromorphic hardware.",
+    "date_added": "2026-08-11",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
