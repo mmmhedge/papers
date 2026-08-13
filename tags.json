@@ -3,23 +3,23 @@
   "last_clustered": "2026-08-02T09:58:16.022408+00:00",
   "tags": {
     "agents": {
-      "count": 334,
+      "count": 348,
       "first_seen": ""
     },
     "algorithmic-trading": {
-      "count": 17,
+      "count": 19,
       "first_seen": ""
     },
     "alignment": {
-      "count": 117,
+      "count": 119,
       "first_seen": ""
     },
     "computer-vision": {
-      "count": 120,
+      "count": 126,
       "first_seen": ""
     },
     "deep-learning": {
-      "count": 349,
+      "count": 359,
       "first_seen": ""
     },
     "derivatives-pricing": {
@@ -27,15 +27,15 @@
       "first_seen": ""
     },
     "generative-models": {
-      "count": 79,
+      "count": 83,
       "first_seen": ""
     },
     "graph-neural-networks": {
-      "count": 25,
+      "count": 26,
       "first_seen": "2026-07-08T09:30:13.397275+00:00"
     },
     "large-language-models": {
-      "count": 427,
+      "count": 443,
       "first_seen": ""
     },
     "market-microstructure": {
@@ -43,35 +43,35 @@
       "first_seen": "2026-07-07T23:02:38.698411+00:00"
     },
     "mechanistic-interpretability": {
-      "count": 86,
+      "count": 91,
       "first_seen": ""
     },
     "multi-agent-systems": {
-      "count": 200,
-      "first_seen": ""
-    },
-    "nlp": {
-      "count": 228,
-      "first_seen": ""
-    },
-    "optimization": {
-      "count": 265,
-      "first_seen": ""
-    },
-    "quantitative-finance": {
-      "count": 64,
-      "first_seen": ""
-    },
-    "reinforcement-learning": {
       "count": 206,
       "first_seen": ""
     },
+    "nlp": {
+      "count": 231,
+      "first_seen": ""
+    },
+    "optimization": {
+      "count": 272,
+      "first_seen": ""
+    },
+    "quantitative-finance": {
+      "count": 70,
+      "first_seen": ""
+    },
+    "reinforcement-learning": {
+      "count": 210,
+      "first_seen": ""
+    },
     "risk-management": {
-      "count": 53,
+      "count": 54,
       "first_seen": ""
     },
     "transformers": {
-      "count": 76,
+      "count": 80,
       "first_seen": ""
     }
   },

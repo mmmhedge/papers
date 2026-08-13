@@ -1,6 +1,24 @@
 [
   {
     "source": "blog",
+    "source_name": "OpenAI",
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "authors": "OpenAI",
+    "published": "2026-08-12",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "OpenAI reports on how enterprises are transitioning from using AI for assistance to deploying agentic AI systems for autonomous execution of tasks. The research shows that frontier companies are adopting ChatGPT and code generation tools at scale, creating a widening gap between early adopters and laggards in AI capability deployment.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
     "source_name": "Hugging Face",
     "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
     "authors": "Hugging Face",
@@ -617,6 +635,601 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+    "authors": "Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12313v1",
+    "pdf": "https://arxiv.org/pdf/2608.12313v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper introduces AVA-Encoder, a framework that learns video representations designed for AI agents to understand, reason about, and edit films. Instead of treating videos as raw pixels, the system converts them into structured knowledge graphs (semantic networks of concepts and relationships) that agents can directly manipulate, then reconstructs videos from these graphs. This bridges a gap between how humans understand cinema and how AI systems can work with video content at a high level of abstraction.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+    "authors": "Yan Deng, Fei Xu",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12308v1",
+    "pdf": "https://arxiv.org/pdf/2608.12308v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper presents DreamFly, a system that teaches aerial drones to navigate using natural language instructions while interpreting visual feeds in real time. The key innovation is combining causal memory (which only looks at past observations), diffusion-based planning (a generative approach that predicts action sequences), and explicit termination detection—solving the hard problem of embodied AI navigation under uncertainty.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+    "authors": "Saman Marandi, Yu-Shu Hu, Mohammad Modarres",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12304v1",
+    "pdf": "https://arxiv.org/pdf/2608.12304v1",
+    "tags": [
+      "graph-neural-networks",
+      "large-language-models"
+    ],
+    "summary": "This paper automates the construction of Dynamic Master Logic (DML) models — hierarchical diagrams that map system functions to physical components — by using large language models (LLMs) with retrieval-augmented generation to extract information from technical documentation and represent it as knowledge graphs. The approach makes it practical to build detailed diagnostic models for complex systems like nuclear reactors without relying entirely on human experts, and demonstrates that the automated models can reliably support reasoning about system failures and dependencies.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+    "authors": "AmirHossein Eshghi, Hamid Saadatfar, Seyyed Ali Hoseini, AmirMohsen Eshghi, Siavash Arjomand Bigdel",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12299v1",
+    "pdf": "https://arxiv.org/pdf/2608.12299v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reviews Class Activation Mapping (CAM) — a family of techniques that explain what parts of an image a visual AI model is \"looking at\" when making a decision — from its 2016 origins through modern foundation models like CLIP and SAM. The review synthesizes 57 papers and shows how the field has evolved from simple heatmaps on CNNs to sophisticated multi-layer, probabilistic, and token-aware explanations, while identifying fragmentation in how these methods are evaluated.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+    "authors": "Aman Tyagi, Hemanth Boinpally, Jonathan Chen, Douglas Gebert, Steven Hickson",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12290v1",
+    "pdf": "https://arxiv.org/pdf/2608.12290v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper tackles a major pain point in AI video generation: modern image-to-video models produce wildly different outputs from small prompt changes, forcing users into tedious trial-and-error loops. The authors propose an \"agentic self-improvement\" framework that automatically optimizes prompts and generation parameters using a multimodal language model and Bayesian search, achieving 69% human preference over baseline outputs and making video synthesis more reliable for professional use.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+    "authors": "Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Arman Khaledian",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12283v1",
+    "pdf": "https://arxiv.org/pdf/2608.12283v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper uses large language models (specifically GPT-4o mini) to extract sentiment signals from financial news and combines them with macroeconomic indicators and technical analysis to build trading strategies for small-cap stocks. The key insight is that separating stock-specific signals from macro-driven signals, and carefully choosing portfolio allocation methods and holding periods, produces superior risk-adjusted returns — with the best strategy achieving a Sharpe ratio of 2.33 even after accounting for transaction costs.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies",
+    "authors": "Ankita Rajaram Naik, Anupama Murthi, Benjamin Elder, Siyu Huo, Raavi Gupta et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12282v1",
+    "pdf": "https://arxiv.org/pdf/2608.12282v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces VAKRA, a benchmark for evaluating AI agents on their ability to reason across multiple APIs and documents while following tool-use constraints. The benchmark reveals that even state-of-the-art models struggle significantly with compositional reasoning and policy constraints, dropping from 70% accuracy on simple tasks to as low as 2.4% on policy-constrained questions — problems that stem not from technical tool invocation failures but from language-level reasoning challenges like entity disambiguation.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Earth observation embeddings are effective sub-grid descriptors for probabilistic weather downscaling",
+    "authors": "Pedro Sousa, Will Tebbutt, Sadiq Jaffer, Robin Young, Anil Madhavapeddy et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12271v1",
+    "pdf": "https://arxiv.org/pdf/2608.12271v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper shows that Earth observation embeddings—learned visual representations of land surface conditions from satellite imagery—can improve weather prediction at specific locations by capturing terrain and surface properties that coarse global weather models miss. By combining satellite-derived surface descriptors with a neural downscaling model, the authors achieve 11.5% better temperature predictions and 6.2% better wind predictions across diverse regions, even generalizing to new locations with no training history.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+    "authors": "Simon Yu, Nicholas Tomlin, Marwa Abdulhai, Ximing Lu, Derek Chong et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12253v1",
+    "pdf": "https://arxiv.org/pdf/2608.12253v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies and solves a critical failure mode in multi-agent reinforcement learning where an AI policy trained against a single frozen language model simulator overfits to that simulator's behavioral quirks and fails to generalize to real users or new simulators. The authors propose two solutions—one that diversifies the simulator's outputs at test time and another that trains the policy against multiple different simulators simultaneously—and show both improve real-world transfer by up to 14%.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+    "authors": "Junyi Ye, Gargi Vijay Borde",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12251v1",
+    "pdf": "https://arxiv.org/pdf/2608.12251v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper proposes RG-ResMoE, a neural network architecture that forecasts stock volatility by using market regime information strategically—routing expert predictions rather than feeding regime data directly into the model. The key finding is that *where* regime information enters the network matters as much as *that* it enters: using it only for expert routing improves both forecasting accuracy and training stability, while naive direct input degrades performance.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+    "authors": "Jin Lu, Xuening Han, Yang Zhong, Lin Tan, Kevin Luo et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12246v1",
+    "pdf": "https://arxiv.org/pdf/2608.12246v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces VICBench, a benchmark dataset of 100 real vulnerabilities across Python, Java, and C++ code used to evaluate vulnerability detection tools. The benchmark is significant because it addresses a critical gap: existing vulnerability datasets are too small, limited in language coverage, and don't capture the complexity of real-world security fixes. By showing that state-of-the-art detection methods only achieve 33–40% accuracy, the paper demonstrates the need for better evaluation standards in code security.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ScreenShot: A Foundation Model for Few-Shot Combination Drug Screening",
+    "authors": "Antoine de Mathelin, Christopher Tosh, Wesley Tansey",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12219v1",
+    "pdf": "https://arxiv.org/pdf/2608.12219v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "ScreenShot is a foundation model that predicts how cancer cell samples will respond to drug combinations, trained on 40 publicly available screening datasets. Instead of requiring expensive lab measurements or per-patient retraining, it uses a hierarchical transformer to make predictions from just a few observations of a new patient's cells, and can even suggest which drug combinations to test next to save time and resources.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge",
+    "authors": "Arda Uzunoglu, Benjamin van Durme, Daniel Khashabi",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12218v1",
+    "pdf": "https://arxiv.org/pdf/2608.12218v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper challenges the assumption that longer training contexts always help language models learn better. The authors show that beyond a certain point, abundant context actually makes models *rely more on that context* and *encode less knowledge internally*, a phenomenon they call the Information Abundance Paradox. This matters because it reveals a fundamental trade-off: models trained on very long contexts may perform worse when that context isn't available at test time.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+    "authors": "Jean-Pierre Busch, Guido Linden, Jan Bergmann, Lutz Eckstein",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12198v1",
+    "pdf": "https://arxiv.org/pdf/2608.12198v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents a hybrid architecture for autonomous vehicle motion planning that combines deep neural networks with classical optimization constraints. The key innovation is pairing a learned model (which handles complex scene interpretation) with a formal verification layer (which enforces safety and drivability rules), addressing a critical real-world problem: how to make AI-based driving decisions both effective and trustworthy enough for deployment.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Agent Security as a Networking Problem",
+    "authors": "Van Tran, Taveesh Sharma, Tajveer Singh Dhesi, Nick Feamster",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12172v1",
+    "pdf": "https://arxiv.org/pdf/2608.12172v1",
+    "tags": [
+      "agents",
+      "alignment"
+    ],
+    "summary": "This paper reframes AI agent security from an agent-centric problem to a systems and networking problem. The authors argue that relying on agents themselves to enforce security policies is fundamentally flawed because LLM behavior is nondeterministic and vulnerable to attacks like prompt injection—and instead propose borrowing proven networking principles (centralized control, capability-based access, zero-trust) combined with semantic, context-aware policies to create deterministic security guarantees for autonomous systems.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Who Thinks Best Depends on How Long You Let Them: Budget-Dependent Rankings in LLM Evaluation",
+    "authors": "Rodrigo Guedes de Souza, Alison R. Panisson",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12150v1",
+    "pdf": "https://arxiv.org/pdf/2608.12150v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper challenges the standard assumption that large language model rankings stay the same across different inference conditions. By testing four models on reasoning benchmarks with varying token budgets (64–4,096 tokens), the authors show that model performance and relative rankings shift dramatically depending on how much computational budget each model gets, sometimes reversing completely. This matters because current evaluation practices treat models as having fixed, stable rankings—but in reality, \"best\" depends heavily on the constraints.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do LLMs Take Care of Their Own? Similarity Signals Can Induce Cooperation",
+    "authors": "Akash Kundu, Emanuel Tewolde, Ratip Emin Berker, Samuel F. Brown, Vincent Conitzer",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12125v1",
+    "pdf": "https://arxiv.org/pdf/2608.12125v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how large language models (LLMs) behave in strategic interactions when given information about each other's similarity. The researchers find that similarity signals can encourage cooperation in classic game-theory problems like the Prisoner's Dilemma, but different LLM models respond to these signals in drastically different ways. The work matters because as AI agents become deployed in the real world, understanding how they cooperate or compete with each other is critical for safety and efficiency.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Confidence Calibration of Deep Learning Systems",
+    "authors": "Coby Penso",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12100v1",
+    "pdf": "https://arxiv.org/pdf/2608.12100v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This thesis develops methods to ensure deep learning models output reliable confidence estimates—predictions that accurately reflect how likely they are to be correct—even when training data is noisy or comes from a different domain than where the model will be used. Confidence calibration matters in high-stakes settings like medicine or autonomous driving, where knowing *how uncertain* a model is can be as important as the prediction itself.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+    "authors": "Mengru Wang, Junfeng Fang, Shuofei Qiao, Zhenqian Xu, Haoming Xu et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12036v1",
+    "pdf": "https://arxiv.org/pdf/2608.12036v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces Mechanist, an AI agent that autonomously discovers how AI models work by formulating and testing mechanistic hypotheses. Rather than relying on manual human analysis, Mechanist combines a massive knowledge graph of interpretability research with systematic experimentation to uncover the internal mechanisms driving AI capabilities and risks — and then uses those insights to improve model safety and performance.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scalable Multi-Agent Maze Traversal with Local Communication",
+    "authors": "Julian Rau, Jahir Argote-Gerald, Grace McFassel, Genki Miyauchi, Paul Trodden et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11895v1",
+    "pdf": "https://arxiv.org/pdf/2608.11895v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a distributed algorithm that enables many robots to collectively explore and navigate unknown maze-like environments using only local communication between neighbors. The key innovation is a leader-follower coordination scheme where agents take turns exploring, reducing redundant work while maintaining collision-free movement — and the paper proves this approach is nearly as efficient as if all agents had complete knowledge of the environment.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Lapis: Laplacian Spiking Attention via First-Spike Timing and Membrane Leakage",
+    "authors": "Kaiwen Tang, Jiaqi Zheng, Zixuan Zhu, Yiqun Wang, Zhanglu Yan et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11865v1",
+    "pdf": "https://arxiv.org/pdf/2608.11865v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces Lapis, a new attention mechanism designed specifically for spiking neural networks (SNNs) — biologically-inspired networks that process information via sparse spike timing rather than continuous activations. Instead of using standard dot-product scoring like transformers do, Lapis scores token relationships using the distance between first-spike arrival times, mapped through a Laplacian kernel. The key insight is that this approach uses only addition and subtraction, not multiplication, making it dramatically more energy-efficient while maintaining competitive accuracy on image classification tasks.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MOON: Multi-Objective OrthoNormalized Updates for Multitask Learning",
+    "authors": "Shiji Zhou, Kunlin Lyu, Lei Zhang, Ruodong Wang, Yifan Sun",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11749v1",
+    "pdf": "https://arxiv.org/pdf/2608.11749v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper proposes MOON, a method for multi-task learning that improves how gradients are manipulated during training. The key insight is that modern neural networks (especially Transformers) have matrix-structured parameters, but existing multi-task methods treat them as flat vectors, missing the geometry that could make learning more efficient. MOON respects this matrix structure and shows faster convergence and better final performance across multiple tasks simultaneously.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Drift and Dependence: Layer-wise Information-Theoretic Bounds for Replay-Based Continual Learning",
+    "authors": "Tieliang Gong, Zhongbo Zhang, Wen Wen, Yong-Jin Liu",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11690v1",
+    "pdf": "https://arxiv.org/pdf/2608.11690v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper analyzes why replay buffers—storing and retraining on old examples—help neural networks learn new tasks without forgetting old ones. The authors develop a mathematical framework that separates two coupled problems: the approximation error from using limited past data, and how repeated training on mixed old/new data affects learning. They show which internal network layers should be stabilized to minimize forgetting and provide an online metric to detect when a model is starting to forget.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection",
+    "authors": "Touseef Hasan, Mounika Ghanta, Souvika Sarkar, Ujjwal Guin",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11679v1",
+    "pdf": "https://arxiv.org/pdf/2608.11679v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "AgenticTwin combines large language models with digital twins — virtual replicas of physical systems — to detect and explain anomalies in cyber-physical systems like industrial equipment or sensor networks. The paper shows that when LLMs reason over structured anomaly detection outputs and collaborate as agents, human operators get better diagnoses and can ask natural-language questions about what went wrong, making complex sensor data interpretable at scale.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Predictive Allostatic Organization in Recurrent and Spiking Agents Under Partial Observability",
+    "authors": "Frederick Hayes",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11506v1",
+    "pdf": "https://arxiv.org/pdf/2608.11506v1",
+    "tags": [
+      "agents",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates how recurrent and spiking neural networks develop interpretable internal structures when learning to survive in resource-constrained environments with incomplete information. The authors find that these agents organize their internal states in ways that predict future events and encode energy levels, suggesting a computational principle called \"predictive allostatic organization\" that may explain how brains and AI systems balance competing goals under uncertainty.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Governing Agentic AI in FinTech",
+    "authors": "Henry Han",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11344v1",
+    "pdf": "https://arxiv.org/pdf/2608.11344v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "risk-management"
+    ],
+    "summary": "This paper investigates how to govern AI agents making consequential financial decisions — a problem largely ignored despite rapid deployment. The core insight is that the real constraint isn't whether AI systems are capable, but whether their decisions can be verified, audited, and reproduced. The authors introduce the \"Verifiability Gap\" and test whether different AI models (local, hosted, and frontier systems) can consistently replay the same financial decisions, finding that reproducibility varies dramatically by architecture and capability level.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Long-Horizon Forecasting of Complete Financial Statements with Forma",
+    "authors": "Travis L. Johnson, Jiannan Jiang, Soumyabrata Chaudhuri, Yihao Chen, Lauren Falvey et al.",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11327v1",
+    "pdf": "https://arxiv.org/pdf/2608.11327v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "transformers"
+    ],
+    "summary": "This paper introduces Forma, a transformer-based model that forecasts complete financial statements (78 line items) for 1–20 quarters ahead—a task no prior work has tackled jointly at this scale. The key insight is that specialist architectures beat general-purpose scale for this domain; Forma outperforms classical ML, gradient boosting, zero-shot foundation models, and frontier LLMs, with its advantage widening at longer horizons where valuation matters most.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Contextual Quality-Diversity Evolutionary Reinforcement Learning for HVAC Control in Tropical Commercial Buildings",
+    "authors": "Tran Le Vu",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11324v1",
+    "pdf": "https://arxiv.org/pdf/2608.11324v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops CQD-ERL, a hybrid evolutionary and reinforcement-learning controller for managing HVAC systems in tropical commercial buildings. Rather than learning a single fixed policy, the system maintains a diverse archive of specialized policies tailored to different weather and load conditions, improving energy efficiency and safety compared to traditional control approaches.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+    "authors": "Nikita Sevriukov, Anna Barabanova, Uliana Gagarina, Karina Ivanova, Sofiia Kasaeva et al.",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11052v1",
+    "pdf": "https://arxiv.org/pdf/2608.11052v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper solves a key computational bottleneck in inverse reinforcement learning (IRL) — the problem of inferring reward functions from expert demonstrations. The authors show that the Hessian of the inner optimization problem has special structure (related to the Fisher information matrix), and they use a sketching technique to avoid expensive matrix inversions, making IRL tractable at scale.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rule of Thumb: Explaining Artificial Intelligence Systems using Partial Information",
+    "authors": "Kaivalya Rawal, Daria Onitiu, Brent Mittelstadt, Sandra Wachter, Chris Russell",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.10766v1",
+    "pdf": "https://arxiv.org/pdf/2608.10766v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces \"Rule of Thumb\" (RoT), a new method for explaining AI decisions by identifying the most relevant features for a specific prediction. The approach works without needing access to the model's internals, making it practical for auditing black-box systems, explaining LLM outputs, and supporting scientific discovery — while also meeting regulatory requirements for AI transparency.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Optimize Cheap, Deploy Strong: Cost-Aware Cross-Tier Transfer for Evolutionary Optimization",
+    "authors": "Tal Oved, Roi Pony, Oshri Naparstek, Udi barzelay",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.10694v2",
+    "pdf": "https://arxiv.org/pdf/2608.10694v2",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tackles the high cost of evolving LLM prompts and agentic programs by splitting the computational work across cheaper and stronger models—using weak models for frequent fitness evaluations and reserving strong models only for critical steps. The key insight is that you can evolve prompts on a cheap tier, then deploy the result on a strong tier, cutting search costs 5–54x while maintaining or improving performance.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+    "authors": "Beichen Huang, Zhenyu Liang, Bowen Zheng, Ran Cheng",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.10450v2",
+    "pdf": "https://arxiv.org/pdf/2608.10450v2",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents Genesis, a system that enables autonomous software development by agents over long timescales (120+ hours) without requiring individual agents to persist. Instead of keeping agents alive, Genesis keeps the software project itself persistent—agents propose changes to a shared repository, changes get reviewed and accepted, and only validated work advances the project history. The system successfully built a Rust C compiler from scratch and rewrote legacy Fortran code, demonstrating that long-term software evolution can be organized around a stable project rather than stable agents.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Objective-oriented quantitative investment: A specification-driven framework for automated synthesis of trading strategy pipelines",
+    "authors": "Liangliang Zhang",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.10410v1",
+    "pdf": "https://arxiv.org/pdf/2608.10410v1",
+    "tags": [
+      "algorithmic-trading",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper proposes a new framework for building trading strategies that prioritizes meeting explicit investor requirements—like controlling style exposure or managing portfolio turnover—rather than simply maximizing a single performance metric. The key innovation is treating strategy construction as a formal specification problem: investors describe what they want in a structured language, a compiler assembles candidate pipelines from a vast design space, and a rigorous verification protocol confirms each pipeline actually satisfies the stated constraints before deployment.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Cash Flows: A Multi-Agent AI Framework for Valuing Clinical-Stage, Cross-Border Biotechnology",
+    "authors": "Yuhan Fang",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.10175v1",
+    "pdf": "https://arxiv.org/pdf/2608.10175v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "quantitative-finance"
+    ],
+    "summary": "This paper proposes a multi-agent AI framework for valuing early-stage biotechnology companies—firms with no revenue but whose worth depends entirely on drug development timelines and regulatory approval odds. Traditional investment valuation breaks down here because there are no cash flows to model. The author designs a system where specialized AI agents (analysts, researchers, risk managers) collaborate to convert scientific judgments into defensible valuations and coordinate pricing across international markets, grounding the approach in their own track record managing a cross-border biotech fund.",
+    "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -2397,6 +3010,24 @@
     ],
     "summary": "We present a framework that gives LLM agents two mechanisms for searching large solution spaces autonomously. First, a leaderboard scored on held-out data acts as a reward signal that drives each agent to refine its solutions over repeated submissions, a loop that operates even with a single agent. Second, the framework enables running many agents in parallel, fully autonomously, with no human in the loop: agents independently analyze, survey methods, implement, self-evaluate, submit, and revise, while a moderator agent handles only logistics.",
     "date_added": "2026-08-09",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search",
+    "authors": "Weicheng Ye, Youran Sun, Xingyu Ren, Shunyao Yu, Chugang Yi et al.",
+    "published": "2026-08-04",
+    "url": "http://arxiv.org/abs/2608.11250v1",
+    "pdf": "https://arxiv.org/pdf/2608.11250v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "AgonAlpha is an autonomous system that uses language models to discover profitable trading factors (alphas) while managing evaluation budgets and maintaining full traceability. The key innovation is searching over complete research artifacts—hypotheses, code, evidence, and reviews—rather than just formulas, combined with an adversarial reviewer that can reject proposals. When deployed on WorldQuant's platform, it generated high-quality trading factors with exceptional performance metrics while preserving the provenance from initial prompt to final submission.",
+    "date_added": "2026-08-13",
     "starred": false,
     "trusted": ""
   },
