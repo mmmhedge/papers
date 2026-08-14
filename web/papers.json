@@ -2,6 +2,41 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "The builder’s guide to GPT‑5.6",
+    "authors": "OpenAI",
+    "published": "2026-08-13",
+    "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI's guide covers practical patterns for building AI agents with GPT-5.6, focusing on cost efficiency and speed through intelligent model selection and a new Responses API. This addresses a key pain point for startups: reducing inference costs and latency while maintaining quality.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "authors": "Hugging Face",
+    "published": "2026-08-13",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "Hugging Face announces an integrated platform combining Strands Agents, LeRobot, and Hugging Face Storage Buckets to streamline the end-to-end workflow of recording robot demonstrations, training behavioral policies, and deploying embodied agents. This addresses fragmentation in the robotics development pipeline by unifying data collection, model training, and deployment in a single environment.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "From assistance to execution: How enterprises put AI to work",
     "authors": "OpenAI",
     "published": "2026-08-12",
@@ -639,6 +674,462 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "authors": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13560v1",
+    "pdf": "https://arxiv.org/pdf/2608.13560v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "AutoDesign is a framework that automatically improves how AI systems design academic posters from papers by having a code-writing agent recursively refine its \"design harness\" (the set of rules and tools it uses) based on feedback. The paper demonstrates this on a new benchmark called PosterBench and achieves results competitive with commercial systems, showing that AI agents can learn to design better when given the right feedback loop and autonomy to modify their own operating procedures.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+    "authors": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13558v1",
+    "pdf": "https://arxiv.org/pdf/2608.13558v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "OmniScientist is an AI system that automates scientific research across multiple disciplines by processing raw data directly—images, videos, audio, 3D structures, tables, and more—rather than relying on pre-summarized text. The system uses multiple autonomous agents (for ideation, experimentation, and writeup) to move from raw evidence to a complete manuscript, and validates results through code-based checks for novelty, statistical validity, and reproducibility. This matters because most AI research tools work only with text or precomputed summaries, missing the spatial, temporal, and procedural relationships that are often essential for scientific discovery.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+    "authors": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13547v1",
+    "pdf": "https://arxiv.org/pdf/2608.13547v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper reveals that standard evaluation metrics for LLM-based coding agents can mask critical failures caused by the execution pipeline—not the model itself. The authors introduce QuoteBench, a benchmark that measures where command generation breaks down versus where serialization, parsing, and escaping errors occur, showing that matched scores can hide 55-73% of real failures while overstating model robustness by up to 60 points.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+    "authors": "Weihan Meng, Hongzhu Guo, Yi Jing, Dewen Liu, Zijun Yao et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13538v1",
+    "pdf": "https://arxiv.org/pdf/2608.13538v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper proposes SAEVerbalizer, a method to automatically generate natural-language explanations for features discovered by sparse autoencoders (SAEs) — a tool used to decompose the internal representations of large language models into interpretable components. Instead of manually inspecting model behavior to guess what features mean, the approach trains an LLM to produce explanations directly from the mathematical directions that SAEs learn, making the process faster and more systematic.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Joint Communication-Control Strategy Optimization with Partially Nested Information Structures: The Linear-Quadratic Case",
+    "authors": "Haoyi You, Kaiqing Zhang",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13535v1",
+    "pdf": "https://arxiv.org/pdf/2608.13535v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper solves the problem of how multiple agents in a networked system should coordinate their communication and control decisions jointly. The key innovation is showing that under \"partially nested\" information structures — where agents have hierarchical knowledge about each other's states — the optimization problem becomes tractable and admits closed-form solutions via dynamic programming, even when agents must decide what to communicate to each other.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+    "authors": "Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13522v1",
+    "pdf": "https://arxiv.org/pdf/2608.13522v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces Vero, a benchmark for evaluating whether AI agents can generate both correct code implementations *and* formal mathematical proofs across real multi-module software repositories. Current state-of-the-art agents solve only 27 of 43 test cases, revealing that building trustworthy, formally verified software at scale remains an open challenge for AI.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+    "authors": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13517v1",
+    "pdf": "https://arxiv.org/pdf/2608.13517v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "Mimir v1 is a 1-billion-parameter language model trained entirely on permissible (legally and ethically licensed) datasets that matches the performance of much larger models. It achieves state-of-the-art results for Danish and competitive English performance, showing that you don't need scraped web data or restricted datasets to build frontier-quality models — a significant finding for researchers and organizations committed to open-source and ethical AI development.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TabSOM: A tabular-to-image encoding method based on self-organizing maps",
+    "authors": "David Chushig-Muzo, María Ángeles Rodríguez de Cara, Eva Milara, Francisco J. Lara-Abelenda, Luis Zhinin-Vera et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13513v1",
+    "pdf": "https://arxiv.org/pdf/2608.13513v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents TabSOM, a method that converts tabular (spreadsheet-like) data into images so that computer vision models can process it. Unlike existing approaches that only encode individual feature values, TabSOM also captures relationships between features using self-organizing maps, a classical neural network technique. The method achieves top performance on benchmark datasets while remaining interpretable—you can understand why it makes predictions.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
+    "authors": "Nestor R. Barraza, Gabriel Pena",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13510v1",
+    "pdf": "https://arxiv.org/pdf/2608.13510v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper examines fundamental structural limits on what machine learning systems can achieve, regardless of algorithmic sophistication. Using information theory and stochastic dynamics, the authors show that prediction and estimation errors are bounded by properties of the data-generating process itself — not just by how clever our algorithms are — and that violations of implicit assumptions like independence can invalidate standard learning procedures.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+    "authors": "Lei Bai, Jiaqi Cao, Chiyu Chen, Guanzhou Chen, Kai Chen et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13505v1",
+    "pdf": "https://arxiv.org/pdf/2608.13505v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "Intern-S2-Preview is a foundation model family designed to help AI systems solve scientific problems by understanding multiple types of data (text, images, numbers), using scientific tools, and making progress over long task sequences. The model combines large language model capabilities with reinforcement learning and memory systems, achieving strong results on scientific benchmarks while introducing practical techniques to train such complex systems efficiently.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
+    "authors": "Yi-Chung Chen, Philip Jacobson, Tom Lampo, Yiren Lu, Jin Yao et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13495v1",
+    "pdf": "https://arxiv.org/pdf/2608.13495v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses efficient retrieval of relevant video clips from large driving datasets by developing TraVEL, a method that fine-tunes multimodal embedding models using trajectory-guided supervision. The approach combines supervised fine-tuning on reasoning traces with reinforcement learning (using ego-trajectory similarity as a reward signal) to create compact video embeddings that capture fine-grained motion events — like turning left versus right — without requiring expert rules or auxiliary perception systems at test time.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
+    "authors": "Dananjay Srinivas, Saksham Khatwani, Maria Pacheco",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13484v1",
+    "pdf": "https://arxiv.org/pdf/2608.13484v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates why large language models (LLMs) fabricate plausible-sounding details about unfamiliar entities instead of admitting uncertainty or giving more general answers. The authors use Gricean pragmatics—a linguistic theory about cooperative communication—as a lens to study this problem, finding that models *internally encode* knowledge boundaries and can predict specificity levels, but fail to use this knowledge during generation. The work bridges interpretability and alignment by showing the mechanisms exist for honest, uncertainty-aware responses; the training objective simply doesn't incentivize them.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
+    "authors": "Julian Minder, Viktor Moskvoretskii, Raghav Singhal, Difan Jiao, Andy Arditi et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13482v1",
+    "pdf": "https://arxiv.org/pdf/2608.13482v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes Synthetic Persona Pretraining (SPP), a method that bakes desired values and behavior into language models during the initial pretraining phase rather than bolting them on afterward. The authors show that injecting value-aligned \"reflections\" into pretraining documents—then reinforcing the desired persona during fine-tuning—produces models that are more resistant to jailbreaks, better at following ethical guidelines, and more aligned on moral dilemmas, without sacrificing general capabilities.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+    "authors": "Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13476v1",
+    "pdf": "https://arxiv.org/pdf/2608.13476v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "MARC is an open-source framework that replaces single-prompt LLM interactions with coordinated teams of specialized AI agents for clinical reasoning tasks. Instead of asking one model to do everything, it routes medical questions through extraction, reasoning, generation, and evaluation agents with traceable outputs—making it easier to find where things go wrong and giving clinicians more interpretable, auditable AI decisions.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
+    "authors": "Daniel Perkins, John Squires, Janou Milligan, Chandra Raskoti, Linda Ungerboeck",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13463v1",
+    "pdf": "https://arxiv.org/pdf/2608.13463v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces ARMDIL, a system that uses a multimodal language model to intelligently choose which vision model to apply to each image, rather than using a single model for all images. The ensemble combines convolutional networks, self-supervised models, and vision-language models trained on diverse datasets, improving robustness when images come from different sources or difficulty levels.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+    "authors": "Zixuan Lan, Yanhong Li, Jiawei Zhou",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13426v1",
+    "pdf": "https://arxiv.org/pdf/2608.13426v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper proposes Reduced Matrix Multiplication (RMM), a method that speeds up transformer inference by selectively removing less important elements from matrix multiplications without retraining the model. The key insight is that many dimensions in these high-dimensional computations are redundant — RMM identifies and skips them, providing a tunable trade-off between speed and accuracy that works across different model sizes and tasks.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Heterogeneity-Aware Belief Synchronization for Semantic Communication in AI-Native 6G Networks",
+    "authors": "Muhammad Hannan Akram, Muhammad Abubakar Rashid, Wassi Haider Kabir, Haejoon Jung, Kapal Dev et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13394v1",
+    "pdf": "https://arxiv.org/pdf/2608.13394v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical challenge in future 6G networks: enabling thousands of heterogeneous AI agents (on satellites, drones, edge servers) to communicate meaningfully despite running different models and learning from different environments. The authors propose a framework using latent translation models on edge servers that synchronize agent beliefs without requiring all agents to have identical architectures or undergo joint training—reducing communication cost and privacy leakage while keeping agents sufficiently aligned to understand each other's messages.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LigBench: A Unified and Human-Aligned Benchmark for LLM-based Research Idea Generation",
+    "authors": "Chenrun Wang, Mingxuan Zhu, Tiancheng Huang, Wenjie Li, Yujie Zhang et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13136v1",
+    "pdf": "https://arxiv.org/pdf/2608.13136v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces LigBench, an automated benchmark for evaluating whether LLMs can generate good research ideas — the kind that researchers would actually want to pursue. The work matters because as LLMs become research assistants, we need objective, reliable ways to judge the quality of their suggestions rather than having LLMs score themselves, which is circular and unreliable.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FlowLOB: Efficient and Controllable Limit Order Book Generation with Flow Matching",
+    "authors": "Zhuohan Wang, Andreea Bacalum, Ollie Olby, Carmine Ventre, Namid Stillman",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13096v1",
+    "pdf": "https://arxiv.org/pdf/2608.13096v1",
+    "tags": [
+      "generative-models",
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "FlowLOB generates realistic limit order book (LOB) trajectories — the records of buy/sell orders at different prices — using flow matching, a newer generative modeling technique. The paper shows that flow matching produces high-quality, realistic market simulations with far fewer computational steps than diffusion models, while remaining controllable (you can condition it on specific market scenarios) and generalizing to unseen trading instruments without retraining.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VALG: An Agentic System for ML Theory Research",
+    "authors": "Dechen Zhang, Xuan Tang, Xinxiang Yin, Xingwu Chen, Jian Qian et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13060v1",
+    "pdf": "https://arxiv.org/pdf/2608.13060v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "VALG is an autonomous AI system that conducts machine learning theory research by breaking down theorem-proving into manageable steps: formulating problems, constructing proofs, and learning from failures. When proofs fail, the system diagnoses whether the problem is a calculation error, proof structure, or flawed assumptions—then adjusts accordingly. Tested on open problems from a top theory conference, it produced two complete theorem candidates and several partial results, showing that agentic workflows can meaningfully contribute to mathematical discovery.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents",
+    "authors": "Zhenhua Zou, Sheng Guo, Qiuyang Zhan, Lepeng Zhao, Shuo Li et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13030v1",
+    "pdf": "https://arxiv.org/pdf/2608.13030v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "InterSAGE is a security protocol suite that enables LLM-powered agents to safely interact across organizational boundaries—proving their identity, capabilities, and accountability. It fills a critical gap in agent interoperability: existing communication protocols define how agents talk, but not how they establish trust or prove what they're authorized to do.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OGR-MARL: Option-Guided Residual Multi-Agent Reinforcement Learning for Heterogeneous USV Cooperative Pursuit in Constrained Port Waterways",
+    "authors": "Mao Jiayang, Wang Lanfeng, Peng Zhao-Han",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12995v1",
+    "pdf": "https://arxiv.org/pdf/2608.12995v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents OGR-MARL, a framework for controlling multiple heterogeneous unmanned surface vehicles (USVs) working together to chase a target in constrained port waterways. The key innovation is combining rule-based navigation constraints with learned corrective behaviors, allowing agents to satisfy safety and traffic rules while still optimizing for mission success — achieving a 75% capture rate in realistic port scenarios.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Online Inference for Quantile Temporal Difference Learning in Distributional Reinforcement Learning",
+    "authors": "Zijie Cheng, Yang Peng, Zhihua Zhang",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12973v1",
+    "pdf": "https://arxiv.org/pdf/2608.12973v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops statistical inference methods for quantile temporal difference learning, a technique used in distributional reinforcement learning to learn the full distribution of future rewards rather than just expected values. The key innovation is an online inference procedure that computes confidence intervals and hypothesis tests efficiently without storing entire trajectories, making it practical for large-scale RL applications.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+    "authors": "Hamza Shafiq, Hung Manh Pham, Bin Zhu, Pan Zhou, Jun Hu et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12944v1",
+    "pdf": "https://arxiv.org/pdf/2608.12944v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces CardioState-JEPA, a foundation model that learns a single shared representation from three different cardiac sensors—ECG (electrical), PPG (blood flow), and PCG (heart sounds)—by training them jointly rather than separately. The key innovation is handling the natural time delays between these signals and exploiting the fact that they measure the same underlying cardiac cycle, which improves performance on downstream tasks across all three modalities by 8–19 percentage points over single-modality baselines.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "High-resolution Calibrated Probabilistic Hourly Precipitation from a Deterministic Forecast",
+    "authors": "Thomas M Hamill",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12685v1",
+    "pdf": "https://arxiv.org/pdf/2608.12685v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper describes a neural network method called Attention Residual U-Net that predicts hourly rainfall probability and intensity across the United States. Instead of just guessing yes/no for rain, it outputs a full probability distribution — the chance of no rain plus the likely amounts if it does rain. This matters because accurate probabilistic rainfall forecasts help with flood warnings, water management, and emergency planning.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies",
+    "authors": "Conor F. Hayes, Elliot Meyerson, Kajetan Schweighofer, Roberto Dailey, Babak Hodjat et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12679v1",
+    "pdf": "https://arxiv.org/pdf/2608.12679v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that Evolution Strategies (ES)—a gradient-free optimization method that explores weight space through random perturbations—produces better solution diversity than standard reinforcement learning when fine-tuning large language models. The key insight: RL narrows the model's output distribution around high-reward answers, but ES maintains a broader distribution that yields more correct solutions when the model generates multiple candidate answers (pass@k), ultimately improving performance on math and science problems.",
+    "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
     "authors": "Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang et al.",
     "published": "2026-08-12",
@@ -1210,6 +1701,23 @@
     ],
     "summary": "This paper proposes a new framework for building trading strategies that prioritizes meeting explicit investor requirements—like controlling style exposure or managing portfolio turnover—rather than simply maximizing a single performance metric. The key innovation is treating strategy construction as a formal specification problem: investors describe what they want in a structured language, a compiler assembles candidate pipelines from a vast design space, and a rigorous verification protocol confirms each pipeline actually satisfies the stated constraints before deployment.",
     "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Graph Neural Network--Guided Genetic Algorithm for Physical Internet Supply Chain Optimization under Cost Uncertainty",
+    "authors": "Faezeh Ardali, Gerald M. Knapp",
+    "published": "2026-08-10",
+    "url": "http://arxiv.org/abs/2608.10245v1",
+    "pdf": "https://arxiv.org/pdf/2608.10245v1",
+    "tags": [
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper solves supply chain planning in Physical Internet networks — a system where factories, distribution hubs, and retailers collaborate — by combining graph neural networks (GNNs) with genetic algorithms. The key innovation is using a GNN to learn good factory-to-hub assignments, which then guides a genetic algorithm's search through millions of possible configurations. This matters because supply chains face uncertain costs and complex interdependencies; the hybrid approach finds better solutions faster than traditional optimization alone.",
+    "date_added": "2026-08-14",
     "starred": false,
     "trusted": ""
   },
