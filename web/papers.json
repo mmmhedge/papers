@@ -921,6 +921,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models",
+    "authors": "Mohammed Ayman Habib, Rylan Hart, Morteza Fayazi",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13472v1",
+    "pdf": "https://arxiv.org/pdf/2608.13472v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents AaLLM, an end-to-end system that uses large language models to design analog circuits automatically — both choosing circuit topologies (the structure) and sizing components (the values). Rather than requiring experts to manually iterate between different design tools, AaLLM takes user specifications as input and outputs a complete circuit design, achieving designs as good as or better than hand-crafted ones while running 40x faster than existing approaches.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
     "authors": "Daniel Perkins, John Squires, Janou Milligan, Chandra Raskoti, Linda Ungerboeck",
     "published": "2026-08-13",
@@ -933,6 +951,75 @@
     ],
     "summary": "This paper introduces ARMDIL, a system that uses a multimodal language model to intelligently choose which vision model to apply to each image, rather than using a single model for all images. The ensemble combines convolutional networks, self-supervised models, and vision-language models trained on diverse datasets, improving robustness when images come from different sources or difficulty levels.",
     "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Doubly Robust Estimation of Causal Effect on CVR with Targeted Regularization",
+    "authors": "Jiayi Dan, Bo Li, Lu Deng, Yong Wang",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13461v1",
+    "pdf": "https://arxiv.org/pdf/2608.13461v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops a new statistical method for estimating causal effects on conversion rates (CVR) — a critical metric in e-commerce and advertising. The challenge is that clicked samples alone introduce selection bias and noise; the authors solve this by creating a \"doubly robust\" estimator grounded in semiparametric theory, which converges faster and works reliably even with flexible neural network models.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CAPRI: Contract-Aware Proof Repair for Isabelle",
+    "authors": "Jim Woodcock, Gabriel Leite, Augusto Sampaio, Ran Wei",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13459v1",
+    "pdf": "https://arxiv.org/pdf/2608.13459v1",
+    "tags": [
+      "large-language-models"
+    ],
+    "summary": "This paper presents CAPRI, a system for using LLMs to repair failed Isabelle proofs (formal mathematical proofs written in a proof assistant) while ensuring that LLM edits stay within authorized boundaries. The key insight is that simply checking whether Isabelle accepts a proof isn't enough — you also need to verify that the LLM didn't secretly modify parts of the code the developer didn't intend. CAPRI adds a \"contract\" layer that tracks exactly what changed, making the repair process auditable and safer for use in high-assurance software development.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
+    "authors": "Avinash Kori, Fabrizio Russo",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13456v1",
+    "pdf": "https://arxiv.org/pdf/2608.13456v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes a unified framework for understanding world models — neural networks that learn to predict and understand how environments evolve — through a causal lens. The authors argue that effective world models must not just generate accurate predictions but also capture causal relationships between entities and their interactions. By connecting world modelling to causal representation learning and structural causal models, they provide formal foundations for building agents that can reason about and act in complex environments beyond their training experience.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
+    "authors": "Yukun Dai, Mingzhe Dai, Tianshi Wang, Fengling Li, Jingjing Li et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13453v1",
+    "pdf": "https://arxiv.org/pdf/2608.13453v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "computer-vision"
+    ],
+    "summary": "This paper demonstrates that Vision-Language-Action (VLA) models — neural networks that understand images, text instructions, and produce robot control actions — can be fooled by a single adversarial texture placed on a 3D object. The attack works across multiple different tasks without needing to be retrained, revealing a fundamental shared vulnerability in how these robotic AI systems process visual information.",
+    "date_added": "2026-08-15",
     "starred": false,
     "trusted": ""
   },
@@ -969,6 +1056,59 @@
     ],
     "summary": "This paper addresses a critical challenge in future 6G networks: enabling thousands of heterogeneous AI agents (on satellites, drones, edge servers) to communicate meaningfully despite running different models and learning from different environments. The authors propose a framework using latent translation models on edge servers that synchronize agent beliefs without requiring all agents to have identical architectures or undergo joint training—reducing communication cost and privacy leakage while keeping agents sufficiently aligned to understand each other's messages.",
     "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RippleMem: From Isolated Retrieval to Associative Recollection for Long-Term Agent Memory",
+    "authors": "Jingbo Ji, Lingyi Li, Xilong Cheng, Yuhao Zhou, Wenji Zhang et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13334v1",
+    "pdf": "https://arxiv.org/pdf/2608.13334v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a critical problem in LLM-based agents: retrieving the right information from long-term memory when relevant evidence is scattered across many past interactions. RippleMem solves this by replacing simple one-shot retrieval with adaptive associative recollection — it recalls relevant memories, then follows semantic and structural connections to find supporting evidence, much like how humans reconstruct a complete memory from a partial cue. The approach improves accuracy by up to 12% on benchmarks while reducing computational cost by 30x.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "It's How You Ask: Gender-Associated Linguistic Bias in LLMs",
+    "authors": "Katherine Van Koevering, Anjalie Field",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13328v1",
+    "pdf": "https://arxiv.org/pdf/2608.13328v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper shows that LLMs systematically respond differently to linguistically identical requests depending on whether they contain speech patterns more common among women—like hedges (\"maybe,\" \"I think\"), tag questions (\"isn't it?\"), and collective language (\"we\"). The researchers find that these linguistic features trigger shorter, less sophisticated responses, and that this bias persists even after controlling for prompt complexity and is harder to fix than explicit gender cues like names. The work matters because professional communication increasingly flows through LLMs, and these disparities could amplify existing workplace inequities.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mixture of Training: Recombining Small-Scale Scaffolded Pretraining Runs into a Larger Language Model",
+    "authors": "Mohammed Sabry, Sean Augenstein, Keith Rush, Lucio Dery",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13277v1",
+    "pdf": "https://arxiv.org/pdf/2608.13277v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes Mixture of Training (MoT), a method to break down language model pretraining into independent, modular training jobs that can be recombined into a single larger model. Rather than training one giant model end-to-end, MoT trains separate \"depth slices\" (contiguous layers) within frozen scaffolds and then stitches them together. The authors demonstrate this works on a 1.3B-parameter model, achieving comparable performance to traditional monolithic pretraining while offering potential computational advantages through parallelization and reuse.",
+    "date_added": "2026-08-15",
     "starred": false,
     "trusted": ""
   },
@@ -1061,6 +1201,23 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research",
+    "authors": "Xing Zhang, Yanwei Cui, Guanghui Wang, Peiyang He",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12984v1",
+    "pdf": "https://arxiv.org/pdf/2608.12984v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical problem in LLM-generated long-form reports: factual drift, self-contradiction, and loss of provenance (the chain of evidence). The authors build a two-part system—a deterministic \"librarian\" that maintains a trust-tiered knowledge library with timestamped sources, and a multi-agent \"writer\" that composes reports grounded in evidence at any historical cutoff without looking ahead. The work matters because it solves reproducibility and verifiability in AI-generated research, moving beyond simple retrieval-augmented generation (RAG) to a structured, auditable knowledge layer.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Online Inference for Quantile Temporal Difference Learning in Distributional Reinforcement Learning",
     "authors": "Zijie Cheng, Yang Peng, Zhihua Zhang",
     "published": "2026-08-13",
@@ -1089,6 +1246,42 @@
     ],
     "summary": "This paper introduces CardioState-JEPA, a foundation model that learns a single shared representation from three different cardiac sensors—ECG (electrical), PPG (blood flow), and PCG (heart sounds)—by training them jointly rather than separately. The key innovation is handling the natural time delays between these signals and exploiting the fact that they measure the same underlying cardiac cycle, which improves performance on downstream tasks across all three modalities by 8–19 percentage points over single-modality baselines.",
     "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Discovering Efficient and Explainable Communication Topologies for LLM-based Multi-Agent Systems via Causal Inference",
+    "authors": "Junzhi Li, Peng He, Qirui Ji, Wei Wang, Lixiang Liu et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12921v1",
+    "pdf": "https://arxiv.org/pdf/2608.12921v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces E2-Explainer, a framework that identifies which communication channels matter in LLM-based multi-agent systems by using causal inference to discover compact, interpretable communication subgraphs. Instead of treating agent communication as a black box, the authors show how to extract minimal but sufficient communication patterns and use them to prune redundant messages, reducing computational costs while maintaining task performance.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agent Behavioral Contracts II: Certifying Compositional Reliability Without Assuming Independence",
+    "authors": "Varun Pratap Bhardwaj, Garima Singh, Arun Pratap Bhardwaj",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.12895v1",
+    "pdf": "https://arxiv.org/pdf/2608.12895v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper challenges a dangerous assumption in multi-agent system reliability: that component failures are independent. The authors show that two instances of the same language model fail together on 90% of shared failures, not the 10% predicted by independence math. They develop a new certification method that doesn't assume independence away and actually works in practice.",
+    "date_added": "2026-08-15",
     "starred": false,
     "trusted": ""
   },
@@ -1124,6 +1317,42 @@
     ],
     "summary": "This paper shows that Evolution Strategies (ES)—a gradient-free optimization method that explores weight space through random perturbations—produces better solution diversity than standard reinforcement learning when fine-tuning large language models. The key insight: RL narrows the model's output distribution around high-reward answers, but ES maintains a broader distribution that yields more correct solutions when the model generates multiple candidate answers (pass@k), ultimately improving performance on math and science problems.",
     "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLMs Are Not Good Strategists, Yet Memory-Enhanced Agency Boosts Reasoning",
+    "authors": "Yi Wu, Zhimin Hu",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12626v1",
+    "pdf": "https://arxiv.org/pdf/2608.12626v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that standard LLMs struggle with long-horizon strategic reasoning because their attention mechanism can't maintain coherent goals across thousands of steps. The authors propose EpicStar, a memory-augmented agent framework that stores successful past episodes and uses dynamic gating to decide whether to reuse old strategies or reason through new ones. Testing on StarCraft II, EpicStar dramatically outperforms baselines while using 10× fewer tokens, suggesting that structured memory is essential for LLMs to act as effective autonomous agents in complex environments.",
+    "date_added": "2026-08-15",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do LLMs Beat Nash? Testing Decentralized Coordination in Self-Play Multi-Agent Games",
+    "authors": "Deborah Sinishaw, Qile Zhu, Edwin Meriaux, Gregory Dudek",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12547v1",
+    "pdf": "https://arxiv.org/pdf/2608.12547v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper tests whether large language models can coordinate with each other in games without communication, asking if they can reason about their counterparts well enough to beat the Nash equilibrium — the standard game-theory baseline for uncoordinated play. The researchers find that frontier models sometimes exceed Nash equilibrium outcomes in two-player games but struggle in larger multi-agent teams, suggesting LLMs have limited ability to scale coordination reasoning beyond simple settings.",
+    "date_added": "2026-08-15",
     "starred": false,
     "trusted": ""
   },
