@@ -1359,6 +1359,42 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Entropy-Augmented Multi-Objective Policy Optimization in Multiagent Systems",
+    "authors": "Jamie Santos, Ayhan Alp Aydeniz, Raghav Thakar, Kagan Tumer",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12534v1",
+    "pdf": "https://arxiv.org/pdf/2608.12534v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a key problem in multi-agent coordination: when multiple autonomous agents optimize for competing objectives, they often converge to similar behaviors, losing the behavioral diversity needed to adapt to different situations. The authors propose augmenting standard multi-objective evolutionary optimization (NSGA-II) with an entropy bonus that rewards behavioral diversity alongside objective performance, achieving up to 48% improvement in solution quality on rover coordination tasks.",
+    "date_added": "2026-08-16",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach",
+    "authors": "Jiaao Ma, Chuan Lin, Guangjie Han, Shengchao Zhu, Qian Zhu et al.",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.12436v1",
+    "pdf": "https://arxiv.org/pdf/2608.12436v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses cooperative target tracking by multiple autonomous underwater vehicles (AUVs) communicating through ad-hoc networks under realistic constraints like limited acoustic bandwidth and ocean currents. The authors propose VGG-MADiffRL, a novel multi-agent reinforcement learning algorithm that combines diffusion policies with value gradients to generate more stable, accurate control actions. The approach matters because underwater multi-agent coordination is practically hard (noisy communication, dynamic topology, environmental uncertainty) and existing MARL methods produce unstable policies in these settings.",
+    "date_added": "2026-08-16",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
     "authors": "Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang et al.",
     "published": "2026-08-12",
@@ -1778,6 +1814,41 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Is Per-Agent Policy Composition Safe? Rethinking Successor-Feature Transfer in Cooperative Multi-Agent Reinforcement Learning",
+    "authors": "Zijian Zhao, Sen Li",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11658v1",
+    "pdf": "https://arxiv.org/pdf/2608.11658v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical safety problem in multi-agent reinforcement learning: when teams of agents independently recombine learned policies to serve new objectives after deployment, the resulting joint behavior can be worse than any single policy in their library. The authors prove this failure occurs uniquely in multi-agent settings and propose MA-USFA, a hierarchical method that composes agent policies safely while remaining flexible enough to assign different goals to different agents.",
+    "date_added": "2026-08-16",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Memory: A Transactional Continuity Kernel for Long-Lived AI Agents",
+    "authors": "Jun He, Deying Yu",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.11632v1",
+    "pdf": "https://arxiv.org/pdf/2608.11632v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical infrastructure problem: how do long-lived AI agents safely maintain and update their internal state when multiple untrusted components (models, tools, background processes) can propose changes? The authors propose the Continuity Kernel (CK), a transactional system that ensures state updates follow an authorized lineage, preventing stale overwrites, privilege escalation, and unaudited changes. This matters because as AI agents become persistent and autonomous, their state management can't rely on memory alone—it needs explicit governance, much like database transactions ensure consistency.",
+    "date_added": "2026-08-16",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Predictive Allostatic Organization in Recurrent and Spiking Agents Under Partial Observability",
     "authors": "Frederick Hayes",
     "published": "2026-08-11",
@@ -1790,6 +1861,24 @@
     ],
     "summary": "This paper investigates how recurrent and spiking neural networks develop interpretable internal structures when learning to survive in resource-constrained environments with incomplete information. The authors find that these agents organize their internal states in ways that predict future events and encode energy levels, suggesting a computational principle called \"predictive allostatic organization\" that may explain how brains and AI systems balance competing goals under uncertainty.",
     "date_added": "2026-08-13",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+    "authors": "Da Saem Lee, Yash Vardhan Pant, Sebastian Fischmeister",
+    "published": "2026-08-11",
+    "url": "http://arxiv.org/abs/2608.11407v1",
+    "pdf": "https://arxiv.org/pdf/2608.11407v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces TrafficDiffuser, a framework that generates realistic traffic scenarios by jointly modeling agent initial positions and goal destinations using diffusion models, then filling in trajectories between them. This addresses a key bottleneck in autonomous vehicle testing: existing simulators require manual specification of starting conditions, limiting the diversity and realism of generated scenarios. The approach makes scenario generation more interpretable and scalable for simulation-based AV development.",
+    "date_added": "2026-08-16",
     "starred": false,
     "trusted": ""
   },
