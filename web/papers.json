@@ -674,6 +674,476 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
+    "authors": "Yijiao Zhang, Hongzhe Li",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14542v1",
+    "pdf": "https://arxiv.org/pdf/2608.14542v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proposes generation-powered inference (GPI), a statistical framework that uses imperfect generative models to improve inference on distribution-valued outcomes — like predicting how cells respond to genetic changes. The key insight is that even flawed generative models contain useful information; GPI shows how to extract and leverage that information rigorously, with statistical guarantees, without assuming the generative model is correct.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+    "authors": "Karel Becerra, Boris Mederos, Dean Snow, Ramón A. Mollineda",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14539v1",
+    "pdf": "https://arxiv.org/pdf/2608.14539v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper applies deep learning with explicit uncertainty quantification to determine the biological sex of individuals who created prehistoric hand stencils from the Upper Paleolithic period. The researchers built an ensemble framework that combines multiple neural networks and validation techniques to handle the degradation and ambiguity inherent in ancient rock art, producing both predictions and confidence measures that distinguish between anatomically clear and ambiguous cases.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Handover of In-Context Learning State Across Session Boundaries",
+    "authors": "Masahiro Kato, Taka Kato",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14528v1",
+    "pdf": "https://arxiv.org/pdf/2608.14528v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a practical problem: when an LLM task spans multiple sessions (due to context limits, restarts, or handoffs to other agents), what information must be preserved to maintain the model's understanding? The authors develop a theoretical framework showing that handover can be characterized by predictive equivalence, derive memory requirements for different scenarios, and propose a three-part record structure that balances fidelity with efficiency. This matters because multi-session workflows are common in real applications, yet there's no principled way to decide what to save.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
+    "authors": "Taenyun Kim, Edyta Bogucka, Daniele Quercia",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14522v1",
+    "pdf": "https://arxiv.org/pdf/2608.14522v1",
+    "tags": [
+      "alignment"
+    ],
+    "summary": "This paper reveals that \"participatory moral AI\"—the practice of polling people on ethical dilemmas to train AI systems—is never neutral. Before any vote happens, developers make three hidden choices: which moral features to ask about, which people to poll, and how to phrase the question. Each choice shapes the outcome. The research tests this across three real scenarios (kidney allocation, worker absence, AI-generated deceased people) and shows that these developer decisions can shift moral preferences by as much as a full rating-scale point—often without transparency or accountability.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
+    "authors": "Yubo Zhang, Yiyao Liu, Xiaodong Wang",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14511v1",
+    "pdf": "https://arxiv.org/pdf/2608.14511v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a learning-to-transition (L2T) framework that uses neural networks to solve MIMO detection — the problem of efficiently decoding transmitted symbols from received wireless signals in systems with many antennas. The approach combines Transformers with iterative refinement to find good symbol sequences quickly while also producing the soft probability information needed for downstream channel decoding, achieving better performance than traditional algorithmic methods on high-order (many possible symbol combinations) detection tasks.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
+    "authors": "Pin-Yen Huang, Sachin Chhabra, Prasanth Sai Gouripeddi, Abhinav Kumar, Baoxin Li",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14505v1",
+    "pdf": "https://arxiv.org/pdf/2608.14505v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "RecipeNet is a hierarchical Transformer architecture designed to understand recipe data—ordered sequences of steps with multiple structured fields—across domains like materials synthesis, pharmaceuticals, and manufacturing. Rather than flattening recipes into fixed tables (the standard approach), it captures both field-level interactions within each step and sequential dependencies across steps, outperforming existing tabular learning methods on benchmark tasks.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+    "authors": "Hanfeng Lu, Tianyu Feng, Suyi Li, Yuheng Zhao, Wei Gao et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14498v1",
+    "pdf": "https://arxiv.org/pdf/2608.14498v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents Rollplex, a GPU scheduling runtime that speeds up vision-language model (VLM) post-training by overlapping independent computation phases that would otherwise run sequentially. The key insight is that prefix processing (which doesn't depend on model outputs) can be executed during rollout decoding without breaking the guarantees of on-policy reinforcement learning, but this requires careful memory and parallelism management to fit everything on limited GPU memory.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+    "authors": "Hao Yan, Lisa Pilgram, Dan Liu, Linglong Kong, Fida Dankar et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14496v1",
+    "pdf": "https://arxiv.org/pdf/2608.14496v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proposes a method to generate synthetic health data from multiple heterogeneous tables (tables with different column structures) using diffusion transformers. The key innovation is a two-stage framework: first, it converts disparate tables into a standardized statistical representation, then trains a diffusion transformer to learn patterns and generate new synthetic tables. This matters because healthcare organizations need realistic benchmark datasets for research and testing while preserving privacy.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Approximate Muon with low-rank adapters",
+    "authors": "Ben Anson, Conor Houghton, Edward Milsom",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14492v1",
+    "pdf": "https://arxiv.org/pdf/2608.14492v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper adapts the Muon optimizer — which works well for pretraining neural networks — to work with LoRA (low-rank adapters), a popular parameter-efficient fine-tuning method. The key insight is that Muon's orthogonalization step doesn't naturally work with low-rank updates, so the authors approximate a relaxed version of Muon's objective using linearization and least-squares, creating sMuon. The result is modest but consistent performance improvements across fine-tuning tasks while keeping computation efficient.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LP-NAS: Linear Programming-based Neural Architecture Search",
+    "authors": "Abhishek Shukla, Ankur Sinha, Faiz Hamid",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14472v1",
+    "pdf": "https://arxiv.org/pdf/2608.14472v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes LP-NAS, a method for automating neural network design by formulating architecture search as a linear programming problem. Instead of manually designing networks, the algorithm automatically discovers good architectures by using gradient and curvature information from training to guide the search, achieving better results than existing methods like DARTS.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Expected Free Energy-based Informative Path Planning for Robotic Mars Exploration",
+    "authors": "Ajith Anil Meera, Pablo Lanillos, Wouter Kouw",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14466v1",
+    "pdf": "https://arxiv.org/pdf/2608.14466v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper proposes using Expected Free Energy (EFE), a decision-making framework from active inference, to guide robots exploring unknown environments like Mars. The key insight is that robots need to simultaneously gather accurate information AND find valuable locations, while staying within energy/distance budgets — and EFE unifies these competing goals into a single principled objective. The approach outperforms standard information-seeking or reward-seeking methods alone.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View",
+    "authors": "Yixian Xu, Yuanrui Zhang, Shengjie Luo, Liwei Wang, Di He",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14430v1",
+    "pdf": "https://arxiv.org/pdf/2608.14430v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper unifies two seemingly different families of reinforcement learning algorithms for diffusion models by showing they both emerge from the same mathematical principle. The authors derive a policy-gradient estimator from first principles, explain why existing methods differ only in variance-reduction choices, and propose an improved algorithm that outperforms prior approaches on large-scale image generation models.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Offline Deep Q* Estimation with Diffusion Models",
+    "authors": "Xiaohong Chen, Yuling Jiao, Lican Kang, Jerry Zhijian Yang, Chen Zhong",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14401v1",
+    "pdf": "https://arxiv.org/pdf/2608.14401v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a core problem in offline reinforcement learning: estimating the optimal action-value function (Q*) when you can only learn from a fixed dataset, without interacting with the environment. The key innovation is using diffusion models — generative neural networks that learn complex distributions — to first estimate the unknown reward function and state transitions, then using those estimates to solve the Bellman equation (the recursive relationship that defines optimal decision-making). The paper provides rigorous theoretical guarantees showing the method converges at a specific rate and demonstrates it works well in practice.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Whose doctor does the AI recommend? An algorithm audit of reputation and demographic signals in large language model-assisted physician choice",
+    "authors": "Syeda Anshrah Gillani, Mirza Samad Ahmed Baig",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14399v1",
+    "pdf": "https://arxiv.org/pdf/2608.14399v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper audits whether large language models recommend physicians fairly when patients ask for referrals. Researchers tested seven LLMs with 40,000+ randomized physician profiles and found that while reputation signals (ratings, fees) dominate recommendations, demographic biases exist but are hidden — models rarely mention gender or ethnicity in their explanations, making these invisible to standard transparency checks.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLMs Don't Pay for the Jump",
+    "authors": "Paras Balani, Subhrakanta Panda",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14397v1",
+    "pdf": "https://arxiv.org/pdf/2608.14397v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper argues that large language models cannot perform genuine abductive reasoning—the creative leap that produces fundamentally new scientific principles—because they lack a physical mechanism that makes epistemic errors costly. The authors show that transformer inference decouples reasoning from physical consequence, allowing models to maintain high output entropy even when faced with tasks of sharply increasing difficulty, and propose that true abduction requires a coupling between error and cost, not just embodied simulation.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Submodular Policy Learning for Distributed Task Allocation in Open Multi-Agent Systems",
+    "authors": "Jing Liu, Luca Ballotta, Yangyang Yang, Fangfei Li, Yang Tang et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14390v1",
+    "pdf": "https://arxiv.org/pdf/2608.14390v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles policy learning for task allocation when agents dynamically join and leave a system, with utilities that have submodular structure (diminishing returns on adding more agents). The key challenge is that standard optimization techniques don't align with how agents actually make decisions through local policies. The authors propose SubMAPL, a decentralized learning algorithm that uses a new mathematical tool (partition multilinear extension) to bridge this gap and prove it achieves near-optimal performance in time-varying environments.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Survey of Large Models in Sports",
+    "authors": "Yichen Xu, Jianzhe Ma, Chuhan Wang, Zhonghao Cao, Liangyu Chen et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14377v1",
+    "pdf": "https://arxiv.org/pdf/2608.14377v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This survey catalogs how large language models and multimodal models are being applied across sports — from game analysis to fan engagement to coaching. It's important because sports is a massive global industry, and LLMs/vision models offer new ways to understand play, predict outcomes, and personalize fan experiences at scale.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages",
+    "authors": "Chih-Hsuan Yang, Anjir Ahmed Chowdhury, Cheng-Hau Yang, Weijian Zheng, Fernando Llorente et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14375v1",
+    "pdf": "https://arxiv.org/pdf/2608.14375v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper shows that in multi-agent reasoning systems, wrong answers can still be useful for reaching correct final conclusions. The authors introduce Diverse Hypothesis Deliberation (DHD), a measurement method that tests whether individual messages help or harm downstream reasoning by replaying the same solver with each message hidden or visible. They find that across multiple benchmarks and models, incorrect messages frequently improve final correctness because they contain valuable reasoning steps, constraints, or principles—suggesting that agreement or correctness alone shouldn't determine which messages to keep.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Four-Axis Trustworthiness Benchmark for LLM-as-Judge in Principle-Based Regulation",
+    "authors": "Dipankar Sarkar",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14329v1",
+    "pdf": "https://arxiv.org/pdf/2608.14329v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper evaluates whether large language models can reliably serve as judges for principle-based financial regulation—the kind that uses vague standards like \"fair and not misleading\" rather than rigid rules. The authors introduce Principle-Bench, a benchmark with 168 test cases designed to measure four critical aspects: whether LLM judges are accurate, robust to paraphrasing, resistant to adversarial attacks, and well-calibrated in their confidence. They find that existing LLM judges fail catastrophically on some tests and disagree with each other, raising serious questions about deploying them in real regulatory contexts.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Revisiting Energy-based Tabular Anomaly Detection: Energy and Reconstruction are Complementary",
+    "authors": "Junichiro Niimi",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14186v1",
+    "pdf": "https://arxiv.org/pdf/2608.14186v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper revisits Deep Boltzmann Machines (DBMs) — a classical energy-based model — for detecting anomalies in tabular data and shows that their energy scores complement reconstruction-based methods like autoencoders better than existing approaches do. When combined via rank fusion, DBM energy and autoencoder reconstruction together outperform either method alone, suggesting that explicit energy modeling offers a non-redundant perspective on anomaly detection that modern methods have largely overlooked.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+    "authors": "Nirvik Sahoo, Chyng Wen Tee, Paul Robert Griffin",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14134v1",
+    "pdf": "https://arxiv.org/pdf/2608.14134v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper compares three optimization approaches for building diversified stock portfolios: photonic quantum annealers, classical mixed-integer programming solvers, and deep reinforcement learning agents. The key finding is that while quantum hardware can find mathematically superior portfolio allocations in specific scenarios, classical solvers remain more reliable for real-world constraints like controlling tail risk, and reinforcement learning agents struggle when optimizing for higher-order statistics like skewness.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Graph-Based Reinforcement Learning Framework for Structured Drift Diagnosis and Recovery in Autonomous LLM Agents",
+    "authors": "Ismail El Hamraoui, Sagar Jose, Nicolas Bureau, Robert Plana",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14109v1",
+    "pdf": "https://arxiv.org/pdf/2608.14109v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical problem: autonomous LLM agents deployed in real-world workflows can silently drift from their intended behavior, causing harmful side effects. The authors propose a plug-and-play recovery system that uses a small language model trained via reinforcement learning to detect drift, assess risk, and decide whether to intervene — without retraining the expensive main agent. The approach is tested on a public benchmark and shows promise in reliably catching and recovering from behavioral drift.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Forecast Collapse in Time-Series Foundation Models",
+    "authors": "Shu Wan, Miles Ma, Hank Zhu, Guangqi Liu, Stephen Wang et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.14106v1",
+    "pdf": "https://arxiv.org/pdf/2608.14106v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "Time-series foundation models produce flat, uninformative predictions when forecasting stock returns — a failure the authors call \"forecast collapse\" — even though they perform well on other financial data like trading volume. The paper identifies that this collapse stems from a fundamental tradeoff between calibration (accuracy of predicted magnitudes) and ranking (ability to distinguish which stocks will outperform), and proposes CalibRank, a new objective function that recovers predictive power by optimizing both simultaneously.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "XAI-Guided Conservative Decentralized Execution for Offline Multi-Agent Network Slicing",
+    "authors": "Eslam Eldeeb, Hatim Chergui, Merouane Debbah",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.13982v1",
+    "pdf": "https://arxiv.org/pdf/2608.13982v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses resource allocation in 6G network slicing—where multiple services compete for shared infrastructure—using a novel offline multi-agent reinforcement learning (MARL) approach called X-CODE. The key innovation is that agents learn decentralized policies during centralized training without ever interacting with the network, eliminating costly and unsafe online trial-and-error while achieving zero resource conflicts and 88% lower inference latency than online methods.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reducing ANN-SNN Conversion Error via Residual Membrane Potential Alignment",
+    "authors": "Zirui Chen, Zihan Huang, Tong Bu, Jianhao Ding, Yiting Dong et al.",
+    "published": "2026-08-14",
+    "url": "http://arxiv.org/abs/2608.13952v1",
+    "pdf": "https://arxiv.org/pdf/2608.13952v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper addresses a key problem in neuromorphic computing: converting trained artificial neural networks (ANNs) into efficient spiking neural networks (SNNs) without losing accuracy. The authors propose a method that fixes errors introduced during conversion, especially when using very few time steps, making SNNs practical for deployment on low-power hardware.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Passive Delegates to Strategic Negotiators: Reinforcing Social Reasoning in Small Language Models with SocialRL",
+    "authors": "Wenyue Hua, Zachary Huang, Tyler Payne, Safoora Yousefi, Saleema Amershi et al.",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13787v1",
+    "pdf": "https://arxiv.org/pdf/2608.13787v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper trains small language models (4B parameters) to negotiate strategically on behalf of users by applying reinforcement learning to social reasoning. The key insight: models trained to be helpful assistants often make poor negotiators because they're too trusting and conciliatory. SocialRL teaches models to protect their principal's interests while negotiating across six domains (deal-making, job interviews, marketplace haggling), matching or exceeding GPT-4/5 performance in cross-domain evaluation.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SAGE: Surrogate-gradient Adaptation via Attention-Guided Entropy for Spiking Transformers",
+    "authors": "Kiran Nair, Rodrigue Rizk, KC Santosh",
+    "published": "2026-08-13",
+    "url": "http://arxiv.org/abs/2608.13702v1",
+    "pdf": "https://arxiv.org/pdf/2608.13702v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper proposes SAGE, a training technique that improves spiking neural networks (SNNs)—energy-efficient brain-inspired neural networks that use sparse event-driven computation—by adaptively adjusting how gradients flow through layers during training. The key insight is using attention mechanism uncertainty to dynamically tune the surrogate-gradient slope (a technical workaround needed because spike functions aren't directly differentiable), achieving 1-2% accuracy improvements on image classification without changing the deployed model.",
+    "date_added": "2026-08-17",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
     "authors": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan et al.",
     "published": "2026-08-13",
@@ -1317,6 +1787,24 @@
     ],
     "summary": "This paper shows that Evolution Strategies (ES)—a gradient-free optimization method that explores weight space through random perturbations—produces better solution diversity than standard reinforcement learning when fine-tuning large language models. The key insight: RL narrows the model's output distribution around high-reward answers, but ES maintains a broader distribution that yields more correct solutions when the model generates multiple candidate answers (pass@k), ultimately improving performance on math and science problems.",
     "date_added": "2026-08-14",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Adjacency-Based Spectral Proxy Control of Mobile Communication Agents",
+    "authors": "Mariana del Castillo, Federico Larroca",
+    "published": "2026-08-12",
+    "url": "http://arxiv.org/abs/2608.13616v1",
+    "pdf": "https://arxiv.org/pdf/2608.13616v1",
+    "tags": [
+      "graph-neural-networks",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper solves a practical problem in mobile agent networks: how to reposition communication agents to maintain network connectivity as task agents move around. Instead of using the standard but computationally hard Fiedler vector approach, the authors propose A-Fiedler, which uses the simpler adjacency matrix eigenvector as a proxy. The result is a control method that's easier to implement in real distributed systems and more robust when communication is limited.",
+    "date_added": "2026-08-17",
     "starred": false,
     "trusted": ""
   },
