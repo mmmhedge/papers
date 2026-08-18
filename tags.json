@@ -3,23 +3,23 @@
   "last_clustered": "2026-08-16T08:30:08.965165+00:00",
   "tags": {
     "agents": {
-      "count": 370,
+      "count": 382,
       "first_seen": ""
     },
     "algorithmic-trading": {
-      "count": 19,
+      "count": 21,
       "first_seen": ""
     },
     "alignment": {
-      "count": 127,
+      "count": 130,
       "first_seen": ""
     },
     "computer-vision": {
-      "count": 135,
+      "count": 137,
       "first_seen": ""
     },
     "deep-learning": {
-      "count": 384,
+      "count": 389,
       "first_seen": ""
     },
     "derivatives-pricing": {
@@ -27,7 +27,7 @@
       "first_seen": ""
     },
     "generative-models": {
-      "count": 91,
+      "count": 94,
       "first_seen": ""
     },
     "graph-neural-networks": {
@@ -35,7 +35,7 @@
       "first_seen": "2026-07-08T09:30:13.397275+00:00"
     },
     "large-language-models": {
-      "count": 476,
+      "count": 486,
       "first_seen": ""
     },
     "market-microstructure": {
@@ -43,31 +43,31 @@
       "first_seen": "2026-07-07T23:02:38.698411+00:00"
     },
     "mechanistic-interpretability": {
-      "count": 97,
+      "count": 104,
       "first_seen": ""
     },
     "multi-agent-systems": {
-      "count": 227,
+      "count": 231,
       "first_seen": ""
     },
     "nlp": {
-      "count": 240,
+      "count": 244,
       "first_seen": ""
     },
     "optimization": {
-      "count": 291,
+      "count": 296,
       "first_seen": ""
     },
     "quantitative-finance": {
-      "count": 73,
+      "count": 75,
       "first_seen": ""
     },
     "reinforcement-learning": {
-      "count": 229,
+      "count": 239,
       "first_seen": ""
     },
     "risk-management": {
-      "count": 54,
+      "count": 56,
       "first_seen": ""
     },
     "transformers": {

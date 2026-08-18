@@ -674,6 +674,526 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "authors": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16889v1",
+    "pdf": "https://arxiv.org/pdf/2608.16889v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses the challenge of long-horizon robot manipulation — tasks requiring many sequential contact-heavy skills — by decomposing them into independently explored subtasks coordinated by an LLM agent with transition-aware memory. The key insight is that exploring whole multi-stage tasks is exponentially expensive (cost scales as T^K for K stages), but exploring individual subtasks and composing them is much cheaper (cost becomes T*K), if you handle the transitions between subtasks correctly. On a benchmark called RoboMemArena, BATON achieves 11.6% higher task success than prior state-of-the-art.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Q-based Variational Inverse Reinforcement Learning",
+    "authors": "Ondrej Bajgar, Peter Tisnikar, Alessandro Abate, Konstantinos Gatsis, Maike Osborne",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16888v1",
+    "pdf": "https://arxiv.org/pdf/2608.16888v1",
+    "tags": [
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces QVIRL, a method for learning reward functions from expert demonstrations while quantifying uncertainty over those rewards. Rather than assuming a single \"correct\" reward, the method produces a probability distribution, which is crucial for safety-critical tasks where we need to know how confident we are in the inferred preferences. The approach scales to high-dimensional problems (like raw pixel images) — a first for Bayesian inverse reinforcement learning.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+    "authors": "Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16876v1",
+    "pdf": "https://arxiv.org/pdf/2608.16876v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "AutoSR is an automated system that discovers scientific equations from noisy data by treating symbolic regression as a multi-agent investigation rather than a simple curve-fitting problem. Instead of just finding equations that fit the data, it builds up a \"research state\" — a record of reasoning, evidence, and review — that explains why a particular equation is scientifically credible, and it recovers correct formulas on benchmark problems where previous methods fail.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Data-Efficient and Interpretable Classification of Circulating Tumor Cell Phenotypes in Microfluidic Devices via Deep Learning",
+    "authors": "Serena Su, Yifan Wang, Senwei Liang",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16870v1",
+    "pdf": "https://arxiv.org/pdf/2608.16870v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper develops a deep learning system to classify cancer cell types from their movement patterns in microfluidic devices—tiny lab channels that reveal how cells move based on their physical properties. The key innovation is a data-efficient training method called SubSeq that learns from short snippets of cell trajectories instead of full paths, plus interpretability techniques that show which parts of a trajectory matter for classification.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+    "authors": "Benjamin Belay",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16868v1",
+    "pdf": "https://arxiv.org/pdf/2608.16868v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether neural networks can embed hidden evidence of their internal computational states into generated text — evidence that remains detectable even when the final answer stays the same. The authors design controlled experiments where feed-forward networks and transformers must route through specific intermediate states to solve arithmetic tasks, then embed subtle statistical signatures of those states into their outputs. The work matters because it addresses a foundational question: can we verify *how* a language model arrived at an answer, not just *what* answer it gave?",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+    "authors": "Shuai Huang, Zhe Qu, Zhaowei Hua, Guohao Shen, Rui Tang et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16864v1",
+    "pdf": "https://arxiv.org/pdf/2608.16864v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a method to predict the full distribution of survival times (not just average risk) while ensuring quantile estimates remain logically ordered. The key innovation is a framework that uses deep neural networks (specifically Transformers and Kolmogorov-Arnold networks) to estimate multiple survival quantiles simultaneously while preventing crossing curves—a common problem in survival analysis when covariates affect early and late failures differently.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "zLend: A Dual-Scope Cash-Flow Reconstruction Framework for On-Chain Credit Underwriting",
+    "authors": "Girish G N, Ashutosh Sahoo, Akshay SP, Gurukiran S, Dhanashekar Kandaswamy",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16856v1",
+    "pdf": "https://arxiv.org/pdf/2608.16856v1",
+    "tags": [
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "zLend is a deployed system that evaluates creditworthiness for decentralized lending by reconstructing a borrower's cash-flow history directly from public blockchain transactions, without traditional credit bureaus or income verification. The key innovation is analyzing two separate views of a wallet—its total token holdings and its liquid stablecoin reserves—to catch borrowers who appear wealthy but lack actual spending power, then deriving repayment-capacity signals (liquidity coverage, cash-flow volatility, drawdown patterns) from these reconstructions.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+    "authors": "Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16837v1",
+    "pdf": "https://arxiv.org/pdf/2608.16837v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents HAF, a framework that adapts general-purpose vision-language-action (VLA) models to control humanoid robots performing complex whole-body tasks that combine walking, posture control, and dual-arm manipulation. The core innovation is a two-stage approach: hierarchical action generation that breaks full-body commands into coordinated stages, plus a latent-space reinforcement learning pipeline that refines policies in the real world without retraining the large pretrained model—enabling safer, more efficient robot learning.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
+    "authors": "Enric Boix-Adsera, Benedict Tessler",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16834v1",
+    "pdf": "https://arxiv.org/pdf/2608.16834v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reveals that large language models can be reliably manipulated through subtle, seemingly irrelevant textual cues (like paraphrases or typos) that individually appear weak but combine to strongly steer model behavior — a phenomenon the authors call \"model hypnosis.\" The finding matters because it exposes a hidden vulnerability in AI safety: models can be controlled through inconspicuous prompting techniques that are hard to detect, complicating both safety efforts and interpretability research.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GEO-Flag: Detecting and Measuring GEO-Optimized Web Content",
+    "authors": "Junjie Chu, Ye Leng, Mingjie Li, Yun Shen, Xinyue Shen et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16824v1",
+    "pdf": "https://arxiv.org/pdf/2608.16824v1",
+    "tags": [
+      "agents",
+      "nlp"
+    ],
+    "summary": "This paper introduces methods to detect and measure \"Generative Engine Optimization\" (GEO) — the practice of strategically modifying web content to be favored by AI search engines like Google's Gemini. The authors create a benchmark dataset, develop a detection model using intervention-based training, and deploy it on real search results, finding that roughly 9% of indexed pages show signs of GEO. This matters because AI search engines synthesize information into single answers rather than listing sources, so optimized misinformation could spread more easily.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+    "authors": "Huatong Song, Fei Bai, Ming Yang, Renyuan Li, Jia Deng et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16798v1",
+    "pdf": "https://arxiv.org/pdf/2608.16798v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents ClawGym II, a framework for training language model agents using reinforcement learning (RL) through complex external tools and harnesses (like code execution environments) without needing to modify their internals. The key innovation is treating these harnesses as black boxes — the RL system doesn't need to understand their implementation — and using sandbox infrastructure to run many parallel training rollouts stably and efficiently, demonstrating 10–15 point improvements on code generation benchmarks.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neurosymbolic Embodied Agents",
+    "authors": "Mohammad Albinhassan, Yuming Feng, Alessandra Russo, Pranava Madhyastha",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16794v1",
+    "pdf": "https://arxiv.org/pdf/2608.16794v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper presents a neurosymbolic agent that combines vision-language models with symbolic planning to execute long-horizon household tasks reliably. The key insight is that language models alone generate plausible plans that can violate environment constraints, so the authors add a symbolic layer (PDDL planning) that guarantees only executable actions are generated. The result: smaller open-source models achieve >90% success on complex household simulation tasks while using fewer tokens and images than direct approaches.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+    "authors": "David Eric Austin, Kaheer Suleman, Jackie Chi Kit Cheung",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16707v1",
+    "pdf": "https://arxiv.org/pdf/2608.16707v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies how large language models (LLMs) make exploration-exploitation trade-offs when deployed as decision-making agents. The key finding is that semantic information in action labels — the natural language descriptions of choices — biases LLM behavior in predictable ways, pushing them toward exploitation when labels sound promising and causing them to explore more under negative rewards. This matters because it reveals hidden vulnerabilities in LLM agents that aren't captured by classical decision-making theory.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Closing the Affective Loop: Multimodal Speaker-Listener Emotion-Dynamics-Aware Empathetic Social Robots",
+    "authors": "Zi Haur Pang, Casey Kennington, Tatsuya Kawahara",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16686v1",
+    "pdf": "https://arxiv.org/pdf/2608.16686v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "This paper presents AffectLoop, a social robot system that engages in empathetic dialogue by tracking both the user's emotional dynamics and the robot's own simulated emotional state, then generating responses that maintain emotional alignment. Unlike text-based chatbots that treat empathy as a one-way process, this system creates a \"closed loop\" where the robot's emotional responses feed back into the interaction, leading to better user satisfaction and emotional recovery in pilot testing.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Does the LM Head Create a Harmful Gradient Bottleneck? A Causal Test",
+    "authors": "Anand Murugan",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16671v1",
+    "pdf": "https://arxiv.org/pdf/2608.16671v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper tests whether the language-model head — the final layer that maps hidden states to vocabulary logits — creates a harmful bottleneck during training. Using careful causal interventions, the authors show the head does compress gradients severely, but this compression is *not* actually harmful to learning; in fact, removing it makes training worse. The finding challenges a recent influential claim and reveals that neural networks may handle this geometric constraint better than theory suggests.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reconstruction: A Blind Benchmark for Recovering Research Ideas from Pre-Publication Bibliographies",
+    "authors": "Shaolong Chen, Yanlin Fei, Nazhou Liu, Xinmiao Yu, Lei Li et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16645v1",
+    "pdf": "https://arxiv.org/pdf/2608.16645v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper introduces Reconstruction, a benchmark that tests whether language models can infer a published paper's core research idea by reading only its bibliography—without access to the paper itself or future literature. The authors find that single models struggle (3–15% success), but a multi-agent approach combining cross-model debate and tournament selection nearly triples performance to 23–42%, demonstrating that collaborative model reasoning can extract latent research intent from citation patterns alone.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "'If It Looks Like a User': Measuring Real-Time Moderation Effects via Social Media Simulation",
+    "authors": "Enrico Verdolotti, Gianluca Nogara, Luca Luceri, Silvia Giordano",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16601v1",
+    "pdf": "https://arxiv.org/pdf/2608.16601v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper develops a calibrated agent-based simulator of social media information spread, grounded in real COVID-19 vaccine discourse data, to evaluate how well content moderation methods actually work when applied in real time. The key finding: static lab tests of moderation (removing bad actors after the fact) overestimate effectiveness, because remaining users compensate by resharing more content—a dynamic effect that only shows up in simulation.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Physics of Agents: Statistical Mechanics Predicts Collective Behavior of AI Agents",
+    "authors": "Batu El, Jinhee Paeng, Fatih Dinc, Shiye Su, Mete Erdogan et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16578v1",
+    "pdf": "https://arxiv.org/pdf/2608.16578v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper treats AI agents as a physical system, using statistical mechanics to predict how language-model agents behave when they interact in groups. The researchers studied over 10,000 communities of agents debating math questions and political topics, and discovered that collective behavior falls into three patterns: indifference, polarization, and consensus. Their model predicts individual agent trajectories and group outcomes with high accuracy, revealing that agents operate like particles minimizing social pressure.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VCE-Skill: Enhancing Skill Self-Evolution with Version-Change Experience",
+    "authors": "Jianming Chen, Xuanbin Ye, Yawen Wang, Junjie Wang, Qing Wang et al.",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16544v1",
+    "pdf": "https://arxiv.org/pdf/2608.16544v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses how AI agents can improve their reusable skills over time by learning from two complementary sources: execution trajectories from current tasks and historical version changes from public skill repositories. The key insight is that public skill evolution patterns provide generalizable \"priors\" — patterns that worked before — which can be combined with task-specific evidence to create better, more transferable skills. The method, VCE-Skill, achieves measurable improvements in skill quality and cross-model transfer performance.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Density-Reweighted Entropic Optimal Transport: Decoupling Geometry from Sampling Density",
+    "authors": "Keyi Li, Yuval Kluger, Boris Landa",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16506v1",
+    "pdf": "https://arxiv.org/pdf/2608.16506v1",
+    "tags": [
+      "optimization"
+    ],
+    "summary": "This paper solves a practical problem in dataset alignment: when two datasets have similar geometric structure but very different sampling densities, standard optimal transport methods match points by density rather than geometry, producing misleading correspondences. The authors propose density-reweighted entropic optimal transport (EOT), which lets you dial down the influence of sampling density to recover geometrically faithful alignments. This matters because misaligned datasets break downstream analysis in biology, chemistry, and engineering.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Drive, Pack, Fly: The Travelling Thief Problem with Drone",
+    "authors": "Kabir Murjani, Abhay Sobhanan",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16435v1",
+    "pdf": "https://arxiv.org/pdf/2608.16435v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles the Travelling Thief Problem with Drone (TTP-D): a delivery optimization problem where a ground vehicle carries packages (getting slower as it loads) and launches a drone to fetch outlying items, reducing total time. The researchers combine exact mathematical optimization, metaheuristic algorithms, and deep reinforcement learning to maximize profit minus rental costs, showing that a hybrid approach (DRL + local refinement) offers good speed-quality tradeoffs.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolving Executable Pipeline Programs for AutoML with Language Models",
+    "authors": "Sofoklis Kitharidis, Cor J. Veenman, Jan N. van Rijn, Thomas Bäck, Niki van Stein",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16416v1",
+    "pdf": "https://arxiv.org/pdf/2608.16416v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "LACE is an AutoML system that uses large language models to evolve Python pipeline programs rather than selecting from a fixed set of components. Unlike traditional AutoML frameworks that tune predefined operators, LACE generates complete, executable, editable machine learning pipelines—achieving competitive accuracy with AutoGluon on tabular classification while returning code practitioners can directly inspect and modify.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MELD: A Protocol for Merging Knowledge Across Distributed Agentic Memories",
+    "authors": "Lauri Lovén, Jaakko Sauvola, Jukka Riekki, Sasu Tarkoma",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16357v1",
+    "pdf": "https://arxiv.org/pdf/2608.16357v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces MELD, a protocol that lets autonomous agents with separate memories share and reconcile knowledge without a central coordinator. When two agents learn the same fact stated differently, or discover conflicting claims, MELD automatically merges or flags these inconsistencies rather than silently losing information. The work matters because distributed AI systems increasingly need to collaborate while staying independent — and current approaches either lose knowledge or require centralized oversight.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LiD-GLM: Lipschitz-constrained Deep Generalized Linear Models",
+    "authors": "Tom Splittgerber, Niklas Koenen, Marvin N. Wright, Werner Brannath",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.16340v1",
+    "pdf": "https://arxiv.org/pdf/2608.16340v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes LiD-GLM, a hybrid model combining traditional generalized linear models (GLMs) with neural networks while maintaining interpretability. The key innovation is using invertible residual networks (i-ResNets) with Lipschitz constraints to allow flexible nonlinear learning while quantifying and controlling how far the model deviates from its classical statistical foundation.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Control-Theoretic Formulation of Global Workspace Theory",
+    "authors": "Ryota Kanai",
+    "published": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15926v1",
+    "pdf": "https://arxiv.org/pdf/2608.15926v1",
+    "tags": [],
+    "summary": "This paper formalizes Global Workspace Theory — a neuroscience theory of consciousness — using control theory. The authors propose the Global Mediation Workspace (GMW), which treats a candidate brain region as an open system that receives inputs, transforms them internally, and broadcasts outputs. They test this framework on synthetic data and preliminary neural recordings, showing it can identify the mechanism underlying conscious access.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Supervised Auxiliary Task Discovery for Stable Reinforcement Learning in Stock Trading",
+    "authors": "Arishi Orra, Himanshu Choudhary, Manoj Thakur",
+    "published": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15841v1",
+    "pdf": "https://arxiv.org/pdf/2608.15841v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes an automated framework for discovering auxiliary tasks in reinforcement learning agents trained for stock trading. Instead of manually designing auxiliary tasks (which are helper objectives that improve learning), the system learns what tasks would best stabilize training and boost performance across changing market conditions. The approach is evaluated on four major stock indices and shows improved robustness and profitability compared to existing methods.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning Stock Trading Policies via Barycenter-Based Adversarial Inverse Reinforcement Learning",
+    "authors": "Arishi Orra, Himanshu Choudhary, Manoj Thakur",
+    "published": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15770v1",
+    "pdf": "https://arxiv.org/pdf/2608.15770v1",
+    "tags": [
+      "algorithmic-trading",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper proposes BRaG, a framework that learns stock trading strategies by combining inverse reinforcement learning with adversarial imitation learning and risk constraints. The key innovation is using a Wasserstein barycenter to aggregate multiple expert trading strategies into a single stable pseudo-expert, which then pretains a policy before further refinement with real market rewards. The approach demonstrates stronger returns and more stable risk profiles across major global equity markets compared to traditional and deep RL baselines.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FirstDiff: One-Step Diffusion-Based Anomaly Detection for Multivariate Time Series via Initial Noise Prediction",
+    "authors": "Ali Boudaghi, Alireza Nemati, Hadi Zare",
+    "published": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15727v1",
+    "pdf": "https://arxiv.org/pdf/2608.15727v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proposes FirstDiff, a fast anomaly detection method for multivariate time series that uses diffusion models — neural networks trained to remove noise from data. Instead of running the full reverse diffusion process (many iterative steps), FirstDiff detects anomalies by examining the noise prediction from just the first step, making it much faster while maintaining high accuracy.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mental Model Management: An Operator-Based Framework for LLM Memory",
+    "authors": "Oliver Kramer",
+    "published": "2026-08-16",
+    "url": "http://arxiv.org/abs/2608.15451v1",
+    "pdf": "https://arxiv.org/pdf/2608.15451v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes Mental Model Management (3M), a framework that gives large language models an explicit mechanism for organizing and updating knowledge as compact, evolving conceptual chunks rather than simply accumulating raw text. The framework uses a set of operators (extract, retrieve, add, update, reorganize, detect inconsistencies, derive) to maintain and reason over these structured mental models, addressing a real limitation of current LLMs: they lack persistent, updatable internal knowledge representations that can grow and adapt over time.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Language models suffer from a curse of ambiguity",
+    "authors": "Nicolas Zucchet, Hyun Dong Lee, Scott Linderman",
+    "published": "2026-08-15",
+    "url": "http://arxiv.org/abs/2608.15448v1",
+    "pdf": "https://arxiv.org/pdf/2608.15448v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper identifies a fundamental problem in how language models learn probability distributions over tokens: ambiguous distributions (where many tokens are plausible next-words) are much harder for neural networks to learn accurately. The authors trace this \"curse of ambiguity\" to concrete architectural factors—requiring more model capacity, larger embeddings, longer training, and amplifying sampling noise—and validate their findings on both synthetic tasks and real language models. This matters because modern LLMs increasingly rely on sampling from these learned distributions, so getting them right is critical for both accuracy and reliability.",
+    "date_added": "2026-08-18",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
     "authors": "Yijiao Zhang, Hongzhe Li",
     "published": "2026-08-14",
