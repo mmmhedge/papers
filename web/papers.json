@@ -2,6 +2,58 @@
   {
     "source": "blog",
     "source_name": "OpenAI",
+    "title": "Pacing model development in an era of cyber-critical capabilities",
+    "authors": "OpenAI",
+    "published": "2026-08-18",
+    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "pdf": "",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "OpenAI outlines a framework for deliberately slowing frontier AI model development to manage risks from cyber-critical capabilities. The post describes new monitoring, alignment, and security safeguards designed to match the pace of capability advances with confidence in safe deployment.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "authors": "Hugging Face",
+    "published": "2026-08-18",
+    "url": "https://huggingface.co/blog/multi-vector-encoder",
+    "pdf": "",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "Hugging Face introduces multi-vector (late interaction) embedding models integrated into Sentence Transformers, enabling richer semantic representations by storing multiple vectors per document. This approach improves retrieval quality while maintaining computational efficiency compared to traditional dense embeddings.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "How Much Memory Does Your Agent Actually Need?",
+    "authors": "Hugging Face",
+    "published": "2026-08-18",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "deep-learning"
+    ],
+    "summary": "This post investigates the actual memory requirements for AI agents during operation, likely exploring how much context, weights, or intermediate state agents need to function effectively. Understanding memory constraints is critical for deploying agents in resource-limited environments and optimizing inference efficiency.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
     "title": "The builder’s guide to GPT‑5.6",
     "authors": "OpenAI",
     "published": "2026-08-13",
@@ -670,6 +722,500 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+    "authors": "Xingjian Wang, Zhao Wang, Taihang Hu, Jun Zheng, Qing Jin et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18076v1",
+    "pdf": "https://arxiv.org/pdf/2608.18076v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proposes a capability-driven data infrastructure for training generalist image generation models that can handle both text-to-image synthesis and image editing tasks. Instead of optimizing datasets in isolation, the authors organize heterogeneous training data according to the dependencies between different generative capabilities, using specialized data engines and curriculum learning to co-evolve multiple skills. They curate a massive 440M-image dataset and train 3B and 6B parameter diffusion models that achieve broad visual coverage and effective transfer across tasks.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+    "authors": "Iryna Hartsock, Cesar Lam, Christopher Otteni, Aliya Qayyum, Robert Gatenby et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18072v1",
+    "pdf": "https://arxiv.org/pdf/2608.18072v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper describes a locally deployed multi-agent AI system that automatically structures radiology reports into standardized anatomical sections and performs quality assurance checks to catch errors like section mismatches and undocumented critical findings. The system was evaluated on 638 real chest, abdomen, and pelvis CT reports, with independent radiologist validation showing 84% of reports achieved \"excellent\" or \"good\" quality ratings, suggesting that AI-assisted structuring could improve consistency and safety in clinical radiology workflows.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+    "authors": "Qinyuan Ye, Yu Li, Yada Pruksachatkun, Jiaxin Zhang, Chien-Sheng Wu",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18066v1",
+    "pdf": "https://arxiv.org/pdf/2608.18066v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper exposes fundamental reliability problems in memory-based self-improving agents—systems that learn from streams of tasks and improve over time using a textual memory bank. The researchers found that these agents are fragile: their performance is noisy, highly dependent on the order tasks are presented in, and vulnerable to underspecification (lack of clear task definitions and feedback). The work calls for more rigorous evaluation and better human oversight mechanisms.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TokEval: A Tokenizer Evaluation Suite",
+    "authors": "Clara Meister",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18062v1",
+    "pdf": "https://arxiv.org/pdf/2608.18062v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces TokEval, a framework for systematically evaluating tokenizers — the algorithms that break text into subword units for language models to process. While tokenizers profoundly affect what language models can learn, they're typically chosen with minimal evaluation. TokEval measures linguistically and structurally meaningful properties (like whether digit boundaries align with place-value structure) and validates these metrics against downstream model performance across language, math, and code tasks.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+    "authors": "Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev, Valerii Klimov",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18058v1",
+    "pdf": "https://arxiv.org/pdf/2608.18058v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies a critical but overlooked problem in AI-mediated dating platforms: users must be willing not just to delegate conversation to an autonomous agent, but also to receive messages from other users' agents. Using surveys of nearly 3,000 dating app users, the authors show these are psychologically distinct choices with a dramatic asymmetry—people are far more willing to deploy their own agent than to engage with someone else's. This matters because most agent-based platforms assume symmetric receptivity, but real deployments will fail if this imbalance isn't designed for.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+    "authors": "Yining Hua, Hongbin Na, Yifan Zhou, Akshay Kalose, Cyrus Ayubcha et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18050v1",
+    "pdf": "https://arxiv.org/pdf/2608.18050v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a critical gap in how AI agents handle knowledge work: they often operate on inconsistent versions of files when searching, editing, and reviewing documents. The authors introduce StagedWorkspace, a versioned workspace system that binds all agent views (parsed data and native files) to explicit versions, enabling agents to work reliably on code, spreadsheets, PDFs, and mixed-format projects. Experiments show this versioning improves agent performance by 8–12 percentage points on document tasks and enables significant gains over published baselines.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+    "authors": "Hollis Robbins",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18041v1",
+    "pdf": "https://arxiv.org/pdf/2608.18041v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper proposes that language understanding requires two parameters: amplitude (word co-occurrence strength, what embeddings capture) and phase (how coactivated meanings relate and combine). The author argues that current transformers and interpretability work ignore phase—a relational parameter indexed to individuals and dyads—which is essential for irony, allusion, and quotation. The work frames this formally using quantum probability notation and makes testable predictions about suppressed meanings and encounter order.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization",
+    "authors": "Travis Zhang, Christian Belardi, Justin Lovelace, Jin Peng Zhou, Saebyeol Shin et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18040v1",
+    "pdf": "https://arxiv.org/pdf/2608.18040v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a simple but overlooked problem: how to choose the timesteps during diffusion model sampling to balance speed and quality. Instead of relying on fixed schedules or theoretical surrogates, the authors treat timestep selection as a black-box optimization problem and use Bayesian optimization to find better schedules directly. The result is dramatic efficiency gains—a 5-step schedule achieves 89–94% of the quality of 50 steps, cutting inference cost by 10x.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+    "authors": "Emma Ceccherini, Daniel Lawson, Anjulika Salhan",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18033v1",
+    "pdf": "https://arxiv.org/pdf/2608.18033v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper shows that small language models (SLMs) like SBERT can accurately categorize invoices into accounting codes while remaining cost-effective and interpretable for in-house deployment. The authors analyze why this works by studying the geometric structure of sentence embeddings in financial text, finding that pre-trained embeddings naturally cluster by vendor identity and that these clusters correlate with classification performance.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Chain-of-Experience for Continual LLM Improvement",
+    "authors": "Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18027v1",
+    "pdf": "https://arxiv.org/pdf/2608.18027v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies how large language models can improve their performance through iterative test-time feedback—a capability called Chain-of-Experience (CoE). Rather than using models once at inference, the authors show that LLMs can learn and adapt by receiving feedback (from themselves or external signals) and refining their outputs across multiple iterations, achieving measurable gains in math, coding, and knowledge tasks while reducing computational costs.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+    "authors": "Lu Xu, Xu Li, Linjiang Zheng, Fan Li, Riquan Zhang et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18017v1",
+    "pdf": "https://arxiv.org/pdf/2608.18017v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents FlightLLM, a system that uses large language models to explain why flight safety incidents occur by converting numerical flight data into natural language descriptions. The key innovation is combining LLMs with domain knowledge and statistical classifiers to generate both accurate predictions and human-understandable explanations of dangerous flight events like hard landings.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+    "authors": "Christophe D. Hounwanou, John Emeka Eze, Yaé U. Gaba",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18008v1",
+    "pdf": "https://arxiv.org/pdf/2608.18008v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses how to safely use language models to guide reinforcement learning agents by formalizing the hybrid LLM-RL architecture and proving that LLM-generated reward signals can be used for \"reward shaping\" (adjusting rewards to guide learning) without changing which policies are actually optimal—even when the LLM makes mistakes. This matters because combining LLMs with RL is becoming common in practice, but the theoretical guarantees for doing so safely have been unclear.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees",
+    "authors": "Sher Badshah, Ali Emami, Hassan Sajjad",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17994v1",
+    "pdf": "https://arxiv.org/pdf/2608.17994v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles a core problem in using LLMs as automated judges: how to evaluate factual correctness reliably when no reference answer exists. The authors propose a framework that combines parametric judgment (using the LLM's built-in knowledge) with retrieval-augmented judgment (using web search) and routes between them based on calibrated uncertainty thresholds—ensuring that false verdicts stay below a user-specified error rate with mathematical guarantees.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+    "authors": "Yijie Xu, Chao Wang, Hui Xiong",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17987v1",
+    "pdf": "https://arxiv.org/pdf/2608.17987v1",
+    "tags": [
+      "graph-neural-networks",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper presents TSN4PI, a framework for detecting and predicting how people's political ideologies evolve on social media platforms. The key challenge is that political content is sparse and mixed with irrelevant posts, manual labeling is expensive and biased, and predicting future ideological shifts is hard. The authors combine large language models (neural networks trained on massive text) with graph neural networks (a technique for modeling relationships in networks) to filter noise, identify ideology, and forecast how beliefs change over time.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
+    "authors": "Md. Faiyaz Abdullah Sayeedi",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17950v1",
+    "pdf": "https://arxiv.org/pdf/2608.17950v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper reveals that LLMs organize their internal representations as small-world networks — structures where distant concepts connect through just a few semantic hops, like the classic \"Six Degrees of Separation\" game. By analyzing the hidden geometry of transformer models rather than surface-level attention patterns, the authors show that early layers fragment semantic concepts while deeper layers compress them into highly navigable pathways, enabling multi-hop reasoning. They validate this framework on hallucination detection in retrieval-augmented generation, suggesting that factually grounded outputs maintain structural coherence while hallucinations create topological collapse.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Procedural Content Metageneration via Program Search and Continual Abstraction Discovery",
+    "authors": "Matthew Siper, Ahmed Khalifa, Julian Togelius",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17947v1",
+    "pdf": "https://arxiv.org/pdf/2608.17947v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper shows how to automatically generate video game levels and rule systems by evolving Python programs with language models, rather than designing individual levels by hand. The key innovation—Continual Abstraction Discovery—finds reusable code patterns during evolution and turns them into helper functions, which improves the quality of generated content. This matters because procedural content generation is tedious for game designers, and automatically discovering useful abstractions could scale content creation.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Collective Counterfactual Planning: Coordination, Consent, and Verification under Representational Constraints",
+    "authors": "Chainarong Amornbunchornvej",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17932v1",
+    "pdf": "https://arxiv.org/pdf/2608.17932v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces Collective Counterfactual Planning (CCP), a formal framework for understanding how teams coordinate to solve problems that no individual member can handle alone. The key insight is that coordination failures often stem not from lack of capability or knowledge, but from *representational constraints*—each agent sees and understands only a limited projection of the shared task space. The paper defines when a team can provably reach a shared goal and verify completion under these geometric limitations.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
+    "authors": "Alex DeWeese, Jiaoyang Li, Guannan Qu",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17928v1",
+    "pdf": "https://arxiv.org/pdf/2608.17928v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper solves a major computational bottleneck in lifelong multi-agent path finding — the problem where many robots or agents must repeatedly move between destinations without crashing into each other or obstacles. The authors prove that a popular but slow algorithm (RHCR) is near-optimal, then use that insight to design a faster parallel version (GD-RHCR) that partitions agents into groups and plans for each group in parallel, maintaining the same quality guarantees while scaling to more agents.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AutoResearch: Insight In, Hallucination Out",
+    "authors": "Yiming Ren, Xiang Liu, Qumeng Sun, Xiao Zhang, Jiahao Li et al.",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17906v1",
+    "pdf": "https://arxiv.org/pdf/2608.17906v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "AutoResearch is a two-stage autonomous system that generates and executes research ideas while actively preventing hallucination and false conclusions. It combines idea generation (using domain knowledge and cross-review) with idea execution (coordinated agent-based experimentation and evidence validation), demonstrating that scientific rigor can be automated through systematic verification rather than relying solely on language model outputs.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors",
+    "authors": "Guilherme Iablonovski, Pierre-Louis Frison, Tatiana Silva da Silva",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17822v1",
+    "pdf": "https://arxiv.org/pdf/2608.17822v1",
+    "tags": [
+      "computer-vision",
+      "optimization"
+    ],
+    "summary": "This paper estimates building heights in cities using freely available satellite data (radar and optical imagery) combined with machine learning, achieving 5-meter accuracy without expensive LiDAR. The key innovation is showing that different satellite sensors matter in different urban contexts — tall buildings rely on shadows, while low-rise buildings depend on footprint shape — which helps practitioners choose the right data for their region.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+    "authors": "Ayoub Kirouane, Christos Petrocheilos",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17744v1",
+    "pdf": "https://arxiv.org/pdf/2608.17744v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates what happens when you fine-tune large language models to reason in low-resource languages (Greek), and finds that standard accuracy benchmarks are too noisy to detect meaningful changes. Instead, the authors develop behavioral measurement techniques showing that supervised fine-tuning (SFT) successfully teaches models to reason *in* the target language rather than translate internally, while reinforcement learning (RL) fixes format violations and reasoning-channel leakage that SFT cannot address. The work matters because it reveals that model capability changes invisible to standard metrics are real and measurable — and that different training approaches fix different problems.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control",
+    "authors": "Lu Liu, Chi Xie, Xi Xiong",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17739v1",
+    "pdf": "https://arxiv.org/pdf/2608.17739v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles cooperative control of connected and automated vehicles (CAVs) on congested highways using offline multi-agent reinforcement learning — training policies from previously collected data without needing real-time trial-and-error or complete knowledge of traffic states. The key innovation is embedding physics-based traffic dynamics directly into a world model, enabling the system to reconstruct full traffic conditions from limited local observations and learn safer, more interpretable control policies.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Influence of Agent Models on the Complexity of Bus Routing",
+    "authors": "Eva Deltl, Christian Komusiewicz, Jurek Rostalsky, Johannes Schröder, Luca Pascal Staus",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17733v1",
+    "pdf": "https://arxiv.org/pdf/2608.17733v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper studies the computational complexity of bus routing problems where multiple agents need to travel from start to end points using shared bus services. The authors prove that the problem becomes NP-hard (computationally intractable) under various reasonable assumptions about how agents value costs like walking distance and travel time, and they show these hardness results persist even on extremely simple network structures like star graphs.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Communicating Credit Risk with Large Language Models: Evaluation of Explanations from Standard and Alternative Data-Based Models",
+    "authors": "Sahab Zandi, Noah Kostesku, Christophe Mues, María Óskarsdóttir, Cristián Bravo",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17715v1",
+    "pdf": "https://arxiv.org/pdf/2608.17715v1",
+    "tags": [
+      "graph-neural-networks",
+      "large-language-models",
+      "risk-management"
+    ],
+    "summary": "This paper investigates whether large language models (LLMs) can translate technical model explanations into plain-English narratives for credit risk decisions. Using real mortgage data, the authors compare three explanation pipelines (standard tabular, network-based, and hybrid) with three LLM variants, finding that the quality of input evidence matters more than which LLM is used, but that LLMs struggle reliably to communicate the *direction* of risk factors—a critical gap for regulatory compliance.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Information fusion and machine learning for sensitivity analysis using physics knowledge and experimental data",
+    "authors": "Berkcan Kapusuzoglu, Sankaran Mahadevan",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.17248v1",
+    "pdf": "https://arxiv.org/pdf/2608.17248v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper combines physics-based computational models with experimental data using machine learning to improve sensitivity analysis — understanding how input changes affect system outputs. The key innovation is using physics-informed machine learning (enforcing physical laws as constraints, or pre-training with simulation data) to get better and more reliable sensitivity estimates when both simulations and real measurements are available.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Expressivity In Multimodal Contrastive Learning",
+    "authors": "Andrew Stuart, Florian Wolf",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.17203v1",
+    "pdf": "https://arxiv.org/pdf/2608.17203v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper analyzes the theoretical expressivity of multimodal contrastive learning architectures—specifically models like CLIP that learn joint representations of text, images, and other modalities. The authors prove that the standard two-tower CLIP design can represent any joint distribution (universal approximation), but a common three-or-more-modality extension cannot, motivating a new \"Hadamard-CLIP\" variant that restores universal approximation while staying computationally efficient.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Policy Optimization and Statistical Inference for Online Contextual Matrix Games",
+    "authors": "Liner Xiang, Yixin Wang, Hengrui Cai",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.17173v1",
+    "pdf": "https://arxiv.org/pdf/2608.17173v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a practical problem at the intersection of online learning and game theory: how should an agent learn and act when payoffs depend both on observable context (like market conditions) and on rivals' strategic responses? The authors introduce online contextual matrix games and an algorithm called OnGameLearn that balances exploration-exploitation while learning both payoff structures and Nash equilibria, with statistical guarantees and a hotel pricing case study.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Automating Parent Selection Configuration in Genetic Programming with Agentic AI",
+    "authors": "Jose Guadalupe Hernandez, Jui-Hsuan Chang, Anil Kumar Saini, Xi Li, Jason H. Moore",
+    "published": "2026-08-17",
+    "url": "http://arxiv.org/abs/2608.17172v1",
+    "pdf": "https://arxiv.org/pdf/2608.17172v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper explores whether AI agents—systems that can reason and act autonomously—can automatically design and configure genetic programming systems. The researchers built an agentic framework that uses large language models (LLMs) to identify and implement parent selection algorithms (rules for choosing which solutions to breed together) for symbolic regression problems. The work shows that LLM reasoning combined with retrieval-augmented generation (accessing existing knowledge) can generate competitive algorithm implementations, suggesting AI agents may automate the tedious configuration work that evolutionary algorithm designers currently do by hand.",
+    "date_added": "2026-08-19",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
