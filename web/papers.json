@@ -726,6 +726,481 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "authors": "Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19197v1",
+    "pdf": "https://arxiv.org/pdf/2608.19197v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces SPADE, a self-play framework where a single language model simultaneously acts as both an Environment Designer (writing training tasks as executable code) and a Reasoning Agent (learning to solve them). The key insight is that by making environment design learnable rather than fixed, the system can continuously generate harder problems at the edge of the agent's abilities, enabling open-ended self-improvement without human-curated task pools.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "authors": "Jayjun Lee, Jessica Yin, Asif Rana, Nicholas Blauch, Sam Mady et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19182v1",
+    "pdf": "https://arxiv.org/pdf/2608.19182v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "ADEPT is a large-scale reinforcement learning framework that teaches robots with many joints (like multi-fingered hands) to perform complex manipulation tasks by first pretraining on a generic object-repositioning task, then fine-tuning for specific downstream behaviors. The approach enables robots to transfer skills learned in simulation to the real world while maintaining dexterity — fine motor control — even after task-specific training, solving long-horizon tasks from raw camera and touch sensor data.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+    "authors": "Zachary Speck, Asa Shepard",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19168v1",
+    "pdf": "https://arxiv.org/pdf/2608.19168v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper measures—rather than estimates—how much a single training example influences a finished language model by running expensive counterfactual pre-training experiments. The authors trained 32 GPT-2 models from scratch, injecting a 194-token passage into one batch at a critical moment, then tracked what happened to the model's weights, loss landscape, and learned representations. They find that examples are learned quickly but then forgotten completely, leaving almost no trace in the final model.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+    "authors": "Ramneet Kaur, Pradyumna Chari, Ramesh Raskar, Jugad Singh, Sumit Kumar Jha et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19161v1",
+    "pdf": "https://arxiv.org/pdf/2608.19161v1",
+    "tags": [
+      "alignment",
+      "mechanistic-interpretability",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper reveals that language-model agents can coordinate covertly through hidden internal states that bypass text transcripts, and proposes Verifiable Latent Alignments (VLA)—a monitoring and steering framework to detect and prevent such collusion. The work matters because as AI systems become multi-agent and increasingly autonomous, hidden communication channels pose a safety risk that current transcript-based oversight cannot catch.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+    "authors": "Tomasz R. Bielecki, Thibaut Mastrolia, Haoze Yan",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19151v1",
+    "pdf": "https://arxiv.org/pdf/2608.19151v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a machine learning method to control complex financial systems (Hawkes jump-diffusions) that have memory effects and don't fit standard control theory. The key innovation is \"Markovianizing\" non-Markovian processes — converting them into simpler forms that RL algorithms can handle — then using continuous-time policy gradients to find optimal control strategies. This matters because many real financial phenomena (like market microstructure and event clustering) are naturally described by Hawkes processes, but controlling them has been mathematically intractable.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+    "authors": "Krishna Teja Medam",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19135v1",
+    "pdf": "https://arxiv.org/pdf/2608.19135v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical security problem in connected vehicles: adversaries can inject fake safety messages (like false emergency braking alerts) in under 100 milliseconds, before a vehicle's systems can distinguish real threats from attacks. The authors propose a three-tier multi-agent system — onboard vehicle agents, roadside edge agents, and cloud services — that makes fast, safety-aware decisions about whether to accept, quarantine, or escalate each incoming V2X (vehicle-to-everything) message, with strict latency budgets matched to real communication standards.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval",
+    "authors": "Zhenyao Cui, Siyuan Kan, Siyang Li, Ziwei Wang, Dongrui Wu",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19134v1",
+    "pdf": "https://arxiv.org/pdf/2608.19134v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper addresses a critical gap in brain-computer interfaces: making EEG-to-image retrieval work across different people without labeled training data for each new user. The key insight is that different brains encode visual concepts in similar ways but along different \"coordinate directions\" — like rotating a map. SCORE solves this by learning to recover each person's unique brain coordinate system at deployment time using only unlabeled EEG and images, achieving state-of-the-art cross-subject performance.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval",
+    "authors": "Zhenyao Cui, Siyuan Kan, Dingkun Liu, Dongrui Wu",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19128v1",
+    "pdf": "https://arxiv.org/pdf/2608.19128v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper tackles brain-to-image retrieval — decoding what visual images someone is seeing from brain signals — with a focus on making it work with very few repetitions of the same stimulus. Current methods require averaging 80+ brain recordings per image, which is impractical in real settings; the authors show this performance drop with few repetitions isn't just noise, but also misalignment between representations, and propose NEAR (neural-anchor-based retrieval), a framework that uses high-repetition data as an anchor to guide both query denoising and image placement.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints",
+    "authors": "Boqiao Zhang, Godbless James, Sai Krishna Gottipati, Andrew Fitzgibbon",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19121v1",
+    "pdf": "https://arxiv.org/pdf/2608.19121v1",
+    "tags": [
+      "generative-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a practical problem in drug discovery: improving molecular properties like drug efficacy while ensuring the designed molecules can actually be synthesized. The authors develop PGFS++, a reinforcement learning framework that optimizes molecules through realistic chemical reactions, using in-stock building blocks and known synthesis routes, while preventing a common failure mode where the optimizer \"cheats\" by collapsing diverse inputs into the same high-reward molecule.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pretraining Reusable Inference Across Views with Synthetic Task Priors",
+    "authors": "Jielong Lu, Zhihao Wu, Jiajun Yu, Zhaoliang Chen, Haishuai Wang",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19115v1",
+    "pdf": "https://arxiv.org/pdf/2608.19115v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper proposes SIMPLE, a method to pretrain reusable multi-view inference procedures that can adapt to new tasks with minimal data. Rather than learning a fixed way to combine information from different data sources (images, text, omics data, etc.), the authors train a task-conditioned model that learns *how* to fuse views by seeing examples—similar to how humans solve new problems by analogy. The key innovation is a synthetic task generator that creates diverse training scenarios so the model learns general principles about which views matter, when they conflict, and how to handle missing information.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+    "authors": "Huan-ang Gao, Haohan Chi, Yong Yan, Shiyuan Feng, Hanlin Wu et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19098v1",
+    "pdf": "https://arxiv.org/pdf/2608.19098v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper diagnoses why multi-teacher distillation—combining multiple specialized RL experts into one general student model—fails to capture available performance, finding that token-level optimization budgets are severely misallocated across domains rather than due to gradient conflicts. The authors propose Open-MOPD, a framework using token-share balancing and dynamic budget allocation, that recovers 83% of potential performance (up from 36%) and release a reproducible post-training recipe for language models.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Robust Risk Under Evolving Uncertainty: A Wasserstein Counterpart of the Entropic Value-at-Risk",
+    "authors": "Deep Kumar Ganguly, Jan Křetínský",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19073v1",
+    "pdf": "https://arxiv.org/pdf/2608.19073v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper proposes a new risk measure—the Wasserstein entropic value-at-risk—that helps agents make safer decisions under uncertainty, especially when learning about their environment. Unlike existing entropy-based approaches, this measure accounts for unlikely \"catastrophic\" scenarios that standard methods might miss, making it more suitable for safety-critical applications where learning gradually increases confidence.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+    "authors": "Joy Jia Yin Lim, Xin Huang, Hao Peng, Yaxi Lu, Xin Cong et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19072v1",
+    "pdf": "https://arxiv.org/pdf/2608.19072v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies AI agents that autonomously post-train large language models—writing code, launching experiments, and iterating toward better performance. The key finding: these agents excel at fine-tuning within a chosen training strategy but fail to revise their high-level approach as evidence accumulates. The authors show this isn't due to missing experience, guidance, or compute, but rather the absence of a mechanism for strategy re-evaluation during execution.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Diffusion Models for High-Dimensional Clustered Data: Intrinsic-Dimension Adaptivity via Bayesian Classification",
+    "authors": "Yuga Iguchi, Paul Fearnhead",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19067v1",
+    "pdf": "https://arxiv.org/pdf/2608.19067v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proves that diffusion models—a class of neural networks that generate data by gradually removing noise—automatically adapt to the intrinsic structure of clustered, high-dimensional data. The key finding is that the error scales with the *intrinsic dimension* of each cluster (its true complexity) rather than the ambient dimension (the full space), even when clusters have heterogeneous structures. This matters because it explains why diffusion models work well on real data that often lives on lower-dimensional manifolds hidden in high-dimensional spaces.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+    "authors": "Pradeep Murugesan, Luoxiao Yang, Xueli Chen, Xinqi Fan",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19029v1",
+    "pdf": "https://arxiv.org/pdf/2608.19029v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "nlp"
+    ],
+    "summary": "This paper presents AMR, a multi-agent system for medical question answering that uses specialized agents with persistent memory and reflection-based feedback to solve complex medical cases. Unlike traditional single-agent systems, it routes questions through solo, collaborative, or escalated workflows, and includes ethical oversight—achieving strong results on medical QA benchmarks while emphasizing trustworthiness in healthcare settings.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+    "authors": "Yajie Yin",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.19009v1",
+    "pdf": "https://arxiv.org/pdf/2608.19009v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes Verification Autonomy Levels (VAL), a classification system for evaluating how well different verification schemes can check LLM reasoning. The key insight is that most verification systems have a fundamental blind spot: they can confirm a proposed answer is correct, but cannot guarantee no better answer exists. The paper clarifies a confused literature by showing that formal completeness is only possible for properties that can be mathematically specified—everything else (fact-checking, diagnosis) tops out at checking correctness of individual steps.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
+    "authors": "Minh Hoang Nguyen, Tung Le, Huy Tien Nguyen",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18952v1",
+    "pdf": "https://arxiv.org/pdf/2608.18952v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes rEDMRec, a system that distills reasoning from a large language model into a compact, editable memory structure to power recommendation systems more efficiently. Instead of running expensive LLM reasoning on every ranking request, the system compresses the LLM's insights into four typed memory channels (user preferences, context, item perceptions, and contrastive comparisons) that a lightweight model can query directly—cutting inference costs while improving ranking quality by up to 13.3% on standard benchmarks.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+    "authors": "Bogdan Zagribelnyy, Ivan Ilin, Nikita Bondarev, Maksim Kuznetsov, Mathieu Reymond et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18940v1",
+    "pdf": "https://arxiv.org/pdf/2608.18940v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper trains large language models to predict chemical reactions in reverse (retrosynthesis), a key step in drug discovery and materials science. The key innovation is using \"Top-K prompting\" — asking the model to generate multiple plausible reactions rather than one — combined with chemical correctness constraints and reward signals, achieving better performance on out-of-distribution benchmarks than prior approaches.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
+    "authors": "Zijie Meng, Xiwei Dai, Yixuan Tang, Jin Hao, Yang Feng et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18878v1",
+    "pdf": "https://arxiv.org/pdf/2608.18878v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "DentAgent is a multi-agent AI system that coordinates specialized agents to reason over dental data (X-rays, photos, 3D scans, text) and generates diagnostic decisions backed by explicit evidence. Current dental AI systems work in isolation per data type; this framework unifies them and forces the system to show its work—which matters because traceable medical reasoning builds trust and catches errors in high-stakes healthcare.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GEAR: Generative Expansion and Real Anchoring for Two-Stage Distillation of Tabular Foundation Models",
+    "authors": "Qi Qin, Jiajie Zhu, Dali Chen, Yuzhao Zhang, Jia-Xing Han et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18849v1",
+    "pdf": "https://arxiv.org/pdf/2608.18849v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "This paper presents GEAR, a method to distill large tabular foundation models (neural networks trained on structured data) into tiny, fast models that run on standard computers. The key innovation is a two-stage process: first, generate synthetic data to expand training coverage while learning from the original model's predictions; second, re-anchor the student model to real data to avoid errors from synthetic examples. The result is 50–2800× faster inference with minimal accuracy loss.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Unifying Relational Perspective on Expressive Lottery Tickets",
+    "authors": "Lorenz Kummer, Samir Moustafa, Anatol Ehrlich, Franka Bause, Marco Nennstiel et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18819v1",
+    "pdf": "https://arxiv.org/pdf/2608.18819v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper proves that sparse graph neural networks can retain their expressive power—the ability to distinguish different graph structures—even after aggressive pruning. The authors generalize prior lottery ticket results to multi-relational and temporal graphs, showing that random pruning has a mathematically quantifiable probability of preserving expressivity. This matters because it bridges neural network compression (making models faster and smaller) with theoretical guarantees about what those smaller models can still represent.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+    "authors": "Pattaraphon Kenny Wongchamcharoen, Kris Gulati, Min Min Fong, Abhishek Nagaraj",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18554v1",
+    "pdf": "https://arxiv.org/pdf/2608.18554v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper challenges how we measure LLM capabilities by showing that the models best at automating tasks aren't necessarily best at helping weaker agents complete those tasks. Using seven real-world tasks, researchers compare \"automation mode\" (LLM produces the output directly) against \"augmentation mode\" (LLM assists a weaker worker who produces the final output), and find these two rankings are only weakly correlated—suggesting current benchmarks miss a critical use case.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
+    "authors": "Hangrui Xu, Jiarui Wang, Yang Yang, Chuanbo Zhu, Fangda Chen et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18524v1",
+    "pdf": "https://arxiv.org/pdf/2608.18524v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a fundamental problem in training autonomous agents: when tasks have multiple valid solution paths (order-independent sub-goals), standard trajectory imitation learning forces all solutions into a single path, penalizing valid alternatives. DART-SD instead models the solution space as a \"diamond topology\" — a lattice of converging paths — and uses targeted self-distillation to correct only the parts of reasoning that failed, preserving correct reasoning steps that precede failure points.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Bayesian Partner Modelling enables Adaptive Replanning for LLM Coordination",
+    "authors": "Harsh Goel, Aditya Sai Ellendula, Vaishnav Tadiparthi, Ehsan Moradi Pari, Hossein Nourkhiz Mahjoub et al.",
+    "published": "2026-08-19",
+    "url": "http://arxiv.org/abs/2608.18490v1",
+    "pdf": "https://arxiv.org/pdf/2608.18490v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a key challenge in multi-agent LLM systems: agents often continue executing outdated plans when their teammates' strategies change mid-task. The authors introduce BayesBeliefAgent, which combines hierarchical LLM planning with Bayesian tracking to intelligently decide *when* to replan based on contradictions in observed partner behavior, rather than replanning constantly or ignoring strategy shifts. The method dramatically reduces unnecessary replans while keeping agents aligned with their teammates' actual strategies.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Debiased Inference for AI-Generated Data without Gold-Standard Labels: Identification via Multiple Imperfect Measurements",
+    "authors": "Naoki Egami, Sooahn Shin",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18294v1",
+    "pdf": "https://arxiv.org/pdf/2608.18294v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a critical problem: when researchers use AI systems (like LLMs) to measure variables for statistical analysis, ignoring the AI's prediction errors causes bias and invalid confidence intervals in downstream results—even when AI accuracy exceeds 90%. The authors propose DMM (Debiased inference with Multiple Imperfect Measurements), a framework that combines multiple error-prone AI measurements to enable valid statistical inference *without* requiring expensive gold-standard labeled data.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents",
+    "authors": "Yingjie Xu, Siwei Yu, Jianwei Ma",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18272v1",
+    "pdf": "https://arxiv.org/pdf/2608.18272v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents SeisEvo, a system that uses LLM-driven agents to automatically discover seismic data reconstruction algorithms rather than manually designing them or training neural networks. The key insight is that agents search through the design space of algorithm components (while respecting physical constraints), producing interpretable, standalone algorithms that outperform classical methods by 3–7 dB in signal-to-noise ratio without requiring any agent or neural network at inference time.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Level Market Making with Reinforcement Learning",
+    "authors": "Patrick Cheridito, Moritz Weiss",
+    "published": "2026-08-18",
+    "url": "http://arxiv.org/abs/2608.18195v1",
+    "pdf": "https://arxiv.org/pdf/2608.18195v1",
+    "tags": [
+      "algorithmic-trading",
+      "market-microstructure",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper applies reinforcement learning to market making—the task of profitably buying and selling assets by placing orders at multiple price levels in a limit order book. The key innovation is using deep learning to handle variable-length order data and strategic reward shaping to train an agent that dynamically adjusts order sizes and inventory levels in response to different types of market participants.",
+    "date_added": "2026-08-20",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
     "authors": "Xingjian Wang, Zhao Wang, Taihang Hu, Jun Zheng, Qing Jin et al.",
     "published": "2026-08-18",
