@@ -35,7 +35,7 @@
       "first_seen": "2026-07-08T09:30:13.397275+00:00"
     },
     "large-language-models": {
-      "count": 567,
+      "count": 568,
       "first_seen": ""
     },
     "market-microstructure": {
@@ -51,7 +51,7 @@
       "first_seen": ""
     },
     "nlp": {
-      "count": 277,
+      "count": 278,
       "first_seen": ""
     },
     "optimization": {
@@ -63,7 +63,7 @@
       "first_seen": ""
     },
     "reinforcement-learning": {
-      "count": 275,
+      "count": 276,
       "first_seen": ""
     },
     "risk-management": {

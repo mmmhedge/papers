@@ -1303,6 +1303,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Search-Aware Reinforcement Learning for Multi-Component Query Understanding in Roblox Game Search",
+    "authors": "Nayoung Choi, Shengjian Chen, Xiaokai Wei, Wenzheng Zhang, Daiyao Yi et al.",
+    "published": "2026-09-24",
+    "url": "http://arxiv.org/abs/2609.30177v1",
+    "pdf": "https://arxiv.org/pdf/2609.30177v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles query understanding in search systems (translating user queries into structured search instructions) by combining language models with reinforcement learning. Rather than training a single model to maximize end-to-end search quality, the authors optimize each component of the query understanding pipeline separately using rewards from live search engine interactions. On Roblox's search system, this approach improves search quality metrics by 8.9 points compared to supervised training alone.",
+    "date_added": "2026-09-27",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "GridSFM: A Foundation Model for Solving AC Optimal Power Flow",
     "authors": "Luke Bhan, Weiwei Yang, Margaret Capetz, Baosen Zhang",
     "published": "2026-09-24",
