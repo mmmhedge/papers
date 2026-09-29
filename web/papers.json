@@ -2,6 +2,60 @@
   {
     "source": "blog",
     "source_name": "Hugging Face",
+    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+    "authors": "Hugging Face",
+    "published": "2026-09-29",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This post addresses a critical gap in AI agent verification: ensuring that agents not only retrieve correct facts but also cite trustworthy sources. Current fact-checking approaches verify factual accuracy in isolation, but fail to validate whether an agent's information comes from reliable, appropriate sources—a problem especially acute for agents using Model Context Protocol (MCP) to access external tools and data.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Ahead of AI (Sebastian Raschka)",
+    "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+    "authors": "Ahead of AI (Sebastian Raschka)",
+    "published": "2026-09-29",
+    "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+    "pdf": "",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This post traces the evolution of text classification from simple bag-of-words approaches through RNNs, CNNs, and modern transformers, with visual explanations and empirical comparisons. It provides a practical guide to understanding how different architectures handle text, emphasizing accuracy-efficiency tradeoffs and model calibration.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": "Ahead of AI (Sebastian Raschka)"
+  },
+  {
+    "source": "blog",
+    "source_name": "OpenAI",
+    "title": "Towards safety cases for frontier AI training",
+    "authors": "OpenAI",
+    "published": "2026-09-28",
+    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+    "pdf": "",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "OpenAI proposes early guidelines for \"safety cases\" in frontier AI training—structured documentation of technical safeguards, operational practices, and incident investigation procedures. This work aims to formalize how organizations can demonstrate and assure safe development of large-scale AI systems.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
     "title": "Holo4: powering generalist computer-use agents",
     "authors": "Hugging Face",
     "published": "2026-09-28",
@@ -1070,6 +1124,707 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Telescopic Language Models",
+    "authors": "Zhilin Guo, Boqiao Zhang, Hakan Aktas, Kyle Fogarty, Nursena Koprucu Aslan et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35769v1",
+    "pdf": "https://arxiv.org/pdf/2609.35769v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces Telescopic Language Models (TLMs), a training method that produces a single neural network capable of operating at any computational budget—from shallow to full depth—without retraining. The key insight is using stochastic prefix supervision during training: randomly truncating the model's depth on each step while keeping a full-capacity forward pass as the target. This yields a single trained artifact that works as a valid language model at every layer depth, reducing the efficiency loss typically seen in fixed-exit approaches by 43–44% while costing ~12% less to train.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+    "authors": "Yijia Fan, Ziqi Huang, Zhongang Cai, Yan Li, Zimo Wen et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35767v1",
+    "pdf": "https://arxiv.org/pdf/2609.35767v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces UMM-Reflection, a method that teaches unified multimodal models to diagnose and repair their own image generations through iterative reflection and revision. The key insight is that a single model can both generate images and write reflection text about what's wrong with them, creating a self-improvement loop — but learning this requires reinforcement learning over full reflection trajectories, not just supervised fine-tuning, because whether a revision actually helps is only known after rendering the new image.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+    "authors": "Chaoqian Ouyang, Ling Yue, Libin Zheng, Huanghui Guo, Shengxiang Xu et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35760v1",
+    "pdf": "https://arxiv.org/pdf/2609.35760v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper presents TokenCast, a system that predicts how many tokens an LLM agent will consume during task execution. Token consumption is highly unpredictable because agents take different paths based on tool feedback, and context grows with each step—making costs vary by 10× or more across runs. TokenCast learns lightweight \"cost representations\" for each execution segment and composes them to forecast total consumption, updating predictions as the run unfolds without needing extra LLM calls.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+    "authors": "Zhennan Wan, Jianfei Chen",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35759v1",
+    "pdf": "https://arxiv.org/pdf/2609.35759v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Narrative State Tracking Agent (NstAgent), a framework that helps large language models (LLMs) write much longer stories — up to 100,000 words — while keeping the plot and characters consistent. The key insight is that by explicitly tracking structured information about characters, past events, and future plot requirements, LLMs can maintain coherence across full-length novels, solving a major limitation of current story-generation systems.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neural Harmonic Measure Operator",
+    "authors": "Jinjin He, Sinan Wang, Yuchen Sun, Bo Zhu",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35752v1",
+    "pdf": "https://arxiv.org/pdf/2609.35752v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents Neural Harmonic Measure Operator (NHMO), a neural network method for solving elliptic partial differential equations (PDEs) on domains with varying shapes. The key insight is that the solution to certain PDEs depends only on the domain's geometry and boundary conditions—not on the specific source term—so the authors train a single neural operator that can be reused across different boundary values and source terms without retraining. NHMO outperforms existing neural PDE solvers on standard benchmarks.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+    "authors": "Shouren Wang, Chuang Ma, Mohsen Hariri, Debargha Ganguly, Wang Yang et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35751v1",
+    "pdf": "https://arxiv.org/pdf/2609.35751v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper proposes Foil, a method for designing mixture-of-experts (MoE) models that reuse layers multiple times (\"looping\") to improve computational efficiency. The key insight is to flatten the expert structure — halving expert layers while doubling experts per layer — and give each loop pass its own attention parameters. The approach achieves better pretraining loss and downstream performance at the same parameter and compute budgets.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+    "authors": "Emiliano Penaloza, Dane Malenfant, Dheeraj Vattikonda, Roger Creus Castanyer, Siddarth Venkatraman et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35750v1",
+    "pdf": "https://arxiv.org/pdf/2609.35750v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical bottleneck in scaling language model agents: fitting long context traces into GPU memory during training. The authors propose KV-streams, a technique that streams the key-value cache forward instead of repeatedly recomputing it, achieving 2.6–5x speedup in training throughput while maintaining or improving performance. This matters because agentic LLMs need long horizons to plan and reason, but memory constraints have forced painful tradeoffs between context length and training efficiency.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Communication-Efficient Social Intelligence in Language Agents",
+    "authors": "Linxiao Gong, Yijie Xu, Tianfu Wang, Yin Wu, Yili Wang et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35749v1",
+    "pdf": "https://arxiv.org/pdf/2609.35749v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a practical problem: how can AI agents communicate with humans and other agents efficiently—saying just enough to achieve their goals without wasting words or attention. The authors propose Teacher-Assisted Communication Training (TACT), a method that trains agents to negotiate and coordinate better while using fewer tokens, tested on social interaction benchmarks where it achieves strong goal completion with substantially reduced communication costs.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+    "authors": "Yichen You, Tianyu Fu, Aosong Feng, Xingtai Lv, Xuefei Ning et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35748v1",
+    "pdf": "https://arxiv.org/pdf/2609.35748v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "transformers"
+    ],
+    "summary": "This paper improves how language models scale during inference by introducing TaH2, a method that makes \"looped transformers\" (which reuse layers to save parameters) more efficient at test time. The key finding is that not all tokens benefit equally from extra computation iterations—by selectively routing tokens that need it, the model achieves 53% better accuracy-per-compute trade-offs on hard math benchmarks while staying parameter-efficient.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers",
+    "authors": "Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang, Min Kass Chong et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35745v1",
+    "pdf": "https://arxiv.org/pdf/2609.35745v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper addresses how to efficiently initialize linear Vision Transformers (models that replace expensive attention mechanisms with faster linear-complexity alternatives) by reusing weights from pre-trained standard Vision Transformers. The key finding is counterintuitive: attention weights cannot be simply copied between the two architectures, but MLP (feedforward) weights can be, and attention's behavior can be recovered through knowledge distillation. This enables linear ViTs to match or exceed the performance of their slower Softmax-based counterparts while remaining computationally efficient.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
+    "authors": "Hoyoung Lee, Suyeol Yun, Jack Haverty, Yunju Cho, Meesong Kim et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35744v1",
+    "pdf": "https://arxiv.org/pdf/2609.35744v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper presents FinAutoRubric, a system that automatically generates evaluation rubrics for assessing financial research agents by combining expert guidance with AI-driven workflows. Rather than manually creating fixed rubrics for each financial benchmark task, experts provide reusable evaluation principles that agents use to generate query-specific scoring criteria, review them, and validate results—solving a critical problem in building trustworthy evaluations for AI systems operating in high-stakes financial domains.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+    "authors": "Jonathan Light, Christopher Zhang Cui, Jeonghye Kim, Roger Creus Castanyer, Emiliano Penaloza et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35741v1",
+    "pdf": "https://arxiv.org/pdf/2609.35741v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper shows that language model agents can improve their problem-solving performance by simply training on explanations of their own past attempts — without reinforcement learning or external rewards. The method, called Retrospection-Only Fine-Tuning (ROFT), has a language model agent attempt a task, generate a written explanation of what happened, and then fine-tune itself on predicting those explanation tokens. On software engineering benchmarks, ROFT matches or exceeds reinforcement learning baselines while being simpler and faster to train.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Harness Learning Enables Generalizable Test-Time Adaptation",
+    "authors": "Alvin Zhang, Xuecheng Liu, Zixuan Wang, Fahim Tajwar, Daman Arora et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35738v1",
+    "pdf": "https://arxiv.org/pdf/2609.35738v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces harness learning, a method that trains AI agents to automatically revise their own execution programs (the \"harness\" — the code that orchestrates model calls and tool use) based on task feedback, without updating model weights. The key insight is that different tasks benefit from different ways of organizing computation, and the agent can learn to adapt this organization at test time to generalize to unseen problems.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets",
+    "authors": "Prithwish Dan, Chenyang Ma, Wei Zhan",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35715v1",
+    "pdf": "https://arxiv.org/pdf/2609.35715v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces X-Reset, a method for training robot manipulation policies in simulation by using human hand-object demonstrations as a source of good starting states (resets) for reinforcement learning, rather than as trajectories to imitate. The key insight is that kinematically retargeting human demonstrations to robot embodiments and filtering for simulation stability creates a diverse, exploration-friendly reset distribution that helps RL policies learn dexterous manipulation of many objects without task-specific reward engineering.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+    "authors": "Priyanka Kargupta, Silviu Cucerzan, Shweti Mahajan, Allen Herring, Jiawei Han et al.",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35706v1",
+    "pdf": "https://arxiv.org/pdf/2609.35706v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical limitation of large language models: they tend to produce safe, predictable outputs that are poorly suited for open-ended scientific discovery. The authors introduce AI Night-Scientist, a reinforcement learning framework that teaches models when and how to explore creative, unconventional reasoning paths. The result is substantially more diverse and novel research proposals, with improvements in citation impact and originality.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
+    "authors": "Qiyao Ma, Junshan Zhang, Zhe Zhao",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35695v1",
+    "pdf": "https://arxiv.org/pdf/2609.35695v1",
+    "tags": [
+      "alignment",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a fundamental problem: large language models trained with standard alignment methods optimize for an \"average\" user and ignore the diversity of real preferences. The authors show that personalized generation—tailoring outputs to individual users—can be tackled efficiently at test time using lightweight ranking models rather than expensive reward models. They propose a million-parameter MLP-based ranker that scores candidate outputs 10,000× faster than billion-parameter reward models while delivering better personalization across nine datasets.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Denoising Multi-Robot Trajectories",
+    "authors": "Yuhao Zhang, Keisuke Okumura, Ajay Shankar, Amanda Prorok",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35651v1",
+    "pdf": "https://arxiv.org/pdf/2609.35651v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents D4orm, a diffusion-denoising framework that solves multi-robot trajectory planning by iteratively refining candidate paths to be collision-free and dynamically feasible. Rather than using traditional optimization, it leverages massive parallel sampling on GPUs to efficiently generate high-quality solutions, scaling from small robot teams to 100+ robots and real-world quadrotor deployments.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "EvE: An Alternate Optimizer to Adam",
+    "authors": "Shashank Raj, Kalyanmoy Deb",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35614v1",
+    "pdf": "https://arxiv.org/pdf/2609.35614v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces EvE (Evolutionary Explorer), a new optimizer that combines differential evolution with targeted gradient descent to speed up neural network training and hyperparameter search. Unlike Adam, which requires a full training run to evaluate a configuration, EvE can rank different architectures and hyperparameters much faster—finishing searches 3–3.5× quicker—by using evolution to propose updates and only calling gradient descent when needed, making it ideal for budget-constrained search scenarios.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Positional choice and robust collective behavior in fish schools: biohybrid experiments and modeling",
+    "authors": "Vahagn Grigoryan, Donato Romano, Cesare Stefanini, Giulia De Masi",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35554v1",
+    "pdf": "https://arxiv.org/pdf/2609.35554v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how fish schools maintain collective behavior through experiments combining live fish with robotic fish, then builds mathematical models to understand the underlying rules. The key finding is that realistic schooling models need to include both social interaction rules and individual exploratory behavior—standard models are too fragile to small changes in their parameters and miss what actually happens in nature.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Universal Approximation of Measure-to-Measure Operators by Pushforwards",
+    "authors": "Takashi Furuya, Nicholas H. Nelsen, Frank Cole",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35483v1",
+    "pdf": "https://arxiv.org/pdf/2609.35483v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper proves when neural networks can learn operators that map probability distributions to other probability distributions — a fundamental capability of transformers and other modern models. The authors show that simple deterministic transformations of samples fail for some distribution-to-distribution tasks, then identify conditions under which they provably succeed, and connect these results to transformer architectures.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Adapting Group of Experts for Multi-Agent Reasoning",
+    "authors": "Mohammad Atif Quamar, Nurbek Tastan, Karthik Nandakumar, Junpei Komiyama",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35412v1",
+    "pdf": "https://arxiv.org/pdf/2609.35412v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces SAGE, a framework that enables multiple language model agents to automatically adapt their reasoning strategies based on the problem at hand. Instead of keeping each agent's instructions fixed, SAGE identifies which agent is solving the problem best, extracts its reasoning approach, and teaches it to the other agents—all without needing to see the actual problem or solutions. The result is better performance across reasoning benchmarks.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Persistent Partners Raise Prices Among Learning Agents",
+    "authors": "Paul-Peter Arslan, Yubin Kim, Xiao Xiao",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35402v1",
+    "pdf": "https://arxiv.org/pdf/2609.35402v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether repeated interaction between pricing agents raises the prices they learn through Q-learning, and whether this involves learned punishment. Using a controlled experiment in a Bertrand duopoly setting, the authors show that agents paired with the same partner consistently achieve higher profits and prices compared to those facing rotating opponents—even when unable to observe or punish rival price cuts. The finding matters because it suggests that matching algorithms on digital platforms can inadvertently facilitate collusion-like outcomes among learning agents.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Learning Methods in Neuroscience: From Modeling Molecular Mechanisms to Classifying States of Consciousness",
+    "authors": "Elena Benderskaya, Anastasiia Alifanova, Svetlana Batalova, Vasilisa Zhuk, Anna Kovalenko",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35372v1",
+    "pdf": "https://arxiv.org/pdf/2609.35372v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reviews how deep learning methods are being applied to understand and classify brain states, particularly consciousness levels under anesthesia using brain imaging data (EEG and fMRI). The work identifies that neural networks are increasingly effective at detecting consciousness markers and modeling brain dynamics, but highlights critical gaps: current models lack interpretability, use inconsistent evaluation metrics, and struggle to generalize across patients—problems that matter because better automated detection could improve clinical monitoring and anesthesia safety.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Hierarchy of Entropy-Shapley Games for Multivariate Predictive Uncertainty",
+    "authors": "Niklas Koenen, Claudia Battistin, Jeriek Van den Abeele, Martin Jullum",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35217v1",
+    "pdf": "https://arxiv.org/pdf/2609.35217v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper introduces a framework for understanding which input features drive uncertainty in machine learning models that predict multiple correlated outputs—like multi-step forecasts or joint price movements. Rather than collapsing multivariate predictions into single numbers before analysis, the authors propose a hierarchy of attribution methods that separately identify whether features affect individual output uncertainty, their dependence structure, or both.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Migration to Calibration: Preserving Agent Capabilities across Models, Jurisdictions, and Scale",
+    "authors": "Yaxiao Liu, Pengbo Liu, Yiwen Liu, Yihua Guan, Jiaxing Song",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35149v1",
+    "pdf": "https://arxiv.org/pdf/2609.35149v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses how AI agents maintain their capabilities when deployed under different conditions—switching underlying models, operating across different countries or regions, or scaling to new markets. The authors propose a three-layer framework (information, harness, and user calibration) to adapt agents while preserving their core abilities and meeting new requirements. The work is methodological, laying out evaluation strategies rather than providing fully implemented solutions.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Retrieval-Augmented Diffusion Modeling for Stochastic Discount Factor Portfolios",
+    "authors": "Kelvin J. L. Koa, Xinyang Li, Ke-Wei Huang",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35086v1",
+    "pdf": "https://arxiv.org/pdf/2609.35086v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper combines diffusion models (a type of generative AI that learns data distributions by gradually denoising noise) with retrieval-augmented learning to optimize stock portfolios under the stochastic discount factor framework. The key insight is that financial markets shift regimes unpredictably, and the paper's method (RADAR) learns better representations of market risk by conditioning on similar historical states, achieving better risk-adjusted returns than existing approaches.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Universality and Generalization of Causal Transformers Across Context Lengths",
+    "authors": "Takashi Furuya, Maarten V. de Hoop, Gabriel Peyré",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35055v1",
+    "pdf": "https://arxiv.org/pdf/2609.35055v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper proves that a single masked transformer with fixed parameters can uniformly approximate causal token-to-token mappings across sequences of any length, provided the underlying functions satisfy a continuity condition (α-Hölder regularity). The authors establish generalization bounds showing that transformers can learn from finite data with prediction error that doesn't degrade with sequence length, and validate this theory on physical time series where tokens exhibit the predicted smoothness properties.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GUIDE-FBO: Guidance via Uncertainty Intervention and Distributional Exchange for Federated Bayesian Optimization",
+    "authors": "Jintao Wei, Chenxi Li, Songhao Wang",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35038v1",
+    "pdf": "https://arxiv.org/pdf/2609.35038v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents GUIDE-FBO, a federated Bayesian optimization framework where multiple distributed agents collaborate to optimize expensive black-box functions by exchanging compact probability distributions rather than raw data. The key innovation is a \"Federated Interventional GP\" that lets each agent use shared distributional information while maintaining local privacy and adapting to task differences, with theoretical guarantees that the method preserves standard optimization efficiency rates.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Fast Learning Rate Transfer in Shallow Linear Networks at Growing Training Horizons",
+    "authors": "Mana Sakai, Masaaki Imaizumi",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.35029v1",
+    "pdf": "https://arxiv.org/pdf/2609.35029v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper studies how learning-rate hyperparameters can be efficiently transferred across neural networks of different widths when training time also grows. The authors prove that for shallow linear networks trained with gradient descent, fast transfer is possible under specific spectral conditions—specifically when training steps grow slower than the square root of network width. This matters because hyperparameter tuning is expensive for large models; understanding when transfer works helps practitioners avoid redundant tuning.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep kernel hedging",
+    "authors": "Jean-Loup Dupret, Donatien Hainaut, Edouard Motte",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.34474v1",
+    "pdf": "https://arxiv.org/pdf/2609.34474v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper combines deep neural networks with kernel methods to solve the derivatives hedging problem — finding the optimal trading strategy to offset price risk in financial instruments. The key innovation is using a neural network to learn a flexible kernel (a similarity function between market states) while keeping the hedging strategy within a mathematically well-behaved space called a reproducing kernel Hilbert space. The approach works particularly well when training data is limited, a common constraint in finance.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Word Counts to Context: Topic Models for Asset Pricing",
+    "authors": "Kevin Foley, Jonathan Hartadi, Shivesh Prakash, Swapnil Vatsal",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.34169v1",
+    "pdf": "https://arxiv.org/pdf/2609.34169v1",
+    "tags": [
+      "nlp",
+      "quantitative-finance"
+    ],
+    "summary": "This paper asks whether modern sentence transformers can extract better risk signals from news text than traditional topic models like LDA for asset pricing. The authors compare these approaches on nearly 400,000 news articles and find that sentence transformers produce more coherent topics and higher Sharpe ratios in portfolio construction, though the evidence remains suggestive rather than conclusive.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hidden Activations are not Enough I: Knowledge Matrices as Higher Representations",
+    "authors": "Marco Armenta",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.34166v1",
+    "pdf": "https://arxiv.org/pdf/2609.34166v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes that \"knowledge matrices\"—a mathematical structure derived from trained neural networks—better capture what networks have learned than hidden activations alone. The authors show these matrices have useful geometric properties: they're invariant to certain transformations, they directly encode attribution information, and they can detect adversarial perturbations. The work matters because understanding what neural networks actually compute is critical for both interpretability and robustness.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ADPTNet: Adaptive with Prescriptive Timescales Non-Linear SSM for Sequence Modelling",
+    "authors": "Matei-Ioan Stan, Oliver Rhodes",
+    "published": "2026-09-27",
+    "url": "http://arxiv.org/abs/2609.34034v1",
+    "pdf": "https://arxiv.org/pdf/2609.34034v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "ADPTNet is a neuromorphic neural architecture that combines non-linear recurrence with data-adaptive long-range memory and GPU parallelization, addressing the energy inefficiency of Transformers. The key innovation is using fixed timescales (inspired by auditory cortex biology) with linear attention and Riemannian optimization to achieve both complex reasoning and computational efficiency — demonstrating competitive or superior performance on sequence tasks while using fewer parameters.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Taming the Greeks: Option Portfolios with Inductive Biases",
+    "authors": "Wee Ling Tan, Stephen Roberts, Stefan Zohren",
+    "published": "2026-09-27",
+    "url": "http://arxiv.org/abs/2609.33767v1",
+    "pdf": "https://arxiv.org/pdf/2609.33767v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper presents a deep learning framework for options trading that enforces specific risk constraints during training by penalizing unwanted portfolio sensitivities. Unlike standard neural networks that optimize returns blindly or reinforcement learning methods that simulate markets, this approach directly embeds hedging behavior—ensuring portfolios stay neutral to chosen risk factors while improving returns—and demonstrates better real-world performance on equity options data.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
+    "authors": "Haochen Luo, Yifan Li, Binh Minh An, Xiaolong Luo, Zhengzhao Lai et al.",
+    "published": "2026-09-27",
+    "url": "http://arxiv.org/abs/2609.33470v1",
+    "pdf": "https://arxiv.org/pdf/2609.33470v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper introduces LiveOption, an evaluation framework designed to test how well large language models (LLMs) perform at option trading—a financial task far more complex than simply predicting stock price direction. Unlike previous benchmarks that focus on equity trading, LiveOption measures whether LLM agents can construct multi-leg strategies, respect capital constraints, and manage the nonlinear risk profiles inherent in derivatives markets. The work reveals that current LLM agents struggle to compete with traditional baselines on realistic option trading tasks.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+    "authors": "EverMind AI",
+    "published": "2026-09-27",
+    "url": "http://arxiv.org/abs/2609.33439v1",
+    "pdf": "https://arxiv.org/pdf/2609.33439v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "Raven is a system that automatically builds and improves specialized \"harnesses\" (control structures) for AI agents, then orchestrates them to solve complex, multi-domain tasks. Rather than manually engineering one harness per domain, Raven learns from experience to create modular, reusable agent configurations that compose together—like assembling specialized tools for different jobs rather than buying one universal wrench.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolution of Market Microstructure in the Age of AI",
+    "authors": "Irene Aldridge",
+    "published": "2026-09-27",
+    "url": "http://arxiv.org/abs/2609.33058v1",
+    "pdf": "https://arxiv.org/pdf/2609.33058v1",
+    "tags": [
+      "agents",
+      "algorithmic-trading",
+      "market-microstructure"
+    ],
+    "summary": "This survey traces how market design has evolved across technological shifts—from floor trading to high-frequency trading to AI agents—by asking a central question: can markets allocate goods efficiently without forcing participants to fully reveal their information? The paper shows that as technology changes, the fundamental constraints of market design shift too (from trader rationality to speed to transaction ordering control), but deep trade-offs between efficiency and fairness persist regardless of the medium.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Forecasting Intraday USD/CAD Exchange Rate with News-Derived Monetary-Policy Signals",
+    "authors": "Maya Kodeih, Aliaa Alnaggar, Mucahit Cevik",
+    "published": "2026-09-26",
+    "url": "http://arxiv.org/abs/2609.32773v1",
+    "pdf": "https://arxiv.org/pdf/2609.32773v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper develops a method to forecast intraday USD/CAD exchange rates by extracting structured monetary-policy signals from news using large language models. Rather than treating news sentiment as a black box, the authors decompose monetary-policy communication into interpretable channels and measure which ones actually predict price movements — finding that communication timing and targeted activity measures matter more than sentiment alone.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Evolving Multi-Agent Symbolic Discovery for Financial Fundamental Analysis",
+    "authors": "Kelvin J. L. Koa, Filip Orestav, Shengqiong Wu, Michael J. Wooldridge, Ke-Wei Huang",
+    "published": "2026-09-26",
+    "url": "http://arxiv.org/abs/2609.32746v1",
+    "pdf": "https://arxiv.org/pdf/2609.32746v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper presents MUFASA, a multi-agent framework that discovers interpretable financial valuation equations by treating the problem as symbolic discovery with multiple competing perspectives. Unlike symbolic regression in physics (which has one \"correct\" answer), financial valuation is inherently ambiguous—different models can be valid simultaneously, markets change constantly, and signals are noisy. MUFASA solves this by deploying specialized agents for different valuation viewpoints, coordinating them hierarchically, and using performance memory to learn robustly despite noise.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Implementability in Insurance Markets with Adverse Selection",
+    "authors": "Maria Andraos, Mario Ghossoub",
+    "published": "2026-09-25",
+    "url": "http://arxiv.org/abs/2609.31959v1",
+    "pdf": "https://arxiv.org/pdf/2609.31959v1",
+    "tags": [
+      "risk-management"
+    ],
+    "summary": "This paper solves a fundamental problem in insurance design under hidden information: how to set premiums so that customers truthfully reveal their risk type and accept the offered contracts. The authors characterize when such incentive-compatible insurance menus exist using a mathematical property called cyclical monotonicity, and provide simpler conditions for common insurance contract types.",
+    "date_added": "2026-09-29",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
