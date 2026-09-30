@@ -1128,6 +1128,566 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "authors": "Zihang Rui, Renhao Wang, Haoxu Huang, Yang Gao",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38178v1",
+    "pdf": "https://arxiv.org/pdf/2609.38178v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents skill-space shooting, a method that helps robots improve their policies by learning from their own failures without requiring constant human supervision. The key insight is that many corrections robots need are reusable skills (short, recognizable behaviors) that foundation models can understand and reason about—so the paper shows how to explore these skills systematically and convert successful trials into policy improvements that transfer across tasks.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+    "authors": "Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han, Mungyeom Kim et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38177v1",
+    "pdf": "https://arxiv.org/pdf/2609.38177v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "This paper teaches multimodal large language models (MLLMs) to reason about 3D scenes by first \"imagining\" a compact 3D representation before answering questions. Rather than relying on pixel-level geometry details, the model learns to assemble a coarse 3D layout of a scene from multi-view images—mimicking how humans reason spatially—then grounds its answers in this internal 3D model. The approach consistently improves performance on spatial reasoning and 3D understanding benchmarks.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data",
+    "authors": "Joseph Metcalfe, Sara Sharifzadeh, Fabio Caraffini",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38165v1",
+    "pdf": "https://arxiv.org/pdf/2609.38165v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper presents PAtteRNS, a hybrid transformer-convolutional model for identifying crop types in satellite imagery over time. The key innovation is using separate attention mechanisms for temporal, spectral, and spatial dimensions of multispectral satellite data—rather than treating all dimensions together—which reduces computational cost while improving accuracy. The authors also expose a critical problem: datasets for this task are built inconsistently (different tile sizes, flawed class groupings), making it impossible to fairly compare different models.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Pretraining Latent Information Feedback Transformers with Teacher Supervision",
+    "authors": "Dor Tirosh, Ido Amos, Mor Geva",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38149v1",
+    "pdf": "https://arxiv.org/pdf/2609.38149v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper introduces LIFT (Latent Information Feedback Transformer), a new architecture that allows language models to feed internal representations backward through layers during generation, breaking the feed-forward constraint of standard Transformers. Using teacher supervision during pretraining — where a pretrained model's state predictions guide learning — the authors show that models with this recurrent feedback consistently outperform standard Transformers at similar computational budgets, while remaining fully parallelizable during training.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+    "authors": "Paras Dahal, Anton Bakhtin, Taco Cohen, Zhengxing Chen, Carole-Jean Wu et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38147v1",
+    "pdf": "https://arxiv.org/pdf/2609.38147v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces a meta-reasoning framework for AI agents that explicitly structures how agents decide what to do next during long, complex tasks. Instead of agents blindly pursuing actions, a controller examines progress, explores options, and allocates remaining computational budget before each step. The approach shows consistent gains on hard tasks like program reconstruction and theorem proving, especially as problems get longer.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+    "authors": "Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38143v1",
+    "pdf": "https://arxiv.org/pdf/2609.38143v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how one AI system (a Builder) can learn to design better execution environments for another AI system (a Target) without changing either model's weights. The key idea is that the Builder learns reusable \"meta-skills\"—principles about when to provide support and what resources to give—from feedback on development tasks, then applies these skills to new unseen tasks. The approach shows significant performance gains, suggesting AI systems can improve themselves by learning to construct better environments for their own reasoning.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
+    "authors": "Rishabh Agrawal, Hejie Cui, Shasha Li, Shanchan Wu, Sercan Ö. Arık",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38142v1",
+    "pdf": "https://arxiv.org/pdf/2609.38142v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces AdviSD, a method for training a small \"advisor\" model that steers frozen large language models (like Gemini or Claude) using natural-language guidance. The key insight is that not all feedback corrections are equally valuable for learning — some can mislead future decisions — so the method selectively learns from corrections that actually change the executor's behavior. AdviSD outperforms baselines by 4–6 points on standard benchmarks and generalizes to new tasks and different model families.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "authors": "Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38140v1",
+    "pdf": "https://arxiv.org/pdf/2609.38140v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper proposes SplitMoE, a new architecture for scaling video generation models using a split expert pool that avoids uniform routing constraints. Current Mixture-of-Experts (MoE) systems treat all tokens identically, causing semantic information to scatter across experts—but video data has natural semantic structure and temporal redundancy that gets lost. SplitMoE separates experts into \"semantic\" and \"generic\" roles, letting tokens cluster by meaning rather than arbitrary load balancing, resulting in faster training and better video quality.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent Flow Matching with Decoupled Generative Guidance",
+    "authors": "Ruoyu Lin, Magnus Egerstedt, Fabio Pasqualetti",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38133v1",
+    "pdf": "https://arxiv.org/pdf/2609.38133v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper introduces DeGG-Flow, a framework that uses flow matching (a generative modeling technique) to generate multi-agent systems while guaranteeing they satisfy hard constraints. The key innovation is \"decoupled guidance\"—each agent can independently determine how to steer the generation process toward satisfying requirements, without needing to coordinate with other agents in real time. The work matters because generative models are powerful but typically make no promises about constraint satisfaction; this bridges that gap for multi-agent scenarios.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household",
+    "authors": "Tianqi Liu, Nayoung Kim, Julia Sebastien, Kathryn Gleason, Caitlín Eilís Barrett et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38113v1",
+    "pdf": "https://arxiv.org/pdf/2609.38113v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents IMPACT, a multi-agent simulation architecture that models how people in a Roman household coordinate their movements and activities based on social roles and relationships. Rather than simulating independent agents, IMPACT captures how individuals wait for, prompt, and constrain each other's behavior through socially defined dependencies—demonstrating this through a five-hour simulation of a Pompeian dinner party where social hierarchy and obligations shape who moves where and when.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
+    "authors": "Cutter Dawes, Nick Alonso, Tom Figliolia, Beren Millidge",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38109v1",
+    "pdf": "https://arxiv.org/pdf/2609.38109v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper explains how transformer models can work without explicit position encodings (like RoPE) when they combine local attention layers (like sliding window attention) with global attention layers. The key finding: local mixing layers create a \"recency bias\" in the model's internal representations that carries position information forward, allowing global attention to implicitly track sequence positions. This matters because it challenges the assumption that explicit position encodings are necessary and suggests a path toward position representations that could generalize to longer sequences.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+    "authors": "Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera, Marcos López de Prado, Shadab Khan",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38108v1",
+    "pdf": "https://arxiv.org/pdf/2609.38108v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper examines a critical gap in LLM-based agent systems: agents often fail to execute the plans they declare, even when the plans are sound. The authors propose Planning-as-Routing, where agents explicitly choose a planning mode (Predefined, Sequential, Hierarchical, or Search) and a specialized executor enforces that structure, dramatically improving task success rates across multiple benchmarks.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+    "authors": "Ratish Puduppully, Pranabendu Misra, Paarth Iyer, Durgesh Kalwar, Vardhan Palod et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38107v1",
+    "pdf": "https://arxiv.org/pdf/2609.38107v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates whether chain-of-thought traces—the step-by-step reasoning that language models generate—actually reflect how models solve problems or are just post-hoc rationalizations. Using a specially designed math benchmark (iGSM) where correct solutions can be mechanically verified, the authors discover that models frequently produce correct answers with logically invalid reasoning traces, even when those traces pass surface-level checks. This matters for AI safety: if we can't trust model reasoning to be genuine, we can't rely on interpretability methods for debugging or auditing AI systems.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+    "authors": "Panagiotis Theodoropoulos, Nan Jiang, Xintong Duan, Ali Hasan, Yuriy Nevmyvaka et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38104v1",
+    "pdf": "https://arxiv.org/pdf/2609.38104v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes Parallel Power Tempering (PPT), an inference-time method that improves reasoning in smaller language models without expensive retraining. Instead of using reinforcement learning to update model weights, PPT runs multiple copies of the model in parallel at different \"sharpening\" levels — some explore diverse reasoning paths while others exploit the most likely correct answers — allowing small models to match frontier model performance on complex reasoning tasks.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Effective Dense Retrieval using Only In-Context Examples",
+    "authors": "Nour Jedidi, Abdul Basit Ali, Hang Li, Jimmy Lin",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38099v1",
+    "pdf": "https://arxiv.org/pdf/2609.38099v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper shows that large language models can be turned into effective dense retrievers—systems that find relevant documents by comparing numerical representations—without any training, using only a few example queries and documents as context. The method, called RICE, works by prompting the LLM with in-context examples that teach it how to encode both queries and documents consistently, making it practical for teams that can't afford to fine-tune models.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Traversing the solution space of neural networks with Hessian Null Space Continuation",
+    "authors": "Ann Huang, Mitchell Ostrow, Zhouyang Lu, William T. Redman, Leo Kozachkov et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38081v1",
+    "pdf": "https://arxiv.org/pdf/2609.38081v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper introduces Hessian Null Space Continuation (HNC), a method for exploring the weight space of trained neural networks while preserving their output behavior. The key finding is that near any trained solution, there exist many radically different internal representations and computational mechanisms — far more diversity than previously known. This matters because it reveals that neural network solutions are not isolated points but regions full of hidden variation, with implications for understanding how networks compute, merging models, and editing their learned behaviors.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Latent Inference-Time Guidance of Time Series Foundation Models",
+    "authors": "Chloé Hashimoto-Cullen, Amaury Durand, Laurent Bozzi, Benjamin Guedj, Yannig Goude et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38058v1",
+    "pdf": "https://arxiv.org/pdf/2609.38058v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents a method to improve time series forecasts by intelligently combining predictions from multiple foundation models (large pre-trained neural networks) at prediction time. Rather than picking a single \"best\" model configuration, the approach uses a latent variable model to learn how to weight different forecasts together, adapting across time — and it does this without modifying the foundation models themselves, keeping them as plug-and-play tools.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Gender bias across LLMs is common and highly heterogenous",
+    "authors": "Edoardo Bolzoni, Valerio Capraro",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38036v1",
+    "pdf": "https://arxiv.org/pdf/2609.38036v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper systematically audits ten recent large language models (LLMs) for gender bias using two empirical paradigms: whether models attribute stereotyped phrases to the \"correct\" gender, and whether they judge harmful acts differently depending on the victim's gender. The researchers find that gender bias is widespread across models, but the direction and magnitude varies dramatically—some models favor men, others favor women, and some show no pattern at all. This heterogeneity suggests that bias evaluation can't be done once and forgotten; it requires ongoing monitoring across multiple vendors.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy",
+    "authors": "Huan Rong, Chao Yin, Anouar Imel, Yijie Xia, Tinghuai Ma",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38016v1",
+    "pdf": "https://arxiv.org/pdf/2609.38016v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper proposes Brain-SAD, a safe autonomous driving framework that uses dynamic, fear-based constraints instead of static safety rules. The key insight is that danger varies moment-to-moment based on the immediate driving scene—so constraints should adapt in real-time rather than stay fixed. The approach uses dual policies (one for normal driving, one for emergency avoidance) and outperforms existing safe reinforcement learning methods in collision avoidance and task completion.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Identifiability Guarantees for Drivers and Dynamics of Delayed Physical Systems",
+    "authors": "Julien Boussard, Antoine Débouchage, Théo Saulus",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37944v1",
+    "pdf": "https://arxiv.org/pdf/2609.37944v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops a method to identify the underlying drivers and dynamics of delayed physical systems (stochastic differential equations with time lags) from observed data, with mathematical guarantees. Unlike physics-informed neural networks or symbolic regression approaches that lack identifiability guarantees, this work proves that under reasonable assumptions, you can uniquely recover the true dynamics — a critical requirement for trustworthy scientific modeling.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A neural network that maintains and retrieves memories based on context",
+    "authors": "Hayoung Song, JeongJun Park, Qihong Lu, Giacomo Vedovati, Monica D. Rosenberg et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37791v1",
+    "pdf": "https://arxiv.org/pdf/2609.37791v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper shows how a recurrent neural network (RNN) with memory can learn to use context—inferred from visual scenes—to both maintain working memory and retrieve episodic memories, much like the human brain does. The model's activity patterns match fMRI recordings from humans watching movies, and it retrieves memories faster and more accurately when context modulation is included, suggesting a computational principle underlying how context shapes memory in naturalistic settings.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RLTL;DR: Self-improvement by Internalizing Self-generated Feedback",
+    "authors": "Michael Kirchhof, Eleonora Gualdoni, Andrew Szot, Khashayar Gatmiry, Aryo Lotfi et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37633v1",
+    "pdf": "https://arxiv.org/pdf/2609.37633v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a hard problem in self-improvement: teaching agents to solve tasks where success is extremely rare or impossible initially. The authors introduce RLTL;DR, which lets a policy generate its own textual insights after each failure, then conditions future attempts on these insights. The key finding is that by \"internalizing\" the task-to-insight mapping through backpropagation, the model learns to solve hard problems without needing the insights at test time—suggesting a new training paradigm for difficult generalization.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rational Clarification by Assistive Agents via Value-of-Information Reasoning",
+    "authors": "T. Duy Nguyen-Hien, Yee Whye Teh, Wee Sun Lee, Tan Zhi-Xuan",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37588v1",
+    "pdf": "https://arxiv.org/pdf/2609.37588v1",
+    "tags": [
+      "agents",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a practical problem: when users make ambiguous requests to AI assistants, should the assistant ask clarifying questions or just act on its best guess? The authors propose REVOIR, a reasoning method that decides whether to clarify by estimating how much an answer would improve the task outcome, balancing question-asking costs against the risk of misalignment. On two tasks, REVOIR outperforms existing approaches while asking far fewer questions.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RAVEN: Receiver-Conditioned Action-Value Encoding for Finite-Alphabet Multi-Agent Communication",
+    "authors": "Shuwei Sun, Chenxi Wang, Jian Huang, Weiyun Ru, Hui Cao",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37566v1",
+    "pdf": "https://arxiv.org/pdf/2609.37566v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a core problem in multi-agent reinforcement learning: how to compress messages between agents so that they retain only the information each receiver actually needs to make good decisions. The authors propose RAVEN, a method that encodes messages as short 4-symbol sequences (2 bits each) by learning what distinctions in value matter to each receiver given its own private context—and show it outperforms recent communication methods that use 12–1,000× more bits.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Physical Muon: Orthogonalization as an Equilibrium Computation",
+    "authors": "Yuren Hao",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37525v1",
+    "pdf": "https://arxiv.org/pdf/2609.37525v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper redesigns Muon, an optimizer for neural network training, to work on analog hardware by replacing dense matrix operations with a continuous-time flow that can be approximated using only matrix-vector products and local updates. The key insight is that orthogonalization — a core step in Muon — can be computed as the equilibrium state of a dynamical system rather than through explicit matrix inversion, making it feasible for physical neural networks and in-memory computing devices.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PowerMarketJax: A JAX Benchmark Suite for Multi-Agent Reinforcement Learning in Power Markets",
+    "authors": "Zhanhua Pan, Xin Qin, Xiao Liu, Zhilong Cao, Jianhong Wang et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37321v1",
+    "pdf": "https://arxiv.org/pdf/2609.37321v1",
+    "tags": [
+      "market-microstructure",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "PowerMarketJax is a GPU-accelerated benchmark for training multiple learning agents to bid in realistic electricity markets. The paper shows that agent bidding strategies vary dramatically depending on market rules, and demonstrates 33× speedup by implementing the entire simulation and training pipeline in JAX, enabling large-scale study of how competitive learning shapes real-world power market outcomes.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Hybrid Joint-Selective Optimization: Reduced-Space Levenberg-Marquardt Refinement of Low-Dimensional Parameters of Interest",
+    "authors": "Muhammad Luthfi Shahab, Gabriella Alfa Indahsari, Imam Mukhlash, Hadi Susanto",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37308v1",
+    "pdf": "https://arxiv.org/pdf/2609.37308v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes a hybrid optimization strategy (HJSO) that combines first-order gradient descent on all parameters with targeted second-order refinement on a small subset of \"parameters of interest.\" It's useful when you have a huge neural network but only care deeply about getting a few specific outputs right — like option prices in financial models or specific eigenvalues in matrix problems. The method trades off computational cost for accuracy in the dimensions that matter most.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FlowMAS: Learning Multi-Agent Workflow Topology via Information-guided Generative Flow Network",
+    "authors": "Haitao Wang, Chenjing Liang, Haipeng Zhang, Jiawei Hu, Sicheng Wang et al.",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37151v1",
+    "pdf": "https://arxiv.org/pdf/2609.37151v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes FlowMAS, a method for automatically designing the topology (structure and connections) of multi-agent workflows without manual specification. It uses Generative Flow Networks—a machine learning technique that treats workflow design as a guided exploration problem—to discover effective collaboration patterns between agents, and shows improvements over existing search and text-based approaches on benchmark tasks with large language models.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolving Towards Better Codes: LLM-Guided Search for High-Distance Binary Linear Codes",
+    "authors": "Amal Seddas, Vladyslav Shashkov, Maryna Viazovska, Emmanuel Abbe",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37056v1",
+    "pdf": "https://arxiv.org/pdf/2609.37056v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper shows how large language models (LLMs) can discover better binary linear codes — mathematical structures used in data transmission and storage — by searching over possible code-construction programs. The approach found seven new record-breaking codes that beat the current best-known constructions, suggesting LLMs can guide search in classical mathematics problems where exhaustive solutions are infeasible.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Depth Temporal Fusion for Feedforward, Locally Trained Spiking Neural Networks",
+    "authors": "Aidin Attar, Eleonora Cicciarella, Michele Rossi",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.37047v1",
+    "pdf": "https://arxiv.org/pdf/2609.37047v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper presents a new spiking neural network (SNN) architecture that processes images and event streams using biologically-inspired spike timing. The key innovation is Multi-Depth Temporal Fusion (MDTF), which combines early and late temporal features intelligently rather than replacing them, and trains the network using only local learning rules (STDP). The work matters because it achieves strong image classification while remaining efficient and trainable without backpropagation — important for neuromorphic hardware and energy-constrained systems.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Spread-Gated Hawkes-Flocking Model for Best Bid and Ask Dynamics, with an Application to Limit Order Placement",
+    "authors": "Hyoeun Lee, Kiseop Lee",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.36631v1",
+    "pdf": "https://arxiv.org/pdf/2609.36631v1",
+    "tags": [
+      "algorithmic-trading",
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "This paper models how best bid and ask prices move together in financial markets using a spread-gated Hawkes-flocking model—a statistical framework that captures how quote updates on one side of the market influence the other. The authors apply this to real stock data and derive optimal strategies for placing limit orders, showing that understanding these joint dynamics improves trading decisions.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Introducing the CZAR Loss: A Tailored Objective Function for Financial Log-Return Predictions",
+    "authors": "Joel Pfeffer, J. M. Diederik Kruijssen, Florian Stecker, Steven N. Longmore",
+    "published": "2026-09-28",
+    "url": "http://arxiv.org/abs/2609.36061v1",
+    "pdf": "https://arxiv.org/pdf/2609.36061v1",
+    "tags": [
+      "optimization",
+      "quantitative-finance"
+    ],
+    "summary": "This paper identifies a fundamental problem in financial machine learning: standard loss functions (like mean squared error) treat zero as near-optimal for predicting stock returns, because returns naturally cluster around zero. The authors propose CZAR, a custom loss function that rewards models for getting the *direction* of returns right, even when noisy, and show it dramatically improves directional accuracy in real bitcoin trading data.",
+    "date_added": "2026-09-30",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Telescopic Language Models",
     "authors": "Zhilin Guo, Boqiao Zhang, Hakan Aktas, Kyle Fogarty, Nursena Koprucu Aslan et al.",
     "published": "2026-09-28",
