@@ -1128,6 +1128,554 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+    "authors": "Tian Xia, Minghao Liu, Yiqing Liang, Laixi Shi, Jiayun Wang",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40361v1",
+    "pdf": "https://arxiv.org/pdf/2609.40361v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a critical flaw in how multimodal language models (MLLMs) are optimized for clinical diagnosis: standard accuracy metrics are useless on heavily imbalanced medical datasets where a trivial predictor can score 90%. The authors introduce Ranking-PE, a prompt optimization method that instead optimizes for AUROC (a ranking-based metric that correctly handles class imbalance), and show it dramatically outperforms accuracy-based approaches on real clinical tasks—gaining +16 points on some models.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Semifactual Credit-Augmented Policy Optimization",
+    "authors": "Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40360v1",
+    "pdf": "https://arxiv.org/pdf/2609.40360v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a fundamental problem in reinforcement learning for language models: when models learn to solve reasoning tasks, they often become overly sensitive to irrelevant prompt features (like wording changes that don't affect the problem). The authors propose SCAPO, a new training method that assigns credit to individual tokens based on their stability under prompt variations, improving mathematical reasoning accuracy by 4–6 percentage points on competitive benchmarks.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
+    "authors": "Dulhan Jayalath, Oiwi Parker Jones",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40359v1",
+    "pdf": "https://arxiv.org/pdf/2609.40359v1",
+    "tags": [
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper exposes a critical flaw in a high-profile brain-to-text decoding method: the neural network was learning word *durations* from overlapping time windows rather than actually decoding information from brain signals. By processing windows independently instead of jointly, the authors remove this \"timing shortcut\" and achieve substantially better performance (36.6% word error rate), approaching invasive decoding results. This work demonstrates that careful experimental design is essential when claiming neural signals contain semantic information.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+    "authors": "Owais Iqbal, Sudipta Sarkar, Shyam Marjit, Omprakash Chakraborty, Anirban Chakraborty et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40347v1",
+    "pdf": "https://arxiv.org/pdf/2609.40347v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper shows that standard image classifiers can learn effective video representations without being explicitly trained on video data. The key insight: you can represent a video as a grid of sampled frames (\"super image\"), apply spatial and temporal masking separately, and train a Vision Transformer to align these two views—achieving better results than specialized video models while using 32–160× fewer training epochs.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+    "authors": "Young-Jun Lee, Jinheon Baek, Soyeong Jeong, Minki Kang, Seungyeon Jwa et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40340v1",
+    "pdf": "https://arxiv.org/pdf/2609.40340v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper presents EvoDuet, a method that improves how language models solve complex scientific problems by co-evolving both candidate solutions and web search queries together. The key insight is that a model should dynamically decide when to search for new information, reuse old documents, or proceed without retrieval — rather than blindly fetching pages as solutions change. On 21 optimization tasks, EvoDuet increases discovery gains by 3-21 percentage points compared to baseline approaches.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
+    "authors": "Razan El Mais, Ali Chehab, Ibrahim Issa, Razane Tajeddine",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40335v1",
+    "pdf": "https://arxiv.org/pdf/2609.40335v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper examines whether weight tying — a parameter-sharing technique used in many language models to reduce memory — remains beneficial when training LLMs with differential privacy (DP), a mathematical guarantee that protects individual data during training. The authors find that untying the shared weights actually improves both accuracy and memory efficiency under privacy-preserving training, suggesting that standard architectural choices need reconsideration in privacy-constrained settings.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
+    "authors": "Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40330v1",
+    "pdf": "https://arxiv.org/pdf/2609.40330v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Turbo Harness, a framework that customizes agent \"harnesses\" (the prompts, tools, and execution parameters that guide an AI agent) for individual task instances rather than using a one-size-fits-all approach. The key insight is that a harness optimized to work well on average may be suboptimal for specific instances, so the authors train a \"harness editor\" that reuses information from prior global optimization to generate instance-specific patches. The method shows consistent improvements across diverse agent tasks including interactive environments, code generation, and long-horizon planning.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+    "authors": "Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40325v1",
+    "pdf": "https://arxiv.org/pdf/2609.40325v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces WorldAuditBench, a benchmark for evaluating multimodal AI agents (systems combining vision and language understanding) on their ability to detect anomalies in 3D simulated environments—like floating objects, unrealistic walls, or scene inconsistencies. The work reveals a significant gap: current frontier models succeed only 6.6–42.3% of the time, far below human performance of 83.4%, highlighting fundamental challenges in coupling action (navigating) with visual reasoning (detecting problems) in interactive 3D worlds.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+    "authors": "Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40324v1",
+    "pdf": "https://arxiv.org/pdf/2609.40324v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "Cogentic is a system that uses multiple AI agents working together to discover mathematical proofs on unsolved research problems. Instead of asking a language model to solve a hard problem in one shot, the system orchestrates competing proof strategies, verifies results against each other, and builds on confirmed intermediate progress—like a team of mathematicians collaborating across long, complex investigations. The approach has already produced novel verified results on open problems in online learning, auction theory, and mechanism design.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
+    "authors": "Anson Y. Lam, Shuqing Li, Michael R. Lyu",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40322v1",
+    "pdf": "https://arxiv.org/pdf/2609.40322v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "MatLoom generates 3D material textures from text descriptions by producing compact, human-readable programs rather than raw images. The key innovation is representing materials as layered compositions with explicit rules — making the \"how it was made\" part of the output, not just the final appearance. This matters because it enables users to understand, edit, and refine generated materials, rather than treating them as black-box outputs.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scaling Laws for Looped Mixture of Experts",
+    "authors": "Yanbei Chen, Anirudh Goyal, Raghuraman Krishnamoorthi",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40316v1",
+    "pdf": "https://arxiv.org/pdf/2609.40316v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper derives the first unified scaling laws that jointly model recurrence (looped inference) and sparsity (Mixture-of-Experts) in transformer models, alongside model size and data. The work shows that recurrence and sparsity are complementary efficiency axes — combining them yields ~2–3× parameter efficiency gains — and provides a principled framework for designing efficient models under compute budgets.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+    "authors": "Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40284v1",
+    "pdf": "https://arxiv.org/pdf/2609.40284v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces cua-speedrun, a standardized benchmarking framework for evaluating the speed and efficiency of computer-use agents (CUAs) — AI systems that interact with graphical user interfaces to complete tasks. While CUAs have recently matched or exceeded human performance on many benchmarks, their practical adoption is limited by speed and cost; this work provides reproducible infrastructure and metrics to measure and optimize these critical dimensions.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
+    "authors": "Viraj Parimi, Shao-Hung Chan, Han Zhang, Jingkai Chen, Brian Williams",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40269v1",
+    "pdf": "https://arxiv.org/pdf/2609.40269v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper tackles multi-agent path finding when the environment map is partially unknown and changes unexpectedly. Instead of treating each new obstacle discovery as an isolated event, the authors propose MAGIC — a framework that infers the traversability of nearby unseen locations from sparse observations, allowing teams of agents to plan smarter detours before they hit obstacles. The approach scales to hundreds of agents and reduces total travel costs by ~30% compared to existing methods.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Large Language Model-Guided Evolutionary Discovery of Native Neural Architectures for Spiking Sequence Modeling",
+    "authors": "Ruoyu Zhao, Jiaqi Wu, Chenyu Zhu, Zhichao Lu",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40258v1",
+    "pdf": "https://arxiv.org/pdf/2609.40258v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes OpenArchEvo, a system that uses large language models to automatically discover new neural network architectures optimized for spiking neural networks (SNNs)—a type of brain-inspired network that uses sparse, event-driven computation for energy efficiency. The key innovation is searching over executable code in an open program space rather than predefined configuration spaces, enabling discovery of fundamentally new architectural mechanisms. The discovered architectures achieve 50× better energy efficiency than standard transformer baselines.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+    "authors": "Hanjia Lyu, Yinglong Xia",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40241v1",
+    "pdf": "https://arxiv.org/pdf/2609.40241v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether decision-oriented LLMs like Jev can serve as an efficient alternative to standard large language models for recommendation reranking—the task of reordering candidate items to present the best options first to users. The authors conduct an empirical comparison across Amazon review datasets, finding that Jev maintains competitive recommendation quality while showing better latency scaling than pointwise LLM approaches, though it remains slower than recommendation-specific models.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
+    "authors": "Anmol Kabra, Swathi Saravana Selvam, Albert Gong, Chao Wan, Christian Belardi et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40221v1",
+    "pdf": "https://arxiv.org/pdf/2609.40221v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that LLM agents can be trained effectively using entirely rule-generated fictional environments instead of expensive human-curated or LLM-generated data. The key finding: agents trained in these \"phantom\" worlds—where they search templated articles to answer multi-hop questions—transfer surprisingly well to real-world benchmarks, often beating models trained on actual data. This matters because it solves a major bottleneck in LLM agent training: the cost and complexity of creating good environments.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+    "authors": "Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, Hyokun Yun, Kai Zhang et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40195v1",
+    "pdf": "https://arxiv.org/pdf/2609.40195v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "MemLife is a system that helps AI assistants understand long-term egocentric video (hours-long first-person video footage) by converting it into searchable text memories instead of reprocessing raw video every time. The key innovation is using entity-grounded episodes (text summaries tied to specific people/objects) and a time-indexed retrieval system, plus a reinforcement learning method called MemOpt that automatically improves how memories are written to be more faithful and retrievable.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From DNA Design to DNA Slimming: Auditable Agentic Discovery of a Deletion-Only Designer",
+    "authors": "Joel Shor",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40143v1",
+    "pdf": "https://arxiv.org/pdf/2609.40143v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper tackles DNA sequence design by removing unnecessary bases while maintaining biological function — a \"slimming\" problem distinct from traditional sequence design. The authors use an AI agent (ERA) to automatically discover and modify DNA designers, producing GRADASLIM, which outperforms simpler baselines at compressing regulatory DNA elements while preserving transcription-factor binding activity. The work matters because compact DNA saves synthesis costs and reveals which sequence features actually drive function.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Amortized Bayesian Inference on Multilevel Models of Arbitrary Structure",
+    "authors": "Daniel Habermann, Andreas Bulling, Stefan T. Radev, Paul-Christian Bürkner",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.40024v1",
+    "pdf": "https://arxiv.org/pdf/2609.40024v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents a method to automatically build neural networks that perform Bayesian inference on complex hierarchical statistical models. Instead of running expensive sampling algorithms each time you need to make predictions, the method trains a neural network once that can then instantly produce probabilistic estimates—and it does this while staying true to the original model's mathematical structure.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+    "authors": "Minki Kang, Ryo Hachiuma, Shaokun Zhang, Subhashree Radhakrishnan, Yonggan Fu et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39982v1",
+    "pdf": "https://arxiv.org/pdf/2609.39982v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical problem in terminal agents (AI systems that interact with computer environments via commands): even when a language model can generate good actions, execution failures often derail progress. The authors propose Mid-Harness, a technique that samples multiple candidate actions and verifies them before execution, without changing the underlying model or environment interface. They show this approach significantly improves task success rates — for example, raising performance from 50% to 68% on a benchmark — and that stronger verifiers can extract better alternatives from the same generator.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AIMS: An Agentic AI Framework for Sim-to-Real Multi-Modal ISAC",
+    "authors": "Yijie Bian, Kai Zhang, Wei Guo, Zixin Wang, Shenghui Song et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39964v1",
+    "pdf": "https://arxiv.org/pdf/2609.39964v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces AIMS, a framework that uses multiple AI agents to automatically configure and adapt machine learning models for integrated sensing and communication (ISAC) systems across sim-to-real deployment scenarios. The key problem: training ISAC models requires real-world data, which is expensive and scarce, so researchers use simulations—but existing simulations don't transfer well to real deployments because of mismatches between simulated scenes, sensor readings, and wireless characteristics. AIMS solves this by having agents automatically generate deployment-specific synthetic data and configure learning systems through natural-language requests.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Solving Multi-Agent Sokoban via LaCAM",
+    "authors": "Keisuke Okumura",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39889v1",
+    "pdf": "https://arxiv.org/pdf/2609.39889v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents Sokoban-LaCAM, a planning algorithm for Multi-Agent Sokoban — a puzzle where multiple agents must cooperatively push boxes onto target locations. The key insight is that recent advances in multi-agent pathfinding (MAPF) can be adapted to handle the harder problem of coordinating both task assignment and collision-free movement, scaling to dozens of agents while guaranteeing solutions will eventually be found.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BayesNDE: Bayesian Generative Modeling for Neural Density Estimation",
+    "authors": "Chenglin Li, Qiao Liu",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39843v1",
+    "pdf": "https://arxiv.org/pdf/2609.39843v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "BayesNDE proposes a new method for density estimation—computing the probability that data comes from a particular distribution—using Bayesian generative models. Instead of requiring complex invertible neural networks, it uses posterior inference to adaptively focus computation where it matters most, then combines multiple samples to estimate densities accurately. The method works well on complex, multi-peaked data and improves anomaly detection in real applications.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Safety of Latent Communication in Multi-Agent Systems",
+    "authors": "Muhammad Huzaifa, Sina Mavali, Thorsten Eisenhofer",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39788v1",
+    "pdf": "https://arxiv.org/pdf/2609.39788v1",
+    "tags": [
+      "alignment",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper reveals a critical safety vulnerability in multi-agent systems that communicate through latent (internal) representations rather than text. Even when individual agents are safety-aligned, the lightweight neural links connecting them can be exploited or accidentally trained to increase harmful behavior — and the authors show attackers can weaponize this with reinforcement learning to raise harmful compliance from 28% to 77% without modifying the agents themselves.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BAM! Bayesian Anything Model: a foundation model for generative computational imaging",
+    "authors": "Alessio Spagnoletti, Charlesquin Kemajou Mbakam, Jonathan Spence, Andrés Almansa, Marcelo Pereyra",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39660v1",
+    "pdf": "https://arxiv.org/pdf/2609.39660v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces BAM (Bayesian Anything Model), a lightweight foundation model that performs physics-aware image reconstruction in a few steps without requiring likelihood approximation or task-specific training. The key innovation is making the model condition on instrument physics at inference time rather than during training, allowing a single 36M-parameter network to handle diverse computational imaging tasks like deblurring, inpainting, and super-resolution across different datasets and camera systems.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mitigating Representation Gaps in Amortized Bayesian Inference with Auxiliary Supervision",
+    "authors": "Hans Olischläger, Svenja Jedhoff, Šimon Kucharský, Aayush Mishra, Stefan T. Radev et al.",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39525v1",
+    "pdf": "https://arxiv.org/pdf/2609.39525v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper addresses a practical problem in amortized Bayesian inference — a technique where neural networks learn to approximate posterior distributions directly, enabling fast inference on new data. The authors show that these networks often get stuck in \"representation gaps\" (local optima) that hurt accuracy, and propose using auxiliary supervision losses on internal network representations to fix this. The work matters because it makes amortized inference more reliable without requiring problem-specific tuning.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CAMOS: Coupled Oscillatory State-Space Model for Multimodal Clinical Time-Series",
+    "authors": "Maxx Richard Rahman, Mostafa Hammouda, Wolfgang Maass",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39484v1",
+    "pdf": "https://arxiv.org/pdf/2609.39484v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper introduces CAMOS, a neural state-space model designed to handle multimodal clinical time-series data that is irregular, incomplete, and heterogeneously sampled. Unlike standard linear models that treat missing data as simple masking, CAMOS allows the transition dynamics themselves to adapt based on which measurements are actually present, enabling it to capture interactions between modalities. The work is clinically motivated by real datasets like ADNI where half of imaging visits lack certain modalities.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
+    "authors": "Alexey Chernysh, Orkhan Ekhtibarov, Dmitry Zmitrovich",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39420v1",
+    "pdf": "https://arxiv.org/pdf/2609.39420v1",
+    "tags": [
+      "agents",
+      "algorithmic-trading",
+      "large-language-models"
+    ],
+    "summary": "This paper develops QuantCode, a specialized language model trained to generate executable algorithmic trading code from natural language strategy descriptions. The key innovation is combining continued pretraining on trading framework code with supervised fine-tuning on validated strategy-to-code pairs, which the authors show significantly improves both single-turn code correctness and multi-turn agent-based code repair success rates on their new 400-task benchmark.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Null-model treatment of the sensory-motor boundary changes an evolutionary connectome comparison",
+    "authors": "Gyujeong Park",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39248v1",
+    "pdf": "https://arxiv.org/pdf/2609.39248v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper questions how we evaluate whether biological neural circuits matter by comparing evolved agents with fruit fly brains against randomized control brains. The key finding: standard randomization methods accidentally create direct shortcuts from sensory inputs to motor outputs that don't exist in the real fly brain, which biases conclusions about whether the biological wiring actually provides an advantage. The result suggests that how we design control experiments fundamentally shapes what we can conclude about evolution.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolutionary foraging in grids: Intermittent search dynamics emerge in finite, depletable landscapes",
+    "authors": "Shailendra Bhandari, Alex Szorkovszky, Anis Yazidi, Pedro G. Lind",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39239v1",
+    "pdf": "https://arxiv.org/pdf/2609.39239v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper studies how search strategies evolve when agents forage in finite environments with limited resources. The researchers simulate evolution of movement traits (step lengths, velocities, turning angles) and find that evolved foraging follows \"intermittent search\" dynamics — local exploitation with occasional long jumps — rather than the pure power-law \"Lévy walk\" patterns often assumed in nature. This matters because it reveals how constraints like resource depletion shape optimal search behavior, with implications for understanding animal foraging and designing efficient exploration algorithms.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "T-Router: Learning Thalamic Routing for Reasoning with Parameter-Efficient Reinforcement Learning",
+    "authors": "Liuxian Ma, Jiale Dai, Jiaqi Li, Lu Mi",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.39109v1",
+    "pdf": "https://arxiv.org/pdf/2609.39109v1",
+    "tags": [
+      "large-language-models",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces T-Router, a parameter-efficient method for improving reasoning in large language models through reinforcement learning. Instead of retraining the entire model, T-Router adds only 0.47% new parameters—a small \"routing\" layer that learns which computations from earlier layers to reuse and how much to weight them—achieving stronger performance on math reasoning tasks than much larger adaptation methods.",
+    "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
     "authors": "Zihang Rui, Renhao Wang, Haoxu Huang, Yang Gao",
     "published": "2026-09-29",
