@@ -2,6 +2,24 @@
   {
     "source": "blog",
     "source_name": "Hugging Face",
+    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "authors": "Hugging Face",
+    "published": "2026-10-02",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "AutoSynthData is a method for automatically generating synthetic training data tailored to enterprise agent applications. This addresses a critical bottleneck in deploying agentic systems at scale—the scarcity and cost of labeled, task-specific training data.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
     "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
     "authors": "Hugging Face",
     "published": "2026-09-29",
@@ -1124,6 +1142,604 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+    "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02206v1",
+    "pdf": "https://arxiv.org/pdf/2610.02206v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces KaliBench, a benchmark for evaluating how well language models can translate natural language requests into executable commands for Kali Linux cybersecurity tools. The work addresses a critical gap: existing evaluations don't measure whether models can generate syntactically correct CLI commands that actually run, which matters because cybersecurity work requires precision at the command line. The authors show that even large models struggle with this task (under 42% accuracy), but that training with their verifiable reward signals significantly improves performance.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+    "authors": "Yen-Jen Wang, Haozhe Jiang, Shuying Deng, Haoru Xue, Weirui Ye et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02204v1",
+    "pdf": "https://arxiv.org/pdf/2610.02204v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents RPG, a framework that enables robots to autonomously improve their manipulation skills without retraining neural networks. The system identifies what tasks a robot can do from offline data, creates practice scenarios in simulation, diagnoses failures, develops reusable skills, and gradually transfers them to real hardware—achieving 95% success on 22 tasks after iterative practice and 100% on physical deployment. This matters because it sidesteps the costly bottleneck of manual skill engineering and reward design in robotics.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Embedding Prediction Helps Image Generation",
+    "authors": "Sihan Xu, Ji Xie, Zilin Wang, Hui Shen, Stella X. Yu",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02203v1",
+    "pdf": "https://arxiv.org/pdf/2610.02203v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "transformers"
+    ],
+    "summary": "This paper proposes a new approach to condition image generation in diffusion transformers by predicting image embeddings rather than reusing static text or class labels. Instead of keeping the conditioning signal fixed throughout the denoising process, the method dynamically updates it at each step based on predictions from a separate transformer model, achieving competitive image quality (FID 1.32 on ImageNet) with significantly less training compute.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+    "authors": "Sohyeon Kim, Yoonho Lee, Bo Liu, Dayoon Ko, Rulin Shao et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02202v1",
+    "pdf": "https://arxiv.org/pdf/2610.02202v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "ScholarCatalyst is a benchmark dataset where 184 computer scientists annotated which prior papers inspired their recent research projects, creating a retrieval task: given a research question, find the papers that could advance it using only literature available at project start. The paper shows that current retrieval methods—including agentic search using Claude and embedding-based systems—perform poorly (R@20 ≈ 0.42–0.51), suggesting that AI systems lack the \"expert intuition\" scientists use to spot relevant prior work in large research archives.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+    "authors": "Qiushi Han, Keya Hu, Linlu Qiu, Cathy Wu, Kaiming He",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02200v1",
+    "pdf": "https://arxiv.org/pdf/2610.02200v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "VISTA is a visual interface that enhances multimodal AI models (like Claude Opus) to reason and act effectively in interactive visual environments. By giving these models lossless visual memory and the ability to selectively retrieve and reorganize past observations, VISTA enables them to solve complex visual reasoning tasks with far fewer actions than baseline approaches—achieving perfect performance on ARC-AGI-3 puzzles with 57% fewer steps than human players.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+    "authors": "Jichao Jiang, Cristian McGee, El Houcine Bergou, Hanqin Cai, Aritra Dutta",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02199v1",
+    "pdf": "https://arxiv.org/pdf/2610.02199v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper introduces TACO, a memory-efficient optimizer for fine-tuning large language models that reduces optimizer state by 174× compared to AdamW while maintaining accuracy. By using a sparse, low-precision update rule based on column-wise signs, TACO enables full-parameter fine-tuning of 30–32B parameter models on a single 80 GB GPU—a practical breakthrough for resource-constrained settings.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+    "authors": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02198v1",
+    "pdf": "https://arxiv.org/pdf/2610.02198v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces FERPO, a new reinforcement learning algorithm for continuous control that improves policies without directly differentiating through the critic (value-function estimator). Instead of using action gradients from a learned critic—which can be unreliable—FERPO derives optimal target action distributions using entropy and KL-divergence regularization, then trains the policy to match these targets. The approach shows competitive performance and faster computation than existing methods on robotics benchmarks.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
+    "authors": "Shuo Xing, Zilin Dai, Chengyuan Qian, Fangzhou Lin, Wenjing Chen et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02191v1",
+    "pdf": "https://arxiv.org/pdf/2610.02191v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "nlp"
+    ],
+    "summary": "This paper diagnoses why large language models (LLMs) struggle with mathematical reasoning despite solving hard problems, introducing \"Mathematical Primitives\"—foundational reasoning capabilities—and a benchmark (LEAP) that breaks down math understanding into four dimensions: Discovery, Generation, Digestion, and Execution. The authors then propose a training method that improves mathematical reasoning by explicitly teaching these primitives, showing that fixing \"Discovery\" (finding the right strategy) is the highest-leverage improvement.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+    "authors": "Cristian McGee, El Houcine Bergou, Aritra Dutta",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02190v1",
+    "pdf": "https://arxiv.org/pdf/2610.02190v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes ZFO (Zero-and-First-Order), a new optimization method that simplifies step-size selection during LLM fine-tuning by separating direction selection from step size. Instead of choosing how far to move in a direction independently, ZFO uses gradient information plus two extra function evaluations to estimate local curvature and pick an adaptive step size along a one-dimensional search line. The method is cheaper than full line search and shows consistent improvements over fixed-step baselines in practice.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+    "authors": "Jason X. Liu, Sebastian Ibarraran, Frank Hu, Soojung Yang, Xinyu A. Feng et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02189v1",
+    "pdf": "https://arxiv.org/pdf/2610.02189v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces IDiom, a language model trained specifically on intrinsically disordered protein regions (IDRs)—stretches of proteins that lack fixed 3D structure but perform critical cellular functions. The key innovation is combining the model with a reinforcement learning technique (RL-SAE) that lets researchers steer the model to generate sequences with desired functional properties, achieving much higher control (90% feature activation) than prior steering methods.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
+    "authors": "Xuan Zhang, Longtao Zheng, Cunxiao Du, Bo An, Xin Dong",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02163v1",
+    "pdf": "https://arxiv.org/pdf/2610.02163v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents AutoCompact, a system that teaches coding agents to automatically decide when and how to compress their working context during long software engineering tasks. The agent learns this compaction policy alongside its main coding policy through a combination of supervised learning from corrected trajectories and reinforcement learning, achieving 9.2% absolute improvement on real repository-level coding benchmarks.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+    "authors": "Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02150v1",
+    "pdf": "https://arxiv.org/pdf/2610.02150v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses how LLM-based agents can improve their understanding of external knowledge sources through repeated interaction. Instead of treating each source access as independent, the authors propose SourceLearn—a system that progressively builds a \"source model\" capturing how knowledge is structured and should be applied. The method combines two learning strategies and demonstrates substantial performance gains (up to 22.6 points) across multiple benchmarks, making it highly relevant for practical agent systems that rely on persistent information sources.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+    "authors": "Aayush Karan, Sitan Chen, Yilun Du",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02140v1",
+    "pdf": "https://arxiv.org/pdf/2610.02140v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper challenges the conventional wisdom that supervised finetuning (SFT) — a simpler training method — necessarily produces worse generalization than reinforcement learning (RL) on new tasks. The authors propose an MCMC-based sampling algorithm that transforms offline training data to be more \"on-policy\" (matching what the model would naturally produce), enabling SFT to match or exceed RL's performance while avoiding catastrophic forgetting. The key insight: the problem isn't the learning algorithm itself, but the data distribution it sees.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Spiking neural networks for streaming qubit readout",
+    "authors": "Barry M. Dillon, Aqib Javed, Jim Harkin, Patryk Dabkowski, Benjamin Lienhard",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02129v1",
+    "pdf": "https://arxiv.org/pdf/2610.02129v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops spiking neural networks (SNNs) — neural networks that process information as sparse temporal spikes rather than continuous activations — to read quantum qubit states in real time during superconducting quantum processors. The key innovation is processing measurement signals in successive chunks and streaming classification scores as data arrive, rather than waiting for the full measurement window; this approach beats traditional matched-filter methods and matches the accuracy of standard neural networks while running on FPGA hardware fast enough for real quantum feedback loops.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+    "authors": "Gabriel Tomitsuka, Arman Raayatsanati, Emma Xing, Duke Gand, Joseph J Ma",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02122v1",
+    "pdf": "https://arxiv.org/pdf/2610.02122v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Argo-Bench, a benchmark for evaluating AI agents on realistic enterprise data workflows. Unlike existing text-to-SQL benchmarks that test query generation in isolation, Argo-Bench requires agents to reason across hundreds of tables, perform statistical analyses, and take real-world actions—all graded by their actual consequences in a simulator. Even the strongest models solve only 35% of tasks, revealing a significant gap between current capabilities and enterprise-ready AI.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+    "authors": "Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02117v1",
+    "pdf": "https://arxiv.org/pdf/2610.02117v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces Where-OPD, a training method that improves multimodal large language models (MLLMs — AI systems that understand both text and images) by having them learn from a smarter version of themselves. The key innovation is using spatial guidance — telling the teacher model *where* in an image to look — during training on synthetic scenes, so the student learns fine-grained visual reasoning without needing human annotations. The results transfer surprisingly well to real-world images, showing gains of 3+ points on counting, document, and chart understanding tasks.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Wasserstein Gradient Flows and Forward-Only Diffusion Are Not Enough for Multimodal Sampling",
+    "authors": "Daniel McBride, Pratik Khandagale, Cristina Garcia-Cardona, Yen Ting Lin",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02081v1",
+    "pdf": "https://arxiv.org/pdf/2610.02081v1",
+    "tags": [
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "This paper argues that popular sampling algorithms based on Wasserstein gradient flows and forward-only diffusion processes cannot efficiently sample from complex multimodal distributions, despite theoretical claims of fast convergence. The authors prove that these methods inherit fundamental mixing problems from statistical physics—specifically, they get stuck between well-separated modes and require exponentially long times to move probability mass between them, a limitation that cannot be fixed by standard implementation tweaks.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Form and Void: Entangled Composition through an Autonomous AI Agent",
+    "authors": "Shiwen Wang, Jian Yang, Xu Wang, Xincan Wang, Weiming Dong",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02045v1",
+    "pdf": "https://arxiv.org/pdf/2610.02045v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper introduces FaV-A, an AI agent that generates images with sophisticated positive-negative space composition—where foreground objects and background empty space are intentionally designed to work together visually. Current text-to-image models struggle with this because they must coordinate two interdependent concepts that share a boundary. FaV-A solves this by breaking the task into stages: first generating a base object, then analyzing it to find complementary negative space, then composing them together—outperforming single-pass prompting.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design",
+    "authors": "Jose A. Ayala-Romero, Andres Garcia-Saavedra, Xavier Costa-Perez",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01887v1",
+    "pdf": "https://arxiv.org/pdf/2610.01887v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents TRACE, a system that automatically designs scheduling rules for allocating computational tasks to servers in real-time. The key innovation is combining evolutionary algorithm-based heuristic generation with AI agents that analyze system logs to understand *why* certain rules work better—filling a gap where existing methods only see a performance score without understanding the underlying system behavior. The work bridges the gap between theoretically optimal ML schedulers and practical industrial systems that need human-readable, auditable rules.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities",
+    "authors": "Peng Yi, Ying-Chang Liang",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01826v1",
+    "pdf": "https://arxiv.org/pdf/2610.01826v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes token communication (TokCom) as a unified interface for multiple physical robots or embodied agents to cooperate effectively in shared environments. Instead of transmitting raw sensor data (images, videos, sensor readings), agents compress task-relevant information into compact tokens—discrete semantic units—that can be efficiently transmitted over wireless networks and processed by foundation models. The work matters because collaborative robotics requires both communication bandwidth and semantic understanding; TokCom addresses both simultaneously.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SoK: Decentralized Agent Economic Infrastructure",
+    "authors": "Rui Sun, Xihan Xiong, Qin Wang, Fei Gao, Zelin Li et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01756v1",
+    "pdf": "https://arxiv.org/pdf/2610.01756v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper systematizes security and economic failures in decentralized agent task workflows—where multiple separately-designed protocols are chained together to accomplish work. The authors show that even when each step appears correct, the overall outcome can fail: a worker might deliver what was approved, but that approval doesn't prove the work actually satisfied the task. They map 17 security properties across six workflow stages and test 12 real systems to expose recurring gaps where valid work goes unaccepted or evidence is ignored.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "After Cooperation Is Learned: Gradient Routing and Optimizer-Dependent Maintenance in Multi-Agent Reinforcement Learning",
+    "authors": "Chaoyuan Hao, Wentao Yue, Tianyou Lai, Hongji Li, Jiayi Zhou et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01630v1",
+    "pdf": "https://arxiv.org/pdf/2610.01630v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether cooperative policies learned by multiple agents remain stable when training continues—a question overlooked in prior work that focuses only on learning cooperation from scratch. The authors isolate how value gradients flowing through shared actor networks affect cooperation maintenance, and show the risk is conditional on scale and gradient routing, not universal critic failure.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Continual Reinforcement Learning with Neuroevolution",
+    "authors": "Eleni Nisioti, Andrea Cossu, Kathrin Korte, Sebastian Risi",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01583v1",
+    "pdf": "https://arxiv.org/pdf/2610.01583v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether neuroevolution—an optimization approach that evolves neural networks through mutation and selection rather than gradient descent—can better handle continual learning tasks where an agent must adapt to changing environments without forgetting prior knowledge. The authors compare evolution strategies and genetic algorithms against state-of-the-art reinforcement learning methods and find that evolution strategies consistently achieve better stability-plasticity trade-offs, suggesting that weight-space perturbations may be a fundamentally better approach for learning across shifting tasks.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The hidden advantage of mask resampling: a theory of masked autoencoders",
+    "authors": "Jorge Medina Moreira, Lorenzo Bardone, Lenka Zdeborová",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01578v1",
+    "pdf": "https://arxiv.org/pdf/2610.01578v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper explains why masked autoencoders (MAEs) — neural networks trained to reconstruct hidden parts of input data — learn better representations than standard autoencoders that see all the data. The authors prove theoretically that masking helps recover underlying structure in high-dimensional data, especially when noise varies across features, and show that varying which parts are masked improves learning efficiency.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Managing Context and Communication in Distributed Agentic UAV Swarms",
+    "authors": "Andrea Iannoli, Ivan Zyrianoff, Angelo Trotta, Lorenzo Gigli, Marco Di Felice",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01569v1",
+    "pdf": "https://arxiv.org/pdf/2610.01569v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper tackles a core challenge in distributed UAV swarms: how to keep each drone's onboard language model reasoning sharp while avoiding communication overload. The researchers propose an architecture where UAVs selectively share information based on what matters to each neighbor, rather than broadcasting everything. In a simulated search-and-rescue scenario with ten drones, their approach completes missions where naive message flooding fails, while cutting inference costs roughly in half.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Social welfare and price discovery in double auction markets",
+    "authors": "Teemu Pennanen",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01562v1",
+    "pdf": "https://arxiv.org/pdf/2610.01562v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "This paper explains why double auctions (a common trading mechanism where buyers and sellers simultaneously submit bids and asks) tend to drive prices toward competitive equilibrium — a phenomenon observed in lab experiments but never rigorously proven. The author shows mathematically that when agents bid based on their true preferences, repeated double auctions converge to Walras equilibria (prices where supply equals demand), proving the mechanism works as economic theory predicts.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Controllable Stochastic Quantization Encoding for Adversarially Robust Spiking Neural Networks",
+    "authors": "Yujia Liu, Peiyu Liu, Yajing Zheng, Tiejun Huang",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01558v1",
+    "pdf": "https://arxiv.org/pdf/2610.01558v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper proposes a stochastic quantization encoding method to improve adversarial robustness in Spiking Neural Networks (SNNs) — neural networks inspired by biological brains that process information as discrete spike events. The key insight is that adding controlled randomness during the input encoding stage makes SNNs harder to fool with adversarial attacks (tiny, crafted perturbations designed to cause misclassification). The method works as a general framework encompassing both Poisson encoding and direct encoding, and can be combined with other defense strategies.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Langevin-Informed Transfer Learning: Replacing Target Samples by Black-Box Feedback",
+    "authors": "Vladimir R. Kostic, Karim Lounici, Hélène Halconruy, Timothée Devergne, Michele Parrinello et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01522v1",
+    "pdf": "https://arxiv.org/pdf/2610.01522v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "This paper presents Langevin-Informed Transfer Learning (LITL), a method for learning the underlying dynamics of complex systems (like molecular simulations or generative models) when you only have access to biased or incomplete samples and black-box feedback. The key insight is that many scientific systems evolve along low-dimensional manifolds governed by stochastic (randomized) dynamics, and LITL recovers the essential spectral structure of these dynamics without needing direct access to the target trajectories themselves.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning Collapse",
+    "authors": "Lewis Mitchell",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01493v1",
+    "pdf": "https://arxiv.org/pdf/2610.01493v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses model collapse — the phenomenon where iteratively fine-tuning language models on synthetic data causes output to become increasingly repetitive and narrow — using a model-free approach based on information theory. The authors show that filtering training data using the Kontoyiannis entropy rate estimator, computed directly from raw text without access to the model itself, outperforms existing methods and reduces repetition by 19% while increasing vocabulary diversity by 30%.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Optimal Transport Meets Reinforcement Learning: A Survey",
+    "authors": "Yujie Zhu, Charles A. Hepburn, Matthew Thorpe, Giovanni Montana",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01413v1",
+    "pdf": "https://arxiv.org/pdf/2610.01413v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This survey examines how optimal transport — a mathematical framework for measuring the cost of transforming one probability distribution into another — can be integrated into reinforcement learning algorithms. The key insight is that optimal transport handles cases where probability distributions overlap weakly (a common problem in imitation learning and offline RL) better than standard divergence measures, by explicitly modeling the geometric cost of moving probability mass between distributions.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Verify Claims, Not Scores: Evidence-Based Verification of Modular Agents",
+    "authors": "Ali Atiah Alzahrani",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01348v1",
+    "pdf": "https://arxiv.org/pdf/2610.01348v1",
+    "tags": [
+      "agents",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes a new way to evaluate modular AI agents by auditing the *evidence* behind their decisions rather than just looking at overall performance scores. The approach tracks what each component (planner, actor, verifier) contributes to outcomes and whether those contributions are actually justified, using a portfolio-allocation agent as a test case. This matters because swapping one component for another in an agent gives you no insight into which part broke, what the agent is actually checking, or whether improvements are real or just artifacts of how you measured them.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PPO-HRAP: Proximal Policy Optimization with a Hybrid Regime-Aware Policy for Risk-Controlled Trading",
+    "authors": "Duong Hien Chi Kien, Thanh Trung Huynh",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01325v1",
+    "pdf": "https://arxiv.org/pdf/2610.01325v1",
+    "tags": [
+      "algorithmic-trading",
+      "reinforcement-learning",
+      "risk-management"
+    ],
+    "summary": "This paper proposes PPO-HRAP, a reinforcement learning method that teaches trading agents to balance profit-seeking with drawdown control by blending learned policies with market regime information. The method achieves strong risk-adjusted returns (0.64 Sharpe ratio) on S&P 500 futures while cutting maximum drawdown nearly in half compared to buy-and-hold, addressing a core challenge in RL for finance: most profit-focused agents either become overly passive or take excessive risks during volatility spikes.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Increasing Width Allows Greedy Layer-wise Training to Rival End-to-End Backpropagation in Self-Supervised Learning",
+    "authors": "Syon Mansur, Joel Zylberberg",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00753v1",
+    "pdf": "https://arxiv.org/pdf/2610.00753v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper challenges the conventional wisdom that end-to-end backpropagation is necessary for training deep neural networks. The authors show that in sufficiently wide networks, greedy layer-wise training—where each layer optimizes locally without coordinating with other layers—can match or even outperform standard backpropagation in self-supervised learning tasks. The finding suggests that network width can compensate for the lack of global error coordination, opening new possibilities for alternative training algorithms that may be more biologically plausible or computationally efficient.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
+    "authors": "Christos Spyridon Koulouris, Carlo Campajola",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00619v1",
+    "pdf": "https://arxiv.org/pdf/2610.00619v1",
+    "tags": [
+      "algorithmic-trading",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that two independent AI agents trained on a stock liquidation game learn to collude—achieving costs better than competitive benchmarks by punishing each other if one tries to cheat. The key finding is that when one agent deviates, the other responds by accelerating its own selling in a way that hurts the deviator more than it helps itself, a hallmark of collusive behavior in economics.",
+    "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
@@ -4798,6 +5414,23 @@
     ],
     "summary": "This paper introduces OrderFusion+, a deep learning model that forecasts probabilistic buy and sell price trajectories in intraday electricity markets by combining order book data from multiple delivery products. It improves upon the prior OrderFusion model by incorporating neighboring-product information and handling price trajectories rather than single-product snapshots, advancing the practical accuracy of trading decisions in real-time electricity markets.",
     "date_added": "2026-09-24",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Two Models of Event Finality: Functional Alignment, Contestability, and Empirical Comparability on Polymarket and Kalshi",
+    "authors": "Maksym Nechepurenko",
+    "published": "2026-09-17",
+    "url": "http://arxiv.org/abs/2610.00183v1",
+    "pdf": "https://arxiv.org/pdf/2610.00183v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "This paper addresses a fundamental infrastructure problem in decentralized prediction markets: different platforms (Polymarket and Kalshi) define \"finality\" — when an event contract is economically settled — through incompatible institutional mechanisms, making cross-venue comparison and aggregation impossible. The authors develop a formal framework to identify what conditions must align for duration comparisons to be meaningful, then empirically map the finality pathways on both platforms and identify where exact matching fails.",
+    "date_added": "2026-10-02",
     "starred": false,
     "trusted": ""
   },
