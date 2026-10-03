@@ -1324,6 +1324,76 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
+    "authors": "Yiming Huang, Yujie Zeng, Vijay Prakash Dwivedi, Simone Foti, Jianmin Wang et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02186v1",
+    "pdf": "https://arxiv.org/pdf/2610.02186v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper introduces Higher-order Grammar Representation (HGR), a new way to represent molecules that captures their complex topology—like ring systems and recurring structural patterns—in a form that standard sequence models can process efficiently. The key innovation is converting molecules into combinatorial complexes and then serializing them as rule sequences, which maintains structural expressiveness while avoiding the computational overhead of explicit higher-order encodings. On molecular generation benchmarks, HGR-based models achieve 100% validity by construction and rank first in distributional alignment metrics; on representation learning tasks, they outperform existing baselines significantly.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decoding Looped Transformers Better for (Almost) Free",
+    "authors": "Weihao Liu, Huangjie Zheng, Tianrong Chen, Rohit Dilip, Richard He Bai et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02185v1",
+    "pdf": "https://arxiv.org/pdf/2610.02185v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "transformers"
+    ],
+    "summary": "This paper proposes LoopCD, a training-free decoding method that improves looped Transformers — neural networks that reuse the same processing block multiple times — by using earlier recurrent iterations as weak predictions to guide final token selection. The key insight is that intermediate outputs from earlier loops naturally provide contrastive signals without any model retraining, enabling both better accuracy (e.g., 61.88% → 73.33% on AIME) and roughly 25–48% faster inference by requiring fewer recurrent passes.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SoftServe: A Scalable Quasi-Newton Method for Deep Learning",
+    "authors": "Joohwan Ko, Tetiana Parshakova, Diana Cai, Robert M. Gower",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02182v1",
+    "pdf": "https://arxiv.org/pdf/2610.02182v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "SoftServe is a new optimization algorithm that adapts quasi-Newton methods — classical techniques from convex optimization — to train deep neural networks. The paper shows that by carefully managing curvature estimates and using GPU-friendly matrix operations, quasi-Newton can match or beat popular modern optimizers like Adam on difficult problems like recurrent networks and physics-informed models, even at scales up to 136 million parameters.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
+    "authors": "Jianru Shen",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02175v1",
+    "pdf": "https://arxiv.org/pdf/2610.02175v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper investigates whether the structure of protein interaction networks — specifically a measure called effective resistance — can help identify when neural network predictions about protein function are unreliable. The authors test this on 24 tissue-specific networks and find that effective resistance contains a small but real signal about prediction difficulty beyond what simple network features like node degree already capture.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
     "authors": "Xuan Zhang, Longtao Zheng, Cunxiao Du, Bo An, Xin Dong",
     "published": "2026-10-01",
@@ -1342,6 +1412,41 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
+    "authors": "Hanchu Zhou, Dechen Gao, Hang Wang, Brendan Lynch, Boqi Zhao et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02161v1",
+    "pdf": "https://arxiv.org/pdf/2610.02161v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "multi-agent-systems"
+    ],
+    "summary": "DuoMind is a framework that enables multiple robots to coordinate and solve complex tasks by combining vision-language models (VLMs) for reasoning with vision-language-action models (VLAs) for precise control. Each robot communicates with others using natural language-like \"semantic messages\" rather than raw data, allowing distributed teams to handle long-horizon manipulation tasks that no single robot could accomplish alone. The paper also introduces RoboPoly, a benchmark for testing multi-robot coordination, and demonstrates that semantic communication substantially improves task success rates.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Do Intrinsic Rewards Lead to Exploration?",
+    "authors": "Scott W. Viteri, Laura Gomezjurado Gonzalez, Clark Barrett",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02159v1",
+    "pdf": "https://arxiv.org/pdf/2610.02159v1",
+    "tags": [
+      "agents",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates when intrinsic reward signals—like prediction error or empowerment—actually lead to good exploration in reinforcement learning agents. The authors show that maximizing common intrinsic rewards can produce suboptimal exploration, propose a formal criterion based on \"counterfactual information\" (how well an agent's history substitutes for experience under other policies), and identify conditions where existing rewards succeed or fail.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
     "authors": "Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He et al.",
     "published": "2026-10-01",
@@ -1353,6 +1458,24 @@
     ],
     "summary": "This paper addresses how LLM-based agents can improve their understanding of external knowledge sources through repeated interaction. Instead of treating each source access as independent, the authors propose SourceLearn—a system that progressively builds a \"source model\" capturing how knowledge is structured and should be applied. The method combines two learning strategies and demonstrates substantial performance gains (up to 22.6 points) across multiple benchmarks, making it highly relevant for practical agent systems that rely on persistent information sources.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+    "authors": "Ali Janati, Nikita Kuzmin, Rohit Swamy, Charles Niu",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02144v1",
+    "pdf": "https://arxiv.org/pdf/2610.02144v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents Faynt, a family of Transformer-based policies that play Super Smash Bros. Melee at competitive levels, with a single model controlling all 26 characters. The 10M-parameter version wins 98.4% of same-character matches against existing bots and achieves 100% win rate against a zero-delay baseline, demonstrating that large-scale pretraining on human replays combined with specialized post-training can produce superhuman performance in complex, real-time competitive games.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
@@ -1429,6 +1552,42 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "A Comparative Explainability Framework for DeBERTa-v3 in Zero-Shot Medical Abstract Classification",
+    "authors": "Javier Diaz Esteban-Herreros, David Muñoz-Valero, Raquel Martínez-España, Jose M. Juarez, Juan Moreno-Garcia",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02116v1",
+    "pdf": "https://arxiv.org/pdf/2610.02116v1",
+    "tags": [
+      "mechanistic-interpretability",
+      "nlp",
+      "transformers"
+    ],
+    "summary": "This paper evaluates how well five different explanation methods (SHAP, LIME, occlusion, Input x Gradient, and Attention x Gradient) agree with each other when explaining a DeBERTa-v3 model's predictions on medical abstract classification. The authors find that explanations diverge significantly, especially when the model is uncertain, and identify three systematic failure modes—suggesting that auditing AI systems in medicine requires multiple explanation methods rather than trusting any single one.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
+    "authors": "Zilin Du, Bowen Yang, Boyang Albert Li",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02092v1",
+    "pdf": "https://arxiv.org/pdf/2610.02092v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper addresses how to select the most valuable training examples when building large language models from massive datasets. The authors show that existing meta-learning approaches struggle when scaled to real-world data, and propose TESS — a new framework that learns which examples matter most through a neural selection network trained with a novel objective function. The method transfers well across different datasets and model sizes, which matters because data selection can significantly reduce training costs and improve model safety.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Wasserstein Gradient Flows and Forward-Only Diffusion Are Not Enough for Multimodal Sampling",
     "authors": "Daniel McBride, Pratik Khandagale, Cristina Garcia-Cardona, Yen Ting Lin",
     "published": "2026-10-01",
@@ -1440,6 +1599,23 @@
     ],
     "summary": "This paper argues that popular sampling algorithms based on Wasserstein gradient flows and forward-only diffusion processes cannot efficiently sample from complex multimodal distributions, despite theoretical claims of fast convergence. The authors prove that these methods inherit fundamental mixing problems from statistical physics—specifically, they get stuck between well-separated modes and require exponentially long times to move probability mass between them, a limitation that cannot be fixed by standard implementation tweaks.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+    "authors": "Yinheng Li, Justin Wagle",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02076v1",
+    "pdf": "https://arxiv.org/pdf/2610.02076v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether general-purpose LLMs can directly output categorical decisions (like multiple-choice answers) without generating free-form text, and when fine-tuning is needed. The authors present LLM2Jev, a framework that extracts calibrated decisions from a model's token probabilities, showing that modern LLMs are already effective decision models out-of-the-box — but fine-tuning helps primarily for weaker models and specific tasks like intent routing.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
@@ -1458,6 +1634,40 @@
     ],
     "summary": "This paper introduces FaV-A, an AI agent that generates images with sophisticated positive-negative space composition—where foreground objects and background empty space are intentionally designed to work together visually. Current text-to-image models struggle with this because they must coordinate two interdependent concepts that share a boundary. FaV-A solves this by breaking the task into stages: first generating a base object, then analyzing it to find complementary negative space, then composing them together—outperforming single-pass prompting.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Typological Alignment of Stack-Based Language Models on Mildly Context-Sensitive Artificial Languages",
+    "authors": "Nadine El-Naggar, Tatsuki Kuribayashi, Ted Briscoe",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02040v1",
+    "pdf": "https://arxiv.org/pdf/2610.02040v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates why certain grammatical structures (like word order patterns) appear more frequently across human languages by testing how stack-based language models learn artificial languages with varying complexity. The authors find that models with limited working memory struggle less with cross-serial dependencies—nested grammatical patterns that represent the upper limit of human language complexity—suggesting this constraint might explain why natural languages tend to avoid such patterns.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
+    "authors": "Yafei Zhang, Songshuo Lu, Sicong Liao, Zhi Chen, Yaohua Tang",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02039v1",
+    "pdf": "https://arxiv.org/pdf/2610.02039v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a critical problem in LLM reinforcement learning: when policy updates happen during training, some sampled responses become \"off-policy\" (generated under an older policy) and shouldn't fully guide learning. The authors show that standard masking approaches can mask problematic policy drift because positive and negative probability changes cancel each other out. They propose CARM, a better masking rule that prevents this cancellation and improves performance on math reasoning and code generation tasks by 2–3 percentage points.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
@@ -1655,6 +1865,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "A Multi-Agent LLM Framework for Personalized Health Checkup Interpretation and Guidance",
+    "authors": "HyungJun Kim, Taehan Lee, Soojin Cheon",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01451v1",
+    "pdf": "https://arxiv.org/pdf/2610.01451v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents a multi-agent LLM system that interprets personalized health checkup results by breaking down complex queries into specialized subtasks, executing them in parallel, and synthesizing the outputs. The system outperforms single-agent baselines on compound health queries, improving answer quality across usefulness and consistency metrics, though at the cost of higher latency and computational expense.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Optimal Transport Meets Reinforcement Learning: A Survey",
     "authors": "Yujie Zhu, Charles A. Hepburn, Matthew Thorpe, Giovanni Montana",
     "published": "2026-10-01",
@@ -1666,6 +1894,24 @@
     ],
     "summary": "This survey examines how optimal transport — a mathematical framework for measuring the cost of transforming one probability distribution into another — can be integrated into reinforcement learning algorithms. The key insight is that optimal transport handles cases where probability distributions overlap weakly (a common problem in imitation learning and offline RL) better than standard divergence measures, by explicitly modeling the geometric cost of moving probability mass between distributions.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LLM-Driven Multi-Agent Control for Skill-Based Smart Manufacturing",
+    "authors": "Kay Köhle, Darko Anicic, Thomas A. Runkler, René Graf",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01364v1",
+    "pdf": "https://arxiv.org/pdf/2610.01364v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper demonstrates how large language models (LLMs) can control manufacturing systems by pairing each factory module with an LLM-based agent that both plans production sequences offline and handles real-time faults online. The key innovation is showing that LLMs can coordinate across distributed factory modules using standardized communication protocols (MQTT, OPC UA) and emerge fault-diagnosis behaviors without explicit programming, making smart factories more flexible for custom, small-batch production.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
@@ -1708,6 +1954,59 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "MASkillBlender: Decentralized Whole-Body Coordination for Multi-Humanoid Loco-Manipulation via Skill Blending",
+    "authors": "Yifan Hu, Luhang Hong, Mingkang Long, Danning Wang, Chengfeng Jia et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01102v1",
+    "pdf": "https://arxiv.org/pdf/2610.01102v1",
+    "tags": [
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents MASkillBlender, a framework for coordinating multiple humanoid robots to perform complex manipulation and locomotion tasks together. The key innovation is learning a shared high-level policy that blends pre-trained single-robot skills, allowing decentralized decision-making without task-specific reward engineering. This matters because multi-robot coordination is essential for manufacturing, construction, and rescue operations, but current methods require heavy manual tuning.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can AI Scientists Coordinate at Runtime?",
+    "authors": "Zijian Liu, Yangzhixin Luo, Junyu Lu, Yi Li, Yu Chen et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.00980v1",
+    "pdf": "https://arxiv.org/pdf/2610.00980v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper asks whether AI agents can coordinate dynamically during task execution rather than following fixed workflows designed beforehand. The authors introduce Runtime Agent Coordination (RAC), a system that lets multiple AI scientists select each other, divide work via contracts, and verify results on-the-fly. Testing on three benchmarks shows runtime selection improves performance, though adding verification mechanisms can reduce gains under tight budgets—highlighting a real tradeoff in multi-agent coordination.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+    "authors": "Caiqi Zhang, Rujun Han, Zifeng Wang, Zoey CuiZhu, Nigel Collier et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.00972v1",
+    "pdf": "https://arxiv.org/pdf/2610.00972v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper addresses a critical challenge: how to verify whether LLM-based agents have correctly solved complex, multi-step tasks without access to ground-truth answers. The authors propose VeriHarness, a system that turns the same LLM generating solutions into a verification agent by equipping it with tools, workspace, and reusable verification skills. The approach shows 6+ point improvements over single-rollout baselines on five benchmarks, and the authors release 26,000 rollouts to enable future research.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Increasing Width Allows Greedy Layer-wise Training to Rival End-to-End Backpropagation in Self-Supervised Learning",
     "authors": "Syon Mansur, Joel Zylberberg",
     "published": "2026-09-30",
@@ -1720,6 +2019,20 @@
     ],
     "summary": "This paper challenges the conventional wisdom that end-to-end backpropagation is necessary for training deep neural networks. The authors show that in sufficiently wide networks, greedy layer-wise training—where each layer optimizes locally without coordinating with other layers—can match or even outperform standard backpropagation in self-supervised learning tasks. The finding suggests that network width can compensate for the lack of global error coordination, opening new possibilities for alternative training algorithms that may be more biologically plausible or computationally efficient.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neuromorphic Pseudo-Random Number Generators with a Low Power Hardware Implementation",
+    "authors": "Jafar Shamsi, Navid Akbari, Sonia Sennik, Aaron Gruber, Wilten Nicola",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00719v1",
+    "pdf": "https://arxiv.org/pdf/2610.00719v1",
+    "tags": [],
+    "summary": "This paper shows how spiking neural networks—brain-inspired computers that mimic how neurons fire—can generate high-quality random numbers while using very little power. The researchers built a neuromorphic random number generator that runs on low-power hardware (FPGAs) and consumes only 3.24 milliwatts, matching or exceeding the quality of traditional random number generators while being much more efficient.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
@@ -2286,6 +2599,58 @@
     ],
     "summary": "This paper introduces T-Router, a parameter-efficient method for improving reasoning in large language models through reinforcement learning. Instead of retraining the entire model, T-Router adds only 0.47% new parameters—a small \"routing\" layer that learns which computations from earlier layers to reuse and how much to weight them—achieving stronger performance on math reasoning tasks than much larger adaptation methods.",
     "date_added": "2026-10-01",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Self-Evolving Algorithm-Design Agents: Escaping In-Context Evolutionary Stagnation via Population-Curated Policy Optimization",
+    "authors": "Chen Lu, Ke Xue, Siyuan Xu, Mingxuan Yuan, Chao Qian",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2609.38757v1",
+    "pdf": "https://arxiv.org/pdf/2609.38757v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper addresses a critical limitation of in-context learning in language model agents: evolutionary algorithms designed within a single context window quickly plateau and fail to improve. The authors propose Population-Curated Policy Optimization (PCPO), a method that allows agents to learn from their own generated algorithms by fine-tuning the underlying model on high-quality self-generated solutions. The approach is validated on algorithm-design tasks (learning rate schedules for chip placement, GPU kernel optimization) where it outperforms pure in-context methods while drastically reducing inference cost.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+    "authors": "Fernando Montes-Gonzalez",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38527v1",
+    "pdf": "https://arxiv.org/pdf/2609.38527v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper investigates whether communication protocols learned by two robots through evolutionary co-adaptation can transfer from simulation to physical robots without retraining. The authors find that transfer is incomplete and asymmetric—one robot succeeds rarely while the other fails entirely—revealing that successful knowledge transfer requires not just preserving the learned signals but also matching the physical and environmental conditions in which those signals evolved.",
+    "date_added": "2026-10-03",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Simulating Synchrony Loop Networks in the Open Source RISP Neuroprocessor",
+    "authors": "Jackson Mowry, Patrick Abbs",
+    "published": "2026-09-29",
+    "url": "http://arxiv.org/abs/2609.38432v1",
+    "pdf": "https://arxiv.org/pdf/2609.38432v1",
+    "tags": [
+      "deep-learning"
+    ],
+    "summary": "This paper demonstrates how to run Synchrony Loop Propagation (SLP) networks—a sophisticated spiking neural network approach—on the RISP neuromorphic processor, a specialized hardware platform designed for event-driven computation. The authors show their implementation achieves comparable accuracy to standard clustering algorithms while running 10× faster and using far less power, suggesting that complex learning tasks can work efficiently on neuromorphic hardware despite the constraints of spiking architectures.",
+    "date_added": "2026-10-03",
     "starred": false,
     "trusted": ""
   },
