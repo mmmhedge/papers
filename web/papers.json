@@ -2,6 +2,20 @@
   {
     "source": "blog",
     "source_name": "Hugging Face",
+    "title": "The Agent Said It Was Done. The Database Disagreed.",
+    "authors": "Hugging Face",
+    "published": "2026-10-03",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "pdf": "",
+    "tags": [],
+    "summary": "",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
+    "source_name": "Hugging Face",
     "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
     "authors": "Hugging Face",
     "published": "2026-10-02",
@@ -1674,6 +1688,93 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
+    "authors": "Noy Sternlicht, Simra Shahid, Peter Jansen, Daniel S. Weld, Pao Siangliulue et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02022v1",
+    "pdf": "https://arxiv.org/pdf/2610.02022v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates how well large language models can judge whether research ideas are novel — a task that's increasingly used to evaluate automated ideation systems. The authors find that LLM-based novelty judges are unreliable: small changes to prompts flip their verdicts on identical ideas more than half the time, and specialized novelty evaluators often perform worse than simple baselines. This matters because many papers now claim their systems produce novel ideas, but those claims rest on unstable evaluation foundations.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization",
+    "authors": "Guangyu Yang, Jingbiao Mei, Mingsheng Sun, Jinghong Chen, Yingtong Bu et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02019v1",
+    "pdf": "https://arxiv.org/pdf/2610.02019v1",
+    "tags": [
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses automated detection of unsafe content in videos by treating it as a multi-label classification problem rather than binary (safe/unsafe). The key innovation is Adaptive Tversky Policy Optimization (ATPO), a reinforcement learning framework that lets content moderators adjust the trade-off between catching unsafe content (recall) and avoiding false alarms (precision) — a control that existing systems don't provide.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+    "authors": "Ahmad Yehia, Aly O. Abdelkareem, Islam Ahmed, Hesham Omran, Khaled Alashmouny et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02002v1",
+    "pdf": "https://arxiv.org/pdf/2610.02002v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces Mem++, a memory system for LLM-based organizational agents that preserves full document history rather than compressing information at write time. The key insight is that organizational decisions evolve over time—newer documents revise older ones—so the system must track which version was \"current\" when a question is asked. Mem++ outperforms existing memory baselines by 8-13 percentage points on organizational benchmarks because it keeps all versions and lets the answering model choose the right historical context.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks",
+    "authors": "Hao Wang, Ting Huang",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.02001v1",
+    "pdf": "https://arxiv.org/pdf/2610.02001v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "Small language models (2–9B parameters) can run on consumer laptops but fail to complete real tasks when wrapped in standard agent frameworks designed for cloud-scale models. This paper argues that many failures stem from the harness itself—not the model—and introduces Mingbird, a redesigned local-first agent framework that fixes specific failure modes like context overflow, infinite loops, and premature task abandonment. On controlled benchmarks, Mingbird achieves 88.6% completion versus 63% and lower for competing harnesses.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Universal Byte-Level Encoding: UTF-8/UTF-16 Routing to Reduce Cross-Script Token-Budget Disparities",
+    "authors": "Hyunsik Kim, Youngmoon Jung",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.01984v1",
+    "pdf": "https://arxiv.org/pdf/2610.01984v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a fairness problem in multilingual language models: non-English scripts require more tokens to represent the same information because their characters are encoded inefficiently. The authors propose Universal Byte-Level Encoding (UBE), a tokenization method that selectively routes characters through different Unicode encoding schemes (UTF-8 vs UTF-16) to equalize token costs across languages while preserving efficiency for English.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design",
     "authors": "Jose A. Ayala-Romero, Andres Garcia-Saavedra, Xavier Costa-Perez",
     "published": "2026-10-01",
@@ -2007,6 +2108,60 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+    "authors": "Sungho Park, Wonjoong Kim, Jue Zhang, Wook-Shin Han, Pengfei Gao et al.",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.00906v1",
+    "pdf": "https://arxiv.org/pdf/2610.00906v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces ActiveSaddler, a system that automatically improves LLM agents by adapting which training scenarios to use during optimization. Rather than fixing training data upfront, the method treats curriculum design as a dynamic bandit problem—continuously discovering failure patterns in the agent's behavior and prioritizing which ones to target for improvement. On two benchmarks, it improves agent performance by 4–8 percentage points over methods that use a static training curriculum.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "HakiCC: LLM-Driven Multi-Agent Design and Optimization of Concurrency Control Protocols",
+    "authors": "Farzad Habibi, Juncheng Fang, Faisal Nawab",
+    "published": "2026-10-01",
+    "url": "http://arxiv.org/abs/2610.00889v1",
+    "pdf": "https://arxiv.org/pdf/2610.00889v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper presents HakiCC, a system that uses large language models (LLMs) and multiple AI agents working together to automatically design database concurrency control protocols tailored to specific applications. Instead of forcing all applications to use generic protocols like 2PL or OCC, HakiCC generates custom protocols optimized for particular workloads, then further improves them through an evolutionary optimization loop—achieving 50–92% throughput gains on real benchmarks.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Kepler: Auditable World Models for ARC-AGI-3",
+    "authors": "Wensen Wu",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00834v1",
+    "pdf": "https://arxiv.org/pdf/2610.00834v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "Kepler is a system for building and validating executable world models — computational simulations of game rules — to solve ARC-AGI-3 tasks, which require agents to infer hidden objectives from interactive environments. Using a single frozen Claude Opus 5 instance, it achieved perfect scores on all 25 public games with minimal action usage, offering a transparent, auditable alternative to black-box problem-solving and revealing that naive performance metrics hide important evaluation failures.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Increasing Width Allows Greedy Layer-wise Training to Rival End-to-End Backpropagation in Self-Supervised Learning",
     "authors": "Syon Mansur, Joel Zylberberg",
     "published": "2026-09-30",
@@ -2039,6 +2194,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving",
+    "authors": "Huiwen Yan, Kyriakos G. Vamvoudakis, Mushuang Liu",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00705v1",
+    "pdf": "https://arxiv.org/pdf/2610.00705v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper develops a meta-multi-agent reinforcement learning (meta-MARL) framework that lets teams of agents quickly adapt their strategies to new situations by learning across many similar tasks. Unlike prior work that handles single agents or assumes fixed opponent behavior, this approach models the problem as a game where agents' strategies depend on each other, and it demonstrates faster adaptation than standard methods on autonomous driving tasks.",
+    "date_added": "2026-10-04",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
     "authors": "Christos Spyridon Koulouris, Carlo Campajola",
     "published": "2026-09-30",
@@ -2051,6 +2224,24 @@
     ],
     "summary": "This paper shows that two independent AI agents trained on a stock liquidation game learn to collude—achieving costs better than competitive benchmarks by punishing each other if one tries to cheat. The key finding is that when one agent deviates, the other responds by accelerating its own selling in a way that hurts the deviator more than it helps itself, a hallmark of collusive behavior in economics.",
     "date_added": "2026-10-02",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-agent Auditory Scene Analysis: Improved Localization Speed and Robustness by Multi-beamformed Speech Quality Feedback",
+    "authors": "Caleb Rascon",
+    "published": "2026-09-30",
+    "url": "http://arxiv.org/abs/2610.00538v1",
+    "pdf": "https://arxiv.org/pdf/2610.00538v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper improves real-time auditory scene analysis—the task of locating, separating, and classifying sound sources in noisy environments—by modeling it as communicating multi-agent systems. The key innovation is replacing single quality estimates with sets of multi-beamformed estimates across different spatial locations, which creates a clearer optimization landscape and dramatically speeds up sound source localization while maintaining real-time performance.",
+    "date_added": "2026-10-04",
     "starred": false,
     "trusted": ""
   },
