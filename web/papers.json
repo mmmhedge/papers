@@ -1160,6 +1160,599 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan, Nhi Ngoc Nguyen, Jeremy Collins et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03717v1",
+    "pdf": "https://arxiv.org/pdf/2610.03717v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper argues that existing view synthesis methods produce poor geometric representations not because of insufficient training signal, but because of architectural choices that dilute what the encoder learns. The authors introduce SNAP, a self-supervised approach that uses a pose-conditioned decoder and latent-space reconstruction to learn transferable 3D geometric features from multi-view images. The method is competitive with supervised geometry methods while enabling downstream tasks like pose estimation, depth prediction, and robot manipulation.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+    "authors": "Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang, Zizhang Li et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03715v1",
+    "pdf": "https://arxiv.org/pdf/2610.03715v1",
+    "tags": [
+      "agents",
+      "computer-vision"
+    ],
+    "summary": "This paper introduces 4DCodeBench, a benchmark where AI agents reconstruct dynamic 3D scenes from videos by generating executable graphics code. Instead of predicting pixels, agents must understand scene structure and physics well enough to write programs that reproduce complex real-world behavior like deformation, fluids, and fracture. This matters because it tests whether models can truly understand dynamics rather than merely memorizing visual patterns.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+    "authors": "Yiming Huang, Lennart Bastian, Hanqun Cao, Luis Vollmers, Tolga Birdal",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03712v1",
+    "pdf": "https://arxiv.org/pdf/2610.03712v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces RNADynBench, a large-scale benchmark dataset of RNA molecular dynamics simulations, and RNADynNet, a unified neural network model that generates realistic RNA trajectories and extracts dynamics information from static structures. RNA molecules constantly change shape to perform their biological functions, but datasets and methods to understand these dynamics at scale have been scarce—this work fills that gap with quality-controlled data and a model that treats trajectory generation and dynamics understanding as complementary tasks.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing",
+    "authors": "Kuangyu Ding, Gesualdo Scutari",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03709v1",
+    "pdf": "https://arxiv.org/pdf/2610.03709v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper develops a new framework for decentralized optimization where multiple agents cooperatively minimize objective functions over a network graph, communicating only with neighbors. Instead of existing approaches that use the graph primarily to mix information, the authors jointly design both the optimization subproblems and the communication protocol by decomposing the graph into tree-structured blocks—a technique they call GATE (Graph-Tearing message passing). This approach is theoretically more principled and computationally more efficient than prior gossip or tree-routing methods.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+    "authors": "Lyuxin David Zhang, Eric Wong, Surbhi Goel, Anton Xue",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03702v1",
+    "pdf": "https://arxiv.org/pdf/2610.03702v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper shows that selecting training data for large language models using only output-layer gradients is nearly as effective as using full-parameter gradients, but costs 9–10× less to compute. The key insight is that you don't need expensive backward passes through the entire model to pick good training examples — a cheap forward pass to the output layer gives you the signals you need.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+    "authors": "Hui Chen, Xuan Qi, James Xu Zhao, Zhaopeng Feng, Shilong Liu et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03675v1",
+    "pdf": "https://arxiv.org/pdf/2610.03675v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes FrugalEvo, a cost-aware framework that uses LLMs to solve hard optimization problems (like circle packing and algorithm design) while minimizing computational expense. The key insight is that practical optimization should maximize solution quality per dollar spent, not just per iteration — so the method pairs an expensive, capable LLM (for strategy exploration) with a cheaper one (for implementation), plus a cache-efficient evolution process. On 10 mathematical tasks and 10 algorithmic problems, FrugalEvo matches or beats prior state-of-the-art methods while cutting costs dramatically (e.g., solving circle packing for $0.55 instead of $50).",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Planning to Learn",
+    "authors": "Ian Osband",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03667v1",
+    "pdf": "https://arxiv.org/pdf/2610.03667v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper shows that standard cross-entropy loss implicitly optimizes for a long-horizon objective — it's patient about accuracy, considering how each update affects future learning. The authors propose \"horizon loss,\" which interpolates between cross-entropy and exact policy gradients by accounting for remaining training time. On image classification tasks (MNIST, ImageNet with ResNets and ViTs), this one-line change improves accuracy, especially under label noise.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On-Board Anomaly Detection for Efficient Marine Environmental Monitoring",
+    "authors": "Thomas Goudemant, Clotilde Szywala, Benjamin Francesconi, Michelle Aubrun, Yves Bobichon et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03649v1",
+    "pdf": "https://arxiv.org/pdf/2610.03649v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper develops an onboard anomaly detection system for Earth observation satellites to identify marine environmental hazards like oil spills and algal blooms. The key innovation is a self-supervised neural network that compresses satellite imagery into a compact latent space, enabling efficient anomaly detection directly on resource-constrained satellite hardware—eliminating the need to transmit all raw data to ground stations.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On the Convergence of Success Conditioning for Policy Optimization",
+    "authors": "Matthew Brun, Xu Andy Sun",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03642v1",
+    "pdf": "https://arxiv.org/pdf/2610.03642v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper analyzes success conditioning—a simple technique where policies are updated by increasing the probability of actions that led to successful outcomes—and proves it converges to optimal behavior in Markov decision processes. The work fills a theoretical gap: while success conditioning is widely used in practice, its convergence guarantees and rates were unknown. The authors show convergence is possible and characterize how many iterations are needed depending on the problem structure.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Broken scale symmetries in undercomplete linear autoencoders",
+    "authors": "Farhad Pashakhanloo, Jacob A. Zavatone-Veth",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03640v1",
+    "pdf": "https://arxiv.org/pdf/2610.03640v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper studies how finite-stepsize stochastic gradient descent (SGD) breaks scale symmetries in undercomplete linear autoencoders — a toy model where you can scale up decoder weights and down encoder weights without changing the network output. The authors show that SGD has a *directional* preference: it consistently drifts toward large decoder weights on a slow timescale, eventually hitting a stability boundary. This illustrates a deeper principle: gradient noise can be converted into systematic motion along a manifold of equivalent solutions.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
+    "authors": "Rubén Manrique, Michelle Castellanos, Jorge Morales, Juan David Gutiérrez, Antonio Barreto Rozo et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03639v1",
+    "pdf": "https://arxiv.org/pdf/2610.03639v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper evaluates whether large language models reliably answer questions about Colombian law—a question almost never studied outside the US legal context. The authors built a 1,042-question benchmark with expert validation and tested 15 models across ten legal areas. They found a striking pattern: models sound confident and relevant but are frequently factually wrong, and free-text answers rarely exceed 45% correctness even for the best models.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "World Embedding Benchmark",
+    "authors": "Yiqi Liu, Ruifeng Yuan, Yang Wang, Long Li, Fengyu Cai et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03632v1",
+    "pdf": "https://arxiv.org/pdf/2610.03632v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper introduces a benchmark dataset to test whether video embedding models understand physics — concepts like fluid flow, solid mechanics, and light behavior. The authors find that current models are weak at this task, but show that retrieved physics-accurate videos can improve the physical realism of AI-generated videos. This matters because many AI applications need to generate or understand videos that follow real-world physical laws.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs",
+    "authors": "Darian Lee, Shannon Rumsey, Jack St. Clair, Xinyi Tang, Aditya Bansal et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03625v1",
+    "pdf": "https://arxiv.org/pdf/2610.03625v1",
+    "tags": [
+      "generative-models",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "FALCON is a framework for generating synthetic NL-to-SQL training data (natural language questions paired with database queries) that captures real-world complexity and ambiguity. Instead of producing oversimplified examples, it creates challenging, realistic data using compact open-source models—enabling organizations to build better SQL understanding systems without relying on expensive external APIs or human annotation.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When a Correct Reward Is Not Enough: Diagnosing and Guiding PPO in an Analytically Solved Broker-Trader Game",
+    "authors": "Siu Tung Wong, Carlo Campajola",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03598v1",
+    "pdf": "https://arxiv.org/pdf/2610.03598v1",
+    "tags": [
+      "algorithmic-trading",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tests whether a reinforcement learning algorithm (PPO) can learn to trade in a financial market where the optimal strategy is mathematically known. The researchers find that even with a correct reward signal, PPO struggles to match the analytical solution when market conditions are complex—but they show that using the analytical strategy as a starting point helps PPO adapt when costs change. This matters because it reveals gaps in how RL learns financial control problems and suggests that known mathematical solutions can guide and diagnose RL training.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Divergence controls entropy in distillation",
+    "authors": "Nicolas Zucchet, Scott W. Linderman",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03529v1",
+    "pdf": "https://arxiv.org/pdf/2610.03529v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models"
+    ],
+    "summary": "This paper explains how different training objectives in knowledge distillation—the practice of training a smaller \"student\" model to mimic a larger \"teacher\" model—affect the randomness (entropy) of the student's outputs. The authors prove that forward KL divergence (used in standard cross-entropy training) inflates student entropy above the teacher's, while reverse KL deflates it, and show these effects matter practically for LLM pretraining and finetuning.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation",
+    "authors": "Teng Lin, Xinyu Liu, Nan Tang",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03525v1",
+    "pdf": "https://arxiv.org/pdf/2610.03525v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper tackles automatic report generation from data tables — turning raw numbers and relationships into readable analytical narratives. The key innovation is breaking down insight discovery into verifiable atomic building blocks (simple, pattern-based facts) that are then systematically combined into complex insights, ensuring every claim in the final report can be traced back to specific data and SQL queries.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Is Accuracy Evidence? A Unified Theory of Generalisation, Validation, and Information Fusion",
+    "authors": "JM Gorriz",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03465v1",
+    "pdf": "https://arxiv.org/pdf/2610.03465v1",
+    "tags": [],
+    "summary": "This paper develops a unified statistical framework for understanding when model accuracy constitutes valid evidence of real-world performance. The core insight: K-fold cross-validation doesn't always provide stronger evidence as you increase K — when folds are correlated (as they often are in small, heterogeneous datasets), you get an \"effective\" number of folds much smaller than K, making validation less reliable. The paper replaces point-wise accuracy scores with principled upper bounds on true risk, showing when simple resubstitution with corrections can outperform K-fold CV.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Passing the Test You Trained On: Re-evaluating Prompt-Injection Detectors for LLM Agents",
+    "authors": "Zhuowen Liu",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03448v1",
+    "pdf": "https://arxiv.org/pdf/2610.03448v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper reveals that prompt-injection detectors perform very differently when tested on agent-specific outputs compared to public benchmarks, even detectors that rank highly. The authors show that a detector scoring well on one benchmark may fail catastrophically on real agent tool outputs, suggesting current evaluation practices dangerously mislead teams deploying these defenses.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures",
+    "authors": "Yuhai Long, Yuanxin Wei, Kai Wu, Jinhui Wei, Dan Huang et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03394v1",
+    "pdf": "https://arxiv.org/pdf/2610.03394v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "EdgeAgent is a system for running multiple AI agents on consumer devices (like smartphones or laptops) while keeping data private. The core problem it solves: when multiple language models work together on a single chip with shared memory, they slow down dramatically because they fight for bandwidth. EdgeAgent rethinks how to schedule and execute these agents to keep both the CPU and GPU busy, achieving 1.77x faster performance even when agents pause waiting for external tools (like API calls).",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Defense-in-Depth at the Perception-Reasoning Interface of LLM-Centric Agentic UAV Swarms",
+    "authors": "Mohammadhossein Homaei, Yousef Emami, Sajad Homayoun, Rahim Taheri, Hao Zhou et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03319v1",
+    "pdf": "https://arxiv.org/pdf/2610.03319v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses adversarial attacks on LLM-powered UAV swarms by implementing a layered defense system at the perception-reasoning interface—the boundary where sensor data enters the language model's decision-making. The authors show that an attacker can redirect drone operations by tampering with structured sensor reports without modifying the model itself, and they implement and test five defensive layers that detect corrupted data before it influences the swarm's schedule.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Investment Acceleration Principle Revisited by means of a Neural Network",
+    "authors": "Guido Fioretti",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03282v1",
+    "pdf": "https://arxiv.org/pdf/2610.03282v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper uses Kohonen neural networks (self-organizing maps) to model how firms make investment decisions based on consumption patterns and recognition of technological opportunities. The key insight is that investments accelerate when managers detect emerging technological trends, and the model separates innovation-driven investments from routine capacity expansion—offering a more nuanced view of business investment behavior than traditional economic models.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification",
+    "authors": "Devroop Kar, Daniel Krutz, Travis Desell",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03220v1",
+    "pdf": "https://arxiv.org/pdf/2610.03220v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper automates the design of quantum circuits integrated with classical neural networks for image classification. Instead of manually choosing quantum circuit architectures, the authors use an evolutionary algorithm (EXAQC) to automatically discover compact quantum modules that work well with classical feature extraction layers, achieving competitive accuracy on MNIST, Fashion-MNIST, and CIFAR-10 while using far fewer trainable parameters than standard CNNs.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FinNextAssist: Towards Professional Financial Deep Research Assistant",
+    "authors": "Xiangyu Li, Fengbin Zhu, Xuan Yao, Siyu Liu, Xiaoluan Liu et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03174v1",
+    "pdf": "https://arxiv.org/pdf/2610.03174v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "quantitative-finance"
+    ],
+    "summary": "FinNextAssist is a specialized AI research assistant that helps financial professionals conduct deep analysis by breaking research tasks into stages: planning, evidence gathering, reasoning, and report writing. The system uses custom sub-agents to handle different types of financial data (tables, charts, text) and outperforms existing general-purpose research assistants on finance-specific benchmarks. This matters because financial analysis requires integrating many data sources and specialized tools — something generic AI assistants struggle with.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning While Inferring: Local and Parallel Learning for Edge SNNs across Sensing Modalities",
+    "authors": "Yanxun Zhang, Yifei Wang, Changze Lv, Jingwen Xu, Yiyang Lu et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03149v1",
+    "pdf": "https://arxiv.org/pdf/2610.03149v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper proposes Bidirectional Spike-Based Distillation (BSD), a method that lets spiking neural networks (SNNs—energy-efficient neural networks that mimic biological neurons) learn and adapt continuously while they're running inference on edge devices. Unlike standard training approaches that pause inference to update weights, BSD runs learning in parallel, reducing energy use to 36% of traditional methods while maintaining competitive accuracy across 25 benchmarks.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
+    "authors": "Siyu Wang, Yifan Wang, Yuecheng He",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03080v1",
+    "pdf": "https://arxiv.org/pdf/2610.03080v1",
+    "tags": [
+      "algorithmic-trading",
+      "large-language-models",
+      "quantitative-finance"
+    ],
+    "summary": "This paper reveals a critical failure mode in LLMs for trading: generated code executes correctly and produces backtests, but implements a different strategy than what was requested. MintEval is a behavioral benchmark that compares what a model's code *does* (not what it looks like) against reference implementations, showing that even frontier models silently diverge from intended logic on 27.5% of tasks. This matters because silent failures in trading code are worse than obvious errors — they destroy trust and risk capital.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models",
+    "authors": "Shaïn Afzali, Serena Della Corte, Antonis Papapantoleon",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03076v1",
+    "pdf": "https://arxiv.org/pdf/2610.03076v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper uses Shapley-based explainability methods to understand how neural networks learn to calibrate stochastic volatility models—essentially reverse-engineering which parts of market volatility data matter most for inferring model parameters. The work shows that neural calibration methods are interpretable and can be simplified without losing accuracy, moving beyond just measuring prediction errors to understanding the learned structure itself.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Engineering Sustainable Agents: A Systematic Comparison of Agentic LLMs for Developer Workflows",
+    "authors": "Merve Astekin, Yan Naing Tun, Arda Goknil, Erik Johannes Husom, Lwin Khin Shar et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03010v1",
+    "pdf": "https://arxiv.org/pdf/2610.03010v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper systematically evaluates agentic LLM systems (where multiple AI agents collaborate) versus simpler single-model approaches across five software engineering tasks. The key finding: multi-agent designs consume 6–7× more energy and time while delivering inconsistent accuracy gains, challenging the assumption that more complex agent coordination always improves performance.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Temporal Geometry of Deep Networks: Hyperbolic Representations of Training Dynamics for Intrinsic Explainability",
+    "authors": "Ambarish Moharil",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03000v1",
+    "pdf": "https://arxiv.org/pdf/2610.03000v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper proposes a novel approach to understanding neural network behavior by representing training dynamics in hyperbolic geometry — a curved, non-Euclidean space where distances expand exponentially. Instead of analyzing networks at single snapshots, the authors track how network weights evolve over the entire training trajectory and embed these temporal \"parameter graphs\" into the Poincaré ball (a hyperbolic model). This reveals how networks self-organize geometrically during learning, offering intrinsic explainability without post-hoc interpretation methods.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evolutionary Computation for Trustworthy AI: From Attacks and Defenses to Self-Evolving Era",
+    "authors": "Junhao Dong, Chenkai Wang, Xuanhui Lin, Mingrong Gong, Siyu Wang et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02996v1",
+    "pdf": "https://arxiv.org/pdf/2610.02996v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "optimization"
+    ],
+    "summary": "This survey examines how evolutionary computation—population-based search algorithms inspired by natural evolution—can be used to attack, defend, and improve trustworthy AI systems. As AI has grown from single models to complex agents interacting with dynamic environments, the attack surface has expanded, making traditional gradient-based methods insufficient; evolutionary approaches excel at navigating discrete choices and expensive evaluations without gradients, offering a fresh lens on adversarial robustness and self-improving safe systems.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing",
+    "authors": "Masahiro Kato",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02952v1",
+    "pdf": "https://arxiv.org/pdf/2610.02952v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper proposes Generative Test-Driven Development (GTDD), a framework where an AI testing agent continuously generates new test cases to challenge a coding agent's implementation, rather than relying on a fixed test suite. The key insight is that AI coding agents can overfit to initial examples, so adversarial feedback loops during development force them to implement intended behavior more completely. The authors provide theoretical bounds on false acceptance rates and show empirically that adaptive testing reduces failure rates compared to one-shot test generation.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+    "authors": "Jabin Koo, Soheil Abbasloo, Sungjae Lee, Jungseul Ok",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02951v1",
+    "pdf": "https://arxiv.org/pdf/2610.02951v1",
+    "tags": [
+      "large-language-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper proposes Dynamic Expert Pruning (DEP), a method that reduces memory footprint in Mixture-of-Experts language models by dynamically selecting which model components (\"experts\") to activate based on the specific task and agent at hand. Rather than using a single fixed pruning mask for all requests, DEP learns to predict task-specific masks from system prompts, enabling more efficient deployment in multi-agent environments where different agents have different needs.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cross-Fitting Under Nonregularity: Normality and Inference via Locality",
+    "authors": "Bruno Fava",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02944v1",
+    "pdf": "https://arxiv.org/pdf/2610.02944v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper solves a critical problem in machine learning: standard confidence intervals fail when using cross-fitting (a technique that splits data into folds to avoid overfitting) in many real applications, leading to undercoverage—your 95% confidence interval might actually cover the truth only 80% of the time. The author shows that despite this \"nonregularity\" (statistical irregularity), a central limit theorem still holds if you adjust for correlations between folds, and provides a practical method to construct valid confidence intervals that actually work with modern methods like random forests and neural networks.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Event History Over Scale: Compact Transformers for Low-Latency Limit Order Book Forecasting",
+    "authors": "David Schaurecker, Lasse B. Strand, Kevin O'Sullivan, Robert Jakob",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02917v1",
+    "pdf": "https://arxiv.org/pdf/2610.02917v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance",
+      "transformers"
+    ],
+    "summary": "This paper introduces MBOFormer and MBOFusion, tiny transformer models (7–14 KB) designed to predict short-term price movements in equity and electricity markets using fine-grained order book event data. The key innovation is achieving high accuracy predictions while maintaining sub-millisecond inference latency and extreme model compactness—critical for real-time trading systems where speed and deployment constraints matter as much as accuracy.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Muon Learns Facts Better: Understanding the Role of Spectral Orthogonalization",
+    "authors": "Xuheng Li, Qiwei Di, Yuan Cao, Quanquan Gu",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.02798v1",
+    "pdf": "https://arxiv.org/pdf/2610.02798v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability",
+      "optimization"
+    ],
+    "summary": "This paper explains why the Muon optimizer—which applies spectral orthogonalization to neural network weight updates—trains faster and learns more structured representations than standard gradient descent. Using a tractable model of factual recall, the authors show that spectral orthogonalization fundamentally changes *how* and *in what order* a transformer learns different types of information, enabling exponential convergence instead of polynomial decay.",
+    "date_added": "2026-10-05",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
     "authors": "Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer",
     "published": "2026-10-01",
