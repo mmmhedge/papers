@@ -1160,6 +1160,518 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+    "authors": "Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang, Hsi-An Chen, Chun-Wei Tuan Mu et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06852v1",
+    "pdf": "https://arxiv.org/pdf/2610.06852v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "generative-models"
+    ],
+    "summary": "This paper solves the practical problem of automatically adapting flowchart diagrams to different aspect ratios (e.g., paper columns, slides, social media formats) while preserving all connections and content. The authors propose an agentic pipeline that parses the flowchart, applies styling, and relayouts elements to fit new dimensions, using critic agents to catch and prevent common failures like broken edges or hallucinated content.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Base Models Can Reason By Taking a Cue From Training Data",
+    "authors": "Sophie L. Wang, Amil Dravid, Rulin Shao, Kevin Farhat, Sewon Min et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06851v1",
+    "pdf": "https://arxiv.org/pdf/2610.06851v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reveals that base language models can achieve reasoning performance comparable to reinforcement learning–trained models simply by prepending specific token sequences (\"cues\") to their responses. The authors show these cues work because training data creates strong associations between certain starting tokens and reasoning behavior, and they demonstrate this by rewriting training data to turn arbitrary words like \"chicken\" into effective reasoning triggers.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+    "authors": "Haojin Deng, Zhiping Lin, Yimin Yang",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06846v1",
+    "pdf": "https://arxiv.org/pdf/2610.06846v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper addresses spurious feature reliance in deep learning models—when classifiers make predictions based on incidental correlations (like background color) rather than genuine object features. BiasFlow is a diagnostic toolkit and regularization method that monitors how frozen neural network backbones rely on biased attributes, then applies a penalty during training to reduce this reliance. The work matters because it helps build more robust models that maintain accuracy even when deployment data differs from training data.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+    "authors": "Omer Dahary, Etai Sella, Hadar Averbuch-Elor, Daniel Cohen-Or, Or Patashnik",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06844v1",
+    "pdf": "https://arxiv.org/pdf/2610.06844v1",
+    "tags": [
+      "computer-vision",
+      "generative-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates what happens inside Multimodal Diffusion Transformers (MM-DiTs) — neural networks that generate images from text — by training a lightweight system to \"read\" hidden representations using natural language questions. The authors discover that these hidden states encode rich semantic information about the image being generated, and they show that this understanding can be used to improve image generation quality.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "authors": "Wenrui Bao, Xinxin Liu, Bingxin Xu, Yuzhang Shang",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06843v1",
+    "pdf": "https://arxiv.org/pdf/2610.06843v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a key challenge in robot learning: how to efficiently use demonstration videos to help LLM-based robotic agents learn new tasks. The authors propose Recursive Video In-Context Learning (RV-ICL), a method that converts flat video demonstrations into hierarchical structures that agents can navigate intelligently — loading only the relevant video clips at the right moment during task execution. On two benchmark robot manipulation tasks, RV-ICL improves success rates from ~87–93% to ~96–97% using just one demonstration per task.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+    "authors": "Benhao Huang, Chufan Shi, Junlin Chen, Shicheng Wen, Zhengzhong Liu et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06833v1",
+    "pdf": "https://arxiv.org/pdf/2610.06833v1",
+    "tags": [
+      "deep-learning",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper improves the efficiency of looped language models—models that apply the same computation repeatedly—by exploiting the mathematical property that recurrent states converge to fixed points. The authors develop techniques that reduce training cost, speed up decoding, accelerate model prefilling, and enable faster reinforcement learning updates, with perplexity improvements across model scales from 100M to 1.6B parameters.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+    "authors": "Haozhen Zhang, Haodong Yue, Quanyu Long, Jianzhu Bao, Qingyuan Liu et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06830v1",
+    "pdf": "https://arxiv.org/pdf/2610.06830v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces MemPilot, a framework that intelligently manages memory for LLM agents by deciding when to retrieve pre-cached information versus when to dynamically curate fresh details from raw multimodal data. The key innovation is using reinforcement learning to optimize memory retrieval policies under different trade-offs between accuracy, computational cost, and response latency — letting agents tune their memory behavior based on what matters most for each task.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
+    "authors": "Yifan Zhang, Yutong Dai, Viraj Prabhu, Zhiyuan Hu, Ran Xu et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06829v1",
+    "pdf": "https://arxiv.org/pdf/2610.06829v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces CLIFT, a method for training web agents (AI systems that interact with browsers to complete tasks) using weak supervision and self-verification. The core insight is that agents can answer questions about their own actions to generate training signals, and these self-verified signals can be reused at test time without expensive calls to external AI judges — enabling both better training and cheaper deployment.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
+    "authors": "Yaohui Zhang, Binxu Li, Haoyi Duan, Jiacheng Miao, Yixin Wang et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06825v1",
+    "pdf": "https://arxiv.org/pdf/2610.06825v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces PlotGround, a system for automatically creating benchmarks that test how well AI models can extract precise numerical values from real scientific figures. The authors built a dataset of 1,119 questions from actual bioRxiv papers paired with their source data, revealing that current multimodal models (which process both images and text) struggle with precise recovery—achieving 87.5% accuracy at ±5% error but dropping to 64-76% at the tighter ±2% threshold. This matters because many published scientific results exist only as figures in PDFs, and accurate automated digitization could enable better reproducibility and data reuse.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
+    "authors": "Tanbin Islam Rohan, Pranjol Sen Gupta, Tanusree Debi, Nazmus Sakib",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06823v1",
+    "pdf": "https://arxiv.org/pdf/2610.06823v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper presents SeqSmoother, a transformer-based neural network that estimates heart rate during sleep using only wrist accelerometer data—without optical sensors. The key motivation is that many large health studies collect motion data but lack dedicated heart-rate sensors; recovering cardiac information from this existing data could unlock population-scale insights into nocturnal cardiovascular health at minimal cost.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
+    "authors": "Sahil Mahendrakar",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06817v1",
+    "pdf": "https://arxiv.org/pdf/2610.06817v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper shows how to shrink Kokoro-82M, a multi-voice text-to-speech (TTS) model, down to Paradee: an 8M-parameter single-voice version that runs 25x faster than real time on a CPU and fits in 8.5 MB. The key insight is distilling the teacher model in two separate stages (text-to-features, then features-to-audio) rather than training them jointly, avoiding expensive alignment learning while maintaining quality within 0.11 UTMOS points of the original.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search",
+    "authors": "Olga Tsymboi, Ramil Latypov, Aleksandr Medvedev, Danil Taranets, Dmitrii Stoianov et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06782v1",
+    "pdf": "https://arxiv.org/pdf/2610.06782v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "T-Search is an open-source AI system that retrieves relevant evidence from a fixed corpus by running multiple rounds of targeted searches, then returns ranked chunks with explanations so a separate model can generate the final answer. It matters because it decouples retrieval from answer generation, enabling modular AI pipelines that can be updated independently, and it achieves strong performance on multilingual hard-search tasks using a combination of supervised fine-tuning and reinforcement learning.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries",
+    "authors": "Yassin Ben Mansour, Edwin Meriaux",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06777v1",
+    "pdf": "https://arxiv.org/pdf/2610.06777v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper combines formal verification with machine learning to solve the cooperative guard art gallery problem—a scenario where multiple agents must collectively monitor all visible areas in an environment. The authors show that using learned neural networks to decide where each agent should be positioned can dramatically speed up existing algorithms while preserving their formal guarantees about coverage and connectivity.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs",
+    "authors": "Hyunji Lee, Joykirat Singh, Zaid Khan, Justin Chih-Yao Chen, Elias Stengel-Eskin et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06750v1",
+    "pdf": "https://arxiv.org/pdf/2610.06750v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper identifies a critical problem in hybrid language models that combine recurrent and attention layers: models disproportionately rely on attention while underutilizing their recurrent pathways, even though both should offer complementary strengths. The authors propose an auxiliary loss function that forces the model to route information through recurrent layers, improving both coordination between memory pathways and overall performance on long-context and aggregation tasks.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
+    "authors": "Ziyan Wang, Shuqing Shi, James Oldfield, Samuele Marro, Jialin Yu et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06748v1",
+    "pdf": "https://arxiv.org/pdf/2610.06748v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces BazaarBench, a simulated marketplace environment where LLM-controlled agents buy and sell goods, and measures how often they commit fraud or breach trust under normal and adversarial conditions. The work is important because autonomous AI agents now handle real money and reputation in marketplaces — understanding when and why they fail is critical before deploying them at scale.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Improving Diversity in LLM Short Story Generation",
+    "authors": "Zahra Solati Dehkordi, Vasileios Lampos",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06729v1",
+    "pdf": "https://arxiv.org/pdf/2610.06729v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a key weakness of large language models: they tend to generate similar, repetitive outputs even when asked creative questions. The authors propose DivLM, a training framework that makes LLMs produce more varied short stories across genre, tone, style, and character names, while keeping the stories well-written and following instructions. This matters because diversity is essential for creative applications—users want different stories, not variations of the same narrative.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SAFE-MR: Evidence Sufficiency Learning for Selective Multimodal Rumor Detection",
+    "authors": "Shiwen Ni",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06708v1",
+    "pdf": "https://arxiv.org/pdf/2610.06708v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "This paper presents SAFE-MR, a framework for detecting rumors in multimodal posts (images + text) that distinguishes between whether a claim is true and whether there is sufficient evidence to support that judgment. Most rumor detectors conflate these two problems; SAFE-MR separates them, enabling the system to flag cases where predictions lack adequate backing—a practical necessity since retrieved evidence can be incomplete, duplicated, or contradictory. On three benchmarks, it achieves strong accuracy gains and better handles selective prediction scenarios where abstaining is preferable to guessing.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Birkhoff Geometry of Manifold-Constrained Hyper-Connections: Two Channels, Vertex Viscosity, and Sinkhorn as a Retraction",
+    "authors": "Xiaoyu Li, Zhizhou Sha, Chiwun Yang",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06653v1",
+    "pdf": "https://arxiv.org/pdf/2610.06653v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "transformers"
+    ],
+    "summary": "This paper provides a rigorous geometric analysis of manifold-constrained hyper-connections (mHC)—an architectural extension of transformers that uses multiple parallel streams mixed by doubly stochastic matrices. The authors show that Sinkhorn normalization (a standard algorithm for computing these mixers) implements entropic mirror descent on the Birkhoff polytope, and they characterize how information flows and decays across layers, providing both theoretical convergence rates and experimental validation.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Inverse Cross-spectral Neural Networks for Multivariate Time Series",
+    "authors": "Lorenzo Marinucci, Leonardo Di Nino, Gabriele D'Acunto, Paolo Di Lorenzo, Sergio Barbarossa",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06630v1",
+    "pdf": "https://arxiv.org/pdf/2610.06630v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper introduces Inverse Cross-Spectral Neural Networks (iCSNNs), a new type of graph neural network designed to process multivariate time series by learning frequency-dependent relationships between variables. Unlike existing approaches that treat data as independent samples, iCSNNs capture how variables depend on each other at different frequencies, making them better suited to understanding temporal structure in multivariate data.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "LinearPFN: Amortized Variable Selection for Linear Models with Interactions",
+    "authors": "Louis Schiekiera, Max Zimmer, Christophe Roux, Manuel Arnold, Sebastian Pokutta et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06580v1",
+    "pdf": "https://arxiv.org/pdf/2610.06580v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents LinearPFN, a neural network that solves variable selection for linear models by amortizing Bayesian spike-and-slab inference — instead of running expensive computations for each new dataset, the network is trained once on synthetic data and then performs inference in a single forward pass. This addresses a fundamental computational bottleneck: traditional methods require rerunning Markov chain Monte Carlo for every dataset, which doesn't scale; LinearPFN trades that per-dataset cost for upfront pretraining.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Symmetry and AI-assisted discovery of magic-state factories",
+    "authors": "Shubham P. Jain, Adam Wills, Shraddha Singh",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06535v1",
+    "pdf": "https://arxiv.org/pdf/2610.06535v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper develops AI and symmetry-based methods to discover efficient \"magic-state factories\" — quantum circuits that produce special quantum states needed for fault-tolerant quantum computing. The researchers use language-model agents and group-theory constraints to search a previously intractable design space, finding 699 new factory designs that significantly reduce the computational overhead required for practical quantum computers.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics",
+    "authors": "Gregor Kornhardt, Moritz Piening, Jannis Chemseddine, Gabriele Steidl",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06513v1",
+    "pdf": "https://arxiv.org/pdf/2610.06513v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes SOL, a new metric for measuring the distance between text distributions using double sliced Wasserstein distance. Current evaluation methods like perplexity work well for autoregressive language models but fail or give loose bounds for diffusion and flow-based models; SOL fills this gap by comparing the distributions of hidden representations from a fixed transformer, providing a principled way to evaluate any generative text model.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Valid Stopping in Adaptive Generator-Verifier Loops",
+    "authors": "Mahmoud Hegazy, Michael I. Jordan, Aymeric Dieuleveut",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06432v1",
+    "pdf": "https://arxiv.org/pdf/2610.06432v1",
+    "tags": [
+      "agents",
+      "optimization"
+    ],
+    "summary": "This paper addresses a practical problem in agentic workflows: when should a generator-verifier loop stop searching? The core issue is that a cheap verifier (like a learned proxy) often disagrees with a costly ground-truth check (like actual lab validation), leading to false acceptances. The authors develop statistical methods to control how many bad proposals get accepted while the system is running.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Visual Swarm Navigation via Deep Reinforcement Learning and Evolutionary Hybrid Design",
+    "authors": "Álvaro Díez, Fidel Aznar",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06400v1",
+    "pdf": "https://arxiv.org/pdf/2610.06400v1",
+    "tags": [
+      "computer-vision",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents a method for training swarm robots to explore environments autonomously using only camera input, combining deep reinforcement learning with evolutionary optimization techniques. The approach achieves competitive exploration performance with 31% less energy consumption than traditional sensor-based methods, making it practical for real-world deployment of robot swarms in search-and-rescue or monitoring tasks.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GAMBIT: Learning to Plan Continuous Multi-Robot Trajectories",
+    "authors": "Rishabh Jain, Akmaral Moldagalieva, Lorenzo Magnino, Michael Amir, Keisuke Okumura et al.",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.06290v1",
+    "pdf": "https://arxiv.org/pdf/2610.06290v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "GAMBIT learns how to coordinate the trajectories of multiple robots in continuous motion spaces by combining imitation learning with reinforcement learning. The key insight is that robots sometimes need to sacrifice local efficiency for team-level coordination—like sacrificing a pawn in chess for strategic advantage. The system scales to over 1,000 robots while maintaining collision-free execution and planning speeds of hundreds of milliseconds.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AgentDiscover: Autonomous Discovery with Minimal Search Scaffolding",
+    "authors": "Mahdi Farahbakhsh, Ilan Sela, Fatemeh Doudi, Vishnu Teja Kunde, Krishna Narayanan et al.",
+    "published": "2026-10-04",
+    "url": "http://arxiv.org/abs/2610.05334v1",
+    "pdf": "https://arxiv.org/pdf/2610.05334v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper presents AgentDiscover, a system where an AI agent autonomously plans and conducts scientific searches rather than following a fixed human-designed algorithm. Instead of treating the language model as merely a proposal generator, the system lets it own the entire search strategy, using a persistent database as working memory. The approach outperforms existing frameworks on diverse tasks—kernel engineering, biology, algorithm design, and mathematics—while being more cost-efficient.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AlphaPADI: Formulaic Alpha Discovery via Pool-Aware Hierarchical Discrete Diffusion",
+    "authors": "Yanzheng Jin, Pengyang Shao, Yunshan Ma, Haowen Pan, Naixin Zhai et al.",
+    "published": "2026-10-04",
+    "url": "http://arxiv.org/abs/2610.04959v1",
+    "pdf": "https://arxiv.org/pdf/2610.04959v1",
+    "tags": [
+      "generative-models",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces AlphaPADI, a system that automatically discovers trading formulas (called \"alphas\") by generating pools of complementary formulas rather than individual formulas one at a time. The key insight is that in real trading, multiple formulas work together, so the generator should optimize for the entire pool's collective performance rather than each formula in isolation. The method combines hierarchical diffusion (a generative technique) with reinforcement learning to outperform existing approaches on real stock market data.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+    "authors": " Mingyang,  Chen,  Yida,  Xu,  Huiwen et al.",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.04040v1",
+    "pdf": "https://arxiv.org/pdf/2610.04040v1",
+    "tags": [
+      "agents",
+      "algorithmic-trading",
+      "quantitative-finance"
+    ],
+    "summary": "This paper reveals a critical flaw in how financial AI agents are typically evaluated: standard performance tests conflate two distinct sources of profit — the agent's ability to time trades correctly (event selection) versus passive exposure to market drift (transition composition). The authors propose the Agent Policy-Value Audit, a statistical technique that isolates selection skill by holding an agent's action patterns fixed while randomly reassigning them across different market events. Applied to real earnings-event data, their audit shows that a deployed LLM agent's apparent +15.2 basis points/event profit is actually -10.6 bps of selection skill masked by +25.8 bps of passive composition — meaning the agent adds no real value.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AdaEva: Accelerating LLM-Driven Algorithm Design with Adaptive Partial Evaluation",
+    "authors": "Tai Nguyen, Fei Liu, Phong Le, Carola Doerr, Nguyen Dang",
+    "published": "2026-10-02",
+    "url": "http://arxiv.org/abs/2610.03896v1",
+    "pdf": "https://arxiv.org/pdf/2610.03896v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper tackles the computational inefficiency of using LLMs to automatically design algorithms. The authors propose AdaEva, a framework that evaluates candidate algorithms on progressively larger subsets of test instances, dropping weak candidates early rather than fully evaluating every candidate—similar to how you'd eliminate bad job applicants after early interview rounds instead of running them through the entire hiring process.",
+    "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
     "authors": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan, Nhi Ngoc Nguyen, Jeremy Collins et al.",
     "published": "2026-10-02",
