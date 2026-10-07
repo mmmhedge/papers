@@ -1,6 +1,41 @@
 [
   {
     "source": "blog",
+    "source_name": "OpenAI",
+    "title": "Advancing computer use with Ironclad",
+    "authors": "OpenAI",
+    "published": "2026-10-06",
+    "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "OpenAI and Ironclad are collaborating to train and evaluate AI agents capable of handling complex contracting workflows—real-world professional tasks that require reasoning, tool use, and document understanding. This work demonstrates progress toward autonomous agents that can perform meaningful business operations end-to-end.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
+    "source_name": "Google DeepMind",
+    "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "authors": "Google DeepMind",
+    "published": "2026-10-06",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "pdf": "",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "nlp"
+    ],
+    "summary": "Google DeepMind released EmbeddingGemma 2, an open-source lightweight multimodal embedding model designed to encode both text and images into unified vector representations. The model prioritizes efficiency and accessibility while maintaining competitive performance, making it suitable for resource-constrained deployments and retrieval applications.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": "Google DeepMind"
+  },
+  {
+    "source": "blog",
     "source_name": "Hugging Face",
     "title": "The Agent Said It Was Done. The Database Disagreed.",
     "authors": "Hugging Face",
@@ -1160,6 +1195,493 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+    "authors": "Chung Min Kim, Brent Yi, David McAllister, Hongsuk Choi, Himanshu Gaurav Singh et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08789v1",
+    "pdf": "https://arxiv.org/pdf/2610.08789v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces QF3, a reinforcement learning algorithm that trains flow-based policies — neural networks that learn to generate smooth action sequences — for robot control tasks. The key innovation is using a critic (value estimator) to guide policy updates while filtering out unreliable gradient signals, achieving 10x speedup over prior methods and enabling robots like humanoids to learn walking from scratch and transfer directly to physical hardware.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+    "authors": "Shiqi Li, Sean Cho, Yijie Li, Fengzhi Guo, Bowen Wen et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08782v1",
+    "pdf": "https://arxiv.org/pdf/2610.08782v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper presents 4D-HOF, a feed-forward neural network that reconstructs realistic 3D hand-object interactions from video using flow matching — a generative technique that gradually refines noisy predictions toward accurate ones. Rather than optimizing each video separately (slow) or generating from scratch (unstable), the method takes rough starting guesses from vision foundation models and iteratively improves them while respecting physical constraints, achieving state-of-the-art results on benchmark datasets.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+    "authors": "Ziyu Chen, Yilun Zhao, Jiashuo Sun, Yiling Ma, Manasi Patwardhan et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08781v1",
+    "pdf": "https://arxiv.org/pdf/2610.08781v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper teaches language models to generate new research ideas by synthesizing insights from multiple papers, mimicking how scientists actually ideate. The key innovation is \"IdeaAnchor\"—a structured training signal that explicitly annotates how papers should be combined (their roles, relationships, constraints) to produce novel research directions. The authors mine real examples from published papers and train models using demonstration, self-distillation, and reinforcement learning, showing measurable improvements in idea quality.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+    "authors": "Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang, Changyu Chen, Diyi Yang",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08778v1",
+    "pdf": "https://arxiv.org/pdf/2610.08778v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Sherpa, a reinforcement learning framework that trains LLMs to teach adaptively by simulating diverse student archetypes and directly optimizing for their learning outcomes. Rather than relying on static pedagogical rules or human demonstrations, the system learns teaching strategies that work across different learner profiles, achieving 20+ percentage point improvements in student performance and significantly higher pedagogy scores than baseline models.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+    "authors": "Ankit Sonthalia, Haritz Puerto, Alexander Rubinstein, Martin Gubri, Seong Joon Oh",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08775v1",
+    "pdf": "https://arxiv.org/pdf/2610.08775v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper asks whether LLM agents can autonomously create cheap, task-specific solutions (like small distilled models or programs) when given a large repetitive workload and a fixed budget. The authors introduce BOTTLED, a benchmark where agents must complete millions of similar tasks under compute and cost constraints, and find that while strong zero-shot performance doesn't guarantee good \"bottling\" ability, successful agents can achieve 600+ times cost reduction with acceptable quality loss.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+    "authors": "Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08773v1",
+    "pdf": "https://arxiv.org/pdf/2610.08773v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a critical vulnerability in web agents—software that browses and acts on web pages to complete user tasks. The problem: attackers can inject misleading instructions into web pages to hijack the agent away from its intended goal. The authors present AdvSim2Real, a training method that co-evolves three things together (the agent, an adaptive attacker, and a curriculum of tasks) inside a simulated web environment to make agents robust against prompt injection attacks that they've never seen before.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neural Petri flows for chemical reactions",
+    "authors": "Jose Eduardo Escrig Molina, Daniel Probst",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08750v1",
+    "pdf": "https://arxiv.org/pdf/2610.08750v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks"
+    ],
+    "summary": "This paper proposes Neural Petri Flows, a neural architecture that learns chemical reaction dynamics while guaranteeing they obey physical conservation laws (like atomic valence rules). Instead of building neural networks from scratch, the authors hard-wire the mathematical structure of Petri nets—a formal model where places represent bonds, tokens represent bond order, and transitions represent bond formation or breaking—and let the network learn only the reaction rates. The result is a model that predicts reaction products, atom mappings, and enzyme classification with higher accuracy than existing methods, while ensuring every prediction is physically valid.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Missing Minimal Pair: Stereotype Evaluation in LLMs",
+    "authors": "Nataliya Stepanova, Ivan Titov, Emily Allaway, Björn Ross",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08747v1",
+    "pdf": "https://arxiv.org/pdf/2610.08747v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper identifies a critical flaw in how we measure bias in large language models: comparing just two opposite sentences often produces logically inconsistent results. The authors propose a better method using \"dual minimal pairs\" — comparing along two dimensions simultaneously — and introduce metrics based on information theory to make stereotype evaluation more reliable across languages and models.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+    "authors": "Wenwen Si, Honghao Wei",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08743v1",
+    "pdf": "https://arxiv.org/pdf/2610.08743v1",
+    "tags": [
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper proposes RLCP (Reinforcement Learning with Calibrated Pruning), a method that dynamically adjusts which items a recommender system considers at each step in a user session, rather than always using a fixed set. The key insight is that the number of genuinely good options changes as users browse, so adapting the action set improves both recommendation diversity and efficiency. The authors prove theoretical bounds on performance and show their approach outperforms fixed-slate baselines by 1–5× on diversity metrics.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On the Computational Tractability of Robust Bandits",
+    "authors": "Vanessa Kosoy, Vinayak Pathak",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08740v1",
+    "pdf": "https://arxiv.org/pdf/2610.08740v1",
+    "tags": [
+      "alignment",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper studies the computational complexity of learning in \"robust bandits\"—a setting where the true environment may not match any model the learner has access to. The authors identify a special case that admits a polynomial-time algorithm with near-optimal regret bounds, then show that natural generalizations become NP-hard, pinpointing the boundary between tractable and intractable variants. The work is motivated by the claim that efficient unrealizable learning is essential for AI alignment.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus",
+    "authors": "Egor Pakhomov, Erik Nijkamp",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08722v1",
+    "pdf": "https://arxiv.org/pdf/2610.08722v1",
+    "tags": [
+      "agents",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper investigates whether an AI agent's recent behavior can predict when context compaction (summarizing old information to save tokens) will hurt performance. Using a corpus of 590 real compaction events from an app-interaction agent, the authors find that history predicts harm only weakly—the best interpretable trigger catches 21% of harmful compressions while retaining 84% of compression opportunities, but doesn't clearly beat simple token-budget rules. The work matters because long-horizon agents need to compress context, and predicting when compression hurts could improve agent reliability.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
+    "authors": "Vedant Palit, Florent Draye, Nicolas Zucchet, Zhijing Jin, Bernhard Schölkopf",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08718v1",
+    "pdf": "https://arxiv.org/pdf/2610.08718v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper reveals that language models don't truly \"forget\" old knowledge during finetuning — instead, they temporarily hide it through shared representational shifts that can be reversed. The authors show that what looks like catastrophic forgetting is actually two distinct processes: a reversible loss of access to old facts and a slow, permanent erosion; understanding which dominates determines whether forgetting is recoverable or not.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
+    "authors": "Clayton Cohn, Joyce Fonteles, Kirk Vanacore, Gianni Mazza, Candida Crawford et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08703v1",
+    "pdf": "https://arxiv.org/pdf/2610.08703v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper investigates whether agreement among multiple LLMs on educational diagnoses actually reflects correct interpretations. The researchers found that while different LLMs agree with each other 76–78% of the time when classifying student math errors, they only agree with human experts 52–60% of the time—suggesting that LLM consensus can mask systematic errors. For educators and learning analytics researchers, this is a critical warning: using multiple models to \"validate\" automated diagnoses of student reasoning may give false confidence.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+    "authors": "Orion Reblitz-Richardson",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08670v1",
+    "pdf": "https://arxiv.org/pdf/2610.08670v1",
+    "tags": [
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper investigates whether language models act according to their stated moral judgments when under pressure, or abandon their principles. Using a pre-registered panel of 248 scenarios, the researchers show that some instruction-tuned models (like OLMo-3 and Llama-3.1-8B) violate their own stated values roughly 20% of the time when pressured, while others (like Tulu 3) remain consistent. The finding matters because it reveals a gap between what models claim is right and what they do — a failure invisible to standard evaluations that only check stated values.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Case Study in Assuring AI-Written Software",
+    "authors": "Lindsey Ferris, Sierra Bonilla",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08651v1",
+    "pdf": "https://arxiv.org/pdf/2610.08651v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper studies how to maintain human control over software built by AI coding agents, using a real healthcare platform as a case study. The authors show that traditional code review fails when agents produce more code than humans can inspect, and that even sophisticated monitoring systems (tests, automated reviewers, repair agents) have hidden failure modes — revealing that effective oversight requires alignment of objectives, evidence, permissions, and human decision-making across the entire system.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SquidAgent: Parallelize Wisely, Coordinate Efficiently",
+    "authors": "Yexiong Lin, Shanshan Ye, Yu Yao, Zhen Fang, Bo Han et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08647v1",
+    "pdf": "https://arxiv.org/pdf/2610.08647v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper identifies why parallelizing LLM-based agents often runs slower than a single agent, despite seeming like it should be faster. The authors show that parallel execution incurs two hidden costs: workers redundantly reconstructing context (re-exploration) and the overhead of reconciling their independent outputs (alignment). They propose SquidAgent, a system that decides layer-by-layer whether to parallelize based on predicted token costs rather than wall-clock time, achieving 2–2.6× speedup over existing approaches.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Spectral Recovery of Point Clouds from Noisy Geometric Graphs",
+    "authors": "Tatiana Brailovskaya, Nicholas A. Cook, Sofia Poinelli",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08634v1",
+    "pdf": "https://arxiv.org/pdf/2610.08634v1",
+    "tags": [
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper studies how to recover the original geometry of a point cloud from a noisy geometric graph — a network built by connecting nearby noisy data points. The authors prove that spectral methods (analyzing the largest eigenvalues and eigenvectors of the graph's adjacency matrix) can reconstruct the underlying low-dimensional structure with high accuracy, even when the original points are corrupted by Gaussian noise and embedded in high dimensions.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+    "authors": "Jiajun Chen, Haoyu Wu, Mingda Jia, Xihui Liu",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08621v1",
+    "pdf": "https://arxiv.org/pdf/2610.08621v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper presents Recursive Game Creator, a multi-agent system that generates entertaining video games by iterating between design, implementation, play-testing, and feedback. Unlike prior work that focuses on code correctness, this approach explicitly optimizes for player experience through automated agents that play games, measure enjoyment, and propose improvements in a closed loop.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Classifications in modular restricted Boltzmann machines",
+    "authors": "Elena Agliari, Andrea Lepre, Edoardo Roscani",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08612v1",
+    "pdf": "https://arxiv.org/pdf/2610.08612v1",
+    "tags": [
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper studies modular restricted Boltzmann machines (RBMs) — neural networks with multiple interconnected layers designed for pattern classification and separation. The key innovation is coupling multiple RBM modules with competitive interactions (anti-Hebbian between modules, Hebbian within) so they can both classify input patterns and disentangle mixtures of patterns. The authors prove that a specific weight initialization based on training data constitutes a stable fixed point of learning, with quantifiable convergence guarantees.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reinforcement Learning for Hierarchical Reasoning Rewards: Minimax-Optimal Rates with Transformers",
+    "authors": "Naoki Nishikawa, Taiji Suzuki",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08561v1",
+    "pdf": "https://arxiv.org/pdf/2610.08561v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning",
+      "transformers"
+    ],
+    "summary": "This paper provides theoretical analysis of why reinforcement learning works well for post-training language models on reasoning tasks. The authors model rewards as hierarchical functions and prove that a Transformer-based actor-critic algorithm achieves optimal learning rates, while also showing that offline approaches (sampling from a fixed distribution) are fundamentally slower. The work bridges the gap between RL's empirical success in language model training and formal understanding of why on-policy exploration helps.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Network Intervention by Polling Strategic Agents",
+    "authors": "Chenyu Zhang, Rohit Parasnis, Saurabh Amin",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08347v1",
+    "pdf": "https://arxiv.org/pdf/2610.08347v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper addresses how a central planner can set prices in a network of self-interested agents who have private information and incentives to lie. The authors develop a distributed polling algorithm called Poll that scales to large networks (300,000+ agents) while maintaining economic efficiency and truthfulness guarantees. The key insight is that optimal prices depend on agents' network centrality weighted by their preferences, which enables a scalable local-sampling approach rather than requiring global information.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Visual Orchestration Tax in Agentic VLM Pipelines: Auditing and Certifying Visual Evidence Reuse",
+    "authors": "Lingteng Zeng",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08170v1",
+    "pdf": "https://arxiv.org/pdf/2610.08170v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper identifies and measures \"visual orchestration tax\"—the wasteful reprocessing of identical images across multiple specialist agents in multi-agent VLM (vision-language model) pipelines. The authors develop an auditing framework that reveals 67–76% redundant image processing, then propose SharedVisCache, a caching system that eliminates this waste while preserving output correctness and reducing computational cost by 75–90%.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Token-Efficient Multi-Agent Collaboration via System One-Guided Computational Division of Labor",
+    "authors": "Zihan Zhou, Xinzhe Hu, Hanxu Yang, Liangjian Wen, Zhao Kang",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08155v1",
+    "pdf": "https://arxiv.org/pdf/2610.08155v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes S1-MAS, a framework that makes multi-agent LLM systems cheaper and faster by splitting work: lightweight \"System One\" models handle coordination decisions (task selection, routing, termination), while expensive LLMs focus on reasoning. The approach cuts token costs by 45–97% and latency by 38–93% compared to existing systems, without sacrificing accuracy—making LLM-based agent collaboration more practical for real applications.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding",
+    "authors": "Christophe Muller, Ayub Kharel, Alex Luedtke, Chan Park, Eric Tchetgen Tchetgen et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.08078v1",
+    "pdf": "https://arxiv.org/pdf/2610.08078v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper addresses a fundamental problem in causal inference: estimating treatment effects when some important confounding variables are unobserved. The authors propose ProximalFM, a deep learning method that uses proxy variables and transformer-based foundation models to quickly estimate causal effects without requiring dataset-specific tuning or solving computationally unstable equations.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Functional Representation of Credit Behavior for Probability of Default Modeling",
+    "authors": "Jonas Brunholm, Bjarne Højgaard, Thomas D. Nielsen, Orimar Sauri",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.07888v1",
+    "pdf": "https://arxiv.org/pdf/2610.07888v1",
+    "tags": [
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper proposes a new way to predict whether borrowers will default on loans by treating credit behavior as continuous functions over time rather than monthly snapshots. Instead of aggregating credit data into discrete monthly values, the authors retain account balances, credit limits, and account types as continuous processes, then use functional logistic regression to predict default risk—achieving performance comparable to XGBoost while remaining interpretable enough for regulators.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Forecast Accuracy Is Not Trading Profit: Evolving Small Recurrent Networks for Stock Return Prediction",
+    "authors": "Jonathan Chang, Zimeng Lyu",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.07825v1",
+    "pdf": "https://arxiv.org/pdf/2610.07825v1",
+    "tags": [
+      "algorithmic-trading",
+      "deep-learning",
+      "quantitative-finance"
+    ],
+    "summary": "This paper challenges the assumption that better forecasting accuracy leads to better trading profits. The authors compare different neural network architectures—transformers, recurrent networks, and others—on stock return prediction, and find that small networks evolved via neuroevolution outperform larger models on both forecast accuracy *and* actual trading returns, while maintaining extreme computational efficiency. The key insight: what matters for trading is not pointwise prediction error, but how forecasts align with the decision horizon and after accounting for transaction costs.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Common-Mode Errors Limit Low-Timestep Deep Spiking Q-Networks",
+    "authors": "Zijie Xu, Bingrui Guo, Yiding Sun, Yiting Dong, Zhile Yang et al.",
+    "published": "2026-10-06",
+    "url": "http://arxiv.org/abs/2610.07808v1",
+    "pdf": "https://arxiv.org/pdf/2610.07808v1",
+    "tags": [
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies why spiking neural networks (SNNs)—energy-efficient brain-inspired networks—perform poorly in reinforcement learning tasks when run with very few simulation timesteps. The authors discover that low-timestep SNNs suffer from \"common-mode errors\" (errors that affect all action values equally) and propose CMC-DSQN, a method that uses a small auxiliary neural network to correct these errors during training but can be removed at inference, preserving energy efficiency. The work matters because it makes SNNs practical for real-time RL on battery-powered devices.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Convex Order Beyond Dimension One: Projection Tests, Counterexamples and Gaussian Mixtures",
+    "authors": "Olivier Guéant",
+    "published": "2026-10-05",
+    "url": "http://arxiv.org/abs/2610.07404v1",
+    "pdf": "https://arxiv.org/pdf/2610.07404v1",
+    "tags": [
+      "quantitative-finance",
+      "risk-management"
+    ],
+    "summary": "This paper resolves a long-standing question about how to compare probability distributions in high dimensions when they have the same mean — a core problem in actuarial science and finance. The key finding: checking all one-dimensional \"slices\" (projections) of two distributions suffices to determine convex order when comparing a Gaussian with a mixture of Gaussians, even though this test fails for general distributions.",
+    "date_added": "2026-10-07",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
     "authors": "Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang, Hsi-An Chen, Chun-Wei Tuan Mu et al.",
     "published": "2026-10-05",
@@ -1631,6 +2153,24 @@
     ],
     "summary": "This paper introduces AlphaPADI, a system that automatically discovers trading formulas (called \"alphas\") by generating pools of complementary formulas rather than individual formulas one at a time. The key insight is that in real trading, multiple formulas work together, so the generator should optimize for the entire pool's collective performance rather than each formula in isolation. The method combines hierarchical diffusion (a generative technique) with reinforcement learning to outperform existing approaches on real stock market data.",
     "date_added": "2026-10-06",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "FactorBench: A Portfolio-Aware Benchmark for Automated Factor Mining",
+    "authors": "Zhuohan Wang, Carmine Ventre",
+    "published": "2026-10-03",
+    "url": "http://arxiv.org/abs/2610.06947v1",
+    "pdf": "https://arxiv.org/pdf/2610.06947v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "FactorBench is a standardized benchmark for comparing automated factor mining methods across five equity markets, evaluating roughly five thousand factors discovered by nine different algorithms (including genetic programming, reinforcement learning, generative models, and large language models). The paper shows that no single paradigm consistently produces better trading signals or portfolio returns, revealing that recent machine learning advances haven't clearly translated into economically useful financial discoveries.",
+    "date_added": "2026-10-07",
     "starred": false,
     "trusted": ""
   },
