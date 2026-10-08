@@ -1,6 +1,24 @@
 [
   {
     "source": "blog",
+    "source_name": "Hugging Face",
+    "title": "Multimodal open d1 decision models for the edge",
+    "authors": "Hugging Face",
+    "published": "2026-10-07",
+    "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "Hugging Face has released multimodal open decision models optimized for edge deployment. These models combine vision and language capabilities to enable real-time decision-making on resource-constrained devices without reliance on cloud infrastructure.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": "Hugging Face"
+  },
+  {
+    "source": "blog",
     "source_name": "OpenAI",
     "title": "Advancing computer use with Ironclad",
     "authors": "OpenAI",
@@ -1191,6 +1209,533 @@
     "date_added": "2026-07-06",
     "starred": false,
     "trusted": "Hugging Face"
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decoupling Exploration from Optimization in RLVR",
+    "authors": "Saif Punjwani, Micah Goldblum",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10536v1",
+    "pdf": "https://arxiv.org/pdf/2610.10536v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a practical problem in reinforcement learning for language models: when you try to make models explore novel reasoning strategies, they often get worse overall. The authors propose Exploration-Distillation (ExpDis), which separates the exploration phase (where models try new ideas with a novelty bonus) from the optimization phase (where the best ideas are refined). On math reasoning benchmarks, ExpDis outperforms existing methods and produces models that generate more diverse correct solutions.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+    "authors": "Hongru Cai, Ran Wei, Wenjie Wang, Chengfa Wu, Ning Song et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10533v1",
+    "pdf": "https://arxiv.org/pdf/2610.10533v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a critical problem in deployed LLMs: how to update factual knowledge without retraining the entire model or breaking other capabilities. The authors propose EngramEdit, a method that leverages conditional memory architectures (like DeepSeek Engram) to edit facts cleanly by updating learned n-gram embeddings while preserving unrelated knowledge. The core innovation is solving the \"collateral damage\" problem — when multiple facts share the same embedding representation, updating one fact shouldn't corrupt others.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+    "authors": "Aleksandar Armacki, Haoyuan Cai, Ali H. Sayed",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10527v1",
+    "pdf": "https://arxiv.org/pdf/2610.10527v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper proves that decentralized stochastic gradient descent (DSGD) with gradient clipping can achieve optimal convergence rates when training on data with heavy-tailed noise — a common problem in real machine learning systems. The key insight is that clipping (truncating large gradient values) preserves important information better than normalization methods, allowing distributed learning across multiple agents to work reliably without sacrificing convergence speed.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+    "authors": "Mikey Watts, Yuchen Cui",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10526v1",
+    "pdf": "https://arxiv.org/pdf/2610.10526v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "large-language-models"
+    ],
+    "summary": "Vision-language-action models (VLAs)—neural systems that take images and text instructions to control robotic actions—are surprisingly brittle to minor wording changes, even though their underlying vision-language components are more robust. This paper demonstrates the problem systematically and proposes a simple fix: automatically rephrase incoming instructions using rules distilled from a large language model, improving task success by 16–27% without retraining the policy.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Distilling Graph Geometry: Knowledge Gap from GNNs to MLPs",
+    "authors": "Zhewei Chen, Hao Zhu, Jiaojiao Jiang, Ahad N. Zehmakan",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10520v1",
+    "pdf": "https://arxiv.org/pdf/2610.10520v1",
+    "tags": [
+      "deep-learning",
+      "graph-neural-networks",
+      "optimization"
+    ],
+    "summary": "This paper addresses how to distill (compress) graph neural networks — models that learn from structured relational data — into simpler MLPs (multi-layer perceptrons) that don't need the graph structure at inference time. The key insight is that existing distillation methods fail because they don't explicitly preserve the graph's geometric structure; the authors identify two failure modes (underfitting on sparse graphs, overfitting on dense graphs) and propose G²MLP, which uses Ricci curvature to guide where the student should align with the teacher, consistently improving accuracy while keeping the deployed model lightweight.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RoboJEPA: Scaling Robotic Latent World Models",
+    "authors": "Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan, Sarath Chandar, Tushar Nagarajan et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10515v1",
+    "pdf": "https://arxiv.org/pdf/2610.10515v1",
+    "tags": [
+      "agents",
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper introduces RoboJEPA, a large-scale world model (8 billion parameters) that learns to predict future robot states from images across 12 different robot embodiments. The key finding is that prediction error follows a predictable power law with compute, and this error reliably predicts how well the model can actually control real robots — solving long-horizon tasks without any task-specific training.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+    "authors": "Yinling Zhang, Langchen Liu, Dongbin Xiu, Xueyan Zou, Xu Kuang et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10513v1",
+    "pdf": "https://arxiv.org/pdf/2610.10513v1",
+    "tags": [
+      "agents",
+      "large-language-models"
+    ],
+    "summary": "This paper introduces SciExam for ENSO, a benchmark that tests whether AI agents can autonomously build climate models from real observational data—without a predetermined correct answer. Twelve agent systems attempted the task, and six produced models that outperformed a published baseline, suggesting AI can conduct meaningful open-ended scientific research with verifiable, real-world constraints rather than subjective grading.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+    "authors": "Yilun Hao, Krishna Sayana, Isabella Ye, James S Ren, Sukhdeep Sodhi et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10507v1",
+    "pdf": "https://arxiv.org/pdf/2610.10507v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces RECAST, a framework that teaches language models to actively construct evidence by deciding *how* to process information rather than just retrieving it. Instead of passively finding relevant documents, a learned router iteratively selects operations (filtering, aggregation, computation) to derive the answer, working over heterogeneous data sources. The system outperforms standard retrieval-augmented generation by 16% on average and generalizes well to unseen tasks.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+    "authors": "Daniel Robert Kling Alexander, Catherine Louise Kling",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10506v1",
+    "pdf": "https://arxiv.org/pdf/2610.10506v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper proposes using validity frameworks from economics—a field with decades of experience evaluating surveys without ground truth—to assess language model outputs on subjective questions like policy worth or value trade-offs. The authors demonstrate this approach by running an economic valuation survey through six LLMs and show that economic theory predictions (e.g., demand curves slope downward) can separate model quality, even when no \"correct answer\" exists.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+    "authors": "Ali Asaria, Deep Gandhi, Tony Salomone",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10468v1",
+    "pdf": "https://arxiv.org/pdf/2610.10468v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper proposes organizing populations of thousands of autonomous research agents under explicit institutional structures—like grant competitions, peer review, and resource allocation—rather than leaving them uncoordinated. The authors built and tested a \"society of researchers\" where agents autonomously pursue science problems, demonstrating that institutional design can emerge naturally in multi-agent systems and showing promise: one lab discovered a 30% compute savings for language model pretraining. The work bridges multi-agent systems research with practical governance questions about how to scale autonomous agent deployments.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "NeuralBES: A Differentiable, Control-Aware Emulator for Scalable Building Energy Modeling",
+    "authors": "Ting-Yu Dai, Takuya Kurihana, Wing Yee Au, Hon Yung Wong",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10459v1",
+    "pdf": "https://arxiv.org/pdf/2610.10459v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "NeuralBES is a neural network emulator that predicts residential building energy consumption by combining physics-based thermal models with learned parameters. Rather than choosing between slow, accurate physics simulators or fast but unreliable pure machine learning models, this approach marries both: a classical resistance-capacitance thermal model whose coefficients are predicted by a neural encoder, enabling accurate predictions across millions of heterogeneous buildings while remaining computationally efficient and physically interpretable.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
+    "authors": "Linghao Meng, Feng He, Xuan Yang, Junyuan Mao, Pinze Ren et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10455v1",
+    "pdf": "https://arxiv.org/pdf/2610.10455v1",
+    "tags": [
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper introduces PHRBench, a benchmark for evaluating how large language models behave when they encounter hallucinated (false) information in their input context and must reason through it. The work shows that successful recovery from hallucinations is rare, but that models which update their internal beliefs frequently during reasoning are more likely to reach correct answers — and that properties of the false information itself can predict whether a model will recover.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Learning and Teaching",
+    "authors": "Randy Ardywibowo, Arnav Dalal, Jiantao Jiao",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10447v1",
+    "pdf": "https://arxiv.org/pdf/2610.10447v1",
+    "tags": [
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses a fundamental problem in training AI agents: when a stronger teacher trains a weaker student through demonstration, the teacher often takes \"shortcuts\" the student can't follow, providing unhelpful guidance. The authors derive conditions for when teaching actually helps, and propose JOLT—a method where a single policy learns to be both a good teacher and a good student, using KL regularization to keep the teacher's solutions aligned with what the student can actually learn from. Testing on math, coding, and tool-use tasks shows this improves learning efficiency.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+    "authors": "Jinheon Baek, Soyeong Jeong, Yumin Choi, Dongsu Han, Sung Ju Hwang",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10444v1",
+    "pdf": "https://arxiv.org/pdf/2610.10444v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper addresses a critical limitation in LLM agents performing knowledge work: they lose track of task requirements and file provenance as they search through workspaces. RunningTab solves this by maintaining an environment-side \"tab\"—a persistent record of what the task requires, what files have been read, and what remains unopened—allowing agents to reliably complete multi-file deliverables without dropping critical information from their context window.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution",
+    "authors": "Jixuan Chen, Jiaxin Zhang, Qinyuan Ye, Yada Pruksachatkun, Haoxiang Zhang et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10426v1",
+    "pdf": "https://arxiv.org/pdf/2610.10426v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper addresses how to train AI agents (models that interact with tools and environments) by treating the model and its runtime \"harness\" (prompt formatting, tool binding, error handling) as co-evolving components. The key insight: trajectories collected during training are only valuable for a given harness, yet prior work treats them interchangeably. CoTrace is a data-routing system that ensures trajectories are matched to the harness that generated them, improving performance from 78 to 90 solved tasks on a benchmark while using smaller, more efficient training data.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Which Rollout Taught It That? BehaviorTrace and the Limits of Training-Data Attribution in Online RL",
+    "authors": "Amit Nautiyal",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10422v1",
+    "pdf": "https://arxiv.org/pdf/2610.10422v1",
+    "tags": [
+      "large-language-models",
+      "mechanistic-interpretability",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper investigates whether we can identify which training rollouts taught a language model a specific behavior during online reinforcement learning fine-tuning. The authors release BehaviorTrace, an evaluation framework that reveals most existing attribution methods are largely driven by confounds like gradient magnitude and model fluency rather than genuine causal signals—a sobering finding that challenges current interpretability assumptions in RL.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
+    "authors": "Yunxiao Zhao, Changxiao Cai",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10411v1",
+    "pdf": "https://arxiv.org/pdf/2610.10411v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper develops a new training method for \"draft models\" that speed up large language model inference through speculative decoding. The key innovation is an objective called Expected Decoding Rounds (EDR) that directly optimizes for how many forward passes the system needs, rather than using approximate proxies. The method improves inference speed across math, code, and chat tasks.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+    "authors": "Yizhen Xie, Mengyang Liu",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10407v1",
+    "pdf": "https://arxiv.org/pdf/2610.10407v1",
+    "tags": [
+      "agents",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents SOTA, an AI agent system that trades stock options by selecting and combining strategies dynamically rather than being locked into a single fixed approach. The system uses language models fine-tuned with reinforcement learning to navigate thousands of option contracts and decide which strategies to deploy based on market conditions, achieving 18.3% returns over six months with controlled risk metrics.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Revisiting Explainable AI through Model-Independent Concept Dictionaries",
+    "authors": "Thomas Schnake, Doreen Schöppenthau, Alexander Meyer, Jacques Corbeil, Klaus-Robert Müller et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10301v1",
+    "pdf": "https://arxiv.org/pdf/2610.10301v1",
+    "tags": [
+      "deep-learning",
+      "mechanistic-interpretability"
+    ],
+    "summary": "This paper introduces DictXAI, a method for explaining AI model predictions by attributing them to interpretable dictionary elements defined in the input space—rather than relying on opaque internal features or raw pixel/token inputs. The approach is model-agnostic, works across different domains (images, biomedical signals), and can pinpoint failure modes like shortcuts that fool models, making explanations actionable rather than merely descriptive.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Shared Gaussianization: What Gaussian Regularizers Certify About Contrastive Learning, and What They Miss",
+    "authors": "Ruoyu Zhao, Yuting Chen, Jinheng Zhang, Zhehao Zou, Tong Che",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10299v1",
+    "pdf": "https://arxiv.org/pdf/2610.10299v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper analyzes what Gaussian regularizers (like those in LeJEPA) actually certify about contrastive learning methods such as InfoNCE. The authors introduce \"shared Gaussianization\" (SG), a statistical test that detects both misalignment and non-uniformity in learned representations, and prove that SG loss bounds InfoNCE loss with a dimension-free rate. The work reveals both what these regularizers guarantee and where they fall short—particularly how they can accidentally preserve unwanted per-view structure when not properly weighted.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Neural Sampling with Reweighted Normalizing Flows via the Wasserstein--Fisher--Rao JKO Scheme",
+    "authors": "Chenguang Duan, Johannes Hertrich, Gabriele Steidl",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10278v1",
+    "pdf": "https://arxiv.org/pdf/2610.10278v1",
+    "tags": [
+      "deep-learning",
+      "generative-models",
+      "optimization"
+    ],
+    "summary": "This paper presents a neural algorithm for sampling from complex probability distributions (specified by unnormalized Boltzmann densities) using a geometric approach called the Wasserstein–Fisher–Rao JKO scheme. The key innovation is combining theoretical convergence guarantees—which work without restrictive assumptions like log-concavity—with a practical neural implementation using normalizing flows. This matters because sampling from complicated, multimodal distributions is a fundamental problem across machine learning, statistics, and physics simulations.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "OOM-RL II: Reality Is an Oracle, Not a Debugger Provenance-Constrained Diagnosis in Continually Evolving Agent-Engineered Systems",
+    "authors": "Kun Liu, Liqun Chen",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10256v1",
+    "pdf": "https://arxiv.org/pdf/2610.10256v1",
+    "tags": [
+      "agents",
+      "quantitative-finance",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a critical problem in production machine learning systems: when external outcomes tell us *what* happened, they often don't tell us *why* or *which* of many evolving system components caused it. The authors study this \"outcome-diagnosis gap\" in a live quantitative trading system that changed continuously over a year, showing how provenance records and structured identification protocols can help attribute results to specific decisions even when perfect causal inference is impossible.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Computations of the slice genus and the unknotting number of links via machine learning",
+    "authors": "Yutong Dai, Oliver Hayman, András Juhász, Ludovico Morellato",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10206v1",
+    "pdf": "https://arxiv.org/pdf/2610.10206v1",
+    "tags": [
+      "deep-learning",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper uses reinforcement learning and Bayesian optimization to compute difficult-to-calculate properties of mathematical knots and links — specifically the slice genus and unknotting number. By training agents to perform knot manipulations, the researchers found new upper bounds on these invariants and, by combining with known lower bounds, determined exact values in many previously unsolved cases. This bridges machine learning and pure topology, showing that neural agents can discover non-obvious solutions to classical geometric problems.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures",
+    "authors": "Xinwen Liu, Zhuocheng Pan, Isabella Zhu, Jawei Zhang, Xudong Liu et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10126v1",
+    "pdf": "https://arxiv.org/pdf/2610.10126v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper addresses a critical problem in multi-agent LLM systems: when coordinated task execution fails, different underlying causes can produce identical-looking failure symptoms. The authors show that the communication topology—the structure of how agents exchange information—is a strong signal for distinguishing failure types, and propose MAScope, a two-stage framework that recovers this topology from execution traces and uses it to diagnose failures more accurately and cheaply than existing methods.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "The Cost of Classical Multi-Agent Path Finding",
+    "authors": "Alvin Combrink, Sabino Francesco Roselli, Martin Fabian",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10100v1",
+    "pdf": "https://arxiv.org/pdf/2610.10100v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper quantifies the performance gap between classical Multi-Agent Path Finding (MAPF)—which assumes discrete time steps and point agents on graphs—and continuous-time MAPF, which relaxes these simplifications. The work shows that classical MAPF's restrictive assumptions cost 5–20% solution quality depending on environment structure, and that simply increasing map resolution recovers almost none of this loss, revealing fundamental limits rather than computational trade-offs.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Multi-Agent Coordination via Support-Preserving Distillation",
+    "authors": "Sangmin Lee, Youngju Na, Chanmi Lee, Sung-eui Yoon",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10087v1",
+    "pdf": "https://arxiv.org/pdf/2610.10087v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper identifies a failure mode in offline multi-agent reinforcement learning (MARL) where standard flow-based teacher policies produce invalid intermediate samples when learning multimodal behavior. The authors propose Mode-Support Semi-Discrete Optimal Transport (MoSDOT), a method that clusters replay data into discrete modes and uses optimal transport to route noise samples consistently, preventing the teacher from generating samples between conflicting coordination strategies that get propagated to student policies.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "On Bonart's interpretation of the Square-Root Impact Law",
+    "authors": "J. -P. Bouchaud, I. Mastromatteo, B. Toth",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10053v1",
+    "pdf": "https://arxiv.org/pdf/2610.10053v1",
+    "tags": [
+      "market-microstructure",
+      "quantitative-finance"
+    ],
+    "summary": "This paper examines the square-root impact law (SRIL) — an empirical regularity stating that large trades move prices by an amount proportional to the square root of volume traded — and evaluates Bonart's recent theoretical explanation for why this relationship holds. The authors show that while Bonart's mechanism (assuming market prices whiten incoming order streams) is elegant, it requires unrealistic assumptions about how markets identify and attribute anonymous trades, and the theory fails to match observed behavior for isolated, time-separated orders.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "CANDO: Cooperative Agentic Network for Layout Design Optimization",
+    "authors": "Athanasios Masouris, Zheng Jing, Benjamin Sam Chandler, Hadi Jamali-Rad",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10044v1",
+    "pdf": "https://arxiv.org/pdf/2610.10044v1",
+    "tags": [
+      "generative-models",
+      "multi-agent-systems",
+      "optimization"
+    ],
+    "summary": "This paper introduces CANDO, a framework where multiple specialized AI agents collaborate to generate facility layouts that satisfy real-world constraints like irregular boundaries and access requirements. The authors also release ALPS-Bench, a benchmark of 1,000 professionally designed facility layouts with domain-specific evaluation metrics. CANDO outperforms existing methods by reasoning about spatial decisions iteratively rather than trying to generate layouts in a single pass.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "DSTNet: Dynamic Spectral Trajectory Network for Causal Multi-Horizon Financial Forecasting",
+    "authors": "Aashish Bohra, Lokendra Vishwakarm",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.09654v1",
+    "pdf": "https://arxiv.org/pdf/2610.09654v1",
+    "tags": [
+      "deep-learning",
+      "quantitative-finance",
+      "transformers"
+    ],
+    "summary": "This paper proposes DSTNet, a neural network that forecasts financial prices by treating wavelet spectral information as a dynamic trajectory over time rather than a static snapshot. The model combines spectral analysis (decomposing price signals into frequency components) with transformer attention and recurrent networks to predict stock indices and gold prices 1–10 days ahead. Despite marginal improvements over simple persistence models in standard metrics, the paper honestly reports that the method shows no practical edge in actual trading allocation decisions.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+    "authors": "Fernando Montes-Gonzalez",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.09280v1",
+    "pdf": "https://arxiv.org/pdf/2610.09280v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper investigates whether communication protocols that evolve naturally between two robots in a simple 2D simulator remain effective when transferred to a more realistic 3D physics-based environment. The researchers found that performance generally improves with longer evaluation time, that the evolved communication signal mostly helps with collision avoidance rather than navigation, and that consistent asymmetries exist between agent roles — revealing key challenges in sim-to-real transfer for emergent communication systems.",
+    "date_added": "2026-10-08",
+    "starred": false,
+    "trusted": ""
   },
   {
     "source": "arxiv",
