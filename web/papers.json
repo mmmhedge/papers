@@ -1,6 +1,24 @@
 [
   {
     "source": "blog",
+    "source_name": "OpenAI",
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "authors": "OpenAI",
+    "published": "2026-10-09",
+    "url": "https://openai.com/index/asana-browser-agent",
+    "pdf": "",
+    "tags": [
+      "agents",
+      "generative-models",
+      "large-language-models"
+    ],
+    "summary": "Asana achieved a 76x reduction in model costs and 5x improvement in speed for its browser automation agent by using GPT-6 Astra integrated into Codex. This demonstrates significant efficiency gains in deploying agentic AI systems for real-world automation tasks at scale.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": "OpenAI"
+  },
+  {
+    "source": "blog",
     "source_name": "Hugging Face",
     "title": "Multimodal open d1 decision models for the edge",
     "authors": "Hugging Face",
@@ -1391,6 +1409,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+    "authors": "Zimo Wen, Yijin Chen, Yuxuan Cao, Wendi Chen, Yanwen Zou et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12424v1",
+    "pdf": "https://arxiv.org/pdf/2610.12424v1",
+    "tags": [
+      "agents",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "RoboRSI is a system that enables robots to improve themselves by learning from their own execution failures and reusing those lessons across future tasks. It organizes what the robot learns into a structured hierarchy of skills — from basic actions to complex multi-step behaviors — so that when something goes wrong, the system knows exactly which skill to fix, why it failed, and can validate the fix before trusting it again. On real robots and in simulation, this approach substantially outperforms existing methods on household manipulation tasks.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
     "authors": "Nishanth Arun Rao, Royina Karegoudra Jayanth, Benjamin Eysenbach, Jaime Fernández Fisac",
     "published": "2026-10-08",
@@ -1444,6 +1480,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+    "authors": "Shashank Hegde, Alexander Popov, Elie Aljalbout, Nikolai Smolyanskiy",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12407v1",
+    "pdf": "https://arxiv.org/pdf/2610.12407v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces LeWAM, a bidirectional transformer model that predicts both actions and future observations for robotic control. Unlike traditional world models that reconstruct images (adding noise and redundancy), LeWAM works in a cleaner latent space and handles four prediction tasks—forward dynamics, backward dynamics, inverse dynamics, and policy prediction—end-to-end. The key innovation is using this unified model for both understanding robot state and planning with model predictive control, while a clever trick (planning in the policy's noise space rather than raw actions) improves real-world performance.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
     "authors": "Hongxing Li, Dingming Li, Yixin Li, Yong Du, Wenqi Zhang et al.",
     "published": "2026-10-08",
@@ -1462,6 +1516,58 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "Learning Kilometer-Scale Weather Prediction with Global-Regional Alignment",
+    "authors": "Guowen Li, Yang Liu, Yujie Wang, Qiuyan Sun, Haoyuan Liang et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12401v1",
+    "pdf": "https://arxiv.org/pdf/2610.12401v1",
+    "tags": [
+      "deep-learning",
+      "optimization"
+    ],
+    "summary": "This paper presents ScaleCast, a neural network framework that combines pretrained global weather models with high-resolution regional forecasting to predict kilometer-scale local weather. The key innovation is a \"Global-Regional Alignment\" mechanism that translates coarse global weather patterns into fine-grained regional predictions, enabling accurate forecasts for weather warnings and local decision-making without retraining for different global model inputs.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
+    "authors": "Qun Dai, Liangjian Wen, Jiang Duan, Yong Dai, Dongkai Wang et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12393v1",
+    "pdf": "https://arxiv.org/pdf/2610.12393v1",
+    "tags": [
+      "computer-vision",
+      "deep-learning"
+    ],
+    "summary": "This paper tackles a fundamental challenge in multimodal learning: capturing *synergy*—information that only emerges when multiple modalities are combined, not from any single modality alone. The authors propose HRIL, which uses higher-order tensor math to explicitly model joint interactions across modalities, preserving the capacity to learn these synergistic signals. Experiments show consistent improvements over existing multimodal contrastive methods, especially on tasks where synergy dominates.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
+    "authors": "Jialu Wang, Ruichen Zhang, Xiaoou Liu, Hua Wei, Tianlong Chen",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12391v1",
+    "pdf": "https://arxiv.org/pdf/2610.12391v1",
+    "tags": [
+      "computer-vision",
+      "large-language-models",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper tackles a critical failure mode in multimodal large language models (MLLMs) — they struggle to understand geometric relationships in diagrams because converting visual information into text is error-prone and fragile. The authors propose GeoReform, a framework that treats textual formalization of geometry not as a one-shot parser output, but as a learnable policy that improves through trial-and-error on actual geometry problems, achieving 34% absolute accuracy gain on standard benchmarks.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
     "authors": "Ziming Dai, Dabiao Ma, Ziheng Guo, Jack Dong, Zimu Zhou",
     "published": "2026-10-08",
@@ -1474,6 +1580,41 @@
     ],
     "summary": "This paper addresses a practical problem: financial risk systems have valuable information trapped in long text documents, but running a language model on every prediction in real-time is too slow and expensive. The authors propose LLM-BlockFE, which uses an LLM offline to design feature-extraction programs from text, then freezes these programs for fast deployment. The system searches for good feature combinations intelligently, avoiding greedy dead-ends, and shows real-world improvements in deployed financial applications.",
     "date_added": "2026-10-09",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+    "authors": "Gokul Puthumanaillam, Tao Sun, Elie Aljalbout, Moritz Reuss, Zhaoshuo Li et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12386v1",
+    "pdf": "https://arxiv.org/pdf/2610.12386v1",
+    "tags": [
+      "agents",
+      "deep-learning",
+      "generative-models"
+    ],
+    "summary": "This paper presents ARC, a method to improve robot foundation models (RFMs)—large pretrained neural networks for robotic control—without collecting new robot data or training larger models. The key insight is that adding interpretable reasoning traces (explanations of *why* a robot should take an action and *what effect* it will have) significantly boosts zero-shot task performance. On real robots, the method improves success rates by up to 82 percentage points, demonstrating that reasoning explanations are a cost-effective way to enhance existing models.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Marformer: A Transformer for Predicting Missing Data Distributions",
+    "authors": "Prabhav Singh, Xiheng Tom Wang, Haojun Shi, Jason Eisner",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12379v1",
+    "pdf": "https://arxiv.org/pdf/2610.12379v1",
+    "tags": [
+      "deep-learning",
+      "transformers"
+    ],
+    "summary": "This paper introduces Marformer, a transformer-based model that predicts conditional probability distributions over missing variables given observed data—without building a full joint model. Rather than generating complete data, it directly estimates marginal distributions for each unobserved variable, making it faster than generative approaches and applicable to Bayesian decision-making problems like Value of Information calculations.",
+    "date_added": "2026-10-10",
     "starred": false,
     "trusted": ""
   },
@@ -1509,6 +1650,95 @@
     ],
     "summary": "This paper presents EDMD-kDL, a method for learning compact representations of nonlinear dynamical systems by combining kernel methods with bilevel optimization. Instead of using neural networks (which are opaque and slow to scale), the authors use interpretable kernel dictionaries to approximate Koopman operators—mathematical tools for linearizing nonlinear systems. The work shows comparable or better performance than neural approaches while remaining computationally tractable on large datasets.",
     "date_added": "2026-10-09",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness",
+    "authors": "Saisab Sadhu, Shreeyans Arora, Pratinav Seth",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12361v1",
+    "pdf": "https://arxiv.org/pdf/2610.12361v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "nlp"
+    ],
+    "summary": "This paper reveals a critical gap between what legal AI systems *claim* to justify their decisions with and what actually drives those decisions. Researchers tested seven large language models by swapping out the legal authorities (statutes, precedents) that models cited, and found the models would cite the correct authority 67–100% of the time, yet their actual verdicts changed only 0–22% of the time when the authority was swapped. This matters because legal systems and regulators increasingly treat AI-generated legal explanations as trustworthy audit trails—but the paper shows those explanations are largely decorative, not causal.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+    "authors": "Kaiser Sun, Bernal Jimenez Gutierrez, Hongjun Liu, Jingyu Zhang, Jie Gao et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12360v1",
+    "pdf": "https://arxiv.org/pdf/2610.12360v1",
+    "tags": [
+      "agents",
+      "alignment",
+      "large-language-models"
+    ],
+    "summary": "This paper evaluates whether LLM-based agents recognize and communicate uncertainty when they encounter contradictory information. The authors propose \"epistemic humility\" (EH)—an agent's ability to identify conflicts, revise beliefs, and admit uncertainty—as a key evaluation dimension separate from task accuracy. They find that agents can be accurate without being humble: many high-performing agents detect conflicts internally but fail to communicate doubt in their final answers.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution",
+    "authors": "Haohui Wang, Jiahao Xu, Wangzhi Zhan, Tong Zeng, Dongqi Fu et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12345v1",
+    "pdf": "https://arxiv.org/pdf/2610.12345v1",
+    "tags": [
+      "large-language-models",
+      "nlp",
+      "optimization"
+    ],
+    "summary": "This paper identifies a fundamental problem in fine-tuning large language models: rare concepts in training data face higher \"prior barriers\" — they're harder to learn because the pretrained model already favors frequent concepts. The authors propose PASS, a method that intelligently selects which training examples to use, prioritizing instructions that help overcome these barriers for under-represented concepts. This matters because most real-world data follows long-tail distributions, so ignoring this problem wastes training budget.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+    "authors": "Kaisen Yang, Qingle Liu, Kejin Wang, Yicheng Zhao, Jieming Li et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12341v1",
+    "pdf": "https://arxiv.org/pdf/2610.12341v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces Adversarial Heuristic Learning (AHL), a framework where AI agents use code generation and self-refinement to improve game-playing policies without changing their underlying model weights. The authors test this on AAArena, a benchmark of 12 competitive games with 1,920 human player programs, and show that agents like Claude can win some competitions but struggle with complex rule interpretation and long-horizon strategy — revealing both promise and hard limits in how well language models can learn adversarial game play from experience alone.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "VFold: Symmetry-Aware Cross-Layer Value Cache Compression",
+    "authors": "Neha Verma, Sungwon Kim, Kenton Murray, Kevin Duh",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12338v1",
+    "pdf": "https://arxiv.org/pdf/2610.12338v1",
+    "tags": [
+      "large-language-models",
+      "optimization"
+    ],
+    "summary": "This paper proposes VFold, a method to compress the key-value (KV) cache that LLMs store during decoding by exploiting symmetries across layers in the value cache. The technique reduces memory usage without architectural changes and can be combined with other compression methods (like quantization) to achieve even higher compression ratios, enabling longer context windows on memory-constrained hardware.",
+    "date_added": "2026-10-10",
     "starred": false,
     "trusted": ""
   },
@@ -1654,6 +1884,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "ConventionPlay: Capability-Limited Training for Robust Ad-Hoc Collaboration",
+    "authors": "Abhishek Sriraman, Eleni Vasilaki, Robert Loftin",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.11842v1",
+    "pdf": "https://arxiv.org/pdf/2610.11842v1",
+    "tags": [
+      "agents",
+      "multi-agent-systems",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper introduces ConventionPlay, a reinforcement learning method that trains agents to collaborate effectively with partners of unknown capabilities. Instead of assuming partners follow a single fixed strategy, the method trains agents against a diverse population where some partners are flexible and others are inflexible—forcing agents to learn to probe their partner's capabilities and steer them toward compatible shared strategies.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Softmax Attention on Gaussian Mixtures: Linear When It Can, Selective When It Must",
     "authors": "Simon Gabet, Etienne Boursier, Claire Boyer",
     "published": "2026-10-08",
@@ -1689,6 +1937,24 @@
   {
     "source": "arxiv",
     "source_name": "arXiv",
+    "title": "SWE-Journey: Towards More Realistic Evaluation of Coding Assistants through Long-Horizon, Multi-Turn Interaction",
+    "authors": "Hexuan Deng, Yue Wang, Wenyu Jiang, Cheng Yang, Haolin Yang et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.11559v1",
+    "pdf": "https://arxiv.org/pdf/2610.11559v1",
+    "tags": [
+      "agents",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces SWE-Journey, a benchmark that evaluates coding assistants (AI agents that help write code) in more realistic scenarios — long sequences of development tasks and multi-turn conversations with users. Current benchmarks test isolated, simple coding problems, but real developers interact with AI repeatedly over hours, clarifying requirements and fixing bugs. The paper shows that current coding assistants work well with expert users but fail frequently with non-coders, revealing a critical gap in reliability.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
     "title": "Learning to Orchestrate Evolutionary Search: Progression-Aware Deep Reinforcement Learning for Dynamic DE-CMA-ES Coordination in Optimization and Structural Model Updating",
     "authors": "Lechen Li, Rongye Shi, Wanhuan Zhou",
     "published": "2026-10-08",
@@ -1701,6 +1967,60 @@
     ],
     "summary": "This paper proposes DRL-DCO, a system that uses deep reinforcement learning to dynamically coordinate two evolutionary algorithms (Differential Evolution and CMA-ES) for solving high-dimensional optimization problems. Instead of switching between algorithms based on fixed rules, a trained neural network agent learns to continuously balance exploration versus exploitation, making real-time decisions about resource allocation. The method achieves better convergence and robustness than traditional hybrid algorithms on structural model updating benchmarks.",
     "date_added": "2026-10-09",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "An Embodied Multiagent Framework Based on Token Communications for Cooperative ISAC",
+    "authors": "Jiahe Guo, Jun Du, Chunxiao Jiang, Jintao Wang",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.11434v1",
+    "pdf": "https://arxiv.org/pdf/2610.11434v1",
+    "tags": [
+      "multi-agent-systems",
+      "optimization",
+      "reinforcement-learning"
+    ],
+    "summary": "This paper presents a framework for coordinating multiple UAV (unmanned aerial vehicle) agents in integrated sensing and communication (ISAC) networks using efficient token-based communication. The key innovation is a \"state-intent token communication\" (SI-TokCom) system where agents exchange compressed messages rather than raw sensor data, allowing them to cooperate on sensing and communication tasks while minimizing energy use. The work matters because it addresses a practical bottleneck in autonomous systems: how to enable fast, coordinated decision-making across many agents without overwhelming communication overhead.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Personalization Matters: Long-Horizon Conversation Agent with User-Centric Information in Online Shopping Interactions",
+    "authors": "Rena Gao, Yue Dai, Hao Guan, Shengxiang Gao, Wangyang Wu et al.",
+    "published": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.11375v1",
+    "pdf": "https://arxiv.org/pdf/2610.11375v1",
+    "tags": [
+      "agents",
+      "generative-models",
+      "nlp"
+    ],
+    "summary": "This paper presents a multi-agent conversational AI system for personalized online shopping that maintains user preferences across multiple dialogue turns. Instead of relying on static customer profiles, the system dynamically retrieves and reasons over product information, reviews, and images to provide consistent recommendations. The work matters because most chatbots lose track of user constraints during long conversations—this approach explicitly handles that by decomposing the dialogue task into specialized components.",
+    "date_added": "2026-10-10",
+    "starred": false,
+    "trusted": ""
+  },
+  {
+    "source": "arxiv",
+    "source_name": "arXiv",
+    "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+    "authors": "Andrea Wynn, Harsh Satija,  Seokhyun,  Baek, Anqi Liu et al.",
+    "published": "2026-10-07",
+    "url": "http://arxiv.org/abs/2610.10906v1",
+    "pdf": "https://arxiv.org/pdf/2610.10906v1",
+    "tags": [
+      "alignment",
+      "large-language-models",
+      "multi-agent-systems"
+    ],
+    "summary": "This paper introduces \"normative competence\" — the ability of AI systems to learn social rules and norms from interaction alone, without relying on pretraining. The authors create a multi-agent debate environment with synthetic social norms and show that current LLMs fail at this task, even copying irrelevant behaviors alongside real rules. This matters because autonomous AI systems need to align with human communities' evolving, context-specific norms, not just static values.",
+    "date_added": "2026-10-10",
     "starred": false,
     "trusted": ""
   },
